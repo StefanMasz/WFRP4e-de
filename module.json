@@ -1,28 +1,26 @@
+
 {
-   "name" : "WFRP4e-de",
-   "title" : "WFRP4e-de",
+   "name" : "WH4-de-translation",
+   "title" : "Deutsche Übersetzung für Warhammer 4. Edition",
+   "description" : "German language support for Moomans WFRP Modules",
    "version" : "0.0.1",
    "minimumCoreVersion" : "0.6.6",
-   "compatibleCoreVersion" : "0.7.999",
+   "compatibleCoreVersion" : "1.0.0",
    "author" : "Magnus the Prior",
-   "description" : "German language support for Moomans WFRP Modules",
-   "dependencies": [
-      {
-		  "name": "wfrp4e",
-		  "type": "system"
-     },
-   ],
-   "languages" : [
-      {
+  "dependencies": [{
+    "name": "wfrp4e",
+	"type": "system"
+   }], 
+   "languages" : [{
          "lang" : "de",
-         "name" : "Deutsch (German)",
+         "name" : "Deutsch",
          "path" : "de.json"
-      }
-   ],
+   }],
    "packs" : [],
    "scripts" : [],
-   "styles" : ["style.css"],
+   "styles" : [],
    "url" : "https://github.com/StefanMasz/WFRP4e-de",
    "manifest" : "https://raw.githubusercontent.com/StefanMasz/WFRP4e-de/master/module.json",
    "download" : "https://github.com/StefanMasz/WFRP4e-de/archive/master.zip"
 }
+
