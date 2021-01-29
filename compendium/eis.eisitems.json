@@ -1,0 +1,105 @@
+{
+	"label": "Items Ennemis Intérieur",
+	"entries": [
+		{
+			"id": "Absorb",
+			"name": "Absorber",
+			"description": "<p><span class=\"fontstyle0\">A la fin d'un Round, si la créature a plus d'Avantages que tout les attaquants au contact, elle absorbe l'un de ses attaquants, de taille égale ou inférieure. Une victime absorbée reçoit un nombre d'états </span><em><span class=\"fontstyle2\">Empêtré</span></em><span class=\"fontstyle0\"> égal au Bonus de Force de la créature, et est considéré comme étant Entravé. Une victime absorbée perd un nombre de Points de Blessures à la fin de chaque round égale à au Bonus de Force de la créature, les Points d'Armure et le Bonus d'Endurance ne sont pas pris en compte. La créature guéri du même nombre de points de Blessure en même temps. Si une victime absorbée est tuée, la créature bat en retraite pour digérer le corps pendant les jours qui suivent. Chaque attaque qui touche la créature affecte aussi la victime absorbée, qui reçoit donc le même nombre de Dommages.</span> </p>"
+		},
+		{
+			"id": "Amorphous",
+			"name": "Amorphe",
+			"description": "<p><span class=\"fontstyle0\">La créature est un blob amorphe. Elle divise par deux toutes les Blessures subis, autre que provoqués par le froid extrême, le feu ou la magie. Elle ignore toutes les Blessures Critiques, et ne peut être détruite qu'en amenant ses points de Blessures à 0 avec du Feu, du Froid Extrême ou de la magie. Si elle est réduite à 0 Blessures par d'autres moyens, elle tombe inanimée pour <a class=\"chat-roll\">d10</a> Rounds, et regénère alors 1 Blessure. Les créatures amorphes fuient les sources de froid ou de chaleur extrêmes.</span> .</p>"
+		},
+		{
+			"id": "Blighted",
+			"name": "Pourri",
+			"description": "<p><span class=\"fontstyle0\">La créature est porteuse de la maladie indiquée, et elle peut la transmettre au toucher. Si une victime est touchée, elle doit effectuer un Test de Contraction, mais le test est plus difficile de 2 niveaux. Si la maladie est contractée, sa durée d'Incubation devient instantannée.</span></p>"
+		},
+		{
+			"id": "Chosen of Tzeentch",
+			"name": "Choisi par Tzeentch",
+			"description": ""
+		},
+		{
+			"id": "Common Cold",
+			"name": "Rhume",
+			"description": "<p>Saisonnière, comme la chute des feuilles au automne, le Rhume est néammoins un fléau régumire du Vieux Monde. Ce qui commence par une toux et des éternuements peut se transformer en quelque chose de grave en quelques jours, s'il n'est pas soigné. Chaque ancien dans l'Empire a ses propres remèdes maison et protections contre la maladie, ainsi que des souvenirs d'aggravation, ainsi que d'amis et de proches partis dans les bras de Morr.</p><p> Les personnages atteints d'un Rhume qui subissent à nouveau une exposition à la pluie ou à la neige voient la durée de la maladie allongée de <a class=\"chat-roll\">d10</a> jours. Si un personnage souffre d'un rhume pendant plus de 14 jours, il se transforme alors en Pneumonie.</p>"
+		},
+		{
+			"id": "Cult Acolyte",
+			"name": "Acolyte du Culte",
+			"description": ""
+		},
+		{
+			"id": "Cult Magus",
+			"name": "Magus du Culte",
+			"description": ""
+		},
+		{
+			"id": "Disciple of Change",
+			"name": "Disciple du Changement",
+			"description": "<p>Quand une mutation apparait, lancez deux fois sur la table des Mutations et choisissez l'un des 2 résultats.</p>"
+		},
+		{
+			"id": "Double Life",
+			"name": "Double Vie",
+			"description": "<p><span class=\"fontstyle0\">Vous êtes si habile à maintenir votre identité secrête que vous vous êtes capable de vivre deux vies complètement séparées. Quand ce Talent est acquis, vous pouvez choisir une seconde Carrière en parallèle de votre Carrière Chaotique. Vous êtes maintenant considéré comme ayant deux Carrières en même temps, et vous pouvez acheter des Augmentations et des Talents depuis l'une ou l'autre. Comme toujours, tout changement de carrière nécessite l'approbatioon de votre MJ, afin de respecter le déroulement de la campgane et de refléter correctement votre double vie.</span></p>"
+		},
+		{
+			"id": "Fleshthief",
+			"name": "Voleur de chair",
+			"description": "<p><span class=\"fontstyle0\">La créature, qui doit posséder le Trait @Compendium[wfrp4e.traits.v3uzEthcq0JRar0J]{Démoniaque}</span><span class=\"fontstyle2\">&nbsp;</span><span class=\"fontstyle0\">, peut porter l'apparence de n'importe quel humain qu'elle a tué. De plus, elle peut parfaitement imiter la personne, y compris sa voix et ses manières. Préparer cette apparence prend <a class=\"chat-roll\">1d10</a> Rounds, après quoi cette aparence peut être enlevée ou remise en 1 Round. Une fois revêtue, l'apparence disparait uniquement si la créature est tuée, et elle peut-être atteinte par des armes normales. Si la créature le souhaite, elle peut gratuitement transformer cette apparence d'une manière horrible, gagnant aisni le Trait @Compendium[wfrp4e.traits.kJNAY1YRaCy9IgmT]{Terreur 1}</span><span class=\"fontstyle2\"> &nbsp;</span><span class=\"fontstyle0\"> pendant 1 Round. L'apparence ainsi transformée est détruite par l'opération et ne peut plus être utilisée par la créature.</span></p>\n<p><span class=\"fontstyle0\"><br>Ceux qui connaissent la personne dont l'apparence a été prise peut tenter un Test </span><strong><span class=\"fontstyle3\">d'Intuition Futile (-40)</span></strong><span class=\"fontstyle0\"> pour détecter su'il ya quelque chose de curieux, mais sans savoir exactement quoi.</span> .</p>"
+		},
+		{
+			"id": "Mark of Tzeentch",
+			"name": "Marque de Tzeentch",
+			"description": "<p><span class=\"fontstyle0\">Tzeentch, le seigneur du Changement a marqué la créature avec sa marque, proclamant son importance dans ses plans. Cette créature gagne <a class='roll'>1D10/3</a>, arrondi au supérieur, en alternant mutations Physiques et Mentales. Toutes les mutations Physiques doivent être tirées sur la colonne 'Tzeentch'. Cette créature gagne Etiquette (Suivants de Tzeentch), et est est sujette à l'Animosité envers les fidèles de Nurgle. Les fidèles de Nurgle reçoivent également Animosité conte elle, tant que la marque de Tzeentch est visible. De plus, la créature peut prendre les Talents suivants comme des Augmentations de carrières : Harmonisation Aethyrique, Magie des Arcanes (Au choix), Magie du Chaos (Tzeentch), Mains agiles, Diction Instinctive, Sens de la Magie, Magie Mineure, Seconde vue, Mage de guerre, et Sorcier, pour leur coût normal en PX.</span></p>"
+		},
+		{
+			"id": "Master Magus",
+			"name": "Maitre Magus",
+			"description": ""
+		},
+		{
+			"id": "Mindless",
+			"name": "Sans cerveau",
+			"description": "<p><span class=\"fontstyle0\">La créature est stupide, uniquement pilotée par ses instincs ou par magie. Elle n'a pas d'Initiative, Intelligence, Force Mentale et de Sociabilité. and n'effectue jamais de tests sous ces Caractéristiques. Le Bonus de Force est utilisé à la place du Bonus de Force Mentale pour le calcul de ses Blessures. Elle agit également à la fin de chaque Round, puisqu'elle ne possède pas d'Initiative</span> .</p>"
+		},
+		{
+			"id": "Pneumonia",
+			"name": "Pneumonie",
+			"description": "<p>Il s'agit d'une accumulation de liquide dans les poumon, provenant d'autres maladies qui provoquent une inflammation, de la fièvre et parfois même la mort. La pneumonie est connue sous le nom de «hochet de Morr», du nom du bruit de cliquetis effrayant que fait la personne infectée lorsqu'elle tente de respirer profondément. Un personnage atteint de pneumonie doit réussir un test <strong>d'Endurance Intermédiaire (0)</strong> tous les jours ou il voyage, combat ou effectue toute autre activité physique. Un échec fait que le symptôme de la fièvre devient sévère. Pendant que la fièvre est sévère, le même test doit être passé tous les jours, sinon la maladie développe également une Toxine.</p>"
+		},
+		{
+			"id": "Ring of Opsianon",
+			"name": "Anneau d'Opsianon",
+			"description": "<p>Gideon porte cet annuea d'or, avec une pierre d'obsidienne noire incrustée.</p>"
+		},
+		{
+			"id": "Shapeshifter",
+			"name": "Changeforme",
+			"description": "<p><span class=\"fontstyle0\">Cette créature peut changer à volonter de forme, entre celle indiquée et se forme propre. La transformation dure 1 Round, durant lequel aucune autre action n'est possible. Quand la Mannslieb est pleine, la crature doir effectuer un Test </span><strong><span class=\"fontstyle2\">de Force Mentale Accessible (+20)</span></strong><span class=\"fontstyle0\"> au crépuscule pour éviter de se tansformer spontanément. Les créatures qui gagnent ce Trait peuvent avoir une difficulté supérieure pour ce Tests, à la discrétion du MJ. Lorsqu'elle est transformée, la créature conserve ses caractéristiques mentales (</span><span class=\"fontstyle2\">Intelligence</span><span class=\"fontstyle0\">, </span><span class=\"fontstyle2\">Force Mentale</span><span class=\"fontstyle0\">, et </span><span class=\"fontstyle2\">Sociabilité</span><span class=\"fontstyle0\">), mais le reste des caractéristiques deviennent celles de la créature indiquée.</span></p>"
+		},
+		{
+			"id": "Split",
+			"name": "Séparation",
+			"description": "<p><span class=\"fontstyle0\">Si la créature subit une Blessure Critique, ou tombe à 0 Blessures, elle se divise en deux et est remplacée par 2 Horreurs Bleues, qui sont toutes les deux en pleine santé.</span></p>"
+		},
+		{
+			"id": "Suffused with Magic",
+			"name": "Répand la Magie",
+			"description": "<p><span class=\"fontstyle0\">Tout les sorts a lancés à moins de (Bonus de Force Mentale) mètres gagne +1DR pour leur incantation. Ce bonus ne peut être utilisé qu'une seule fois par incantation, il n'est pas cumulable par exemple si d'autres personnages avec ce Talent sont présents alentours.</span></p>"
+		},
+		{
+			"id": "Tzeentch's Blessing",
+			"name": "Bénédiction de Tzeentch",
+			"description": "<p><span class=\"fontstyle0\">Tzeentch, le Dieu de la Magie du Chaos, vous a béni avec un parasite dans votre esprit. Quand vous achetez ce Talent, un sort surgit dans votre tête et y reste, vous murmurant parfois pendant votre sommeil. Le sort peut provenir de n'importe quelle Couleur de Magie</span></p>\n<p><span class=\"fontstyle0\"><br>Ultérieurement, vous pouvez achetez un ou plusieurs sorts pour 100 XP chaque pour chaque sort du Domaine de Tzeentch que vous possédez.</span> </p>"
+		},
+		{
+			"id": "Tzeentch's Fire",
+			"name": "Feu de Tzeentch",
+			"description": "<p><span class=\"fontstyle0\">La créature est courronnée par le Feu de Tzeentch, qui s'échappe frequemment par les doigts, la mouche ou les yeux. Toutes les créatures d'un même type (ie toutes les Horreurs Roses, toutes les Horreur Bleues) dans le voisinnage groupent leur pouvoirs. L'une des Horreurs est choisie pour recevoir ce pouvoir et peut Incanter 1 sort de Tzeentch. Les Horreurs Roses lancent le sort  @Compendium[eis.eisspells.sklbZU3K8ogeu3mC]{Flammes Roses de Tzeentch}; les autres peuvent lancer @Compendium[eis.eisspells.mR4cEXEAfLCqlnQ6]{Flamme Bleue de Tzeentch}. Chaque créature supplémentaire qui contribue ajoute gratuitement +1 DR, jusqu'à un maximum de +9 DR</span></p>"
+		}
+	]
+}

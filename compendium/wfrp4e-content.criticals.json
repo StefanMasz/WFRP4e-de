@@ -1,0 +1,411 @@
+{
+	"label": "Critiques",
+  "mapping": {      
+    "location": {
+      "path": "data.location.value",
+      "converter": "generic_localization"
+    }
+  },
+	"entries": [
+		{
+			"id": "Arterial Damage",
+			"name": "Artère endommagée",
+			"description": "Gagnez 4 États Hémorragique. Tant que vous n'avez pas été la cible de Chirurgie, à chaque fois que vous subissez des Dégâts à cette Localisation, vous gagnez 2 États Hémorragique."
+		},
+		{
+			"id": "Bad Cut",
+			"name": "Mauvaise coupure",
+			"description": "Gagnez 2 États Hémorragique à cause de la profonde blessure au niveau de votre tibia. Réussissez un Test de Résistance Intermédiaire (+0) ou gagnez l'État À Terre."
+		},
+		{
+			"id": "Badly Cut Toe",
+			"name": "Coupure à l'orteil",
+			"description": "<p>Gagnez 1 État Hémorragique. Une fois la rencontre terminée, effectuez un Test de Résistance Intermédiaire (+0). Sur un échec, vous perdez un orteil — @Compendium[wfrp4e-content.injuries.EnqT2PdAvzbd7Rok]{Amputation (Moyen)}.</p>"
+		},
+		{
+			"id": "Badly Jarred Arm",
+			"name": "Choc violent au bras",
+			"description": "Vous recevez un coup particulièrement violent au cours de l'attaque. Vous lâchez ce que vous teniez en main, et cette dernière devient inutilisable pour <a class = 'chat-roll'><i class='fas fa-dice'></i> 1d10</a> - Bonus d'Endurance rounds (minimum 1). Pendant ce temps, considérez votre main comme perdue."
+		},
+		{
+			"id": "Badly Twisted Knee",
+			"name": "Genou tordu",
+			"description": "<p>Vous vous tordez méchamment le genou en tentant d'éviter votre adversaire. Subissez un Traumatisme @Compendium[wfrp4e-content.injuries.XSlFkJD3Ef842LZo]{Déchirure musculaire (Majeur)}.</p>"
+		},
+		{
+			"id": "Black Eye",
+			"name": "Cécité temporaire",
+			"description": "Un coup massif au niveau des yeux, très douloureux et qui fait pleurer. Gagnez 2 Etats Aveuglé."
+		},
+		{
+			"id": "Bleeding hand",
+			"name": "Main ensanglantée",
+			"description": "Votre main est méchamment coupée, ce qui rend votre prise glissante. Recevez 1 État Hémorragique. Tant que vous êtes sous l’effet de cet État, effectuez un Test de Dextérité Accessible (+20) avant d’effectuer une action qui nécessite que vous teniez quoi que ce soit dans cette main ; sur un échec, l’objet vous glisse de la main."
+		},
+		{
+			"id": "Broken Collar Bone",
+			"name": "Clavicule cassée",
+			"description": "<p>Gagnez 1 Etat Inconscient jusqu’à ce que vous soyez soigné par Aide Médicale et subissez un Traumatisme @Compendium[wfrp4e-content.injuries.rIJz5nxmvxZTozmB]{Fracture (Majeure)}.</p>"
+		},
+		{
+			"id": "Broken Jaw",
+			"name": "Mâchoire cassée",
+			"description": "<p>Le coup qui vous brise la mâchoire est accompagné d'un bruit ignoble. Gagnez 3 États Assommé. Réussissez un Test de Résistance Intermédiaire (+0) ou gagnez l'État Assommé. Subissez le Traumatisme @Compendium[wfrp4e-content.injuries.B4EzqsaO3Q0okZ9d]{Fracture (Majeure)}.</p>"
+		},
+		{
+			"id": "Broken Knee",
+			"name": "Genou cassé",
+			"description": "<p>Le coup atteint la rotule, la brisant en plusieurs morceaux. Vous gagnez 1 État Hémorragique et 1 État À Terre, et subissez un Traumatisme @Compendium[wfrp4e-content.injuries.AoJLxDfZtmWXCiDi]{Fracture (Majeure)} alors que vous vous effondrez au sol, empoignant votre jambe abîmée.</p>"
+		},
+		{
+			"id": "Broken Nose",
+			"name": "Nez cassé",
+			"description": "Un coup violent porté au centre de votre visage déverse des flots de sang. Gagnez 2 États Hémorragique. Réussissez un Test de Résistance Intermédiaire (+0), ou gagnez l'État Assommé. Une fois cette blessure guérie, gagnez DR +1/-1 aux Tests sociaux, en fonction du contexte, jusqu'à ce que Chirurgie soit utilisée sur le nez pour le réparer."
+		},
+		{
+			"id": "Bruised Ribs",
+			"name": "Bleus aux côtes",
+			"description": "Tous les Tests basés sur l’Agilité sont effectués avec une pénalité de -10 pendant <a class = 'chat-roll'><i class='fas fa-dice'></i> 1d10</a> jours."
+		},
+		{
+			"id": "Brutal Dismemberment",
+			"name": "Démembrement brutal",
+			"description": "Votre bras est coupé, faisant gicler le sang artériel jusqu’à <a class = 'chat-roll'><i class='fas fa-dice'></i> 1d10</a> mètres dans une direction au hasard (voir Dispersion), avant que le coup termine sa course dans votre poitrine."
+		},
+		{
+			"id": "Carved Shin",
+			"name": "Entaille au tibia",
+			"description": "<p>L'arme passe à travers votre jambe au niveau du genou, touchant a la fois le tendon et l'os. Gagnez les États Assommé et À Terre. De plus, subissez les Traumatismes @Compendium[wfrp4e-content.injuries.XSlFkJD3Ef842LZo]{Déchirure musculaire (Majeur)} et @Compendium[wfrp4e-content.injuries.6M98mPfnL3hmXW3g]{Fracture (Mineure)}.</p>"
+		},
+		{
+			"id": "Clean Break",
+			"name": "Cassure nette",
+			"description": "Un craquement significatif se fait entendre au moment ou le coup s’abat sur votre bras. Lâchez tout objet tenu par la main correspondante et subissez un Traumatisme Fracture (Mineure). Réussissez un Test de Résistance Complexe (-10) ou gagnez 1 État Assommé."
+		},
+		{
+			"id": "Cleft Hand",
+			"name": "Main ouverte",
+			"description": "<p>Votre main s’ouvre sous la puissance du coup. Perdez 1 doigt - @Compendium[wfrp4e-content.injuries.ryG4x0tj6psMSXI2]{Amputation (Complexe)}. Gagnez 2 États Hémorragique et 1 État Assommé. Pour chaque round au cours duquel vous ne recevez pas d Aide Médicale, vous perdez un autre doigt. Si vous perdez tous vos doigts, vous perdez votre main - @Compendium[wfrp4e-content.injuries.8sM5Mdk6gP6mdjoM]{Amputation (Complexe)}.</p>"
+		},
+		{
+			"id": "Concussive Blow",
+			"name": "Commotion cérébrale",
+			"description": "Votre cerveau va percuter votre boîte crânienne alors que le sang coule à flots de votre nez et de vos oreilles. Gagnez les États suivants : 1 Assourdi, 2 Hémorragique et <a class = 'chat-roll'><i class='fas fa-dice'></i> 1d10</a> Assommé. Gagnez également l’État Exténué qui va durer <a class = 'chat-roll'><i class='fas fa-dice'></i> 1d10</a> jours. Si vous recevez une autre Blessure critique alors que vous êtes Exténué, réussissez un Test de Résistance Accessible (+20) ou gagnez l’État Inconscient."
+		},
+		{
+			"id": "Cracked Ribs",
+			"name": "Côtes fracturées",
+			"description": "<p>Le coup fracture une ou plusieurs côtes. Gagnez 1 État Assommé. Subissez un @Compendium[wfrp4e-content.injuries.IEK2WP1ysSIX1gie]{Fracture (Mineure)}.</p>"
+		},
+		{
+			"id": "Crushed Elbow",
+			"name": "Coude fracassé",
+			"description": "<p>Le coup fracasse votre coude, faisant voler en éclat 1 os et le cartilage. Vous lâchez immédiatement ce que vous teniez dans la main correspondante et subissez un Traumatisme @Compendium[wfrp4e-content.injuries.2A7SW9eXsm7MvLsk]{Fracture (Majeure)}.</p>"
+		},
+		{
+			"id": "Crushed Foot",
+			"name": "Pied écrasé",
+			"description": "<p>Le coup explose votre pied. Effectuez un Test de Résistance Accessible (+20) ; sur un échec vous gagnez l’État À Terre et perdez un orteil, plus un orteil par DR en dessous de 0 - Amputation (Accessible). Gagnez 2 États Hémorragique. Si vous n'êtes pas soigné par Chirurgie au cours des <strong><a class=\"chat-roll\">1d10</a></strong> jours suivants, vous perdez votre pied.</p>"
+		},
+		{
+			"id": "Cut Tendon",
+			"name": "Tendon coupé",
+			"description": "<p>Un des tendons principaux à l’arrière de votre jambe est coupé, vous faisant hurler de douleur alors que votre jambe s’effondre sous le poids de votre corps. Vous gagnez 2 États Hémorragique, 2 États Assommé et 1 Etat A Terre. 11 ne vous reste plus qu'à contempler, avec horreur, votre jambe dont vous venez de perdre 1 usage — @Compendium[wfrp4e-content.injuries.xTtDVDXCClQieIW5]{Amputation (Très difficile)}.</p>"
+		},
+		{
+			"id": "Damaged Artery",
+			"name": "Dégâts artériels",
+			"description": "Gagnez 4 Etats Hémorragique. Tant que vous n’aurez pas été soigné par Chirurgie, chaque nouvelle Blessure à cette Localisation vous fera gagner 2 États Hémorragique."
+		},
+		{
+			"id": "Decapitated",
+			"name": "Décapitation",
+			"description": "Votre tête est tranchée au niveau de votre cou et part dans les airs, atterrissant à <a class = 'chat-roll'><i class='fas fa-dice'></i> 1d10</a> mètres de votre corps dans une direction aléatoire (voir Dispersion). Votre corps s’effondre, mort sur le coup."
+		},
+		{
+			"id": "Deep Cut",
+			"name": "Coupure profonde",
+			"description": "<p>Gagnez 2 États Hémorragique alors que votre bras subit une forte mutilation. Gagnez 1 État Assommé et subissez un traumatisme @Compendium[wfrp4e-content.injuries.JMm9hqyAX6HBTqZO]{Déchirure musculaire (Mineur)}. Réussissez un Test de Résistance Difficile (-20) ou gagnez l’Etat Inconscient.</p>"
+		},
+		{
+			"id": "Devastated Eye",
+			"name": "Oeil crevé",
+			"description": "<p>Le coup porté à votre oeil le crève, ce qui provoque une douleur quasi insoutenable. Gagnez les États suivants : 3 Aveuglé, 2 Hémorragique et 1 Assommé. Perdez votre oeil - @Compendium[wfrp4e-content.injuries.uTJccLaYFfaJReIg]{Amputation (Complexe)}.</p>"
+		},
+		{
+			"id": "Disfiguring Blow",
+			"name": "Coup défigurant",
+			"description": "Le coup vous explose le visage, crevant un oeil et vous brisant le nez. Gagnez les États suivants : 3 Hémorragique, 3 Aveuglé et 2 Assommé. Perdez votre oeil et votre nez - Amputation (Difficile)."
+		},
+		{
+			"id": "Dislocated Knee",
+			"name": "Genou démis",
+			"description": "Votre genou se déboîte de son emplacement. Gagnez 1 Etat A Terre, réussissez un Test de Résistance Difficile (-20) ou gagnez l’État Assommé, qui ne pourra etre retiré qu’avec Aide Médicale. Après cette Aide Médicale, il est nécessaire de réussir un Test étendu de Guérison Accessible (+20) avec DR 6 afin de remettre le genou à sa place et récupérer l’usage de la jambe. Le Mouvement est réduit de moitié et les Tests impliquant cette jambe subissent un malus de -10 pendant 1d10 jours."
+		},
+		{
+			"id": "Dislocated Shoulder",
+			"name": "Epaule luxée",
+			"description": "<p>Votre bras est démis de son logement. Réussissez un Test de Résistance Difficile (-20) ou gagnez les États Assommé et À Terre. Lâchez ce que vous teniez dans la main : le bras est inutilisable et est considéré comme perdu (voir Membre Amputé). Gagnez l’État Assommé jusqu'à bénéficier d’Aide Médicale. Après application de cette Aide, un Test étendu de Guérison Accessible (+20) avec DR 6 est nécessaire pour pouvoir récupérer l’usage du bras. Les Tests effectués avec ce bras subissent une pénalité de -10 pendant <strong><a class=\"chat-roll\">1d10</a></strong> jours.</p>"
+		},
+		{
+			"id": "Dramatic Injury",
+			"name": "Blessure spectaculaire",
+			"description": "Une fine entaille qui va du front jusqu’à la joue. Gagnez 1 Etat Hémorragique. Une fois que la blessure est guérie, l’impressionnante cicatrice vous permet d’obtenir DR +1 à certains Tests sociaux."
+		},
+		{
+			"id": "Ear Bash",
+			"name": "Frappe à l'oreille",
+			"description": "Un coup à l’oreille provoque un bruit ignoble qui bourdonne sans s’arrêter. Vous gagnez 1 Etat Assourdi."
+		},
+		{
+			"id": "Fractured Hip",
+			"name": "Hanche fracturée",
+			"description": "<p>Gagnez l’Etat Assommé. Réussissez un Test de Résistance Intermédiaire (+0) ou gagnez également l’Etat A Terre. Subissez 1 Traumatisme @Compendium[wfrp4e-content.injuries.IEK2WP1ysSIX1gie]{Fracture (Mineure)}.</p>"
+		},
+		{
+			"id": "Fractured Jaw",
+			"name": "Mâchoire fracturée",
+			"description": "Le coup reçu vous fracture la mâchoire avec un bruit dégoûtant. Les vagues de douleur déferlent instantanément. Gagnez 2 États Assommé. Subissez le traumatisme Fracture (Mineure)."
+		},
+		{
+			"id": "Gaping Arm Wound",
+			"name": "Blessure béante",
+			"description": "Le coup ouvre une profonde blessure béante. Gagnez 2 Etats Hémorragique. ]usqu'à ce que vous soyez la cible de Chirurgie afin de recoudre la blessure, tout nouveau Dégâts au Bras que vous subirez vous fera gagner 1 Etat Hémorragique à cause de la blessure qui se sera réouverte."
+		},
+		{
+			"id": "Gaping Chest Wound",
+			"name": "Blessure béante",
+			"description": "Gagnez 3 Etats Hémorragique. Tant que vous n’avez pas été la cible de Chirurgie, pour chaque Blessure supplémentaire que vous recevrez à cette Localisation, vous gagnerez 1 Etat Hémorragique, car la blessure se sera réouverte."
+		},
+		{
+			"id": "Gut Blow",
+			"name": "Coup au ventre",
+			"description": "Gagnez 1 État Assommé. Réussissez un Test de Résistance Facile (+40), ou vomissez et gagnez l’Etat A Terre."
+		},
+		{
+			"id": "Gut Wound",
+			"name": "Blessure au ventre",
+			"description": "Vous contractez une Blessure Purulente (voir Maladie et Infection) et gagnez 2 États Hémorragique."
+		},
+		{
+			"id": "Hacked Leg",
+			"name": "Jambe charcutée",
+			"description": "<p>Blessure profonde au niveau de la hanche. Gagnez 2 Etats Hémorragique et 1 Etat A Terre, puis subissez un Traumatisme @Compendium[wfrp4e-content.injuries.6M98mPfnL3hmXW3g]{Fracture (Mineure)}. De plus, réussissez un Test de Résistance Difficile (-20) ou gagnez l’État Assommé à cause de la douleur.</p>"
+		},
+		{
+			"id": "Internal Bleeding",
+			"name": "Hémorragie interne",
+			"description": "Gagnez 1 Etat Hémorragique qui ne peut être retiré que par Chirurgie. Vous contractez Infection Sanguine."
+		},
+		{
+			"id": "Jarred Arm",
+			"name": "Choc au bras",
+			"description": "Votre bras prend un choc au cours de l’attaque. Lâchez ce que vous teniez."
+		},
+		{
+			"id": "Lost Footing",
+			"name": "Perte d'équilibre",
+			"description": "Dans le feu du combat, vous perdez l’équilibre. Réussissez un Test de Résistance Intermédiaire (+0) ou gagnez l’État A Terre."
+		},
+		{
+			"id": "Low Blow!",
+			"name": "Dans les bijoux de famille!",
+			"description": "Les Personnages mâles doivent réussir un Test de Résistance Difficile (-20) ou gagner 3 États Assommé."
+		},
+		{
+			"id": "Major Chest Wound",
+			"name": "Blessure majeure au torse",
+			"description": "Vous recevez une blessure importante au torse qui arrache la peau de ses muscles et de ses tendons. Recevez 4 Etats Hémorragique. Tant que vous n’êtes pas soigné par Chirurgie afin de recoudre la blessure, toute nouvelle Blessure que vous recevrez à cette Localisation vous fera gagner 2 Etats Hémorragique supplémentaires à cause de la réouverture de la blessure."
+		},
+		{
+			"id": "Major Ear Wound",
+			"name": "Blessure majeure à l'oreille",
+			"description": "Le coup endommage votre oreille, causant une perte auditive permanente. Vous subissez une pénalité de -20 à tout Test ayant un rapport avec l’audition. Si vous tombez une seconde fois sur cette blessure, vous perdez totalement l’audition, car votre deuxième oreille devient elle aussi silencieuse. Ne peut être guéri que par la magie."
+		},
+		{
+			"id": "Major Eye Wound",
+			"name": "Blessure majeure à l'oeil",
+			"description": "Le coup lézarde votre orbite. Gagnez l’État Hémorragique. Gagnez également l’État Aveuglé qui ne pourra être soigné que lorsqu’on vous appliquera Aide Médicale."
+		},
+		{
+			"id": "Mangled Ear",
+			"name": "Oreille mutilée",
+			"description": "<p>Il ne reste plus grand-chose de votre oreille alors que le coup la déchiquette. Gagnez 3 États Assourdi et 2 États Hémorragique. Vous perdez votre oreille - @Compendium[wfrp4e-content.injuries.04OvfETcxQK8UMcR]{Amputation (Accessible)}.</p>"
+		},
+		{
+			"id": "Mangled Hand",
+			"name": "Main mutilée",
+			"description": "<p>Votre main n’est plus qu’un tas de chair hémorragique. Vous perdez votre main - @Compendium[wfrp4e-content.injuries.8sM5Mdk6gP6mdjoM]{Amputation (Difficile)}. Gagnez 2 États Hémorragique. Réussissez un Test de Résistance Difficile (-20) ou gagnez les États Assommé et A Terre.</p>"
+		},
+		{
+			"id": "Mangled Jaw",
+			"name": "Mâchoire mutilée",
+			"description": "<p>Le coup vous arrache presque complètement la mâchoire, détruit votre langue et envoie vos dents à plusieurs mètres dans une pluie de sang. Gagnez 4 États Hémorragique et 3 États Assommé. Réussissez un Test de Résistance Très Difficile (-30) ou gagnez l’État Inconscient. Subissez le traumatisme @Compendium[wfrp4e-content.injuries.B4EzqsaO3Q0okZ9d]{Fracture (Majeure)} perdez votre langue et <strong><a class=\"chat-roll\">1d10</a></strong> dents — @Compendium[wfrp4e-content.injuries.8INWQxvtMaK9oeV4]{Amputation (Difficile)}.</p>"
+		},
+		{
+			"id": "Mauled Bicep",
+			"name": "Biceps déchiqueté",
+			"description": "<p>Le coup sépare presque entièrement le biceps et le tendon de 1 os, laissant une blessure effrayante de laquelle le sang gicle, autant sur votre adversaire que sur vous. Vous lâchez automatiquement ce que vous teniez dans la main correspondante et subissez un traumatisme @Compendium[wfrp4e-content.injuries.fTLRTydQWwFSrMjV]{Déchirure Musculaire (Majeure)} en plus de gagner 2 Etats Hémorragique et 1 État Assommé.</p>"
+		},
+		{
+			"id": "Minor Arm Cut",
+			"name": "Coupure mineure",
+			"description": "Gagnez 1 État Hémorragique car vous saignez abondamment au niveau de 1'avant-bras."
+		},
+		{
+			"id": "Minor Head Cut",
+			"name": "Coupure mineure",
+			"description": "Le coup vous entaille la joue et le sang dégouline partout. Gagnez 1 État Hémorragique."
+		},
+		{
+			"id": "Minor Leg Cut",
+			"name": "Coupure mineure",
+			"description": "Gagner 1 État Hémorragique."
+		},
+		{
+			"id": "Painful Cut",
+			"name": "Entaille douloureuse",
+			"description": "Gagnez 2 Etats Hémorragique et 1 État Assommé. Réussissez un Test de Résistance Difficile (-20) ou gagnez 1 Etat Inconscient, vous évanouissant sous la douleur. Et si vous n’obtenez pas au moins DR 4, vous hurlez de douleur."
+		},
+		{
+			"id": "Poked Eye",
+			"name": "Vision brouillée",
+			"description": "Le coup vous touche à l’orbite de l’oeil. Gagnez 1 Etat Aveuglé."
+		},
+		{
+			"id": "Pulled Back",
+			"name": "Dos froissé",
+			"description": "<p>Une douleur irradiante vous assaille alors que vous faites jouer vos muscles. Subissez un Traumatisme @Compendium[wfrp4e-content.injuries.kCmBuxQqSXPqfgJ4]{Déchirure musculaire (Majeur)}.</p>"
+		},
+		{
+			"id": "Ragged Wound",
+			"name": "Chairs déchirées",
+			"description": "Gagnez 2 Etats Hémorragique."
+		},
+		{
+			"id": "Rattling Blow",
+			"name": "Coup percutant",
+			"description": "Le sang obscurcit votre vision, et vous percevez des points blancs et des flashs de lumière. Vous obtenez 1 État Assommé."
+		},
+		{
+			"id": "Ruptered Ligament",
+			"name": "Ligament rompu",
+			"description": "<p>Vous lâchez immédiatement ce que vous teniez dans la main correspondante. Subissez un Traumatisme @Compendium[wfrp4e-content.injuries.fTLRTydQWwFSrMjV]{Déchirure musculaire (Majeure)}.</p>"
+		},
+		{
+			"id": "Ruptured Tendon",
+			"name": "Tendon rompu",
+			"description": "<p>Gagnez les États À Terre et Assommé au moment ou votre tendon cède. Réussissez un Test de Résistance Difficile (-20) ou gagnez 1 Etat Inconscient. Votre jambe devient inutilisable. Subissez un Traumatisme @Compendium[wfrp4e-content.injuries.XSlFkJD3Ef842LZo]{Déchirure musculaire (Majeur)}.</p>"
+		},
+		{
+			"id": "Severed Finger",
+			"name": "Doigt sectionné",
+			"description": "<p>L’horreur vous saisit alors que votre doigt s’envole — @Compendium[wfrp4e-content.injuries.ryG4x0tj6psMSXI2]{Amputation (Accessible)}. Gagnez 1 État Hémorragique.</p>"
+		},
+		{
+			"id": "Severed Foot",
+			"name": "Pied sectionné",
+			"description": "<p>Votre pied est sectionné au niveau de la cheville et atterrit <strong><a class=\"chat-roll\">1d10</a></strong> mètres plus loin dans une direction au hasard — @Compendium[wfrp4e-content.injuries.C0BX3ywcMgTUWKXJ]{Amputation (Difficile)}. Vous gagnez les États suivants : 3 Hémorrasique, 2 États Assommé et 1 Etat A Terre.</p>"
+		},
+		{
+			"id": "Shattered Pelvis",
+			"name": "Bassin fracassé",
+			"description": "Le coup fracasse votre bassin, coupant une jambe et atteignant la seconde. Vous mourez instantanément à cause du choc traumatique."
+		},
+		{
+			"id": "Sliced Ear",
+			"name": "Oreille tranchée",
+			"description": "Vous recevez un coup très violent sur le côté de la tête qui vous entaille profondément l’oreille. Gagnez 2 Etats Assourdi et 1 État Hémorragique."
+		},
+		{
+			"id": "Sliced Tendons",
+			"name": "Tendons coupés",
+			"description": "<p>Vos tendons sont tranchés par la force du coup, et votre bras est devenu inutilisable - @Compendium[wfrp4e-content.injuries.KauMO1CodRLWmhv4]{Amputation (Très difficile)}. Gagnez 3 États Hémorragique, 1 État A Terre et 1 Etat Assommé. Réussissez un Test de Résistance Difficile (-20) ou gagnez l’Etat Inconscient.</p>"
+		},
+		{
+			"id": "Smashed Mouth",
+			"name": "Bouche explosée",
+			"description": "<p>Votre bouche se remplit de sang et de dents cassées avec un bruit répugnant. Gagnez 2 États Hémorragique. Perdez <strong><a class=\"chat-roll\">1d10</a></strong> dents - @Compendium[wfrp4e-content.injuries.8INWQxvtMaK9oeV4]{Amputation (Facile)}.</p>"
+		},
+		{
+			"id": "Smashed Rib Cage",
+			"name": "Cage thoracique perforée",
+			"description": "<p>Gagnez 1 Etat Assommé qui ne peut être retiré que par Aide Médicale, et subissez un Traumatisme @Compendium[wfrp4e-content.injuries.rIJz5nxmvxZTozmB]{Fracture (Majeure)}.</p>"
+		},
+		{
+			"id": "Sprain",
+			"name": "Torsion",
+			"description": "<p>Vous vous tordez le bras, vous occasionnant un traumatisme @Compendium[wfrp4e-content.injuries.JMm9hqyAX6HBTqZO]{Déchirure musculaire (Mineur)}.</p>"
+		},
+		{
+			"id": "Sprained Ankle",
+			"name": "Cheville foulée",
+			"description": "<p>Vous vous foulez la cheville ; subissez un Traumatisme @Compendium[wfrp4e-content.injuries.rlXUw5Bgz2xUjVbU]{Déchirure musculaire (Mineur)}.</p>"
+		},
+		{
+			"id": "Struck Forehead",
+			"name": "En plein front",
+			"description": "Un coup percutant vous atteint en plein front. Gagnez 2 États Hémorragique et 1 Etat Aveuglé qui ne peut pas être retiré tant que tous les États Hémorragique n’ont pas été éliminés."
+		},
+		{
+			"id": "Stubbed Toe",
+			"name": "Orteil contusionné",
+			"description": "Dans le feu de la bataille, vous vous cognez l’orteil. Réussissez un Test de Résistance Accessible (+20) ou subissez une pénalité de -10 à tous vos Tests d’Agilité jusqu’à la fin du prochain tour."
+		},
+		{
+			"id": "Thigh Strike",
+			"name": "Coup à la cuisse",
+			"description": "Un coup violent sur le haut de la cuisse. Gagnez 1 Etat Hémorragique et réussissez un Test de Résistance Accessible (+20) sous peine de trébucher et de gagner l’Etat A Terre."
+		},
+		{
+			"id": "Tis But A Scratch!",
+			"name": "Rien qu'une égratignure !",
+			"description": "Gagnez 1 Etat Hémorragique."
+		},
+		{
+			"id": "Torn Apart",
+			"name": "Éventré",
+			"description": "Vous êtes littéralement coupé en deux. Les deux parties de votre corps atterrissent de façon parfaitement aléatoire au sol, et tout Personnage situé à moins de 2 mètres est recouvert de sang."
+		},
+		{
+			"id": "Torn Muscles",
+			"name": "Déchirure Musculaire",
+			"description": "<p>Le coup écrase votre avant-bras. Gagnez l’État Hémorragique et un traumatisme @Compendium[wfrp4e-content.injuries.JMm9hqyAX6HBTqZO]{Torn Muscle (Minor)}.</p>"
+		},
+		{
+			"id": "Torn Thigh",
+			"name": "Cuisse lacérée",
+			"description": "Gagnez 3 États Hémorragique alors que l’arme entaille profondément votre cuisse. Réussissez un Test de Résistance Intermédiaire (+0) ou gagnez l'Etat A Terre. Tant que vous n’aurez pas été soigné par Chirurgie afin de refermer la plaie, chaque fois que vous subirez des Dégâts à cette Jambe, gagnez 1 Etat Hémorragique."
+		},
+		{
+			"id": "Twisted Ankle",
+			"name": "Cheville tordue",
+			"description": "Vous vous tordez la cheville, vous blessant au passage. Tous vos Tests d’Agilité subissent une pénalité de -10 pendant <a class = 'chat-roll'><i class='fas fa-dice'></i> 1d10</a> rounds."
+		},
+		{
+			"id": "Twisted Back",
+			"name": "Torsion du dos",
+			"description": "<p>Subissez un Traumatisme @Compendium[wfrp4e-content.injuries.HjBumJm1eqc8qbzJ]{Déchirure musculaire (Mineur)}.</p>"
+		},
+		{
+			"id": "Twisted Knee",
+			"name": "Genou tordu",
+			"description": "Votre genou pivote un peu trop loin. Vos Tests d’Agilité subissent une pénalité de -20 pendant <a class = 'chat-roll'><i class='fas fa-dice'></i> 1d10</a> rounds."
+		},
+		{
+			"id": "Winded",
+			"name": "Souffle coupé",
+			"description": "Gagnez l’État Assommé. Réussissez un Test de Résistance Accessible (+20) ou gagnez l’État À Terre. Votre Mouvement est réduit de moitié pendant <a class = 'chat-roll'><i class='fas fa-dice'></i> 1d10</a> rounds, le temps que vous récupériez votre souffle."
+		},
+		{
+			"id": "Wrenched Arm",
+			"name": "Clef de bras",
+			"description": "Votre bras est pratiquement arraché de son logement. Lâchez immédiatement ce que la main correspondante tenait ; le bras est inutilisable pendant <a class = 'chat-roll'><i class='fas fa-dice'></i> 1d10</a> rounds."
+		},
+		{
+			"id": "Wrenched Collar Bone",
+			"name": "Clavicule tordue",
+			"description": "Choisissez un bras au hasard. Lâchez ce que la main correspondante tenait ; le bras est inutilisable pendant <a class = 'chat-roll'><i class='fas fa-dice'></i> 1d10</a> rounds."
+		}
+	]
+}

@@ -1,0 +1,460 @@
+{
+	"label": "Mutations Supplémentaires",
+	"mappings": {
+    "modifier": {
+        "path": "data.modifier.value",
+        "converter": "mutations_modifier"
+    },
+    "mutationType": {
+        "path": "data.mutationType.value",
+        "converter": "generic_localization"
+    }
+	},
+	"entries": [
+		{
+			"id": "Acid Blood",
+			"name": "Sang acide",
+			"description": "<p>Gagnez le Trait de Créature @Compendium[wfrp4e-content.traits.M5QSWOYt2Rbv2yxW]{Sang corrosif}</p>"
+		},
+		{
+			"id": "Aethyric Leak",
+			"name": "Fuite Aethérique",
+			"description": "<p>Gagnez le Talent @Compendium[wfrp4e-content.talents.qdMbxW09FUoYBzmB]{Sorcier!}</p>"
+		},
+		{
+			"id": "Animalistic Legs",
+			"name": "Jambes Animales",
+			"description": "+1 Mouvement; cette mutation ne peut-être cachée que par des vêtements; les Tests d'Athlétisme reçoivent une pénalité de -10 pour marcher avec une démarche normale"
+		},
+		{
+			"id": "Animalistic Psyche",
+			"name": "Esprit Animal",
+			"description": "<p>Gagnez le Trait de Créature @Compendium[wfrp4e-content.traits.AGcJl5rHjkyIQBPP]{Bestial} pour <strong><a class=\"chat-roll\">1d10</a></strong> heures si vous échouez à n'importe quel Test dérivé de Force Mentale</p>"
+		},
+		{
+			"id": "Beacon of Corruption",
+			"name": "Balise de Corruption",
+			"description": "<p>Lorsque vous êtes sujet à la Psychologie, gagnez le Trait de Creature @Compendium[wfrp4e-content.traits.xsGbDFqK2qh7lsIj]{Corruption} (Mineure)</p>"
+		},
+		{
+			"id": "Beaked Face",
+			"name": "Bec au visage",
+			"description": "<p>Gagnez le Trait de Créature @Compendium[wfrp4e-content.traits.pLW9SVX0TVTYPiPv]{Morsure}&nbsp;+3; cette mutation ne peut pas être cachée</p>"
+		},
+		{
+			"id": "Bear Head",
+			"name": "Tête d'Ours",
+			"description": "<p>+1 PA à la tête; Gagnez le Trait de Créature @Compendium[wfrp4e-content.traits.pLW9SVX0TVTYPiPv]{Morsure} +9 ; cette mutation ne peut pas être cachée</p>"
+		},
+		{
+			"id": "Beast Head",
+			"name": "Tête de bête",
+			"description": "<p>Faites un jet sur la table <a class=\"table-click\" data-table=\"bestialheads\"><strong>Têtes Bestiales</strong></a>; cette mutation ne peut pas être cachée</p>"
+		},
+		{
+			"id": "Beweaponed Extremities",
+			"name": "Extrémités armées",
+			"description": "Réduction permanente de la Dexterité à 0. Vous ne pouvez être désarmé; cette mutation ne peut pas être cachée"
+		},
+		{
+			"id": "Beyond Pain",
+			"name": "Au delà de la souffrance",
+			"description": "<p>Gagnez le Trait de Créature @Compendium[wfrp4e-content.traits.wMwSRDmgiF2IdCJr]{Insensible à la douleur}</p>"
+		},
+		{
+			"id": "Big Ears",
+			"name": "Grandes Oreilles",
+			"description": "<p>Gagnez le Talent @Compendium[wfrp4e-content.talents.9h82z72XGo9tfgQS]{Sens auguisé}&nbsp;(Ouïe); cette mutation ne peut-être cachée qu'avec des vêtements</p>"
+		},
+		{
+			"id": "Bird's Feet",
+			"name": "Pieds d'Oiseaux",
+			"description": "<p>Gagnez le Trait de Créature @Compendium[wfrp4e-content.traits.rOV2s6PQBBrhpMOv]{Arboricole}</p>"
+		},
+		{
+			"id": "Blank Face",
+			"name": "Visage Vide",
+			"description": "<p>Gagnez le Trait de Créature @Compendium[wfrp4e-content.traits.pTorrE0l3VybAbtn]{Peur}&nbsp;2; cette mutation ne peut-être cachée qu'avec des vêtements</p>"
+		},
+		{
+			"id": "Blasphemous Soul",
+			"name": "Ame blasphématoire",
+			"description": "<p>Gagnez le Trait de Créature @Compendium[wfrp4e-content.traits.aE3pyW20Orvdjzj0]{Haine} (Religion)</p>"
+		},
+		{
+			"id": "Blasted Mind",
+			"name": "Esprit dévasté",
+			"description": "<p>Gagnez le Trait de Créature @Compendium[wfrp4e-content.traits.IAWyzDfC286a9MPz]{Immunité psychologique} pour <strong><a class=\"chat-roll\">1d10</a></strong>&nbsp; Rounds au lieu de subir un état Brisé, après quoi subissez <strong><a class=\"chat-roll\">1d10</a></strong> états Brisés</p>"
+		},
+		{
+			"id": "Boar Head",
+			"name": "Tête de Sanglier",
+			"description": "<p>+1 PA à la Tête; @Compendium[wfrp4e-content.traits.BqPZn6q3VHn9HUrW]{Cornes (Défenses)}; cette mutation ne peut pas être cachée</p>"
+		},
+		{
+			"id": "Breathe Fire",
+			"name": "Souffe Enflammé",
+			"description": "<p>Gagnez le Trait de Créature @Compendium[wfrp4e-content.traits.uqGxFOEqeurwkAO3]{Souffle}&nbsp;5 (Feu)</p>"
+		},
+		{
+			"id": "Bulging Eyes",
+			"name": "Yeux Globuleux",
+			"description": "+10 en Initiative; cette mutation ne peut-être cachée qu'avec des vêtements"
+		},
+		{
+			"id": "Bull Head",
+			"name": "Tête de Taureau",
+			"description": "<p>+1 PA à la Tête; Gagnez le Trait de Créature @Compendium[wfrp4e-content.traits.BqPZn6q3VHn9HUrW]{Cornes}; cette mutation ne peut pas être cachée</p>"
+		},
+		{
+			"id": "Burning Skin",
+			"name": "Peau Enflammée",
+			"description": "Les créatures et objets qui vous touchent doivent réussir un Test d'Athlétisme ou recevoit un état En Flammes; cette mutation ne peut pas être cachée"
+		},
+		{
+			"id": "Carapace",
+			"name": "Carapace",
+			"description": "<p>+1 PA sur 2 parties aléatoires du corps; cette mutation ne peut-être cachée qu'avec des vêtements</p>"
+		},
+		{
+			"id": "Claws",
+			"name": "Griffes",
+			"description": "<p>Les main sont considérées comme des armes : @Compendium[wfrp4e-content.traits.AtpAudHA4ybXVlWM]{Weapon}, avec des dommages égal au Bonus de Force; cette mutation ne peut pas être cachée</p>"
+		},
+		{
+			"id": "Cloud of Flies",
+			"name": "Nuage de Mouches",
+			"description": "<p>Gagnez le Trait de Créature @Compendium[wfrp4e-content.traits.MVI0lXcg6vvtooAF]{Perturbant}&nbsp;; cette mutation ne peut pas être cachée</p>"
+		},
+		{
+			"id": "Corpulent",
+			"name": "Corpulent",
+			"description": "-1 Mouvement, +5 Force, +5 Endurance"
+		},
+		{
+			"id": "Crested Head",
+			"name": "Crête de Coq",
+			"description": "<p>Gagnez le Talent @Compendium[wfrp4e-content.talents.6l3jvIAvrKxt0lA9]{Attirant}&nbsp;lorsque vous interagissez avec des Muntants ou des Hommes-Bêtes; cette mutation ne peut pas être cachée</p>"
+		},
+		{
+			"id": "Deafening Cry",
+			"name": "Cri Assourdissant",
+			"description": "<p>Gagnez le Talent @Compendium[wfrp4e-content.traits.MVI0lXcg6vvtooAF]{Perturbant}&nbsp;</p>"
+		},
+		{
+			"id": "Distended Digits",
+			"name": "Doigts Distendus",
+			"description": "+10 Dextérité; cette mutation ne peut pas être cachée"
+		},
+		{
+			"id": "Dog Head",
+			"name": "Tête de Chien",
+			"description": "<p>Gagnez le Trait de Créature @Compendium[wfrp4e-content.traits.pLW9SVX0TVTYPiPv]{Morsure} +5; cette mutation ne peut pas être cachée</p>"
+		},
+		{
+			"id": "Eagle Head",
+			"name": "Tête d'Aigle",
+			"description": "<p>Gagnez le Trait de Créature @Compendium[wfrp4e-content.traits.pLW9SVX0TVTYPiPv]{Morsure} +4; cette mutation ne peut pas être cachée</p>"
+		},
+		{
+			"id": "Elastic Arms",
+			"name": "Bras Elastiques",
+			"description": "Vous pouvez étendre la porté des armes de Mêlée de 2 grades supplémentaires"
+		},
+		{
+			"id": "Emaciated",
+			"name": "Emacié",
+			"description": "-10 Force, +5 Agilité"
+		},
+		{
+			"id": "Evil Eye",
+			"name": "Oeil Maudit",
+			"description": ""
+		},
+		{
+			"id": "Extra Leg Joints",
+			"name": "Jambes Articulées",
+			"description": "+5 Agilité; cette mutation ne peut pas être cachée"
+		},
+		{
+			"id": "Extra Mouth",
+			"name": "Bouche Supplémentaire",
+			"description": "<p>Faites un jet sur la table des Localisations pour savoir où elle se trouve; cette mutation ne peut-être cachée qu'avec des vêtements</p>"
+		},
+		{
+			"id": "Eyestalks",
+			"name": "Yeux Mobiles",
+			"description": "Vous voyez par-dessus et autour des obstacles; cette mutation ne peut pas être cachée"
+		},
+		{
+			"id": "Fantasist",
+			"name": "Imprévisible Fantaisiste",
+			"description": "-5 Initiative, -5 Force Mentale"
+		},
+		{
+			"id": "Fitful Hatred",
+			"name": "Haine Changeante",
+			"description": "<p>Gagnez le Trait de Créature @Compendium[wfrp4e-content.traits.aE3pyW20Orvdjzj0]{Haine} (Cible). Effectuez un lancer sur la table des <a class=\"table-click\" data-table=\"fixations\">Fixations</a> une fois par jour pour déterminer la cible</p>"
+		},
+		{
+			"id": "Fleshy Tentacle",
+			"name": "Tentacule de Chair",
+			"description": "<p>Gagnez le Trait de Créature @Compendium[wfrp4e-content.traits.4xF7M6ylIiGntekh]{# Tentacules}&nbsp;; cette mutation ne peut-être cachée qu'avec des vêtements</p>"
+		},
+		{
+			"id": "Foul Odour",
+			"name": "Odeur Nauséabonde",
+			"description": "<p>Gagnez le Trait de Créature @Compendium[wfrp4e-content.traits.MVI0lXcg6vvtooAF]{Perturbant}&nbsp;</p>"
+		},
+		{
+			"id": "Furred Skin",
+			"name": "Peau de Fourrure",
+			"description": "Vous ne souffrez plus du froid dû au climat; les effets de l'exposition aux climats chauds sont doublés; cette mutation ne peut pas être cachée"
+		},
+		{
+			"id": "Giant Spider Head",
+			"name": "Tête d'Araignée Géante",
+			"description": "<p>Gagnez le Trait de Créature @Compendium[wfrp4e-content.traits.pLW9SVX0TVTYPiPv]{Morsure} +3 et @Compendium[wfrp4e-content.traits.gFkRm9wS65qe18Xv]{Venin (Intermédiaire}, cette mutation ne peut pas être cachée</p>"
+		},
+		{
+			"id": "Gills",
+			"name": "Branchies",
+			"description": "Vous pouvez respirer sous l'eau; cette mutation ne peut-être cachée qu'avec des vêtements"
+		},
+		{
+			"id": "Glorious Corruption",
+			"name": "Corruption Glorieuse",
+			"description": "<p><span class=\"fontstyle0\">Gagnez l'état </span><span class=\"fontstyle2\">Extenué </span><span class=\"fontstyle0\"> pour chaque semaine passée sans gain de Point de Corruption, ou quand vous n'êtes pas responsable lorsqu'un autre personnage gagne un Point de Corruption; perdez tout les états Exténué dans les autres cas</span></p>"
+		},
+		{
+			"id": "Glowing Skin",
+			"name": "Peau Luisante",
+			"description": "Lumière d'une bougie; cette mutation ne peut pas être cachée"
+		},
+		{
+			"id": "Goat Head",
+			"name": "Tête de Chèvre",
+			"description": "<p>Gagnez le Trait de Créature @Compendium[wfrp4e-content.traits.BqPZn6q3VHn9HUrW]{Cornes}, cette mutation ne peut pas être cachée</p>"
+		},
+		{
+			"id": "Headless",
+			"name": "Sans-tête",
+			"description": "<p>Gagnez le Trait de Créature @Compendium[wfrp4e-content.traits.pTorrE0l3VybAbtn]{Peur}&nbsp;2; les coups à la tête sont considérés comme ratés; cette mutation ne peut pas être cachée</p>"
+		},
+		{
+			"id": "Hopper",
+			"name": "Sauteur",
+			"description": "<p>Votre Mouvement est réduit de 2 et ne peut plus êter augmenté; gagnez le Trait de Créature @Compendium[wfrp4e-content.traits.j6v78dnOOdCB6c3d]{Bond}&nbsp;; cette mutation ne peut pas être cachée</p>"
+		},
+		{
+			"id": "Hounds of Despair",
+			"name": "Chiens du Desespoir",
+			"description": "<p>Gagnez le Symptôme <strong><a class=\"symptom-tag\">Malaise</a></strong> pour <strong><a class=\"chat-roll\">1d10</a></strong> heures lorsque vous échouez à une Test dérive de la Force Mentale</p>"
+		},
+		{
+			"id": "Hurried Masochism",
+			"name": "Masochisme Urgent",
+			"description": "<p>Gagnez le Trait de Créature @Compendium[wfrp4e-content.traits.GbDyBCu8ZjDp6dkj]{Belliqueux}; vous ne pouvez pas fuir volontairement</p>"
+		},
+		{
+			"id": "Inhuman Beauty",
+			"name": "Beauté Inhumaine",
+			"description": "+10 Sociabilité; vous ne faites jamais de cicatrices"
+		},
+		{
+			"id": "Iron Skin",
+			"name": "Peau d'Acier",
+			"description": "+2 PA sur tout le corps; -10 en Agilité"
+		},
+		{
+			"id": "Lingering Foulness",
+			"name": "Grossiereté Persistante",
+			"description": "<p>Gagnez le Symptôme <strong><a class=\"symptom-tag\">Nausée</a></strong> pour <strong><a class=\"chat-roll\">1d10</a></strong>&nbsp; heures après avoir interagit avec de la saleté</p>"
+		},
+		{
+			"id": "Lolling Tongue",
+			"name": "Langue Pendante",
+			"description": "-10 à tout les Tests de Language lorsque vous parlez; cette mutation ne peut pas être cachée"
+		},
+		{
+			"id": "Long Arms",
+			"name": "Bras Allongés",
+			"description": "Si vous et votre opposant avez des armes de même Portée, votre arme compte comme étant plus longue; cette mutation ne peut pas être cachée"
+		},
+		{
+			"id": "Long Legs",
+			"name": "Jambes Allongées",
+			"description": "+2 Mouvement; cette mutation ne peut pas être cachée"
+		},
+		{
+			"id": "Long Neck",
+			"name": "Coup Allongé",
+			"description": "La moitié des coups portés au corps le sont à la Tête; cette mutation ne peut pas être cachée"
+		},
+		{
+			"id": "Mindless Wandering",
+			"name": "Errance Sans Esprit",
+			"description": "<p>Gagnez le Trait de Créature @Compendium[wfrp4e-content.traits.9GNpAqgsKzxZKJpp]{Stupide} lorsque seul</p>"
+		},
+		{
+			"id": "Monstrous Paranoia",
+			"name": "Paranoïa Monstrueuse",
+			"description": "<p>Gagnez le Trait de Créature @Compendium[wfrp4e-content.traits.IPKRMGry6WotuS1G]{Craintif}</p>"
+		},
+		{
+			"id": "Multiple Arms",
+			"name": "Bras Multiples",
+			"description": "<p>Gagnez 1 Attaque gratuite; cette mutation ne peut pas être cachée</p>"
+		},
+		{
+			"id": "Multiple Legs",
+			"name": "Jambes Multiples",
+			"description": "+1 Mouvement; cette mutation ne peut pas être cachée"
+		},
+		{
+			"id": "One Eye",
+			"name": "Un Oeil",
+			"description": "-20 Capacité de Tir; cette mutation ne peut-être cachée qu'avec des vêtements"
+		},
+		{
+			"id": "Panicked Urgency",
+			"name": "Urgence Paniqué",
+			"description": ""
+		},
+		{
+			"id": "Patchy Feathers",
+			"name": "Plumes Eparses",
+			"description": "<p>Lancez deux fois sur la table de localisations pour les placer</p>"
+		},
+		{
+			"id": "Pin Head",
+			"name": "Tête d'épingle",
+			"description": "<p>Gagnez le Trait de Créature @Compendium[wfrp4e-content.traits.9GNpAqgsKzxZKJpp]{Stupide}&nbsp;; cette mutation ne peut pas être cachée</p>"
+		},
+		{
+			"id": "Pointed Head",
+			"name": "Tête Pointue",
+			"description": "<p>Gagnez le Trait de Créature @Compendium[wfrp4e-content.traits.9GNpAqgsKzxZKJpp]{Stupide}&nbsp;; vous ne pouvez pas porter de casque; cette mutation ne peut pas être cachée</p>"
+		},
+		{
+			"id": "Rat Head",
+			"name": "Tête de Rat",
+			"description": "<p>Gagnez le Trait de Créature @Compendium[wfrp4e-content.traits.pLW9SVX0TVTYPiPv]{Morsure} +4 et @Compendium[wfrp4e-content.traits.V0c3qBU1CMm8bmsW]{Infecté}s; cette mutation ne peut pas être cachée</p>"
+		},
+		{
+			"id": "Ravenous Hunger",
+			"name": "Faim Vorace",
+			"description": "<p>Gagnez le Trait de Créature @Compendium[wfrp4e-content.traits.xneBqGOs1QS7kfUr]{Affamé}</p>"
+		},
+		{
+			"id": "Rearranged Face",
+			"name": "Visage Arrangé",
+			"description": "<p>Gagnez le Trait de Créature @Compendium[wfrp4e-content.traits.pTorrE0l3VybAbtn]{Peur}&nbsp;1; Les Personnages cherchant à savoir si vous mentez subissent un malus de -20 à leurs tests d'Intuition; cette mutation ne peut-être cachée qu'avec des vêtements</p>"
+		},
+		{
+			"id": "Rotting Flesh",
+			"name": "Chaire Pourrie",
+			"description": "<p>Gagnez les Traits de Créature @Compendium[wfrp4e-content.traits.pTorrE0l3VybAbtn]{Peur} 2, et @Compendium[wfrp4e.traits.V0c3qBU1CMm8bmsW]{Infecté}&nbsp;</p>"
+		},
+		{
+			"id": "Shifting Colours",
+			"name": "Couleurs Changeantes",
+			"description": "<p>Gagnez le Trait de Créature @Compendium[wfrp4e-content.traits.MVI0lXcg6vvtooAF]{Perturbant}&nbsp;; cette mutation ne peut pas être cachée</p>"
+		},
+		{
+			"id": "Short Legs",
+			"name": "Jambes Rétrécies",
+			"description": "-1 Mouvement; cette mutation ne peut pas être cachée"
+		},
+		{
+			"id": "Skull Face",
+			"name": "Face de Crâne",
+			"description": "<p>Gagnez le Trait de Créature @Compendium[wfrp4e-content.traits.pTorrE0l3VybAbtn]{Peur}&nbsp;2; cette mutation ne peut-être cachée qu'avec des vêtements</p>"
+		},
+		{
+			"id": "Snake Head",
+			"name": "Tête de Serpent",
+			"description": "<p>+1 PA à la Tête; Gagnez les Traits de Créature @Compendium[wfrp4e-content.traits.pLW9SVX0TVTYPiPv]{Morsure} +3 et @Compendium[wfrp4e-content.traits.gFkRm9wS65qe18Xv]{Venin (Intermédiaire)}; cette mutation ne peut pas être cachée</p>"
+		},
+		{
+			"id": "Spiked Skin",
+			"name": "Peau Cloutée",
+			"description": "<p>Pas d'armure possible; +1 PA sur tout les corps; gagnez une attaque gratuite (@Compendium[wfrp4e-content.traits.AtpAudHA4ybXVlWM]{Arme}&nbsp;+4) lors des Charges; cette mutation ne peut pas être cachée</p>"
+		},
+		{
+			"id": "Suckered Hands and Feet",
+			"name": "Mains et Pieds Ventouses",
+			"description": "<p>Gagnez le Trait de Créature @Compendium[wfrp4e-content.traits.KII1gWnxIZ8HzmU5]{Grimpant}&nbsp;; cette mutation ne peut-être cachée qu'avec des vêtements</p>"
+		},
+		{
+			"id": "Terrible Phobia",
+			"name": "Phobie Terrible",
+			"description": "<p>Gagnez le Trait de Créature @Compendium[wfrp4e-content.traits.4CMKeDTDrRQZbPIJ]{Craintif} (Cible), faites un jet sur table des <a class=\"table-click\" data-table=\"fixations\">Idées Fixes</a> pour déterminer la cible</p>"
+		},
+		{
+			"id": "Thorny Scales",
+			"name": "Ecailles Epineuses",
+			"description": "+1 PA sur tout le corps; cette mutation ne peut-être cachée qu'avec des vêtements"
+		},
+		{
+			"id": "Three Eyes",
+			"name": "Troisième Oeil",
+			"description": "<p>Gagnez le Talent @Compendium[wfrp4e-content.talents.9h82z72XGo9tfgQS]{Sens aiguisé}&nbsp;(Vue); cette mutation ne peut-être cachée qu'avec des vêtements</p>"
+		},
+		{
+			"id": "Thrill Seeker",
+			"name": "Amateur de sensations fortes",
+			"description": ""
+		},
+		{
+			"id": "Transparent Skin",
+			"name": "Peau Transparente",
+			"description": "<p>Gagnez le Trait de Créature @Compendium[wfrp4e-content.traits.pTorrE0l3VybAbtn]{Peur}&nbsp;2; cette mutation ne peut pas être cachée</p>"
+		},
+		{
+			"id": "Two Heads",
+			"name": "Bicéphale",
+			"description": "<p>Gagnez leTalent @Compendium[wfrp4e-content.talents.IFKWu98qmWpaSfUi]{Ambidextre}; cette mutation ne peut pas être cachée</p>"
+		},
+		{
+			"id": "Uneven Horns",
+			"name": "Cornes Disparates",
+			"description": "+1 PA à la Tête; compte comme une Arme (Bonus Force); cette mutation ne peut pas être cachée"
+		},
+		{
+			"id": "Unusual Skin",
+			"name": "Peau Curieuse",
+			"description": "Couleur bizarre ou texture spéciale: orange, rayée, piquée, verruqueuse, etc.; cette mutation ne peut pas être cachée"
+		},
+		{
+			"id": "Warp Frenzy",
+			"name": "Frénésie Mutagène",
+			"description": "<p>Gagnez le Trait de Créature @Compendium[wfrp4e-content.traits.yRhhOlt18COq4e1q]{Frénésie}&nbsp;; Quand vous entrez en Frénésie, gagnez temporairement une autre mutation physique</p>"
+		},
+		{
+			"id": "Webbed Feet",
+			"name": "Pieds Palmés",
+			"description": "<p>Gagnez le Trait de Créature @Compendium[wfrp4e-content.traits.sJ3yX1kvzu2hgNq5]{Amphibie}&nbsp;; cette mutation ne peut-être cachée qu'avec des vêtements</p>"
+		},
+		{
+			"id": "Weeping Pus",
+			"name": "Suintement de Pus",
+			"description": "Lancez deux fois sur la table de localisation the <a class = 'table-click' data-table='hitloc'</b></a> pour savoir où"
+		},
+		{
+			"id": "Whiskered Snout",
+			"name": "Groin Poilu",
+			"description": "+10 Pistage; cette mutation ne peut-être cachée qu'avec des vêtements"
+		},
+		{
+			"id": "Wings",
+			"name": "Ailes",
+			"description": "<p>Gagnez le Trait de Créature @Compendium[wfrp4e-content.traits.EO05HX7jql0g605A]{Vol} 60; cette mutation ne peut-être cachée qu'avec des vêtements</p>"
+		},
+		{
+			"id": "Wolf Head",
+			"name": "Tête de Loup",
+			"description": "<p>+1 PA à la Tête; gagnez le Trait de Créature @Compendium[wfrp4e-content.traits.pLW9SVX0TVTYPiPv]{Morsure} +6; gagnez le Talent @Compendium[wfrp4e-content.talents.9h82z72XGo9tfgQS]{Sens Aiguisé (Odorat)}; cette mutation ne peut pas être cachée</p>"
+		}
+	]
+}

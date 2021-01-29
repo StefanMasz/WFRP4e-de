@@ -1,0 +1,273 @@
+{
+  "label": "Bestiaire",
+  "mapping": {
+    "items": {
+      "path": "items", 
+      "converter": "bestiary_traits"
+      },
+    "characteristics": {
+      "path": "data.characteristics",
+      "converter": "npc_characteristics"
+    }
+  },
+  "entries": [
+    {
+      "description": "<p>Ces créatures reptiliennes à huit pattes sont solitaires et insaisissables. Considérées comme étant l'une des plus anciennes créatures du Chaos, on les dit emplies de tant de malveillance et de venin que même le sol sur lequel elles marchent est empoisonné. Leur morsure est également venimeuse, mais c'est leur regard pétrifiant qui est le plus à craindre. <br> Rarement rencontrés de nos jours, les basilics sont des ennemis des plus dangereux. Leurs glandes et leurs organes sont très prisés des Magiciens et Alchimistes. Ce qui fait que des chasseurs opportunistes écoutent souvent les rumeurs sur la présence de basilics dans les espaces sauvages du Vorbergland, et bien peu en reviennent.</p>",
+      "name": "Basilic",
+      "id": "Basilisk"
+    },
+    {
+      "description": "<p>Arpentant les étendues sauvages du Reikland, les ours sont solitaires et généralement farouches, ne devenant agressifs que lorsque des intrus menacent leurs petits ou s'ils sont blessés. Quand la nourriture se raréfie, ils se rapprochent des villages non protégés et des voyageurs, en particulier ceux qui se montrent négligents avec les provisions.</p>",
+      "name": "Ours",
+      "id": "Bear"
+    },
+    {
+      "description": "<p>Élus de Khorne, les sanguinaires règnent sur les champs de bataille du Vieux Monde, arrachant crânes et vies en l'honneur du Dieu Sang. Des dents pointues et acérées dépassent de leurs monstrueux visages cornus. Leur peau rouge-sang est dure comme l'airain, forgée sur l'enclume de guerres incessantes. Chaque sanguinaire porte une lame d'Enfer, diaboliquement tranchante et trempée dans le sang versé, qu'il manient avec témérité, se délectant du doux plaisir de la tuerie aveugle. </p>",
+      "name": "Bloodletter de Khorne",
+      "id": "Bloodletter of Khorne"
+    },
+    {
+      "description": "<p>A la recherche de nourriture dans la forêt, les sangliers sont des créatures solitaires, qui lorsqu'ils sont acculés, se battent en utilisant leurs défenses aiguisées avec une ténacité qui stupéfait ceux qui n'y sont pas préparés.  Bien que la plupart mesurent entre 1m50 et 1m80 de long, certains atteignent des proportions remarquables. Les plus grands d'entre eux sont très prisés par les Orcs, qui les utilisent comme de féroces montures de guerre.</p>",
+      "name": "Sanglier",
+      "id": "Boar"
+    },
+    {
+      "description": "<p>Les pieuvres des tourbières se cachent dans les eaux peu profondes, généralement dans les marécages. Elles y attendent leurs proies dans une immobilité parfaite, capables de sentir les vibrations des créatures en approche, puis surgissant de l'eau boueuse, cherchant à agripper et à noyer en utilisant leurs robustes tentacules. Généralement marbrées de vert et de brun, les pieuvres des tourbières bénéficient d'un camouflage parfaitement adapté aux environnements marécageux, leurs immenses yeux limpides étant souvent le seul indice trahissant leur présence. Beaucoup possèdent des tentacules de six mètres et plus et un corps de plus d'un mètre quatre-vingts de long, mais des histoires prétendent qu'elles atteignent plusieurs fois cette taille, en particulier si elles ont un apport régulier supplémentaire en viande.</p>",
+      "name": "Pieuvre des Tourbières",
+      "id": "Bog Octopus"
+    },
+    {
+      "description": "<p>Les Chaman-Brays sont nés avec la capacité de manier les pouvoirs du Chaos, qu'ils utilisent avec un talent terrifiant. Ils n'ont jamais besoin de se défendre eux-même contre les autres membres de leur horde, ce qui est exceptionnel chez les hommes-bêtes. Personne n'oserait les attaquer puisqu'ils représentent la volonté des Sombres dieux en personne.</p>",
+      "name": "Chaman-Bray",
+      "id": "Bray-Shaman"
+    },
+    {
+      "description": "<p>Les Spectres de Cairn sont des esprits particulièrement puissants, les restes spectraux d'aspirants nécromanciens qui ont cherché à prolonger leur existence grâce à la magie sombre. De leur vivant, ils étaient obstinés ; dans la mort, leur volonté malveillante les pousse à exercer une terrible vengeance sur les âmes ardentes des vivants. Beaucoup de ces Spectres hantent les cairns couverts de brume qui parsèment le paysage de l'Empire, tels que les Hägercrybs déchues.</p>",
+      "name": "Spectre de Cairn",
+      "id": "Cairn Wraith"
+    },
+    {
+      "description": "<p><Les squigs sont de grandes créatures fongoïdes, en général de forme rondes, qui vivent sous terre dans les grottes les plus profondes et les plus sombres. Ils arborent une gueule béante et de grandes dents pointues. Ils sont prisés des gobelins pour leur chair et leur peau, mais aussi comme gardes ou animaux de compagnie./p>",
+      "name": "Squig des Cavernes",
+      "id": "Cave Squig"
+    },
+    {
+      "description": "<p>Énormes brutes lourdement cuirassées, affublées de pointes et d’impressionnants symboles de leurs dieux, les Guerriers du Chaos ne sont clairement plus des humains. Plus rien ne subsiste de leur existence passée, et ils n'existent que pour servir leur sombre chef et rien d'autre. Alors que la plupart des Guerriers du Chaos sont des maraudeurs de haut rang venant des régions loin au nord, quelques cultistes privilégiés peuvent se voir attribuer une armure du Chaos par les Sombres dieux, leur conférant une grande puissance, avec obligation de ne jamais l'ôter de leur vie. Comme peu de guerriers surpassent et qu'aucun chevalier n'est mieux protégé, leur espérance de vie demeure très longue.</p>",
+      "name": "Guerrier du Chaos",
+      "id": "Chaos Warrior"
+    },
+    {
+      "description": "<p>La plupart des Skavens sont originaires de l'un des nombreux et obscurs clans qui se chamaillent constamment pour des raisons diplomatiques, se poignardent dans le dos, ou encore déclarent la guerre aux autres. Ils agissent généralement sur les ordres de Skavens de statut supérieur, mais cherchent toujours un moyen d'obtenir une meilleure position, le plus souvent par trahison. Ils revêtent habituellement du cuir moisi ou des vêtements sales, avec des bouts de métal rouillé et terni leur servant d'armure. Les Guerriers des Clans sont souvent envoyés comme éclaireurs ou pillards pour récupérer des denrées, chercher des malepierres ou rafler des esclaves.</p>",
+      "name": "Guerrier des Clans",
+      "id": "Clanrat"
+    },
+    {
+      "description": "<p>Parmi les créatures les plus pitoyables du Vieux Monde, les goules de cryptes sont des créatures voûtées et hideuses, à la peau cireuse et sale, et dont les dents jaunes bien aiguisées sont capables de déchirer la chair de leurs victimes. Les goules sont attirées par les énergies magiques de Shyish et de Dhar, ce qui signifie dans les faits qu'elles tournent autour vers des cimetières, des cryptes et des champs de bataille.</p>",
+      "name": "Goule de Crypte",
+      "id": "Crypt Ghoul"
+    },
+    {
+      "description": "<p>Pour ceux qui ne sont pas atteints par le fléau du Chaos, il ne représente qu'une abomination contre nature, mais pour ceux qu'il affecte, chaque pas vers la damnation, chaque idée les rapprochant du Chaos semble non seulement logique mais indispensable. Certains adeptes particulièrement dévoués des cultes proscrits reçoivent des \"dons\" de leurs dieux : d'immondes mutations qui les condamneront à mort si les Répurgateurs découvrent leur secret.</p>",
+      "name": "Cultiste",
+      "id": "Cultist"
+    },
+    {
+      "description": "<p>Comme toutes les créatures du Prince de la Souffrance et du Plaisir, les Démonettes de Slaanesh sont aussi belles qu'horribles. Leur allure surnaturelle défiant tout sens et toute rationalité, elles rendent leurs ennemis incapables de résister, tant ils sont charmés par la sensualité de leurs formes monstrueuses. Elles arborent une peau crémeuse et pâle et de grands yeux noirs comme du jais, ainsi qu'une épaisse chevelure flottant au vent et de couleur contre nature. Au lieu de mains, leurs bras sveltes se terminent par des griffes recourbées aux allures de pinces de crabe.</p>",
+      "name": "Démonette of Slaanesh",
+      "id": "Daemonette of Slaanesh"
+    },
+    {
+      "description": "<p>Avec leur tête d'aigle et leur corps de lion, les demigriffons sont de puissantes créatures au port altier. Ils arpentent les forêts et les prairies de l'Empire, généralement loin des habitations humaines, chassant seuls. Des demigriffons captifs sont utilisés par les Ordres de chevaliers les plus indomptables de l'Empire comme destrier de guerre. Contrairement aux plus grandes montures monstrueuses, généralement capturées jeunes et élevées en captivité, la capture d'un demigriffon adulte est un rite de passage dans certains ordres.</p>",
+      "name": "Demigriffon",
+      "id": "Demigryph"
+    },
+    {
+      "description": "<p>Quand la terre restitue les morts, il n'y a pas que les humains qui se relèvent : parodies macabres de loups géants aux yeux rougeoyants, aux lambeaux de chair tombant de leurs carcasses putréfiées, les Loups funestes rôdent la nuit pour le compte de leurs maîtres nécromanciens. Dans le Reikland, on dit qu'ils parcourent les forêts hantées des Hägercrybs lorsque Morrlieb est pleine, à la recherche d'une proies pour assouvir leur insatiable faim, rongés par un appétit de chair et un instinct accru pour l'odeur du sang.</p>",
+      "name": "Loup funeste",
+      "id": "Dire Wolf"
+    },
+    {
+      "description": "<p>Les chiens sont élevés pour une myriade de raisons à travers le Vieux Monde. Alors que les toutous choyés des courtisans d'Altdorf ne sont une menace que pour la dignité d'un Joueur, les races plus grandes, y compris celles élevées pour la guerre et les combats de chiens, peuvent représenter une menace considérable.</p>",
+      "name": "Chien",
+      "id": "Dog"
+    },
+    {
+      "description": "<p>Les dragons régnaient sur les cieux bien avant que les anciennes races n'arpentent le Monde Connu. Même si les Dragons d'aujourd'hui ne sont plus que l'ombre de leurs frères, ils demeurent parmi les créatures connues les plus puissantes de l'Empire. Les quelques anciens Dragons survivants sont immenses et sortent rarement de leur léthargie. S'ils prennent ombrage de la présence d'un petit groupe d'aventuriers, ces derniers ne pourront pas faire grand-chose pour lui résister.</p>",
+      "name": "Dragon",
+      "id": "Dragon"
+    },
+    {
+      "description": "<p>Animés par les lanceurs de Sorts à partir d'immondices des marais et des tourbières, les Bêtes des Marais ne sont que des automates parfaitement stupides créés par magie. Vaguement humanoïdes, ils sont constitués de boue, d'os, de branches et de mucus, et nécéssitent d'importantes quantités de magie pour conserver leur intégrité. Parfois, ils sont animés par des Magicien spécialisés dans la Magie de Jade pour servir de gardes du corps ou pour accomplir une tâche spécifique nécessitant de la force brute ou un meurtre aveugle. Ils s'animent parfois de façon autonome, engendrés dans des bassins d'eau stagnante où le flux de Magie a été corrompu. Le Collège de Jade d'Altdorf conserve une vingtaine de ces créatures comme bêtes de somme, qui effectuent es corvées pour les Magisters supérieurs, maintenu par la focalisation incessante de douzaines d'apprentis.</p>",
+      "name": "Bête des marais",
+      "id": "Fenbeast"
+    },
+    {
+      "description": "<p>Les fimirs sont des créatures reptiliennes discrètes, pourvues d'un seul oeil. Ils chassent dans les recoins sombres des marais et des tourbières de l'ouest du Reikland, mais fuient la lumière du soleil, n'apparaissant habituellement qu'à l'aube ou au crépuscule, ou sous le couvert de la brume et du brouillard pour traquer des victimes à des fins mystérieuses. Des sorcières humaines inconscientes ou suffisamment désespérées pour se mêler des affaires des Démons ont été appelées pour rechercher un Fimirs dans le but de mettre au jour ses pernicieux mystères, car on prétend qu'elles invoquent et contrôlent ces entités. Et quand à savoir s'il est plus risqué de traiter avec les Puissances de la Ruine ou avec les Fimir, à chacun de le décider. Les Fimirs forment une société matriarcale. Le chef de chaque clan est une puissante sorcière appelée Meargh, aidée par un groupe de lanceurs de Sorts inférieurs appelé Dirach. La majorité des membres du clan sont de humbles Sheals, qui sont protégés par une caste de guerriers, les Fimms, au queues garnis de pointes et de boules osseues, utilisés pour briser les membres des adversaires imprudents.</p>",
+      "name": "Fimir",
+      "id": "Fimir"
+    },
+    {
+      "name": "Fr'hough Mournbreath",
+      "id": "Fr'hough Mournbreath"
+    },
+    {
+      "description": "<p>Les fantômes sont les esprits d'âmes tourmentées, mortes alors que leurs affaires terrestres n'étaient pas réglées. Tout comme les squelettes et les zombies, les fantômes peuvent être invoqués par des vampires ou des nécromanciens, ou peuvent hanter des régions imprégnées de Dhar. Dans des cas exceptionnels, des esprits particulièrement déterminés peuvent se frayer un chemin depuis le royaume de Morr pour poursuivre leurs propres affaires, bien que de tels événements attirent rapidement l'attention du culte de Morr, ou des Magisters de l'Ordre de'Améthystes. Lorsqu'ils sont invoqués grâce aux arts nécromantiques, les fantômes se regroupent, formant de grandes armées d'esprits qui fondent sur leurs ennemis, répandant la peur et le désarroi dans leur passage.</p>",
+      "name": "Fantôme",
+      "id": "Ghost"
+    },
+    {
+      "description": "<p>Les géants sont des créatures solitaires qui évitent généralement la civilisation. La plupart chassent dans les endroits éloignés et montagneux entourant l'Empire, se cachent dans des grottes et des ruines oubliées, loin des peuples plus petits, bien qu'ils migrent parfois dans les contreforts à la recherche de nourriture. Ils ont la réputation d'être belliqueux et féroces, à cause de leur taille impressionnante, de leur régime alimentaire à base de bétail et de leur association avec des armées de Peaux Vertes en maraude qui les asservissent. En réalité, beaucoup de géants ont un bon fond, sont en proie à des crises de colère et défendent farouchement leur vie privé, mais ne sont pas nécessairement hostiles aux autres.</p>",
+      "name": "Géant",
+      "id": "Giant"
+    },
+    {
+      "description": "<p>Les rats s'infiltrent partout et sont particulièrement répandus dans les cités et les villes. Plus la population est dense, plus les rats s'entassent avec eux, ce qui est particulièrement néfaste quand les créatures sont porteuses de maladies. Généralement particulièrement petits, ils peuvent atteindre des proportions monstrueuses, et l'on rapporte la présence de rats sous Altdorf, de la taille d'un humain voire plus grands. On utilise des pièges à rats pour les garder sous contrôle.</p>",
+      "name": "Rat géant",
+      "id": "Giant Rat"
+    },
+    {
+      "description": "<p>Les araignées géantes se tapissent au plus profond des forêts et des grottes de l'Empire, mais elles peuvent vivre n'importe où, y compris dans les greniers poussiéreux et les caves sombres. La plupart capturent leurs proies à l'aide des toiles solides avant de leur injecter du venin. Bien que la plupart aient la taille d'un grand rat, certaines espèces d'araignées géantes sont effroyablement grandes. Les gobelins des forêts capturent souvent de grands spécimens pour en faire des montures.</p>",
+      "name": "Araignée Géante",
+      "id": "Giant Spider"
+    },
+    {
+      "description": "<p>Des gobelins, sire ! Par milliers!'</p>\n<p>- Lieutenant Bromkopf, 24ème régiment de Fantassins Reiklander</p>\n<p> </p>\n<p>L'instinct de conservation d'un gobelin, rachitique, malveillant, mais également agile et intelligent, ne doit jamais être sous-estimé. Ces créatures sont néanmoins lâches et se regroupent donc facilement si le nombre leur procure un avantage écrasant. Les gobelins rejoignent souvent les armées d'orcs - pas toujours par choix - s'appropriant opportunément une partie du butin de guerre pendant que les autres prennent part au plus gros des combats.</p>",
+      "name": "Gobelin",
+      "id": "Goblin"
+    },
+    {
+      "description": "<p>Les Gors, les hommes-bêtes les plus courants, hantent presque chaque forêt du Vieux Monde. Leur apparence varie considérablement, mais tous allient des traits bestiaux et humains, souvent avec la tête et les jambes d'un bouc et le torse et les bras d'un humains. La seule caractéristique commune à tous les Gors  est une grande paire de cornes - les plus grandes sont les meilleures, car elles indiquent leur statut parmi les hommes-bêtes - un trait qui les différencie des Ungor et des Changepeaux. Les plus grands Gors sont connus sous le nom de Bestigors.</p>",
+      "name": "Gor",
+      "id": "Gor"
+    },
+    {
+      "description": "<p>Avec les pattes avant et les ailes d'un aigle et l'arrière-train d'un grand chat, les Griffons sont des bêtes élégantes au port naturellement altier et majestueux. Ils nichent dans les montagnes qui entourent l'Empire et sont des tueurs rapides et efficaces, peu enclins à la destruction aveugle de créatures, contrairement aux manticores ou aux hippogriffes. Peut-être à cause de cette apparente noblesse, l'image du Griﬀon est extraordinairement populaire au sein de l'Empire, utilisée sur les blasons, dans l'iconographie religieuse et comme symbole de l'Empire lui-même. Les Griffons sont aussi l'une des bêtes les plus intelligentes. S'ils sont capturés relativement jeunes et soumis à un entraînement approprié, ils peuvent être extrêmement loyaux, capables d'anticiper et d'obéir à une grande variété d'ordres. Ils sont tellement prisés que les chasseurs meurent régulièrement en essayant de se procurer un œufs de Griffons pour le revendre. Le Griﬀon le plus célèbre du Reikland est sans doute Griffe-de-Mort. Installé dans le zoo impérial d'Altdorf, Griffe-de-Mort appartenait au prince héritier du Reikland et aurait parait-il éclos dans les mains de l'empereur Karl-Franz en personne - ce qui a causé l'impression de toutes sortes de dessins humoristiques dans des pamphlets séditieux.</p>",
+      "name": "Griffon",
+      "id": "Griffon"
+    },
+    {
+      "description": "<p>Particulièrement féroces et territoriaux, les hippogriffes possèdent une tête et des ailes d'aigle, le buste d'un lion, et l'arrière-train d'un cheval. Issus le plus souvent des Montagnes Grises, ils attaquent sans provocation, presque imprudents dans leur rage, déchirant la chair en lambeaux pour la dévorer plus tard. Leur rage est telle que des hardes entiers de bétail peuvent être anéantis par un seul Hippogriffe, qui s'enfuit ensuite avec ses proies préférées, abandonnant les restes aux charognards. N'étant pas foncièrement intelligents, lors de la chasse, les hippogriffes ont tendance à tuer tout ce qu'ils voient. Supposant que tout ce qui ne voient plus disparaît à jamais, les victimes réelles des hippogriffes sont relativement peu nombreuses, puisqu'il suffit de trouver une bonne cachette pour leur échapper.</p>",
+      "name": "Hippogryffe",
+      "id": "Hippogryph"
+    },
+    {
+      "description": "<p>Les chevaux sont élevés pour différents usages, servant de monture rapide aux Messagers, de destriers robustes aux Chevaliers et de chevaux de traits pour les fermiers. Ils sont tellement utilisés que le commerce de chevaux est presque une compétition sportive au Reikland. Les maquignons (les vendeurs de chevaux) sans scrupules cherchent à se faire de l'argent sur le dos d'acheteurs ignorants, en lissant la robe et limant les dents des vieux chevaux, ou en leur bourrant les naseaux de petits chiffons pour éponger le mucus. Un acheteur non averti devrait donc se montrer prudent.</p>",
+      "name": "Cheval",
+      "id": "Horse"
+    },
+    {
+      "description": "<p>L'Hydre possède plusieurs têtes semblables à celles d'un lézard et un corps massif qui supporte un entrelacs de cous et de têtes qui soufflent une fumée incandescente et mordent férocement. Créature étonnamment tenace et furtive, les hydres traquent leurs proies sur des kilomètres, mais elles perdent trop souvent patience et chargent, en rugissant de toutes leurs têtes.</p>",
+      "name": "Hydre",
+      "id": "Hydra"
+    },
+    {
+      "description": "<p>Le Jabberslythe est une ancienne créature du Chaos qui se cache dans les profondeurs des forêts les plus sombres. Créature démente, le Jabberslythe est un ignoble mélange de crapaud, de dragon de vase et d'insecte, le tout irrigués de sang noir corrosif qui jaillit à la moindre blessure. Pire encore, tous ceux qui regardent cette horreur perdent l'esprit, baragouinant, se griffant les yeux et riant hystériquement, faisant d'eux des proies facile pour le Jabberslythe. De plus, il dispose d'une langue collante capable de fouetter et de ramener son prochain repas dans sa gueule béante. En accord avec son apparence, la créature se déplace de façon gauche et balourde, et possède même des ailes, bien trop petites pour réussir à son impressionnant gabarit.</p>",
+      "name": "Jabberslythe",
+      "id": "Jabberslythe"
+    },
+    {
+      "description": "<p><em>\"Quand je voyageais avec les elfes d'Ulthuan, j'ai vu beaucoup de choses qui sidéreraient la plupart des gens. Une fois, j'ai aperçu une manticore, avec au beau milieu des sa crinière de lion un visage de haut elfe !  Je suppose que c'était moins une Manticore qu'une Elfticore.\"</em></p>\n<p>- Adhemar Fitztancred, Gardien Gris, conteur et menteur</p>\n<p> Heureusement assez rares, les Manticores sont féroces à l’extrême, animées par la volonté de débarrasser leur territoire, avec une extraordinaire brutalité, des prédateurs rivaux. Cela signifie que se trouver sur le territoire d'une Manticore ne passe pas inaperçu, car des corps d'autres monstres jonchent le sol. La créature possède la tête et le corps déformé d'un grand chat (bien que parfois son visage apparaisse un peu trop humain), les ailes d'une chauve-souris et une queue semblable à un fouet hérissé de barbelés.</p>",
+      "name": "Manticore",
+      "id": "Manticore"
+    },
+    {
+      "description": "<p>Les Minotaures semblables à des taureaux, énormes et massifs, dominent même les plus grands Bestigors. Les hordes possédant un grand nombre de Minotaures se considèrent comme particulièrement bénis par les Sombres Dieux. Les hommes-bêtes se rassemblent autour des Minotaures car leur présence imposante insuffle du courage même aux plus petits d'entre eux.</p>",
+      "name": "Minotaure",
+      "id": "Minotaur"
+    },
+    {
+      "description": "<p>L'un des destins les plus tragiques d'un Humain est de succomber à l'influence mutagène du Chaos. Cela peut se produire sans raison aucune, et même des bébés peuvent naître mutants. Lorsque cela se produit, beaucoup de parents ne trouvent pas la force d'assassiner leurs enfants, mais les abandonnent plutôt dans les bois, pour qu'ils meurent ou soient recueillis par d'autres mutants ou hommes-bêtes. Peu importe qu'ils soient innocents, tous les mutants sont une source de terreur pour le commun des mortels, et la plupart se tournent vers les Sombres dieux, abandonnés et aigris, ou en finissent avant qu'il ne soit trop tard.</p>",
+      "name": "Mutant",
+      "id": "Mutant"
+    },
+    {
+      "description": "<p><em><span class=\"fontstyle0\"><span class=\"fontstyle0\">'Oui, je les ai convoqués parce que j'avais besoin de renforts. Oui, je sais, ils mangent votre bétail. Et oui, je sais que les ogres ont un gros appétit. J'ai mis une annonce au poste de garde local, offrant une petite somme à toute personne ayant les moyens de les faire partir. Cela devrait être bien suffisant\". </span></span></em></p>\n<p><span class=\"fontstyle0\"><span class=\"fontstyle0\" style=\"font-size : 10pt ;\">- Augustus von Raushvel, Baron de Raush Vale</span> &nbsp;<br style=\"font-variant-numeric : normal ; font-variant-east-asian : normal ; hauteur de ligne : normal ; text-align : -webkit-auto ; text-size-adjust : auto ;\"></span></p>\n<p> </p>\n<p><span class=\"fontstyle0\">Grands, bruyants, brutaux et extrêmement violents, les ogres sont animés par le besoin de remplir leur énorme ventre musclé. Ils manquent d'astuce ou d'intelligence pour le faire avec subtilité, optant d'emblée pour la force dans la plupart des situations. Originaires des terres situées très à l'est, les Ogres sont répandus dans le Vieux Monde car ils adorent errer, toujours à la recherche de nouvelles proies. Au cours de leurs voyages à but alimentaires, longs de plusieurs décennies, ils mettent tout en oeuvre pour s'intégrer, portant des vêtements de la région et suivant les coutumes locales qu'ils comprennent, car cela leur permet d'attirer leur prochaine proie.</span></p>\n<p><span class=\"fontstyle0\"><br>Dans l'Empire, ils servent souvent dans l'Armée et sont souvent aperçus dans les grandes villes, où ils sont recrutés pour leurs muscles. La guilde des Vieux Halfling (des entrepreneurs en construction) s'est effectivement accaparé le travail bon marché des ogres dans nombre de villes et cités de l'Empire, source d'un grand mécontentement pour ses rivaux.</span></p>\n<p> </p>\n<h3>Halflings et ogres</h3>\n<p><span class=\"fontstyle0\">Personne ne sait pourquoi, mais les Halflings et les Ogres s'entendent bien. Beaucoup d'anciens des clans Halfling ont un ou deux gardes du corps ogres, et on dit que l'ancien de la Moot voyage rarement sans son vieil ami Zorarth Mord-Gigot, un ogre aux cheveux blancs qui vit dans l'empire depuis près d'un siècle. En retour, de nombreuses bandes de mercenaires ogres emploient des Halfling comme cuisiniers. Cependant, cette relation ne fonctionne pas toujours. Golgfag Mang'homme, le capitaine d'un groupe de mercenaire du nom de (quelle imagination !) Mang'hommes de Golgfag, employait notoirement un petit clan de Halflings aux cuisines, pour lui et ses hommes après les grandes victoires. Jusqu'à ce que Golgfag réalise que les cuisiniers avaient un bien meilleur goût que la nourriture qu'ils préparaient...</p>",
+      "name": "Ogre",
+      "id": "Ogre"
+    },
+    {
+      "description": "<p>Nous êtres les meilleurs. Nous pas êtres des foutus Gobbos verts ou des trolls stupides, nous être plus fort ! Et si quelqu'un dit que nous pas fort, nous taper dur sur foutue tête.\n<p>- Gurkk Chopecrân', Chef Orc</p>\n<p> </p>\n<p>Les Orcs sont mauvais, brutaux, belliqueux et presque immunisés contre la douleur. Ils possèdent un corps massif et de larges épaules puissantes et ne laisseront pas une chose aussi insignifiante que la perte d'un bras faire obstacle à une bonne bagarre. Ils sont taillés pour le combat et n'aiment rien de plus au monde. Quand ils n'ont pas d'ennemis à combattre, ils s'en prennent à des groupes rivaux de Peaux-vertes. S'il n'y a pas de groupe rival, ils se battront entre eux. Bien que moins nombreux que les gobelins, ils sont plus grands et plus robustes, et toutes les occasions sont bonnes pour le faire savoir. Les Orcs peuvent atteindre des tailles prodigieuses, et les plus grands, les plus forts, les plus robustes et les plus agressifs d'entre eux se voient par conséquent accorder plus de prestige : la force entraîne le pouvoir dans leur société guerrière. Certains Orcs chevauchent d'énormes sangliers pendant les batailles, un spectacle assez terrifiant.</p>",
+      "name": "Orc",
+      "id": "Orc"
+    },
+    {
+      "description": "<p>Les Pégases sont de magnifiques chevaux blancs pourvus d'ailes de cygne. Ce sont des voltigeurs acharnés et inépuisables qui se déplacent en grandes hordes dans les haute montagne, semblant prendre beaucoup de plaisir à virevolter dans les  courants d'air chauds tourbillonnants. Les pégases font de parfaits destriers et beaucoup de guerriers ou d'éclaireurs ont tenté d'en capturer un. Ils sont très intelligents, et certains pensent qu'ils ne se laissent capturer que s'ils le veulent bien, ce qui a fait naître toutes sortes de légendes romantiques fantaisistes insistant sur le fait que seuls les plus dignes ou les plus vertueux pouvaient être choisis.</p>",
+      "name": "Pégase",
+      "id": "Pegasus"
+    },
+    {
+      "description": "<p>Les pigeons sont élevés dans tout le Reikland pour transporter des messages de toutes sortes. Récemment, ils ont gagné en renommé pour le transport de chargements plus mortels, car l'oiseau facilement accessible est devenu populaire parmi les ingénieurs, qui les utilisent pour déployer leurs \"bombes-pigeons\" à des degrés divers de réussite.</p>",
+      "name": "Pigeon",
+      "id": "Pigeon"
+    },
+    {
+      "description": "<p>Les Rats Ogres sont des brutes imposantes, élevées dans les cavernes sombres de l'Empire souterrain par les Maîtres corrupteurs du Clan Molder. Ils sont stupides, mais intrépides et implacables au combat lorsqu'ils sont dirigés par leurs maîtres Skavens. Rarement rencontrés seuls, ils ont tendance à accompagner et servir de gardes du corps à des prophètes gris, ou autres Skavens de haut rang.</p>",
+      "name": "Rat Ogre",
+      "id": "Rat Ogre"
+    },
+    {
+      "description": "<p>Les squelettes sont les restes décharnés de ceux qui sont morts depuis longtemps, réanimés, parodies de vivants, par une magie sombre pour arpenter la terre. Ceux qui sont morts sans recevoir le repos accordé par les rituels de Morr, le Dieu de la mort, peuvent être ressuscités sous cette forme par un nécromancien suffisamment puissant. Totalement dépourvus d'intelligence, les squelettes combattent jusqu'à ce que leurs os soient réduits en miettes. Leur ténacité n'a rien à voir avec du courage, ils n'ont tout simplement peur de rien et ne peuvent pas être tués puisqu'ils ne sont vivants.</p>\n<h3>Options : Des Os</h3>\n<p>Pour Refléter la nature osseuse des Squelettes, vous pouvez imposer une pénalité de -1 Dégâts aux blessures infligées par les armes n'ayant pas le trait Assommante.</p>",
+      "name": "Squelette",
+      "id": "Skeleton"
+    },
+    {
+      "name": "Slenderthigh Whiptongue",
+      "id": "Slenderthigh Whiptongue"
+    },
+    {
+      "description": "<p>On trouve des serpents dans tout l'Empire, en particulier dans les forêts profondes. La plupart sont inoffensifs, mais certains utilisent un venin mortel ou enserrent leurs victimes jusqu'à ce qu'elles meurent par suffocation. Comme beaucoup de créatures du Vieux Monde, ils peuvent atteindre des proportions gigantesques, représentant un réel danger même pour le plus fort des mercenaires.</p>",
+      "name": "Serpent",
+      "id": "Snake"
+    },
+    {
+      "description": "<p>Créatures écervelées, s'apparentant à des chiots excités et incontrôlables, les Snotlings sont des charognards et des imitateurs-nés, ramassant des os et des choses brillantes partout où ils passent, ou copiant les actions de tout ce qu'ils voient. Si les gobelins ou les orcs les poussent au conflits, ils se battent en nuées nauséabondes, essayant de submerger leurs ennemis par le poids du nombre. Pour cela, ils trouvent toutes sortes de substances répugnantes et toxiques, comme des champignons vénéneux et des déjections, à lancer sur leurs ennemis.</p>",
+      "name": "Snotling",
+      "id": "Snotling"
+    },
+    {
+      "description": "<p>Les combattants d'élite des Skavens sont les Vermines de choc : plus grands, plus forts, plus endurcis et plus disciplinés que les Guerrier des clans. Ils servent de base à tout assaut majeur et constituent les gardes du corps de Skavens importants. Les Vermines de chocs sont généralement lourdement et cuirassées, arborant les combinaisons d'armes favorites de leur clan.</p>",
+      "name": "Vermine de choc",
+      "id": "Stormvermin"
+    },
+    {
+      "description": "<p>Les Banshees sont les vestiges spectraux de sorcières autrefois puissantes dont les esprits sont imprégnés de l'énergie fétide de Dhar. Leur après-vie sans repos est tourmentée par le chagrin et l'amertume, un vide béant dans leurs âmes qui les pousse à émettre des hurlements déchirants, assez terrifiants et puissants pour plonger dans la folie ceux qui l'entendent, ou même arrêter leur cœur.</p>",
+      "name": "Banshee",
+      "id": "Tomb Banshee"
+    },
+    {
+      "description": "<p>Les trolls sont des créatures sales et immondes qui infestent tous les coins du Vieux Monde. Prompts à s'adapter à leur environnement, quel que soit leur type, ils sont tous énormes et imposants. Sombres et mus par leurs pulsions alimentaires, ils aiment tout de même amasser des biens et leurs repaires peuvent renfermer des trésors composés d'objets utiles et de valeur... et des restes macabres de leurs repas. Bien qu'il existe beaucoup d'espèces de Trolls, ils partagent tous des traits communs : ils sont généralement extrêmement stupides, ce qui signifie que tout ennemi à l'esprit vif d'esprit peut avoir un avantage sur eux ; ils peuvent régénérer, ce qui les rend extrêmement difficiles à tuer ; et ils sont capables de régurgiter leur dernier repas à volonté, en vomissant de la bile âcre sur une distance particulièrement impressionnantes - bien qu'ils répugnent à le faire, car la faim les tenaille alors.</p>",
+      "name": "Troll",
+      "id": "Troll"
+    },
+    {
+      "description": "<p>Les Ungors possèdent des cornes vestigiales ou très courtes, et il sont donc à peine considérés comme des \"Gor\" par le reste de la horde. Certains possèdent même des visages semblables à ceux des humains, faisant d'eux des infiltrés efficace, mais aussi des cibles faciles aux moqueries. En effet, les Ungors sont durement traités par les Gors, et sont souvent chétifs et mal nourris par rapport à leurs frères aux plus grandes cornes, ce qui en fait des créatures aigries, enclines à reporter leur jalousie sur les autres.</p>",
+      "name": "Ungor",
+      "id": "Ungor"
+    },
+    {
+      "description": "<p>Les vampires se considèrent comme les rois de la nuit. Beaucoup peuvent passer pour des humains, certains opérant même durant de longues périodes parmi les vivants. Malgré leur apparence extérieure d'humains, aucun coeur ne bat sous leur peau pâle, et au lieu des faims des mortels, ils souffrent d'une soif incessante de sang. Tous les vampires du Vieux Monde sont en fin de compte tous issus de lignées anciennes, apparues il y a des millénaires au Sud. Beaucoup sont extrêmement fiers de leur héritage, des traits et traditions qui les différencient des autres. Les vampires de lignées différentes sont souvent de grands rivaux, mais ils sont assez intelligents pour se rassembler quand cela devient nécessaire pour faire face aux ennemis les plus importants.</p>",
+      "name": "Vampire",
+      "id": "Vampire"
+    },
+    {
+      "description": "<p>La plupart des vampires dissimulent leur besoin de sang sous une apparence de civilité et de savoir-vivre, se définissant eux-même comme les aristocrates des morts-vivants. Cependant, certains fuient leur côté humain et embrassent la bête qui les habitent. Ces Chauve-Souris Vampires sont des créatures cruelles et sauvages, abandonnées à l'autosatisfaction animale. Elles se manifestent sous la forme de grandes bêtes aux allures de chauve-souris, se délectant de leur besoin primaire de sang.</p>",
+      "name": "Chauve-Souris Vampire",
+      "id": "Varghulf"
+    },
+    {
+      "description": "<p>Les loups chassent généralement en meute et ont la réputation d'être des chasseurs tenaces, poursuivant leurs proies sur des dizaines de kilomètres. Plusieurs espèces rôdent dans le Reikland, dont les redoutables loups géants, qui sont capturés et élevés par les gobelins qui les utilisent comme gardes ou montures.</p>",
+      "name": "Loup",
+      "id": "Wolf"
+    },
+    {
+      "description": "Bien que les incultes les confondent souvent à tort avec des dragons, au-delà de quelques similitudes superficielles, les vouivres nauséabondes n'ont rien de commun avec ces dignes créatures. Charognards lâches et malvoyants, elles ont tendance à assouvir leur énorme appétit en choisissant des créatures sans défense - principalement des moutons et des chèvres -, évitant autant que possible le combat direct. Contrairement aux autres monstres des Montagnes, les vouivres ne sont pas particulièrement territoriales, et se déplacent généralement lorsque leurs territoires de chasse sont envahis.",
+      "name": "Vouivre",
+      "id": "Wyvern"
+    },
+    {
+      "description": "<p>Comme les squelettes, les zombies sont des créatures mortes-vivantes réanimées et maintenues \"en vie\" par d'ignobles magies. Contrairement aux Squelettes, ils sont morts si récemment qu'une grande partie de leur corps subsiste encore, la chair malade et pourrissante s'affaissant sur leurs organes boursouflés et envahis par les vers. Quand ils combattent, leur chair et leurs organes se détachent de leurs os, libérant des effluves nauséabonde et toxiques, suffisamment puissantes pour retourner l'estomac de quiconque, à part, peut être, les soldats les plus endurcis.</p>",
+      "name": "Zombie",
+      "id": "Zombie"
+    }
+  ]
+}

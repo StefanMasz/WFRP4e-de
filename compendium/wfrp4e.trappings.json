@@ -1,0 +1,1214 @@
+{
+	"label": "Equipement",  
+	"mapping": {      
+    "special":  "data.special.value",
+    "qualities": {
+      "path": "data.qualities.value",
+      "converter": "trapping_qualities_flaws"
+    },
+    "flaws": {
+      "path": "data.flaws.value",
+      "converter": "trapping_qualities_flaws"
+    }
+  },
+	"entries": [
+		{
+			"id": "Abacus",
+			"name": "Boulier",
+			"description": ""
+		},
+		{
+			"id": "Ale, Keg",
+			"name": "Cervoise, Tonnelet",
+			"description": "<p>Capacité de 13 lites. Les tonnelets vides peuvent être remplis pour 18d.</p>"
+		},
+		{
+			"id": "Ale, pint",
+			"name": "Cervoise, pinte"
+		},
+		{
+			"id": "Amulet",
+			"name": "Amulette"
+		},
+		{
+			"id": "Animal Trap",
+			"name": "Pièges à animal",
+			"description": "<p>Utilisé pour attraper du gibier ( cf. page 131)</p>"
+		},
+		{
+			"id": "Antitoxin Kit",
+			"name": "Nécessaire anti-poison",
+			"description": "<p>Renferme un petit couteau, des herbes et un bocal des sanguse. Un test de Guérison réussi avec un nécessaire antipoison retire tous les Etats <em>Empoisonné</em<. Le traitement prend au moins deux rounds.</p>"
+		},
+		{
+			"id": "Arrow",
+			"name": "Flèche",
+			"description": "<p>Empaleuse</p>"
+		},
+		{
+			"id": "Backpack",
+			"name": "Sac à dos",
+			"description": ""
+		},
+		{
+			"id": "Ball",
+			"name": "Balle"
+		},
+		{
+			"id": "Bandage",
+			"name": "Bandages",
+			"description": "<p>Un testde Guérison ou de Dextérité réussi retire +1 Etat hémorragique supplémetaire</p>"
+		},
+		{
+			"id": "Barrel",
+			"name": "Baril",
+			"description": "<p>Capacité: 145 litres de liquide.</p>\n<p>&nbsp;</p>"
+		},
+		{
+			"id": "Bastard Sword",
+			"name": "Epée Batârde",
+			"description": ""
+		},
+		{
+			"id": "Baton ",
+			"name": "Baton ",
+			"description": ""
+		},
+		{
+			"id": "Bedroll ",
+			"name": "Sac de couchage ",
+			"description": "<p>Les Test de Résistance effectués pour résister au foid (cf. page 181) gagnent un bonus de +20 quand vous l'utilisez pour vous reposer.</p>"
+		},
+		{
+			"id": "Black Lotus",
+			"name": "Lotus Noir",
+			"description": "<p>Cette plante mortelle pousse dans les jungles du Sud, et elle est utilisée pour empoisonner les lames. Les victimes qui subissent au moins 1 Point de Blessure d'une lame recouverte de sa sève subissent immédiatement 2 Etats <em>Empoisonnés</em>. Combattu avec un <strong>Testde Resistance Complexe (-10)</strong></p>"
+		},
+		{
+			"id": "Blanket",
+			"name": "Couverture",
+			"description": "<p>Les Test de Résistance effectués pour résister au foid (cf. page 181) gagnent un bonus de +20 quand vous l'utilisez pour vous reposer.</p>"
+		},
+		{
+			"id": "Blunderbuss",
+			"name": "Tromblon",
+			"description": "",
+      "special": "Le Tromblon est la seule arme qui peut utiliser les Petites Munitions et les Munitions Improvisées." 
+		},
+		{
+			"id": "Boat Hook",
+			"name": "Gaffe",
+			"description": ""
+		},
+		{
+			"id": "Boiled Leather Breastplate",
+			"name": "Plastron en Cuir Bouilli",
+			"description": ""
+		},
+		{
+			"id": "Bolas",
+			"name": "Bolas"
+		},
+		{
+			"id": "Bolt",
+			"name": "Carreau",
+			"description": ""
+		},
+		{
+			"id": "Bomb",
+			"name": "Bombe"
+		},
+		{
+			"id": "Book, Apothecary",
+			"name": "Livre, Apothicaire",
+			"description": ""
+		},
+		{
+			"id": "Book, Art",
+			"name": "Livre, Art",
+			"description": ""
+		},
+		{
+			"id": "Book, Cryptography",
+			"name": "Livre, Cryptographie",
+			"description": "</p>"
+		},
+		{
+			"id": "Book, Engineer",
+			"name": "Livre, Ingénierie",
+			"description": ""
+		},
+		{
+			"id": "Book, Law",
+			"name": "Livre, Juridique",
+			"description": ""
+		},
+		{
+			"id": "Book, Magic",
+			"name": "Livre, Magick",
+			"description": ""
+		},
+		{
+			"id": "Book, Medicine",
+			"name": "Livre, Médecine",
+			"description": ""
+		},
+		{
+			"id": "Book, Religion",
+			"name": "Livre, Religion",
+			"description": ""
+		},
+		{
+			"id": "Boots",
+			"name": "Bottes"
+		},
+		{
+			"id": "Bow",
+			"name": "Arc"
+		},
+		{
+			"id": "Bowl",
+			"name": "Bol",
+			"description": ""
+		},
+		{
+			"id": "Brass Penny",
+			"name": "Sous de Cuivre",
+			"description": ""
+		},
+		{
+			"id": "Broom",
+			"name": "Balai",
+			"description": ""
+		},
+		{
+			"id": "Bucket",
+			"name": "Seau",
+			"description": ""
+		},
+		{
+			"id": "Bugman’s XXXXXX Ale, pint ",
+			"name": "Cervoise de Bugman, pinte ",
+			"description": "<p>Une chope de cervoise de Burgman compte pour 4 chopes de cervoise normale pour le calcul de l'intoxication (cf page 129), et confère une immunité aux Tests de Peur pour 1d10 heures.</p>"
+		},
+		{
+			"id": "Bullet and Powder",
+			"name": "Poudre et Balles",
+			"description": ""
+		},
+		{
+			"id": "Candle",
+			"name": "Bougie",
+			"description": "<p>Fourni de la lumière jusqu'à 10 mètres.</p>"
+		},
+		{
+			"id": "Canvas Tarp",
+			"name": "Bâche de toile",
+			"description": ""
+		},
+		{
+			"id": "Cart",
+			"name": "Charette",
+			"description": "<p>Nécessite un conducteur et un animal de trait.</p>"
+		},
+		{
+			"id": "Cask",
+			"name": "Tonneau",
+			"description": "<p>Capacité: 45 litres de liquide.</p>"
+		},
+		{
+			"id": "Cavalry Hammer",
+			"name": "Marteau de Cavalerie",
+			"description": ""
+		},
+		{
+			"id": "Chalk",
+			"name": "Craie",
+			"description": ""
+		},
+		{
+			"id": "Charcoal stick",
+			"name": "Batonnet de fusain",
+			"description": ""
+		},
+		{
+			"id": "Chicken",
+			"name": "Poulet"
+		},
+		{
+			"id": "Chisel",
+			"name": "Ciseau",
+			"description": ""
+		},
+		{
+			"id": "Cloak",
+			"name": "Cape",
+			"description": "<p>Protège contre les éléments</p>"
+		},
+		{
+			"id": "Clothing",
+			"name": "Vêtement",
+			"description": ""
+		},
+		{
+			"id": "Coach",
+			"name": "Diligence",
+			"description": "<p>Nécessite 2 conducteurs et quatre chevaux.</p>"
+		},
+		{
+			"id": "Coat",
+			"name": "Manteau",
+			"description": "<p>Protège le porteur contre les éléments et le froid extrême ; sans un bon manteau ou similaire, vous recevrez des pénalites pour résister à l'exposition au froid (cf. page 181).</p>"
+		},
+		{
+			"id": "Comb",
+			"name": "Peigne",
+			"description": ""
+		},
+		{
+			"id": "Cooking Pot",
+			"name": "Marmite",
+			"description": ""
+		},
+		{
+			"id": "Coracle",
+			"name": "Coracle",
+			"description": "<p>Les coracles sont de petits bateaux légers qui conviennent pour une personne et peuvent être facilement transportés. Ils sont fait de cuir, ou d'écorce, tendu sur un cadre de bois, et dirigés à l'aide d'une seule rame.</p>"
+		},
+		{
+			"id": "Courtly Garb",
+			"name": "Habit de Cour",
+			"description": ""
+		},
+		{
+			"id": "Crossbow",
+			"name": "Arbalète",
+			"description": ""
+		},
+		{
+			"id": "Crossbow Pistol",
+			"name": "Arbalète de Poing"
+		},
+		{
+			"id": "Cup",
+			"name": "Coupe",
+			"description": ""
+		},
+		{
+			"id": "Cutlery",
+			"name": "Couvert",
+			"description": ""
+		},
+		{
+			"id": "Dagger",
+			"name": "Dague"
+		},
+		{
+			"id": "Dart",
+			"name": "Fléchette"
+		},
+		{
+			"id": "Davrich Lamp",
+			"name": "Lampe Davrich",
+			"description": "<p>Une lampe de sureté. Elle abrite une bougie qui emet une lumière vive en présence de grisou, après 1d10 rounds d'exposition à la lampe, le grisou explosera.</p>"
+		},
+		{
+			"id": "Deck of Cards",
+			"name": "Paquet de cartes",
+			"description": ""
+		},
+		{
+			"id": "Destrier",
+			"name": "Destrier",
+			"description": "<p>Cheval entraîné pour la guerre.</p>"
+		},
+		{
+			"id": "Dice",
+			"name": "Dé",
+			"description": ""
+		},
+		{
+			"id": "Digestive Tonic",
+			"name": "Tonique digestif",
+			"description": "<p>Octroie +20 aux Tests pour se remettre des maux d'estomacs tels que la Courante Galopante ou le Flux Sanglant (cf. page 186).</p>"
+		},
+		{
+			"id": "Disguise Kit",
+			"name": "Nécessaire de déguisement",
+			"description": "<p>Contient 4 déguisements ainsi que des éléments pour changer d'apparence.</p>"
+		},
+		{
+			"id": "Dog collar and lead",
+			"name": "Collier et laisse"
+		},
+		{
+			"id": "Doll",
+			"name": "Poupée",
+			"description": ""
+		},
+		{
+			"id": "Draught Horse",
+			"name": "Cheval de trait",
+			"description": ""
+		},
+		{
+			"id": "Ear Pick",
+			"name": "Cure Oreilles",
+			"description": ""
+		},
+		{
+			"id": "Earth Root",
+			"name": "Racine de Terre",
+			"description": "<p>Annule les effets des bubons de la Peste Noire. De plus, gagnez un bonus de +10 à tous les Tests concernant cette malade. Dose : 1 / jour.</p>"
+		},
+		{
+			"id": "Elf Arrow",
+			"name": "Flèche Elfe",
+			"description": ""
+		},
+		{
+			"id": "Elf Bow",
+			"name": "Arc Elfique"
+		},
+		{
+			"id": "Engineering Marvel",
+			"name": "Merveille d'ingénierie",
+			"description": "<p>Oeuvre d'art réalisée par une Guilde d'Ingénieur. Permet d'ignorer complètement la perte d'un membre (oreille, bras, main, jambe). Si la Merveille subit une Blessure Critique, elle tombe automatiquement panne et doit être réparée (au moins 10% du prix de base, en fonction de la Blessure Critique reçue).</p>"
+		},
+		{
+			"id": "Eye patch",
+			"name": "Cache Oeil",
+			"description": ""
+		},
+		{
+			"id": "Face Powder",
+			"name": "Poudre pour le visage",
+			"description": ""
+		},
+		{
+			"id": "False Eye",
+			"name": "Oeil de verre",
+			"description": ""
+		},
+		{
+			"id": "False Leg",
+			"name": "Fausse jambe",
+			"description": "<p>Une fausse jambe (ou un faux pied) vous permet d'ignorer 1 Point de Mouvement perdu par la perte de votre membre. De plus, pour 100 XP, vous pouvez récupérer le dernier point de Mouvement perdu, car vous vous entraînez à utiliser votre prothèse, et pour 200XP, vous réaprenez comment utiliser de nouveau <em>Esquive</em>.</p>"
+		},
+		{
+			"id": "Faxtoryll",
+			"name": "Faxtoryll",
+			"description": "<p>Retirent les Etats <em>Hémorragiques</em> sans Test de Guérison. Dose : 1 par Blessure Cirtique.</p>"
+		},
+		{
+			"id": "Fish Hooks",
+			"name": "Hameçons",
+			"description": ""
+		},
+		{
+			"id": "Flail",
+			"name": "Fléau"
+		},
+		{
+			"id": "Flask",
+			"name": "Flasque",
+			"description": "<p>Capacité : un demi-litre de liquide.</p>\n<p>&nbsp;</p>"
+		},
+		{
+			"id": "Flask of Spirits",
+			"name": "Fasque de Liqueur"
+		},
+		{
+			"id": "Floor Brush",
+			"name": "Brosse",
+			"description": ""
+		},
+		{
+			"id": "Foil",
+			"name": "Fleuret"
+		},
+		{
+			"id": "Crowbar",
+			"name": "Pied de Biche"
+		},
+		{
+			"id": "Food, groceries/day",
+			"name": "Nourriture, rations/jour",
+			"description": ""
+		},
+		{
+			"id": "Gavel",
+			"name": "Marteau",
+			"description": ""
+		},
+		{
+			"id": "Gilded Nose",
+			"name": "Nez doré",
+			"description": "<p>En général en bois ou céramique, le terme demeure très utilisé. Vous pouvez ignorer le malus de Sociabilité lorsque vous le portez.</p>"
+		},
+		{
+			"id": "Gloves",
+			"name": "Gants",
+			"description": ""
+		},
+		{
+			"id": "Gold Crown",
+			"name": "Couronne d'Or",
+			"description": ""
+		},
+		{
+			"id": "Grain Flail",
+			"name": "Fléau à Grain"
+		},
+		{
+			"id": "Grappling Hook",
+			"name": "Grappin",
+			"description": ""
+		},
+		{
+			"id": "Great Axe",
+			"name": "Grande Hache"
+		},
+		{
+			"id": "Guild License",
+			"name": "License de Guilde",
+			"description": ""
+		},
+		{
+			"id": "Halberd",
+			"name": "Hallebarde"
+		},
+		{
+			"id": "Hammer",
+			"name": "Marteau",
+			"description": ""
+		},
+		{
+			"id": "Hand Mirror",
+			"name": "Miroir à main",
+			"description": ""
+		},
+		{
+			"id": "Hand Weapon",
+			"name": "Arme à 1 main",
+			"description": ""
+		},
+		{
+			"id": "Handgun",
+			"name": "Arquebuse",
+			"description": ""
+		},
+		{
+			"id": "Hat",
+			"name": "Chapeau",
+			"description": ""
+		},
+		{
+			"id": "Healing Draught",
+			"name": "Potion de Guérison",
+			"description": "Si vous avez plus de 0 Points de Blessure, récupérez immédiatement (Bonus d'Endurance) Points de Blessure. Dose : 1 par rencontre.</p>"
+		},
+		{
+			"id": "Healing Poultice",
+			"name": "Cataplasme de Guérison",
+			"description": "<p>Aucune infection mineure issue d'une Blessure Critique lorsqu'appliqué.</p>"
+		},
+		{
+			"id": "Heartkill",
+			"name": "Brise-coeur",
+			"description": "<p>Ingéré, la mixture mortelle inflige 4 Etats <em>Empoisonné</em>. Combattu avec un <strong>Test de Resistance Complexe (-10)</strong.</p>"
+		},
+		{
+			"id": "Heavy Crossbow",
+			"name": "Arbalète Lourde"
+		},
+		{
+			"id": "Hochland Long Rifle",
+			"name": "Long Fusil d'Hochland",
+			"description": ""
+		},
+		{
+			"id": "Hoe",
+			"name": "Binette",
+			"description": ""
+		},
+		{
+			"id": "Homing Pigeon",
+			"name": "Pigeon Voyageur"
+		},
+		{
+			"id": "Hood",
+			"name": "Capuchon",
+			"description": ""
+		},
+		{
+			"id": "Hook",
+			"name": "Crochet",
+			"description": "<p>Cf. page 308</p>"
+		},
+		{
+			"id": "Hunting Dog",
+			"name": "Chien de chasse"
+		},
+		{
+			"id": "Improvised Shot and Powder",
+			"name": "Munitions Improvisées Balles et Poudres",
+			"description": ""
+		},
+		{
+			"id": "Improvised Weapon",
+			"name": "Arme Improvisée",
+			"description": ""
+		},
+		{
+			"id": "Incendiary",
+			"name": "Molotof",
+			"special": "Un Molotof attribue 1+DR Etat <em>Aveuglé</em> à toutes les cibles touchées."
+		},
+		{
+			"id": "Instrument",
+			"name": "Instrument",
+			"description": ""
+		},
+		{
+			"id": "Javelin",
+			"name": "Javelot"
+		},
+		{
+			"id": "Jewellry",
+			"name": "Bijoux",
+			"description": ""
+		},
+		{
+			"id": "Jug",
+			"name": "Cruche",
+			"description": "<p>Capacité: 4/5 litres de liquide.</p>"
+		},
+		{
+			"id": "Key",
+			"name": "Clé",
+			"description": ""
+		},
+		{
+			"id": "Knife",
+			"name": "Couteau"
+		},
+		{
+			"id": "Knife",
+			"name": "Couteau",
+			"description": ""
+		},
+		{
+			"id": "Knuckledusters",
+			"name": "Cestes"
+		},
+		{
+			"id": "Lamp Oil",
+			"name": "Lampe à Huile",
+			"description": "<p>Contient du combustible pour 4 heures en standard, ou 8 heures avec une flamme faible.</p>"
+		},
+		{
+			"id": "Lance",
+			"name": "Lance",
+			"description": "",
+			"special": "Les Lances comptent comme Armes Improvisées si elles sont utilisées lors d'un round où vous n'avez pas chargé."
+		},
+		{
+			"id": "Lantern",
+			"name": "Lanterne",
+			"description": "<p>Illumine à 20 mètres.</p>"
+		},
+		{
+			"id": "Lasso",
+			"name": "Lasso",
+			"special": "Les armes immobilisantes ne possèdent pas de fourchette de portée, juste la portée indiqée."
+		},
+		{
+			"id": "Lead Bullet",
+			"name": "Balle de plomb",
+			"description": ""
+		},
+		{
+			"id": "Leaflet",
+			"name": "Brochure"
+		},
+		{
+			"id": "Leather Jack",
+			"name": "Veste de cuir"
+		},
+		{
+			"id": "Leather Jerkin",
+			"name": "Justaucorps de cuir"
+		},
+		{
+			"id": "Leather Leggings",
+			"name": "Jambières de cuir"
+		},
+		{
+			"id": "Leather Skullcap",
+			"name": "Calotte de cuir"
+		},
+		{
+			"id": "Legal Document",
+			"name": "Document légal",
+			"description": ""
+		},
+		{
+			"id": "Light Warhorse",
+			"name": "Cheval de guerre léger",
+			"description": "<p>Cheval entraîner pour la guerre</p>"
+		},
+		{
+			"id": "Lock Picks",
+			"name": "Outil de crochetage",
+			"description": "<p>Permet de crocheter sans malus</p>"
+		},
+		{
+			"id": "Longbow",
+			"name": "Arc long"
+		},
+		{
+			"id": "Mad Cap Mushrooms",
+			"name": "Bonnet de Fou",
+			"description": "<p>Induisent une Rage Berserk : +10 en Force, +4 Blessures et le Talent <em>Frénésie</em>. Quand l'effet se dissipe, l'utilisateur perd 1d10 Points de Blessure. Si le consommateur n'est pas un peaux-verte : <strong>Test d'Endurance Intermédiaire</strong> ou Infection Mineure. Durée: actif tant que mâché plus 2d20 minutes. supplémentaires.</p>"
+		},
+		{
+			"id": "Mail Chausses",
+			"name": "Chausses de Mailles"
+		},
+		{
+			"id": "Mail Coat",
+			"name": "Cotte de Mailles"
+		},
+		{
+			"id": "Mail Coif",
+			"name": "Coiffe de Mailles"
+		},
+		{
+			"id": "Mail Shirt",
+			"name": "Chemise de Mailles"
+		},
+		{
+			"id": "Main Gauche",
+			"name": "Main Gauche"
+		},
+		{
+			"id": "Manacles",
+			"name": "Menottes",
+			"description": "<p>Les Prisonniers qui essayent de se libérer de menottes perdent 1 Point de Blessures et doivent réussi un <strong>Test de Force Trés Difficile(-30)</strong>.</p>"
+		},
+		{
+			"id": "Mandrake Root",
+			"name": "Racine de Mandragore",
+			"description": "<p>Substance hallucinogène extrêmement addictive. Les utilisateurs doivent réussir un Test de Force Mentale à chaque round pour effectuer une Action ou un Mouvement; le Mouvement étant réduit de moitié. Les Tests de Calme reçoivent un bonus de +20. Durée : active tant qu'lle est machée plus 1d10 x 10 minutes supplémentaires.</p>"
+		},
+		{
+			"id": "Map",
+			"name": "Carte"
+		},
+		{
+			"id": "Mask",
+			"name": "Masque",
+			"description": ""
+		},
+		{
+			"id": "Match",
+			"name": "Allumette",
+			"description": ""
+		},
+		{
+			"id": "Meal, inn",
+			"name": "Nourriture, auberge",
+			"description": ""
+		},
+		{
+			"id": "Military Flail",
+			"name": "Fléau d'armes"
+		},
+		{
+			"id": "Monkey",
+			"name": "Singe",
+			"description": ""
+		},
+		{
+			"id": "Moonflower",
+			"name": "Fleur de Lune",
+			"description": "<p>ce tranquilisant est une mousse séchée qui pousse seulement sur les fruilles de la forêt de Laurelorn.Les Elfes utilisent la Fleur de Lune pour traiter la Peste Noire, octroyant un Bonus de +30 à tous les Tests associés pour résister à la maladie, mais elle n'a aucun effet sur les autres races. Les autres peuvent inhaler les vapeurs en faisant bouillir la mousse et s'ils ratent un <strong>Test de Force Mentale Trés Difficile (-30)</strong>, ils gagnent un Etat <em>Inconscient</em>. Sur un succès ils reçoivent un bonus de +20 aux Tests de Calme et gagnent 1 Etat <em>Exténué</em>. Durée : 1d1° + 5 heures.</p>"
+		},
+		{
+			"id": "Mop",
+			"name": "Serpillière",
+			"description": ""
+		},
+		{
+			"id": "Mule",
+			"name": "Mule",
+			"description": "<p>Horse trained for war.</p>"
+		},
+		{
+			"id": "Nails ",
+			"name": "Clous ",
+			"description": ""
+		},
+		{
+			"id": "Nightshade",
+			"name": "Belladone",
+			"description": "<p>La consommation de cette herbe plonge la victime dans un profond sommeil au bout de 2-3 heures, à moins qu'elle ne réussisse un <strong>Test de Résistance</em>. Un sommeil induit par la Belladone dure 1d10+4 heures. Dose : 1 par personne.</p>"
+		},
+		{
+			"id": "Open Plate Helm",
+			"name": "Heaume ouvert"
+		},
+		{
+			"id": "Paint Brush",
+			"name": "Pinceau",
+			"description": ""
+		},
+		{
+			"id": "Pan",
+			"name": "Poêle",
+			"description": ""
+		},
+		{
+			"id": "Parchment/sheet",
+			"name": "Feuille de Parchemin"
+		},
+		{
+			"id": "Perfume",
+			"name": "Parfum",
+			"description": ""
+		},
+		{
+			"id": "Pestle & Mortar",
+			"name": "Mortier et Pilon",
+			"description": ""
+		},
+		{
+			"id": "Pewter Stein",
+			"name": "Chope en étain",
+			"description": ""
+		},
+		{
+			"id": "Pick",
+			"name": "Pioche de Guerre",
+			"description": ""
+		},
+		{
+			"id": "Pick",
+			"name": "Pioche",
+			"description": ""
+		},
+		{
+			"id": "Pike",
+			"name": "Pique"
+		},
+		{
+			"id": "Pins",
+			"name": "Epingle",
+			"description": ""
+		},
+		{
+			"id": "Pipe and Tobacco",
+			"name": "Pipe et Tabac",
+			"description": ""
+		},
+		{
+			"id": "Pistol",
+			"name": "Pistolet",
+			"description": ""
+		},
+		{
+			"id": "Placard",
+			"name": "Placard",
+			"description": ""
+		},
+		{
+			"id": "Plate",
+			"name": "Assiette",
+			"description": ""
+		},
+		{
+			"id": "Plate Bracers",
+			"name": "Brassards d'acier"
+		},
+		{
+			"id": "Plate Breastplate",
+			"name": "Plastron d'acier"
+		},
+		{
+			"id": "Plate Helm",
+			"name": "Heaume"
+		},
+		{
+			"id": "Plate Leggings",
+			"name": "Jambières d'acier"
+		},
+		{
+			"id": "Pole (3 yards)",
+			"name": "Perche (3 mètres)",
+			"description": "<p>Compte comme Arme Improvisée</p>"
+		},
+		{
+			"id": "Pony",
+			"name": "Poney",
+			"description": ""
+		},
+		{
+			"id": "Pouch",
+			"name": "Bourse",
+			"description": ""
+		},
+		{
+			"id": "Quarterstaff",
+			"name": "Bâton de combat"
+		},
+		{
+			"id": "Quill Pen",
+			"name": "Plume d'oie",
+			"description": ""
+		},
+		{
+			"id": "Rags",
+			"name": "Chiffons",
+			"description": ""
+		},
+		{
+			"id": "Rake",
+			"name": "Rateau",
+			"description": ""
+		},
+		{
+			"id": "Ranald's Delight",
+			"name": "Délice de Ranald",
+			"description": "<p>Ce stimulant très addictif est un composé synthétique à base de soufre, de mercure et d'autres éléments. Inhaler la poudre octroie un bonus de +1 en Mouvement, +10 en F, E, Ag et FM. Cela dure 3 heures, après lesquelles l'utilisateur subit une pénalité de -2 en Mouvement et -20 en CC, Endurance, Force et Agilité. Durée : 1 jour.</p>"
+		},
+		{
+			"id": "Rapier",
+			"name": "Rapière",
+			"description": ""
+		},
+		{
+			"id": "Rations, 1 day",
+			"name": "Rations, 1 jour",
+			"description": ""
+		},
+		{
+			"id": "Reading Lens",
+			"name": "Bésicles/Lentille",
+			"description": "<p>Les bésicles de verres dotées de poignées confère un bonus de +20 aux Tests de Lire/Ecrire pour déchiffrer une écriture miniscule ou inintelligible. Les Tests de Perception pour chercher des détails précis, tels qu'une porte ou un compartiment secret reçoivent aussi un bonus de +20.</p>"
+		},
+		{
+			"id": "Religious Symbol",
+			"name": "Symbole Religieux",
+			"description": ""
+		},
+		{
+			"id": "Repeater Handgun",
+			"name": "Arquebuse à Répétition",
+			"description": ""
+		},
+		{
+			"id": "Repeater Pistol",
+			"name": "Pistolet à Répétition",
+			"description": ""
+		},
+		{
+			"id": "Riding Horse",
+			"name": "Cheval de selle",
+			"description": ""
+		},
+		{
+			"id": "River Barge",
+			"name": "Chaland",
+			"description": "<p>Nécessite 3 membres d'équipage.</p>"
+		},
+		{
+			"id": "Robes",
+			"name": "Robes",
+			"description": ""
+		},
+		{
+			"id": "Rock",
+			"name": "Pierre"
+		},
+		{
+			"id": "Room, common/night",
+			"name": "Chambre, commune/nuit",
+			"description": ""
+		},
+		{
+			"id": "Room, private/night",
+			"name": "Chambre, privée/nuit",
+			"description": "<p>Pour 2 personnes. Les chambres pour 4 personnes coûtent le double.</p>"
+		},
+		{
+			"id": "Rope, 10 yards",
+			"name": "Corde, 10 mètres",
+			"description": ""
+		},
+		{
+			"id": "Row Boat",
+			"name": "Barque",
+			"description": "<p>Un seul rameur nécessaire.</p>"
+		},
+		{
+			"id": "Sack",
+			"name": "Sac",
+			"description": "<p>Nécessite 1 main pour être transporté.</p>"
+		},
+		{
+			"id": "Sack, Large",
+			"name": "Sac, Grand",
+			"description": "<p>Nécessite 1 main pour être transporté, ou 2 mains si plein.</p>"
+		},
+		{
+			"id": "Saddle and Harness",
+			"name": "Selle et Harnais"
+		},
+		{
+			"id": "Saddlebags",
+			"name": "Fontes de selle",
+			"description": ""
+		},
+		{
+			"id": "Salwort",
+			"name": "Soude Commune",
+			"description": "<p>Maintenu sous le nez d'une personne, l'arôme d'une branche écrasée de cette herbe retire 1 Etat <em>Assommé</em>. Dose : 1 par rencontre.</p>"
+		},
+		{
+			"id": "Saw",
+			"name": "Scie",
+			"description": ""
+		},
+		{
+			"id": "Scepter",
+			"name": "Sceptre",
+			"description": ""
+		},
+		{
+			"id": "Scroll Case",
+			"name": "Etui à Parchemins",
+			"description": "<p>.</p>"
+		},
+		{
+			"id": "Shield",
+			"name": "Bouclier"
+		},
+		{
+			"id": "Shield (Buckler)",
+			"name": "Bouclier (Parma)"
+		},
+		{
+			"id": "Shield (Large)",
+			"name": "Bouclier (Grand)"
+		},
+		{
+			"id": "Shoes",
+			"name": "Chaussures",
+			"description": ""
+		},
+		{
+			"id": "Shortbow",
+			"name": "Arc court"
+		},
+		{
+			"id": "Sickle",
+			"name": "Faucille",
+			"description": ""
+		},
+		{
+			"id": "Signet Ring",
+			"name": "Chevalière",
+			"description": ""
+		},
+		{
+			"id": "Silver Shilling",
+			"name": "Pistole d'Argent",
+			"description": ""
+		},
+		{
+			"id": "Sling",
+			"name": "Fronde"
+		},
+		{
+			"id": "Sling Bag",
+			"name": "Sac en Bandoulière",
+			"description": "<p>Considéré comme porté si vous le mettez en bandoulière.</p>"
+		},
+		{
+			"id": "Small shot and Powder",
+			"name": "Petites munitions et Poudre",
+			"description": ""
+		},
+		{
+			"id": "Spade",
+			"name": "Pelle",
+			"description": ""
+		},
+		{
+			"id": "Spear",
+			"name": "Sarisse",
+			"description": ""
+		},
+		{
+			"id": "Spike",
+			"name": "Pointe/Clou",
+			"description": ""
+		},
+		{
+			"id": "Spirits, pint",
+			"name": "Liqueur, pinte"
+		},
+		{
+			"id": "Spit",
+			"name": "Bave",
+			"description": "<p>Hallucinogène puissant : vision d'un désir profond. Après l'exposition, vous devez réussir un <strong>Test d'Endurance Trés Difficile(-30)</strong> ou être pedu dans un fantasme trés réaliste, que le MJ doit gérer. Durée : 1d10 minutes.</p>"
+		},
+		{
+			"id": "Stables/night",
+			"name": "Etables/nuit"
+		},
+		{
+			"id": "Staff Sling",
+			"name": "Fustibale"
+		},
+		{
+			"id": "Stamp, engraved",
+			"name": "Cachet, gravé",
+			"description": ""
+		},
+		{
+			"id": "Stone Bullet",
+			"name": "Projectile de Pierre",
+			"description": ""
+		},
+		{
+			"id": "Storm Lantern",
+			"name": "Lampe Tempête",
+			"description": "<p>Des obturateurs protègent la flamme du vent et permettent également de diriger la lumière dans un arc de 90° ou de l'obscurcir complètement. Fournit un éclairage sur 20 mètres ou 30 quand orienté.</p>"
+		},
+		{
+			"id": "Swordbreaker",
+			"name": "Brise-Epée"
+		},
+		{
+			"id": "Tattoo",
+			"name": "Tatouage",
+			"description": ""
+		},
+		{
+			"id": "Telescope",
+			"name": "Téléscope",
+			"description": ""
+		},
+		{
+			"id": "Tent",
+			"name": "Tente",
+			"description": ""
+		},
+		{
+			"id": "Throwing Axe",
+			"name": "Hache de Lancer"
+		},
+		{
+			"id": "Throwing Knife",
+			"name": "Couteau de Lancer"
+		},
+		{
+			"id": "Tinderbox",
+			"name": "Boîte d'Amadou",
+			"description": ""
+		},
+		{
+			"id": "Tongs, steel",
+			"name": "Pinces en acier",
+			"description": ""
+		},
+		{
+			"id": "Trade Tools (Type)",
+			"name": "Outils Professionnels (Type)",
+			"description": "Cf. Page 305."
+		},
+		{
+			"id": "Tweezers",
+			"name": "Pince à épiler",
+			"description": ""
+		},
+		{
+			"id": "Unarmed",
+			"name": "Désarmé"
+		},
+		{
+			"id": "Uniform",
+			"name": "Uniforme",
+			"description": ""
+		},
+		{
+			"id": "Vitality Draught",
+			"name": "Potion de vitalité",
+			"description": "<p>Boire cette décoction retire instanténement tous les Etats <em>Exténué</em>¨</p>"
+		},
+		{
+			"id": "Wagon",
+			"name": "Chariot",
+			"description": "<p>Nécessite un conducteur et deux chevaux.</p>"
+		},
+		{
+			"id": "Walking Cane",
+			"name": "Canne",
+			"description": ""
+		},
+		{
+			"id": "Warhammer",
+			"name": "Marteau de Guerre",
+			"description": ""
+		},
+		{
+			"id": "Waterskin",
+			"name": "Outre d'eau",
+			"description": "<p>Capacité : 4/5 litres</p>"
+		},
+		{
+			"id": "Weirdroot",
+			"name": "Mystracine",
+			"description": "<p>Une des drogues les plus courantes de l'Empire, la mystracine doit être machée, pour apporter une sensation d'euphorie et des hallucinations agréables, dont certains suggèrent qu'elles pourraient être reliées aux Vents de la Magie. La drogue donne un bonus de +10 aux Tests d'Endurance et de Force Mentale, mais une pénalité de -10 aux Tests d'Agilité, d'Initiative et d'Intelligence. Durée : active tant qu'elle est machée plus 1d10x10 minutes supplémentaires</p>"
+		},
+		{
+			"id": "Whip",
+			"name": "Fouet",
+			"special": "Les armes immobilisantes ne possèdent pas de fourchette de portée, juste la portée indiquée."
+		},
+		{
+			"id": "Wine & Spirits, drink",
+			"name": "Vin et Liqueurs, boisson"
+		},
+		{
+			"id": "Wine, bottle",
+			"name": "Vin, bouteille"
+		},
+		{
+			"id": "Wooden Teeth",
+			"name": "Dent en Bois",
+			"description": "<p>Vous ignorez toutes les pénalités dues à la perte de dents.</p>"
+		},
+		{
+			"id": "Workshop (Type)",
+			"name": "Atelier (Type)",
+			"description": "<p>Cf. page 305.</p>"
+		},
+		{
+			"id": "Worms",
+			"name": "Vers"
+		},
+		{
+			"id": "Writing Kit",
+			"name": "Nécessaire d'écriture",
+			"description": "<p>Ecritoire qui renferme une plume d'oie, encrier et papier buvard</p>"
+		},
+		{
+			"id": "Zweihander",
+			"name": "Zweihander",
+			"description": ""
+		}
+	]
+}

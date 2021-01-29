@@ -1,0 +1,1495 @@
+{
+	"label": "UG - Sorts",
+	"entries": [
+		{
+			"id": "Absorb Corruption",
+			"name": "Absorber la Corruption",
+			"description": "<p>Vous posez vos mains sur un personnage ou un animal commun de votre taille ou plus petit et vous lui retirez 1 Point de Corruption, en l’absorbant dans votre âme. En réalisant ceci, vous devez réussir un Test de Résistance à la Corruption (Mineure). Lancez ce sort sur une créature avec le Trait Corruption n’a aucun effet, à moins que le MJ en décide autrement. Surincantation: Pour chaque +3 DR, vous pouvez absorber 1 autre Point de Corruption, assorti d’un nouveau Test de Résistance à la Corruption (Mineure).</p>",
+			"sduration": "Instantané",
+			"srange": "Contact",
+			"starget": "1 ",
+			"sdamage": ""
+		},
+		{
+			"id": "Cleanse Poison",
+			"name": "Absorber le Poison",
+			"description": "<p>Votre Toucher enlève une Etat Empoisonné de la cible. Vous pouvez choisir de supprimer un autre Etat Empoisonné pour chaque +2DR obtenus.</p>\n<p>&nbsp;</p>",
+			"sduration": "Instantané",
+			"srange": "Contact",
+			"starget": "1 ",
+			"sdamage": ""
+		},
+		{
+			"id": "Accelerate",
+			"name": "Accélération",
+			"description": "<p>Votre Toucher transforme un arbre dans un état animé, semi-conscient et à vos ordres. Tant que le sort dure, vous pouvez vous déplacer et agir normalement, mais vous devez être capable de maintenir votre concentration (Voir Interruption <strong>WFRP4</strong> .page237) ou le sort se dissipe, et l’arbre redevient inanimé. L’arbre ainsi animé a les caractéristiques de l’Homme-Arbre (Voir <strong>Bestiaire Non-Officiel</strong> .page 26), excepté que la Créature à le Trait Stupide et une Intelligence de 10. </p>\n<p>&nbsp;</p>",
+			"sduration": "Bonus de Force Mentale rounds",
+			"srange": "Contact",
+			"starget": "1 ",
+			"sdamage": ""
+		},
+		{
+			"id": "Cloak Activity",
+			"name": "Activité Clandestine",
+			"description": "<p>Rassemblant les ombres d'Ulgu autour de vous, vous camouflez vos actions - y compris le lancement de ce sort - et vous semblez faire quelque chose de complètement different (à vous de choisir). Votre position reste la même pour l'observateur, mais vous semblez être en train de faire une activité différente.<br />Par exemple, vous pouvez donner l'impression que vous lisez un livre alors que vous êtes en train de frapper quelqu'un au visage. Si votre action affecte quelqu'un d'autre (par exemple, une attaque, un sort, un vol à la tire, etc.), la victime se voit accorder un Test Opposé de Perception/Focalisation (Ulgu) pour voir à travers l'illusion. Ceux qui ont le Talent de Seconde Vue doivent passer un Test de Perception Complexe (-10) pour remarquer l'illusion. </p>",
+			"sduration": "Bonus de Force Mentale Rounds",
+			"srange": "Vous",
+			"starget": "Vous",
+			"sdamage": ""
+		},
+		{
+			"id": "Aethyric Arrow",
+			"name": "Flèche Aéthyrique",
+			"description": "Vous invoquez une flèche magique flottante et utilisez vos mains pour la lancer sur la cible. Pour ce faire, vos deux mains doivent être entièrement vides et libres. Faites une attaque normale à distance (Lancer) en utilisant votre score de Force Mentale en lieu de la portée de l'arme. Les dommages sont calculés par rapport à un arc et des flèches, mais avec votre bonus de Force Mentale à la place du onus de force. Si une flèche blesse une cible, vous gagnez 1 avantage.",
+			"sduration": "Instantané",
+			"srange": "Special ",
+			"starget": "Special ",
+			"sdamage": ""
+		},
+		{
+			"id": "Adjust Temperature",
+			"name": "Ajuster la Température",
+			"description": "<p>Vous visez un petit objet inanimé tel qu'une fiole, un pot, une boîte, un bocal ou un gobelet et vous pouvez le chauffer ou le refroidir à la température souhaitée en  @Roll[1d10]&nbsp;minutes. Ce sort est souvent utilisé dans la fabrication de potions ou pour garder le contenu d'un récipient soit chaud soit congelé. </p>",
+			"sduration": "Bonus de Force Mentale heures",
+			"srange": "Bonus de Force Mentale mètres",
+			"starget": "Special ",
+			"sdamage": ""
+		},
+		{
+			"id": "Alarm",
+			"name": "Alarme",
+			"description": "Vous pouvez lancer ce sort sur n'importe quel endroit ou objet. Lorsque une créature passe entièrement dans un rayon égal a votre Bonus de Force Mentale mètre de la cible, vous êtes prévenu de la perturbation, peut importe l'endroit ou vous vous trouvez.",
+			"srange": "Contact",
+			"starget": "Special ",
+			"sdamage": ""
+		},
+		{
+			"id": "Stoke the Forge",
+			"name": "Alimenter la Forge",
+			"description": "<p>Vous provoquez un feu brûlant dans une forge, une cheminée, un four ou un autre endroit similaire dans lequel la chaleur et les flammes sont alimentées pour brûler le plus naturellement possible, sans consommer de combustible supplémentaire.</p>",
+			"sduration": "Bonus de Force Mentale heures",
+			"srange": "Bonus de Force Mentale mètres",
+			"starget": "Special ",
+			"sdamage": ""
+		},
+		{
+			"id": "Allegiance",
+			"name": "Allégeance",
+			"description": "Votre contact calme temporairement une cible de votre taille ou plus petite, même si c’était votre adversaire. Pour tout effet supplémentaire, la cible doit connaître votre langue, ne peut être immunisé contre la psychologie ou avoir le trait de créature bestiale,  démoniaque, frénétique, insensée ou morte-vivante. Si vous gagnez un test d opposition de Force Mentale , la créature vous considère alors comme un allié et vous pouvez l’inviter à vous aider dans un combat ou a effectuer des tâches en fonction des capacités et de la personnalité de la créature. Par exemple, un noble ne pourra pas accomplir les tâches d'un serviteur et un soldat dévoué ne tuera pas son commandant. Vous ne pourrez pas non plus ordonner a une créature de faire quelque chose qui serait préjudiciable à son bien-être, comme sauter d’un pont ou défier un dragon. Demander une telle chose brise instantanément l'enchantement. Une fois le sort terminé, la créature se souviendra de tout ce qui s'est passé. Extensions: pour chaque DR +2, vous pouvez augmenter votre DR Opposé de +1 DR. Pour chaque DR +4, vous pouvez augmenter la zone d’effet d'un mètre",
+			"sduration": "Bonus de Force Mentale Rounds",
+			"srange": "Contact",
+			"starget": "1 ",
+			"sdamage": ""
+		},
+		{
+			"id": "Ease Pain",
+			"name": "Apaiser la Douleur",
+			"description": "<p>Votre Toucher guérit 1 Blessure ou enlève 1 Etat d’une Créature de votre Taille ou plus petite. Ce sort ne fonctionne qu’une seule fois pas séance sur la même Créature.</p>\n<p>&nbsp;</p>",
+			"sduration": "Instantané",
+			"srange": "Contact",
+			"starget": "1 ",
+			"sdamage": ""
+		},
+		{
+			"id": "Soothe the Savage Plant",
+			"name": "Apaiser la Flore",
+			"description": "<p>Vous mettez en sommeil une seule plante ou arbre hostile pendant la durée du Sort. Ce sort n’a aucun effet sur les plantes avec une <strong>Intelligence</strong> supérieure à 10, comme les Hommes-Arbres.</p>\n<p>&nbsp;</p>",
+			"sduration": "Bonus de Force Mentale rounds",
+			"srange": "Bonus de Force Mentale mètres",
+			"starget": "1 ",
+			"sdamage": ""
+		},
+		{
+			"id": "Ease Symptom",
+			"name": "Apaiser les Symptômes",
+			"description": "<p>Vous réduisez la sévérité d’un seul symptôme d’une maladie d’un degré. Ce sort ne guérit pas la maladie et n’élimine pas les Symptômes. Chaque +2DR obtenus réduira le symptôme d’un degré supplémentaire, jusqu’à un minimum de Facile. </p>\n<p>&nbsp;</p>",
+			"sduration": "Instantané",
+			"srange": "Contact",
+			"starget": "1 ",
+			"sdamage": ""
+		},
+		{
+			"id": "Call Lightning",
+			"name": "Appel de la Foudre",
+			"description": "<p>Lorsque le ciel est couvert, vous provoquez une surtension électrique dans les nuages à proximité. Un coup de foudre frappe votre cible, comme un Projectile Magique avec Degats +4 qui ignorent les points d'armure N'importe qui engagé avec la cible subit cet éclair également avec Dégâts +2.Toute personne engagée avec une cible secondaire prend le même coup avec un Dégâts de +0. Pour tous ces coups, une armure métallique ajoute des dégâts égaux aux PA de la localisation Toucher. Si le MJ le permet, ce sort peut infliger un Etat En Flammes aux objets inflammables à proximité (pas les créatures).</p>",
+			"sduration": "Instantané",
+			"srange": "Force Mentale mètres",
+			"starget": "1 ",
+			"sdamage": "4 "
+		},
+		{
+			"id": "Call of the Wild",
+			"name": "Appel de la Nature",
+			"description": "<p>Vous soufflez dans une corne spirituelle avec une vigueur surnaturelle, appelant toutes les créatures communes dans l’aire d’effet. A la fin du Round, vous êtes aidés par un cousin naturel de votre Familier. La créature ainsi appelée sera Grande (unique ou meute/nuée). Si votre Familier est un Ours, vous aurez un unique Grand Ours à vos côtés. Si votre Familier est une Hermine, vous aurez une Grande Nuée d’Hermines avec vous. La créature sentira vos besoins et vous défendra jusqu’à la mort, restant à côté de vous et servant de sentinelle lorsque vous dormez. La créature vous garde jusqu’au prochain lever de soleil. <p>\n<p><strong>Surincantation:</strong>  Pour +4DR, vous pouvez choisir l’animal qui vient à vous comme un Ours, un Aigle, des Rats, des Loups ou des Chiens Sauvages(par exemple). La décision finale de la disponibilité ou pas pas de la créature demandée reste à la discrétion du MJ.</p>\n<p>&nbsp;</p>",
+			"sduration": "Until sunrise",
+			"srange": "Bonus de Force Mentale miles",
+			"starget": "Special ",
+			"sdamage": ""
+		},
+		{
+			"id": "Bring Rain (Water)",
+			"name": "Appeler la Pluie (Eau)",
+			"description": "<p>Vous concentrez l’humidité environnante et la relâchez soudainement en une pluie torrentielle (y compris en intérieur si le MJ l’autorise). Tous les feux sont éteints. Subissez les Effets Attraper un Rhume décrits dans le <strong>Enemy in Shadows Companion </strong>p33.</p>",
+			"sduration": "Bonus de Force Mentale minutes",
+			"srange": "Contact",
+			"starget": "1 ",
+			"sdamage": ""
+		},
+		{
+			"id": "Arcane Barrier",
+			"name": "Barrière Arcanique",
+			"description": "Vous créez une barrière magique qui empêche les créatures de la traverser. La barrière se présente sous la forme d'un mur de plusieurs mètres de large et de haut, ou bien la barrière remplit complètement la zone correspondant à un portail ou à un passage. Pour la plupart des créatures, la barrière est presque invisible, ce qui nécessite un Succès Stupéfiant (6+) à un Test de Perception pour voir l'énergie chatoyante et subtile ; toute personne ayant le Talent Seconde Vue pourra voir la barrière . Vous pouvez franchir votre propre barrière avec un Test de Focalisation Accessible (+20). Une créature peut tenter de franchir la barrière magique en remportant un Test de Calme ou de Focalisation Opposé avec votre propre Focalisation. Si la créature échoue au Test, elle gagne un État Assommé . La barrière n'empêche pas les attaques à distance mais les sorts eux seront absorbés. Si une attaque magique frappe la barrière, vous devez passer un Test de Force Mentale ou la barrière sera dissipée. Extensions: Pour chaque +2 DR, vous pouvez améliorer vos Tests de Focalisation liés à la carrière en diminuent la Difficulté (c'est-à-dire, d'Accessible à Facile ). Pour chaque DR 6+, vous pouvez choisir d'augmenter la durée égale au Bonus de Force Mentale en Heures",
+			"sduration": "Bonus de Force Mentale Rounds",
+			"srange": "Bonus de Force Mentale mètres",
+			"starget": "Special ",
+			"sdamage": ""
+		},
+		{
+			"id": "Radiant Weapon",
+			"name": "Arme Radiante",
+			"description": "<p>Votre toucher enveloppe une arme de mêlée non magique d'une couche de lumière vive. L'arme compte comme magique, obtient un bonus de Dégâts égal à votre Bonus de Force Mentale, et gagne la Qualité Incassable. <br />Toute personne attaquée par cette arme compte comme cible d'un sort du Domaine. En raison de sa lumière vive, le porteur de cette arme échoue automatiquement à tous les Tests de Discrétion.</p>",
+			"sduration": "Bonus de Force Mentale Rounds",
+			"srange": "Contact",
+			"starget": "Special ",
+			"sdamage": ""
+		},
+		{
+			"id": "Assault of Stone (Earth)",
+			"name": "Assaut de Pierre (Terre)",
+			"description": "<p>Vous conjurez et lancer une poignée de cailloux haut dans l’air. Alors que les pierres s’envolent, elles grossissent de plus en plus et se mettent à pleuvoir sur la zone ciblée. Toutes les victimes souffrent d’un <em>Projectile Magique </em> avec des dégâts de +4 et doivent effectuer un Test <strong>d’Endurance Intermédiaire (+0)</strong> ou recevoir l’Etat @Condition[Prone].</p>",
+			"sduration": "Instantané",
+			"srange": "Force Mentale mètres",
+			"starget": "Bonus de Force Mentale mètres",
+			"sdamage": "4 "
+		},
+		{
+			"id": "Stoke Fire (Fire)",
+			"name": "Attiser les Flammes (Feu)",
+			"description": "<p>Vous enflammez une source de matériau inflammable à portée, ce qui la fait s’enflammer, et lui fait gagner 1 Etat @Condition[Ablaze]. C’est à la discrétion du MJ de déterminer ce qui est inflammable et à quelle vitesse le feu pourrait s’étendre. <strong>Surincantation</strong>: Vous pouvez causer +1 Etat @Condition[Ablaze] pour chaque +2 DR obtenu.</p>",
+			"sduration": "Instantané",
+			"srange": "Force Mentale mètres",
+			"starget": "Special ",
+			"sdamage": ""
+		},
+		{
+			"id": "Aura of Purity",
+			"name": "Aura de Pureté",
+			"description": "<p>Ce sort nécessite dix minutes de méditation silencieuse avant de le Focalisé et de le lancer. Vous conjurerez un dôme d'ambre translucide et d'énergie de jade qui repousse la plupart des créatures et dépérit la végétation envahissante. Les prêtres druidiques, les adeptes de la Foi Antique et les familiers peuvent entrer et sortir librement du dôme. Les créatures aux Traits Corruption , Démoniaque , Mutation ou Mort-vivant obtiennent un État Brisé jusqu'à leur sortie. Toutes les autres créatures ont droit à un Test Opposé Calme pour résister à obtenir un État Brisé , avec les modificateurs suivants: Elfes des bois, Forestiers (+20), Humains Halflings Gnomes (+10), Nains Hauts Elfes (-20) Autres créatures vivantes (-30)</p>",
+			"sduration": "Bonus de Force Mentale heures",
+			"srange": "Vous",
+			"starget": "Bonus de Force Mentale mètres",
+			"sdamage": ""
+		},
+		{
+			"id": "Banish Daemonkind ",
+			"name": "Banir les Démons",
+			"description": "<p>Votre magie déstabilise le lien entre les Démons et le Dhar dans l’aire d’effet. Toutes les créatures affectées avec le Trait Démoniaque doit réussir un Test de Force Mentale Complexe (-10) ou subir un Missile Magique avec des dommages égaux à votre Bonus de Force Mentale (en ignorant les Points d’Armure). Sur un échec Stupéfiant, la cible est bannie de ce monde si elle a le Trait Instable. <em>Surincantation</em>: Pour chaque +2DR, vous pouvez augmenter la difficulté du Test de Force Mentale d’un niveau </p>",
+			"sduration": "Instantané",
+			"srange": "Vous",
+			"starget": "Force Mentale mètres",
+			"sdamage": "Force Mentale Bonus"
+		},
+		{
+			"id": "Banish Undead",
+			"name": "Banir les Morts-Vivants",
+			"description": "<p>Vous créez un Vortex magique de Dhar qui absorbe l’énergie de toute créatures avec le Trait Mort-Vivant. Chaque créature victime du sort reçoit un Missile Magique (+5). Les Squelettes et les Zombis sont instantanément détruits.</p>",
+			"sduration": "Instantané",
+			"srange": "Force Mentale mètres",
+			"starget": "Bonus de Force Mentale mètres",
+			"sdamage": "5 "
+		},
+		{
+			"id": "Berserk",
+			"name": "Berserk",
+			"description": "<p>Votre cible obtient le Trait de Créature Frénésie (voir p190).</p>",
+			"sduration": "Bonus de Force Mentale Rounds",
+			"srange": "Contact",
+			"starget": "1 ",
+			"sdamage": ""
+		},
+		{
+			"id": "Blood Boil",
+			"name": "Bouillir le Sang",
+			"description": "<p>Votre contact brûle la protection et surchauffe le sang de votre cible. La cible est soumise à un missile magique avec un niveau de dégâts de +3, ignorant les points de protection, et prend un État Assommé . Chaque fois que le Test de Résistance Dur (-20) pour supprimer un État Assommé échoue, la cible est soumise au missile magique comme ci-dessus en utilisant le DR d’échec. Une cible tuée par ce sort explose dans une fontaine de sang surchauffé, causant 1d10+1 de dégâts (modifié par le Bonus d'Endurance et la Protection) à quiconque se trouve à moins de 2 mètres. Comme la cible n'est pas littéralement enflammée par ce sort, le bonus de Domaine n'est pas appliqué.</p>",
+			"sduration": "Special ",
+			"srange": "Contact",
+			"starget": "1 ",
+			"sdamage": ""
+		},
+		{
+			"id": "Cleansing Flurry (Air)",
+			"name": "Bourrasque Purificatrice (Air)",
+			"description": "<p>Vous invoquez un vent fort qui dissipe toutes les impuretés dans l’air et apporte une sensation de fraîcheur printanière. Tant que le sort est actif, les poisons en suspension dans l’air, gaz, fumées, effets de souffle et sorts basés sur le Vent n’ont aucun effet. Rafraîchis, tout le monde retire un Etat @Condition[Fatigued].&nbsp;</p>",
+			"sduration": "Bonus de Force Mentale minutes",
+			"srange": "Force Mentale mètres",
+			"starget": "Vous",
+			"sdamage": ""
+		},
+		{
+			"id": "Breath",
+			"name": "Souffle",
+			"description": "Vous faites immédiatement une attaque de souffle comme si vous aviez dépensé 2 Avantages pour activer le Trait de Créature Souffle (WFRP4 p341) avec une Valeur de Dégâts égale à votre Bonus de Force Mentale. Vous et votre MJ devez décider à l'avance quel type d'attaque de Souffle convient le mieux à votre Talent de Magie. Extensions:Pour chaque +2 DR obtenu, vous pouvez augmenter les dégâts de +2. Note: Ce sort est à mi-chemin entre les errata et les règles maison. Le sort original est formulé de façon étrange et semble avoir été une erreur d'éditionL'ancien développeur Andy Law a fourni une version de ce sort sur le forum Discord Ratcatcher .",
+			"sduration": "Instantané",
+			"srange": "Special ",
+			"starget": "Special ",
+			"sdamage": ""
+		},
+		{
+			"id": "Brittle Bone",
+			"name": "Os Fragilisé",
+			"description": "C'est l'un des plus anciens sorts de Skaven. Votre contact Focalise le Dhar dans votre cible, affaiblissant ses os et sa musculature pendant la Durée du sort. Vous provoquez automatiquement un Coup Critique: lancez sur le Tableau Critique mais ignorez la colonne Effets Additionnel. Au lieu de cela, vous provoquez les Blessures indiquées par le jet et la cible est soumise au effets d'une Fracture (Mineure) jusqu'à la fin du sort. Sur un jet de 100, la cible prend un État Inconscient .",
+			"sduration": "Bonus de Force Mentale rounds",
+			"srange": "Contact",
+			"starget": "1 ",
+			"sdamage": ""
+		},
+		{
+			"id": "Morning Mist",
+			"name": "Brume Matinale",
+			"description": "<p>Si vous êtes en extérieur ou dans un milieu intérieur humide, vous pouvez invoquer un brouillard qui obscurcit la vue de quiconque est à l’intérieur. Toutes les cibles gagne DR +1 états Aveuglé . Quiconque qui tente de se déplacer doit réussir un Test de Perception ou recevoir un état A Terre . Ceux qui ciblent l’intérieur du brouillard reçoivent un malus de -30 (Difficile). Le lanceur du sort n’est pas affecté par le brouillard.</p>\n<p>&nbsp;</p>",
+			"sduration": "Bonus de Force Mentale rounds",
+			"srange": "Vous",
+			"starget": "Bonus de Force Mentale mètres",
+			"sdamage": ""
+		},
+		{
+			"id": "Buoyant",
+			"name": "Flottant",
+			"description": "Vous devenez aussi léger qu'un morceau de bois, ce qui vous permet de marcher sur des surfaces liquides comme l'eau, les eaux dégoûts ou l'huile comme si elles étaient solides.",
+			"sduration": "Bonus de Force Mentale minutes",
+			"srange": "Vous",
+			"starget": "Vous",
+			"sdamage": ""
+		},
+		{
+			"id": "Chittering",
+			"name": "Bavardage",
+			"description": "Vous déclenchez un réseau de folie à travers le Warp, en tordant les esprits de tous les cibles dans la zone d’effet. Tous les humanoïdes non-Skavens à portée doivent passer un Test de Calme Intermédiaire (+0) ou se métamorphoser en une horde de rats sans esprit, aidant instinctivement tous les Skavens et vous en particulier. Ils se rassemblent autour de vous en tant que gardes du corps, suivant des instructions simples et attaquant vos ennemis avec leurs griffes et leurs dents. Les cibles perdent leur pouvoir de parole, communiquant avec des gestes et les bruits de rat. Lorsque le sort se termine, les cibles se dispersent ets'enfuient en courant, et reviennent à leur état normal en 1d10 minutes. Ils obtiennent un État Exténué et doivent réaliser un Test de Corruption (Majeure).",
+			"sduration": "Bonus de Force Mentale heures",
+			"srange": "Vous",
+			"starget": "Force Mentale mètres",
+			"sdamage": ""
+		},
+		{
+			"id": "Commune",
+			"name": "Communion",
+			"description": "<p>Avec votre Familier, vous conversez avec les Esprits des bois, des rivières, des déserts, des cavernes, etc (c’est à dire de l’environnement ou vous vous trouvez). Vous parlez à votre Esprit Animal, qui en retour agit comme un médium avec les autres Esprits. Vous n’avez aucun contrôle sur ces Esprits, mais vous pouvez poser une question par minute pendant la durée du sort. Le(s) Esprit(s) qui répondent le font honnêtement, sans biaiser, à propos des environs immédiats et des évènements locaux. Seulement vous et votre Familier entendez les réponses.</p>\n<p>&nbsp;</p>",
+			"sduration": "Bonus de Force Mentale minutes",
+			"srange": "Vous",
+			"starget": "Vous",
+			"sdamage": ""
+		},
+		{
+			"id": "Comfort",
+			"name": "Confortable",
+			"description": "<p>Vous créez un dôme mystique autour de vous qui empêche les éléments extrêmes d'entrer en contact avec vous, en modérant la chaleur et le froid et en minimisant le effects de la pluie, de la neige et du vent. Lorsque vous lancez un Test d'Exposition aux Elements, inversez le résultat et choisissez le meilleur résultat. Cela a pour résultat de créer un espace confortable pour se reposer et camper.</p>",
+			"sduration": "Bonus de Force Mentale heures",
+			"srange": "Vous",
+			"starget": "Bonus de Force Mentale mètres",
+			"sdamage": ""
+		},
+		{
+			"id": "Amber Contour",
+			"name": "Contours Ambrés",
+			"description": "<p>Vous ciblez une cible et vous tracez sa forme, tandis qu’une subtile ligne de Ghur clignote autour de la cible. Tout les Tests de Combat contrez cette créature bénéficient de +1 Avantage. Note: Ce sort peut avoir d’autres usages que le combat direct, selon le votre bon sens et celui du MJ. Par exemple, un MJ pourrait accorder qu’une foule en colère puisse devenir hostile à la cible, ou que des gardes se mettent à arrêter et à questionner le personnage ciblé.</p>",
+			"sduration": "Bonus de Force Mentale Rounds",
+			"srange": "Force Mentale mètres",
+			"starget": "1 ",
+			"sdamage": ""
+		},
+		{
+			"id": "Control Spirit",
+			"name": "Contrôler les Esprits",
+			"description": "Vous ciblez une créature possédant les Traits Éthéré et Mort-Vivant evous la liez à votre volonté. Réalisez un Test Opposé de Force Mentaleavec un bonus de +DR égal à votre DR de Test Langage (Magick). Si vous gagnez, la cible est sous votre contrôle pour DR jours (minimum 1).",
+			"sduration": "Special ",
+			"srange": "Force Mentale mètres",
+			"starget": "1 ",
+			"sdamage": ""
+		},
+		{
+			"id": "Converse by Candlelight",
+			"name": "Conversation aux Chandelles",
+			"description": "<p>Vous pouvez converser avec un autre Sorcier à la lumière d'une bougie. Chaque Sorcier doit se trouver à une distance de son Bonus de Force Mentale de kilomètres de l'autre, et chaque Sorcier ne peut communiquer que pendant son Bonus de Force Mentale minutes. Le sort ne fonctionne que lorsque les Sorciers le jettent à un moment prédéterminé à côté d'une bougie allumée, en appelant le nom de l'autre à la fin de l'invocation. La lumière de la bougie devient verte pour les deux bougies dès que le deuxième Sorcier a terminé le sort. Le sort peut être interrompu plus tôt en soufflant simplement sur l'une ou l'autre des bougies. </p>",
+			"sduration": "Force Mentale minutes",
+			"srange": "Bonus de Force Mentale miles",
+			"starget": "Vous",
+			"sdamage": ""
+		},
+		{
+			"id": "Grow",
+			"name": "Croissance",
+			"description": "<p>Votre toucher délicat revitalise une seule plante ou un seul petit arbre qui n'est pas mort, lui assurant une croissance saine et forte selon sa nature, à moins qu'il ne soit abîmé ou détruit.</p>",
+			"sduration": "Special ",
+			"srange": "Contact",
+			"starget": "Special ",
+			"sdamage": ""
+		},
+		{
+			"id": "Renew Growth",
+			"name": "Croissance Renouvelée",
+			"description": "<p>Vous revitalisez la vie végétale d’une zone desséchée, flétrie ou désolée d’un champ, à condition que cette croissance ne soit pas contre-nature (ie jungle dans un désert). Les effets de la sécheresse, de l’empoisonnement, du feu, des maladies, des parasites, de la Corruption et des mutations sont tous supprimés et guéris. Vous pouvez choisir la zone d’effet dans la portée du sort. Les premiers signes visibles de la renaissance végétale arrivent au bout de 1d10 minutes et les effets sont permanents. Ce sort provoquera le retour des plantes et animaux autochtones pendant les prochains jours, semaines et mois </p>\n<p>&nbsp;</p>",
+			"sduration": "Special ",
+			"srange": "Force Mentale mètres",
+			"starget": "Special ",
+			"sdamage": ""
+		},
+		{
+			"id": "Crumble Stone (Earth)",
+			"name": "Effriter la Pierre (Terre)",
+			"description": "Votre toucher provoque le craquement et l’effritement de la pierre, rocher, ou brique ciblée, infligeant un Projectile Magique avec des dégâts +6, ignorant le Bonus d’Endurance de la structure. Ce sort ne blesse pas directement les créatures.",
+			"sduration": "Instantané",
+			"srange": "Contact",
+			"starget": "Bonus de Force Mentale mètres",
+			"sdamage": ""
+		},
+		{
+			"id": "Curse of the Horned One",
+			"name": "La Malédiction du Cornu",
+			"description": "Connu sous le nom du Treizième Sortilège Redoutable pour des raisons inconnues, vous faites muter votre cible sous la forme d'un Skaven, qui a le droit de passer un Test de Calme Impossible (-50) pour résister. En cas d'échec, votre cible est totalement sous votre contrôle et fera tout ce que vous lui direz (sauf se suicider). La cible conserve ses Caractéristiques mais ajoute les Traits de Créature du Guerrier des Clans (WFRP4, page 337). Lorsque le sort se termine, la cible doit passer un Test de Résistance Intermédiaire (+0) pour sortir indemne de la transformation. Si le Test est un échec, la victime subira 2d10 Point de Blessures en ignorant les Points d'Armures (minimum 1). Si le Test est une Maladresse, la cible subit un Coup Critique, en ajoutant +60 au jet de dé sur la Table des Critiques.",
+			"sduration": "Force Mentale heures",
+			"srange": "Contact",
+			"starget": "1 ",
+			"sdamage": ""
+		},
+		{
+			"id": "Danger",
+			"name": "Danger",
+			"description": "<p>Vous pouvez avertir subtilement la cible choisie d'une embuscade ou d'un événement imminent et dangereux sur le point de se produire. Cela prend la forme d'une simple pensée que vous projetez dansl'esprit de votre cible. Aucune ligne de vue n'est requise, mais vous devez être capable d'imaginer la cible dans votre esprit. Vous devez également parler leur langue. Si la cible tient compte de l'avertissement, elle obtient le niveau maximum possible dans le Talent Sixième Sens. </p>",
+			"sduration": "Instantané",
+			"srange": "Force Mentale mètres",
+			"starget": "Special ",
+			"sdamage": ""
+		},
+		{
+			"id": "Deft Hands",
+			"name": "Mains Habiles",
+			"description": "Vous pouvez améliorer la capacité de votre cible à manipuler des objets, en leur accordant un bonus de +20 à la Dextérité.Extensions: Pour chaque +2 DR, vous pouvez sélectionner un Talent basés ur la Dex pour le donner à votre cible (tel que Artiste, Maître Artisan, Artilleur, Travailler Qualifié, Rechargement Rapide, ouBricoleur ) ou si la cible en a déjà un vous pouvez ajouter un niveau supplémentaire dans ce Talent.",
+			"sduration": "Bonus de Force Mentale minutes",
+			"srange": "Contact",
+			"starget": "1 ",
+			"sdamage": ""
+		},
+		{
+			"id": "Dire Touch",
+			"name": "Toucher Sinistre",
+			"description": "Vous frappez une cible vivante avec une énergie accablante, en utilisant un missile magique avec un dommage égal au double de votre Bonus de Dextérité. L'énergie entraîne un effect supplémentaire de votre choix, remplaçant n'importe quel effects du Domaine:<li> Froid: La cible obtient un État Assommé pour chaque tranche complète de 5 blessures subies (minimum 1). La cible obtient un État Assommé pour chaque tranche complète de 5 blessures subies (minimum 1).Domaines compatibles: Mort, Élémentalisme Ciel, Vie,Nécromancie, Slaanesh.li> Corrosion: L'objet touché (armure ou arme) subit 1 Dommage pour chaque 5 Blessures complètes subies (minimum 1).Domaines compatibles: émonologie, Métal, Nécromancie, Nurgle,Warp, Sorcellerie.li>Corruption: La cible doit passer un Test Combiné Intermédiaire (+0) Résistance/Calme ou gagner 1 point de Corruption par degréd’échec . Si ce sort déclenche un Test de Mutation, le Test est Dur (-20). Domaines compatibles: Démonologie, Nécromancie, Nurgle,Slaanesh, Tzeentch, Warp.<li>Affaiblie: Toute blessure causée ignore le Bonus d'Endurance La Cible obtient un État Exténué pour chaque 5 blessures complètes subies (minimum 1). Domaine compatibles: Mort, Nécromancie, Sorcellerie.<li> Feu: Toutes les blessures causées ignorent les points d'armure. Lescibles gagnent un État En Flamme.Domaines compatibles: Elémentalisme, Feu, Cieux, Sauvage,Lumière, Métal.<li>Électrique: Toute blessure causée ignore les points d'armure. La Cible obtient un État Assommé. Domaine compatibles: Démonologie, Élémentalisme, Cieux, Vie,Métal, Sorcellerie.<li>Pestilence: Toutes les blessures causées ignorent les points d'armure. La cible doit passer un Test de Résistance Intermédiaire (+0) ou obtenir une Blessure Purulente. Domaines compatibles: Bêtes, Nurgle, Warp, Sorcellerie. <li>Poison: Toute blessure causée ignore les points d'armure. La cibleobtient un État Empoisonné. Domaines compatibles: Bêtes, Mort, Nécromancie, Nurgle,Ombres, Warp, Sorcellerie.<li>Ombre: Toute blessure causée ignore les points d'armure. La cible obtient un État Empêtré.Domaines compatibles: Démonologie, Nécromancie, Ombres,Sorcellerie",
+			"sduration": "Instantané",
+			"srange": "Contact",
+			"starget": "Special ",
+			"sdamage": ""
+		},
+		{
+			"id": "Dispirit",
+			"name": "Découragements",
+			"description": "Vous suggérez des sentiments de malheur et de tristesse dans l'esprit d'une personne vivante de votre taille ou plus petite. La cible perd 2 Avantages et subit une pénalité de -10 à tous les Tests basés sur la Force Mentale et Sociabilité.  Le  sort  n'a  pas d'eﬀect  sur  les  créatures  ayant  l'un  de  ces Traits:  Bestiale ,  Démoniaque,  Immunité à la psychologie ,  Sans Esprit  , Mort-Vivant Surincantation:  Pour  chaque  +2  DR,  vous  pouvez  modifier  la  valeur  de -10 supplémentaire.",
+			"sduration": "Bonus de Force Mentale Rounds",
+			"srange": "Force Mentale mètres",
+			"starget": "1 ",
+			"sdamage": ""
+		},
+		{
+			"id": "Autumn's Decay",
+			"name": "Décomposition Automnale",
+			"description": "<p>Un rayon de lumière vert sombre est projeté de vos doigts dans une aire d’effets de Bonus de FM mètres. Tout matériel organique « mort » (bois, cuir, plante, vêtement) sur le trajet du rayon pourri immédiatement et se transforme en poussière ou débris. Les Créatures ciblées peuvent tenter un Test d’Esquive Complexe (-10) pour éviter que leur équipement soit détruit. Les seules exceptions sont les Créatures avec avec les Traits Mort-vivant et Construit: ces créatures subissent un Projectile Magique avec une valeur de dommages de +5.</p>",
+			"sduration": "Instantané",
+			"srange": "Force Mentale mètres",
+			"starget": "Special ",
+			"sdamage": ""
+		},
+		{
+			"id": "Bewilder",
+			"name": "Déconcerter",
+			"description": "<p>Vous canalisez Ulgu en filaments délicats que votre cible assimile involontairement. Si la cible échoue à un Test Calme Intermédiaire (+0), prenez les unités et reportez-vous au tableau. C'est l'effet que la cible subit pendant la Durée du sort. </p>\n<p>&nbsp;</p>\n<table style=\"height: 102px;\" border=\"1\">\n<tbody>\n<tr style=\"height: 17px;\">\n<td style=\"width: 51px; height: 17px;\">1d10</td>\n<td style=\"width: 653px; height: 17px;\">Effet Déconcertant</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"width: 51px; height: 17px;\">1-2</td>\n<td style=\"width: 653px; height: 17px;\">C'est un mystère: La cible refuse de bouger, prenant un État Empêtré qui est retiré à la fin du sort.</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"width: 51px; height: 17px;\">3-4</td>\n<td style=\"width: 653px; height: 17px;\">Errance: La cible s'éloigne dans une direction aléatoire à son rythme de marche. Il y a 50 % de chances que la cible perde son action et ses actions gratuites.</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"width: 51px; height: 17px;\">5-6</td>\n<td style=\"width: 653px; height: 17px;\">Attaque!: la cible attaque la créature la plus proche, ami ou ennemi. Si aucune créature n'est à portée d'une attaque possible, la cible se met en position stratégique pour le prochain Tour.</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"width: 51px; height: 17px;\">7-9</td>\n<td style=\"width: 653px; height: 17px;\">Confus: La cible subit un État Assommé qui est supprimé à la fin du sort.</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"width: 51px; height: 17px;\">10</td>\n<td style=\"width: 653px; height: 17px;\">Position fœtale: La cible s'enroule en boule au sol et devient une cible sans défense tant que dure le sort.</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>",
+			"sduration": "Bonus de Force Mentale Rounds",
+			"srange": "Force Mentale mètres",
+			"starget": "1 ",
+			"sdamage": ""
+		},
+		{
+			"id": "Enthuse",
+			"name": "Encouragements",
+			"description": "Vous projetez l'espoir et l'enthousiasme dans l'esprit d'une personne vivante de votre taille ou plus petite. La cible gagne 2 Avantages et reçoit un bonus de +10 à tous les Tests de Force Mentale et de Sociabilité. Le sort n'a pas d'eﬀect sur les créatures ayant l'un de ces Traits:  Bestiale , Démoniaque ,  Immunité à la psychologie ,  Stupide ,  Mort-Vivant . Surincantation: Pour chaque +2 DR, vous pouvez améliorer l'attribut de +10 supplémentaire.",
+			"sduration": "Bonus de Force Mentale Rounds",
+			"srange": "Force Mentale mètres",
+			"starget": "1 ",
+			"sdamage": ""
+		},
+		{
+			"id": "Tanglethorn",
+			"name": "Entrave de la Ronce",
+			"description": "<p>Vous ciblez une parcelle de terre nue, invoquant une haie dense de ronces, de lianes et d’épines. Les plantes se saisissent de tout ce qui bouge à l’intérieur de la zone, infligeant l’équivalent d’un Projectile Magique de Dégâts 0 à la fin de votre tour, pendant chaque Round. La zone devient un terrain difficile. Toute créature essayant de sortie de la zone à pied doit réussir un test <strong>d’Agilité Complexe (-10)</strong> ou recevoir 1 état <i>Empêtré</i>, avec votre Force Mentale comme Force. Lorsque le sort se termine, les ronces perdent leur propriétés surnaturelles. </p>\n<p>&nbsp;</p>",
+			"sduration": "Bonus de Force Mentale rounds",
+			"srange": "Force Mentale mètres",
+			"starget": "Bonus de Force Mentale mètres",
+			"sdamage": ""
+		},
+		{
+			"id": "Awakening",
+			"name": "Eveil",
+			"description": "<p>Vous invoquez devant vous des filaments délicats mais puissants du Dhar, et vous les dirigez vers les cadavres de PNJ dotés de Traits puissants ou bien des personnages avec plus de deux niveaux de Carrière terminés. Chacun de ces cadavres est réanimé en Spectre, jusqu'à un maximum de DR + 1 Spectres réanimé. Les Spectres ainsi créés reçoivent l’État A Terre . Ils sont sont entièrement sous votre contrôle et peuvent exécuter des commandes simples. Si vous mourez ou subissez un État Inconscient , le sort prend fin et les cadavres réanimés tombent à nouveau morts.</p>",
+			"sduration": "Until sunrise",
+			"srange": "Force Mentale mètres",
+			"starget": "Bonus de Force Mentale mètres",
+			"sdamage": ""
+		},
+		{
+			"id": "Favour",
+			"name": "Favoriser",
+			"description": "Votre prochain Test pendant la scène ou une rencontre de combat est plus facile de 1 degré (exemple : de Accessible à Facile)",
+			"sduration": "Special ",
+			"srange": "Vous",
+			"starget": "Vous",
+			"sdamage": ""
+		},
+		{
+			"id": "Shape Elemental",
+			"name": "Façonneur D’Elementaire",
+			"description": "<p>Vous chantez une incantation à proximité d’un élément ciblé à portée et façonnez son énergie naturelle amorphe en une forme humanoïde d’une taille Grande. Vous devez maintenant la contrôler avec un Test de <strong>Focalisation</strong> réussi. Pour chaque degré de taille supérieure à la vôtre, augmenter d’un degré la difficulté du Test (de Intermédiaire à Difficile). Si vous réussissez, il bouge et agit selon vos ordres. Si vous échouez, le MJ contrôle la créature ou lance 1d10 à chaque Round: Sur 1-5, rien ne se passe ou il continue ce qu’il faisait; sur 6-7, il attaque son invocateur; sur 8-10, il attaque la créature la plus proche. <strong>Surincantation</strong>: Pour chaque +3 DR, vous pouvez augmenter sa Taille d’un degré. </p>",
+			"sduration": "Bonus de Force Mentale minutes",
+			"srange": "Force Mentale mètres",
+			"starget": "Special ",
+			"sdamage": ""
+		},
+		{
+			"id": "Feel No Pain",
+			"name": "Sans Douleur",
+			"description": "Vous absorbez une énergie puissante qui vous immunise contre la plupart des souffrances. Réduisez tout dommage physique d'un point et obtenez le Trait de Créature  Insensible à la Douleur  . Une fois le sort terminé, tous les eﬀects Critiques appropriés sont appliqués.",
+			"sduration": "Bonus de Force Mentale Rounds",
+			"srange": "Vous",
+			"starget": "Vous",
+			"sdamage": ""
+		},
+		{
+			"id": "Blinding Flash (Air)",
+			"name": "Flash Aveuglant(Air)",
+			"description": "<p>Vous conjurez une boule de lumière aveuglante. Quiconque n’a pas été averti du flash doit effectuer un Test <strong> d’Intuition Complexe (-10) </strong> ou recevoir DR+1 Etats @Condition[Blinded]. Ceux qui réussissent le test ne peuvent pas vous cibler sans être aveuglé. </p>",
+			"sduration": "Bonus de Force Mentale Rounds",
+			"srange": "Force Mentale mètres",
+			"starget": "Vous",
+			"sdamage": ""
+		},
+		{
+			"id": "Flensing Ruin",
+			"name": "Déchirement de la Ruine",
+			"description": "Vous envoyez des faisceaux verts d'énergie de  Warp qui déchirent la chair d'une seule cible. La créature ciblée est frappée par un  Missile Magique de Dégâts  +5.  De  plus,  les  faisceaux  de  la  ruine  suivent  votre  cible  où  qu'elle aille jusqu'à la fin du sort. À la fin de chaque Round, y compris ce Round, la cible obtient un État  Hémorragique. ",
+			"srange": "Bonus de Force Mentale mètres",
+			"starget": "Special ",
+			"sdamage": "5 "
+		},
+		{
+			"id": "Float",
+			"name": "Flotter",
+			"description": "<p>L'énergie magique vous fait flotter dans l'eau. Tant que l'eau n'est pas houleuse, particulièrement dangereuse ou rapide, vous pouvez garder la tête hors de l'eau et marcher dans une direction sans Test. Sinon, le sort n'a aucun effet. Voir la compétence Natation (<strong>WFRP4 </strong>p126).</p>",
+			"sduration": "Bonus de Force Mentale Rounds",
+			"srange": "Vous",
+			"starget": "Vous",
+			"sdamage": ""
+		},
+		{
+			"id": "Forbid Undead",
+			"name": "Bloquer les Morts Vivants",
+			"description": "Vous touchez la porte d'un bâtiment et le protégez ainsi de l'intrusion des Mort-vivant.  Tant  que  le  sort  dure,  toute  créature  avec  le  Trait Mort-vant  doit  réussir  un  Test  Opposé  de  Force  Mentale  pour  rester  ou pénétrer à l'intérieur du bâtiment; sinon, la créature souffre d'un Etat Brisé et doit sortir, tout en subissant DR + 1 Blessures par Tour (en ignorant le Bonus d'Endurance et Points d'Armure). La portée de ce sort est limitée à une  seul  structure  (comme  une  maison  ou  un  magasin)  ne  dépassant  pas Force Mentale mètres en largeur, hauteur et longueur.",
+			"sduration": "Until sunrise",
+			"srange": "Contact",
+			"starget": "Special ",
+			"sdamage": ""
+		},
+		{
+			"id": "Fountains of Blood",
+			"name": "Fontaines de Sang",
+			"description": "Vous émettez une aura constante de  Dhar autour de vous qui cible toutes les créatures vivantes dans la zone d’Effet - y compris vous-même, si vous êtes vivant. Le  Dhar pollue l'élément vital de toutes les cibles. Tant que le sort  dure,  toute  cible  qui  subit  une  blessure  gagne  également  un  État Hémorragique . Toute créature proche avec le Trait de Créature  Affamé et  Vampirique subissent une pénalité de -20 à leur Tests de Force Mentale pour éviter d'avoir à se nourrir au « repas » le plus proche.",
+			"sduration": "Bonus de Force Mentale Rounds",
+			"srange": "Vous",
+			"starget": "Bonus de Force Mentale mètres",
+			"sdamage": ""
+		},
+		{
+			"id": "Geyser",
+			"name": "Geyser",
+			"description": "<p>Vous provoquez l'éruption d'un geyser d'eau à partir d'une zone de terrain naturel à portée. Ceux qui se trouvent dans la zone d'éruption obtiennent un État A Terre et Surpris et sont soumis à un impact de 4 mètres dans une direction aléatoire, ce qui leur fait subir des dégâts de chute. Après le jaillissement initial, un grand bassin emplit tout le terrain (sous réserve des circonstances), fournissant de l'eau fraîche jusqu'à ce que l'eau soit finalement évacuée.</p>",
+			"sduration": "Bonus de Force Mentale Rounds",
+			"srange": "Force Mentale mètres",
+			"starget": "Bonus de AoE (Willpower mètres",
+			"sdamage": ""
+		},
+		{
+			"id": "Ghostly Flame",
+			"name": "Flamme  Fantomatique",
+			"description": "Vous  invoquez  une  masse  flottante  de  feu  rougeoyant  de  la  couleurde  la  Malepierre  qui  dégouline  d'un  fluide  vert  visqueux  au  fur  et  à mesure  qu'elle  brûle.  La  flamme  fournit  une  illumination  égale  à  la Portée  jusqu'à  ce  que  le  sort  se  termine  ou  qu'il  soit  annulé.  Vous pouvez  choisir  de  lancer  la  boule  de  feu  sur  une  cible  à  portée  avec un  Test  de  Projectile  (Lancer):  si  elle  touche,  la  victime  obtient  un État   En Flamme  et  doit  passer  un  Test  de  Corruption  (Mineure. ",
+			"sduration": "Wilpower minutes",
+			"srange": "Bonus de AoE (Willpower mètres",
+			"starget": "Vous",
+			"sdamage": ""
+		},
+		{
+			"id": "Gnaw",
+			"name": "Ronger",
+			"description": "Vous  canalisez  un  maelström  d'énergie  de  Warp  dans  une  petite  zone, libérant une horde de rats invisibles rongeant tout ce qui se trouve dans la zone d'effet. Leur férocité est telle qu'ils continuent à ronger jusqu'à ce que la cible ne soit plus. Bien que le sort ait de nombreuses applications, Ronger est souvent utilisé pour <i>percer des trous</i> dans les portes en bois, les murs de terre  ou  les  palissades  pendant  un  siège.  La  horde  inflige  2d10  Points  de Dégâts par Round à tout ce qui se trouve dans zone, en ignorant les Points d'Armure  non-magiques  (minimum  1).  Cependant,  la  horde  ne  peut  pas ronger des choses que les rats normaux ne peuvent pas détruire, comme la pierre  solide  ou  l'acier.  Les  être  vivants  ont  droit  à  un  test  d'Esquive  Dur (-20) pour éviter ces attaques. Pendant que le sort est actif, vous pouvez agir pour  contrôler  l'emplacement  de  la  horde  magique  en  passant  un  Test  de Focalisation  Accessible (+20). Tout ce qui se trouve sur le chemin subi les dommages décrit ci-dessus.",
+			"sduration": "Bonus de Force Mentale rounds",
+			"srange": "Force Mentale mètres",
+			"starget": "2 mètres",
+			"sdamage": ""
+		},
+		{
+			"id": "Hand of Dust",
+			"name": "Mains de Poussière",
+			"description": "Votre toucher écorche la chair de vos adversaires vivants, comptant comme un  Missile Magique Dégâts +5 qui ignorent les Points d'Armure. De plus, la  cible  est  affligé  de  DR  États   Hémorragique  (minimum  de  1).  Les créatures avec le Trait  Mort-Vivant sont immunisées contre ce sort.",
+			"sduration": "Instantané",
+			"srange": "Contact",
+			"starget": "1 ",
+			"sdamage": "5 "
+		},
+		{
+			"id": "Hellride",
+			"name": "Chevauchée Infernale",
+			"description": "Having  summoned  and  controlled  a  Daemonic  Steed,  you  now  touch and infuse the mount with Dhar. The Steed will then bear its rider and a single  passenger  beyond  the  mortal  world  and  into  the  borders  of  the realm  of  Chaos,  covering  vast  distances  in  mere  minutes.  Though  the riders  perceive  the  journey  only  dimly,  the  eﬀects  of  witnessing  such horrors are harrowing. The ride must be initiated within 2 Rounds of the spell being cast and will last 1d10 minutes. At the end of each minute, both  riders  must  perform  a  Challenging  (+0)  Cool  Test  or  gain  +1 Mental  Corruption  point.  At  the  end  of  the  ride,  the  riders  must  also perform a Challenging (+0) Endurance Test for a Moderate Corrupting Influence.  Luckily,  the  speed  and  skill  of  the  Steed  protects  the  riders from  closer  contact  with  other  denizens  of  the  realm.  Once  the  ride  is finished, the Steed and its passengers will charge back into the material realm at the targeted destination, which must be within 100 miles of the journey’s beginning. It is rumoured that a more powerful version of this spell  traverses  closer  to  the  heart  of  the  Realm  of  Chaos,  thereby covering much vaster distances in the material realm. But surely no such spell exists, for to travel so would be utter madness.",
+			"sduration": "Special ",
+			"srange": "Contact",
+			"starget": "Special ",
+			"sdamage": ""
+		},
+		{
+			"id": "Tale of Metal",
+			"name": "Histoire du Métal",
+			"description": "<p>Vous touchez n'importe quel objet en métal et vous vous plongez dans son passé, révélant ses secrets et visualisant les circonstances de sa création et de sa forge comme si vous y étiez. Vous pouvez effectuer un Test de Focalisation Intermédiaire (+0) pour discerner les propriétés spéciales d'un objet magique, en apprenant une propriété spéciale choisie par le MJ par DR (minimum 1). Dans le cas d'objets maudits, corrompus ou abîmés, vous découvrez les propriétés dangereuses en dernier. <p>",
+			"sduration": "Instantané",
+			"srange": "Contact",
+			"starget": "Special ",
+			"sdamage": ""
+		},
+		{
+			"id": "Hesitate",
+			"name": "Hésiter",
+			"description": "<p>Vous induisez un moment de confusion dans votre cible. Si la cible échoue à un Test de <strong>Calme Accessible (+20)</strong>, elle perd son prochain Tour. Même si le Test est réussi, ils hésitent et doivent effectuer leur prochain Tour en dernier dans l'ordre de l'Initiative. </p>",
+			"sduration": "Special ",
+			"srange": "Bonus de Force Mentale mètres",
+			"starget": "1 ",
+			"sdamage": ""
+		},
+		{
+			"id": "Complex Illusion",
+			"name": "Illusion Complexe",
+			"description": "<p>Vous créez une illusion parfaite autour d'une créature qu'eux seuls peuvent voir. Tout l'environnement de la cible semble changé à tous égards. Par exemple, on pourrait faire croire à une personne dans une forêt qu'elle a été transportée au milieu d'Altdorf, avec tous les paysages, les sons, les odeurs, les bousculades et l'agitation de la ville. La cible pourrait marchander des marchandises, échanger de l'argent, manger les fruits qu'elle a achetés, avoir une conversation engageante avec des passants, attaquer ou être attaquée par des ruffians, souffrir de douleurs, d'états, de critiques et de blessures. La principale limite est que vous devez avoir connu l'environnement que vous simulez dans l'esprit de votre cible. La plupart des dommages et états illusoires ne se prolongent pas au-delà de la fin du sort. Cependant, si votre cible est assommée par une illusion, elle obtiendra un ÉtatInconscient à la fin du sort; si elle est tuée par une illusion, elle doit passer un Test Calme Intermédiaire (+0) ou subir des points de Corruption Mentale DR+1. À la fin du sort, la cible reçoit un État Surpris . Pour les personnes qui regardent, votre cible semble trébucher et interagir avec des personnes inexistantes : la cible compte comme une cible sans défense. Seule une personne ayant le Talent de Seconde Vue peut faire un Test de Perception Dur (-20) pour remarquer l'illusion, et même si elle le réussit, elle ne voit pas à travers le sort. Elle doit être dissipée pour faire échouer sa véracité.</p>",
+			"sduration": "Force Mentale minutes",
+			"srange": "Force Mentale mètres",
+			"starget": "Special ",
+			"sdamage": ""
+		},
+		{
+			"id": "Infecting Gaze",
+			"name": "Regard Infectieux ",
+			"description": "C'est l'un des plus perfides sorts de Skaven. Votre incantation fait pénétrer la magie dans vos yeux en focalisant la maladie que vous souhaitez propager, à  savoir  soit  la  Peste  Noire  ou  soit  la   Fièvre du Rongeur  (voir  WFRP4 p186).  Puis,  en  regardant  une  seule  cible  à  portée,  vous  déclenchez  cette maladie. La cible est soumise à un Test de Résistance Accessible (+20) pour résister à la maladie. Les cibles comprennent rarement ce qui s'est passé, et même si la maladie a pris le dessus, la victime peut ne pas se rendre compte que la cause est magique.",
+			"sduration": "Instantané",
+			"srange": "Bonus de Force Mentale mètres",
+			"starget": "1 ",
+			"sdamage": ""
+		},
+		{
+			"id": "Invigorating Vitae",
+			"name": "Vitae Revigorante",
+			"description": "Vous devez lancer ce sort avant de boire le sang d'un corps, vivant ou mort. Vous gagnez les Traits de Créature  Morsure (+ 0),  Affamée et Vampirique. S’alimenter en buvant le sang d’un cadavre tué durant la dernière heure vous guérit de 1d10 Points de Blessures.",
+			"sduration": "Force Mentale minutes",
+			"srange": "Vous",
+			"starget": "Vous",
+			"sdamage": ""
+		},
+		{
+			"id": "Invocation of Nehek",
+			"name": "Invocation de Nehek",
+			"description": "Vous ciblez une créature avec Trait  Mort-Vivant, lui fournissant une sombre énergie revigorante. La créature gagne le Trait  Régénération (fourni par Malcanthet du Ratcatcher’s Guild).",
+			"sduration": "Bonus de Force Mentale Rounds",
+			"srange": "Bonus de Force Mentale mètres",
+			"starget": "1 ",
+			"sdamage": ""
+		},
+		{
+			"id": "The Power of Truth",
+			"name": "Le Pouvoir de la Vérité",
+			"description": "<p>Votre cible est imprégnée de la certitude convaincante de la vérité et de la droiture, mais seulement si elle parle honnêtement (comme elle le sait ou le croit). Si c'est le cas, la cible obtient un bonus de +40 aux Tests de Charme ainsi que leur limite maximale aux Talents Orateur et Grand Orateur.<br />L'influence de ce sort n'est pas visible pour les autres, il n'y a donc pas de moyen facile d'évaluer l'honnêteté de la cible. Vous pouvez lancer ce sort sur vous-même.</p>",
+			"sduration": "Bonus de Force Mentale Rounds",
+			"srange": "Contact",
+			"starget": "1 ",
+			"sdamage": ""
+		},
+		{
+			"id": "Bind Daemon",
+			"name": "Lier un Démon",
+			"description": "<p>Vous canalisez des flux épais de Dhar permettant de lier un ou plusieurs démons à portée. Effectuer un seul Test de Focalisation (Dhar) Opposé à la Force Mentale de chaque cible. Si vous gagnez, le démon prend un Etat d’Inconscience pendant la durée du sort: le démon est immobilisé, mais il est complètement conscient de ce qui se passe autour de lui et qui a exécuté le sort de liaison.</p>",
+			"sduration": "Bonus de Force Mentale Rounds",
+			"srange": "Force Mentale mètres",
+			"starget": "Bonus de Force Mentale mètres",
+			"sdamage": ""
+		},
+		{
+			"id": "Read Out",
+			"name": "Lire à Haute Voix",
+			"description": "<p>Une voix désincarnée lira à haute voix,sans traduction ni inflexion, le texte d'un document, d'un parchemin, d'un livre, d'un signe ou d'une écriture similaire, d'une manière lente et claire que les personnes à proximité peuvent entendre. Une fois commencé, le texte entiersera lu à haute voix et ne pourra pas être arrêté sans dissiperle sort. Un auditeur est autorisé à passer un Test d'Intelligence Facile (+40) pour mémoriser l'information lue, avec une pénalité cumulée de -10 pour chaque 10 minutes d'écoute.Le sort n'activera pas et ne vous aidera pas à mémoriserles effets magiques, lesinvocations, les prières, etc. </p>",
+			"sduration": "Special ",
+			"srange": "Contact",
+			"starget": "Special ",
+			"sdamage": ""
+		},
+		{
+			"id": "Witch Glow",
+			"name": "Lueur de la Sorcière",
+			"description": "<p>Vous sélectionnez une cible à portée et créez autour d'elle un subtil contour lumineux que seule une personne ayant le Talent de Second Vue peut percevoir. Le MJ détermine les avantages mineurs de cette lueur, comme le fait de ne pas nécessiter de Test de Perception pendant l'observation de la cible ou de pouvoir repérer la cible dans une foule. </p>",
+			"sduration": "Bonus de Force Mentale Rounds",
+			"srange": "Force Mentale mètres",
+			"starget": "1 ",
+			"sdamage": ""
+		},
+		{
+			"id": "Starshine",
+			"name": "Lumières des Étoiles",
+			"description": "<p>Vous utiliser le Vent d'Azyr pour conjurer la lumière des étoiles autour de vous, en illuminant la Zone d'Effect d'une lumière douce qui révèle ce qui est caché. Les ténèbres (magiques et ordinaires) sont chassées, l'invisible est rendu visible, les illusions sont bannies, les personnages cachés ou déguisés sont mis à nu et les zones secrètes (portes, chambres, etc.) sont révélées. </p>",
+			"sduration": "Bonus de Force Mentale Rounds",
+			"srange": "Vous",
+			"starget": "Bonus de AoE (Willpower mètres",
+			"sdamage": ""
+		},
+		{
+			"id": "Light as a Feather (Air) ",
+			"name": "Léger Comme une Plume (Air) ",
+			"description": "<p>Vous façonnez un coussin d’air tourbillonant afin de ralentir la chute de la cible ou son mouvement depuis une position plus haute. Votre cible chute à sa vitesse de Marche et ne subira aucun dégâts liés à la chute sauf si le sort se dissipe avant qu'elle ne touche le sol.</p>",
+			"sduration": "Bonus de Force Mentale Rounds",
+			"srange": "Force Mentale mètres",
+			"starget": "1 ",
+			"sdamage": ""
+		},
+		{
+			"id": "Calming Hand",
+			"name": "Main Calmante",
+			"description": "<p>Votre Toucher apaise une créature plus petite que vous et qui possède le Trait Bestial . Un Etat Brisé , Exténué ou Assommé est retiré de la cible. Chaque +2DR permettra d’enlever un Etat supplémentaire.</p>\n<p>&nbsp;</p>",
+			"sduration": "Instantané",
+			"srange": "Contact",
+			"starget": "1 ",
+			"sdamage": ""
+		},
+		{
+			"id": "Hand of Fire (Fire)",
+			"name": "Main de Feu (Feu)",
+			"description": "<p> Votre arme de corps à corps brûle avec une flamme vacillante qui irradie comme une torche. L’arme gagne le Trait <i>Magique</i>. N’importe quelle créature touchée par l’arme gagne un État @Condition[Ablaze].</p>",
+			"sduration": "Bonus de Force Mentale Rounds",
+			"srange": "Special ",
+			"starget": "Special ",
+			"sdamage": ""
+		},
+		{
+			"id": "Impervious Hands",
+			"name": "Mains Résistantes",
+			"description": "<p>La magie coule dans vos mains, les rendant immunisées contre la chaleur, le froid, la corruption, ainsi que contre les produits chimiques corrosifs et toxiques. Ce sort est souvent utilisé par les lanceurs de sorts qui travaillent avec des éléments dangereux et des produits chimiques nocifs.</p>",
+			"sduration": "Bonus de Force Mentale minutes",
+			"srange": "Vous",
+			"starget": "Vous",
+			"sdamage": ""
+		},
+		{
+			"id": "Petty Curse",
+			"name": "Malédiction Mineure",
+			"description": "<p>Vous placez une petite malédiction sur votre cible. Une victime qui ne veut pas ou ne se doute de rien peut se soumettre à un Test de Force Mentale Opposée pour résister. Une malédiction ne peut être levée que si elle est dissipée avec succès par une personne ayant le Talent Supprimer la Malédiction. Vous pouvez choisir le effects précis de n'importe quelle malédiction, mais le MJ doit s'assurer qu'elle est à peu près la même que celles énumérées ici - inconfortable et embarrassante, mais pas dangereuse. Exemples: Verrues, furoncles, hématomes, calvitie, éruption cutanée grave, mauvaise haleine, flatulences, cheveux de couleur vive, selles irrégulières, pieds qui puent, etc...</p>",
+			"sduration": "Special ",
+			"srange": "Bonus de Force Mentale mètres",
+			"starget": "1 ",
+			"sdamage": ""
+		},
+		{
+			"id": "Manifest Pack",
+			"name": "Meute de Démons Mineurs",
+			"description": "Vous  invoquez  un  nombre  de  démons  mineurs  ou  de  serviteurs démoniaques égal à votre Bonus de Force Mentale. Ils émergent à travers une  déchirure    chaotique  et  apparaissent  comme  un  groupe  dans  l’aire d’effet  du  sort.  Effectuer  un  Test  Opposé  de  Focalisation  (Dhar)/  Force Mentale contre le meneur du groupe. Si vous gagner le Test, les démons répondront littéralement  à  une  commande  émise  par  vous,  puis disparaissent, en supposant que le commandement soit terminée avant la fin  du  sort.  Si  le  mage  perd  le  Test,  les  démons  l'attaque  (ou  se comportent comme le MJ le souhaite).Surincantation:  pour  chaque  +2DR,  vous  pouvez  augmenter  la  difficulté du Test de Force Mentale de la cible d’un niveau.",
+			"sduration": "Bonus de Force Mentale Rounds",
+			"srange": "Bonus de Force Mentale mètres",
+			"starget": "Special ",
+			"sdamage": ""
+		},
+		{
+			"id": "Manifest Daemonic Steed",
+			"name": "Manifestation d’une Monture Démoniaque",
+			"description": "Vous invoquez un éclair brillant de  Dhar , qui ouvre une grande brèche dans le  domaine  matériel,  fessent  apparaître  une  seule  Monture Démoniaque  que  vous  exhorter  à  sortir  du  royaume  du  chaos.  Effectuez un Test de Opposé de Focalisation (Dhar)/Force Mentale. Si vous gagnez, le démon consent à être votre monture et répond à vos commandements pendant la durée du sort. Sinon, la monture vous attaque (ou se comporte comme le souhaite le MJ).Surincantation: pour chaque +1 DR, vous pouvez augmenter la difficulté du Test de Force Mentale de la cible d’un niveau.",
+			"sduration": "Bonus de Force Mentale heures",
+			"srange": "Bonus de Force Mentale mètres",
+			"starget": "Special ",
+			"sdamage": ""
+		},
+		{
+			"id": "Forest Walk",
+			"name": "Marche Forestière",
+			"description": "<p>Vous gagnez le Trait Arboricole et êtes capable de traverser n’importe quelle zone arborée sans encombres, quel que soit la densité de végétation. Les arbres se plieront devant vous et les buissons s'ouvriront comme par magie. L’équipement que vous portez est conservé, et ne vous pénalise pas, mais le sort ne s’applique à rien et/ou personne d’autre. </p>\n<p>&nbsp;</p>",
+			"sduration": "Force Mentale minutes",
+			"srange": "Vous",
+			"starget": "Vous",
+			"sdamage": ""
+		},
+		{
+			"id": "Mark of the Horned Rat",
+			"name": "Marque du Rat Cornu",
+			"description": "<p>Your target suﬀers an unsightly blemish, taking the form of an open weeping sore on their forehead or the back of their hand. Against those who can see the blemish, the mark imposes a penalty of one Diﬃculty step to the target&rsquo;s Fellowship Tests (ie, <strong>Average</strong> to <strong>Challenging</strong>). Grey Seers use this spell to mark their messengers.&nbsp;&nbsp;</p>",
+			"sduration": "Bonus de Force Mentale heures",
+			"srange": "Contact",
+			"starget": "1 ",
+			"sdamage": ""
+		},
+		{
+			"id": "Animal Mastery",
+			"name": "Maîtrise Animale",
+			"description": "<p>Vous initiez une communication télépathique avec un animal commun de votre taille ou plus petit. Vous communiquez librement avec l’animal, en cohérence avec son Intelligence. Pendant la durée du sort, vous ne pouvez discutez avec d’autres personnes, ni lancer d’autre sort. Selon l’animal et sa personnalité, vous pouvez même lui donner des ordres, mais le MJ peut vous demander des Tests Opposés d’Emprise sur les Animaux. <br>Surincantation: Pour chaque +2, vous gagnez un bonus de +20 pour n’importe quel test d’Emprise sur les Animaux ou Dressage tant que le sort dure. Pour +3DR, le sort peu cible une Grande créature.</p>",
+			"sduration": "Bonus de Force Mentale minutes",
+			"srange": "Bonus de Force Mentale mètres",
+			"starget": "1 ",
+			"sdamage": ""
+		},
+		{
+			"id": "Spirit Self",
+			"name": "Moi Spirituel",
+			"description": "<p>Votre corps devient intangible et presque invisible. Les autres vous voient comme une aura subtile, avec des yeux verts-brillants. Vous gagnez le Trait Éthéré. Vous ne pouvez interagir avec le monde physique et ne pouvez pas lancer de sort. Vous gagnez +20 à vos Test de <strong>Discrétion</strong> et les Créatures subissent une pénalité de -20 sur leurs Tests de <strong>Perception</strong> pour vous voir.. </p>\n<p>&nbsp;</p>",
+			"sduration": "Bonus de Force Mentale rounds",
+			"srange": "Vous",
+			"starget": "Vous",
+			"sdamage": ""
+		},
+		{
+			"id": "Weather",
+			"name": "Météo",
+			"description": "<p>Vous méditez pendant dix minutes à l'extérieur, en attirant les vents magiques, et vous vous faites une idée du temps qu'il fera dans la zone actuelle pendant les prochaines 24 heures. Le MJ peut choisir ou lancer un dé sur la table météo fournie dans <strong>Enemy in Shadows Companion </strong>p32.</p>",
+			"sduration": "Instantané",
+			"srange": "Vous",
+			"starget": "Local Area",
+			"sdamage": ""
+		},
+		{
+			"id": "Cloud of Smoke (Fire)",
+			"name": "Nuage de Fumée (Feu)",
+			"description": "<p>Vous soufflez une fumée concentrée provenant de vos poumons. Le nuage vous entoure, mais si vous bougez, il reste immobile jusqu'à ce qu'il se dissipe. Les créatures dans la ZdE ne peuvent pas voir à l’extérieur ni à travers lui, et celles qui se trouvent à l’extérieur ne peuvent pas voir dans ou au-delà de la fumée. Les créatures à l’intérieur doivent se déplacer à la moitié de leur valeur de Mouvement ou errent dans une direction aléatoire (voir Dispersion <strong>WFRP4 </strong>p163) et subissent les effets d’un terrain difficile.</p>",
+			"sduration": "Bonus de Force Mentale minutes",
+			"srange": "Vous",
+			"starget": "Bonus de Force Mentale mètres",
+			"sdamage": ""
+		},
+		{
+			"id": "Swarm (Earth)",
+			"name": "Nuée (Terre)",
+			"description": "<p>En posant vos mains sur le sol ou la roche, vous envoyez de l'énergie qui attire une nuée d'insectes ordinaires, araignées, de scorpions,serpents, lézards, etc. de taille moyenne.Le nuée suivra vosinstructionssimplesjusqu'à ce que vous ou la nuée soyez détruit ou que le sortse termine. <strong>Surincantation</strong>: Pour chaque +3 SL, vous pouvez augmentersa taille d'un degré. </p>",
+			"sduration": "Bonus de Force Mentale Rounds",
+			"srange": "Bonus de Force Mentale mètres",
+			"starget": "Special ",
+			"sdamage": ""
+		},
+		{
+			"id": "Observe",
+			"name": "Observer",
+			"description": "Your  target  gains  +20  to  all  Perception Tests. While  the  spell  lasts,  the target may Assess (gaining +1 Advantage) without making a Skill Test, though it still requires an Action. ",
+			"sduration": "Bonus de Force Mentale Rounds",
+			"srange": "Contact",
+			"starget": "1 ",
+			"sdamage": ""
+		},
+		{
+			"id": "Acute Smell",
+			"name": "Odorat Aiguisé",
+			"description": "<p>Vous améliorez votre sens de l'odorat, en acquérant le Talent Sens Aiguisé (Odorat). Chaque +1 DR vous fait gagner un niveau supplémentaire dans le Talent, jusqu'à son maximum.</p>",
+			"sduration": "Bonus de Force Mentale minutes",
+			"srange": "Vous",
+			"starget": "Vous",
+			"sdamage": ""
+		},
+		{
+			"id": "Panic",
+			"name": "Panique",
+			"description": "Vous provoquez une soudaine envie de fuir chez votre cible, en lui infligeant un État Brisé en cas d'échec à un Test Calme. Le sort n'a pas d'eﬀect sur les créatures ayant l'un de ces Traits: Bestiale, Démoniaque, Immunité à la psychologie, Stupide, Mort-Vivant.Surincantation: Pour chaque +2 DR, vous pouvez ajouter 1 État  Brisé  .",
+			"sduration": "Instantané",
+			"srange": "Bonus de Force Mentale mètres",
+			"starget": "1 ",
+			"sdamage": ""
+		},
+		{
+			"id": "Paralyse",
+			"name": "Paralyser",
+			"description": "Vous tentez de paralyser une créature vivante de votre taille ou plus petite. Effectuez un Test Opposé de Focalisation/Calme: si vous gagnez, la cible prend 1 État Empêtré  et 1 État Assommé  pour chaque 2 DR du Test Opposé (minimum 1). Si vous gagnez par 6 DR ou plus, la cible prend un État Inconscient  pour la durée indiquée.  Surincantation: Pour chaque +2 DR, vous pouvez ajouter +1 DR à votre Test Opposé. Pour chaque +3 DR, vous pouvez augmenter la taille de la créature aﬀecté d'un palier. ",
+			"sduration": "Bonus de Force Mentale Rounds",
+			"srange": "Force Mentale mètres",
+			"starget": "1 ",
+			"sdamage": ""
+		},
+		{
+			"id": "Flame Sheet (Fire)",
+			"name": "Paroi de Flammes (Feu)",
+			"description": "<p>Vous étendez un mur de flammes qui est égale a votre Bonus Force Mentale en largeur et en hauteur et Profond de 2 mètres. Toucher le mur de feu inflige l’État @Condition[Ablaze].</p>\n<p><strong>Surincantation:</strong> F:Pour chaque +2 DR, vous pouvez étendre l'une des dimensions de la barrière du montant indiqué.&nbsp;</p>",
+			"sduration": "Bonus de Force Mentale Rounds",
+			"srange": "Force Mentale mètres",
+			"starget": "Special ",
+			"sdamage": ""
+		},
+		{
+			"id": "Birdspeak",
+			"name": "Paroles d'Oiseaux",
+			"description": "<p>Vous êtes capable de parler et de comprendre les langues des oiseaux. Ce sort n'oblige pas les oiseaux à parler ou à vous prêter attention. Les oiseaux rusés peuvent même vous mentir ou vous demander des faveurs en échange de leurs connaissances. L'opinion qu'un oiseau aura de vous sera basée sur la façon dont vous apparaissez et agissez, telle qu'elle est interprétée par sa propre personnalité. Un aigle, un hibou, un corbeau ou un moineau sont des créatures très different. Vous obtenez un aperçu des coutumes et du comportement des oiseaux - vous comprenez pourquoi une volée d'oiseaux migre actuellement ou pourquoi un nid peut avoir été abandonné. Le MJ devrait permettre un Test d'Intuition ou de Perception avec un modificateur Facile (+40) lorsque la situation le permet. </p>",
+			"sduration": "Bonus de Force Mentale minutes",
+			"srange": "Vous",
+			"starget": "Vous",
+			"sdamage": ""
+		},
+		{
+			"id": "Pelt of the Assassin",
+			"name": "Peau de l'Assassin",
+			"description": "Vous  focalisez  la  magie  changeante  du  Warp  et  faites  correspondre  la couleur  de  votre  fourrure  à  votre  environnement.  Vous  obtenez  1  Point d'Armure  pour  chaque  emplacement  et  un  Bonus  de  +40  pour  tous  les Tests de Discrétion effectués dans n'importe quel environnement, sauf en plein jour. Vous ne pouvez pas lancer ce sort si vous portez une armure sauf si elle est magique. ",
+			"sduration": "Bonus de Force Mentale minutes",
+			"srange": "Vous",
+			"starget": "Vous",
+			"sdamage": ""
+		},
+		{
+			"id": "Pestilent Breath",
+			"name": "Haleine Pestilentielle",
+			"description": "Vous aspirez la souillure du Warp et expirez un nuage pestilentiel en forme de cône sur vos ennemis. La maladie propagée par votre souffle dépend des unités de votre jet d'incantation: sur 1-7,  c'est la   Fièvre du Rongeur ; sur 8-0, c'est la  Peste Noire . Choisissez une seule cible que vous pouvez voir à moins  de  la  moitié  de  votre  Force  Mentale  mètres  (arrondie  à  l'entier supérieur). Cette cible devient le centre d'une zone circulaire d'Eﬀet dont le diamètre est égal à votre Bonus Force Mentale mètres. Toutes les créatures à l'intérieur de cette zone sont touchées, ainsi que toutes les créatures entre vous  et  cette  zone.  Effectuez  un  Test  Opposé  de  Focalisation/Esquive contre  toutes  les  victimes  du  souffle  (en  utilisant  le  même  lancé  de  dé opposé pour chaque cible). Toutes les victimes qui perdent le Test subisse un  Missile Magique de Dégâts +4, en ignorant les Points d'Armure et le Bonus d’Endurance. Les cibles qui perdent des Blessures doivent passer un Test de Résistance Intermédiaire (+0) ou contracter la maladie du souffle.Surincantation:  Pour  chaque  +2  DR,  vous  pouvez  rendre  le  Test  de Résistance plus diﬃcile d'un niveau.",
+			"sduration": "Instantané",
+			"srange": "Special ",
+			"starget": "Special ",
+			"sdamage": ""
+		},
+		{
+			"id": "Winter's Sting",
+			"name": "Piqûre de l’Hiver",
+			"description": "<p>Ce sort ne peut-être lancé qu’en extérieur. Vous provoquez une tempête de grêle soudaine et violente . Tant que la tempête dure, les cibles dans l’aire d’effet subissent un Projectile Magique de Dégâts 0 et doivent réussir un Test de <strong>Calme Accessible (+20)</strong> ou subir un état <i>Brisé</i> (pour chercher un abri). La visibilité dans la zone est gênée par votre Bonus de FM états Aveuglé. Les feux, les tirs de Poudre Noire et les explosifs sont éteints durant la tempête. Le terrain devient également difficile pendant 1d10 minutes après la fin du sort. Se déplacer plus rapidement qu’en marchant requiert un Test <strong>d’Athlétisme Accessible (+20)</strong> (modifié par les états) ou la cible reçoit l’état <i>A Terre</i>. Le sprint est impossible.</p>\n<p>&nbsp;</p>",
+			"sduration": "Bonus de Force Mentale rounds",
+			"srange": "Force Mentale mètres",
+			"starget": "Bonus de Force Mentale mètres",
+			"sdamage": ""
+		},
+		{
+			"id": "Plague's Source",
+			"name": "Source de la Peste",
+			"description": "Vous  canalisez  la  souillure  du  Warp  dans  une  source  d'eau  proche,  la transformant en vecteur de maladie. La maladie spécifique introduite dans l'eau dépend des unités de votre jet d'incantation: sur 1-7, c'est la  Fièvre du Rongeur; sur 8-0, c'est la  Peste Noire . Les sources, les étangs, les puits, les tonneaux et les gobelets sont des cibles courantes de ce sort. Toute source en  contact  avec  l'eau  contaminée  exige  que  la  cible  passe  un  Test  de Résistance  Facile  (+40)  ou  contracte  la  maladie.  Le  MJ  doit  ajuster  la Diﬃculté en fonction de la source d'eau et de la nature de la contraction. Un petit récipient comme une tasse, une fiole ou un pichet rend le Test plus diﬃcile de deux niveaux (c'est-à-dire, Facile à Intermédiaire). Un récipient de taille moyenne, comme un petit étang, un tonneau ou un baril, rend le Test  plus  diﬃcile  d'un  niveau.  De  même,  boire  l'eau  ou  se  baigner  dans l'eau  contaminée  rend  le  test  plus  diﬃcile  de  deux  niveaux,  tandis  que  se laver  les  mains  avec  ou  se  frotter  le  visage  compte  pour  un  niveau.  Une grande étendue d'eau, comme une large rivière, un lac ou un océan, ne fera que  diluer  la  maladie,  bien  que  les  sorciers  Skaven  rassemblés  en  groupes puissent infecter de plus grandes étendues d'eau.",
+			"sduration": "Instantané",
+			"srange": "1 mètre",
+			"starget": "Special ",
+			"sdamage": ""
+		},
+		{
+			"id": "Summer Rain",
+			"name": "Pluie d’Eté",
+			"description": "<p>Vos paroles magiques invoquent des sombres nuages venus de nul part, libérant une pluie torrentielle dans tous environnement extérieur, sauf les déserts. Ce déluge éteint les feux, les Projectiles à Poudre Noire et les explosifs. Toutes les attaques à distance sont considérées avec une portée supplémentaire de 2 niveaux: à bout portant compte comme Moyenne, Courte compte comme Extrême, et tout autre distance est impossible. La zone environnante devient un terrain difficile jusqu’à ce que le sol sèche. La pluie fourni de l’eau pour la vie locale, créant des petites mares d’eau pure et potable.</p>\n<p>&nbsp;</p>",
+			"sduration": "Bonus de Force Mentale minutes",
+			"srange": "Force Mentale mètres",
+			"starget": "Special ",
+			"sdamage": ""
+		},
+		{
+			"id": "Invoke Power",
+			"name": "Invoquer le Pouvoir",
+			"description": "Vous tissez une brume de  Dhar autour de vous, absorbant son énergie sombre dans votre corps et votre âme. Faites un Test de Résistance comme pour une Influence Corruptrice Modérée. Tant que le sort dure, toutes vos Focalisations et Incantations reçoivent un bonus de +20. De plus, vous avez accès à un sort non appris de votre choix. Pendant la durée du sort, vous comptez comme ayant mémorisé ce sort, mais vous ne pouvez pas le transcrire sur un grimoire ou sur un parchemin.",
+			"sduration": "Bonus de Force Mentale Rounds",
+			"srange": "Vous",
+			"starget": "Vous",
+			"sdamage": ""
+		},
+		{
+			"id": "Protective Aura",
+			"name": "Aura Protectrice",
+			"description": "Vous créez une aura d'énergie protectrice autour de vous. Toute créature vivante qui souhaite effectuer une attaque au corps à corps contre une cible située dans la ZdE doit d'abord remporter un Test Opposé Calme/Focalisation. ",
+			"sduration": "Bonus de Force Mentale Rounds",
+			"srange": "Vous",
+			"starget": "Bonus de Force Mentale mètres",
+			"sdamage": ""
+		},
+		{
+			"id": "Provocation",
+			"name": "Provocation",
+			"description": "Vous essayez d'entrer dans l'esprit de votre victime et de provoquer une réaction émotionnelle intense, en lui infligeant au choix  Animosité ,  Haine ou Préjugés sur une cible spécifique de votre choix. A la fin du sort, les émotions mises en œuvre sont susceptibles de se poursuivre et la victime peut se rendre compte que quelque chose de suspect lui est arrivé. Le sort n'a pas de eﬀect sur les créatures ayant l'un de ces Traits: Bestiale, Démoniaque, Immunité à la Psychologie, Stupide, Mort-Vivant. ",
+			"sduration": "Bonus de Force Mentale Rounds",
+			"srange": "Bonus de Force Mentale mètres",
+			"starget": "1 ",
+			"sdamage": ""
+		},
+		{
+			"id": "Earthpower",
+			"name": "Puissance de la Terre",
+			"description": "<p>Si vous êtes à quelques mètres d’un Dolmen, d’un Cercle de pierre ou d’un bosquet sacré le NI de ce sort est diminué de 2. Vous devez être en contact physique avec la terre et méditer pendant 1 heure avant de lance ce sort. Pendant la durée du sort, tout vos NI sont divisés par deux, et quand vous lancez un sort, vous pouvez choisir quel couleur vous appliquez: Ghur, Ghyran ou Uglu. Vous êtes devenu un réceptacle pour une immense quantité de magie. Tout Test de <strong>Langue (Magick)</strong> échoué déclenche une Incantation Imparfaite Mineure, et toute Réussite Critique ou Echec Critique génère une Incantation Imparfaite Majeure. Lorsque le sort se termine, son énergie est relâchée d’un coup. Vous gagnez un état Exténué et subissez 2d10 Points de Blessure moins votre Bonus de Force Mentale (avec un minium de 1).</p>\n<p>&nbsp;</p>",
+			"sduration": "Bonus de Force Mentale heures",
+			"srange": "Vous",
+			"starget": "Vous",
+			"sdamage": ""
+		},
+		{
+			"id": "Putrefy",
+			"name": "Putréfier",
+			"description": "Votre magie fétide fait pourrir et se décomposer toute la nourriture dans la zone d'effet la rendant très dangereuse et dérangeante pour les sens. Toute créature qui mange la nourriture infectée doit passer un Test de Résistance Intermédiaire (+0) ou être sujette a la  Courante Galopante (Voir WFRP4, page 186).",
+			"sduration": "Instantané",
+			"srange": "Bonus de Force Mentale mètres",
+			"starget": "Bonus de Force Mentale mètres",
+			"sdamage": ""
+		},
+		{
+			"id": "Raise Champion",
+			"name": "Appeler un Champion",
+			"description": "Vous dirigez Dhar vers les os d'une créature morte qui était autrefois un être puissant et reconnu comme tel de son vivant. À titre indicatif, cela nécessite un personnage ou une créature humanoïde ayant atteint son troisième Niveau de Carrière ou plus (ou son équivalent en Traits). Le champion squelettique commence par recevoir un état A Terre, et peut suivre à la lettre vos instructions simples. Selon l’origine de la créature, le MJ peut autoriser les anciennes compétences et talents de la créature , ajoutés au profil de base du squelette",
+			"sduration": "Until sunrise",
+			"srange": "Contact",
+			"starget": "1 ",
+			"sdamage": ""
+		},
+		{
+			"id": "Rally",
+			"name": "Ralliement",
+			"description": "Vous permettez à une personne soumise à un État  Brisé , à la  Peur  et/ou Terreur  de se ressaisir immédiatement. La cible affectée peut se déplacer et agir normalement lorsque son tour arrive, obtenant ainsi un Avantage de +1.",
+			"sduration": "Instantané",
+			"srange": "Force Mentale mètres",
+			"starget": "1 ",
+			"sdamage": ""
+		},
+		{
+			"id": "Rat Thrall",
+			"name": "Rat Servant",
+			"description": "Vous  invoquez  un  rat  ordinaire. Pendant  la  durée  du  sort,  vous pouvez  communiquer  avec  ce  rat  comme  si  vous  parliez  la  même langue  et  il  obéira  à  tous  vos  ordres,  même  s'il  doit  pour  cela  se suicider.  Le  rat  peut  aller  chercher  de  petits  objets,  ronger  des  cordes et  effectuer  d'autres  tâches  ordinaire  qu'un  rat  peut  accomplir,  mais ces  tâches  sont  limitées  par  son  Intelligence.",
+			"sduration": "Bonus de Force Mentale heures",
+			"srange": "Vous",
+			"starget": "Vous",
+			"sdamage": ""
+		},
+		{
+			"id": "Mend Bones",
+			"name": "Reconstruction des os",
+			"description": "<p>Votre toucher soigne la cible de DR+1 Blessures et également une Fracture Mineure ou une Déchirure Musculaire Mineure, mais votre cible doit ensuite passer une nuit complète à dormir ou subir un État Exténué . Une Fracture Majeure ou une Déchirure Musculaire Majeure peut être suffisamment restaurée pour être considérée comme Mineure, après quoi le temps de guérison normal s'applique (WFRP4 p179). Ce sort ne peut pas traiter la même blessure deux fois dans la même semaine. </p>\n<p>&nbsp;</p>",
+			"sduration": "Instantané",
+			"srange": "Contact",
+			"starget": "1 ",
+			"sdamage": ""
+		},
+		{
+			"id": "Reinforce",
+			"name": "Renforcement",
+			"description": "<p>Voustouchez une porte, un portail, un coffre ou tout autre objet ou structure similaire et vousle rendez physiquement plusrésistant et plus difficile à endommager. Augmentez leBonus d'Endurance de l'objet de 1 et les Blessures de 2. Voir Ennemi dansles Ombres.</p>",
+			"sduration": "Bonus de Force Mentale jours",
+			"srange": "Contact",
+			"starget": "Special ",
+			"sdamage": ""
+		},
+		{
+			"id": "Stoutstaff",
+			"name": "Renfort de Bâton",
+			"description": "<p>Vous investissez votre énergie dans votre bâton, lui donnant le Trait Magique.</p>\n<p>&nbsp;</p>",
+			"sduration": "Bonus de Force Mentale rounds",
+			"srange": "Contact",
+			"starget": "Special ",
+			"sdamage": ""
+		},
+		{
+			"id": "Repousser",
+			"name": "Repousser",
+			"description": "<p>Vous vous entourez d'une aura qui effraie les animaux. Votre présence effraie les petites créatures voisines qui possèdent le Trait de la Créature Nerveux.</p>",
+			"sduration": "Bonus de Force Mentale Rounds",
+			"srange": "Vous",
+			"starget": "Force Mentale mètres",
+			"sdamage": ""
+		},
+		{
+			"id": "Repress",
+			"name": "Repress",
+			"description": "<p>You immediately block the memory of a particular event from the mind of another living character. You must know the details of the event and be able to speak to the character in a language they understand. If the blocked memory is of a terrifying nature, the character will have nightmares that vaguely suggest that memory. After each night's rest, the victim is allowed a Very Hard (-30) Intelligence Test to recover theirmemory; if regained the character must make a Diﬃcult (-10) Cool Test or gain a Corruption point.&nbsp;</p>",
+			"sduration": "Instantané",
+			"srange": "Contact",
+			"starget": "1 ",
+			"sdamage": ""
+		},
+		{
+			"id": "Breathe Underwater (Water)",
+			"name": "Respirer sous l'Eau (Eau)",
+			"description": "<p>Votre cible gagne la capacité à respirer sous l’eau ou dans le vide, ainsi que +2 DR aux Tests de <strong>Résistance</strong> contre la fumée, le gaz, les spores et les poisons présents dans l'air.</p>",
+			"sduration": "Bonus de Force Mentale minutes",
+			"srange": "Contact",
+			"starget": "1 ",
+			"sdamage": ""
+		},
+		{
+			"id": "Ride Through the Night",
+			"name": "Chevaucher à Travers les Ténèbres",
+			"description": "Vous manipulez le  Dhar en formant un petit nuage, revigorant ainsi toutes les montures à l'intérieur de la zone d’effet. Toutes les montures ajoutent +2 à leur score de Mouvement et gagnent le Traits  Éthéré et Foulée, tout comme leurs chevaucheurs.",
+			"sduration": "Until sunrise",
+			"srange": "Vous",
+			"starget": "Bonus de Force Mentale mètres",
+			"sdamage": ""
+		},
+		{
+			"id": "Rite of Spring",
+			"name": "Rituel du Printemps",
+			"description": "<p>Votre cible gagne les Traits Magique et Régénération.</p>\n<p>&nbsp;</p>",
+			"sduration": "Bonus de Force Mentale rounds",
+			"srange": "Contact",
+			"starget": "1 ",
+			"sdamage": ""
+		},
+		{
+			"id": "Mend Object",
+			"name": "Réparation",
+			"description": "<p>Vous tissez de subtils brins de magie dansles morceaux collectés d'un objet cassé avec un encombrement égal ou inférieur à votreBonus de Force Mentale, en réparant l'objet. Ce sort ne peut pasréparer un objet qui ne pourrait normalement pas être réparé ou qui comporte des parties complexes et indépendantes. Tant qu'il n'a pas été réparé par un artisan qualifié, l'objet n'a plusla Qualité Solide et il gagne les DéfautsBâclé et Peu Fiable. Si vous lancez à nouveau ce sort sur le même objet, il sera détruit.. </p>",
+			"sduration": "Instantané",
+			"srange": "Contact",
+			"starget": "Special ",
+			"sdamage": ""
+		},
+		{
+			"id": "Withstand Poison",
+			"name": "Résistance aux Poisons",
+			"description": "<p>Vous gagnez +20 à tout Test de Résistance aux Drogues et Poisons. Si le poison en question n'offre normalement pas de Test, vous êtes autorisé à effectuer un Test de Résistance Intermédiaire (+0).Ce sort ne fonctionne pas sur les poisons et les Etats qui ont déjà pris effet.</p>",
+			"sduration": "Bonus de Force Mentale Rounds",
+			"srange": "Vous",
+			"starget": "Vous",
+			"sdamage": ""
+		},
+		{
+			"id": "Resist Fire (Fire)",
+			"name": "Résister au Feu (Feu)",
+			"description": "<p>Vous vous enveloppez dans une cape magique qui repousse le feu, les sorts et les armes enflammées. Vous gagnez le Trait <i>Immunisé (Feu)</i> .</p>",
+			"sduration": "Bonus de Force Mentale Rounds",
+			"srange": "Vous",
+			"starget": "Vous",
+			"sdamage": ""
+		},
+		{
+			"id": "Quicksand (Earth)",
+			"name": "Sables Mouvants (Terre)",
+			"description": "<p>Vous ciblez un morceau de terre, boue ou sable, et que vous transformer en sables mouvants magiques. La boue épaisse et aspirante piège n’importe quelle créature qui s’y trouve, leur inflige un Etat @Condition[Entangled] (avec votre Compétence de <strong>Focalisation</strong> comme Force). Au début de chaque Rounds, la victime gagne +1 Etat @Condition[Entangled] Si une victime est capable de bouger, les sables mouvants est considéré comme un terrain difficile (mi-vitesse, pas de course ni de sprint). Si une créature est atteinte de plus d’Etat @Condition[Entangled] que son Bonus de Force, elle sera aspirée par les sables mouvants et sujette aux règles de Suffocation (WFRP4, page 181). Les créatures ne respirant pas n’étouffent pas mais seront probablement piégée lorsque le sort aura pris fin. </p>",
+			"sduration": "Bonus de Force Mentale Rounds",
+			"srange": "Force Mentale mètres",
+			"starget": "Bonus de Force Mentale mètres",
+			"sdamage": ""
+		},
+		{
+			"id": "Saveur Brûlante",
+			"name": "Saveur Brûlante",
+			"description": "<p>Votre magie brûlante peut rapidement faire cuire une portion de nourriture ou faire bouillir jusqu'à un quart de litre de liquide. Vous pouvez aussi utiliser ce sort pour donner à la nourriture ou à la boisson une saveur intense, par exemple épicée ou alcoolisée (qui pourrait provoquer des troubles gastro-intestinaux chez les personnes qui n'ont pas l'habitude d'une telle saveur après avoir échoué à un Test de Résistance).<br />Surincantation: Pour chaque +2 DR, vous pouvez doubler la quantité d'aliments ou de liquides affectés. </p>",
+			"sduration": "Instantané",
+			"srange": "Bonus de Force Mentale mètres",
+			"starget": "Special ",
+			"sdamage": ""
+		},
+		{
+			"id": "Screech",
+			"name": "Hurlement",
+			"description": "Vous rejetez la tête en arrière en hurlant un cri aigu qui porte sur une très longue  distance.  La  plupart  des  créatures  ne  peuvent  pratiquement  pas entendre  ce  cri  magique,  mais  les  oreilles  sensibles  de  Skaven  et  de certaines bêtes sauvages l'entendent parfaitement. Le cri n'est qu'un appel et  ne  porte  aucune  information,  bien  que  le  ton  puisse  transmettre  une émotion  telle  que  la  colère,  le  désespoir,  la  peur  ou  l'impatience.  Tout Skaven qui entend l'appel peut choisir de l'ignorer.",
+			"sduration": "Instantané",
+			"srange": "Bonus de Force Mentale miles",
+			"starget": "Vous",
+			"sdamage": ""
+		},
+		{
+			"id": "Wall Shaker (Earth)",
+			"name": "Secouer les Murs (Terre)",
+			"description": "<p>Vous faites trembler et gronder le sol, fissurant les fondations et les supports de tous les bâtiments à portée. Effectuez un Test <strong>Opposé Focalisation/ Endurance</strong> pour chaque bâtiment (vous effectuez le test une fois et le MJ lance pour chaque bâtiment):</p>\n<table style=\"height: 96px;\" border=\"1\">\n<tbody>\n<tr style=\"height: 31px;\">\n<td style=\"height: 31px; width: 153px;\">\n<p><strong>Matériau du bâtiment</strong></p>\n</td>\n<td style=\"width: 95px;\">\n<p><strong>E</strong></p>\n</td>\n<td style=\"width: 151px;\">\n<p><strong>Matériau du bâtiment</strong></p>\n</td>\n<td style=\"height: 31px; width: 103px;\">\n<p><strong>E</strong></p>\n</td>\n</tr>\n<tr style=\"height: 31px;\">\n<td style=\"height: 31px; width: 153px;\">\n<p>Terre/Boue/Paille;</p>\n</td>\n<td style=\"width: 95px;\">40</td>\n<td style=\"width: 151px;\">Bois solide</td>\n<td style=\"height: 31px; width: 103px;\">75</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px; width: 153px;\">Clayonnage, Torchis</td>\n<td style=\"width: 95px;\">55</td>\n<td style=\"width: 151px;\">Structure en brique</td>\n<td style=\"height: 17px; width: 103px;\">90</td>\n</tr>\n<tr style=\"height: 17px;\">\n<td style=\"height: 17px; width: 153px;\">Argile/Bois léger</td>\n<td style=\"width: 95px;\">65</td>\n<td style=\"width: 151px;\">Structure de pierre</td>\n<td style=\"height: 17px; width: 103px;\">100</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>\n<p> Chaque Test gagné provoque l’effondrement du bâtiment ciblé (à la discrétion du MJ). Toutes les créatures à l’intérieur subissent des Dommages liés à l’Effondrement. La réplique provoquée par le sort se réverbère des kilomètres à la ronde, alertant quiconque avec le Talent Seconde vue , qui pourra se révéler hostiles face à un tel usage flagrant d’une force aussi dévastatrice.</p>",
+			"sduration": "Instantané",
+			"srange": "Force Mentale mètres",
+			"starget": "Special ",
+			"sdamage": ""
+		},
+		{
+			"id": "Sense of the Green",
+			"name": "Sens de la Nature",
+			"description": "<p>Votre familier sonde les environs et détermine si la faune et la flore sont naturelles. Les prédateurs non-naturels et les plantes non-natives de la région comme les mousses, les champignons, les plantes du Chaos, les créatures corrompues, les entités démoniaques et les illusions hostiles seront détectées pour ce qu’elles sont réellement. Vous sentez l'emplacement et le type de pièges non magiques, ainsi que la position des petites constructions jusqu’à <strong>Force Mentale</strong> mètres. De plus, vous gagnez un bonus de +1 DR aux tests d’<i>Emprise sur les Animaux</i> et de <i>Pistage</i> ..</p>\n<p>&nbsp;</p>",
+			"sduration": "Force Mentale minutes",
+			"srange": "Force Mentale mètres",
+			"starget": "Special ",
+			"sdamage": ""
+		},
+		{
+			"id": "Spirit Sense",
+			"name": "Sens du Familier",
+			"description": "<p>Vous fermez vos yeux et méditez, ce qui vous permet de ressentir via les sens de votre Familier. Vous ne pouvez pas parler ou communiquer pendant la durée du Sort, et vous êtes donc une cible Facile.</p>\n<p>&nbsp;</p>",
+			"sduration": "Bonus de Force Mentale minutes",
+			"srange": "Force Mentale mètres",
+			"starget": "Vous",
+			"sdamage": ""
+		},
+		{
+			"id": "Sense Wildlife",
+			"name": "Sentir la Vie Sauvage",
+			"description": "<p>Si ce sort est lancé dans la nature, vous pouvez détecter la direction d’un animal commun connu ou d’une plante, s’il en existe à portée. Vous devez nommer l’animal ou la plante recherché pendant le lancer du Sort, et si la chose n’est pas présente pendant la durée et dans la portée du sort, vous ne serez pas informé. Ce Sort ajoute un bonus de +20 à tout les Tests liés à la recherche d’herbes ou de nourriture. </p>\n<p>&nbsp;</p>",
+			"sduration": "Force Mentale minutes",
+			"srange": "1 mile",
+			"starget": "Special ",
+			"sdamage": ""
+		},
+		{
+			"id": "Sense Water",
+			"name": "Sentir l’Eau",
+			"description": "<p>Vous pouvez détecter la direction et la distance d’une zone humide, comme un lac, un cours d’eau ou l’Ocean - même si il est souterrain - , un oasis dans le désert, ou un puits hors de portée de vue. Ce sort permet également de mettre à jour les illusions qui utiliseraient des représentations d’eau.</p>\n<p>&nbsp;</p>",
+			"sduration": "Force Mentale minutes",
+			"srange": "1 mile",
+			"starget": "Special ",
+			"sdamage": ""
+		},
+		{
+			"id": "Magic Lock",
+			"name": "Serrure Magique",
+			"description": "<p>Ce sort peut être jeté sur un seul verrou ou serrure non magique.Le verrou compte comme magique et ne peut pas être ouvert de force. Toutefois, le sort n'empêche pas quelqu'un de défoncer une porte verrouillée par magie ou de briserle coffre lui-même.</p>",
+			"sduration": "Force Mentale minutes",
+			"srange": "Contact",
+			"starget": "Special ",
+			"sdamage": ""
+		},
+		{
+			"id": "Shadow’s Companion",
+			"name": "Compagnon de l'Ombre",
+			"description": "Vous  vous  fondez  dans  l'obscurité  rien  qu'en  marchant  dans  une  ombre. Dans l'ombre, vous obtenez un bonus de +40 aux Tests de Discrétion et tous les Tests de Perception pour vous détecter sont effectués à -20, sauf si la personne qui vous écoute a le Talent  Sens aiguisé (Audition). ",
+			"srange": "Vous",
+			"starget": "Vous",
+			"sdamage": ""
+		},
+		{
+			"id": "Shrivel tongue",
+			"name": "Langue Rétrécie",
+			"description": "Vous  faites  apparaître  un  petit  éclair  d'un  vert  brillant  qui  frappe  votre cible au visage et s'infiltre dans sa bouche, ratatinant la langue. La cible est soumise à un Coup Critique à la tête avec un résultat de 4 dans la colonne Blessures. La  langue  se  ratatine  et  devient  un  moignon  inutile  - Amputation (Intermédiaire) : voir Langue amputée (WFRP4 p180). Une fois le sort terminé, la langue revient à la normale sur une période de 1d10 minutes  (le  MJ  peut  souhaiter  appliquer  une  pénalité  mineure  pour  les Tests de communication pendant la récupération ou simplement la jouer de maniérer amusante). ",
+			"sduration": "Bonus de Force Mentale rounds",
+			"srange": "Bonus de Force Mentale mètres",
+			"starget": "1 ",
+			"sdamage": ""
+		},
+		{
+			"id": "Silence",
+			"name": "Silence",
+			"description": "visez et créez une zone qui étouffe tout bruit. Aucune parole ni aucun son ne peut traverser ou entrer dans la zone de contrôle, quel que soit le niveau de bruit. Il est impossible de lancer des sorts à l'intérieur de la zone. ",
+			"sduration": "Bonus de Force Mentale Rounds",
+			"srange": "Force Mentale mètres",
+			"starget": "Bonus de Force Mentale mètres",
+			"sdamage": ""
+		},
+		{
+			"id": "Skitterleap",
+			"name": "Saut Glissé",
+			"description": "Vous accumulez de la fumée autour de votre forme, en obtenant un bonus de  +20  à  vos  Tests  de  Discrétion  et  en  soustrayant  10  aux  tentatives  de frappe de votre ennemi. Pendant la durée du sort, vous pouvez murmurer un mot magique en tant qu’action gratuite et vous téléporter ou téléporter quelqu'un que vous touchez (de votre taille ou plus petit) à n'importe quel endroit que vous pouvez voir égale à Force Mentale mètres. ",
+			"srange": "Vous",
+			"starget": "Vous",
+			"sdamage": ""
+		},
+		{
+			"id": "Slippery Ground",
+			"name": "Terrain Glissant",
+			"description": "Vous visez une petite touffe de terre, en la submergeant avec une substance magique qui a la viscosité du pétrole (mais qui n'est pas inflammable). La zone devient un terrain difficile à traverser. Toute créature bipied se déplaçant dans la zone visée doit passer un Test Athlétisme Intermédiaire (+0) ou obtenir un État  A Terre  . Une créature qui tombe doit passer un Test de Dextérité ou laisser tomber tout objet qu'elle tient dans ses mains. Surincantation: Pour chaque +2 DR, vous pouvez augmenter d'un degré le Diﬃculté de ce test (c'est-à-dire passer de Intermédiaire à Complexe). ",
+			"sduration": "Bonus de Force Mentale minutes",
+			"srange": "Force Mentale mètres",
+			"starget": "Bonus de Force Mentale mètres",
+			"sdamage": ""
+		},
+		{
+			"id": "Sluggish",
+			"name": "Lenteur",
+			"description": "Votre cible devient lente. La créature affectée obtient le Défaut Lente pour toutes ses attaques, et ne peut se déplacer qu'en marchant. Il est interdit d'effectuer une course, de sprinter ou de s'enfuir. La créature peut être Engagé avec un adversaire, mais elle n'obtient pas de Bonus d'Avantage. ",
+			"sduration": "Bonus de Force Mentale Rounds",
+			"srange": "Bonus de Force Mentale mètres",
+			"starget": "1 ",
+			"sdamage": ""
+		},
+		{
+			"id": "Smash",
+			"name": "Eclatez",
+			"description": "Vous visez une porte, un objet inanimé, une petite surface ou une section de mur dans la ZdE du Bonus de Force Mentale Mètres. La cible est frappée par un  Missile Magique  de Dégâts +10.Les créatures ne sont pas affectées par ce sort. ",
+			"sduration": "Instantané",
+			"srange": "Contact",
+			"starget": "Special ",
+			"sdamage": ""
+		},
+		{
+			"id": "Heal Animal",
+			"name": "Soins des Animaux",
+			"description": "<p>Votre Toucher guérit toutes les blessures normales et enlève tout les états et maladies sur un animal commun qui n’est pas mort. Ce sort ne guérit pas les effets de la Corruption, les fractures, les déchirures musculaires ou les amputations. Le sort ne guérit pas non plus le déclin du à l’âge. .</p>\n<p>&nbsp;</p>",
+			"sduration": "Instantané",
+			"srange": "Contact",
+			"starget": "1 ",
+			"sdamage": ""
+		},
+		{
+			"id": "Wind Blast",
+			"name": "Souffle du Vent",
+			"description": "<p>Vous appelez les vents violents du ciel. Tous ceux qui se trouvent dans la zone d'Effect prennent un État Assommé , qui dure jusqu'à ce qu'ils sortent de la ZdE ou que le sort se termine. Les personnes affectées doivent passer un Test d'Agilité ou de Résistance Dur (-20) ou obtenir un État A Terre. Les attaques à distance sont impossibles dans ou à l'intérieur de la zone. Toute attaque Selon le Tableau de Difficulté de Combat (WFRP4 p161), sont effectuées à -20 dans la ZdE. </p>",
+			"sduration": "Bonus de Force Mentale Rounds",
+			"srange": "Force Mentale mètres",
+			"starget": "Bonus de AoE (Willpower mètres",
+			"sdamage": ""
+		},
+		{
+			"id": "Speed Read",
+			"name": "Lecture Rapide",
+			"description": "Vous êtes imprégné de la capacité à lire n'importe quoi (lettres, livres, parchemins, etc.) beaucoup plus rapidement que la normale et à conserver la même quantité d'informations. Gagnez le Talent de Lecture Rapide, chaque +1 DR vous permettant d'obtenir un niveau supplémentaire de ce Talent. ",
+			"sduration": "Bonus de Force Mentale minutes",
+			"srange": "Vous",
+			"starget": "Vous",
+			"sdamage": ""
+		},
+		{
+			"id": "Steal Aura",
+			"name": "Volez l'Aura",
+			"description": "Vous invoquez une paire de mains magiques chatoyantes qui se précipitent sur votre cible, qui doit être une créature protégée par un sort ou une aura magique. Effectuez un Test Opposé de Focalisation/Calme contre la créature ciblée. Si vous gagnez, les mains chatoyantes retirent les pouvoirs magiques protecteurs de la cible et vous les confèrent. La durée du sort dérobé se réinitialise en utilisant votre profil à la place. Vous n'obtenez aucun avantage du Domaine grâce au sort volé. Voici quelques exemples de sorts de protection:  Protection contre la pluie ,  Armure Aethyrique , Bouclier Anti-flèches, Dôme, Bouclier magique, Aura Ordinaire, Protection, Confort, Sans Douleur, Aura Protectrice, Mot d'Invulnérabilité, Peau de Chasseur, Voile violet de Shyish, Égide Aqshy, Purification, Bouclier Céruléeen, Robe scintillante, Peau d'écorce, Régénérer, Bannissement, Protection de Pha, Linceul d'Invisibilité. <br>Surincantation: Pour chaque +2 DR, vous pouvez ajouter 1 DR au Test Opposé. ",
+			"sduration": "Bonus de Force Mentale Rounds",
+			"srange": "Force Mentale mètres",
+			"starget": "Special ",
+			"sdamage": ""
+		},
+		{
+			"id": "Subvert Miracle",
+			"name": "Subversion de la Bénédiction",
+			"description": "<p>Une énergie agressive jaillit de vous, enfermant une seule cible affecté par une ou plusieurs bénédictions. Toutes les bénédictions sur la cible sont éliminées. </p>",
+			"sduration": "Instantané",
+			"srange": "Force Mentale mètres",
+			"starget": "Special ",
+			"sdamage": ""
+		},
+		{
+			"id": "Summon Verminlord",
+			"name": "Convoquer le Verminarque",
+			"description": "Une  fois  le  sort  jeté,  une  heure  de  méditation  est  nécessaire  pour rassembler les énergies. Si vous êtes interrompu, le sort est perdu. Ensuite, vous  pointez  un  point  quelconque  dans  la  zone  de  Bonus  de  Force Mentale et utilisez votre magie du Warp pour déchirer le tissu du royaume matériel,  faisant  naître  l'un  des  redoutables  Seigneurs  de  la  Vermine,  un Grand  Démon  du  Rat  Cornu.  Utilisez  le  profil  fourni  dans  le  Bestiaire Non-Officiel  ,  page  35  .  Lorsque  le  Démon  apparaît,  effectuez  un  Test Opposé Focalisation/Force Mentale pour le contrôler. Un lanceur de sorts qui  possède  la  Compétence  Focalisation  (Warp)  peut  apporter  un  +10 pour contrôler le Démon invoqué. Sans assistance, le risque pour vous est immense. Si vous gagnez le Test, le Seigneur de la Vermine peut se voir attribuer une tâche qui peut être accomplie pendant la Durée du sort. Si vous perdez le Test, le MJ détermine si le Démon vous attaque, vous et vos alliés, ou s'il retourne calmement dans l'Aethyr. Si vous réussissez un jet de Focalisation ou d'Incantation impliqué dans ce sort, vous êtes aspiré dans le  Royaume  du  Chaos  pour  devenir  le  jouet  d'un  des  Seigneurs  de  la Vermine que vous avez eu la folie d'invoquer. Si vous dépensez un point de Destin,  vous  êtes  renvoyé  dans  la  réalité  pour  une  raison  mystérieuse. <br>Surincantation:  Pour  chaque  +2  DR,  vous  pouvez  augmenter  le  DR  de votre Test Opposé de +1. Ce sort coûte 400 EXP à un Sorcier Skaven pour être appris La paranoïa des sorciers skavens et la hiérarchie rigide de la société skaven font qu'il est presque impossible pour les aspirants Sorciers d'apprendre et de survivre à ce sort.",
+			"sduration": "Bonus de Force Mentale rounds",
+			"srange": "Special ",
+			"starget": "Special ",
+			"sdamage": ""
+		},
+		{
+			"id": "Swiftpaws",
+			"name": "Pattes Agiles",
+			"description": "Ce sort, également connu sous le nom de Grimpeur Gluant, vous donne une  plus  grande  liberté  de  mouvement.  Votre  score  de  Mouvement  est doublé  et  vous  obtenez  le  Trait  de  Créature   Grimpant  .  Les  objets  que vous  transportez  ou  portez  sont  toujours  affectés  par  la  gravité  de  façon normale et tombent au sol s'ils ne sont pas attachés. ",
+			"sduration": "Bonus de Force Mentale rounds",
+			"srange": "Vous",
+			"starget": "Vous",
+			"sdamage": ""
+		},
+		{
+			"id": "Glamour",
+			"name": "Séduction",
+			"description": "<p>Vous vous enveloppez dans Ulgu, devenant ainsi une version plus séduisante de vous-même. Vos traits ne changent pas : ils deviennent simplement plus exotiques et intrigants pour ceux qui seraient normalement attirés par votre espèce et votre sexe. Vous obtenez +10 de Sociabilité et votre niveau maximum dans le Talent Attirant.<br />Surincantation: Pour chaque +2 DR, vous pouvez ajouter +10 à votre Sociabilité.</p>",
+			"sduration": "Force Mentale minutes",
+			"srange": "Vous",
+			"starget": "Vous",
+			"sdamage": ""
+		},
+		{
+			"id": "Part the Seas (Water)",
+			"name": "Séparer la Mer (Eau)",
+			"description": "<p>Vous tendez les mains en direction d’un point d’eau à proximité (mare, rivière, lac, courant) et y ouvrez une brèche de la taille de la ZdE. Vous pouvez traverser, et marcher à la valeur de votre Marche sur le terrain humide. Les créatures prises par le retour des eaux doivent effectuer un Test de <strong>Natation Difficile (-20)</strong> ou alors sont prises par les courants et sujets aux règles de Noyade (WFRP4, page 181).</p>",
+			"sduration": "Bonus de Force Mentale minutes",
+			"srange": "Vous",
+			"starget": "Bonus de Force Mentale mètres",
+			"sdamage": ""
+		},
+		{
+			"id": "Blot",
+			"name": "Tache",
+			"description": "<p>Votre toucher fait qu'une demi-pinte de liquide renversé ou en flaque s'assèche instantanément. Aucune tache n'est laissée sur place, mais les dommages causés aux surfaces demeurent (comme les taches d'huile ou les brûlures d'acide).</p>",
+			"sduration": "Instantané",
+			"srange": "Contact",
+			"starget": "Special ",
+			"sdamage": ""
+		},
+		{
+			"id": "Dust Storm (Air)",
+			"name": "Tempête de Sable (Air)",
+			"description": "<p>Vous conjurez un vent tourbillonnant de sable et de poussière dans la zone, que vous pouvez déplacer à volonté avec un Test de <strong>Focalisation Accessible (+20)</strong>. Dès lors que la tempête est créée et au début de chaque prochain Round, toutes les créatures prises à l’intérieur subissent un Projectile Magique avec un dégât +0.</p>",
+			"sduration": "Bonus de Force Mentale Rounds",
+			"srange": "Force Mentale mètres",
+			"starget": "Bonus de Force Mentale mètres",
+			"sdamage": ""
+		},
+		{
+			"id": "The Standing Ox",
+			"name": "Le Boeuf Immobile",
+			"description": "Vous interpellez tous les alliés à portée de tir, en renforçant leur courage et leur détermination. Tout allié touché par la  Peur , la  Terreur ou des États  Brisés n'est plus soumis à ces eﬀets. En outre, chaque allié obtient un point de Résilience qui est automatiquement perdu à la fin de la scène. Ce sort ne protège pas contre les futures sources de Peur ou de Terreur, etc.",
+			"sduration": "Instantané",
+			"srange": "Vous",
+			"starget": "Bonus de Force Mentale mètres",
+			"sdamage": ""
+		},
+		{
+			"id": "Tongues",
+			"name": "Langues",
+			"description": "Vous êtes capable de parler et de vous faire comprendre dans n'importe quelle langue commune parlée. ",
+			"sduration": "Bonus de Force Mentale minutes",
+			"srange": "Vous",
+			"starget": "Vous",
+			"sdamage": ""
+		},
+		{
+			"id": "Tormenting Vision",
+			"name": "Vision Tourmentée",
+			"description": "Vous focalisez  Dhar et dirigez le flux pour effrayer une créature Ã  portée, en lui provoquant des visions d'horreurs. La créature doit réussir un Test  de  Calme  Intermédiaire  (+0)  ou  recevoir  1  État   Assommé .  Si  la cible  n’arrive  pas  à  se  débarrasser  de  ces  états  en  moins  de  Bonus  de Force  Mentale  Rounds,  elle  souffre  alors  d’un  nombre  de  Points  de Corruptions Mentale égal au nombre d’États  Assommés .",
+			"sduration": "Special ",
+			"srange": "Force Mentale mètres",
+			"starget": "1 ",
+			"sdamage": ""
+		},
+		{
+			"id": "Traceless Demise",
+			"name": "Disparition sans Traces",
+			"description": "Lorsque vous lancez ce sort, vous devez méditer pendant une heure avec toutes les personnes que vous souhaitez cibler, en fusionnant lentement les énergies requises pour produire ses effets.  Si vous êtes interrompu pendant ce temps, le sort échoue. Si vous est tué alors que le sort reste actif, toute personne qui a été ciblée dans la zone d'effet du sort pendant le rituel se dissoudra dans une boue noire malodorante. Le sort est généralement jeté sur les assassins du clan Eshin avant qu'ils ne se lancent dans une chasse, afin de s'assurer qu'aucun cadavre de Skaven n'est laissé derrière eux.",
+			"sduration": "Bonus de Force Mentale heures",
+			"srange": "Vous",
+			"starget": "Bonus de Force Mentale mètres",
+			"sdamage": ""
+		},
+		{
+			"id": "Find Object",
+			"name": "Trouver un Objet",
+			"description": "<p>Grâce aux vents de la magie, vous pouvez localiser un objet perdu à portée. Si l'objet ne vous appartient pas, il doit avoir été touché par une personne vivante qui cherche à le retrouver et vous devez toucher cette personne pendant que vous lancez le sort.</p>",
+			"sduration": "Bonus de Force Mentale minutes",
+			"srange": "Force Mentale mètres",
+			"starget": "Special ",
+			"sdamage": ""
+		},
+		{
+			"id": "Vector",
+			"name": "Vecteur  Maladif",
+			"description": "Votre  toucher  fait  des  ravages  dans  le  système  immunitaire  de  la cible.  Pendant  la  durée  du  sort,  tous  les  Tests  de  Résistance  de  la cible  à  la  maladie  et  à  l'infection  doivent  être  inversés  si  cela  permet au  Test  d'échouer,  à  moins  que  la  cible  n'ait  le  Talent  de   Résistance (Maladie).",
+			"sduration": "Force Mentale heures",
+			"srange": "Contact",
+			"starget": "1 ",
+			"sdamage": ""
+		},
+		{
+			"id": "Veil of Flies",
+			"name": "Le Voile des Mouches",
+			"description": "Avec  un  murmure  de  malédiction  et  un  mouvement  de  bras,  vous invoquez  une  nuée  de  moucherons  et  de  mouches  mordantes.  L'essaim d'insectes agit comme vous et attaque vos ennemis. Vous obtenez le Trait de Créature  Perturbant et toute personne qui tentera de vous approcher perdra  automatiquement  1  Blessure  à  la  fin  de  chaque  Round.  Pour  les attaques  à  distance,  vous  comptez  comme  étant  en  Couverture  Légère (-10).",
+			"sduration": "Bonus de Force Mentale rounds",
+			"srange": "Vous",
+			"starget": "Bonus de Force Mentale mètres",
+			"sdamage": ""
+		},
+		{
+			"id": "Vermintide",
+			"name": "La Vermine",
+			"description": "Vous  invoquez  une  énorme  masse  de  rats  voraces  du  Warp  qui  se matérialise  autour  de  vous.  La  horde  se  manifeste  sous  la  forme  d'une énorme nuées grouillant de milliers de minuscules rats voraces. La nuée a le profil suivant, basé sur le Bestiaire Non-Officiel page 8. La nuée ne vous fera pas de mal, ni à d'autres créatures ressemblant à des rongeurs (par exemple, les Skavens), à moins que vous ne l'ordonniez, mais elle  attaquera  tout  ce  qui  se  trouve  sur  son  chemin.  À  la  fin  de  chaque round,  effectuez  un  Test  Opposé  de  Focalisation/Force  Mentale  pour contrôler  la  nuée  jusqu'à  ce  que  vous  perdiez  le  Test.  Tant  que  vous remportez le Test, la Nuée continuent d'agir et d'attaquer à votre demande en tant qu’action Gratuite pendant votre Tour. Si vous perdez le Test, la Nuée  ne  vous  écoute  plus  et  obtient  son  propre  Tour  dans  l'ordre d'Initiative, où elle agira soit à pleine vitesse vers le plus grand nombre de cibles, soit dans une direction aléatoire (au choix du MJ). Lorsque le sort se termine, la nuée magique se disperse dans toutes les directions.<br>Surincantation: Pour  chaque  +2 DR,  vous  pouvez ajouter  l'un  des  Traits Optionnels de la Créature. ",
+			"sduration": "Bonus de Force Mentale rounds",
+			"srange": "Special ",
+			"starget": "Special ",
+			"sdamage": ""
+		},
+		{
+			"id": "Night Sight",
+			"name": "Vision Nocturne",
+			"description": "<p>Vous utilisez votre magie innée pour améliorer votre capacité à voir dans des conditions de faible luminosité. Gagnez le Talent <em>Vision Nocturne </em>.</p>",
+			"sduration": "Bonus de Force Mentale Rounds",
+			"srange": "Vous",
+			"starget": "Vous",
+			"sdamage": ""
+		},
+		{
+			"id": "Walk on Water (Water)",
+			"name": "Marcher sur l’Eau (Eau)",
+			"description": "L'eau repousse légèrement vos pieds comme par magie lorsque vous vous déplacez, ce qui vous permet de traverser des rivières, des ruisseaux, des lacs, des marais, des étangs, de la boue, un sol glissant et autres sans diﬃculté. Vous devez marcher sur la surface de l'eau dans la minute qui suit l'Incantation et le sort se termine lorsque vous marchez sur la terre ferme. ",
+			"sduration": "Special ",
+			"srange": "Vous",
+			"starget": "Vous",
+			"sdamage": ""
+		},
+		{
+			"id": "Warp Lightning",
+			"name": "Eclair de Warp",
+			"description": "Vous  libérez  un  long  éclairs  vert  de  Warp  crépitante  sur  votre  cible. Il s'agit  d'un   Missile Magique  de  Dégâts  de  +5,  qui  ignore  les  Points d'Armure.  Si  la  localisation  touchée  est  protégée  par  une  armure métallique,  les  dégâts  seront  de  +10.  Les  cibles  prennent  également  un État   Assommé  .  Si  vous  faites un  échec  Critique,  vous  êtes  vous-même frappé par l'éclair.",
+			"sduration": "Instantané",
+			"srange": "Force Mentale mètres",
+			"starget": "1 ",
+			"sdamage": "5 "
+		},
+		{
+			"id": "Warp Stars",
+			"name": "Etoiles de Warp",
+			"description": "Vous  invoquez  un  nombre  d'étoiles  de  lancer  empoisonnées  égal  à  votre Bonus de Force Mentale et les lancez sur une ou plusieurs cibles à portée. Chaque étoile frappe comme un  Missile Magique  de Dégât +2 et inflige un Etat  Empoisonné.<br>Surincantation:  Pour  chaque  +3  DR,  vous  pouvez  cibler  un  nombre  de créature supplémentaire égale à votre Bonus de Force Mentale. ",
+			"sduration": "Instantané",
+			"srange": "Force Mentale mètres",
+			"starget": "Special ",
+			"sdamage": "2 "
+		},
+		{
+			"id": "Warp Vortex",
+			"name": "Vortex de Warp",
+			"description": "Vous  invoquez  une  terrifiante  tempête  formée  de  pure  énergie  de  Warp, alimentée par la puissance maligne du Rat Cornu. Tout le monde dans la zone d'effet est soumis à un  Missile Magique de Dégâts de +5, qui ignore les  Points  d'Armure.  Si  la  localisation  est  protégé  par  une  armure métallique,  les  dégâts  seront  de  +10.  Les  cibles  prennent  également  un État   Assommé  .  Si  vous  faites  un  échec  Critique,  vous  êtes  vous-même frappé par la tempête. Quiconque se trouve à l'intérieur du vortex ne peut ni  voler,  ni  courir,  ni  sprinter;  les  attaques  à  portée  sont  sans  effet  sur  la tempête.  À  la  fin  de  chaque  round,  effectuez  un  Test  Opposé  de Focalisation/Force  Mentale    pour  contrôler  le  vortex  jusqu'à  ce  que  vous perdiez  le  Test.  Tant  que  vous  gagnez  le  test,  vous  pouvez  effectuer  une Action Gratuite à votre Tour pour déplacer la tempête avec une vitesse de marche  de  4.  Si  vous  perdez  le  Test,  la  tempête  se  déplace  d'elle-même dans une direction aléatoire à la fin de chaque Round. ",
+			"sduration": "Bonus de Force Mentale rounds",
+			"srange": "Force Mentale mètres",
+			"starget": "Bonus de Force Mentale mètres",
+			"sdamage": ""
+		},
+		{
+			"id": "Wave of Withering",
+			"name": "Vague de Flétrissement",
+			"description": "D'un geste de la main, vous libérez le pouvoir dévastateur de  Dhar  qui fait dépérir vos adversaires, dessèche leur peau, réduit leur sang en poussière et brise leurs os. Toutes les créatures vivantes dans la zone d’effet subissent un  Missile Magique de Dégâts égaux à votre Bonus de Force Mentale, ignorant le Bonus d’Endurance et les Points d'Armure.",
+			"sduration": "Instantané",
+			"srange": "Force Mentale mètres",
+			"starget": "Bonus de Force Mentale mètres",
+			"sdamage": "Force Mentale Bonus"
+		},
+		{
+			"id": "Weeping Wounds",
+			"name": "Blessures Suintantes",
+			"description": "Vous canalisez les énergies nocives du Warp et infectez les blessures de vos ennemis. Toute personne se trouvant dans la zone d'eﬀet qui a été blessée à un  niveau  inférieur  à  celui  son  Bonus  d'Endurance,  qui  a  reçu  un  État Hémorragique ou qui a subi une Blessure Critique prend immédiatement une Infection Mineure  (WFRP4  p187)  et  toute  Infection  Mineure  précédemment subie se transforme en  Blessure Purulente.",
+			"sduration": "Instantané",
+			"srange": "Force Mentale mètres",
+			"starget": "Bonus de Force Mentale mètres",
+			"sdamage": ""
+		},
+		{
+			"id": "Winter’s Long Slumber",
+			"name": "Long Silence de l'Hiver",
+			"description": "Votre fait tomber une créature de taille égale ou inférieure à la vôtre dans un sommeil profond qui ressemble à l'hibernation d'un ours. L'hibernation dure de nombreux mois, jusqu'au solstice ou à l'équinoxe suivant. La cible n'a  pas  besoin  de  manger  ou  de  boire.Toutes  les  maladies,  poisons  ou autres  affections  similaires  dont  souffre  le  personnage  sont  interrompus, leurs propriétés nuisibles ralenties jusqu'à ce qu'il puisse marcher. Les effets actuels  restent  cependant  en  vigueur.  La  guérison  naturelle  se  fait normalement.  La  cible  ne  peut  pas  être  réveillée  avant  la  fin  de l'enchantement, sauf si le sort est dissipé. Vous pouvez également lancer ce sort sur vous-même. ",
+			"sduration": "Special  ",
+			"srange": "Contact",
+			"starget": "Special ",
+			"sdamage": ""
+		},
+		{
+			"id": "Wizard Duel",
+			"name": "Duel de Sorciers",
+			"description": "Vous vous engagez dans un duel mental contre un sorcier rival. Si la cible n'a pas de Compétence de Focalisation, vous êtes immédiatement soumis à une Incantation Imparfaite Mineure.  Une fois le combat débuté, vous et votre cible êtes bloqués dans votre duel et vous comptez tous les deux comme ayant un État  Surpris jusqu'à la fin du duel. Au début de chaque Round, effectuez un Test Opposé de Focalisation. Le perdant obtient un État  Exténué (+1); si l'État  Exténué dépasse son Bonus de Force Mentale, il doit passer un Test de Résistance Intermédiaire (+0) ou prendre un État  Inconscient . Si un combattant prend plus d'États  Exténués que prévu, il subit un État  Inconscient .  Le duel se termine lorsque l'un des combattants prend un État  Inconscient ; lorsque un adversaire extérieur interrompt l'un des deux duellistes, provoquant un État  Surpris pour les deux duellistes; ou lorsque le vainqueur de ce Round décide de mettre fin au duel - en infligeant immédiatement un État  Assommé +1 au perdant pour chaque Round gagné. <br>Surincantation: Pour chaque +1 DR, vous pouvez ajouter 1 DR au premier Test Opposé si le Test est réussi.",
+			"sduration": "Special ",
+			"srange": "Force Mentale mètres",
+			"starget": "Special ",
+			"sdamage": ""
+		},
+		{
+			"id": "Word of Invulnerability",
+			"name": "Mot d'Invulnérabilité ",
+			"description": "Vous prononcez une parole magique qui vous enveloppe d'un manteau protecteur, absorbant les dommages de sources non magiques (comme les attaques, les chutes, suﬀocation, etc.). Vous n'êtes pas protégé contre le eﬀects supplémentaire des Coups Critiques. Le sort absorbe un total de Dommages égal au Bonus de Force Mentale +DR, ensuite le manteau se dissipe. <br>Surincantation: Pour chaque +2 DR, vous pouvez augmenter les dégâts absorbés de 1.",
+			"sduration": "Bonus de Force Mentale Rounds",
+			"srange": "Vous",
+			"starget": "Vous",
+			"sdamage": ""
+		},
+		{
+			"id": "Word of Pain",
+			"name": "Mot de Douleur",
+			"description": "Vous  prononcez  un  mot  interdit,  d’origine  probablement  Démoniaque, qui  inflige  la  douleur  à    toutes  les  créatures  vivantes  dans  l’aire  d’effet (excepté vous). Toutes les cibles subissent un  Missile Magique (+8) qui ignore les Points d’Armure. De plus, les cibles doivent réussir un Test de Calme  Intermédiaire  (+0)  ou  recevoir  +DR  États    Brisés  ,  avec  un minimum de 1.",
+			"sduration": "",
+			"srange": "Vous",
+			"starget": "Bonus de Force Mentale mètres",
+			"sdamage": "8 "
+		},
+		{
+			"id": "Wrack",
+			"name": "Fracasser",
+			"description": "Votre cible subit un tremblement de douleur intense et est soumise à des dégâts du DR sur la zone touchée, réduits par le Bonus d'Endurance et les Points d'Armure (minimum 1).  La douleur provoquera d'autres effets si un Test Intermédiaire (+0) est raté. En cas de coup à la tête, un Test de Calme échoué provoque 1 État  Assommé . Sur un coup au bras, un Test de Dextérité échoué provoque la chute de ce que la cible tenait dans sa main. Sur un coup au corps, un Test de Résistance échoué provoque un État  Assommé . Si la jambe est touchée, un Test d'Agilité échoué donne à la cible un État A Terre",
+			"sduration": "Instantané",
+			"srange": "Bonus de Force Mentale mètres",
+			"starget": "1 ",
+			"sdamage": ""
+		},
+		{
+			"id": "Drawing Down the Moon",
+			"name": "Éclat de Lune",
+			"description": "<p>Si Mannslieb est visible, vous faites descendre une sorte de folie lunaire sur toutes les Créatures dans l’aire d’effet. Ce sort n’aura aucun effet si Morrslieb est haute dans le ciel. Les cibles sont baignées par le clair de lune, réduisant leur détermination et provoquant des hallucinations: elles reçoivent toutes l’Etat Assommé et ne peuvent utiliser de points de Destin, de Chance, de Détermination ou de Résilience. Les cibles perdent également tout leurs points de Corruption Physiques. De plus, les Créatures doivent réussir un Test <strong>Opposé de Calme/Focalisation</strong> contre vous ou recevoir DR Etats Assommé . Tant que dans ce état, vos cibles se déplacent aléatoirement, selon la table de dispersion (<strong>WFRP4</strong> .page 163). Les Créatures qui échouent à enlever leurs Etat Assommé avant la fin du Sort doivent réussir un Test de <strong>Résistance à la Corruption Mentale (Modéré)</strong>. Le sort n’a aucun effet sur les créatures immunisés à la Psychologie. De plus, les Créatures avec les Traits Démoniaques, Changeur de Forme ou Mort-vivant sont affectés différemment: elles subissent à la place un Projectile Magique avec valeur de Dégâts de +6.</p>",
+			"sduration": "Bonus de Force Mentale rounds",
+			"srange": "Force Mentale mètres",
+			"starget": "Bonus de Force Mentale mètres",
+			"sdamage": ""
+		},
+		{
+			"id": "Delouse",
+			"name": "Épouiller",
+			"description": "<p>Vous retirez 1 parasite non-magique d’un personnage ou d’un animal malade de même taille ou plus petit que vous.</p>\n<p>&nbsp;</p>",
+			"sduration": "Instantané",
+			"srange": "Contact",
+			"starget": "1 ",
+			"sdamage": ""
+		},
+		{
+			"id": "Extinguish Fire (Water)",
+			"name": "Eteindre le Feu (Eau)",
+			"description": "<p>Vous criez des mots de puissance et conjurez suffisamment d’eau pour éteindre tous les feux dans la ZdE. Au sein de celle-ci, tous les Etats @Condition[Ablaze](En Flammes) sont immédiatement retirés. </p>",
+			"sduration": "Instantané",
+			"srange": "Force Mentale mètres",
+			"starget": "Bonus de Force Mentale mètres",
+			"sdamage": ""
+		}
+	]
+}

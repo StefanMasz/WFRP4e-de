@@ -1,0 +1,1696 @@
+{
+	"label": "Carrières Religieuses",
+	"mapping": {
+    "skills": {
+      "path": "data.skills",
+      "converter": "career_skills"
+    },
+    "talents": {
+      "path": "data.talents",
+      "converter": "career_talents"
+    },
+    "class": {
+      "path": "data.class.value",
+      "converter": "generic_localization"
+    },
+    "careergroup": {
+      "path": "data.careergroup.value",
+      "converter": "career_careergroup"
+    },
+    "trappings": "data.trappings"
+  },	
+	"entries": [
+		{
+			"id": "Abbess of Manann",
+			"name": "Abbesse de Manann",
+			"description": "",
+			"trappings": [
+				"Abbaye",
+				"Bibliothèque (Théologie)"
+			]			
+		},
+		{
+			"id": "Abbess of Morr",
+			"name": "Abbesse de Morr",
+			"description": "",
+			"trappings": [
+				"Abbaye",
+				"Bibliothèque (Théologie)"
+			]			
+		},
+		{
+			"id": "Abbess of Myrmidia",
+			"name": "Abbesse de Myrmidia",
+			"description": "",
+			"trappings": [
+				"Abbaye",
+				"Bibliothèque (Théologie)"
+			]			
+		},
+		{
+			"id": "Abbess of Ranald",
+			"name": "Abbesse de Ranald",
+			"description": "",
+			"trappings": [
+				"Abbaye",
+				"Bibliothèque (Théologie)"
+			]			
+		},
+		{
+			"id": "Abbess of Rhya",
+			"name": "Abbesse de Rhya",
+			"description": "",
+			"trappings": [
+				"Abbaye",
+				"Bibliothèque (Théologie)"
+			]						
+		},
+		{
+			"id": "Abbess of Shallya",
+			"name": "Abbesse de Shallya",
+			"description": "",
+			"trappings": [
+				"Abbaye",
+				"Bibliothèque (Théologie)"
+			]						
+		},
+		{
+			"id": "Abbess of Sigmar",
+			"name": "Abbesse de Sigmar",
+			"description": "",
+			"trappings": [
+				"Abbaye",
+				"Bibliothèque (Théologie)"
+			]						
+		},
+		{
+			"id": "Abbess of Taal",
+			"name": "Abbesse de Taal",
+			"description": "",
+			"trappings": [
+				"Abbaye",
+				"Bibliothèque (Théologie)"
+			]						
+		},
+		{
+			"id": "Abbess of Ulric",
+			"name": "Abbesse d'Ulric",
+			"description": "",
+			"trappings": [
+				"Abbaye",
+				"Bibliothèque (Théologie)"
+			]						
+		},
+		{
+			"id": "Abbess of Verena",
+			"name": "Abbesse de Verena",
+			"description": "",
+			"trappings": [
+				"Abbaye",
+				"Bibliothèque (Théologie)"
+			]						
+		},
+		{
+			"id": "Anchorite of Manann",
+			"name": "Ascète de Manann",
+			"description": "",
+			"trappings": [
+				"Un lieu ou une cellule pour la méditation",
+				"Pas de chaussures",
+				"Notes délirantes griffonnées",
+				"1d10 babioles sacrées"
+			]
+		},
+		{
+			"id": "Anchorite of Morr",
+			"name": "Ascète de Morr",
+			"description": "",
+			"trappings": [
+				"Un lieu ou une cellule pour la méditation",
+				"Pas de chaussures",
+				"Notes délirantes griffonnées",
+				"1d10 babioles sacrées"
+			]
+		},
+		{
+			"id": "Anchorite of Myrmidia",
+			"name": "Ascète de Myrmidia",
+			"description": "",
+			"trappings": [
+				"Un lieu ou une cellule pour la méditation",
+				"Pas de chaussures",
+				"Notes délirantes griffonnées",
+				"1d10 babioles sacrées"
+			]
+		},
+		{
+			"id": "Anchorite of Ranald",
+			"name": "Ascète de Ranald",
+			"description": "",
+			"trappings": [
+				"Un lieu ou une cellule pour la méditation",
+				"Pas de chaussures",
+				"Notes délirantes griffonnées",
+				"1d10 babioles sacrées"
+			]
+		},
+		{
+			"id": "Anchorite of Rhya",
+			"name": "Ascète de Rhya",
+			"description": "",
+			"trappings": [
+				"Un lieu ou une cellule pour la méditation",
+				"Pas de chaussures",
+				"Notes délirantes griffonnées",
+				"1d10 babioles sacrées"
+			]
+		},
+		{
+			"id": "Anchorite of Shallya",
+			"name": "Ascète de Shallya",
+			"description": "",
+			"trappings": [
+				"Un lieu ou une cellule pour la méditation",
+				"Pas de chaussures",
+				"Notes délirantes griffonnées",
+				"1d10 babioles sacrées"
+			]
+		},
+		{
+			"id": "Anchorite of Sigmar",
+			"name": "Ascète de Sigmar",
+			"description": "",
+			"trappings": [
+				"Un lieu ou une cellule pour la méditation",
+				"Pas de chaussures",
+				"Notes délirantes griffonnées",
+				"1d10 babioles sacrées"
+			]
+		},
+		{
+			"id": "Anchorite of Taal",
+			"name": "Ascète de Taal",
+			"description": "",
+			"trappings": [
+				"Un lieu ou une cellule pour la méditation",
+				"Pas de chaussures",
+				"Notes délirantes griffonnées",
+				"1d10 babioles sacrées"
+			]
+		},
+		{
+			"id": "Anchorite of Ulric",
+			"name": "Ascète d'Ulric",
+			"description": "",
+			"trappings": [
+				"Un lieu ou une cellule pour la méditation",
+				"Pas de chaussures",
+				"Notes délirantes griffonnées",
+				"1d10 babioles sacrées"
+			]
+		},
+		{
+			"id": "Anchorite of Verena",
+			"name": "Ascète de Verena",
+			"description": "",
+			"trappings": [
+				"Un lieu ou une cellule pour la méditation",
+				"Pas de chaussures",
+				"Notes délirantes griffonnées",
+				"1d10 babioles sacrées"
+			]
+		},
+		{
+			"id": "Hermit of Manann",
+			"name": "Ermite de Manann",
+			"description": "",
+			"trappings": [
+				"Symbole religieux grossier",
+				"Guenilles",
+				"Bol de mendiant",
+				"De drôles d'idées à propos de votre Divinité"
+			]
+		},
+		{
+			"id": "Hermit of Morr",
+			"name": "Ermite de Morr",
+			"description": "",
+			"trappings": [
+				"Symbole religieux grossier",
+				"Guenilles",
+				"Bol de mendiant",
+				"De drôles d'idées à propos de votre Divinité"
+			]
+		},
+		{
+			"id": "Hermit of Myrmidia",
+			"name": "Ermite de Myrmidia",
+			"description": "",
+			"trappings": [
+				"Symbole religieux grossier",
+				"Guenilles",
+				"Bol de mendiant",
+				"De drôles d'idées à propos de votre Divinité"
+			]			
+		},
+		{
+			"id": "Hermit of Ranald",
+			"name": "Ermite de Ranald",
+			"description": "",
+			"trappings": [
+				"Symbole religieux grossier",
+				"Guenilles",
+				"Bol de mendiant",
+				"De drôles d'idées à propos de votre Divinité"
+			]			
+		},
+		{
+			"id": "Hermit of Rhya",
+			"name": "Ermite de Rhya",
+			"description": "",
+			"trappings": [
+				"Symbole religieux grossier",
+				"Guenilles",
+				"Bol de mendiant",
+				"De drôles d'idées à propos de votre Divinité"
+			]			
+		},
+		{
+			"id": "Hermit of Shallya",
+			"name": "Ermite de Shallya",
+			"description": "",
+			"trappings": [
+				"Symbole religieux grossier",
+				"Guenilles",
+				"Bol de mendiant",
+				"De drôles d'idées à propos de votre Divinité"
+			]			
+		},
+		{
+			"id": "Hermit of Sigmar",
+			"name": "Ermite de Sigmar",
+			"description": "",
+			"trappings": [
+				"Symbole religieux grossier",
+				"Guenilles",
+				"Bol de mendiant",
+				"De drôles d'idées à propos de votre Divinité"
+			]			
+		},
+		{
+			"id": "Hermit of Taal",
+			"name": "Ermite de Taal",
+			"description": "",
+			"trappings": [
+				"Symbole religieux grossier",
+				"Guenilles",
+				"Bol de mendiant",
+				"De drôles d'idées à propos de votre Divinité"
+			]			
+		},
+		{
+			"id": "Hermit of Ulric",
+			"name": "Ermite d'Ulric",
+			"description": "",
+			"trappings": [
+				"Symbole religieux grossier",
+				"Guenilles",
+				"Bol de mendiant",
+				"De drôles d'idées à propos de votre Divinité"
+			]			
+		},
+		{
+			"id": "Hermit of Verena",
+			"name": "Ermite de Verena",
+			"description": "",
+			"trappings": [
+				"Symbole religieux grossier",
+				"Guenilles",
+				"Bol de mendiant",
+				"De drôles d'idées à propos de votre Divinité"
+			]			
+		},
+		{
+			"id": "High Priest of Manann",
+			"name": "Haut Prêtre de Manann",
+			"description": "",
+			"trappings": [
+				"Robe de qualité",
+				"Relique religieuse",
+				"Prêtres subordonnés",
+				"Temple"
+			]			
+		},
+		{
+			"id": "High Priest of Morr",
+			"name": "Haut Prêtre de Morr",
+			"description": "",
+			"trappings": [
+				"Robe de qualité",
+				"Relique religieuse",
+				"Prêtres subordonnés",
+				"Temple"
+			]			
+		},
+		{
+			"id": "High Priest of Myrmidia",
+			"name": "Haut Prêtre de Myrmidia",
+			"description": "",
+			"trappings": [
+				"Robe de qualité",
+				"Relique religieuse",
+				"Prêtres subordonnés",
+				"Temple"
+			]			
+		},
+		{
+			"id": "High Priest of Ranald",
+			"name": "Haut Prêtre de Ranald",
+			"description": "",
+			"trappings": [
+				"Robe de qualité",
+				"Relique religieuse",
+				"Prêtres subordonnés",
+				"Temple"
+			]			
+		},
+		{
+			"id": "High Priest of Rhya",
+			"name": "Haut Prêtre de Rhya",
+			"description": "",
+			"trappings": [
+				"Robe de qualité",
+				"Relique religieuse",
+				"Prêtres subordonnés",
+				"Temple"
+			]			
+		},
+		{
+			"id": "High Priest of Shallya",
+			"name": "Haut Prêtre de Shallya",
+			"description": "",
+			"trappings": [
+				"Robe de qualité",
+				"Relique religieuse",
+				"Prêtres subordonnés",
+				"Temple"
+			]			
+		},
+		{
+			"id": "High Priest of Sigmar",
+			"name": "Haut Prêtre de Sigmar",
+			"description": "",
+			"trappings": [
+				"Robe de qualité",
+				"Relique religieuse",
+				"Prêtres subordonnés",
+				"Temple"
+			]			
+		},
+		{
+			"id": "High Priest of Taal",
+			"name": "Haut Prêtre de Taal",
+			"description": "",
+			"trappings": [
+				"Robe de qualité",
+				"Relique religieuse",
+				"Prêtres subordonnés",
+				"Temple"
+			]			
+		},
+		{
+			"id": "High Priest of Ulric",
+			"name": "Haut Prêtre d'Ulric",
+			"description": "",
+			"trappings": [
+				"Robe de qualité",
+				"Relique religieuse",
+				"Prêtres subordonnés",
+				"Temple"
+			]			
+		},
+		{
+			"id": "High Priest of Verena",
+			"name": "Haut Prêtre de Verena",
+			"description": "",
+			"trappings": [
+				"Robe de qualité",
+				"Relique religieuse",
+				"Prêtres subordonnés",
+				"Temple"
+			]			
+		},
+		{
+			"id": "Initiate of Manann",
+			"name": "Initié de Manann",
+			"description": "",
+			"trappings": [
+				"Symbole religieux",
+				"Robes"
+			]			
+		},
+		{
+			"id": "Initiate of Morr",
+			"name": "Initié de Morr",
+			"description": "",
+			"trappings": [
+				"Symbole religieux",
+				"Robes"
+			]			
+		},
+		{
+			"id": "Initiate of Myrmidia",
+			"name": "Initié de Myrmidia",
+			"description": "",
+			"trappings": [
+				"Symbole religieux",
+				"Robes"
+			]			
+		},
+		{
+			"id": "Initiate of Ranald",
+			"name": "Initié de Ranald",
+			"description": "",
+			"trappings": [
+				"Symbole religieux",
+				"Robes"
+			]			
+		},
+		{
+			"id": "Initiate of Rhya",
+			"name": "Initié de Rhya",
+			"description": "",
+			"trappings": [
+				"Symbole religieux",
+				"Robes"
+			]			
+		},
+		{
+			"id": "Initiate of Shallya",
+			"name": "Initié de Shallya",
+			"description": "",
+			"trappings": [
+				"Symbole religieux",
+				"Robes"
+			]			
+		},
+		{
+			"id": "Initiate of Sigmar",
+			"name": "Initié de Sigmar",
+			"description": "",
+			"trappings": [
+				"Symbole religieux",
+				"Robes"
+			]			
+		},
+		{
+			"id": "Initiate of Taal",
+			"name": "Initié de Taal",
+			"description": "",
+			"trappings": [
+				"Symbole religieux",
+				"Robes"
+			]			
+		},
+		{
+			"id": "Initiate of Ulric",
+			"name": "Initié d'Ulric",
+			"description": "",
+			"trappings": [
+				"Symbole religieux",
+				"Robes"
+			]			
+		},
+		{
+			"id": "Initiate of Verena",
+			"name": "Initié de Verena",
+			"description": "",
+			"trappings": [
+				"Symbole religieux",
+				"Robes"
+			]			
+		},
+		{
+			"id": "Knights Griffon",
+			"name": "Chevaliers Griffons",
+			"description": "",
+			"trappings": []			
+		},
+		{
+			"id": "Knights of Sigmar's Blood",
+			"name": "Chevaliers du Sang de Sigmar",
+			"description": "",
+			"trappings": []			
+		},
+		{
+			"id": "Knights of the Everlasting Light",
+			"name": "Templiers de la Lumière Éternelle",
+			"description": "<p>Le talent Malchance n'est pas facultatif.</p>" ,
+			"trappings": []			
+		},
+		{
+			"id": "Knights of the Fiery Heart",
+			"name": "Chevaliers du cœur ardent",
+			"description": "",
+			"trappings": []			
+		},
+		{
+			"id": "Lector of Manann",
+			"name": "Lecteur de Manann",
+			"description": "",
+			"trappings": [
+				"Bibliothèque (Théologie)",
+				"Hauts prêtres subordonnés"
+			]			
+		},
+		{
+			"id": "Lector of Morr",
+			"name": "Lecteur de Morr",
+			"description": "",
+			"trappings": [
+				"Bibliothèque (Théologie)",
+				"Hauts prêtres subordonnés"
+			]			
+		},
+		{
+			"id": "Lector of Myrmidia",
+			"name": "Lecteur de Myrmidia",
+			"description": "",
+			"trappings": [
+				"Bibliothèque (Théologie)",
+				"Hauts prêtres subordonnés"
+			]						
+		},
+		{
+			"id": "Lector of Ranald",
+			"name": "Lecteur de Ranald",
+			"description": "",
+			"trappings": [
+				"Bibliothèque (Théologie)",
+				"Hauts prêtres subordonnés"
+			]						
+		},
+		{
+			"id": "Lector of Rhya",
+			"name": "Lecteur de Rhya",
+			"description": "",
+			"trappings": [
+				"Bibliothèque (Théologie)",
+				"Hauts prêtres subordonnés"
+			]						
+		},
+		{
+			"id": "Lector of Shallya",
+			"name": "Lecteur de Shallya",
+			"description": "",
+			"trappings": [
+				"Bibliothèque (Théologie)",
+				"Hauts prêtres subordonnés"
+			]						
+		},
+		{
+			"id": "Lector of Sigmar",
+			"name": "Lecteur de Sigmar",
+			"description": "",
+			"trappings": [
+				"Bibliothèque (Théologie)",
+				"Hauts prêtres subordonnés"
+			]						
+		},
+		{
+			"id": "Lector of Taal",
+			"name": "Lecteur de Taal",
+			"description": "",
+			"trappings": [
+				"Bibliothèque (Théologie)",
+				"Hauts prêtres subordonnés"
+			]						
+		},
+		{
+			"id": "Lector of Ulric",
+			"name": "Lecteur d'Ulric",
+			"description": "",
+			"trappings": [
+				"Bibliothèque (Théologie)",
+				"Hauts prêtres subordonnés"
+			]						
+		},
+		{
+			"id": "Lector of Verena",
+			"name": "Lecteur de Verena",
+			"description": "",
+			"trappings": [
+				"Bibliothèque (Théologie)",
+				"Hauts prêtres subordonnés"
+			]						
+		},
+		{
+			"id": "Living Saint of Manann",
+			"name": "Saint Vivant de Manann",
+			"description": "",
+			"trappings": [
+				"Grand groupe de fidèles",
+				"Le respect d'au moins un prêtre notable",
+				"Votre magnum opus hérétique",
+				"Un lieu de Rassemblement"
+			]			
+		},
+		{
+			"id": "Living Saint of Morr",
+			"name": "Saint Vivant de Morr",
+			"description": "",
+			"trappings": [
+				"Grand groupe de fidèles",
+				"Le respect d'au moins un prêtre notable",
+				"Votre magnum opus hérétique",
+				"Un lieu de Rassemblement"
+			]			
+		},
+		{
+			"id": "Living Saint of Myrmidia",
+			"name": "Saint Vivant de Myrmidia",
+			"description": "",
+			"trappings": [
+				"Grand groupe de fidèles",
+				"Le respect d'au moins un prêtre notable",
+				"Votre magnum opus hérétique",
+				"Un lieu de Rassemblement"
+			]			
+		},
+		{
+			"id": "Living Saint of Ranald",
+			"name": "Saint Vivant de Ranald",
+			"description": "",
+			"trappings": [
+				"Grand groupe de fidèles",
+				"Le respect d'au moins un prêtre notable",
+				"Votre magnum opus hérétique",
+				"Un lieu de Rassemblement"
+			]			
+		},
+		{
+			"id": "Living Saint of Rhya",
+			"name": "Saint Vivant de Rhya",
+			"description": "",
+			"trappings": [
+				"Grand groupe de fidèles",
+				"Le respect d'au moins un prêtre notable",
+				"Votre magnum opus hérétique",
+				"Un lieu de Rassemblement"
+			]			
+		},
+		{
+			"id": "Living Saint of Shallya",
+			"name": "Saint Vivant de Shallya",
+			"description": "",
+			"trappings": [
+				"Grand groupe de fidèles",
+				"Le respect d'au moins un prêtre notable",
+				"Votre magnum opus hérétique",
+				"Un lieu de Rassemblement"
+			]			
+		},
+		{
+			"id": "Living Saint of Sigmar",
+			"name": "Saint Vivant de Sigmar",
+			"description": "",
+			"trappings": [
+				"Grand groupe de fidèles",
+				"Le respect d'au moins un prêtre notable",
+				"Votre magnum opus hérétique",
+				"Un lieu de Rassemblement"
+			]			
+		},
+		{
+			"id": "Living Saint of Taal",
+			"name": "Saint Vivant de Taal",
+			"description": "",
+			"trappings": [
+				"Grand groupe de fidèles",
+				"Le respect d'au moins un prêtre notable",
+				"Votre magnum opus hérétique",
+				"Un lieu de Rassemblement"
+			]			
+		},
+		{
+			"id": "Living Saint of Ulric",
+			"name": "Saint Vivant d'Ulric",
+			"description": "",
+			"trappings": [
+				"Grand groupe de fidèles",
+				"Le respect d'au moins un prêtre notable",
+				"Votre magnum opus hérétique",
+				"Un lieu de Rassemblement"
+			]			
+		},
+		{
+			"id": "Living Saint of Verena",
+			"name": "Saint Vivant de Verena",
+			"description": "",
+			"trappings": [
+				"Grand groupe de fidèles",
+				"Le respect d'au moins un prêtre notable",
+				"Votre magnum opus hérétique",
+				"Un lieu de Rassemblement"
+			]			
+		},
+		{
+			"id": "Longshanks",
+			"name": "Longue Lame",
+			"description": "",
+			"trappings": []
+		},
+		{
+			"id": "Mystic of Manann",
+			"name": "Mystique de Manann",
+			"description": "",
+			"trappings": [
+				"Un petit groupe de suivants : ermites ou religieux",
+				"Plume et parchemin ou livre vierge",
+				"Une relique de Saint"
+			]
+		},
+		{
+			"id": "Mystic of Morr",
+			"name": "Mystique de Morr",
+			"description": "",
+			"trappings": [
+				"Un petit groupe de suivants : ermites ou religieux",
+				"Plume et parchemin ou livre vierge",
+				"Une relique de Saint"
+			]
+		},
+		{
+			"id": "Mystic of Myrmidia",
+			"name": "Mystique de Myrmidia",
+			"description": "",
+			"trappings": [
+				"Un petit groupe de suivants : ermites ou religieux",
+				"Plume et parchemin ou livre vierge",
+				"Une relique de Saint"
+			]
+		},
+		{
+			"id": "Mystic of Ranald",
+			"name": "Mystique de Ranald",
+			"description": "",
+			"trappings": [
+				"Un petit groupe de suivants : ermites ou religieux",
+				"Plume et parchemin ou livre vierge",
+				"Une relique de Saint"
+			]
+		},
+		{
+			"id": "Mystic of Rhya",
+			"name": "Mystique de Rhya",
+			"description": "",
+			"trappings": [
+				"Un petit groupe de suivants : ermites ou religieux",
+				"Plume et parchemin ou livre vierge",
+				"Une relique de Saint"
+			]
+		},
+		{
+			"id": "Mystic of Shallya",
+			"name": "Mystique de Shallya",
+			"description": "",
+			"trappings": [
+				"Un petit groupe de suivants : ermites ou religieux",
+				"Plume et parchemin ou livre vierge",
+				"Une relique de Saint"
+			]
+		},
+		{
+			"id": "Mystic of Sigmar",
+			"name": "Mystique de Sigmar",
+			"description": "",
+			"trappings": [
+				"Un petit groupe de suivants : ermites ou religieux",
+				"Plume et parchemin ou livre vierge",
+				"Une relique de Saint"
+			]
+		},
+		{
+			"id": "Mystic of Taal",
+			"name": "Mystique de Taal",
+			"description": "",
+			"trappings": [
+				"Un petit groupe de suivants : ermites ou religieux",
+				"Plume et parchemin ou livre vierge",
+				"Une relique de Saint"
+			]
+		},
+		{
+			"id": "Mystic of Ulric",
+			"name": "Mystique d'Ulric",
+			"description": "",
+			"trappings": [
+				"Un petit groupe de suivants : ermites ou religieux",
+				"Plume et parchemin ou livre vierge",
+				"Une relique de Saint"
+			]
+		},
+		{
+			"id": "Mystic of Verena",
+			"name": "Mystique de Verena",
+			"description": "",
+			"trappings": [
+				"Un petit groupe de suivants : ermites ou religieux",
+				"Plume et parchemin ou livre vierge",
+				"Une relique de Saint"
+			]
+		},
+		{
+			"id": "Novitiate (Nun) of Manann",
+			"name": "Novice (Nonne) de Manann",
+			"description": "",
+			"trappings": [
+				"Symbole religieux",
+				"Robes"
+			]
+		},
+		{
+			"id": "Novitiate (Nun) of Morr",
+			"name": "Novice (Nonne) de Morr",
+			"description": "",
+			"trappings": [
+				"Symbole religieux",
+				"Robes"
+			]
+		},
+		{
+			"id": "Novitiate (Nun) of Ranald",
+			"name": "Novice (Nonne) de Ranald",
+			"description": "",
+			"trappings": [
+				"Symbole religieux",
+				"Robes"
+			]
+		},
+		{
+			"id": "Novitiate (Nun) of Rhya",
+			"name": "Novice (Nonne) de Rhya",
+			"description": "",
+			"trappings": [
+				"Symbole religieux",
+				"Robes"
+			]
+		},
+		{
+			"id": "Novitiate (Nun) of Shallya",
+			"name": "Novice (Nonne) de Shallya",
+			"description": "",
+			"trappings": [
+				"Symbole religieux",
+				"Robes"
+			]
+		},
+		{
+			"id": "Novitiate (Nun) of Sigmar",
+			"name": "Novice (Nonne) de Sigmar",
+			"description": "",
+			"trappings": [
+				"Symbole religieux",
+				"Robes"
+			]
+		},
+		{
+			"id": "Novitiate (Nun) of Taal",
+			"name": "Novice (Nonne) de Taal",
+			"description": "",
+			"trappings": [
+				"Symbole religieux",
+				"Robes"
+			]
+		},
+		{
+			"id": "Novitiate (Nun) of Ulric",
+			"name": "Novice (Nonne) d'Ulric",
+			"description": "",
+			"trappings": [
+				"Symbole religieux",
+				"Robes"
+			]
+		},		
+		{
+			"id": "Novitiate (Nun) of Verena",
+			"name": "Novice (Nonne) de Verena",
+			"description": "",
+			"trappings": [
+				"Symbole religieux",
+				"Robes"
+			]
+		},
+		{
+			"id": "Novitiate of Manann",
+			"name": "Novice de Manann",
+			"description": "",
+			"trappings": [
+				"Livre (Religion)",
+				"Justaucorps de cuir",
+				"Symbole religieux",
+				"Robes",
+				"Arme (de mêlée - au choix)"
+			]
+		},
+		{
+			"id": "Novitiate of Morr",
+			"name": "Novice de Morr",
+			"description": "",
+			"trappings": [
+				"Livre (Religion)",
+				"Justaucorps de cuir",
+				"Symbole religieux",
+				"Robes",
+				"Arme (de mêlée - au choix)"
+			]
+		},
+		{
+			"id": "Novitiate of Myrmidia",
+			"name": "Novice de Myrmidia",
+			"description": "",
+			"trappings": [
+				"Livre (Religion)",
+				"Justaucorps de cuir",
+				"Symbole religieux",
+				"Robes",
+				"Arme (de mêlée - au choix)"
+			]
+		},
+		{
+			"id": "Novitiate of Ranald",
+			"name": "Novice de Ranald",
+			"description": ""
+		},
+		{
+			"id": "Novitiate of Shallya",
+			"name": "Novice de Shallya",
+			"description": "",
+			"trappings": [
+				"Livre (Religion)",
+				"Justaucorps de cuir",
+				"Symbole religieux",
+				"Robes",
+				"Arme (de mêlée - au choix)"
+			]
+		},
+		{
+			"id": "Novitiate of Sigmar",
+			"name": "Novice de Sigmar",
+			"description": "",
+			"trappings": [
+				"Livre (Religion)",
+				"Justaucorps de cuir",
+				"Symbole religieux",
+				"Robes",
+				"Arme (de mêlée - au choix)"
+			]
+		},
+		{
+			"id": "Novitiate of Taal",
+			"name": "Novice de Taal",
+			"description": "",
+			"trappings": [
+				"Livre (Religion)",
+				"Justaucorps de cuir",
+				"Symbole religieux",
+				"Robes",
+				"Arme (de mêlée - au choix)"
+			]
+		},
+		{
+			"id": "Novitiate of Ulric",
+			"name": "Novice d'Ulric",
+			"description": "",
+			"trappings": [
+				"Livre (Religion)",
+				"Justaucorps de cuir",
+				"Symbole religieux",
+				"Robes",
+				"Arme (de mêlée - au choix)"
+			]
+		},
+		{
+			"id": "Novitiate of Verena",
+			"name": "Novice de Verena",
+			"description": "",
+			"trappings": [
+				"Livre (Religion)",
+				"Justaucorps de cuir",
+				"Symbole religieux",
+				"Robes",
+				"Arme (de mêlée - au choix)"
+			]
+		},
+		{
+			"id": "Nun of Manann",
+			"name": "Nonne de Manann",
+			"description": "",
+			"trappings": [
+				"Livre (Religion)",
+				"Relique religieuse",
+				"Outils de profession (Au choix)"
+			]
+		},
+		{
+			"id": "Nun of Morr",
+			"name": "Nonne de Morr",
+			"description": "",
+			"trappings": [
+				"Livre (Religion)",
+				"Relique religieuse",
+				"Outils de profession (Au choix)"
+			]
+		},
+		{
+			"id": "Nun of Myrmidia",
+			"name": "Nonne de Myrmidia",
+			"description": "",
+			"trappings": [
+				"Livre (Religion)",
+				"Relique religieuse",
+				"Outils de profession (Au choix)"
+			]
+		},
+		{
+			"id": "Nun of Ranald",
+			"name": "Nonne de Ranald",
+			"description": "",
+			"trappings": [
+				"Livre (Religion)",
+				"Relique religieuse",
+				"Outils de profession (Au choix)"
+			]
+		},
+		{
+			"id": "Nun of Rhya",
+			"name": "Nonne de Rhya",
+			"description": "",
+			"trappings": [
+				"Livre (Religion)",
+				"Relique religieuse",
+				"Outils de profession (Au choix)"
+			]
+		},
+		{
+			"id": "Nun of Shallya",
+			"name": "Nonne de Shallya",
+			"description": "",
+			"trappings": [
+				"Livre (Religion)",
+				"Relique religieuse",
+				"Outils de profession (Au choix)"
+			]
+		},
+		{
+			"id": "Nun of Sigmar",
+			"name": "Nonne de Sigmar",
+			"description": "",
+			"trappings": [
+				"Livre (Religion)",
+				"Relique religieuse",
+				"Outils de profession (Au choix)"
+			]
+		},
+		{
+			"id": "Nun of Taal",
+			"name": "Nonne de Taal",
+			"description": "",
+			"trappings": [
+				"Livre (Religion)",
+				"Relique religieuse",
+				"Outils de profession (Au choix)"
+			]
+		},
+		{
+			"id": "Nun of Ulric",
+			"name": "Nonne d'Ulric",
+			"description": "",
+			"trappings": [
+				"Livre (Religion)",
+				"Relique religieuse",
+				"Outils de profession (Au choix)"
+			]
+		},
+		{
+			"id": "Nun of Verena",
+			"name": "Nonne de Verena",
+			"description": "",
+			"trappings": [
+				"Livre (Religion)",
+				"Relique religieuse",
+				"Outils de profession (Au choix)"
+			]
+		},
+		{
+			"id": "Order of Fury",
+			"name": "Ordre de la Fureur",
+			"description": "",
+			"trappings": []
+		},
+		{
+			"id": "Order of Mysteries",
+			"name": "Ordre des Mystères",
+			"description": "",
+			"trappings": []
+		},
+		{
+			"id": "Order of True Insight",
+			"name": "Ordre de la Véritable Finesse",
+			"description": "",
+			"trappings": []
+		},
+		{
+			"id": "Order of the Albatross",
+			"name": "Ordre de l'Albatros",
+			"description": "",
+			"trappings": []
+		},
+		{
+			"id": "Order of the Antler",
+			"name": "Ordre de la Ramure",
+			"description": "",
+			"trappings": []
+		},
+		{
+			"id": "Order of the Anvil",
+			"name": "Ordre de l'Enclume",
+			"description": "",
+			"trappings": []
+		},
+		{
+			"id": "Order of the Augurs",
+			"name": "Ordre des Augures",
+			"description": "",
+			"trappings": []
+		},
+		{
+			"id": "Order of the Black Guard",
+			"name": "Ordre de la Garde Noire",
+			"description": "",
+			"trappings": []
+		},
+		{
+			"id": "Order of the Blazing Sun",
+			"name": "Ordre du Soleil Flamboyant",
+			"description": "",
+			"trappings": []
+		},
+		{
+			"id": "Order of the Bleeding Heart",
+			"name": "Ordre du Coeur Sanglant",
+			"description": ""
+		},
+		{
+			"id": "Order of the Chalice",
+			"name": "Ordre du Calice",
+			"description": "",
+			"trappings": []
+		},
+		{
+			"id": "Order of the Cleansing Flame",
+			"name": "Ordre de la Flamme Purificatrice",
+			"description": "",
+			"trappings": []
+		},
+		{
+			"id": "Order of the Doomsayers",
+			"name": "Ordre des Prophètes du Destin", 
+			"description": "",
+			"trappings": []
+		},
+		{
+			"id": "Order of the Eagle",
+			"name": "Ordre de l'Aigle",
+			"description": "",
+			"trappings": []
+		},
+		{
+			"id": "Order of the Howling Wolves",
+			"name": "Ordre du Loup Hurlant",
+			"description": "",
+			"trappings": []
+		},
+		{
+			"id": "Order of the Lorekeepers",
+			"name": "Ordre des Gardiens du Savoir",
+			"description": "",
+			"trappings": []
+		},
+		{
+			"id": "Order of the Mariner",
+			"name": "Ordre du Marinier",
+			"description": "",
+			"trappings": []
+		},
+		{
+			"id": "Order of the Righteous Spear",
+			"name": "Ordre de la Lance Vertueuse",
+			"description": "",
+			"trappings": []
+		},
+		{
+			"id": "Order of the Scalebearers",
+			"name": "Ordre des Porteurs de la Balance",
+			"description": "",
+			"trappings": []
+		},
+		{
+			"id": "Order of the Shroud",
+			"name": "Ordre du Linceul",
+			"description": "",
+			"trappings": []
+		},
+		{
+			"id": "Order of the Silver Hammer",
+			"name": "Order of the Silver Hammer",
+			"description": "",
+			"trappings": []
+		},
+		{
+			"id": "Order of the Torch",
+			"name": "Ordre de la Torche",
+			"description": "",
+			"trappings": []
+		},
+		{
+			"id": "Order of the White Wolves",
+			"name": "Ordre des Chevaliers du Loup Blanc",
+			"description": "",
+			"trappings": []
+		},
+		{
+			"id": "Priest Captain of Manann",
+			"name": "Prêtre Capitaine de Manann",
+			"description": "",
+			"trappings": [
+				"Relique religieuse"
+			]
+		},
+		{
+			"id": "Priest Captain of Morr",
+			"name": "Prêtre Capitaine de Morr",
+			"description": "",
+			"trappings": [
+				"Relique religieuse"
+			]
+		},
+		{
+			"id": "Priest Captain of Myrmidia",
+			"name": "Prêtre Capitaine de Myrmidia",
+			"description": "",
+			"trappings": [
+				"Relique religieuse"
+			]
+		},
+		{
+			"id": "Priest Captain of Ranald",
+			"name": "Prêtre Capitaine de Ranald",
+			"description": "",
+			"trappings": [
+				"Relique religieuse"
+			]
+		},
+		{
+			"id": "Priest Captain of Shallya",
+			"name": "Prêtre Capitaine de Shallya",
+			"description": "",
+			"trappings": [
+				"Relique religieuse"
+			]
+		},
+		{
+			"id": "Priest Captain of Sigmar",
+			"name": "Prêtre Capitaine de Sigmar",
+			"description": "",
+			"trappings": [
+				"Relique religieuse"
+			]
+		},
+		{
+			"id": "Priest Captain of Taal",
+			"name": "Prêtre Capitaine de Taal",
+			"description": "",
+			"trappings": [
+				"Relique religieuse"
+			]
+		},
+		{
+			"id": "Priest Captain of Ulric",
+			"name": "Prêtre Capitaine d'Ulric",
+			"description": "",
+			"trappings": [
+				"Relique religieuse"
+			]
+		},
+		{
+			"id": "Priest Captain of Verena",
+			"name": "Prêtre Capitaine de Verena",
+			"description": "",
+			"trappings": [
+				"Relique religieuse"
+			]
+		},
+		{
+			"id": "Priest Sergeant of Manann",
+			"name": "Prêtre Sergent de Manann",
+			"description": "",
+			"trappings": [
+				"Cheval de guerre léger avec selle et harnais"
+			]
+		},
+		{
+			"id": "Priest Sergeant of Morr",
+			"name": "Prêtre Sergent de Morr",
+			"description": "",
+			"trappings": [
+				"Cheval de guerre léger avec selle et harnais"
+			]
+		},
+		{
+			"id": "Priest Sergeant of Myrmidia",
+			"name": "Prêtre Sergent de Myrmidia",
+			"description": "",
+			"trappings": [
+				"Cheval de guerre léger avec selle et harnais"
+			]
+		},
+		{
+			"id": "Priest Sergeant of Ranald",
+			"name": "Prêtre Sergent de Ranald",
+			"description": "",
+			"trappings": [
+				"Cheval de guerre léger avec selle et harnais"
+			]
+		},
+		{
+			"id": "Priest Sergeant of Shallya",
+			"name": "Prêtre Sergent de Shallya",
+			"description": "",
+			"trappings": [
+				"Cheval de guerre léger avec selle et harnais"
+			]
+		},
+		{
+			"id": "Priest Sergeant of Sigmar",
+			"name": "Prêtre Sergent de Sigmar",
+			"description": "",
+			"trappings": [
+				"Cheval de guerre léger avec selle et harnais"
+			]
+		},
+		{
+			"id": "Priest Sergeant of Taal",
+			"name": "Prêtre Sergent de Taal",
+			"description": "",
+			"trappings": [
+				"Cheval de guerre léger avec selle et harnais"
+			]
+		},
+		{
+			"id": "Priest Sergeant of Ulric",
+			"name": "Prêtre Sergent d'Ulric",
+			"description": "",
+			"trappings": [
+				"Cheval de guerre léger avec selle et harnais"
+			]
+		},
+		{
+			"id": "Priest Sergeant of Verena",
+			"name": "Prêtre Sergent de Verena",
+			"description": "",
+			"trappings": [
+				"Cheval de guerre léger avec selle et harnais"
+			]
+		},
+		{
+			"id": "Priest of Manann",
+			"name": "Prêtre de Manann",
+			"description": "",
+			"trappings": [
+				"Livre (Religion)",
+				"Robes de cérémonie"
+			]
+		},
+		{
+			"id": "Priest of Morr",
+			"name": "Prêtre de Morr",
+			"description": "",
+			"trappings": [
+				"Livre (Religion)",
+				"Robes de cérémonie"
+			]
+		},
+		{
+			"id": "Priest of Myrmidia",
+			"name": "Prêtre de Myrmidia",
+			"description": "",
+			"trappings": [
+				"Livre (Religion)",
+				"Robes de cérémonie"
+			]
+		},
+		{
+			"id": "Priest of Ranald",
+			"name": "Prêtre de Ranald",
+			"description": "",
+			"trappings": [
+				"Livre (Religion)",
+				"Robes de cérémonie"
+			]
+		},
+		{
+			"id": "Priest of Rhya",
+			"name": "Prêtre de Rhya",
+			"description": "",
+			"trappings": [
+				"Livre (Religion)",
+				"Robes de cérémonie"
+			]
+		},
+		{
+			"id": "Priest of Shallya",
+			"name": "Prêtre de Shallya",
+			"description": "",
+			"trappings": [
+				"Livre (Religion)",
+				"Robes de cérémonie"
+			]
+		},
+		{
+			"id": "Priest of Sigmar",
+			"name": "Prêtre de Sigmar",
+			"description": "",
+			"trappings": [
+				"Livre (Religion)",
+				"Robes de cérémonie"
+			]
+		},
+		{
+			"id": "Priest of Taal",
+			"name": "Prêtre de Taal",
+			"description": "",
+			"trappings": [
+				"Livre (Religion)",
+				"Robes de cérémonie"
+			]
+		},
+		{
+			"id": "Priest of Ulric",
+			"name": "Prêtre d'Ulric",
+			"description": "",
+			"trappings": [
+				"Livre (Religion)",
+				"Robes de cérémonie"
+			]
+		},
+		{
+			"id": "Priest of Verena",
+			"name": "Prêtre de Verena",
+			"description": "",
+			"trappings": [
+				"Livre (Religion)",
+				"Robes de cérémonie"
+			]
+		},
+		{
+			"id": "Prioress General of Manann",
+			"name": "Prieure Générale de Manann",
+			"description": "",
+			"trappings": [
+				"Ordre religieux"
+			]
+		},
+		{
+			"id": "Prioress General of Morr",
+			"name": "Prieure Générale de Morr",
+			"description": "",
+			"trappings": [
+				"Ordre religieux"
+			]
+		},
+		{
+			"id": "Prioress General of Myrmidia",
+			"name": "Prieure Générale de Myrmidia",
+			"description": "",
+			"trappings": [
+				"Ordre religieux"
+			]
+		},
+		{
+			"id": "Prioress General of Ranald",
+			"name": "Prieure Générale de Ranald",
+			"description": "",
+			"trappings": [
+				"Ordre religieux"
+			]
+		},
+		{
+			"id": "Prioress General of Rhya",
+			"name": "Prieure Générale de Rhya",
+			"description": "",
+			"trappings": [
+				"Ordre religieux"
+			]
+		},
+		{
+			"id": "Prioress General of Shallya",
+			"name": "Prieure Générale de Shallya",
+			"description": "",
+			"trappings": [
+				"Ordre religieux"
+			]
+		},
+		{
+			"id": "Prioress General of Sigmar",
+			"name": "Prieure Générale de Sigmar",
+			"description": "",
+			"trappings": [
+				"Ordre religieux"
+			]
+		},
+		{
+			"id": "Prioress General of Taal",
+			"name": "Prieure Générale de Taal",
+			"description": "",
+			"trappings": [
+				"Ordre religieux"
+			]
+		},
+		{
+			"id": "Prioress General of Ulric",
+			"name": "Prieure Générale d'Ulric",
+			"description": "",
+			"trappings": [
+				"Ordre religieux"
+			]
+		},
+		{
+			"id": "Prioress General of Verena",
+			"name": "Prieure Générale de Verena",
+			"description": "",
+			"trappings": [
+				"Ordre religieux"
+			]
+		},
+		{
+			"id": "The Brotherhood",
+			"name": "La Confrérie",
+			"description": "",
+			"trappings": []
+		},
+		{
+			"id": "The Crooked Fingers",
+			"name": "Les Doigts Crochus",
+			"description": "",
+			"trappings": []
+		},
+		{
+			"id": "The Crosses",
+			"name": "Les Croix",
+			"description": "",
+			"trappings": []
+		},
+		{
+			"id": "Warrior Priest of Manann",
+			"name": "Prêtre Guerrier de Manann",
+			"description": "",
+			"trappings": [
+				"Plastron en Cuir Bouilli",
+				"Arme (Au choix)"
+			]
+		},
+		{
+			"id": "Warrior Priest of Morr",
+			"name": "Prêtre Guerrier de Morr",
+			"description": "",
+			"trappings": [
+				"Plastron en Cuir Bouilli",
+				"Arme (Au choix)"
+			]
+		},
+		{
+			"id": "Warrior Priest of Myrmidia",
+			"name": "Prêtre Guerrier de Myrmidia",
+			"description": "",
+			"trappings": [
+				"Plastron en Cuir Bouilli",
+				"Arme (Au choix)"
+			]
+		},
+		{
+			"id": "Warrior Priest of Ranald",
+			"name": "Prêtre Guerrier de Ranald",
+			"description": "",
+			"trappings": [
+				"Plastron en Cuir Bouilli",
+				"Arme (Au choix)"
+			]
+		},
+		{
+			"id": "Warrior Priest of Shallya",
+			"name": "Prêtre Guerrier de Shallya",
+			"description": "",
+			"trappings": [
+				"Plastron en Cuir Bouilli",
+				"Arme (Au choix)"
+			]
+		},
+		{
+			"id": "Warrior Priest of Sigmar",
+			"name": "Prêtre Guerrier de Sigmar",
+			"description": "",
+			"trappings": [
+				"Plastron en Cuir Bouilli",
+				"Arme (Au choix)"
+			]
+		},
+		{
+			"id": "Warrior Priest of Taal",
+			"name": "Prêtre Guerrier de Taal",
+			"description": "",
+			"trappings": [
+				"Plastron en Cuir Bouilli",
+				"Arme (Au choix)"
+			]
+		},
+		{
+			"id": "Warrior Priest of Ulric",
+			"name": "Prêtre Guerrier d'Ulric",
+			"description": "",
+			"trappings": [
+				"Plastron en Cuir Bouilli",
+				"Arme (Au choix)"
+			]
+		},
+		{
+			"id": "Warrior Priest of Verena",
+			"name": "Prêtre Guerrier de Verena",
+			"description": "",
+			"trappings": [
+				"Plastron en Cuir Bouilli",
+				"Arme (Au choix)"
+			]
+		}
+	]
+}

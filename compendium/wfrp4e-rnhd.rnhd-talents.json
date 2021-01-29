@@ -1,0 +1,14 @@
+{
+	"label": "Talents (Rough Nights & Hard Days)",
+  "mapping": {
+    "tests": "data.tests.value"
+  },	
+	"entries": [
+		{
+			"id": "Suffused with Ulgu",
+			"name": "Imprégné avec Uglu",
+			"tests": "Focalisation (Ulgu) pour la Discrétion; tout sort des Ombres incantés dans les 8 mètyres reçoivent + 1 DR",
+			"description": "<p>Vous êtes imprégné avec le Vent Gris de Magie, que ceux avec une Seconde Vue perçoivent comme une ombre, un brouillard mouvant autour de votre corps.</p>\n<p>Vous pouvez utiliser votre Compétence <em>Focalisation (Uglu)</em> au lieu de la Compétence Discrétion pour tout les tests applicables.</p>\n<pDe plus, toutes les réussites aux Tests d'Incantation de sorts des Ombres dans un rayons de 8 mètres autour de vous bénéficient de + 1DR. Ce bonus ne peut être octroyé qu'une seule fois, peu importe le nombre de personnes possédant ce Talent à proximité du lanceur de sort.</p>"
+		}
+	]
+}

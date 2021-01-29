@@ -1,0 +1,174 @@
+{
+	"label": "Blessures",
+  "mapping": {      
+    "penalty": "data.penalty.value",    
+    "location": {
+      "path": "data.location.value",
+      "converter": "generic_localization"
+    }
+  },	
+	"entries": [
+		{
+			"id": "04OvfETcxQK8UMcR",
+			"name": "Oreille Amputée",
+			"description": "<p>À chaque fois que vous subissez une Blessure critique où il est indiqué Amputation (difficulté), vous devez réussir un Test de Résistance à la difficulté indiquée ou gagner 1 État À Terre. Sur un Échec (-2) ou pire, vous gagnez également un État Assommé; sur un Échec Impressionnant (-4 ou pire), gagnez un État Inconscient</p>\n<p>Toutes les amputatons nécessitent d'être traitées par la chirurgie, ce qui signifie qu'une Blessure ne peut pas être soignée tant que vous n'êtes pas passé entre les mains d'un chirurgien. Voir Chirurgie.</p>\n<p><strong>Oreille</strong> Perdre une oreille est douloureux, mais on apprend à vivre sans assez vite. Si vous avez la malchance de perdre vos deux oreilles, subissez une pénalité permanente de -20 à tous les Tests de Perception basés sur l'ouïe. De plus vous subissez une pénalité de -5 à tous vos Tests de Sociabilité par oreille perdue lorsque les autres voient votre visage.</p>",
+			"penalty": "-5 en Sociabilité"
+		},
+		{
+			"id": "8INWQxvtMaK9oeV4",
+			"name": "Dent perdue",
+			"description": "À chaque fois que vous subissez une Blessure critique où il est indiqué Amputation (difficulté), vous devez réussir un Test de Résistance à la difficulté indiquée ou gagner 1 État À Terre. Sur un Échec (-2) ou pire, vous gagnez également un État Assommé; sur un Échec Impressionnant (-4 ou pire), gagnez un État Inconscient</p>\n<p>Toutes les amputatons nécessitent d'être traitées par la chirurgie, ce qui signifie qu'une Blessure ne peut pas être soignée tant que vous n'êtes pas passé entre les mains d'un chirurgien. Voir Chirurgie.</p>\n<p><strong>Dents:&nbsp;</strong> La perte de dents peut être disgracieuse et rend la mastication difficile. Pour chaque paire de dents manquante, vous perdez également 1 Point de cotre caractéristique de Sociabilité. De plus, une fois qu'il vous manque plus de la moitié de vos dents (humain 16 ; elfes 18 ; nains et halflings 20), vous avez beaucoup plus de mal à consommer de la nourriture solide que vos pairs, doublant le temps nécessaire aux repas et rendant certaines denrées alimentaires très difficiles à manger, ce qui, pour le coup dépend surtout de votre interprétation et de vos capacités narratives.</p>",
+			"penalty": ""
+		},		
+		{
+			"id": "8sM5Mdk6gP6mdjoM",
+			"name": "Main Amputée",
+			"description": "<p>À chaque fois que vous subissez une Blessure critique où il est indiqué Amputation (difficulté), vous devez réussir un Test de Résistance à la difficulté indiquée ou gagner 1 État À Terre. Sur un Échec (-2) ou pire, vous gagnez également un État Assommé; sur un Échec Impressionnant (-4 ou pire), gagnez un État Inconscient</p>\n<p>Toutes les amputatons nécessitent d'être traitées par la chirurgie, ce qui signifie qu'une Blessure ne peut pas être soignée tant que vous n'êtes pas passé entre les mains d'un chirurgien. Voir Chirurgie.</p>\n<p><strong>Main:&nbsp;</strong> Vous recevez une pénalité de -20 à tous les Tests qui nécessitent cette main et vous ne pouvez pas utiliser d'armes à eux mains. Cependant, vous pouvez lacer un bouclier sur le bras blessé. Si la main perdue est votre main principale, vous subissez la pénalité habituelle de -20 à tous les Tests d'Arme effectués avec votre main secondaire. Vous pouvez réduire cette pénalité de 5 par tranche de 100 PX dépensés, car vous apprenez à tout effectuer avec cette seconde main. Si vous perdez les deux mains, il sera temps d'apprendre à maîtriser le combat au crochet.</p>",
+			"penalty": "-20 aux Tests nécessitant les 2 mains"
+		},
+		{
+			"id": "C0BX3ywcMgTUWKXJ",
+			"name": "Pied Amputé",
+			"description": "<p>À chaque fois que vous subissez une Blessure critique où il est indiqué Amputation (difficulté), vous devez réussir un Test de Résistance à la difficulté indiquée ou gagner 1 État À Terre. Sur un Échec (-2) ou pire, vous gagnez également un État Assommé; sur un Échec Impressionnant (-4 ou pire), gagnez un État Inconscient</p>\n<p>Toutes les amputatons nécessitent d'être traitées par la chirurgie, ce qui signifie qu'une Blessure ne peut pas être soignée tant que vous n'êtes pas passé entre les mains d'un chirurgien. Voir Chirurgie.</p>\n        <p><strong>Pied</strong> Réduisez de façon permanente votre Mouvement de moitié, et subissez une pénalité de -20 à tous les Tests qui implique la mobilité, comme une Esquive. Si vous perdez vos deux pieds, il devient très compliqué de marcher. Peut-être pourriez-vous engager un homme de main afin de vous porter ?</p>",
+			"penalty": "-20 aux Tests de Mobilité, Mouvement réduit de moitié"
+		},
+		{
+			"id": "EnqT2PdAvzbd7Rok",
+			"name": "Orteil Amputé",
+			"description": "<p>À chaque fois que vous subissez une Blessure critique où il est indiqué Amputation (difficulté), vous devez réussir un Test de Résistance à la difficulté indiquée ou gagner 1 État À Terre. Sur un Échec (-2) ou pire, vous gagnez également un État Assommé; sur un Échec Impressionnant (-4 ou pire), gagnez un État Inconscient</p>\n<p>Toutes les amputatons nécessitent d'être traitées par la chirurgie, ce qui signifie qu'une Blessure ne peut pas être soignée tant que vous n'êtes pas passé entre les mains d'un chirurgien. Voir Chirurgie.</p>\n<p><strong>Orteils: </strong>.</p> La perte d'orteils a une effet sur votre équilibre. Pour chaque orteil perdu, subissez une perte définitive de -1 à votre Agilité et à vos Talents d'Arme.</p>",
+			"penalty": ""
+		},
+		{
+			"id": "ISdiZbcuTA16EyDS",
+			"name": "Langue coupée",
+			"description": "À chaque fois que vous subissez une Blessure critique où il est indiqué Amputation (difficulté), vous devez réussir un Test de Résistance à la difficulté indiquée ou gagner 1 État À Terre. Sur un Échec (-2) ou pire, vous gagnez également un État Assommé; sur un Échec Impressionnant (-4 ou pire), gagnez un État Inconscient</p>\n<p>Toutes les amputatons nécessitent d'être traitées par la chirurgie, ce qui signifie qu'une Blessure ne peut pas être soignée tant que vous n'êtes pas passé entre les mains d'un chirurgien. Voir Chirurgie.</p>\n<p><strong>Langue: </strong>Dépourvu de langue, vous ne pouvez plus que marmonner et grommeler, ou vous servir d'un système de signes maison pour communiquer. Tous les Tests de Langue qui impliquent la parole se soldent automatiquement par un échec.</p>",
+			"penalty": "Les Tests de Langues sont tous ratés"
+		},
+		{
+			"id": "JaadlZPkwb5ozp4f",
+			"name": "Nez Amputé",
+			"description": "<p>À chaque fois que vous subissez une Blessure critique où il est indiqué Amputation (difficulté), vous devez réussir un Test de Résistance à la difficulté indiquée ou gagner 1 État À Terre. Sur un Échec (-2) ou pire, vous gagnez également un État Assommé; sur un Échec Impressionnant (-4 ou pire), gagnez un État Inconscient</p>\n<p>Toutes les amputatons nécessitent d'être traitées par la chirurgie, ce qui signifie qu'une Blessure ne peut pas être soignée tant que vous n'êtes pas passé entre les mains d'un chirurgien. Voir Chirurgie.</p>\n        <p><strong>Nez:&nbsp;</strong> La perte d'un nez rend le visage plutôt effrayant. Votre sociabilité est réduite de -20 de façon permanente et vous subissez une pénalité de -30 à tous les Tests qui impliquent l'odorat.</p>",
+			"penalty": "-20 en Sociabilité, -30 aux Tests d'Odorat"
+		},
+		{
+			"id": "KauMO1CodRLWmhv4",
+			"name": "Bras Amputé",
+			"description": "<p>À chaque fois que vous subissez une Blessure critique où il est indiqué Amputation (difficulté), vous devez réussir un Test de Résistance à la difficulté indiquée ou gagner 1 État À Terre. Sur un Échec (-2) ou pire, vous gagnez également un État Assommé; sur un Échec Impressionnant (-4 ou pire), gagnez un État Inconscient</p>\n<p>Toutes les amputations nécessitent d'être traitées par la chirurgie, ce qui signifie qu'une Blessure ne peut pas être soignée tant que vous n'êtes pas passé entre les mains d'un chirurgien. Voir Chirurgie.</p>\n<p><strong>Bras</strong>: Vous subissez une pénalité de -20 à tous les Tests qui requiert l'utilisation des deux bras et vous ne pouvez pas utiliser d'armes à deux mains. Si le bras affecté est votre bras principal, vous subissez la pénalité habituelle de -20 à tous les Tests d'Arme effectués avec votre bras secondaire. Vous pouvez réduire cette pénalité de 5 par tranche de 100 PX dépensés, car vous apprenez à tout effectuer avec ce second bras.</p>",
+			"penalty": "-20 aux Tests nécessitant les 2 mains"
+		},
+		{
+			"id": "ryG4x0tj6psMSXI2",
+			"name": "Doigt Amputée",
+			"description": "<p>À chaque fois que vous subissez une Blessure critique où il est indiqué Amputation (difficulté), vous devez réussir un Test de Résistance à la difficulté indiquée ou gagner 1 État À Terre. Sur un Échec (-2) ou pire, vous gagnez également un État Assommé; sur un Échec Impressionnant (-4 ou pire), gagnez un État Inconscient</p>\n<p>Toutes les amputatons nécessitent d'être traitées par la chirurgie, ce qui signifie qu'une Blessure ne peut pas être soignée tant que vous n'êtes pas passé entre les mains d'un chirurgien. Voir Chirurgie.</p>\n<p><strong>Doigts</strong>: Avec des doigts coupés, votre prise est moins ferme et les risques de Maladresses augmentent lorsque vous utilisez cette main. Pour le premier doigt perdu, sur un échec à tout Test en rapport dont le chiffre des unités est 1 est considéré comme une Maladresse. Pour deux doigts perdus, ce seront les résultats dont le chiffre des unités sera 1 ou 2 qui seront considérés comme des Maladresses, etc. De plus, vous subissez une pénalité de -5 à tous les Tests qui impliquent cette main par doigt perdu. Une fois que vous avez perdu 4 doigts ou plus, utilisez la règle de la Main Amputée.</p>",
+			"penalty": "-5 lors des utilisations de la main concernée"
+		},
+		{
+			"id": "uTJccLaYFfaJReIg",
+			"name": "Oeil crevé",
+			"description": "<p>À chaque fois que vous subissez une Blessure critique où il est indiqué Amputation (difficulté), vous devez réussir un Test de Résistance à la difficulté indiquée ou gagner 1 État À Terre. Sur un Échec (-2) ou pire, vous gagnez également un État Assommé; sur un Échec Impressionnant (-4 ou pire), gagnez un État Inconscient</p>\n<p>Toutes les amputatons nécessitent d'être traitées par la chirurgie, ce qui signifie qu'une Blessure ne peut pas être soignée tant que vous n'êtes pas passé entre les mains d'un chirurgien. Voir Chirurgie.</p>\n    <p><strong>Oeil</strong>: Même s'il es thorrible de perdre un oeil, vous apprendrez très vite à compenser. Si vous avez la malchance de perdre vos deux yeux, subissez une pénalité permanente de -30 à tous les Tests en rapport avec la vue, comme les Tests d'Arme, les Tests d'Esquive, les Tests de Chevaucher, et autres. De plus, vous subissez une pénalité de -5 à tous vos Tests de Sociabilité par orbite vide que les autres peuvent voir.</p>",
+			"penalty": "-5 en Sociabilité"
+		},
+		{
+			"id": "xTtDVDXCClQieIW5",
+			"name": "Jambe Amputée",
+			"description": "<p>À chaque fois que vous subissez une Blessure critique où il est indiqué Amputation (difficulté), vous devez réussir un Test de Résistance à la difficulté indiquée ou gagner 1 État À Terre. Sur un Échec (-2) ou pire, vous gagnez également un État Assommé; sur un Échec Impressionnant (-4 ou pire), gagnez un État Inconscient</p>\n<p>Toutes les amputatons nécessitent d'être traitées par la chirurgie, ce qui signifie qu'une Blessure ne peut pas être soignée tant que vous n'êtes pas passé entre les mains d'un chirurgien. Voir Chirurgie.</p>\n        <p><strong>Jambe:&nbsp;</strong> Réduisez de façon permanente votre Mouvement de moitié, et subissez une pénalité de -20 à tous les Tests qui implique la mobilité. De plus, vous ne pouvez pas utilisez la compétence Esquive du tout. Si vous perdez vos deux jambes, il devient très compliqué de marcher.</p>",
+			"penalty": "-20 aux Tests de mobilité, Esquive impossible, Mouvement réduit de moitié"
+		},
+		{
+			"id": "2A7SW9eXsm7MvLsk",
+			"name": "Bras Fracturé (Majeure)",
+			"description": "<p>Un de vos os est salement fracturé et adopte un angle très bizarre avec le reste du membre ou a éclaté au point de fracture. Vous ne pouvez pas utiliser cette localisation tant que l'os n'est pas guéri.</p>\n                        <p><span style=\"font-weight: bold;\">Bras: </span>Vous êtes contraint de ne plus vous servir que d'un de vos deux membres car l'autre est devenu trop douloureux et devra sans doute être bandé. Vous subissez une pénalité de -20 à tous les Tests qui requiert l'utilisation des deux bras et vous ne pouvez pas utiliser d'armes à deux mains. Si la bras affecté est votre bras principal, vous subissez la pénalité habituelle de -20 à tous les Tests d'Arme effectués avec votre bras secondaire.</p>\n                        <h3>Guérison</h3>\n                        <p>Il faudra 40+1d10 jours pour soigner une fracture. À la fin de cette période, un succès obtenu sur un Test de Résistance Intermédiaire (+0) indique que l'os s'est remis correctement et que vous ne subirez aucun effet à long terme. Sur une échec, vous subissez une pénalité permanente de -10 en Agilité.</p>\n<p>Un Test de Guérison Intermédiaire (+0) réussi dans un intervalle d'une semaine suivant la fracture permet d'éviter le Test de Résistance, mais la zone touchée doit rester bandée et maintenue en place pendant tout le temps de la guérison. Si le bandage est défait, il faudra réussir un second Test de Guérison Intermédiaire (+0) moins de 24 heures après pour éviter le Test de Résistance.</p>",
+			"penalty": "-20 aux Tests nécessitant les 2 mains"
+		},
+		{
+			"id": "AoJLxDfZtmWXCiDi",
+			"name": "Jambe Fracturée (Majeure)",	
+			"description": "<p>Un de vos os est salement fracturé et adopte un angle très bizarre avec le reste du membre ou a éclaté au point de fracture. Vous ne pouvez pas utiliser cette localisation tant que l'os n'est pas guéri.</p>\n<p><span style=\"font-weight: bold;\">Jambe: </span>Réduisez de façon permanente votre Mouvement de moitié, et subissez une pénalité de -20 à tous les Tests qui implique la mobilité. De plus, vous ne pouvez pas utiliser la compétence Esquive du tout.</p>\n<h3>Guérison</h3>\n<p>Il faudra 40+1d10 jours pour soigner une fracture. À la fin de cette période, un succès obtenu sur un Test de Résistance Intermédiaire (+0) indique que l'os s'est remis correctement et que vous ne subirez aucun effet à long terme. Sur une échec, vous subissez une pénalité permanente de -10 en Agilité.</p>\n<p>Un Test de Guérison Intermédiaire (+0) réussi dans un intervalle d'une semaine suivant la fracture permet d'éviter le Test de Résistance, mais la zone touchée doit rester bandée et maintenue en place pendant tout le temps de la guérison. Si le bandage est défait, il faudra réussir un second Test de Guérison Intermédiaire (+0) moins de 24 heures après pour éviter le Test de Résistance.</p>",
+			"penalty": "-20 aux Tests liés à la mobilité, Esquive impossible, Mouvement réduit de moitié"
+		},
+		{
+			"id": "B4EzqsaO3Q0okZ9d",
+			"name": "Fracture Crânienne (Majeure)",
+			"description": "<p>Un de vos os est salement fracturé et adopte un angle très bizarre avec le reste du membre ou a éclaté au point de fracture. Vous ne pouvez pas utiliser cette localisation tant que l'os n'est pas guéri.</p>\n<p><span style=\"font-weight: bold;\">Tête:</span><span style=\"font-weight: bold;\">&nbsp;</span>Vous êtes contraint de suivre un régime liquide et subissez une pénalité de -30 à tous vos Tests de Langue.</p>\n<h3>Guérison</h3>\n<p>Il faudra 40+1d10 jours pour soigner une fracture. À la fin de cette période, un succès obtenu sur un Test de Résistance Intermédiaire (+0) indique que l'os s'est remis correctement et que vous ne subirez aucun effets à long terme. Sur une échec,vous subissez une pénalité permanente de -10 en Langue.</p>\n<p>Un Test de Guérison Intermédiaire (+0) réussi dans un intervalle d'une semaine suivant la fracture permet d'éviter le Test de Résistance, mais la zone touchée doit rester bandée et maintenue en place pendant tout le temps de la guérison. Si le bandage est défait, il faudra réussir un second Test de Guérison Intermédiaire (+0) moins de 24 heures après pour éviter le Test de Résistance.</p>",
+			"penalty": "-30 à tous les Tests de Langue"
+		},
+		{
+			"id": "rIJz5nxmvxZTozmB",
+			"name": "Torse Fracturé (Majeure)",
+			"description": "<p>Un de vos os est salement fracturé et adopte un angle très bizarre avec le reste du membre ou a éclaté au point de fracture.</p>\n<p><span style=\"font-weight: bold;\">Torse: </span>Votre force et votre mobilité sont sérieusement diminuées : vous subissez une pénalité de -30 à vos caractéristiques de Force et d'Endurance, et votre Mouvement est divisé par deux</p>\n<h3>Guérison</h3>\n<p>Il faudra 40+1d10 jours pour soigner une fracture. À la fin de cette période, un succès obtenu sur un Test de Résistance Intermédiaire (+0) indique que l'os s'est remis correctement et que vous ne subirez aucun effets à long terme. Sur une échec,vous subissez une pénalité permanente de -10 en Agilité.</p>\n<p>Un Test de Guérison Intermédiaire (+0) réussi dans un intervalle d'une semaine suivant la fracture permet d'éviter le Test de Résistance, mais la zone touchée doit rester bandée et maintenue en place pendant tout le temps de la guérison. Si le bandage est défait, il faudra réussir un second Test de Guérison Intermédiaire (+0) moins de 24 heures après pour éviter le Test de Résistance.</p>",
+			"penalty": "-30 en Force et Agilité, Mouvement réduit de moitié"
+		},
+		{
+			"id": "6M98mPfnL3hmXW3g",
+			"name": "Jambe Fracturée (Mineure)",
+			"description": "<p>L'un de vos os est fracturé mais il est toujours dans le bon alignement, ce qui signifie qu'il va pouvoir guérir sans intervention médicale.</p>\n<p><span style=\"font-weight: bold;\">Jambe: </span>Réduisez de façon permanente votre Mouvement de moitié, et subissez une pénalité de -20 à tous les Tests qui implique la mobilité. De plus, vous ne pouvez pas utiliser la compétence Esquive du tout.</p>\n<h3>Guérison</h3>\n<p>Il faudra 30+1d10 jours pour soigner une fracture. À la fin de cette période, un succès obtenu sur un Test de Résistance Accessible (+0) indique que l'os s'est remis correctement et que vous ne subirez aucun effet à long terme. Sur une échec, vous subissez une pénalité permanente de -5 en Agilité.</p>\n<p>Un Test de Guérison Accessible (+20) réussi dans un intervalle d'une semaine suivant la fracture permet d'éviter le Test de Résistance, mais la zone touchée doit rester bandée et maintenue en place pendant tout le temps de la guérison. Si le bandage est défait, il faudra réussir un second Test de Guérison Accessible (+20) moins de 24 heures après pour éviter le Test de Résistance.</p>",
+			"penalty": "-20 aux Tests liés à la mobilité, Esquive impossible, Mouvement réduit de moitié"
+		},
+		{
+			"id": "FmmVJn6T63vOD2Q6",
+			"name": "Bras Fracturé (Mineure)",
+			"description": "<p>L'un de vos os est fracturé mais il est toujours dans le bon alignement, ce qui signifie qu'il va pouvoir guérir sans intervention médicale.</p>\n<p><span style=\"font-weight: bold;\">Bras: </span> Vous êtes contraint de ne plus vous servir que d'un de vos deux membres car l'autre est devenu trop douloureux et devra sans doute être bandé. Vous subissez une pénalité de -20 à tous les Tests qui requiert l'utilisation des deux bras et vous ne pouvez pas utiliser d'armes à deux mains. Si la bras affecté est votre bras principal, vous subissez la pénalité habituelle de -20 à tous les Tests d'Arme effectués avec votre bras secondaire.</p>\n                        <h3>Guérison</h3>\n                        <p>Il faudra 30+1d10 jours pour soigner une fracture. À la fin de cette période, un succès obtenu sur un Test de Résistance Accessible (+20) indique que l'os s'est remis correctement et que vous ne subirez aucun effet à long terme. Sur une échec, vous subissez une pénalité permanente de -5 en Agilité.</p>\n<p>Un Test de Guérison Accessible (+0) réussi dans un intervalle d'une semaine suivant la fracture permet d'éviter le Test de Résistance, mais la zone touchée doit rester bandée et maintenue en place pendant tout le temps de la guérison. Si le bandage est défait, il faudra réussir un second Test de Guérison Accessible (+20) moins de 24 heures après pour éviter le Test de Résistance.</p>",
+			"penalty": "-20 aux Tests nécessitant les 2 mains"
+		},
+		{
+			"id": "IEK2WP1ysSIX1gie",
+			"name": "Torse Fracturé (Mineure)",
+			"description": "<p> Un de vos os est salement fracturé et adopte un angle très bizarre avec le reste du membre ou a éclaté au point de fracture.</p>\n<p><span style=\"font-weight: bold;\">Torse: </span>Votre force et votre mobilité sont sérieusement diminuées : vous subissez une pénalité de -30 à vos caractéristiques de Force et d'Endurance, et votre Mouvement est divisé par deux</p>\n<h3>Guérison</h3>\n<p>Il faudra 30+1d10 jours pour soigner une fracture. À la fin de cette période, un succès obtenu sur un Test de Résistance Accessible (+20) indique que l'os s'est remis correctement et que vous ne subirez aucun effets à long terme. Sur une échec, vous subissez une pénalité permanente de -5 en Agilité.</p>\n<p>Un Test de Guérison Accessible (+20) réussi dans un intervalle d'une semaine suivant la fracture permet d'éviter le Test de Résistance, mais la zone touchée doit rester bandée et maintenue en place pendant tout le temps de la guérison. Si le bandage est défait, il faudra réussir un second Test de Guérison Accessible (+20) moins de 24 heures après pour éviter le Test de Résistance.</p>",
+			"penalty": "-30 and Force et Agilité, Mouvement réduit de moitié"
+		},
+		{
+			"id": "mS1aAjNcH9zZK3Hq",
+			"name": "Fracture Crânienne (Mineure)",
+			"description": "<p>Un de vos os est salement fracturé et adopte un angle très bizarre avec le reste du membre ou a éclaté au point de fracture.</p>\n<p><span style=\"font-weight: bold;\">Tête:</span><span style=\"font-weight: bold;\">&nbsp;</span>Vous êtes contraint de suivre un régime liquide et subissez une pénalité de -30 à tous vos Tests de Langue.</p>\n<h3>Guérison</h3>\n<p>Il faudra 30+1d10 jours pour soigner une fracture. À la fin de cette période, un succès obtenu sur un Test de Résistance Accessible (+0) indique que l'os s'est remis correctement et que vous ne subirez aucun effet à long terme. Sur une échec, vous subissez une pénalité permanente de -5 en Langue.</p>\n<p>Un Test de Guérison Accessible (+0) réussi dans un intervalle d'une semaine suivant la fracture permet d'éviter le Test de Résistance, mais la zone touchée doit rester bandée et maintenue en place pendant tout le temps de la guérison. Si le bandage est défait, il faudra réussir un second Test de Guérison Accessible (+0) moins de 24 heures après pour éviter le Test de Résistance.</p>",
+			"penalty": "-30 aux Tests de Langue"
+		},
+		{
+			"id": "XSlFkJD3Ef842LZo",
+			"name": "Déchirure musculaire Jambe (Majeure)",
+			"description": "<p>L'un de vos muscles, ou un tendon important, a été gravement endommagé, causant une douleur extrême et une sérieuse perte de potentiel du membre en question</p>\n<p><strong>Jambes:</strong> Votre Mouvement est divisé par deux et vous subissez une pénalité de -20 à tous les Tests concernant cette Localisation</p>\n<p><span style=\"font-weight: bold;\">Guérison: </span>Le muscle guérira en partie après un nombre de jours égale à 30 - votre Bonus d'Endurance, après lesquels la pénalité pour l'utilisation de votre jambe passe à -10 pour les Tests en rapports. Le muscle aura besoin d'une seconde période de (30- votre Bonus d'Endurance) jours pour guérir complètement. L'utilisation de la Compétence Guérison n'aura d'autre intérêt que de vous informer que vous ne pourrez pas utiliser la Localisation touchée tant que la rémission ne sera pas complète.</p>",
+			"penalty": "-20 aux Tests impliquant la jambe concernée, Mouvement réduit de moitié"
+		},
+		{
+			"id": "fTLRTydQWwFSrMjV",
+			"name": "Déchirure Musculaire Bras (Majeure)",
+			"description": "<p> L'un de vos muscles, ou un tendon important, a été gravement endommagé, causant une douleur extrême et une sérieuse perte de potentiel du membre en question</p>\n<p><strong>Bras:</strong> Vous subissez une pénalité de -20 à tous les Tests concernant cette Localisation</p>\n<p><span style=\"font-weight: bold;\">Guérison: </span>Le muscle guérira en partie après un nombre de jours égale à 30 - votre Bonus d'Endurance, après lesquels la pénalité pour l'utilisation de votre bras passe à -10 pour les Tests en rapports. Le muscle aura besoin d'une seconde période de (30- votre Bonus d'Endurance) jours pour guérir complètement. L'utilisation de la Compétence Guérison n'aura d'autre intérêt que de vous informer que vous ne pourrez pas utiliser la Localisation touchée tant que la rémission ne sera pas complète.</p>",
+			"penalty": "-20 aux Tests impliquant le bras concerné"
+		},
+		{
+			"id": "kCmBuxQqSXPqfgJ4",
+			"name": "Déchirure Musculaire Torse (Majeure)",
+			"description": "<p> L'un de vos muscles, ou un tendon important, a été gravement endommagé, causant une douleur extrême et une sérieuse perte de potentiel du membre en question</p>\n<p><strong>Torse:</strong> Vous subissez une pénalité de -20 à tous les Tests concernant cette Localisation</p>\n<p><span style=\"font-weight: bold;\">Guérison: </span>Le muscle guérira en partie après un nombre de jours égale à 30 - votre Bonus d'Endurance, après lesquels la pénalité pour l'utilisation de cette partie du corps passe à -10 pour les Tests en rapports. Le muscle aura besoin d'une seconde période de (30- votre Bonus d'Endurance) jours pour guérir complètement. L'utilisation de la Compétence Guérison n'aura d'autre intérêt que de vous informer que vous ne pourrez pas utiliser la Localisation touchée tant que la rémission ne sera pas complète.</p>",
+			"penalty": "-20 aux Tests impliquant le Torse"
+		},
+		{
+			"id": "uijeixndSjrnRAK2",
+			"name": "Déchirure Musculaire Tête (Majeure)",
+			"description": "<p>L'un de vos muscles, ou un tendon important, a été gravement endommagé, causant une douleur extrême et une sérieuse perte de potentiel du membre en question</p>\n<p> L'un de vos muscles, ou un tendon important, a été gravement endommagé, causant une douleur extrême et une sérieuse perte de potentiel du membre en question</p>\n<p><strong>Tête:</strong> Vous subissez une pénalité de -20 à tous les Tests concernant cette Localisation</p>\n<p><span style=\"font-weight: bold;\">Guérison: </span>Le muscle guérira en partie après un nombre de jours égale à 30 - votre Bonus d'Endurance, après lesquels la pénalité pour l'utilisation de cette partie du corps passe à -10 pour les Tests en rapports. Le muscle aura besoin d'une seconde période de (30- votre Bonus d'Endurance) jours pour guérir complètement. L'utilisation de la Compétence Guérison n'aura d'autre intérêt que de vous informer que vous ne pourrez pas utiliser la Localisation touchée tant que la rémission ne sera pas complète.</p>",
+			"penalty": "-20 aux Tests impliquant la tête"
+		},
+		{
+			"id": "rlXUw5Bgz2xUjVbU",
+			"name": "Déchirure musculaire Jambe (Mineure)",
+			"description": "<p>Un de vos muscles est déchiré, ce qui vous handicape grandement en plus d’être très douloureux<p>\n    <p><strong>Jambe:</strong> Vous subissez une pénalité de -10 à tous les Tests concernant cette Localisation. De plus votre Mouvement est réduit de moitié.</p>\n    <p><span style=\"font-weight: bold;\">Guérison: </span>Les muscles vont guérir en partie après un nombre de jours égal à 30 – votre Bonus d’Endurance. L’utilisation de la Compétence Guérison réduira cette durée d’un jour, ainsi que d’un jour supplémentaire par DR (vous ne pouvez obtenir cet avantage qu’une seule fois) </p>",
+			"penalty": "-10 aux Tests impliquant la jambe concernée"
+		},
+		{
+			"id": "JMm9hqyAX6HBTqZO",
+			"name": "Déchirure Musculaire Bras (Mineure)",
+			"description": "<p>Un de vos muscles est déchiré, ce qui vous handicape grandement en plus d’être très douloureux<p>\n    <p><strong>Bras:</strong> Vous subissez une pénalité de -10 à tous les Tests concernant cette Localisation.</p>\n    <p><span style=\"font-weight: bold;\">Guérison: </span>Les muscles vont guérir en partie après un nombre de jours égal à 30 – votre Bonus d’Endurance. L’utilisation de la Compétence Guérison réduira cette durée d’un jour, ainsi que d’un jour supplémentaire par DR (vous ne pouvez obtenir cet avantage qu’une seule fois) </p>",
+			"penalty": "-10 aux Tests impliquants le bras concerné"
+		},
+		{
+			"id": "hPEpGFB9GuYI3kOC",
+			"name": "Déchirure Musculaire Tête (Mineure)",
+			"description": "<p>Un de vos muscles est déchiré, ce qui vous handicape grandement en plus d’être très douloureux<p>\n    <p><strong>Tête:</strong> Vous subissez une pénalité de -10 à tous les Tests concernant cette Localisation.</p>\n    <p><span style=\"font-weight: bold;\">Guérison: </span>Les muscles vont guérir en partie après un nombre de jours égal à 30 – votre Bonus d’Endurance. L’utilisation de la Compétence Guérison réduira cette durée d’un jour, ainsi que d’un jour supplémentaire par DR (vous ne pouvez obtenir cet avantage qu’une seule fois) </p>",
+			"penalty": "-10 aux Tests impliquant la Tête"
+		},
+		{
+			"id": "HjBumJm1eqc8qbzJ",
+			"name": "Déchirure Musculaire Torse (Mineure)",
+			"description": "<p>Un de vos muscles est déchiré, ce qui vous handicape grandement en plus d’être très douloureux<p>\n    <p><strong>Torse:</strong> Vous subissez une pénalité de -10 à tous les Tests concernant cette Localisation.</p>\n    <p><span style=\"font-weight: bold;\">Guérison: </span>Les muscles vont guérir en partie après un nombre de jours égal à 30 – votre Bonus d’Endurance. L’utilisation de la Compétence Guérison réduira cette durée d’un jour, ainsi que d’un jour supplémentaire par DR (vous ne pouvez obtenir cet avantage qu’une seule fois) </p>",
+			"penalty": "-10 aux Tests impliquant le Torse"
+		}
+	]
+}
