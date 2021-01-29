@@ -173,183 +173,183 @@
       "tests": ""
     },
     {
-      "description": "Votre présence emplit les autres de crainte et d'admiration. Votre aura d'autorité est telle que ceux possédant un Statut inférieur ne peuvent pas résister à vos Tests de Commandement avec leur Force Mentale. Evidemment, les ennemis ne sont toujours pas plus enclins à vous respecter ou à vous obéir mais le commun des mortels se dresse rarement contre vous.",
+      "description": "<p>Deine Präsenz erfüllt andere mit Ehrfurcht und Verehrung. Die Aura deiner Autorität ist so enorm, dass Personen mit geringerem Status bei deinen Anführen-Würfen keinen Vergleichenden Wurf mit ihrer Willenskraft durchführen dürfen. Bei Feinden ist es zwar nicht wahrscheinlicher, dass sie dich respektieren und dir gehorchen, aber das gemeine Volk stellt sich nur selten gegen dich.</p>",
       "id": "Commanding Presence",
-      "name": "Présence imposante",
-      "tests": "Commandement"
+      "name": "Gebieterisch",
+      "tests": "Anführen"
     },
     {
-      "description": "Vous êtes doué pour la fabrication de potions, de philtres et de décoctions. Vous pouvez effectuer gratuitement une Activité Artisanat pour utiliser Savoir (Apothicaire) sans avoir besoin d'Atelier. Les autres Activités Artisanat suivent les règles normales.",
+      "description": "<p>Du bist in pharmakologischen Dingen äußerst begabt und sehr viel besser als andere darin, Pillen herzustellen, Tinkturen zu erstellen und Salben zu rühren. Wenn du Beruf (Apotheker) einsetzt, darfst du bei jedem misslungenen Wurf die Zahlen vertauschen, wenn dies zu einem Erfolg führt.</p>",
       "id": "Concoct",
-      "name": "Concocter",
-      "tests": "Métier (Apothicaire)"
+      "name": "Pharmazeut",
+      "tests": "Beruf (Apotheker)"
     },
     {
-      "description": "Vous pouvez plier votre corps en une myriade de positions apparemment anormales. Cela vous permet de vous glisser dans des espaces improbables et de manipuler votre corps de façon incroyable, vous offrant des Avantages accordés par le MJ, avec éventuellement un Test d'Agilité réussi.",
+      "description": "<p>Du kannst deinen Körper auf geradezu unnatürlich anmutende Weise verdrehen und verbiegen. Dies erlaubt es dir, dich durch enge Löcher zu quetschen und deinen Körper in eigenartigster Weise zu verbiegen, was dir Vorteile nach Wahl des SL verschafft, in der Regel nach einem Gewandtheits-Wurf.</p>",
       "id": "Contortionist",
-      "name": "Contortionniste",
-      "tests": "Représentation et Agilité lorsque vous vous aidez de contortionnisme"
+      "name": "Schlangenmensch",
+      "tests": "Artistik- und Gewandtheits-Würfe, bei denen ein überbeweglicher Körper hilft"
     },
     {
-      "description": "Vous gagnez un bonus permanent de +5 à votre Caractéristique FM de départ (ne comptent pas comme des Augmentations).",
+      "description": "<p>Auf deinen Anfangswert für das Attribut Willenskraft erhältst du einen Bonus von +5, der nicht bezüglich deiner Steigerungen zählt.</p>",
       "id": "Coolheaded",
-      "name": "Imperturbable",
+      "name": "Kühler Kopf",
       "tests": ""
     },
     {
-      "description": "Vous savez comment tirer le meilleur parti de vos animaux. Lorsque l'un des animaux que vous contrôlez Fuit ou Court, il gagne +1 en Mouvement si vous utilisez un fouet.",
+      "description": "<p>Du weißt, wie aus deinen Tieren das Meiste herauszuholen ist. Wenn ein Tier, das du kontrollierst, auf der Flucht ist oder rennt, erhält es +1 Bewegung, wenn du die Peitsche benutzt.</p>",
       "id": "Crack the Whip",
-      "name": "Claquer le fouet",
-      "tests": "Conduite d'Attelage ou Chevaucher quand vous fuyez ou lors d'une course"
+      "name": "Peitschenknallen",
+      "tests": "Fahren- oder Reiten-Würfe bei der Flucht oder beim Rennen"
     },
     {
-      "description": "Vous possédez un vrai talent créatif. Ajoutez la Compétence Métier associée à n'importe quelle Carrière que vous entamez. Si la Compétence Métier est déjà incluse dans votre Carrière, vous pouvez à la place acheter la Compétence pour 5 PX de moins par Augmentation.",
+      "description": "<p>Du hast wahres kreatives Talent. Dieses Talent fügt jeder Karriere, in die du wechselst, die entsprechende Berufs-Fähigkeit hinzu. Wenn sich diese bereits in der entsprechenden Karriere befindet, kannst du die zugehörige Berufs-Fähigkeit stattdessen für 5 EP weniger pro Steigerung verbessern.</p>",
       "id": "Craftsman",
-      "name": "Maitre Artisan",
-      "tests": "Métier (Au choix)"
+      "name": "Handwerksgeschick (Beruf)",
+      "tests": "Beruf (Beruf)"
     },
     {
-      "description": "<p>Vous êtes un criminel actif qui gagne de l'argent grâce à des sources illégales, et vous n'êtes pas toujours discret à ce sujet. Pour calculer vos revenus, que ce soit quand vous Gagnez de l'argent ou quand vous effectuez une Activité Revenus, référez-vous au tableau suivant :</p>\n<p>&nbsp;</p>\n<div>\n<table title=\"\" border=\"1\" summary=\"\" cellspacing=\"0\" cellpadding=\"0\">\n<tbody>\n<tr>\n<td>\n<p>Standing de Carrière</p>\n</td>\n<td>\n<p>Bonus d'argent par fois où le Talent est pris</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>1</p>\n</td>\n<td>\n<p>+2d10 sous de cuivre</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>2</p>\n</td>\n<td>\n<p>+1d10 pistoles d'argent</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>3&nbsp;</p>\n</td>\n<td>\n<p>+2d10 pistoles d'argent</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>4</p>\n</td>\n<td>\n<p>+1 couronne d'or</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p>&nbsp;</p>\n<p>À cause de votre nature criminelle évidente, les autres vous considèrent d'un Statut inférieur, à moins qu'ils ne possèdent également le Talent Criminel. Dans ce cas, le Statut est comparé normalement - vous possédez peut-être des tatouages de gang, avez l'air louche, ou êtes juste un peu brute, vous avez le choix. A cause de cela, les forces de l'ordre locales se montre toujours méfiantes et doutent de vos motivations. Plus vous prenez ce Talent, plus cela empire, les répercussions exactes étant déterminées par le MJ. Ceux qui transgressent la loi sans posséder le Talent Criminel gagnent bien moins d'argent, mais comme ce n'est pas notoire, ils conservent donc leur Statut. Avec l'accord du MJ, vous pouvez retirer des niveaux du Talent Criminel pour le même montant de PX que leur coût d’achat.</p>",
+      "description": "<p>Du bist ein aktiver Krimineller, der seinen Lebensunterhalt aus illegalen Quellen bezieht, und dies ist durchaus etwas, auf das du stolz bist. Was deine Einkünfte betrifft, sei es durch Geld verdienen oder eine Einnahmen-Unternehmung, verwendest du zusätzlich die folgende Tabelle:</p><p>Karriere-Stufe Bonus-Geld pro Stufe des Talentes<br/>1 +2W10 Messinggroschen<br/>2 +1W10 Silberschillinge<br/>3 +2W10 Silberschillinge<br/>4 +1 Goldkrone</p><p>Wegen deiner offensichtlichen Kriminalität behandeln dich andere, als hättest du einen geringeren Status als sie, sofern sie nicht ebenfalls das Talent Kriminell besitzen. In diesem Fall gilt dein normaler Status. Vielleicht hast du Banden-Tätowierungen, siehst zwielichtig oder einfach nur etwas ungeschliffen aus – es ist deine Wahl, woran Fremde dich als Kriminellen erkennen. Die örtlichen Gesetzeshüter finden dich stets verdächtig und misstrauen dir, was immer schlimmer wird, je häufiger du dieses Talent erwirbst, wobei die genauen Folgen vom SL abhängen. Gesetzesbrecher ohne das Talent Kriminell erzielen zwar deutlich geringere Einkünfte, sind dafür aber unauffälliger und können ihren Status halten. Mit dem Einverständnis des SL kannst du EP ausgeben, um Stufen des Talents Kriminell wieder zu entfernen, was die gleichen EP-Kosten hat wie deren Erwerb.</p>",
       "id": "Criminal",
-      "name": "Criminel",
+      "name": "Kriminell",
       "tests": ""
     },
     {
-      "description": "<p>Vous touchez toujours un adversaire juste entre les deux yeux... ou à l'endroit que vous aviez l'intention d'atteindre. Au lieu d'inverser le dé pour déterminer quelle Localisation est touchée avec votre arme à distance, vous pouvez la choisir.</p>",
+      "description": "<p>Du triffst den Gegner stets genau zwischen die Augen … oder wo du ihn auch immer zu treffen wünschst. Statt die Zahlen des Wurfes umzudrehen, um die Trefferzone zu ermitteln, darfst du dir beim Angriff mit einer Fernkampfwaffe die von dir getroffene Trefferzone einfach aussuchen.</p>",
       "id": "Deadeye Shot",
-      "name": "Tir mortel",
+      "name": "Präzisionsschütze",
       "tests": ""
     },
     {
-      "description": "<p>Vous êtes un homme d'affaires expérimenté qui sait comment conclure un marché. Quand vous utilisez la Compétence Marchandage, vous réduisez ou augmentez les prix des produits de 10% supplémentaires.</p>\n<p>&nbsp;</p>\n<p>Remarque: le MJ peut imposer une réduction inférieure des prix pour montrer qu'un vendeur refuse de vendre à perte.</p>",
+      "description": "<p>Du bist ein erfahrener Geschäftsmann und weißt, wie man einen Handel angeht. Wenn du die Fähigkeit Feilschen einsetzt, kannst du den Preis des Produktes um zusätzliche 10% erhöhen oder senken.</p><p><strong>Anmerkung:</strong> Der SL kann bezüglich Preisen ein Limit verhängen, welches verhindert, dass ein Verkäufer etwas unterhalb der eigenen Kosten verkauft.</p>",
       "id": "Dealmaker",
-      "name": "Négociateur",
-      "tests": "Marchandage"
+      "name": "Verhandlungsgenie",
+      "tests": "Feilschen"
     },
     {
-      "description": "Vous êtes capable de déceler quand la magie réside dans un artefact. Vous pouvez tenter un Test d'Intuition pour n'importe quel artefact magique touché. Sur un succès, vous sentez que l'objet est magique ; de plus, chaque DR apprend également une règle spéciale spécifique concernant l'objet, s'il possède. En principe, vous ne pouvez tenter ce Test qu'une seule fois par artefact touché.",
+      "description": "<p>Du bist dazu imstande, die Magie im Inneren eines Artefaktes zu erspüren. Dazu darfst du einen Intuitions-Wurf für jedes magische Artefakt ablegen, das du berührst. Bei einem Erfolg spürst du, ob das Artefakt magisch ist; zudem offenbart dir jeder EG eine Sonderregel dieses Gegenstandes, sofern es welche gibt. Normalerweise darfst du diesen Wurf bei jedem Artefakt nur ein einziges Mal versuchen.</p>",
       "id": "Detect Artifact",
-      "name": "Détection d'artefact",
-      "tests": "Intuition pour détecter des objets magiques"
+      "name": "Artefakt spüren",
+      "tests": "Intuitions-Würfe zum Entdecken magischer Artefakte"
     },
     {
-      "description": "Vous êtes un maître des jeux de dés, et tous ceux qui affirment que vous trichez ont clairement tort. Quand vous utilisez Pari ou Escamotage de façon réussie avec des dés, vous pouvez choisir soit d'utiliser le DR obtenu, soit le chiffre des unités du dé. Donc, un lancer réussi de 06 peut être utilisé comme DR de +6. Si vous jouez à des jeux de dés réels pour représenter celui en jeu, lancez toujours un nombre de dés supplémentaires égal à votre niveau de Maîtrise des dés et choisissez les meilleurs résultats.",
+      "description": "<p>Du bist sehr gut darin, Würfelspiele zu spielen und alle Behauptungen, du würdest betrügen, sind ganz eindeutig gelogen. Wenn dir bei einem Würfelspiel ein erfolgreicher Glücksspiel- oder Fingerfertigkeits-Wurf gelungen ist, dann kannst du entweder die erwürfelten EG verwenden oder die Zahl, die mit dem Würfel für die Einerstelle gefallen ist. Bei einem erfolgreichen Wurf von 06 wären Letzteres also +6 EG. Wenn ihr wirklich ein Würfelspiel austragt, um das im Spiel darzustellen, dann darfst du jedes Mal eine deiner Stufe in Würfelkünstler entsprechende Zahl zusätzlicher Würfel werfen und die besten Resultate wählen.</p>",
       "id": "Diceman",
-      "name": "Maîtrise des dés",
-      "tests": "Pari et Escamotage quand vous jouez aux dés"
+      "name": "Würfelkünstler",
+      "tests": "Glücksspiel und Fingerfertigkeit bei Würfelspielen"
     },
     {
-      "description": "<p>Vous avez appris tous les coups bas du combat à mains nues. Vous pouvez choisir d'infliger +1 Dégât supplémentaire pour chaque niveau de Combat déloyal, pour tous les coups réussis avec Corps à corps (Bagarre).</p>\n<p>&nbsp;</p>\n<p>Remarque: utiliser ce Talent sera considéré comme une tricherie dans tout combat officiel.</p>",
+      "description": "<p>Dir wurden all die schmutzigen Tricks des unbewaffneten Kampfes beigebracht. Wenn du es möchtest, dann richtest du bei jedem erfolgreichen Treffer mit Nahkampf (Waffenlos) zusätzlich +1 Schaden pro Stufe in Schmutzig kämpfen an.</p>",
       "id": "Dirty Fighting",
-      "name": "Combat déloyal",
-      "tests": "Corps à corps (Bagarre)"
+      "name": "Schmutzig kämpfen",
+      "tests": "Nahkampf (Waffenlos)"
     },
     {
-      "description": "<p>Vous êtes capable de désarmer un adversaire d'un coup de poignet judicieux ou grâce à une frappe bien ciblée à la main. Pour une Action, vous pouvez tenter un <strong>Test opposé Corps à corps/Corps à corps</strong>. Sur un succès, votre adversaire perd une arme tenue, qui atterit à 1d10 x 30 cm dans une direction aléatoire (avec des effets supplémentaires déterminées par le MJ). Si vous réussissez de 2 DR, vous pouvez déterminer à quelle distance l'arme est projetée au lieu d'effectuer un lancer ; si vous gagnez de 4 DR, vous pouvez également choisir la direction dans laquelle est projetée l'arme ; si vous gagnez de 6 DR ou plus, vous pouvez prendre l'arme de votre adversaire si vous avez une main libre, l'attrapant en l'air avec panache. Ce Talent est inutile si votre adversaire n'a pas d'arme, ou s'il est d'une Taille supérieure à la vôtre (voir page 342).</p>",
+      "description": "<p>Du bist dazu imstande, Gegner mit einer kunstvollen Drehung des Handgelenkes oder einem wohlgezielten Hieb zur Hand zu entwaffnen. Für diese Handlung wird ein Vergleichender Kampfgeschick/Kampfgeschick-Wurf durchgeführt. Wenn du gewinnst, verliert dein Gegner eine einzelne gerade verwendete Waffe, welche 1W10 Fuß (je circa 30 cm) weit in eine zufällige Richtung fliegt (eventuell mit weiteren Folgen nach Wahl des SL). Wenn du mit 2 EG gewinnst, dann kannst du dir aussuchen, wie weit die Waffe fliegt, statt dies auszuwürfeln; wenn du mit 4 EG gewinnst, kannst du dir auch noch die Richtung aussuchen. Wenn du mit 6 EG oder sogar mehr gewinnst, kannst du dem Gegner die Waffe abnehmen oder sie gleichsam aus der Luft pflücken, sofern du über eine freie Hand verfügst. Das Talent hat keine Wirkung, wenn der Gegner keine Waffe führt oder eine größere als du besitzt (siehe Seite 339).</p>",
       "id": "Disarm",
-      "name": "Désarmer",
-      "tests": "Corps à corps concernant ce Talent"
+      "name": "Entwaffnen",
+      "tests": "Nahkampf-Würfe zum Einsatz dieses Talentes"
     },
     {
-      "description": "<p>Vous êtes formé à effectuer des mouvements simples pour distraire ou  surprendre votre adversaire, détournant les regards de votre véritable intention. Vous pouvez utiliser votre Mouvement pour Distraire. Ceci se résout par un <strong>Test opposé d'Athlétisme/Calme</strong>. Sur un succès, votre adversaire ne gagne pas d'Avantage jusqu'à la fin du prochain round.</p>",
+      "description": "<p>Du bist in einfachen antäuschenden Bewegungen geübt, die den Feind ablenken oder erschrecken, um seinen Blick von dem abzulenken, was du eigentlich vorhast. Du kannst die Bewegungsaktion in deinem Zug nutzen, um eine Ablenkung zu versuchen. Dies wird als Vergleichender Athletik/Besonnenheits-Wurf abgehandelt. Wenn du gewinnst, kann dein Gegner bis zum Ende der nächsten Runde keine Vorteile erhalten.</p>",
       "id": "Distract",
-      "name": "Distraire",
-      "tests": "Athélisme pour distraire"
+      "name": "Ablenken",
+      "tests": "Athletik zum Ablenken"
     },
     {
-      "description": "À l'âge de 10 ans, un Prêtre de Morr aussi appelé Augure, vous a pris à part pour prédire votre mort lors d'un rituel de passage à l'âge adulte, lourd d'encens, appelé la Destinée. En accord avec votre MJ, proposez une Destinée appropriée. Si votre Personnage meurt d'une façon y correspondant, votre prochain Personnage gagnera un bonus égal à la moitié du total de PX accumulés par votre Personnage mort pendant la partie.",
+      "description": "<p>Als du 10 Jahre alt warst, kam einer der als Schwarzseher bekannten Priester des Morr und nahm dich zur Seite, um dir aus dem brennenden Weihrauch deinen Tod vorherzusagen. Dieser Übergangsritus ist im Imperium als der Unkenruf bekannt. Denke dir in Abstimmung mit dem SL einen geeigneten Unkenruf aus. Sollte dein SC auf eine Weise sterben, die zu seinem Unkenruf passt, dann erhält dein nächster Charakter einen EP-Bonus in Höhe der Hälfte der EP, die dein toter SC erhalten hatte.</p>",
       "id": "Doomed",
-      "name": "Destinée",
+      "name": "Unkenruf",
       "tests": ""
     },
     {
-      "description": "<p>Vous avez été formé à combattre côte à côte avec d'autres soldats. Si un ennemi vous fait perdre des Avantages alors qu'il se tient à côté d'un allié actif possédant le Talent Coude-à-coude, vous pouvez conserver 1 Avantage perdu pour chaque fois que vous avez pris le Talent Coude-à-coude.</p>",
+      "description": "<p>Du wurdest darauf trainiert, Schulter an Schulter mit anderen Soldaten zu kämpfen und in der Schlachtreihe aufeinander aufzupassen. Wenn ein Gegner dafür sorgt, dass du Vorteile verlierst, während du neben einem aktiven Verbündeten mit dem Talent Gedrillt stehst, behältst du eine verlorenen Vorteil für jede Stufe, die du in Gedrillt hast.</p>",
       "id": "Drilled",
-      "name": "Coude-à-coude",
-      "tests": "Corps à corps quand vous vous trouvez à côté d'un allié avec Coude-à-Coude"
+      "name": "Gedrillt",
+      "tests": "Nahkampf-Würfe, während man Seite an Seite mit einem Verbündeten mit Gedrillt steht"
     },
     {
-      "description": "<p>Quand vous êtes équipé de deux armes, vous pouvez attaquer avec les deux pour votre Action. Effectuez un lancer pour toucher avec l'arme tenue par votre main principale. Si vous touchez, déterminez les Dégâts normalement, mais rappelez-vous de conserver votre lancer de dés, car vous l'utiliserez de nouveau. Si la première frappe est réussie, une fois résolue, l'arme dans votre main secondaire peut ensuite viser un adversaire disponible de votre choix en utilisant le même lancer de dés que celui de la première frappe, mais inversé. Donc, si vous avez obtenu 34 pour toucher avec la première arme, vous obtenez 43 pour toucher avec la seconde. Rappelez-vous de modifier ce second lancer avec la pénalité de votre mauvaise main (-20 à moins que vous ne possédiez le Talent Ambidextre). Cette seconde attaque est opposée à un nouveau lancer de défense et les Dégâts pour cette seconde frappe sont calculés normalement. Une exception à cela : si vous obtenez un Critique pour votre première frappe. Si cela se produit, utilisez le lancer du tableau des Critiques pour servir de lancer à la seconde attaque. Donc, si vous infligez un Critique à la tête et lancez un 56 sur le tableau des Critiques et obtenez une Blessure majeure à l'œil. Votre seconde attaque aurait donc une valeur de 56. Si vous choisissez d'attaquer avec les deux armes, tous vos lancers défensifs subissent une pénalité de -10 jusqu'au début de votre prochain Tour. Vous ne gagnez pas d'Avantage quand vous réussissez à frapper ou à infliger une Blessure à un adversaire avec le Maniement de deux armes sauf si les deux attaques touchent.</p>",
+      "description": "<p>Wenn du mit zwei Waffen bewaffnet bist, dann darfst du bei deiner Handlung mit beiden attackieren. Führe zunächst den Trefferwurf für deine dominante Hand durch. Wenn du triffst, bestimmst du ganz normal den Schaden, merke dir aber dein Wurfergebnis, da du es erneut verwenden wirst. Wenn die erste Attacke traf, kannst du, nachdem diese abgewickelt wurde, auch noch mit deiner nichtdominanten Hand einen erreichbaren Gegner deiner Wahl attackieren; dabei wird der gleiche Wurf wie bei der ersten Attacke verwendet, aber mit vertauschten Zahlen. Wenn du also zum Treffen mit der ersten Waffe eine 34 gewürfelt hast, dann wird 43 verwendet, um zu sehen, ob die zweite getroffen hat. Denke daran, diesen zweiten Wurf gemäß dem Abzug für deine nichtdominante Hand zu modifizieren (üblicherweise -20, sofern du nicht das Talent Beidhändigkeit besitzt). Diese zweite Attacke ist ein Vergleichender Wurf gegen einen neuen Wurf zur Verteidigung, und der Schaden dieser zweiten Attacke wird ganz normal ermittelt. Zur einzigen Abweichung von dieser Regel kommt es, wenn du mit der ersten Attacke einen Kritischen Treffer erzielt hast. Wenn dies geschieht, gilt das Ergebnis des Wurfes auf der Tabelle für Kritische Treffer zugleich auch als der Wurf für die zweite Attacke. Wenn du also einen Kritischen Kopftreffer erzielt und auf der zugehörigen Tabelle eine 56 gewürfelt hast, was eine schwere Augenverletzung wäre, dann würde für den Trefferwurf der zweiten Attacke ein Ergebnis von 56 gelten. Wenn du dich dazu entschließt, mit beiden Händen zu attackieren, erhältst du bis zum Beginn deines nächsten Zuges einen Abzug von -10 auf all deine Verteidigungswürfe. Du erhältst beim Einsatz von Beidhändiger Angriff keinen Vorteil, wenn du den Gegner erfolgreich triffst oder verwundest, wenn du ihn nicht mit beiden Attacken triffst.</p>",
       "id": "Dual Wielder",
-      "name": "Maniement de 2 armes",
-      "tests": "Corps à corps ou Projectiles lors d'attaques avec 2 armes"
+      "name": "Beidhändiger Angriff",
+      "tests": "Nahkampf und Fernkampf beim Attackieren mit zwei Waffen"
     },
     {
-      "description": "<p>Vous êtes doué pour détourner l'argent de vos employeurs sans vous faire prendre. Chaque fois que vous Gagnez de l'argent (pendant le jeu ou en effectuant une Activité Revenus), vous pouvez tenter un <strong>Test opposé d'intelligence</strong> avec votre employeur (en partant du principe que vous en avez un). Si vous gagnez, vous détournez 2d10 + DR sous de cuivre, 1d10 + DR pistoles d'argent, ou 1 + DR couronnes d'or (en fonction de la taille de la transaction en question, déterminée par le MJ) sans vous faire prendre. Si votre employeur gagne de +6 DR, vous gagnez votre argent, mais votre Escroquerie est repérée ; ce qui arrive ensuite est laissé à l'appréciation du MJ. Tout autre résultat signifie que vous avez échoué à escroquer de l'argent.</p>",
+      "description": "<p>Du bist sehr geübt darin, das Geld deiner Arbeitgeber zu unterschlagen, ohne dabei erwischt zu werden. Wenn es um deine Einkünfte geht, sei es durch Geld verdienen oder eine Einnahmen-Unternehmung, kannst du dich an einem Vergleichenden Intelligenz-Wurf mit deinem Arbeitgeber versuchen (sofern du einen hast). Wenn du gewinnst, unterschlägst du 2W10 + EG Messinggroschen, 1W10 + EG Silberschillinge oder 1 + EG Goldkronen (abhängig von der Größe des Geschäftes, nach Entscheidung des SL) ohne entdeckt zu werden. Wenn dein Arbeitgeber mit 6+ EG gewinnt, dann bekommst du das Geld, doch deine Unterschlagung wurde entdeckt. Was dann passiert, obliegt dem SL. Jedes andere Ergebnis bedeutet, dass es dir nicht gelungen ist, Gelder zu unterschlagen.</p>",
       "id": "Embezzle",
-      "name": "Escroqueur",
-      "tests": "Intelligence (Escroquerie)"
+      "name": "Unterschlagen",
+      "tests": "Intelligenz beim Unterschlagen"
     },
     {
-      "description": "Vous avez appris à tirer le meilleur parti des combats en espace clos. Vous ignorez les pénalités de Corps à corps causées par les espaces confinés, comme les tunnels, les lignes de front, les petites fosses de combat et endroits similaires, et vous pouvez utiliser la Compétence Esquive, même si c'est normalement impossible à cause du manque d'espace.",
+      "description": "<p>Du hast gelernt, das Beste daraus zu machen, wenn du unter beengten Bedingungen kämpfst. Du ignorierst Abzüge auf Nahkampf, die durch beengte Verhältnisse in Tunneln, in einer dichten Schlachtreihe oder einer kleinen Kampfgrube verursacht werden, und kannst Ausweichen auch dann einsetzen, wenn du es mangels Platzes eigentlich nicht dürftest.</p>",
       "id": "Enclosed Fighter",
-      "name": "Combattant en espace clos",
-      "tests": "Esquive dans des environnements clos"
+      "name": "Beengter Kampf",
+      "tests": "Ausweichen unter beengten Bedingungen"
     },
     {
-      "description": "<p>Vous pouvez vous intégrer socialement au groupe choisi, tant que vous vous habillez et vous comportez de façon appropriée. Voici des exemples de groupes sociaux pour ce Talent : Criminels, Cultistes, Guildes, Nobles, Érudits, Serviteurs et Soldats. Si vous ne possédez pas le Talent, ceux qui le possèdent remarquent votre gêne dans un environnement non familier. Cela concerne principalement l'interprétation du Personnage, mais peut conférer un bonus aux Test de Sociabilité à la discrétion du MJ.</p>",
+      "description": "<p>Du fügst dich perfekt in eine bestimmte soziale Gruppe ein, solange du entsprechend angezogen bist und dich entsprechend verhältst. Beispiele für soziale Gruppen wären: Adelige, Gelehrte, Gildenmitglieder, Gläubige, Dienstboten, Kriminelle und Soldaten. Wenn du nicht über dieses Talent verfügst, werden jene, die es besitzen, merken, dass du dich im entsprechenden Umfeld unsicher oder gar unwohl fühlst. Dies ist normalerweise etwas, dass sich im Rollenspiel widerspiegelt, doch der SL kann auch entscheiden, dass es modifizierend auf Charisma-Würfe wirkt.</p>",
       "id": "Etiquette",
-      "name": "Savoir-vivre",
-      "tests": "Charme et Ragot (Groupe social)"
+      "name": "Etikette (soziale Gruppe)",
+      "tests": "Charme und Klatsch innerhalb der sozialen Gruppe"
     },
     {
-      "description": "Vous pouvez mouvoir vos mains avec une dextérité incroyable. Les passants ne bénéficient d'aucun Test de Perception passif pour remarquer que vous utilisez la Compétence Escamotage. Au lieu de cela, ils ne peuvent s'opposer à vos Tests d'Escamotage que qu'ils vous suspectent activement ou recherchent vos manipulations. De plus, les tentatives pour utiliser Corps à corps (Bagarre) pour simplement toucher un adversaire gagnent un bonus de +10 x votre Niveau de Mains Agiles.",
+      "description": "<p>Du kannst deine Hände mit überraschender Geschwindigkeit bewegen. Umstehende dürfen nicht passiv auf Wahrnehmung würfeln, um mitzubekommen, dass du Fingerfertigkeit einsetzt; stattdessen würfeln sie mit ihrer Wahrnehmung einen Vergleichenden Wurf gegen deine Fingerfertigkeit, allerdings nur, wenn sie ganz bewusst darauf achten und deine Bewegungen erwarten. Außerdem erhältst du pro Stufe, die du in diesem Talent hast, +10 auf Nahkampf (Waffenlos), wenn es bei dem Wurf um bloßes Berühren eines Feindes geht.</p>",
       "id": "Fast Hands",
-      "name": "Mains agiles",
-      "tests": "Escamotage, Corps à corps (Bagarre) pour toucher un adversaire"
+      "name": "Flinke Finger",
+      "tests": "Fingerfertigkeit und Nahkampf (Waffenlos) zum Berühren eines Gegners"
     },
     {
-      "description": "Si vous avez une arme à distance chargée, vous pouvez faire feu en dehors de l'ordre d'Initiative normal avant que tout autre combattant ne réagisse dans le Round suivant. Vous effectuez un lancer pour toucher en utilisant les modificateurs normaux. Utiliser Tir rapide nécessite à la fois votre Action et votre Mouvement pour votre tour à venir, qui compteront comme ayant été dépensés pendant le prochain tour. Si deux Personnages ou plus utilisent Tir Rapide, celui qui a pris ce Talent le plus de fois tire en premier. En cas d'égalité, ils font feu simultanément et devraient être gérés en même temps.",
+      "description": "<p>Wenn du eine geladene Fernkampfwaffe trägst, kannst du diese außerhalb der normalen Initiative-Reihenfolge einsetzen, ehe irgendeiner der anderen Kombattanten in der folgenden Runde reagieren kann. Den Trefferwurf führst du mit allen normalen Modifikatoren durch. Schneller Schütze einzusetzen kostet dich sowohl deine Handlung als auch deine Bewegungsaktion bei deinem folgenden Zug und diese gelten als bereits abgeschlossen, wenn du eigentlich am Zug bist. Wenn zwei oder mehr Charaktere Schneller Schütze einsetzen, schießt der zuerst, der die höchste Stufe in diesem Talent hat. Wenn irgendwelche Charaktere die gleiche Stufe in Schneller Schütze haben, schießen sie gleichzeitig und beide Schüsse werden gleichzeitig abgehandelt.</p>",
       "id": "Fast Shot",
-      "name": "Tir Rapide",
-      "tests": "Projectiles lors d'un Tir Rapide"
+      "name": "Schneller Schütze",
+      "tests": "Fernkampf beim Einsatz von Schneller Schütze"
     },
     {
-      "description": "<p>Vous êtes suffisamment courageux ou fou pour que la peur de certains ennemis ne soit qu'un lointain souvenir. Avec un seul Test <strong>Calme Accessible (+20)</strong>, vous pouvez ignorez les effets d'Intimidation, de Peur ou de Terreur de l'ennemi spécifié quand vous le rencontrez. Les ennemis courants comprennent les hommes-bêtes, les peaux-vertes, les hors-la-loi, les vampires, les gardes et les sorciers sauvages.</p>",
+      "description": "<p>Du bist entweder so tapfer oder so wahnsinnig, dass die Furcht vor bestimmten Feinden kaum mehr als eine ferne Erinnerung für dich ist. Wenn dir ein einzelner durchschnittlicher (+0) Besonnenheits-Wurf gelingt, darfst du während einer Begegnung alle von diesem Feind ausgehenden Effekte von Angst, Einschüchtern und Entsetzen ignorieren. Typische Feinde sind unter anderem Banditen, Grünhäute, Hexer, Tiermenschen, Vampire und Wächter.</p>",
       "id": "Fearless",
-      "name": "Sans peur",
-      "tests": "Calme en opposition à Intimidation, Peur et Terreur"
+      "name": "Furchtlosigkeit (Feind)",
+      "tests": "Besonnenheit bei Vergleichenden Würfen gegen Angst, Einschüchtern und Entsetzen deines Feindes"
     },
     {
-      "description": "Vous avez appris comment faire de fausses attaques en combat rapproché pour duper votre adversaire. vous pouvez à présent faire un Feinte pour votre Action contre tout adversaire utilisant une arme. Cela est résolu avec un Test opposé Corps à Corps (Escrime)/Corps à corps. Si vous gagnez et que vous attaquez le même adversaire avant la fin du prochain Round, vous pourrez ajouter le DR de votre Feinte au résultat de votre jet.",
+      "description": "<p>Du hast trainiert, im Nahkampf Scheinangriffe durchzuführen, die deinen Gegner in die Irre führen. Du darfst als Handlung eine Finte wählen, wenn du gegen einen Gegner kämpfst, der eine Waffe verwendet. Dies wird als Vergleichender Nahkampf (Fechten)/ Nahkampf-Wurf abgehandelt. Wenn du gewinnst und den gleichen Gegner vor dem Ende deines nächsten Zuges attackierst, darfst du die EG deiner Finte zu deinem Angriffswurf addieren.</p>",
       "id": "Feint",
-      "name": "Feinte",
-      "tests": "Corps à corps (Escrime) pour une Feinte"
+      "name": "Finte",
+      "tests": "Nahkampf (Fechten) bei Finten"
     },
     {
-      "description": "Vous êtes habitué à traiter rapidement les blessures. Si vous ratez un Test de Guérison quand vous utilisez des Bandages, vous pouvez inverser le résultat si cela entraîne un succès ; cependant, si vous le faites, vous ne pouvez pas obtenir plus de +1 DR, car vous vous concentrez sur la vitesse plutôt que sur la précision.",
+      "description": "<p>Du bist daran gewöhnt, Verletzungen schnell behandeln zu müssen. Wenn dir bei der Verwendung von Verbänden ein Heilen-Wurf misslingt, darfst du die Zahlen vertauschen, wenn dies zu einem Erfolg führt. Wenn du dies tust, kannst du jedoch nie mehr als +1 EG erreichen, da du dich auf die Geschwindigkeit konzentrierst, nicht auf die Sorgfalt.</p>",
       "id": "Field Dressing",
-      "name": "Pansement de fortune",
-      "tests": "Guérison durant des rounds de combat"
+      "name": "Feldscher",
+      "tests": "Heilen während Kampfrunden"
     },
     {
-      "description": "Vous êtes un pêcheur très habile et connaissez les meilleures façons d'attraper du poisson. En supposant qu'une étendue d'eau suffisamment grande soit disponible, vous êtes automatiquement considéré comme capable de pêcher suffisamment de poisson pour vous nourrir vous et un nombre de personnes égal à votre niveau de Pêcheur, en partant du principe que vous choisissez de passer au moins une heure ou deux avec une ligne et des appâts. Vous pouvez fournir plus de poisson en utilisant les règles normales pour la Recherche de nourriture.",
+      "description": "<p>Du bist ein überaus fähiger Fischer und kennst stets den besten Weg, Fische zu fangen. Sofern ein Gewässer verfügbar ist, das groß genug ist, wird davon ausgegangen, dass du automatisch genug Fisch fängst, um dich selbst und eine zusätzliche Person pro Stufe in Fischer zu versorgen, sofern du mindestens eine Stunde mit Schnur und Haken etc. verbracht hast. Du kannst zusätzlich noch mehr Fische fangen, indem du die normalen Regeln für Jagen und Fischen nutzt (siehe Seite 130).</p>",
       "id": "Fisherman",
-      "name": "Pêcheur",
-      "tests": "N'importe quel test lié à la Pêche"
+      "name": "Fischer",
+      "tests": "Jeder Wurf, bei dem es ums Fischen geht"
     },
     {
-      "description": "Vous avez voué votre douleur au service de votre Dieu. Chaque jour, vous devez passer une demi-cloche (une demi-heure) à prier en continuant à vous infliger un nombre de Blessures égal à votre Niveau de Flagellant. Après cela, si vous possédez le Talent Frénésie, vous pouvez entrer en Frénésie immédiatement sans effectuer de Test jusqu'à votre prochain repos. Le Talent Frénésie est ajouté à la liste des Talents de n'importe quelle de vos Carrières. Si vous ne réussissez pas à vous flageller un jour donné, ou si vous permettez à votre chair meurtrie de guérir, vous ne pouvez dépenser aucune Résilience et aucune Détermination jusqu'à une nouvelle flagellation.",
+      "description": "<p>Du hast deinen Schmerz in den Dienst deines Gottes gestellt. An jedem Tag musst du dich eine halbe Glocke (eine halbe Stunde) geißeln und beten, wobei du eine Anzahl von LP verlierst, die deiner Stufe im Talent Flagellant entsprechen. Bis du das nächste Mal schläfst, hast du das Talent Raserei und kannst dich sofort ohne einen Wurf in Raserei versetzen.</p><p>Das Talent Raserei wird zur Talent-Liste jeder Karriere hinzugefügt, in der du bist. Sollte es dir nicht gelingen, dich an einem Tag zu geißeln, oder solltest du es zulassen, dass dein gegeißeltes Fleisch geheilt wird, darfst du weder Zähigkeit noch Mut ausgeben, bis du dich wieder geißeln konntest.</p>",
       "id": "Flagellant",
       "name": "Flagellant",
-      "tests": "N'importe quel test pour résister aux Puissances de la Ruine"
+      "tests": "Jeder Wurf zum Widerstehen gegen die Mächte der Verderbnis"
     },
     {
-      "description": "Quand votre vie est en jeu, vous êtes capable de courir à une vitesse impressionnante. Votre Attribut de Mouvement compte comme s'il était augmenté de 1 quand vous fuyez.",
+      "description": "<p>Wenn es um dein Leben geht, bist du zu erstaunlichen Geschwindigkeiten in der Lage. Dein Bewegungs-Wert gilt als um 1 höher, wenn du auf der Flucht bist (siehe Seite 165).</p>",
       "id": "Flee!",
-      "name": "Fuite!",
-      "tests": "Athlétisme lors de Fuite!"
+      "name": "Fliehen",
+      "tests": "Athletik bei der Flucht"
     },
     {
-      "description": "Vous gagnez +1 à votre Attribut de Mouvement.",
+      "description": "Du erhältst +1 auf dein Attribut Bewegung",
       "id": "Fleet Footed",
-      "name": "Véloce",
+      "name": "Leichtfüßigkeit",
       "tests": ""
     },
     {
-      "description": "<p style=\"user-select: text; color: #111111;\">Vous pouvez entrer en Frénésie comme décrit à la page 190.</p>\n<p style=\"user-select: text; color: #111111;\">&nbsp;</p>\n<p style=\"user-select: text; color: #111111;\">Tant que vous êtes en Frénésie, vous êtes immunisé à tous les autres Traits Psychologiques, et sous aucun prétexte vous ne fuirez, ni ne battrez en retraite. À l'inverse, vous devez vous déplacer à votre maximum en direction de l'ennemi le plus proche dans votre Ligne de Vue pour l'attaquer. La seule Action possible est un Test de CC ou un Test d'Athlétisme pour atteindre votre ennemi le plus raipdement possible. De plus, vous pouvez effectuer un Test de CC gratuit chaque round car vous vous lancez à corps perdu dans votre attaque. Enfin, vous gagnez un Bonus de Force +1 grâce à votre Férocité. Vous restez en Frénésie jusqu'à ce que tous les ennemis dans votre Ligne de Vue soient apaisés ou que vous gagniez l'État Assommé ou &nbsp;<em style=\"user-select: text;\">Stunned</em>&nbsp;or&nbsp;<em style=\"user-select: text;\">Inconscient</em>&nbsp;. Dès que votre Frénésie s'achève, vous gagnez l'État&nbsp;<em style=\"user-select: text;\">Exténué</em>&nbsp;.</p>",
+      "description": "<p style=\"user-select: text; color: #111111;\">Du kannst in Raserei verfallen, wie auf Seite 190 beschrieben.</p>\n<p style=\"user-select: text; color: #111111;\">&nbsp;</p>\n<p style=\"user-select: text; color: #111111;\">Mit einem Willenskraft-Wurf kannst du dich selbst in einen Zustand der Raserei versetzen, indem du dich selbst mental aufpeitschst, heulst, in deinen Schild beißt oder Ähnliches tust. Wenn du Erfolg hast, unterliegst du Raserei. Solange du der Raserei unterliegst, bist du gegen alle anderen Effekte von Psychologie immun und wirst weder fliehen noch dich zurückziehen, egal was geschieht. Tatsächlich musst du dich stets so schnell wie möglich auf den nächsten Gegner zubewegen, um ihn attackieren zu können. Generell sind die einzigen Handlungen, die du wählen kannst, Kampfgeschick-Würfe oder Athletik-Würfe zum möglichst schnellen Erreichen des Feindes. Des Weiteren darfst du in jeder Runde als Freie Handlung einen Nahkampf-Wurf durchführen, da du dich mit allem, was du hast, in deine Attacken stürzt. Zudem bekommst du auch noch +1 auf deinen Stärke-Bonus, so groß ist deine Wildheit. Du bleibst in Raserei, bis entweder alle Feinde in deinem Sichtbereich erledigt sind oder du den Zustand Betäubt oder Bewusstlos erhältst. Wenn deine Raserei vorbei ist, erhältst du automatisch 1 Ermüdet-Zustand.</p>",
       "id": "Frenzy",
-      "name": "Frénésie",
+      "name": "Raserei",
       "tests": ""
     },
     {
