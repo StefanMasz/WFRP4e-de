@@ -16,7 +16,7 @@
    "packs" : [],
    "scripts" : [],
    "styles" : ["style.css"],
-   "url" : "https://gitlab.com/henry4k/foundryvtt-lang-de",
+   "url" : "https://github.com/StefanMasz/WFRP4e-de",
    "manifest" : "https://github.com/StefanMasz/WFRP4e-de/-/raw/master/module.json",
    "download" : "https://github.com/StefanMasz/WFRP4e-de/-/jobs/artifacts/v0.7.5/download?job=build"
 }
