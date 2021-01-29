@@ -6,6 +6,12 @@
    "compatibleCoreVersion" : "0.7.999",
    "author" : "Magnus the Prior",
    "description" : "German language support for Moomans WFRP Modules",
+   "dependencies": [
+      {
+      "name": "wfrp4e",
+	    "type": "system"
+     },
+   ],
    "languages" : [
       {
          "lang" : "de",
