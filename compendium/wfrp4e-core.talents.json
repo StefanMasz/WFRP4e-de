@@ -1,98 +1,98 @@
 {
-  "label": "Talents",
+  "label": "Talente",
   "mapping": {
     "tests": "data.tests.value"
   },
   "entries": [
     {
-      "description": "<p>Vous êtes un tireur exceptionnel et savez où atteindre un ennemi pour lui causer un maximum de Dégâts. Vous infligez +1 Dégât supplémentaire avec toutes les armes à distance par niveau acquis dans ce Talent.</p>",
+      "description": "<p>Du triffst den Gegner stets genau zwischen die Augen … oder wo du ihn auch immer zu treffen wünschst. Statt die Zahlen des Wurfes umzudrehen, um die Trefferzone zu ermitteln, darfst du dir beim Angriff mit einer Fernkampfwaffe die von dir getroffene Trefferzone einfach aussuchen.</p>",
       "id": "Accurate Shot",
-      "name": "Tir précis",
+      "name": "Präzisionsschütze",
       "tests": ""
     },
     {
-      "description": "<p>L'un de vos cinq sens principaux est particulièrement développé, vous permettant de repérer ce qui échappe à d'autres. Vous pouvez effectuer des Tests de Perception pour détecter des détails normalement imperceptibles grâce au sens associé, déterminés par le MJ. Cela peut-être : voir un aigle au-delà du champ visuel de tout le monde, sentir un poison presque inodore, entendre la respiration d'une souris immobile dans un mur, percevoir une lettre effacée dans une gravure, ou déceler que deux bières d'un même brasseur ont été tirées de deux tonneaux différents.</p>",
+      "description": "<p>Einer deiner fünf Hauptsinne ist so hochentwickelt, dass dir Dinge auffallen, die anderen entgehen. Du kannst bei Wahrnehmungs-Würfen mit diesem Sinn normalerweise unbemerkbare Dinge wahrnehmen, je nach Vorgabe des SL. Das könnte zum Beispiel Folgendes sein: einen Adler sehen, der noch außerhalb der Sichtweite anderer ist, ein nahezu geruchloses Gift riechen, das Atmen einer stillstehenden Maus hinter einer Bretterwand hören, einen abgenutzten Buchstaben an einer Druckerpresse ertasten oder schmecken, das zwei Humpen Bier zwar von der gleichen Brauerei, aber aus unterschiedlichen Fässern stammen.</p>",
       "id": "Acute Sense",
-      "name": "Sens Aiguisé",
-      "tests": "Perception (Sens)"
+      "name": "Scharfer Sinn (Sinn)",
+      "tests": "Wahrnehmung (Sinn)"
     },
     {
-      "description": "<p>Votre expérience, Talent ou entraînement vous permet de manipuler de façon plus sûre les Vents de la Magie. Vous ne subissez pas d'Incantation Imparfaite si vous obtenez un double à un Test de Focalisation réussi.</p>",
+      "description": "<p>Durch Erfahrung, Talent oder Training gelingt es dir, die Winde der Magie sicherer zu manipulieren. Du erleidest keinen Kontrollverlust, wenn du bei einem erfolgreichen Kanalisieren-Wurf einen Pasch würfelst.</p>",
       "id": "Aethyric Attunement",
-      "name": "Harmonisation Aethyrique",
-      "tests": "Focalisation (Au choix)"
+      "name": "Äthergespür",
+      "tests": "Kanalisieren (beliebiger Wind)"
     },
     {
-      "description": "Vous êtes à l'aise dans les ruelles sombres. Quand vous utilisez Discrétion (Urbaine), vous pouvez inverser le lancer de n'importe quel Test raté si cela entraîne un Succès.",
+      "description": "<p>Schattige Gassen sind dein zweites Zuhause. Wenn du Schleichen (Stadt) einsetzt, darfst du bei jedem misslungenen Wurf die Zahlen vertauschen, wenn dies zu einem Erfolg führt.</p>",
       "id": "Alley Cat",
-      "name": "Chat de gouttière",
-      "tests": "Discrétion (Urbain)"
+      "name": "Straßenkatze",
+      "tests": "Schleichen (Stadt)"
     },
     {
-      "description": "<p>Vous pouvez utiliser votre main non directive bien mieux que la plupart des gens, grâce à votre entraînement ou à un Talent inné. Vous subissez seulement une pénalité de -10 aux Tests reposant uniquement sur votre main secondaire au lieu de -20. Si vous possédez deux fois ce Talent, vous ne subissez aucune pénalité.</p>",
+      "description": "<p>Du kannst deine nichtdominante Hand sehr viel besser verwenden als die meisten, sei es durch Training oder Talent. Du hast nur einen Abzug von -10 bei Würfen, bei denen es allein um die nichtdominante Hand geht, nicht die üblichen -20. Wenn du dieses Talent zweimal erworben hast, hast du gar keinen Abzug mehr</p>",
       "id": "Ambidextrous",
-      "name": "Ambidextre",
+      "name": "Beidhändigkeit",
       "tests": ""
     },
     {
-      "description": "Les animaux sauvages se sentent en confiance en votre présence, et ont tendance à vous suivre. Toutes les créatures avec le Trait <em>Bestial</em> non entraînées à être belliqueuse seront automatiquement calmes en votre présence, à moins qu'elles n'aient une raison de ne pas l'être, comme la douleur, une attaque, une hyper agressivité naturelle ou un jeune à proximité.",
+      "description": "<p>Wilde Tiere fühlen sich deiner Nähe wohl und folgen dir häufig wie einem Leittier. Alle Kreaturen mit der Eigenschaft Tierhaft, die nicht auf Aggressivität abgerichtet wurden, beruhigen sich in deiner Gegenwart automatisch, sofern sie keinen Grund haben, dies nicht zu tun, sei es durch Schmerz, einen Angriff, natürliche Überaggressivität oder nahe Jungtiere, die sie beschützen.</p>",
       "id": "Animal Affinity",
-      "name": "Affinité avec les animaux",
-      "tests": "Emprise sur les animaux"
+      "name": "Tierverbundenheit",
+      "tests": "Tiere bezirzen"
     },
     {
-      "description": "<p>&nbsp;</p>\n<p>Vous connaissez l'un des huit Domaines de la Magie - Bêtes, Cieux, Mort, Feu, Métal, Ombres, Lumière ou Vie - ou pratiquez un savoir moins connu comme la Magie Sauvage ou la Nécromancie. Vous pouvez à présent mémoriser des Sorts du Domaine choisi pour le prix en PX suivant. </p>\n<p>&nbsp;</p>\n<div>\n<table title=\"\" border=\"1\" summary=\"\" cellspacing=\"0\" cellpadding=\"0\">\n<tbody>\n<tr>\n<td>\n<p>Nombre de sorts actuellement connus</p>\n</td>\n<td>\n<p>Cout en PX pour un nouveau Sort</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Bonus d'Intelligence × 1&nbsp;</p>\n</td>\n<td>\n<p>100 PX</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Bonus d'Intelligence × 2</p>\n</td>\n<td>\n<p>200 PX</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Bonus d'Intelligence × 3</p>\n</td>\n<td>\n<p>300 PX</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>Bonus d'Intelligence × 4</p>\n</td>\n<td>\n<p>400 PX</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p>&nbsp;...et ainsi de suite.</p>\n<p>&nbsp;</p>\n<p>Donc si votre Bonus d'Intelligence est de 4, les 4 premièrs Sorts vous coûteront 100 PX chacun, puis 200 PX pour les 4 suivants, et ainsi de suite. Les règles commplètes sur l'apprentissage de nouveaux Sorts se trouvent dans le Chapitre 8 : Magie. Dans des conditions normales, vous ne pouvez pas appendre plus d'un Talent <em>Magie des Arcanes (Domaine)</em>. De plus, vous ne pouvez pas apprendre les Talents <em>Béni</em> ou <em>Invocation</em> quand vous psosédez le Talent <em>Magie des Arcanes</em>. Vous pouvez désapprendre ce Talent pour 1000 PX, mais si vous le faites, vous perdrez immédiatement tous vos Sorts.</p>",
+      "description": "<p>Du studierst entweder eine der 8 Arkanen Lehren der Magie – Bestien,Feuer, Himmel, Leben, Licht, Metall, Schatten, Tod – oder praktizierst eine der weniger bekannten Lehren wie die der Heckenzauberei oder der Nekromantie. Du darfst dir nun Zauber deiner ausgewählten Lehre einprägen, für die folgenden EP-Kosten:</p><p>Zahl der gegenwärtig EP-Kosten eines eingeprägten Zauber neuen Zaubers<br/>Intelligenz-Bonus x 1 100 EP<br/>Intelligenz-Bonus x 2 200 EP<br/>Intelligenz-Bonus x 3 300 EP<br/>Intelligenz-Bonus x 4 400 EP<br/>… und so weiter</p><p>Wenn dein Intelligenz-Bonus 4 beträgt, dann kosten dich die ersten 4 Zauber jeweils 100 EP, die nächsten 4 jeweils 200 EP und so weiter. Die vollständigen Regeln für das Erlernen neuer Zauber findest du in Kapitel 8: Magie. Unter normalen Umständen kannst du nie mehr als ein einziges Arkane-Magie-Talent erlernen. Des Weiteren kannst du die Talente Segen und Anrufung nicht erlernen, wenn du das Talent Arkane Magie gelernt hast. Du kannst das Talent für 100 EP wieder verlernen, doch dabei verlierst du sofort auch sämtliche Zauber, die du gelernt hast.</p>",
       "id": "Arcane Magic",
-      "name": "Magie des Arcanes",
+      "name": "Arkane Magie (Lehre)",
       "tests": ""
     },
     {
-      "description": "Vous êtes habitué à faire valoir vos opinions et à les imposer. Si vous réussissez un Test de Charme pour débattre avec un adversaire, vous pouvez choisir soit d'utiliser le DR de votre lanceur, soit le chiffre des unités obtenus sur votre dé. Donc, un lancer réussi de 24 peut être utilisé comme un DR de +4.",
+      "description": "<p>Du bist sehr gut darin, deinen Standpunkt zu vertreten und Diskussionen zu gewinnen. Wenn dir bei der Debatte ein erfolgreicher Charme-Wurf gelungen ist, dann kannst du entweder die erwürfelten EG verwenden, oder die Zahl, die mit dem Würfel für die Einerstelle gefallen ist. Bei einem erfolgreichen Wurf von 24 wären Letzteres also +4 EG.</p>",
       "id": "Argumentative",
-      "name": "Ergoteur",
-      "tests": "Charme avec argumentation ou contreverse"
+      "name": "Wortgewandt",
+      "tests": "Charme-Würfe beim Argumentieren und Debattieren"
     },
     {
-      "description": "Vous possédez un talent naturel pour l'Art, et vous pouvez produire des dessins précis avec un peu de temps et le support approprié. Cette capacité offre plusieurs usages dans le jeu, allant de la création d'avis de recherche à l'illustration de journaux spécialisés, et présente des Avantages spécifiques déterminés par le MJ. Ajoutez également Art (au choix) à n'importe quelle Carrière que vous entamez; si c'est déjà inclus dans la Carrière , vous pouvez à la place acheter la Compétence pour 5 PX de moins par Augmentation",
+      "description": "<p>Du besitzt ein natürliches Talent für Künstlerisches und kannst mit nichts als etwas Zeit und geeignetem Material präzise Skizzen erstellen. Diese Befähigung kann im Spiel vielerlei Anwendung finden, zum Beispiel wenn du ein präzises Fahndungsbild skizzieren oder akkurate Darstellungen in einem Reisejournal gestalten möchtest, wobei die Festlegung der sich daraus ergebenden Vorteile beim SL liegt. Zudem fügt dieses Talent jeder Karriere, in die du wechselst, die Fähigkeit Kunst (1 nach Wahl) hinzu. Wenn sich bereits eine Kunst-Fähigkeit in der entsprechenden Karriere befindet, kannst du die entsprechende Kunst-Fähigkeitstattdessen für 5 EP weniger pro Steigerung verbessern.</p>",
       "id": "Artistic",
-      "name": "Artiste",
-      "tests": "Art (Au choix)"
+      "name": "Künstlerisch",
+      "tests": "Kunst"
     },
     {
-      "description": "<p>Que ce soit votre regard perçant, votre corps musclé, ou peu-être l'éclat de vos dents parfaites, vous savez comment utiliser au mieux ce que les dieux vous ont offert. Quand vous réussissez à utiliser Charme pour influencer ceux qui vous trouvent Attirant vous pouvez choisir d'utiliser soir le DR de votre lancer, soit le nombre des unités obtenues sur votre dé. Donc, une réussite de 63 pour être utilisé comme un DR de +3.</p>",
+      "description": "<p>Egal, ob es an deinen Augen, deinem ebenmäßigen Gesicht oder deinen perfekten Zähnen liegt, du weißt einfach, wie du dein Aussehen nutzen kannst. Wenn dir bei der Beeinflussung einer Person, die sich zu dir hingezogen fühlt, ein erfolgreicher Charme-Wurf gelungen ist, dann kannst du entweder die erwürfelten EG verwenden oder die Zahl, die mit dem Würfel für die Einerstelle gefallen ist. Bei einem erfolgreichen Wurf von 38 wären Letzteres also +8 EG.</p>",
       "id": "Attractive",
-      "name": "Attirant",
-      "tests": "Charme pour influencer ceux qui vous trouvent attirant"
+      "name": "Attraktiv",
+      "tests": "Charme-Würfe zur Beeinflussung jener, die sich von dir angezogen fühlen"
     },
     {
-      "description": "Vous êtes davantage en mesur de contrôler votre Frénésie en combat. Vous pouvez y mettre fin avec un Test de Calcme réussi à la fin du round.",
+      "description": "<p>Du bist gut darin, deine Raserei im Kampf unter Kontrolle zu halten. Du kannst deine Raserei am Ende der Runde beenden, wenn dir ein Besonnenheits-Wurf gelingt.</p>",
       "id": "Battle Rage",
-      "name": "Contrôle de la Frénésie",
-      "tests": "Corps à Corps lorsqu'en Frénésie"
+      "name": "Kampfrausch",
+      "tests": "Nahkampf-Würfe in Raserei"
     },
     {
-      "description": "<p>Vous êtes entraîné à effectuer des frappes précises contrôlées sur l'arme de votre adversaire, créant une ouverture pour une attaque ou empêchant simplement une attaque de vous atteindre. Pour votre Action, vous pouvez choisir Battement avant de lancer les dés. Effectuez un Test de Corps à Corps; sur un succès, votre adversaire perd -1 Avantage et -1 de plus par DR que vous avez obtenu. Ce Test n'est pas opposé. Ce Talent est inutile si votre adversaire ne porte pas d'arme ou est d'une Taille supéérieur à la vôtre.</p>",
+      "description": "<p>Du hast schnelle, kontrollierte Schläge nach der Waffe des Gegners trainiert, um die Deckung durchbrechen zu können oder Attacken abzulenken. Als Handlung kannst du vor dem Würfeln Klingenschlag wählen. Führe einen Kampfgeschick-Wurf durch; wenn du Erfolg hast, verliert der Gegner 1 Vorteil, sowie 1 weiteren Vorteil pro EG, den du erreicht hast. Dieser Wurf ist kein Vergleichender Wurf. Das Talent hat keine Wirkung, wenn der Gegner keine Waffe führt oder eine größere als du besitzt (siehe Seite 339).</p>",
       "id": "Beat Blade",
-      "name": "Battement",
-      "tests": "Corps à corps pour effectuer une manoeuvre de Battement"
+      "name": "Klingenschlag",
+      "tests": "Kampfgeschick-Würfe für einen Klingenschlag"
     },
     {
-      "description": "<p>Les grands et puissants ne prêtent pas attention à votre présence, sachant que vous n'êtes pas digne d'être remarqué. En supposant que vous êtes correctement vêtu et pas dans une position incongrue, les personnes d'un Echelon de Statut plus haut vous ignorent, à moinsque votre présence ne soit déplacée, ce qui peut rendre très facile l'écoute de conversations que nou sn'êtes peut-être pas censé entendre. De pluis, les Personnages d'un Echelon de Statut plus élevé que vous ne gagent pas d'Avantage lorsqu'ils vous battent en combat, car il n'y a aucun mérite à batte un si pauvre hère.</p>",
+      "description": "<p>Die Großen und Mächtigen beachten dich nicht, denn sie denken, dass es unter ihrer Würde sei, dich auch nur wahrzunehmen. Sofern du entsprechend gewandet bist und bei nichts Auffälligem gesehen wirst, werden dich jene mit höherem Status-Rang normalerweise ignorieren, sofern deine Gegenwart in diesem Moment nicht gänzlich unpassend ist. Dies macht es zum Beispiel leichter, unauffällig Gespräche zu belauschen, die nicht für fremde Ohren bestimmt sind. Des Weiteren erhalten Personen, die über einen höheren Status-Rang als du verfügen, keine Vorteile, wenn sie dich im Kampf treffen oder verwunden, denn es ist ja nichts Besonderes, niederem Gesindel überlegen zu sein.</p>",
       "id": "Beneath Notice",
-      "name": "Insignifiant",
-      "tests": "Discrétion quand vous êtes à la vue de tous"
+      "name": "Unauffällig",
+      "tests": "Schleichen in völliger Offenheit"
     },
     {
-      "description": "Vous vous précipitez sur vos ennemis avec une témérité sans bornes, utilisant la force de votre charge pour ajouter du poids à vos frapeps. Lorsque vous effectuez Charge berserk, vous infligez +1 Dégats par niveau dans ce Talent à toutes les attaques de Corps à corps.",
+      "description": "<p>Du wirfst dich mit rücksichtslosem Eifer und dem vollen Körpergewicht auf den Feind und steigerst so die Wucht deines Angriffs. Bei einem Sturmangriff erhältst du pro Stufe in diesem Talent +1 Schaden bei allen Nahkampfattacken.</p>",
       "id": "Berserk Charge",
-      "name": "Charge Berserk",
-      "tests": "Corps à corps sur le round de Charge Berserk"
+      "name": "Berserkerangriff",
+      "tests": "Nahkampf-Würfe in einer Runde, in der du einen Sturmangriff durchführst"
     },
     {
-      "description": "<p>Appelé \"parler à tort et à travers\" dans le Nordland ou simplement \"raconter des aneries\" en Ostland, Baratiner consiste à parler rapidement de façon incessante, ou parler longuement de façon volubile, en parlant de choses sans importance ou n'ayant aucun sens, pour embrouiller et déconcerter verbalement une cible. Vous utilisez votre compétence Charme pour Baratiner. Tentez un <em>Test opposé Baratiner/Intelligence</em>. Un succès donne à votre adversaire un état <em>Assommé</em>. De plus, pour chaque niveau que vous possédez dans ce Talent, votre adversaire gagne un état <em>Assommé</em> supplémentaire. Les cibles assommées grâce à Baratiner ne peuvent rien faire d'autre que vous regarder, médusés, et essayant de suivre ou de comprendre ce que vous racontez. Une fois que le dernier Etat <em>Assommé</em> touche à sa fin, la cible peut enfin placer un mot, et peut ne pas être très contente de vous. Après tout, vos avez parlé de choses sans importance ou n'ayant aucun sens pendant assez longtemps. Si vous arrêtez de parler, votre adversaire perd immédiatement tous les Etats assomé causés par votre Talent Baratiner. En général, vous ne pouvez tenter de Baratiner un Personnage qu'une seule fois par scène, ou plus longtemps (le MJ détermine ce point), car la cible ne tarde pas à prendre conscience de vos simagrées.</p>",
+      "description": "<p>Die Kunst dessen, was man im Nordland \„den Mund aufmachen und den Bauch rumpeln lassen\“ und im Ostland schlicht \„Bullenscheiße kotzen\“ nennt, umfasst schnelles, intensives und manchmal völlig zusammenhangloses Gerede, dessen einziger Zweck es ist, ein Ziel zu verunsichern und zu verwirren. Bei einem Redeschwall kommt die Fähigkeit Charme zum Einsatz, und zwar bei einem Vergleichenden Charme/Intelligenz-Wurf. Erfolg bedeutet, dass der Gegner den Zustand Betäubt erhält, mit +1 Betäubt-Zuständen pro EG. Ziele, die durch Redeschwall Betäubt wurden, können nichts tun, als dich verdattert anzustarren, während sie zu verstehen versuchen, was du da redest. Sobald der letzte Betäubt-Zustand abgeklungen ist, versteht das Ziel endlich, dass es da nichts zu verstehen gab und reagiert möglicherweise ungehalten, denn du hast bestenfalls seine Zeit verschwendet. Solltest du zwischendurch mit dem Reden aufhören, verliert das Ziel sogleich alle durch den Redeschwall verursachten Betäubt-Zustände. Generell kann man auf jede Person nur einmal pro Szene einreden, möglicherweise aber auch länger nicht, je nach Einschätzung des SL, denn das Ziel ist in der Folge gewarnt.</p>",
       "id": "Blather",
-      "name": "Baratiner",
-      "tests": "Charme pour Baratiner"
+      "name": "Redeschwall",
+      "tests": "Charme beim Redeschwall"
     },
     {
       "description": "Vous êtes protégé par l'un des Dieux et vous pouvez intensifier le pouvoir de simples Prières. Vous pouvez à présent utiliser les Bénédictions de votre divinité listées au <em>Chapitre 7 : Religion et Croyances</em>. Dans des conditions normales, vous ne pouvez connaître qu'un seul Savoir divin pour le Talent Béni.",
