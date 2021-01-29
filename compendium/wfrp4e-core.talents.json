@@ -95,81 +95,81 @@
       "tests": "Charme beim Redeschwall"
     },
     {
-      "description": "Vous êtes protégé par l'un des Dieux et vous pouvez intensifier le pouvoir de simples Prières. Vous pouvez à présent utiliser les Bénédictions de votre divinité listées au <em>Chapitre 7 : Religion et Croyances</em>. Dans des conditions normales, vous ne pouvez connaître qu'un seul Savoir divin pour le Talent Béni.",
+      "description": "<p>Eine der Gottheiten wacht über dich und gibt dir die Gnade, einfache Gebete zu sprechen. Du kannst nun die Segnungen deiner Gottheit wirken, so wie in Kapitel 7: Religion und Glaube erläutert. Unter normalen Umständen kannst du nie mehr als ein einziges Segens-Talent erlernen.</p>",
       "id": "Bless",
-      "name": "Béni",
+      "name": "Segen (Göttliche Lehre)",
       "tests": ""
     },
     {
-      "description": "Vous êtes un vrai rat de bibliothèque. Quand vous utilisez Recherche, vous pouvez inverser le dé de n'importe quel Test raté si cela entraîne un succès.",
+      "description": "<p>Du bist in der Bibliothek so heimisch wie ein Seemann auf dem Meer oder ein Bauer auf dem Feld. Wenn du Nachforschen einsetzt, darfst du bei jedem misslungenen Wurf die Zahlen vertauschen, wenn dies zu einem Erfolg führt.",
       "id": "Bookish",
-      "name": "Studieux",
-      "tests": "Recherche"
+      "name": "Bücherwurm",
+      "tests": "Nachforschen"
     },
     {
-      "description": "Vous êtes expert pour défoncer rapidement les portes et effectuer des effractions. Vous pouvez ajouter +1 Dégât pour chaque niveau dans ce Talent quand vous déterminez les Dégâts infligés à des objets inanimés, tels que des fenêtres, des coffres, des portes et objets similaires.",
+      "description": "<p>Du bist ein Experte darin, Türen aufzubrechen und dir gewaltsam Zutritt zu verschaffen. Du erhältst für jede Stufe in diesem Talent +1 Schaden, wenn es um Schäden gegen unbelebte Objekte wie Fenster, Truhen, Türen oder Ähnliches geht.</p>",
       "id": "Break and Enter",
-      "name": "Effraction",
-      "tests": "Corps à Corps en essayer de casser ou démolir des objets/mobilier"
+      "name": "Türentreter",
+      "tests": "Nahkampf beim Durchbrechen oder Zerstören unbelebter Objekte"
     },
     {
-      "description": "Vous êtes un corrupteur hautement qualifié. Le MJ peut réduire le coût de base de n'importe quel pot-de-vin requis de 10 % par niveau que vous possédez en Suborneur, jusqu'à un minimum de 10% du montant d'origine.",
+      "description": "<p>Du bist ein Spezialist für Bestechungen. Pro Stufe, die du in diesem Talent hast, reduziert der SL die Grundsumme jeder Bestechung um 10% bis zu einem Minimum von 10% der ursprünglichen Summe.</p>",
       "id": "Briber",
-      "name": "Suborneur",
-      "tests": "Subornation"
+      "name": "Schmierer",
+      "tests": "Bestechen"
     },
     {
-      "description": "Vous êtes doué pour jouer et gagner aux cartes, bien que vos méthodes puissent impliquer un peu de triche. Quand vous utilisez Pari ou Escamotage avec succès en jouant aux cartes, vous pouvez choisir, soit d'utiliser le DR obtenu, soit le chiffre des unités de votre dé. Donc, un succès de 28 peut être utilisé comme un DR de +8. Si vous jouez avec un jeu de cartes réel pour représenter ce qui se passe en jeu, vous pouvez recevoir un nombre supplémentaire de cartes par distribution égal à votre niveau de Tricheur, puis en défausser pour revenir à la taille de main appropriée avant chaque tour de jeu.",
+      "description": "<p>Du bist sehr gut darin, Kartenspiele zu spielen und dabei zu gewinnen, wobei deine Methoden möglicherweise auch ein wenig das Mogeln beinhalten. Wenn dir bei einem Kartenspiel ein erfolgreicher Glücksspiel- oder Fingerfertigkeits-Wurf gelungen ist, dann kannst du entweder die erwürfelten EG verwenden oder die Zahl, die mit dem Würfel für die Einerstelle gefallen ist. Bei einem erfolgreichen Wurf von 28 wären Letzteres also +8 EG. Wenn ihr ein echtes Kartenspiel benutzt, um das im Spiel darzustellen, dann bekommst du jedes Mal, wenn du Karten erhältst, eine deiner Stufe in Kartenkünstler entsprechende Zahl zusätzlicher Karten, wobei du danach so viele Karten ablegen musst, bis du wieder die richtige Anzahl auf der Hand hast.</p>",
       "id": "Cardsharp",
-      "name": "Tricheur",
-      "tests": "Pari et Escamotage quand vous jouez à un jeu de cartes"
+      "name": "Kartenkünstler",
+      "tests": "Glückspiel und Fingerfertigkeit bei Kartenspielen"
     },
     {
-      "description": "<p>Vous êtes doué pour frapper votre ennemi exactement là où vous le voulez, que ce soit à Distance ou au Corps à corps. Vous pouvez modifier votre résultat de la Localisation jusqu'à +/- 10 par nombre de fois où vous avez pris ce Talent. Donc, si vous avez pris deux fois ce Talent et obtenez la Localisation 34, Bras droit, vous pouvez le modifier en 14, Bras gauche, ou en 54, Corps (voir page 159).</p>",
+      "description": "<p>Du bist sehr gut darin, den Gegner genau dort zu treffen, wo du möchtest, sei es im Nahkampf oder im Fernkampf. Du darfst das Resultat bei der Ermittlung der Trefferzone für jede Stufe, die du in diesem Talent hast, um +/- 10 verändern. Wenn du dieses Talent also zweimal besitzt und bei der Ermittlung der Trefferzone 34 hast (Rechter Arm), dann könntest du dieses Resultat auf bis zu 14 reduzieren (Linker Arm) oder auf bis zu 54 erhöhen (Körper). Mehr zu den Trefferzonen erfährst du auf Seite 159.</p>",
       "id": "Careful Strike",
-      "name": "Frappe précise",
+      "name": "Sorgfältiges Zielen",
       "tests": ""
     },
     {
-      "description": "Vous êtes un fêtard chevronné et vous savez comment vous amuser. Vous pouvez inverser le dé de n'importe quel Test de Consommation d'alcool raté si cela entraîne un succès.",
+      "description": "<p>Du bist ein erfahrener Zecher und weißt, wie man zünftig feiert. Du darfst bei jedem misslungenen Zechen-Wurf die Zahlen vertauschen, wenn dies zu einem Erfolg führt.</p>",
       "id": "Carouser",
-      "name": "Noctambule",
-      "tests": "Charme et Ragot lors de fêtes, Résistance à l'Alcool"
+      "name": "Trunkenbold",
+      "tests": "Charme bei Feiern, Klatsch auf Feiern, Zechen"
     },
     {
-      "description": "<p>Tel Ranald le dieu de la Duperie, vous mélangez vérité et mensonges comme s'il n'y avait aucune différence. Quand vous utilisez Charme pour mentir, les auditeurs ne peuvent pas s'y Opposer avec leur Intuition pour détecter s'il y a quelque chose de douteux dans vos propos.</p>",
+      "description": "<p>Du vermischst Wahrheit und Lügen, als gäbe es keinen Unterschied zwischen ihnen, und mit solchem Geschick, dass es Ranald dem Gaunergott zur Ehre gereichen würde. Wenn du Charme nutzt, um zu lügen, dürfen Zuhörer nicht bei einem Vergleichenden Wurf auf ihre Intuition würfeln, um festzustellen, ob das etwas verdächtig klingt, was du da erzählst.</p>",
       "id": "Cat-tongued",
-      "name": "Menteur",
-      "tests": "Charme lorsque vous mentez"
+      "name": "Doppelzüngig",
+      "tests": "Charme-Würfe beim Lügen"
     },
     {
-      "description": "Vous êtes agile comme un chat, et capable de tomber de plus grandes hauteurs que les autres sans vous blesser. Chaque fois que vous tombez, effectuez un Test d'Athlétisme. Sur un succès, réduisez la distance de chute de 1 mètre, +1 mètre supplémentaire par +1 DR obtenu, pour calculez les Dégats.",
+      "description": "<p>Du bist so behände wie eine Katze und hast auch deren Gespür für Balance, weshalb du viel tiefer als andere fallen kannst, ohne Schaden zu nehmen. Wann immer du fällst, führst du einen Athletik-Wurf durch. Ist dieser erfolgreich, reduzierst du bei der Berechnung des Schadens durch den Sturz die gefallene Distanz um 1 Meter, +1 zusätzlichen Meter pro EG.</p>",
       "id": "Catfall",
-      "name": "Souplesse féline",
-      "tests": "Athlétisme lors de chutes"
+      "name": "Katzenfüßig",
+      "tests": "Athletik, wenn du fällst"
     },
     {
-      "description": "Par accident ou à dessein, vous avez cédé une partie de votre âme à l'un des Sombres dieux, et pouvez à présent pratiquer les infâmes magies du Chaos. Votre chef de la Ruine vous confère immédiatement l'accès à un seul Sort du Domaine choisi (le plus souvent les Domaines de Nurgle, Slaanesh ou Tzeentch) et vous gagnez un Point de Corruption lorsque le Sort s'insinue dans votre esprit, pour ne plus jamais en sortir.<p>&nbsp;</p>Lorsque vous prenez ce Talent, qui coûte à chaque fois 100 PX, vous apprenez un autre Sort du Domaine choisi et gagnez un Point de Corruption. Pour plus d'informations sur les Sorts disponibles, voir le <b>Chapitre 8 : Magie</b>. Dans des conditions normales, vous ne pouvez connaître qu'un seul Savoir de Magie chaotique.",
+      "description": "<p>Durch ein Missgeschick oder mit voller Absicht hast du einen Teil deiner Seele an einen der Dunklen Götter verloren und bist nun imstande, die üble Magie des Chaos zu wirken. Dein verderbter Gönner gewährt dir sofort Zugriff auf einen einzelnen Zauber aus der ausgesuchten Lehre (am häufigsten die des Nurgle, Slaanesh oder Tzeentch), und du erhältst einen Korrumpierungspunkt, als der Zauber in deinen Geist kriecht, um nie mehr von diesem vergessen zu werden.</p><p>Jedes Mal, wenn du dieses Talent lernst, kostet es 100 EP statt der üblichen Kosten, und du lernst einen weiteren Zauber der ausgesuchten Lehre und erhältst +1 Korrumpierungspunkt. Mehr über die zur Verfügung stehenden Zauber erfährst du in Kapitel 8: Magie. Unter normalen Umständen kannst du nie mehr als eine einzige Lehre der Chaosmagie erlernen</p>",
       "id": "Chaos Magic",
-      "name": "Magie du Chaos",
+      "name": "Chaosmagie (Lehre)",
       "tests": ""
     },
     {
-      "description": "<p>Vous avez l'habitude d'analyser le champ de bataille pour prendre des décisions rapides, éclairées par les vagues changeantes du conflit. Vous pouvez effectuer un <b>Test de Perception Intermédiaire (+0)</b> pour ignorer la Surprise, modifié normalement par la situation.</p>",
+      "description": "<p>Du bist daran gewöhnt ständig das Schlachtfeld im Auge zu behalten und rasche Entscheidungen zu treffen, sobald sich die Lage irgendwie ändert. Wenn dir ein herausfordernder (+0) Wahrnehmungs-Wurf gelingt, kannst du Überraschungen ignorieren, wobei der Wurf ganz normal gemäß den Umständen modifiziert wird.</p>",
       "id": "Combat Aware",
-      "name": "Vigilance",
-      "tests": "Perception lors de Corps à Corps"
+      "name": "Kampfsinn",
+      "tests": "Wahrnehmung im Nahkampf"
     },
     {
-      "description": "Vous avez accumulé des années d'exprérience au combat, ce qui vous permet de tenir facilement les combattants les plus faibles à distance. Pour chaque fois que vous avez ce Talent, vous comptez comme une personne supplémentaire lors du calcul pour déterminer si l'un des camps dépasse l'autre en nombre. Ce Talent n'entre en jeu que lorsque vous êtes dépassé en nombre. Voir page 162 pour les règles concernant ce cas.",
+      "description": "<p>Du hast jahrelange Kampferfahrung und diese erlaubt es dir, geringere Kämpfer in ihre Schranken zu weisen. Für jede Stufe in diesem Talent zählst du als eine Person mehr, wenn es darum geht zu ermitteln, wer in der Überzahl ist. Dieses Talent kommt nur dann zum Tragen, wenn du eigentlich in Unterzahl wärst. Mehr zu den Regeln für Überzahl erfährst du auf Seite 162.</p>",
       "id": "Combat Master",
-      "name": "Maîtrise du combat",
+      "name": "Meisterkämpfer",
       "tests": ""
     },
     {
-      "description": "Vous réagissez aussi vite que l'éclair. Votre Initiative est plus élevée de 10 pour déterminer l'Initiative de Combat pour chaque nivuea que vous possédez dans ce Talent.",
+      "description": "Du reagierst blitzschnell. Addiere für jede Stufe in diesem Talent 10 zu deiner Initiative, wenn es um die Bestimmung der Kampf-Initiative geht.",
       "id": "Combat Reflexes",
-      "name": "Combat Instinctif",
+      "name": "Kampfreflexe",
       "tests": ""
     },
     {
