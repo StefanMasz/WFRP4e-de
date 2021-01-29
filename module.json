@@ -18,5 +18,5 @@
    "styles" : ["style.css"],
    "url" : "https://github.com/StefanMasz/WFRP4e-de",
    "manifest" : "https://github.com/StefanMasz/WFRP4e-de/-/raw/master/module.json",
-   "download" : "https://github.com/StefanMasz/WFRP4e-de/-/jobs/artifacts/v0.7.5/download?job=build"
+   "download" : "https://github.com/StefanMasz/WFRP4e-de/archive/master.zip"
 }
