@@ -7,10 +7,19 @@
    "minimumCoreVersion" : "0.6.6",
    "compatibleCoreVersion" : "1.0.0",
    "author" : "Magnus the Prior",
-  "dependencies": [{
-    "name": "wfrp4e",
-	"type": "system"
-   }], 
+   "dependencies": [
+   {
+		"name": "wfrp4e",
+		"type": "system"
+   },
+    {
+		"name": "babele",
+		"type": "module"
+    }
+   ], 
+   "esmodules": [
+      "babele-register.js"
+    ],
    "languages" : [{
          "lang" : "de",
          "name" : "Deutsch",
