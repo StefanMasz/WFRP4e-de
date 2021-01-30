@@ -602,5 +602,21 @@
 	"CHARBonus.Int": "Intelligenz Bonus",
 	"CHARBonus.WP": "Willenskraft Bonus",
     "CHARBonus.Fel": "Charisma Bonus",
-    "Bonus" : "Bonus"
+    "Bonus" : "Bonus",
+	
+	"NAME.Armour" : "Rüstung",
+    "NAME.Hardy" : "Robustheit",
+    "NAME.Small" : "Zierlich",
+    "NAME.Mindless" : "Geistlos",
+    "NAME.Construct" : "Konstrukt",
+    "NAME.Swarm" : "Schwarm",
+    "NAME.Size" : "Größe",
+	
+    "SPEC.Tiny" : "Winzig",
+    "SPEC.Little" : "Klein",
+    "SPEC.Small" : "Zierlich",
+    "SPEC.Average" : "Normal",
+    "SPEC.Large" : "Groß",
+    "SPEC.Enormous" : "Enorm",
+    "SPEC.Monstrous" : "Monströs"
 }
