@@ -619,6 +619,7 @@
     "SPEC.Large" : "Groß",
     "SPEC.Enormous" : "Enorm",
     "SPEC.Monstrous" : "Monströs",
+	"SPEC.Magick" : "Magick",
 	
 	"NAME.BP" : "Messinggroschen",
     "NAME.SS" : "Silberschilling",
@@ -632,7 +633,6 @@
     "TIER.Silver" : "Silber",
     "TIER.Brass" : "Messing",
 	
-	"SPEC.Magick" : "Magick",
 	"NAME.Pray" : "Beten",
     "NAME.Language" : "Sprache",
     "NAME.Channelling" : "Kanalisieren",
@@ -666,5 +666,29 @@
     "NAME.Infected" : "Infiziert",
     "NAME.Disease" : "Krankheit",
     "NAME.Daemonic" : "Dämonisch",
-    "NAME.Slayer" : "Slayer"
+    "NAME.Slayer" : "Slayer",
+	
+	"SPEC.Basic" : "Standard",
+    "SPEC.Cavalry" : "Kavallerie",
+    "SPEC.Fencing" : "Fechten",
+    "SPEC.Brawling" : "Waffenlos",
+    "SPEC.Flail" : "Flegel",
+    "SPEC.Parry" : "Parade",
+    "SPEC.Polearm" : "Stangenwaffe",
+    "SPEC.TwoHanded" : "Zweihändig",
+    "SPEC.Blackpowder" : "Schiesspulver",
+    "SPEC.Bow" : "Bogen",
+    "SPEC.Crossbow" : "Armbrust",
+    "SPEC.Entangling" : "Fesselnd",
+    "SPEC.Engineering" : "Technicus",
+    "SPEC.Explosives" : "Explosiv",
+    "SPEC.Sling" : "Schleuder",
+    "SPEC.Throwing" : "Werfen",
+
+    "SHEET.DupPrompt" : "Möchtest du diesen Gegenstand duplizieren?",
+    "SHEET.DupTitle" : "Gegenstand duplizieren",
+    "SHEET.SplitPrompt" : "Bitte gebe ein wie oft du es aufteilen möchtest",
+    "SHEET.SplitTitle" : "Gegenstand aufteilen",
+    "SHEET.SwitchToSkills" : "Wechsel zu Fähigkeiten",
+    "SHEET.SwitchToExtendedTests" : "Wechsel zu Switch To Erweiterte Würfe"
 }
