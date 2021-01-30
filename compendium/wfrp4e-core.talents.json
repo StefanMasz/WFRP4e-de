@@ -353,663 +353,663 @@
       "tests": ""
     },
     {
-      "description": "Toute personne saine d'esprit réfléchit à deux fois avant de vous approcher. Si vous le souhaitez, vous avez un indice de Peur de 1. Ajoutez +1 à cet indice par nombre de fois supplémentaires que vous avez pris ce Talent.",
+      "description": "<p>Jeder, der geistig gesund ist, überlegt es sich zweimal, ob er sich dir nähert. Wenn du es willst, dann hast du Angst (1) (siehe Seite 190). Der Angst-Wert steigt für jede zusätzliche Talentstufe um +1.</p>",
       "id": "Frightening",
-      "name": "Effrayant",
+      "name": "Beängstigend",
       "tests": ""
     },
     {
-      "description": "Vos coups se succèdent rapidement et pleuvent sur vos adversaires avec la fureur d'Ulric. Une fois par round, si vous touchez un adversaire en combat rapproché, vous pouvez immédiatement dépenser un Avantage ou votre Mouvement pour effectuer une attaque supplémentaire (en supposant qu'ils vous reste votre Mouvement).",
+      "description": "<p>Deine Hiebe folgen einander so dicht, dass sie wie die Wut Ulrics auf den Gegner niederhageln. Wenn du einen Gegner im Nahkampf getroffen hast, kannst du einmal pro Runde sofort einen Vorteil ausgeben oder deine Bewegungsaktion opfern, um eine einzelne zusätzliche Attacke auszuführen (sofern du deine Bewegungsaktion noch hast).</p>",
       "id": "Furious Assault",
-      "name": "Assaut féroce",
-      "tests": "Corps à corps lors d'une attaque supplémentaire"
+      "name": "Rasender Angriff",
+      "tests": "Nahkampf bei zusätzlichen Attacken"
     },
     {
-      "description": "Vous aimez parler avec les autres et on dirait bien qu'ils aiment discuter avec vous. Vous pouvez inverser n'importe quel Test de Ragot si cela permet au Test de réussir.",
+      "description": "<p>Du magst es sehr, mit Leuten zu plaudern, und recht offensichtlich scheinen auch sie dies zu mögen. Du darfst bei jedem misslungenen KlatschWurf die Zahlen vertauschen, wenn dies zu einem Erfolg führt.</p>",
       "id": "Gregarious",
-      "name": "Sociable",
-      "tests": "Ragots avec des voyageurs"
+      "name": "Gesellig",
+      "tests": "Klatsch-Würfe mit Reisenden"
     },
     {
-      "description": "Vous pouvez recharger avec facilité les armes à Poudre noire. Ajoutez un DR égal à votre niveau d'Artilleur à n'importe quel Test étendu pour recharger une arme à Poudre noire.",
+      "description": "<p>Du kannst Schießpulverwaffen mit schlafwandlerischer Sicherheit nachladen. Addiere EG in Höhe deiner Stufe in Pulverschütze zu jedem Erweiterten Wurf zum Nachladen einer Schießpulverwaffe.</p>",
       "id": "Gunner",
-      "name": "Artilleur",
+      "name": "Pulverschütze",
       "tests": ""
     },
     {
-      "description": "Vous gagnez autant de Points de Blessure supplémentaires que votre Bonus d'Endurance. Si ce dernier augmente, le nombre de Points de Blessure conféré par Dur à cuire augmente également.",
+      "description": "<p>Du erhältst eine permanente Erhöhung deiner Lebenspunkte in Höhe deines Widerstands-Bonus. Wenn sich dein Widerstands-Bonus erhöht, erhöht sich auch die Anzahl der LP, die Robustheit gewährt.</p>",
       "id": "Hardy",
-      "name": "Dur à cuire",
+      "name": "Robustheit",
       "tests": ""
     },
     {
-      "description": "Vous êtes consumé par la haine pour quelque chose dans le Vieux Monde, comme décrit à la page 190. Chaque fois que vous prenez ce Talent, vous développez une certaine haine envers un nouveau groupe. Voici quelques exemples de groupes que vous pouvez haïr : hommes-bêtes, peaux-vertes, monstres, hors-la-loi, sigmarites, mort-vivants, Sorciers sauvages.",
+      "description": "<p>Du wirst vom Hass auf irgendetwas in der Alten Welt verzehrt, wie auf Seite 190 beschrieben. Jedes Mal, wenn du dieses Talent erwirbst, kommt Hass auf eine neue Gruppe dazu. Beispiele für Gruppen sind: Banditen, Grünhäute, Hexer, Monster, Sigmariten, Tiermenschen oder Untote.</p><p>Du hegst tiefe Hassgefühle gegenüber dem Ziel, bei dem es sich normalerweise um eine Gruppe von Leuten oder Kreaturen handelt, zum Beispiel „Hochländer“, „Sumpfoktopusse“ oder „Sklavenhändler“. Du wirst niemals sozial mit irgendjemandem oder irgendetwas interagieren, das du hasst. Du musst einen Psychologie-Wurf durchführen, wann immer du auf Vertreter der entsprechenden Gruppe stößt. Wenn dieser misslingt, unterliegst du Hass. Am Ende jeder folgenden Runde kannst du versuchen, deinen Hass mit einem weiteren Psychologie-Wurf zu beenden. Wenn du dies nicht tust, endet der Hass automatisch, sobald alle Mitglieder der betreffenden Gruppe in deinem Sichtbereich entweder tot oder verschwunden sind oder du den Zustand Bewusstlos erhältst. Solange du Hass unterliegst, musst du sofort versuchen, die Mitglieder der verhassten Gruppe auf die schnellste und tödlichste Weise zu vernichten. Du bekommst +1 EG auf alle Würfe, die du im Kampf gegen die spezifische Gruppe durchführst und bist immun gegen Angst und Einschüchtern (nicht jedoch gegen Entsetzen), sofern es von deinem verhassten Gegner verursacht wird.</p>",
       "id": "Hatred",
-      "name": "Haine",
-      "tests": "Force Mentale (Résistance)"
+      "name": "Hass (Gruppe)",
+      "tests": "Willenskraft (bei Würfen gegen die verhasste Gruppe)"
     },
     {
-      "description": "Vos Prières exhalent la haine que vous éprouvez pour vos ennemis blasphématoires. Vous infligez +1 Dégâts avec des Miracles pour chaque niveau dans ce Talent.",
+      "description": "<p>Deine Gebete sind vom Hass auf jene befeuert, die du für ketzerische Feinde hältst. Für jede Stufe in diesem Talent richtest du mit Wundern +1 Schaden an.</p>",
       "id": "Holy Hatred",
-      "name": "Haine sacrée",
+      "name": "Heiliger Hass",
       "tests": ""
     },
     {
-      "description": "Vous discernez clairement les grandes œuvres des dieux tout autour de vous. Vous savez automatiquement quand vous entrez sur un sol sacré, et pouvez effectuer un Test d'Intuition pour recevoir des visions (souvent obscures et interprétées via le paradigme de votre culte ou de votre système individuel de croyance) concerant la localité si des événements importants ont eu lieu ici par le passé.",
+      "description": "<p>Du siehst überall um dich herum deutlich das Wirken der Götter. Sobald du heiligen Boden betrittst, spürst du dies und darfst dann einen Intuitions-Wurf ablegen, um Visionen zu empfangen (häufig uneindeutig und gemäß den Paradigmen deines Kultes und deines Glaubens gefärbt), die den Ort und seine Umgebung betreffen, sollten sich dort Dinge von Bedeutung ereignet haben.</p>",
       "id": "Holy Visions",
-      "name": "Visions Sacrées",
-      "tests": "Intuition quand vous vous trouvez sur un sol sacré"
+      "name": "Heilige Visionen",
+      "tests": "Intuitions-Würfe auf heiligem Boden"
     },
     {
-      "description": "Vous êtes un chasseur expérimenté et connaissez toutes les meilleures techniques pour trouver du gibier.<p>\n</p>Quand vous voyagez à travers des régions giboyeuses, vous êtes automatiquement capable de chasser suffisamment de gibier pour vous nourrir vous et un nombre de personnes égal à votre niveau d'Œil du chasseur, tant que vous avez le temps et l'équipement approprié. Vous pouvez fournir plus de nourriture encore en utilisant la règle normale de Recherche de nourriture (voir page 131).",
+      "description": "<p>Du bist ein erfahrener Jäger und kennst die besten Techniken zum Aufspüren von Wild. Wenn du durch beutereiches Land reist, wird davon ausgegangen, dass du automatisch genug Wild jagst, um dich selbst und eine zusätzliche Person pro Stufe in Waidmann zu versorgen, sofern du Zeit und die richtige Ausrüstung hast. Du kannst zusätzlich noch mehr Beute machen, indem du die normalen Regeln für Jagen und Fischen nutzt (siehe Seite 130).</p>",
       "id": "Hunter's Eye",
-      "name": "Œil du chasseur",
-      "tests": "N'importe que test pour capturer ou traquer du gibier"
+      "name": "Waidmann",
+      "tests": "Alle Würfe zur Verfolgung und zum Erlegen von Jagdwild"
     },
     {
-      "description": "<p>Quand vous parlez pour défendre votre cause, votre situation ou votre religion, vos mots vibrent de passion et d'ardente ferveur. Vous pouvez doubler votre Sociabilité pour calculer le nombre de personnes que vous influencez avec votre Talent Orateur (voir page 143) quand vous défendez votre cause.</p>",
+      "description": "<p>Wenn du über deine Sache, dein Ziel oder deinen Glauben sprichst, dann sind deine Worte von Leidenschaft und mitreißendem Eifer erfüllt. Du darfst zur Berechnung der Zahl der Leute, die du durch Rhetorik (siehe Seite 142) beeinflussen kannst, dein Charisma verdoppeln, wenn du über deine Sache sprichst.</p>",
       "id": "Impassioned Zeal",
-      "name": "Ferveur ardente",
-      "tests": "Charme quand vous parlez pour défendre votre cause"
+      "name": "Leidenschaftlicher Eifer",
+      "tests": "Charme, wenn du über deine Sache sprichst"
     },
     {
-      "description": "<p>Il en faut beaucoup pour vous achever. Vous pouvez ignorer le Point de Blessure perdu à cause d'un Etat Hémorragique. Chaque niveau dans ce Talent vous permet d'ignorer le Point de Blessure perdu à cause d'un Etat Hémorragique supplémentaire.</p>",
+      "description": "<p>Es braucht viel, um dich zu erledigen. Du kannst die LP-Verluste eines einzelnen Blutend-Zustandes ignorieren. Für jede weitere Stufe in diesem Talent kannst du die LP-Verluste eines weiteren Blutend-Zustandes ignorieren.</p>",
       "id": "Implacable",
-      "name": "Endurci",
+      "name": "Unaufhaltsam",
       "tests": ""
     },
     {
-      "description": "<p>Vous êtes entraîné à vous placer très près d'un adversaire. Vous ne subissez aucune pénalité pour vous battre contre un adversaire avec une arme plus longue que la vôtre. De plus, si vous utilisez les règles optionnelles de Combat au contact (voir page 297), gagnez un bonus de +10 pour toucher votre adversaire.</p>",
+      "description": "<p>Du bist darin geübt, im Kampf die direkte Nähe zum Gegner zu suchen und zu nutzen. Du erhältst keine Abzüge für den Kampf gegen einen Gegner, der eine längere Waffe als du verwendet. Des Weiteren erhältst du bei der Verwendung der optionalen Regeln für Handgemenge (siehe Seite 297) +10 auf Trefferwürfe gegen deinen Gegner.</p>",
       "id": "In-fighter",
-      "name": "Combattant au contact",
-      "tests": "Corps à corps quand vous combattez au contact ou que vous allez au contact"
+      "name": "Messerstecher",
+      "tests": "Nahkampf im Handgemenge oder zum Einleiten eines Handgemenges"
     },
     {
-      "description": "<p>Vos appels exaltants peuvent renverser le cours d'une bataille. Référez-vous au tableau suivant pour voir combien de personnes vous pouvez à présent influencer avec votre Compétence Commandement (voir page 120) lors d'une guerre.</p>\n<p>&nbsp;</p>\n<div>\n<table title=\"\" border=\"1\" summary=\"\" cellspacing=\"0\" cellpadding=\"0\">\n<tbody>\n<tr>\n<td>\n<p>Talent pris</p>\n</td>\n<td>\n<p>Nombre de soldats influencés</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>1</p>\n</td>\n<td>\n<p>Normal × 5</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>2</p>\n</td>\n<td>\n<p>Normal × 10</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>3</p>\n</td>\n<td>\n<p>&nbsp;Normal × 20</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>4</p>\n</td>\n<td>\n<p>&nbsp;Normal × 50</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>5</p>\n</td>\n<td>\n<p>&nbsp;Normal × 100</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>6</p>\n</td>\n<td>\n<p>&nbsp;Normal × 200</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>7</p>\n</td>\n<td>\n<p>&nbsp;Normal × 500</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>8</p>\n</td>\n<td>\n<p>&nbsp;Normal × 1000</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>9</p>\n</td>\n<td>\n<p>&nbsp;Tous ceux qui peuvent entendre votre voix inspirante</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div><p>&nbsp;</p><b>Exemple</b> : <i>le monastère de l'Abesse Brigitte von der Hoogenband est pris d'assaut par les peaux-vertes, et les choses vont mal. De fait, elle décide de renforcer l'esprit de ses soldats avec un Test de Commandement, leur octroyant +10 à tous les Tests de Psychologie. Elle obtient 3 DR à son Test de Commandement. Etant donné qu'elle possède un Bonus de Sociabilité de 6, et qu'elle peut influencer un nombre de soldats égal à son Bonus de Sociabilité + DR en utilisant Commandement, elle renforce 9 soldats. Cependant, comme elle possède Exaltant 3, ce nombre est multiplié par 20, ce qui signifie que 180 de ses soldats sont inspirés par ses cris d'encouragement « MAINTENEZ LES RANGS ! »</i>",
+      "description": "<p>Deine mitreißenden Worte und Apelle können ganze Schlachten herumreißen. Nutze die folgende Tabelle, um zu bestimmen, wie viele Leute du mit deiner Fähigkeit Anführen (siehe Seite 119) beeinflussen kannst, wenn du im Krieg bist.</p>",
       "id": "Inspiring",
-      "name": "Exaltant",
-      "tests": "Commandement pendant la guerre"
+      "name": "Inspirierend",
+      "tests": "Anführen-Würfe im Krieg"
     },
     {
-      "description": "<p>Vous comprenez instinctivement la langue Magick et êtes capable d'articuler rapidement les phrases les plus complexes sans erreur. Vous ne subissez pas d'Incantation Imparfaire si vous obtenez un double à un Test réussi de Langue (Magick).</p>",
+      "description": "<p>Du verfügst über ein instinktives Verständnis der Sprache Magick und bist dazu imstande, selbst die komplexesten Formeln wiederholt wiederzugeben, ohne Fehler zu machen. Du erleidest keinen Kontrollverlust, wenn du bei einem erfolgreichen Sprache-(Magick)-Wurf einen Pasch würfelst.</p>",
       "id": "Instinctive Diction",
-      "name": "Diction Instinctive",
-      "tests": "Langue (Magick) pour Incanter"
+      "name": "Instinktive Aussprache",
+      "tests": "Sprache (Magick) beim Zaubern"
     },
     {
-      "description": "<p>Vous êtes béni par l'un des dieux, et pouvez donc effectuer l'un des Miracles de votre culte. De plus, vous pouvez acheter des Miracles supplémentaires pour 100 PX par Miracle que vous connaissez actuellement. Donc, si vous connaissez déjà 3 Miracles, votre prochain Miracle vous coûtera 300 PX. Les règles complètes sur l'apprentissage de nouveaux Miracles se trouvent au <b>Chapitre 7 : Religion et Croyances</b>. Dans des conditions normales, vous ne pouvez pas apprendre plus d'un Talent <i>Invocation (Savoir divin)</i>. De plus, vous ne pouvez pas apprendre les Talents <i>Magie mineure</i> ou <i>Magie des Arcanes</i> quand vous possédez le Talent <i>Invocation</i>. Vous pouvez désapprendre ce Talent pour 100 PX, mais vous perdrez tous vos Miracles si vous le faites, et vous encourrez l'extrême défaveur de votre Dieu, dont les effects sont déterminés par le MJ.</p>",
+      "description": "<p>Du wurdest von einer der Gottheiten gesegnet und kannst ein einzelnes der Wunder deines Kultes wirken. Zudem kannst du zusätzliche Wunder für 100 EP pro Anzahl der dir bereits bekannten Wunder erwerben. Wenn du also bereits 3 Wunder kennst, dann kostet es 300 EP, das nächste Wunder zu erwerben. Die vollständigen Regeln für das Erlernen neuer Wunder findest du in Kapitel 7: Religion und Glaube. Unter normalen Umständen kannst du nie mehr als ein einziges Anrufung-Talent erlernen. Des Weiteren kannst du die Talente Niedere Magie und Arkane Magie nicht erlernen, wenn du das Talent Anrufung gelernt hast. Du kannst das Talent für 100 EP wieder verlernen, doch dabei verlierst du sofort auch sämtliche Wunder, die du gelernt hast, und gerätst zudem bei deiner Gottheit in extreme Missgunst, was Effekte nach Wahl des SL zur Folge hat.</p>",
       "id": "Invoke",
-      "name": "Invocation",
+      "name": "Anrufung (Göttliche Lehre)",
       "tests": ""
     },
     {
-      "description": "<p>Vous êtes de constitution robuste et pouvez résister aux frappes les plus fortes. Chaque fois que vous gagnez un Etat Assommé ou plus, vous pouvez immédiatement effectuer un <b>Test de Résistance Intermédiaire (+0)</b> pour en ignorer un, chaque DR supprimant un Etat Assommé supplémentaire.</p>",
+      "description": "<p>Du bist verdammt zäh und kannst selbst härteste Treffer wegstecken. Wann immer du einen oder mehrere Betäubt-Zustände erhältst, führst du sofort einen herausfordernden (+0) Ausdauer-Wurf durch, dessen Erfolg einen Betäubt-Zustand negiert, wobei jeder EG einen weiteren Betäubt-Zustand entfernt.</p>",
       "id": "Iron Jaw",
-      "name": "Machoires d'acier",
-      "tests": "Résistance pour résister aux Etats Assommés"
+      "name": "Stahlkinn",
+      "tests": "Ausdauer-Würfe gegen Betäubt"
     },
     {
-      "description": "Vous êtes indomptable, et vous ne vous inclinerez jamais volontairement devant autrui. L'utilisation de la Compétence Intimidation ne provoque pas la Peur chez vous et ne vous empêchera pas de vous opposer à un interlocuteur intimidant.",
+      "description": "<p>Du hast einen unbezwingbaren Willen und würdest niemals willentlich klein beigeben. Die Verwendung von Einschüchtern verursacht keine Angst in dir und wird dich nicht daran hindern, denen zu widersprechen, die dich einschüchtern wollen.</p>",
       "id": "Iron Will",
-      "name": "Volonté de fer",
-      "tests": "Calme en opposition à Intimidation"
+      "name": "Eiserner Wille",
+      "tests": "Besonnenheits-Würfe gegen Einschüchtern"
     },
     {
-      "description": "<p>Il est difficile de vous mettre à terre. Vous pouvez effectuer un <b>Test d'Athlétisme Intermédiaire (+0)</b> pour atterrir immédiatement sur vos pieds chaque fois que vous gagnez un Etat A Terre. Ce Test d'Athlétisme est souvent modifié par la Force de coup qui vous renverse : pour chaque tranche de +10 en Force que possède le coup au-delà de votre Endurance, vous subissez une pénalité de -10 au Test d'Athlétisme, et vice versa.</p>",
+      "description": "<p>Du bist nur schwer am Boden zu halten. Wenn du einen Niedergestreckt-Zustand erhältst, kannst du sofort einen herausfordernden (+0) Athletik-Wurf durchführen, bei dessen Erfolg du sogleich wieder auf die Füße kommst. Dieser Athletik-Wurf wird häufig gemäß der Stärke modifiziert, die der Treffer hatte, der dich niedergeschlagen hat; pro +10, die die Stärke des Treffers über deinem Widerstand lag, erhältst du -10 auf den Athletik-Wurf und pro -10, die die Stärke des Treffers unter deinem Widerstand lag, erhältst du +10.</p>",
       "id": "Jump Up",
-      "name": "Saut carpé",
+      "name": "Aufspringen",
       "tests": ""
     },
     {
-      "description": "Vous avez réussi à conserver une apparence respectable malgré vos méfaits. Vous pouvez ignorer le Statut perdu à cause du Talent Criminel.",
+      "description": "<p>Du hast dir eine gewisse Respektabilität verdient, trotz deiner zwielichtigen Geschäfte. Du kannst den Statusverlust durch das Talent Kriminell ignorieren.</p>",
       "id": "Kingpin",
-      "name": "Caïd",
+      "name": "Halbweltgröße",
       "tests": ""
     },
     {
-      "description": "Vous gagnez un bonus permanent de +5 à votre Caractéristique Agilité de départ (ne compte pas comme des Augmentations).",
+      "description": "<p>Du reagierst blitzschnell. Addiere für jede Stufe in diesem Talent 10 zu deiner Initiative, wenn es um die Bestimmung der Kampf-Initiative geht.</p>",
       "id": "Lightning Reflexes",
-      "name": "Reflexes Foudroyants",
+      "name": "Kampfreflexe",
       "tests": ""
     },
     {
-      "description": "<p>Vous avez une affinité naturelle pour les langues. Après un mois passé à écouter n'importe quelle Langue, vous considérez la Compétence Langue associée comme une Compétence de Base grâce à un Test d'Intelligence réussi (qui peut être tenté une fois par mois). <em>Remarque</em> : le Talent Linguistique fonctionne uniquement pour les langues utilisées pour communiquer avec les autres, il ne fonctionne donc pas avec Langue (Magick). </p>",
+      "description": "<p>Du hast eine natürliche Affinität zu Sprachen. Wenn du einen Monat lang mit einer Sprache zu tun hast, dann gilt die zugehörige Sprache-Fähigkeit nach einem erfolgreichen Intelligenz-Wurf (der einmal pro Monat abgelegt werden darf ) für dich als Grundfähigkeit. Beachte: Sprachbegabung hilft nur bei Sprachen, die auch zur Kommunikation mit anderen verwendet werden, funktioniert also nicht mit Sprache (Magick).</p>",
       "id": "Linguistics",
-      "name": "Linguistique",
-      "tests": "Langue (Toutes)"
+      "name": "Sprachbegabung",
+      "tests": "Sprache (jede)"
     },
     {
-      "description": "<p>Vous pouvez comprendre ce que les gens disent en fixant simplement leurs lèvres; vous n'avez pas besoin d'entendre ce qu'ils disent. Si vous disposez d'un point de vue dégagé sur le bas du visage du locuteur, vous pouvez tenter un Test de Perception pour comprendre ce qu'il dit.</p>",
+      "description": "<p>Du kannst verstehen, was Leute sagen, indem du einfach nur ihre Lippen beobachtest; du musst sie nicht hören können. Wenn du einen freien Blick zur unteren Gesichtshälfte des Sprechenden hast, kannst du mit einem Wahrnehmungs-Wurf versuchen zu verstehen, was er sagt.</p>",
       "id": "Lip Reading",
-      "name": "Lire sur les Lèvres",
-      "tests": "Perception concernant ce Talent"
+      "name": "Lippenlesen",
+      "tests": "Wahrnehmungs-Würfe, die dieses Talent betreffen"
     },
     {
-      "description": "<p>On prétend que lorsque vous êtes né, Ranald à souri. Votre maximum de Points de Chance est à présent égal à votre nombre actuel de Points de Destin, plus le nombre de fois que vous avez pris Chanceux.</p>",
+      "description": "<p>Man sagt, dass Ranald gelächelt habe, als du geboren wurdest. Deine maximalen Glückspunkte entsprechen nun deinen aktuellen Schicksalspunkten zuzüglich der Stufe, die du in diesem Talent hast.</p>",
       "id": "Luck",
-      "name": "Chanceux",
+      "name": "Glückspilz",
       "tests": ""
     },
     {
-      "description": "Vous êtes très résistant à la Magie. Le DR de tout Sort vous affectant est réduit de 2. Le DR d'un Sort est uniquement modifié par le plus haut score du Talent <em>Résistance à la Magie</em> dans la zone de sa cible. De plus, vous ne pourrez jamais appendre les Talents <em>Béni, Magie des Arcanes, Magie Mineure, Sorcier 1</em>.",
+      "description": "<p>Du bist resistent gegen Magie. Die EG jedes auf dich wirkenden Zaubers werden um 2 reduziert. Du kannst Willenskraft-Würfe vergleichend gegen auf dich wirkenden Zauber ausführen, genau so, als würdest du Sprache (Magick) einsetzen, um einen Gegenzauber zu wirken (siehe Seite 237). Des Weiteren kannst du niemals die Talente Anrufung, Arkane Magie, Hexer, Niedere Magie oder Segen lernen.</p>",
       "id": "Magic Resistance",
-      "name": "Résistance à la Magie",
+      "name": "Magieresistenz",
       "tests": ""
     },
     {
-      "description": "<p>Vous êtes capable de sentir les Vents de la Magie chez les autres. Vous pouvez tenter un <em>Test d'Intuition Accessible (+20)</em> chaque fois que vous rencontrez un lanceur de Sorts. Sur un succès, vous sentez que la cible est un sorcier. De plus, si vous obtenez un Succès Stupéfiant (+6), vous pouvez aussi déterminer la Spécialisation de la Focalisation la plus élevée de la Cible.</p>",
+      "description": "<p>Du bist dazu imstande, die Winde der Magie in anderen zu erspüren. Du kannst einen durchschnittlichen (+20) Intuitions-Wurf versuchen, wann immer du einem Zauberwirker begegnest. Bei einem Erfolg spürst du, dass das Ziel ein Zauberer ist. Wenn dir dabei ein Verblüffender Erfolg (+6) gelingt, kannst du sogar die höchste Spezialisierung, die das Ziel in Kanalisieren besitzt, erkennen.</p>",
       "id": "Magical Sense",
-      "name": "Perception de la magie",
-      "tests": "Intuition pour détecter les Sorciers"
+      "name": "Magiegespür",
+      "tests": "Intuitions-Würfe zum Entdecken von Zauberern"
     },
     {
-      "description": "Vous êtes un maître incontesté dans votre domaine, capable de créer des oeuvres d'une telle complexité que les autres ne peuvent que rester cois et s'émerveiller devant votre génie. Chaque fois que vous prenez ce Talent, vous pouvez créer une oeuvre d'art exceptionnelle avec l'une de vos Compétences Métier. Cette oeuvre inégalable dans votre domaine, une pièce unique qui impressionnera toujours, vous octroyant des bonus, déterminés par le MJ, le plus souvent à vos Test de Sociabilité envers ceux qui connaissent votre oeuvre stupéfiante. Vendre cette pièce vous rapportera au moins 10 fois sa valeur normale, et parfois bien plus.",
+      "description": "<p>Du bist im Feld deiner Expertise ein unbestrittener Meister und dazu imstande, Werke von so unglaublicher Komplexität zu erschaffen, dass andere sich nur zurücksinken lassen können, um dein Genie zu bewundern. Jedes Mal, wenn du dieses Talent erwirbst, kannst du mit einer deiner Berufs- oder Kunst-Fähigkeiten ein einzelnes, außergewöhnliches Meisterwerk erschaffen. Dieses Werk ist ohnegleichen und ein einzigartiges Stück, das Boni nach Wahl des SL gewährt, meist bei Charisma-Würfen gegenüber jenen, die dein außergewöhnliches Werk bewundern konnten. Wenn du das Werk verkaufst, bringt es mindestens das Zehnfache seines normalen Wertes, manchmal sogar noch deutlich mehr als das.</p>",
       "id": "Magnum Opus",
       "name": "Magnum Opus",
       "tests": ""
     },
     {
-      "description": "Vous gagnez un bonus permanent de +5 à votre Caractéristique Capacité de Tir de départ (ne compte pas comme des Augmentations).",
+      "description": "<p>Auf deinen Anfangswert für das Attribut Ballistische Fertigkeit erhältst du einen permanenten Bonus von +5, der nicht bezüglich deiner Steigerungen zählt.</p>",
       "id": "Marksman",
-      "name": "Tireur de précision",
+      "name": "Meisterschütze",
       "tests": ""
     },
     {
-      "description": "Vous êtes doué pour enflammer les foules. Vous gagnez un bonus de DR égal à vos niveaux de Grand orateur à n'importe quel Test de Charme quand vous parlez en public devant une foule.",
+      "description": "<p>Du bist darin geübt, die Massen zu bewegen. Du erhältst EG in Höhe deiner Stufe in Meisterredner auf Charme-Würfe, wenn du vor einer Menschgenmenge eine Rede hältst.</p>",
       "id": "Master Orator",
-      "name": "Grand Orateur",
+      "name": "Meisterredner",
       "tests": ""
     },
     {
-      "description": "Votre maîtrise d'un Métier spécifique est exceptionnelle. Vous ôtez le niveau de Talent Travailleur qualifié du DR exigé pour tout test étendu utilisant votre Compétence de métier.",
+      "description": "<p>Du bist in deiner Berufs-Fähigkeit außergewöhnlich begabt. Du kannst die EG, die du bei einem Erweiterten Wurf auf deine Berufs-Fähigkeit benötigst, um die Stufe reduzieren, die du im entsprechenden Meisterhandwerker-Talent hast.</p>",
       "id": "Master Tradesman",
-      "name": "Travailleur qualifié",
-      "tests": "N'importe que test de Métier approprié"
+      "name": "Meisterhandwerker (Beruf)",
+      "tests": "Bei jedem entsprechenden Erweiterten Beruf-Wurf"
     },
     {
-      "description": "Vous excellez à prendre l'apparence et les manières des autres. Avec rien d'autre que des changements de posture, une torsion du visage et l'utilisation judicieuse de vêtements appropriés, vous ne vous ressemblez plus sans avoir besoin d'utiliser de nécessaire de déguisement, même en vous faisant passer pour quelqu'un de sexe différent.",
+      "description": "<p>Du bist ein Experte dafür, das Äußere und die Gestik und Mimik anderer anzunehmen. Mit nichts weiter als geänderter Körperhaltung, anderem Gesichtsausdruck und der gezielten Nutzung passender Kleidung siehst du nicht länger wie du selbst aus, ohne dafür ein Verkleidungsset nutzen zu müssen.</p>",
       "id": "Master of Disguise",
-      "name": "Maitre en déguisement",
-      "tests": "Divertissement (Comédie) lorsque vous êtes quelqu'un d'autre"
+      "name": "Verwandlungskünstler",
+      "tests": "Unterhalten (Schauspielerei), wenn du dich als jemand ausgibst"
     },
     {
-      "description": "Vous bénéficiez d'une stature imposante. Quand vous utilisez la Compétence Intimidation, gagnez un bonus de DR égal à vos Niveaux de Menaçant.",
+      "description": "<p>Du hast eine bedrohliche Ausstrahlung. Wenn du die Fähigkeit Einschüchtern verwendest, erhältst du zusätzliche EG in Höhe deiner Stufe in Bedrohlich.</p>",
       "id": "Menacing",
-      "name": "Menaçant",
-      "tests": "Intimidation"
+      "name": "Bedrohlich",
+      "tests": "Einschüchtern"
     },
     {
-      "description": "Vous avez une bonne oreille pour les accents et dialectes et pour les reproduire avec exactitude. Vous pouvez copier n'importe quel accent auquel vous êtes exposé pendant au moins une journée grâce à un Test d'Initiative; ce Test peut être tenté une fois par jour. Une fois réussi, vous pouvez toujours imiter l'accent, et les autochtones croiront que vous êtes l'un des leurs.",
+      "description": "<p>Du hast ein gutes Ohr für Akzente und Dialekte und kannst diese gut nachmachen. Wenn du einen Tag lang mit einem Akzent zu tun hast, dann kannst du diesen nach einem erfolgreichen Initiative-Wurf nachahmen (der einmal pro Tag abgelegt werden darf ). Sobald du diesen Wurf einmal geschafft hast, kannst du den Akzent dauerhaft nachahmen – und zwar so gut, dass du sogar Einheimische täuschen kannst.</p>",
       "id": "Mimic",
-      "name": "Imitation",
-      "tests": "Divertissement (Comédie) lorsque les accents sont importants"
+      "name": "Imitator",
+      "tests": "Unterhalten (Schauspielerei)-Würfe, wenn Akzente wichtig sind"
     },
     {
-      "description": "<p>Vous pouvez voir parfaitement dans les ténèbres naturelles. En présumant que vous possédez au moins une faible source de lumière (telle que la lumière des étoiles, le clair de lune, la bioluminescence), vous pouvez voir clairement jusqu'à 20 mètres par Niveau de Vision nocturne. De plus, vous pouvez étendre la distance d'illumination effective de toutes les sources de lumière de 20 mètres par niveau de Vision nocturne.</p>",
+      "description": "<p>Du kannst in natürlicher Dunkelheit gut sehen. Vorausgesetzt, dass es zumindest eine schwache Lichtquelle gibt (sei es Sternenlicht, Mondlicht oder Biolumineszenz), kannst du pro Stufe in Nachtsicht 20 Meter weit sehen. Zudem erhöht sich für dich die Beleuchtungsdistanz jeder Lichtquelle pro Stufe in Nachtsicht um 20 Meter.</p>",
       "id": "Night Vision",
-      "name": "Vision Nocturne",
-      "tests": "Perception dans des conditions de basse lumière"
+      "name": "Nachtsicht",
+      "tests": "Wahrnehmungs-Würfe bei schlechten Lichtverhältnissen"
     },
     {
-      "description": "Vous gagnez un bonus permanent de +5 à votre Caractéristique Dextérité de départ (ne compte pas comme des Augmentations).",
+      "description": "<p>Auf deinen Anfangswert für das Attribut Geschicklichkeit erhältst du einen permanenten Bonus von +5, der nicht bezüglich deiner Steigerungen zählt.</p>",
       "id": "Nimble Fingered",
-      "name": "Doigts de fée",
+      "name": "Geschickte Finger",
       "tests": ""
     },
     {
-      "description": "Vous êtes issu de la noblesse, ou des évènements durant le jeu vous ont permis de vous y élever. En partant du principe que vous êtes habillé de façon appropriée, vous êtes toujours considéré d'un plus haut Statut que les autres, à moins qu'ils ne possèdent le Talent <em>Noblesse</em>. Dans ce cas, les Statuts sont comparés normalement. ",
+      "description": "<p>Du bist entweder adeliger Abstammung oder durch Ereignisse im Spiel geadelt worden. Vorausgesetzt, dass du entsprechend gekleidet bist, wirst du von anderen stets so behandelt, als hättest du einen höheren Status als sie, sofern sie nicht ebenfalls das Talent Blaublütig besitzen. In diesem Fall wird der Status ganz normal verwendet.</p>",
       "id": "Noble Blood",
-      "name": "Noblesse",
-      "tests": "N'importe quel test conditionné par votre Statut"
+      "name": "Blaublütig",
+      "tests": "Jeder von Status beeinflusste Wurf"
     },
     {
-      "description": "<p>Vous avez l'habitude de vous retrouver dans de mauvaises situations, et de préférence à vous en sortir. Vous pouvez tenter un Test d'Intuition pour repérer ceux qui cherchent à créer des problèmes ou à vous faire du mal, même si cela ne devait normalement pas vous accorder de Test ( à cause de Talents ou d'un Sort par exemple). Ce Test sera probablement opposé si les autres sont dissimulés, et le MJ peut préférer effectuer ce Test en votre nom pour que vous ne connaissiez pas le résultat en cas d'échec. Si les perturbateurs repérés engagent le combat, vous pouvez ignorer n'importe quel Etat <em>Surpris</em> qu'ils auraient en principe infligé.</p>",
+      "description": "<p>Du bist daran gewöhnt in Ärger zu geraten und auch wieder aus diesem herauszukommen. Du darfst mit einem Initiative-Wurf versuchen, jene zu entdecken, die auf Ärger aus sind oder dir Böses wollen, selbst wenn dafür eigentlich kein Wurf erlaubt wäre (zum Beispiel wegen eines Talentes oder Zaubers). Dieser Wurf wird vermutlich als Vergleichender Wurf durchgeführt, sofern die Gegenseite sich verbirgt, und meist wird der SL diesen Wurf für dich ausführen, verdeckt oder sogar insgeheim, damit du nicht indirekt vorgewarnt wirst, falls er fehlschlägt. Wenn irgendwelche Leute, die auf Ärger aus waren, einen Kampf beginnen, darfst du jeden Überrascht-Zustand ignorieren, den sie normalerweise auslösen würden.</p>",
       "id": "Nose for Trouble",
-      "name": "Flairer les ennuis",
-      "tests": "N'importe quel test pour repérer les perturbateurs"
+      "name": "Gespür für Ärger",
+      "tests": "Jeder Wurf zum Entdecken von Leuten, die auf Ärger aus sind"
     },
     {
-      "description": "<p>Vous connaissez bien les monnaies du Vieux Monde, et vous êtes un expert pour déterminer leur valeur. Vous pouvez juger de la valeur réelle d'une pièce par votre seule expérience, sans que cela ne nécessite jamais de Test. De plus, vous pouvez identifier des pièces contrefaites avec un Test simple d'Evaluation; il n'est jamais opposé par le DR du faussaire.</p>",
+      "description": "<p>Du bist sehr darin versiert, die verschiedenen Münzarten der Alten Welt zu unterscheiden und hast viel Erfahrung damit, ihren Wert zu bestimmen. Du kannst den echten Wert einer Münze aufgrund deines Fachwissens erkennen, ohne Würfeln zu müssen. Des Weiteren kannst du Fälschungen mit einem Schätzen-Standardwurf erkennen; dieser ist niemals vergleichend mit den EG des Fälschers.</p>",
       "id": "Numismatics",
-      "name": "Numismate",
-      "tests": "Evaluation pour établire la valeur des pièces"
+      "name": "Numismatiker",
+      "tests": "Schätzen-Würfe bei der Wertbestimmung von Münzen"
     },
     {
-      "description": "Vous êtes un marin expérimenté, et vous êtes parfaitement habitué à la vie en mer. Vous pouvez ignorer tous les modificateurs négatifs aux Tests en mer résultant de conditions météorologiques défavorables, du roulis des bateaux, et situations similaires. De plus, vous comptez comme deux marins pour le nombre minimum de membres d'équipage nécessaire pour piloter un navire de haute mer.",
+      "description": "<p>Du bist ein erfahrener Seemann und ganz an das Leben auf dem Meer gewöhnt. Du kannst auf See alle negativen Modifikatoren auf Würfe ignorieren, die durch schlechtes Wetter, Rollbewegungen des Schiffes oder Ähnliches entstehen. Des Weiteren zählst du bezüglich der Minimalbesatzung eines hochseetauglichen Bootes oder Schiffes als zwei Personen.</p>",
       "id": "Old Salt",
-      "name": "Loup de mer",
-      "tests": "Voile (Tout vaisseaux marins)"
+      "name": "Seebär",
+      "tests": "Segeln mit jedem hochseetauglichen Boot oder Schiff"
     },
     {
-      "description": "Vous avez un sens instinctif de l'orientation. Vous savez automatiquement où se trouve le nord en regardant les étoiles, les arbres ou n'importe quels autres signes familiers.",
+      "description": "<p>Du hast ein instinktives Gefühl für Richtungen. Du weißt automatisch nach einem Blick auf die Sterne, Bäume oder irgendwelche anderen dir vertrauten Hinweise sofort, in welcher Richtung Norden ist.</p>",
       "id": "Orientation",
-      "name": "Orientation",
-      "tests": "Voile"
+      "name": "Richtungssinn",
+      "tests": "Navigation"
     },
     {
-      "description": "Vous êtes un mendiant expérimenté, capable de faire mettre la main à la poche même aux individus les plus cyniques. Vous pouvez effectuer un Test de Charme toutes les demi-heures quand vous Mendiez, et non toutes les heures (voir page 119).",
+      "description": "<p>Du bist ein äußerst begabter Bettler, der selbst die größten Geizhälse zu einer Spende bewegen kann. Du kannst beim Betteln für jede halbe Stunde einen Charme-Wurf durchführen, nicht nur für jede volle Stunde (siehe Seite 120).</p>",
       "id": "Panhandle",
-      "name": "Faire la manche",
-      "tests": "Charme (Mendicité)"
+      "name": "Schnorrer",
+      "tests": "Charme beim Betteln"
     },
     {
-      "description": "Vous avez l'oreille absolue, capable de reproduire parfaitement les notes et de les identifier sans jamais avoir besoin d'effectuer de Test. De plus, ajoutez Divertissement (Chant) à n'importe quelle Carrière que vous entamez; si la Compétence est déja dans votre Carrière, vous pouvez à la place acheter la Compétence pour 5 PX de moins par Augmentation.",
+      "description": "<p>Du hast ein absolutes Gehör, kannst Töne und Noten auf den Punkt treffen und ohne Notwendigkeit eines Wurfes heraushören. Zudem fügt dieses Talent jeder Karriere, in die du wechselst, die Fähigkeit Unterhalten (Singen) hinzu. Wenn sich diese bereits in der entsprechenden Karriere befindet, kannst du die Fähigkeit stattdessen für 5 EP weniger pro Steigerung verbessern.</p>",
       "id": "Perfect Pitch",
-      "name": "Oreille absolue",
-      "tests": "Divertissement (Chant), Langue (Langues tonales, telles que l'Elthárin, le Cathayan, ou Magick)"
+      "name": "Absolutes Gehör",
+      "tests": "Unterhalten (Singen), Sprache (tonale Sprachen wie Elthárin, Cathayanisch und Magick)"
     },
     {
-      "description": "<p>Vous portez en vous l'étincelle de la magie et maîtrisez les techniques pour la contrôler au niveau le plus élémentaire. Quand vous prenez ce Talent, vous pratiquez et mémorisez de façon permanente, un nombre de Sorts égale à votre Bonus de Force Mentale. Vous pouvez apprendre les Sorts de Magie Mineure supplémentaires pour le prix en PX suivants.</p>\n  <p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\">&nbsp;</p>\n  <div style=\"direction: ltr;\">\n  <table style=\"direction: ltr; border-collapse: collapse; border: 1pt solid #A3A3A3;\" title=\"\" border=\"1\" summary=\"\" cellspacing=\"0\" cellpadding=\"0\">\n  <tbody>\n  <tr>\n  <td style=\"vertical-align: top; width: 2.4312in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n  <p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\">Nombre de Sorts connus actuellement</p>\n  </td>\n  <td style=\"vertical-align: top; width: 1.5833in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n  <p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\"><span style=\"mso-spacerun: yes;\">&nbsp;</span>Coût en PX pour un nouveau sort</p>\n  </td>\n  </tr>\n  <tr>\n  <td style=\"vertical-align: top; width: 2.4125in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n  <p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\">Jusqu'à Bonus FM x 1</p>\n  </td>\n  <td style=\"vertical-align: top; width: 1.5333in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n  <p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\">50 PX</p>\n  </td>\n  </tr>\n  <tr>\n  <td style=\"vertical-align: top; width: 2.4125in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n  <p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\">Jusqu'à Bonus FM x 2</p>\n  </td>\n  <td style=\"vertical-align: top; width: 1.5333in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n  <p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\">100 PX</p>\n  </td>\n  </tr>\n  <tr>\n  <td style=\"vertical-align: top; width: 2.4125in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n  <p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\">Jusqu'à Bonus FM x 3</p>\n  </td>\n  <td style=\"vertical-align: top; width: 1.5333in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n  <p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\">150 PX</p>\n  </td>\n  </tr>\n  <tr>\n  <td style=\"vertical-align: top; width: 2.4125in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n  <p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\">Jusqu'à Bonus FM x 4</p>\n  </td>\n  <td style=\"vertical-align: top; width: 1.5333in; padding: 4pt 4pt 4pt 4pt; border: 1pt solid #A3A3A3;\">\n  <p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\">200 PX</p>\n  </td>\n  </tr>\n  </tbody>\n  </table>\n  </div>\n  <p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\">...et ainsi de suite.</p>\n  <p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\">&nbsp;</p>\n  <p style=\"margin: 0in; font-family: Calibri; font-size: 11.0pt;\">Donc si votre Bonus de Force Mentale est de 3 et que vous disposez de 3 Sorts Mineurs, il vous en coutera 50 PX pour le premier, puis 100 PX pour les 3 suivants, et ainsi de suite. Les règles complètes pour l'apprentissage de nouveaux Sorts se trouvent au <em>Chapitre 8 : Magie</em>.</p>",
+      "description": "<p>Du besitzt die Fähigkeit, Magie zu wirken, und hast die einfachsten Grundtechniken zu ihrer Kontrolle gemeistert. Wenn du dieses Talent erwirbst, dann manifestiert es sich gemeinsam mit einer deinem Willenskraft-Bonus entsprechenden Anzahl von Zaubern der Niederen Magie, die du dir permanent einprägst. Weitere Niedere Zauber kannst du für folgende EP-Kosten erwerben:</p><p>Zahl der schon bekannten EP-Kosten eines neuen Niederen Zauber Niederen Zaubers<br/>Willenskraft-Bonus x 1 50 EP<br/>Willenskraft-Bonus x 2 100 EP<br/>Willenskraft-Bonus x 3 150 EP<br/>Willenskraft-Bonus x 4 200 EP<br/>… und so weiter<br/></p>",
       "id": "Petty Magic",
-      "name": "Magie Mineure",
+      "name": "Niedere Magie",
       "tests": ""
     },
     {
-      "description": "Vous êtes hautement qualifié en pharmacie, à même de fabriquer des pilules, des baumes, des onguents, des huiles, des crêmes, etc. Vous pouvez inverser n'importe quel Test de Métier (Apothicaire) raté si cela permet d'obtenir un succès.",
+      "description": "<p>Du bist in pharmakologischen Dingen äußerst begabt und sehr viel besser als andere darin, Pillen herzustellen, Tinkturen zu erstellen und Salben zu rühren. Wenn du Beruf (Apotheker) einsetzt, darfst du bei jedem misslungenen Wurf die Zahlen vertauschen, wenn dies zu einem Erfolg führt.</p>",
       "id": "Pharmacist",
-      "name": "Pharmacologie",
-      "tests": "Métier (Apothicaire)"
+      "name": "Pharmazeut",
+      "tests": "Beruf (Apotheker)"
     },
     {
-      "description": "Vous êtes doués pour diriger des vaisseaux à travers les eaux dangereuses. Si vous ratez un Test pour y passer, vous pouvez inverser le résultat si cela entraîne un succès; cependant si vous le faites, vous ne pouvez pas obtenir plus de +1 DR, car vous repérez le danger imminent au dernier moment.",
+      "description": "<p>Du kannst verstehen, was Leute sagen, indem du einfach nur ihre Lippen beobachtest; du musst sie nicht hören können. Wenn du einen freien Blick zur unteren Gesichtshälfte des Sprechenden hast, kannst du mit einem Wahrnehmungs-Wurf versuchen zu verstehen, was er sagt.</p>",
       "id": "Pilot",
-      "name": "Pilote",
-      "tests": "Ramer or Voile lors de navigation sur des eaux dangeureuses"
+      "name": "Lotse",
+      "tests": "Wahrnehmungs-Würfe, die dieses Talent betreffen"
     },
     {
-      "description": "<p>Vous êtes un orateur de talent et savez comment galvaniser d'importants groupes de personnes. Référez-vous au tableau suivant pour voir combien de personnes vous pouvez influencer avec votre Compétence Charme (voir page 119) quand vous parlez en public.</p>\n<p>&nbsp;</p>\n<div>\n<table title=\"\" border=\"1\" summary=\"\" cellspacing=\"0\" cellpadding=\"0\">\n<tbody>\n<tr>\n<td>\n<p>Talent pris</p>\n</td>\n<td>\n<p>Nombre de personnes influencées</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>1</p>\n</td>\n<td>\n<p>Normal × 5</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>2</p>\n</td>\n<td>\n<p>Normal × 10</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>3</p>\n</td>\n<td>\n<p>&nbsp;Normal × 20</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>4</p>\n</td>\n<td>\n<p>&nbsp;Normal × 50</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>5</p>\n</td>\n<td>\n<p>&nbsp;Normal × 100</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>6</p>\n</td>\n<td>\n<p>&nbsp;Normal × 200</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>7</p>\n</td>\n<td>\n<p>&nbsp;Normal × 500</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>8</p>\n</td>\n<td>\n<p>&nbsp;Normal × 1000</p>\n</td>\n</tr>\n<tr>\n<td>\n<p>9</p>\n</td>\n<td>\n<p>&nbsp;Tous ceux qui peuvent entendre votre voix d'or</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>",
+      "description": "<p>Du bist ein begnadeter Redner und weißt, wie man Menschenmengen mitreißt. Nutze die folgende Tabelle, um zu bestimmen, wie viele Leute du mit deiner Fähigkeit Charme (siehe Seite 121) beeinflussen kannst, wenn du Reden hältst.</p><p>Talent-Stufe Anzahl der beeinflussten Personen<br/>1 Normale Anzahl x 5<br/>2 Normale Anzahl x 10<br/>3 Normale Anzahl x 20<br/>4 Normale Anzahl x 50<br/>5 Normale Anzahl x 100<br/>6 Normale Anzahl x 200<br/>7 Normale Anzahl x 500<br/>8 Normale Anzahl x 1000<br/>9 Alle, die deine goldene Stimme hören können</p>",
       "id": "Public Speaker",
-      "name": "Orateur",
+      "name": "Rhetorik",
       "tests": ""
     },
     {
-      "description": "Votre âme est pure; très resistante aux déprédations du Chaos. Vous pouvez gagner un nombre de Points de Corruption supplémentaires égal à votre Niveau d'âme pure avant d'avoir à effectuer un Test pour savoir si vous êtes corrompu.",
+      "description": "<p>Deine Seele ist rein und den Einflüssen des Chaos gegenüber äußerst resistent. Du kannst zusätzliche Korrumpierungspunkte in Höhe deiner Stufe in diesem Talent erhalten, ehe du auf Korrumpierung würfeln musst</p>",
       "id": "Pure Soul",
-      "name": "Ame pure",
+      "name": "Reine Seele",
       "tests": ""
     },
     {
-      "description": "Vous pouvez recharger les armes à distance avec facilité. Vous ajoutez un DR égal à votre niveau de Rechargement rapide à n'importe que test pour recharger une Arme à Distance.",
+      "description": "<p>Du kannst Fernkampfwaffen mit routinierter Sicherheit nachladen. Addiere EG in Höhe deiner Stufe in Schnelles Nachladen zu jedem Wurf zum Nachladen einer Fernkampfwaffe.</p>",
       "id": "Rapid Reload",
-      "name": "Rechargement rapide",
+      "name": "Schnelles Nachladen",
       "tests": ""
     },
     {
-      "description": "<p>Vos réactions rapides vous ont permis de faire tomber de nombreux ennemis avant même qu'ils aient eu le temps de dégaîner. Quand vous êtes <em>Chargé</em>, vous pouvez tenter un <em>Test d'Initiative Intermédiaire (+0)</em> pour gagner immédiatement une Attaque gratuite en dehors de la séquence de tours normale. Cette attaque est résolue avec n'importe quelle arme que vous tenez dans votre main principale. Vous pouvez effectuer autant de Frappes réactives pendant un round que vous possédez de Niveaux de Talents, mais vous pouvez seulement attaquer une seule fois chaque individu vous ayant Chargé .</p>",
+      "description": "<p>Deine extreme Reaktionsfähigkeit ließ dich schon viele Gegner fällen, ehe diese überhaupt ihre Klingen gegen dich richten konnten. Wenn du Ziel eines Sturmangriffes bist, kannst du mit einem herausfordernden (+0) Initiative-Wurf versuchen, sofort eine Freie Attacke außerhalb der normalen Initiative-Reihenfolge zu erhalten. Diese Attacke wird mit der Waffe abgehandelt, die du in deiner dominanten Hand hältst. Du kannst pro Runde so viele Gegenangriffe durchführen, wie du Stufen in diesem Talent hast, allerdings immer nur einen einzigen gegen jedes Individuum, das dich mit einem Sturmangriff angeht.</p>",
       "id": "Reaction Strike",
-      "name": "Frappe réactive",
-      "tests": "Initiative concernant ce Talent"
+      "name": "Gegenangriff",
+      "tests": "Initiative-Würfe im Zusammenhang mit diesem Talent"
     },
     {
-      "description": "Vous êtes l'un des rares individus lettrés du Vieux Monde. On considère que vous pouvez lire et écrire (si nécessaire) toutes les Langues que vous parlez.",
+      "description": "<p>Du bist einer der Wenigen in der Alten Welt, die keine Analphabeten sind. Es wird davon ausgegangen, dass du jede Sprache lesen und schreiben kannst, die du als Sprache besitzt (sofern sie eine Schriftform hat).</p>",
       "id": "Read/Write",
-      "name": "Lire/Ecrire",
+      "name": "Lesen & Schreiben",
       "tests": ""
     },
     {
-      "description": "Quand votre esprit est rivé sur une cible, personne ne peut vous empêcher de l'atteindre. Si vous utilisez des Avantages quand vous vous Désengagez, vous pouvez garder un nombre d'Avantages égal à votre Niveau d'Impitoyable. De plus, vous pouvez utiliser des Avantages pour vous Désengager même si vous avez moins d'Avantages que vos adversaires.",
+      "description": "<p>Wenn du einmal jemanden als Ziel gewählt hast, dann gibt es nichts was man tun könnte, um dich von ihm abzuhalten. Wenn du beim Lösen einen Vorteil einsetzt, dann darfst du eine Anzahl von Vorteilen behalten, die deiner Stufe in Unerbittlich entspricht. Des Weiteren darfst du auch dann einen Vorteil zum Lösen verwenden, wenn du weniger Vorteile als dein Gegner hast.</p>",
       "id": "Relentless",
-      "name": "Impitoyable",
+      "name": "Unerbittlich",
       "tests": ""
     },
     {
-      "description": "Votre forte constitution vous permet de survivre plus facilement à une menace spécifique. Vous pouvez réussir automatiquement le premier Test pour résister à la menace spécifiée, telle que la Magie, poison, Maladie, Mutation, à chaque scénce de jeu. Si le DR requis est important, utilisez votre Bonus d'Endurance comme DR pour le Test.",
+      "description": "<p>Deine gute Konstitution erlaubt es dir, einer bestimmten Gefahr leichter zu widerstehen. Du bestehst automatisch den ersten Wurf pro Spielabend zum Widerstand gegen die jeweilige Gefahr, sei es Magie, Gift, Krankheiten, Mutation etc. Sollte der EG wichtig sein, dann entspricht er für die Belange dieses Wurfes deinem Widerstands-Bonus.</p>",
       "id": "Resistance",
-      "name": "Resistant",
-      "tests": "Tout ceux permetttant de résister à la menace associée"
+      "name": "Resistenz (Gefahr)",
+      "tests": "Würfe gegen die entsprechende Gefahr"
     },
     {
-      "description": "Vous lancez des attaques avec une détermination acharné. Ajoutez votre niveau de Talent Déterminé à votre Bonus de Force quand vous chargez.",
+      "description": "<p>Du wirfst dich beim Angriff mit grimmiger Entschlossenheit auf den Feind. Addiere bei Sturmangriffen deine Stufe in Entschlossen zu deinem Stärke-Bonus.</p>",
       "id": "Resolute",
-      "name": "Déterminé",
+      "name": "Entschlossen",
       "tests": ""
     },
     {
-      "description": "<p>Vous êtes habitué aux combats désespérés, capable de retourner même les situations les plus désastreuses à votre Avantage. Si vous gagnez le <em>Test opposé de Corps à corps</em>, au lieu de gagner + 1 Avantage, vous prenez tous les avantages actuels de votre adversaire. Dans ce cas, vous ne pouvez infliger aucun Dégât, même si c'était votre tour dans le round.</p>",
+      "description": "<p>Du bist an zu deinen Ungunsten verlaufende Kämpfe gewöhnt und dazu imstande, selbst widrigste Umstände in ihr Gegenteil zu verkehren. Wenn du einen Vergleichenden Kampfgeschick-Wurf gewinnst, dann kannst du, statt +1 Vorteil zu erhalten, alle gegenwärtigen Vorteile deines Gegners erhalten. Wenn du dies tust, richtest du keinen Schaden an, selbst wenn es dein Zug in dieser Runde ist.</p>",
       "id": "Reversal",
-      "name": "Renversement",
-      "tests": "Corps à corps en défense"
+      "name": "Spieß umdrehen",
+      "tests": "Nahkampf bei der Verteidigung"
     },
     {
-      "description": "<p>La meilleure défense c'est l'attaque, donc vous répondez à une attaque par une contre-attaque rapide comme l'éclair. Si votre arme possède l'Atout <em>Rapide</em>, vous pouvez infliger des Dégâts quand vous êtes attaqué, comme si c'était votre Action. Vous pouvez Riposter à un nombre d'Attaques par Round égale à votre Niveau de Riposte.</p>",
+      "description": "<p>Dass Angriff die beste Verteidigung ist, hast du wirklich verinnerlicht, und daher hast du trainiert, Angriffen mit blitzschnellen Gegenangriffen zu begegnen. Wenn deine Waffe die Qualität Schnell hat, dann kannst du Schaden verursachen, wenn du attackiert wurdest, ganz so, als wäre es deine Handlung. Du kannst pro Runde auf eine Anzahl von Attacken mit Riposten reagieren, die deiner Stufe in diesem Talent entspricht.</p>",
       "id": "Riposte",
       "name": "Riposte",
-      "tests": "Corps à corps en défense"
+      "tests": "Nahkampf bei der Verteidigung"
     },
     {
-      "description": "<p>Vous connaissez toutes les astuces pour naviguer sur les rivières dangereuses. Vous n'avez pas besoin de Test pour traverser les étendues d'eau perfide jusqu'à ce que la Difficulté soit de -10 ou mois - vous réussissez automatiquement tous les Tests plus faciles. De plus, si vous possédez la Compétence Savoir (Région) appropriée, vous n'avez jamais besoin d'effectuer de Test pour naviguer sur les eaux dangereuses - car on considère que vous connaissez les itinéraires à emprunter.</p>",
+      "description": "<p>Du kennst jeden Kniff und Trick beim Befahren gefährlicher Flüsse, daher musst du nicht für das Befahren gefährlicher Flussabschnitte würfeln, solange die Schwierigkeit dabei nicht -10 oder niedriger ist. Oberhalb davon bestehst du jeden Wurf automatisch. Wenn du zudem die für den betreffenden Ort relevante Fähigkeit Wissen (Ort/Region) besitzt, dann musst du an diesem Ort niemals für das Befahren gefährlicher Passagen würfeln, da du dieses Gebiet so gut wie deine Westentasche kennst.</p>",
       "id": "River Guide",
-      "name": "Guide fluvial",
-      "tests": "N'importe quel test de Savoir concernant les fleuves et rivières"
+      "name": "Flusskundig",
+      "tests": "Jeder Wissens-Wurf, bei dem es um Flüsse geht"
     },
     {
-      "description": "<p>Vous êtes un dur à cuire et vous encaissez les Dégâts. Vous réduisez tous les Dégâts subis de 1 par nombre de fois ou vous avez pris le Talent <em>Robuste</em>, même si les Dégâts ne peuvent normalement pas être réduits. Mais vous subissez toujours un minimum de 1 Blessure de n'importe quelle source de Dégâts.</p>",
+      "description": "<p>Du bist zäh wie altes Leder und kannst extrem viel einstecken. Du reduzierst jeden Schaden, den du erleidest, um deine Stufe im Talent Hart im Nehmen, selbst wenn dieser Schaden normalerweise nicht reduziert werden kann, verlierst dabei aber noch immer ein Minimum von 1 LP pro Schadensquelle.</p>",
       "id": "Robust",
-      "name": "Robuste",
+      "name": "Hart im Nehmen",
       "tests": ""
     },
     {
-      "description": "<p>Vous êtes à l'aise en selle même dans les situations les plus difficiles, et savez comment tirer le meilleur de votre monture pendant les conflits. En supposant que vous possédez la Compétence Chevaucher, vous pouvez directement demander à votre monture d'effectuer une Action, pas seulement un Mouvement, sans Test de Chevaucher.</p>",
+      "description": "<p>Du sitzt selbst unter widrigsten Umständen stets fest im Sattel und weißt, wie du im Kampf das Beste aus deinem Reittier herausholst. Sofern du die entsprechende Fähigkeit Reiten besitzt, kannst du dein Reittier ohne einen Reiten-Wurf dazu bringen, eine Handlung auszuführen, nicht bloß eine Bewegungsaktion.</p>",
       "id": "Roughrider",
-      "name": "Cavalier émérite",
-      "tests": "Chevaucher (Cheval) pendant les combats"
+      "name": "Raureiter",
+      "tests": "Reiten (Pferd) im Kampf"
     },
     {
-      "description": "Vous êtes à l'aise quand vous arpentez les espaces sauvages. Quand vous utilisez Discrétion en environnement rural, ceux qui croisent votre route n'obtiennent pas de Test de Perception passif pour vous détecter; ils peuvent vous détecter uniquement s'ils sont spécifiquement à l'affût ou à la recherche de personnes cachées.",
+      "description": "<p>Du bist auf dem Land und in der Wildnis daheim. Wenn du in ländlicher Umgebung Schleichen einsetzt, erhalten Umstehende keinen passiven Wahrnehmungs-Wurf, um dich zu entdecken; sie können dich nur entdecken, wenn sie ganz gezielt Ausschau halten oder nach versteckten Spionen suchen.</p>",
       "id": "Rover",
-      "name": "Nomade",
-      "tests": "Discrétion en environnement rural"
+      "name": "Streuner",
+      "tests": "Schleichen-Würfe in ländlicher Umgebung"
     },
     {
-      "description": "Vous êtes exceptionnellement instruit, et vous posssédez un niveau important de connaissances avancées dans un domaine d'études. Vous connaissez automatiquement un nombre d'informations correctes égal à votre Niveau de Savant (Savoir), au sujet d'une question pertinente sans avoir besoin de Test de Compétence Savoir. Les Tests, comme toujours, vous fourniront plus d'informations, déterminées par le MJ.",
+      "description": "<p>Du bist äußerst gebildet und hast in einem speziellen Fachbereich ein geradezu außergewöhnliches Maß an Wissen. Wenn es um deinen spezifischen Fachbereich geht, dann erhältst du stets eine deiner Stufe in Fachwissen entsprechende Anzahl an korrekten Informationen, ohne auf Wissen würfeln zu müssen. Ein entsprechender Wissens-Wurf kann dir natürlich noch weitere Informationen verschaffen, je nach Festlegung des SL.</p>",
       "id": "Savant",
-      "name": "Savant",
-      "tests": "Savoir (au choix)"
+      "name": "Fachwissen (Wissen)",
+      "tests": "Wissen (zugehöriges Wissen)"
     },
     {
-      "description": "Vous gagnez un bonus permanent de +5 à votre Caractéristique Intelligence de départ (ne compte pas comme des Augmentations).",
+      "description": "<p>Auf deinen Anfangswert für das Attribut Intelligenz erhältst du einen permanenten Bonus von +5, der nicht bezüglich deiner Steigerungen zählt.</p>",
       "id": "Savvy",
-      "name": "Perspicace",
+      "name": "Gerissenheit",
       "tests": ""
     },
     {
-      "description": "Vous êtes un grimpeur exceptionnel. Vous pouvez tenter de grimper même sur des surfaces paraissant trop lisses, telles que des fortifications à pic, des plateformes glacées, des murs enduits de plâtre, etc. et vous ignorez les pénalités aux Tests d'Escalade résultat de la difficulté de la surface escaladée.",
+      "description": "<p>Du bist ein außerordentlich guter Kletterer. Du kannst selbst unüberwindlich scheinende Strukturen versuchen zu erklettern, seien es steile Befestigungen, Eiswände, glatt verputzte Mauern und Ähnliches, und du ignorierst dabei jedweden Abzug bei Klettern-Würfen, der sich aus der Beschaffenheit der entsprechenden Oberfläche ergibt.</p>",
       "id": "Scale Sheer Surface",
-      "name": "Grimpeur",
-      "tests": "Escalade"
+      "name": "Freikletterer",
+      "tests": "Klettern"
     },
     {
-      "description": "Vous êtes un maître en politique et vous dénichez les conspirations partout où elles se cachent. Une fois par session, vous pouvez poser une question au MJ concernant une situation polotique ou une organisation sociale complexe; le MJ effectuera un Test d'Intelligence secret et vous fournira certaines observations sur la situation en se basant sur votre DR.",
+      "description": "<p>Du bist politisch höchst geschickt und vermutest hinter jeder Ecke Verschwörungen. Einmal pro Spielabend kannst du dem SL eine einzelne Frage bezüglich der politischen Situation oder des Beziehungsgeflechts innerhalb einer sozialen Gruppe stellen; der SL führt dann einen verdeckten Intelligenz-Wurf durch und teilt dir deine Beobachtungen mit, orientiert an den erzielten EG.</p>",
       "id": "Schemer",
       "name": "Intrigant",
-      "tests": "Intelligence concernant ce Talent"
+      "tests": "Intelligenz-Würfe bei der Nutzung dieses Talentes"
     },
     {
-      "description": "Vous êtes habitués aux roulis des océans, et il est très improbable que vous ayez le mal de mer, même dans les pires tempêtes. Dans des conditions normales en mer, vous n'avez jamais besoin de Test pour savoir si vous avez le mal de mer. Dans d'autres cas (tels qu'une tempête ou un mal de mer causé par la magie), vous pouvez ignorer toutes les pénalités des Tests pour éviter ces nausées.",
+      "description": "<p>Du bist an die Bewegungen gewöhnt, die Schiffe auf hoher See machen und es ist selbst im schlimmsten Sturm äußerst unwahrscheinlich, dass du je seekrank wirst. Unter normalen Umständen musst du auf See niemals würfeln, ob du seekrank wirst. Unter ungewöhnlichen Umständen (zum Beispiel in einem Sturm oder bei magisch verursachter Seekrankheit) kannst du alle Abzüge auf den Wurf zum Vermeiden von Seekrankheit ignorieren.</p>",
       "id": "Sea Legs",
-      "name": "Pied marin",
-      "tests": "N'importe lequel associé au mal de mer"
+      "name": "Seemannsgang",
+      "tests": "Alle Würfe zum Widerstand gegen Seekrankheit"
     },
     {
-      "description": "<p>Vous êtes une âme curieuse qui a voyagé partout, et appris toutes sortes d'informations locales. Ajouter <em>Savoir (Région)</em> à n'importe quelle Carrière que vous entamez. Si elle est déja incluse dans la carrière, vous pouvez acheter la compétence deux fois - avec une spécialisation différente à chaque fois, telle qu'Altdorf, Vorbergland ou Ubersreik - pour 5 PX de moins par Augmentation.</p>",
+      "description": "<p>Du bist mit neugierigem Blick unterwegs und weitgereist, wodurch du alle Arten lokaler Informationen aufgeschnappt hast. Fügt jeder Karriere, in die du wechselst, die Fähigkeit Wissen (Ort/Region) hinzu. Wenn sich diese bereits in der entsprechenden Karriere befindet, kannst du die Fähigkeit erneut mit jeweils anderer Spezialisierung (wie zum Beispiel Altdorf, Vorbergland oder Übersreik) für jeweils für 5 EP weniger pro Steigerung erwerben.</p>",
       "id": "Seasoned Traveller",
-      "name": "Voyageur aguerri",
-      "tests": "N'importe quel test lié au Savoir local"
+      "name": "Erfahrener Reisender",
+      "tests": "Jeder Wissens-Wurf bezüglich örtlicher Details"
     },
     {
-      "description": "Vous pouvez percevoir les Vents changeants de la Magie, qui soufflent depuis les Portes du Chaos jusqu'aux pôles du monde. Vous possédez à présent <em>Seconde Vue</em> (voir page 233).",
+      "description": "<p>Du kannst die stets auf- und abflauenden Winde der Magie wahrnehmen, die von den Chaostoren an den Polen aus in die Welt strömen. Du hast nun das Zweite Gesicht (siehe Seite 233).</p>",
       "id": "Second Sight",
-      "name": "Seconde Vue",
-      "tests": "N'importe quel test pour détecter les Vents de Magie"
+      "name": "Zweites Gesicht",
+      "tests": "Jeder Wurf zum Erkennen der Winde der Magie"
     },
     {
-      "description": "Vous entretenez une identité secrète qui vous permet de paraître plus riche, ou peut-être plus pauvre, que vous ne l'êtes actuellement. Avec l'accord du MJ, choisissez une Carrière. Tant que vous êtes habillé de façon appropriée, vous pouvez utiliser le Statut Social de la Carrière d'emprunt choisie plutôt que celui de la vôtre, pour modifier les Tests de Sociabilité. Vous pouvez même ignorer le Talent <em>Criminel</em>. Cependant, conserver cette identité nécessitera des Tests de Divertissement (Comédie) quand vous rencontrez ceux qui pourraient déceler votre supercherie. Vous pouvez créer une nouvelle identité secrète pour chaque Niveau que vous possédez dans ce Talent.",
+      "description": "<p>Du hältst eine geheime Identität aufrecht, die dich reicher oder vielleicht auch ärmer erscheinen lässt, als du tatsächlich bist. Mit der Zustimmung des SL wählst du eine einzelne Karriere. Solange du entsprechend gewandet bist, darfst du statt des eigenen Status den Status der Karriere verwenden, als deren Angehöriger du dich ausgibst, und wenn es um die Modifikation von Charisma-Würfen geht, sogar das Talent Kriminell ignorieren. Allerdings erfordert das Aufrechterhalten dieser Identität Unterhalten (Schauspielerei)-Würfe wenn du Leuten begegnest, die deine Täuschung durchschauen könnten. Du darfst für jede Stufe in diesem Talent eine neue Geheime Identität erschaffen.</p>",
       "id": "Secret Identity",
-      "name": "Identité Secrête",
-      "tests": "Divertissement (Comédie) pour couvrir votre identité secrête"
+      "name": "Geheime Identität",
+      "tests": "Unterhalten (Schauspielerei)-Würfe zur Verkörperung deiner geheimen Identitäten"
     },
     {
-      "description": "Vous êtes doué pour suivre les gens sans vous faire remarquer. Vous pouvez utiliser les règles de Filature à la page 121 sans effectuer de Test Combiné. Au lieu de cela, vous effectuez simplement un Test de Perception ou de Discrétion, en fonction du plus élevé.",
+      "description": "<p>Du bist darin geübt, Leute zu verfolgen, ohne gesehen zu werden. Du kannst die Regeln für Beschatten (siehe Seite 127) verwenden, ohne einen Kombinierten Wurf durchzuführen. Stattdessen würfelst du nur auf deine Fähigkeit Wahrnehmung oder deine Fähigkeit Schleichen, je nachdem, was besser ist.</p>",
       "id": "Shadow",
-      "name": "Discret",
-      "tests": "N'importe que test impliquant Discretion"
+      "name": "Schatten",
+      "tests": "Jeder Wurf zum Beschatten"
     },
     {
-      "description": "Vous gagnez un bonus permanent de +5 à votre Caractéristique Initiative de départ (ne compte pas comme des Augmentations).",
+      "description": "<p>Auf deinen Anfangswert für das Attribut Initiative erhältst du einen permanenten Bonus von +5, der nicht bezüglich deiner Steigerungen zählt.</p>",
       "id": "Sharp",
-      "name": "Vivacité",
+      "name": "Aufgeweckt",
       "tests": ""
     },
     {
-      "description": "Vous pouvez effectuer des tirs ciblés d'une précision chirurgicale. Vous ignorez les modificateurs de Dificulté des Tests de Projectiles dus à la taille de votre cible.",
+      "description": "<p>Du kannst mit außergewöhnlicher Treffsicherheit gezielte Schüsse abgeben. Daher ignorierst du alle negativen Modifikatoren der Schwierigkeit für Fernkampf-Würfe, die durch die Größe des Zieles entstehen.</p>",
       "id": "Sharpshooter",
-      "name": "Tireur d'élite",
+      "name": "Scharfschütze",
       "tests": ""
     },
     {
-      "description": "Vous êtes habile dans le maniement de votre bouclier pour manoeuvre en combat afin de pouvoir tirer le meilleur parti d'une situation désespérée. Quand vous utilisez un Bouclier pour vous défendre, vous gagnez un nombre d'Avantages égal au nombre de Niveaux que vous possédez en Porte-bouclier si vous perdez le Test opposé.",
+      "description": "<p>Du bist äußerst gut darin, deinen Schild im Kampf dazu zu verwenden, den Gegner auszumanövrieren und so in brenzligen Situationen die Oberhand zu behalten. Wenn du einen Schild zur Verteidigung benutzt, erhältst du, wenn du den Vergleichenden Wurf verlierst, Vorteile in Höhe deiner Stufe in Schildkämpfer.</p>",
       "id": "Shieldsman",
-      "name": "Porte-bouclier",
-      "tests": "N'importe quel test pour vous défendre avec un bouclier"
+      "name": "Schildkämpfer",
+      "tests": "Jeder Wurf zur Verteidigung mit einem Schild"
     },
     {
-      "description": "Vous avez une impression étrange quand vous êtes en danger, et pouvez réagir en conséquence. Le MJ peut vous prévenir que vous êtes observé, ou que vous êtes en danger; cela arrivera normalement après un test d'Intuition secret en votre nom. De plus, vous pouvez ignorer la Surprise si vous réussissez un Test d'Intuition.",
+      "description": "<p>Du bekommst eine seltsame Ahnung, wenn du in Gefahr gerätst und kannst entsprechend reagieren. Der SL wird dich warnen, wenn du dich in Gefahr begibst, sofern ihm zuvor ein insgeheim für dich ausgeführter Intuitions-Wurf gelang. Des Weiteren darfst du Überraschung ignorieren, wenn dir ein IntuitionsWurf gelingt.</p>",
       "id": "Sixth Sense",
-      "name": "Sixième Sens",
-      "tests": "Intuition impliquant votre Sixième Sens"
+      "name": "Sechster Sinn",
+      "tests": "Intuitions-Würfe im Zusammenhang mit dem Sechsten Sinn"
     },
     {
-      "description": "<p>Quand vous déterminez les dégâts, utiliser le Bonus d'Endurance de votre adversaire comme votre Bonus de Force s'il est plus élevé; déterminez toujours ce point avant toute autre règle modifiant votre Force ou Bonus de Force. De plus, si votre cible est plus grande que vous, et que vous obtenez un Critique (voir page 159), multipliez tous les Dégâts de Corps à Corps que vous infligez par le nombre de catégorie de Taille de votre cible supérieures à la votre (donc 2 catégories = x2, etc); cett emultiplication est calculée une fois tous les modificateurs appliqués. Voir page 342 pour plus d'informations au sujet de la Taille.</p>",
+      "description": "<p>Zur Ermittlung von Schaden nutzt du den Widerstands-Bonus des Gegners statt deines Stärke-Bonus, wenn dieser höher ist; du bestimmst dies stets, bevor andere Regeln deine Stärke oder deinen Stärke-Bonus modifizieren. Des Weiteren gilt, dass, wenn dein Ziel größer ist als du und du einen Kritischen Treffer erzielst (siehe Seite 159), jeder von dir angerichtete Schaden im Nahkampf mit der Anzahl der Stufen multipliziert wird, die dein Ziel größer ist als du (bei 2 Stufen also x2, bei 3 Stufen x3 etc.); diese Multiplikation wird nach allen anderen Modifikatoren angewandt. Mehr zur Größe erfährst du auf Seite 339.</p>",
       "id": "Slayer",
-      "name": "Meurtrier",
+      "name": "Slayer",
       "tests": ""
     },
     {
-      "description": "<p>Vous êtes bien plus petit que la plupart des gens dans le Vieux Monde. Les règles complètes concernant les différentes tailles se trouvent à la page 342</p>",
+      "description": "<p>Du bist deutlich kleiner als die meisten Bewohner der Alten Welt. Die vollständigen Regeln für Größen findest du in Kapitel 12: Bestiarium, auf Seite 339.</p>",
       "id": "Small",
-      "name": "Petit",
+      "name": "Zierlich",
       "tests": ""
     },
     {
-      "description": "<p>La distance n'est pas un obsctacle pour vos Compétences de tir, et vous êtes expert dans l'art de repérer des cibles aussi bien éloignées qu'à proximité. Vous ne subissez aucune pénalité lors d'un tir à Longue Distance et la moitié des pénalités à Portée Extrême.</p>",
+      "description": "<p>Bezüglich deiner Schießkünste ist die Distanz kaum noch von Belang, denn du triffst ferne Ziele ebenso leicht wie nahe. Du erhältst keine Abzüge für Schüsse über lange Reichweite und nur die Hälfte der Abzüge bei Schüssen über extreme Reichweite.</p>",
       "id": "Sniper",
-      "name": "Tireur embusqué",
-      "tests": "Projectiles (Portée Longue et Extrême)"
+      "name": "Distanzschütze",
+      "tests": "Fernkampf (lange und extreme Reichweite)"
     },
     {
-      "description": "Vous lisez les livres à une cadence effrenée. Vous pouvez inverser un Test de Recherche raté si cela permet de le réussir. Si la vitesse à laquelle vous lisez est importante pendant un combat, un Test de Langue réussi vous permet de lire et de bien comprendre un nombre de pages par Round égal à votre DR plus votre niveau de Lecture Rapide (minimum 1, même si vous avez raté le Test).",
+      "description": "<p>Du kannst Bücher mit verblüffender Geschwindigkeit lesen. Du darfst bei jedem misslungenen Nachforschen-Wurf die Zahlen vertauschen, wenn dies zu einem Erfolg führt. Wenn während eines Kampfes wichtig ist, wie schnell du etwas lesen kannst, dann kannst du mit einem erfolgreichen Sprache-Wurf pro Runde eine Anzahl von Seiten lesen und vollständig verstehen, die deinen EG plus deiner Stufe in Schnellleser entspricht (mit einem Minimum von 1, selbst wenn du beim Wurf scheiterst).</p>",
       "id": "Speedreader",
-      "name": "Lecture rapide",
-      "tests": "Recherche et Lange lorsque la vitesse de lecture est importante"
+      "name": "Schnellleser",
+      "tests": "Nachforschen- und Sprache-Würfe, bei denen schnelles Lesen wichtig ist"
     },
     {
-      "description": "Vous êtes un coureur très rapide. Votre Attribut de Mouvement compte comme plus élevé de 1 lorsque vous Courez.",
+      "description": "<p>Du bist ein flinker Läufer. Bezüglich der Bewegungsaktion Rennen gilt dein Bewegungs-Wert um 1 höher.</p>",
       "id": "Sprinter",
       "name": "Sprinter",
-      "tests": "Athélisme concernant la course"
+      "tests": "Athletik-Würfe, die Rennen betreffen"
     },
     {
-      "description": "Vous êtes doué pour être là ou les armes ennemies ne se trouvent pas. Si vous utilisez l'Esquive pour vous défendre contre une attaque et gagnez le Test opposé, vous pouvez vous déplacer jusqu'à 2 mètres alors que vous plongez. Cela peut vous déplacer au-delà de l'allonge de votre adversaire, ce qui signifie que vous n'êtes plus Engagé. Aucun de vos adversaires ne gagnera d'Attaque gratuite quand vous faites ce Pas de côté.",
+      "description": "<p>Du bist gut darin, genau dort zu sein, wo die Waffen des Gegners gerade nicht sind. Wenn du Ausweichen nutzt um dich gegen eine Attacke zu verteidigen und den Vergleichenden Wurf gewinnst, dann darfst du dich beim Ausweichen bis zu zwei Meter weit bewegen und giltst nicht länger als gebunden. Keiner deiner Gegner erhält eine freie Attacke, wenn du dies tust.</p>",
       "id": "Step Aside",
-      "name": "Pas de côté",
-      "tests": "Esquive lorsque vous utilisez ce Talent"
+      "name": "Flinkes Ausweichen",
+      "tests": "Ausweichen-Würfe zum Einsatz dieses Talentes"
     },
     {
-      "description": "Vous avez l'habitude de vous débrouiller avec peu, et savez comment survivre aux périodes de vache maigre. Vous pouvez subsister avec la moitié de la nourriture nécessaire, sans pénalités négatives (vous empêchant d'avoir réellement faim), et vous avez seulement besoin d'effectuer un Test concernant la faim tous les 3 jours et pas 2 (voir page 181).",
+      "description": "<p>Du weißt, wie du mit wenig auskommst, und bist daran gewöhnt, entbehrungsreiche Zeiten zu überleben. Du kannst ohne negative Effekte (außer wirklich großem Hunger) mit der Hälfte der eigentlich notwendigen Nahrung auskommen und musst nur alle 3 Tage auf Verhungern würfeln, nicht alle 2 (siehe Seite 181).</p>",
       "id": "Stone Soup",
-      "name": "Brouet",
-      "tests": "Résistance pour résister à la famine"
+      "name": "Genügsam",
+      "tests": "Ausdauer-Würfe, um Hunger zu widerstehen"
     },
     {
-      "description": "<p>Peu importe à quel point les choses vont mal, vous persévérez malgré tout. Vous pouvez tenter un Test de Calme pour retirer un Etat <em>Brisé</em> à la fin de chacun de vos Tours ainsi qu'à la fin du round (voir page 168 pour plus de détails).</p>",
+      "description": "<p>Egal, wie schlimm es wird, du kommst immer wieder zurück und willst noch mehr. Du darfst einen Besonnenheits-Wurf zum Entfernen eines Demoralisiert-Zustandes am Ende jedes deiner Züge durchführen und zusätzlich am Ende der Runde (mehr dazu findest du auf Seite 168).</p>",
       "id": "Stout-hearted",
-      "name": "Coeur vaillant",
-      "tests": "Test de Calme pour enlever les états Brisés"
+      "name": "Beherzt",
+      "tests": "Besonnenheits-Würfe zum Entfernen von Demoralisiert-Zuständen"
     },
     {
-      "description": "<p>Peu importe à quel point les choses vont mal, vous persévérez malgré tout. Vous pouvez tenter un Test de Calme pour retirer un Etat <em>Brisé</em> à la fin de chacun de vos Tours ainsi qu'à la fin du round (voir page 168 pour plus de détails).</p>",
+      "description": "<p>Egal, wie schlimm es wird, du kommst immer wieder zurück und willst noch mehr. Du darfst einen Besonnenheits-Wurf zum Entfernen eines Demoralisiert-Zustandes am Ende jedes deiner Züge durchführen und zusätzlich am Ende der Runde (mehr dazu findest du auf Seite 168).</p>",
       "id": "Stouthearted",
-      "name": "Coeur vaillant",
-      "tests": "Test de Calme pour enlever les états Brisés"
+      "name": "Beherzt",
+      "tests": "Besonnenheits-Würfe zum Entfernen von Demoralisiert-Zuständen"
     },
     {
-      "description": "Vous êtes expérimenté dans la traversée des terrains difficiles. Vous ignorez toutes les pénalités de Mouvement lorsque vous traversez un terrain spécifique. Les spécialisations courantes incluent: Littoral, Déserts, marécages, Rocailleux, Toundra, Régions boisées.",
+      "description": "<p>Du bist darin erfahren, schwieriges Gelände zu überwinden. Du ignorierst alle Bewegungs-Abzüge bei der Durchquerung des betreffenden Geländes. Typische Spezialisierungen sind unter anderem: Felsig, Küste, Sumpf, Tundra, Waldland, Wüste.</p>",
       "id": "Strider",
-      "name": "Bon marcheur",
-      "tests": "Athélisme pour traverser le type de terrain concerné"
+      "name": "Trittsicher (Gelände)",
+      "tests": "Athletik-Würfe zum Durchqueren des Geländes"
     },
     {
-      "description": "Vous savez comment frapper fort ! Vous infligez votre niveau de Coup Puissant en Dégats supplémentaires avec des armes de Corps à Corps.",
+      "description": "<p>Du weißt, wie man Gegner so richtig schwer erwischt. Du richtest mit Nahkampfwaffen zusätzlichen Schaden in Höhe deiner Stufe in Mächtiger Schlag an.</p>",
       "id": "Strike Mighty Blow",
-      "name": "Coup puissant",
+      "name": "Mächtiger Schlag",
       "tests": ""
     },
     {
-      "description": "<p>Vous êtes un expert pour frapper vos ennemis aux endroits les plus vulnérables< Vous infligez votre niveau de Frappe Blessante en Blessures supplémentaires quand vous causez une Blessure Critique./p>",
+      "description": "<p>Du bist ein Experte darin, Gegner an den verwundbarsten Stellen zu treffen. Du richtest bei Kritischen Treffern zusätzlichen LP-Verluste in Höhe deiner Stufe in Verletzender Schlag an.</p>",
       "id": "Strike to Injure",
-      "name": "Frappe blessante",
+      "name": "Verletzender Schlag",
       "tests": ""
     },
     {
-      "description": "<p>Vous savez où frapper un adversaire pour le faire tomber rapidement. Vous ignorez la pénalité due à la désignation d'une Localisation pour frapper à la Tête quand vous utilisez une arme de Corps à Corps avec l'Atout <em>Assomante</em> (voir page 297). De plus, vous considérez toutes les Armes Improvisées comme ayant l'atout <em>Assomante</em>.</p>",
+      "description": "<p>Du weißt, wie du einen Gegner treffen musst, um ihn schnell auf den Boden zu bringen. Du kannst den Abzug für die gezielte Attacke ignorieren, wenn du die Trefferzone Kopf anvisierst und eine Nahkampfwaffe mit der Qualität Betäubend einsetzt (siehe Seite 297). Zudem gelten für dich alle improvisierten Waffen als hätten sie die Qualität Betäubend.</p>",
       "id": "Strike to Stun",
-      "name": "Frappe assomante",
-      "tests": "Corps à corps en utilisant Frappe Assomante"
+      "name": "Betäubender Schlag",
+      "tests": "Nahkampf-Würfe beim Betäubenden Schlag"
     },
     {
-      "description": "<p>Vous avez l'échine solide, rompue au dur labeur. Vous pouvez ajouter vos Niveaux d'Infatigable à votre DR dans tous les Tests opposés de Force et vous pouvez porter nombre de Points d'Encombrement supplémentaires (voir p.293) équivalent à votre niveau d'Infatigable.</p>",
+      "description": "<p>Du hast ein breites Kreuz und bist an schwere körperliche Arbeit gewöhnt. Du darfst deine Stufe in Starker Rücken zu den EG bei jedem Vergleichenden Stärke-Wurf addieren, und du kannst zusätzliche Traglastpunkte an Ausrüstung (siehe Seite 293) in Höhe deiner Stufe in Starker Rücken nutzen.</p>",
       "id": "Strong Back",
-      "name": "Infatigable",
-      "tests": "Ramer et Natation"
+      "name": "Starker Rücken",
+      "tests": "Rudern und Schwimmen"
     },
     {
-      "description": "Vous avez des jambes solides capables de vos porter sur de grandes distances quand vous sautez. Ajoutez votre niveau de Bonnes Jambes à votre DR à tous les tests d'Athélisme impliquant Saut (voir page 166).",
+      "description": "<p>Du hast kräftige Beine, die dich beim Springen über große Distanzen tragen. Du darfst deine Stufe in Starke Beine zu den EG bei jedem Athletik-Wurf addieren, bei dem es um Springen (siehe Seite 166) geht.</p>",
       "id": "Strong Legs",
-      "name": "Bonnes jambes",
+      "name": "Starke Beine",
       "tests": ""
     },
     {
-      "description": "Vous êtes un nageur particulièrement endurant et habitué à retenir votre souffle pendant une longue période sous l'eau. Gagnez un bonus à votre Bonus d'Endurance égal à votre Niveau de Nageur Endurant pour calculer le temps pendant leque vous retenez votre souffle.",
+      "description": "<p>Du bist ein außergewöhnlich guter Schwimmer und kannst den Atem unter Wasser sehr lange anhalten. Wenn es um das Anhalten des Atems geht, bekommst du einen Bonus in Höhe deiner Stufe in Guter Schwimmer auf deinen Widerstands-Bonus.</p>",
       "id": "Strong Swimmer",
-      "name": "Nageur endurant",
-      "tests": "Natation"
+      "name": "Guter Schwimmer",
+      "tests": "Schwimmen"
     },
     {
-      "description": "Vous êtes la quintessence de la détermination et de la résolution. Ajoutez votre niveau d'Obstiné au maximum de votre réserve de Détermination.",
+      "description": "<p>Du bist von geradezu legendärer Zielstrebigkeit und Entschlossenheit. Addiere deine Stufe in Willensstärke zum Maximum deiner Mutpunkte.</p>",
       "id": "Strong-minded",
-      "name": "Obstiné",
+      "name": "Willensstärke",
       "tests": ""
     },
     {
-      "description": "Vous êtes musclé et habitué à porter des charges lourdes. Augmentez les Points d'Encombrement d'un nombre égal à votre niveau de Costaud x 2.",
+      "description": "<p>Stärke-Würfe beim Heben Du hast eine stämmige Gestalt und bist daran gewöhnt, Lasten zu heben und zu tragen. Erhöhe die Zahl der Traglastpunkte, die du tragen kannst, um deine Stufe in Stämmig x2.</p>",
       "id": "Sturdy",
-      "name": "Costaud",
-      "tests": "Force quand vous soulevez"
+      "name": "Stämmig",
+      "tests": "Stärke-Würfe beim Heben"
     },
     {
-      "description": "Vous gagnez un bonus permanent de +5 à votre Caractéristique Sociabilité de départ (ne compte pas comme des Augmentations).",
+      "description": "<p>Auf deinen Anfangswert für das Attribut Charisma erhältst du einen permanenten Bonus von +5, der nicht bezüglich deiner Steigerungen zählt.</p>",
       "id": "Suave",
-      "name": "Affable",
+      "name": "Einnehmendes Wesen",
       "tests": ""
     },
     {
-      "description": "<p>Vous avez un don pour calculer et trouver facilement la solution de la plupart des problèmes mathématiques. Vous poivez utiliser une simple calculatrice pour simuler le fait que votre PJ est capable de compter mentalement.</p>",
+      "description": "<p>Du hast ein enormes Talent im Rechnen und kannst mit Leichtigkeit die Lösungen der meisten mathematischen Probleme ermitteln. Du darfst einen einfachen Taschenrechner verwenden, um das darzustellen, was den SC im Kopf berechnen kann.</p>",
       "id": "Super Numerate",
-      "name": "Doué en calcul",
-      "tests": "Evaluation, Pari"
+      "name": "Zahlengenie",
+      "tests": "Glücksspiel und Schätzen"
     },
     {
-      "description": "<p>Vous savez ce qu'il faut dire et à quel moment pour avoir le plus d'impact sur vos supérieurs. Quand vous utilisez avec succès une Compétence sociale pour influencer ceux qui possèdent un plus haut Statut, vous pouvez choisir d'utiliser soit le DR, soit le chiffre des Unités du dé. Donc, un succès de 46 peut-être utilisé comme un DR de +6.</p>",
+      "description": "<p>Du weißt genau, was du wann zu sagen hast, um maximalen Einfluss auf deine Vorgesetzten zu nehmen. Wenn du erfolgreich eine soziale Fähigkeit einsetzt, um jemanden mit höherem Status-Rang zu beeinflussen, dann kannst du entweder die erwürfelten EG verwenden, oder die Zahl, die mit dem Würfel für die Einerstelle gefallen ist. Bei einem erfolgreichen Wurf von 46 wären Letztere also +6 EG.</p>",
       "id": "Supportive",
-      "name": "Coopératif",
-      "tests": "Tests sociaux pour influencer un supérieur"
+      "name": "Schmeichler",
+      "tests": "Soziale Würfe zum Beeinflussen eines Vorgesetzten"
     },
     {
-      "description": "<p>Vous savez comment trouver les points faibles de l'armure d'une cible. Quand vous la touchez, vous pouvez ignorer un nombr de PA égal à votre Niveau de Tir sûr.</p>",
+      "description": "<p>Du weißt, wie du die Schwachstellen in der Rüstung des Gegners ausnutzen kannst. Wenn du ein Ziel mit einer Fernkampfwaffe triffst, dann darfst du Rüstungspunkte in Höhe deiner Stufe in Sicherer Schuss ignorieren.</p>",
       "id": "Sure Shot",
-      "name": "Tir sûr",
+      "name": "Sicherer Schuss",
       "tests": ""
     },
     {
-      "description": "<p>Vous êtes un Chirurgien capable d'ouvrir et de refermer les chairs pour soigner. Vous pouvez traiter n'importe quelle Blessure Critique nécessitant de la Chirurgie pour résoudre des problèmes internes avec un <em>Test étendu de Guérison Intermédiaire (+0)</em> dont le DR cible est déterminé par le MJ (en général 5-10) en fonction de la difficulté de la procédure en cours. Cela fait 1d10 Blessures et 1 Etat <em>Hémorragique</em> par Test, ce qui signifie que la Chirurgie a de fortes chances de tuer le patient si le praticien n'est pas rigoureux. Après la Chirurgie, le patient doit réussir un <em>Test de Résistance Accessible (+20)</em> ou gagner une <em>Infection Mineure</em> (voir page 187).</p>",
+      "description": "<p>Du bist ein kundiger Chirurg und dazu in der Lage, die Körper anderer zu öffnen und zu schließen, um sie zu heilen. Du kannst Kritische Verletzungen heilen, bei denen angegeben ist, dass sie die Behandlung durch Chirurgie benötigen. Zudem kannst du versuchen, Probleme im Inneren des Körpers mit einer Operation zu behandeln, indem du einen Erweiterten herausfordernden (+0) Heilen-Wurf ablegst, bei dem der SL die nötigen EG festlegt (üblicherweise 5-10), gemäß der Komplexität der Behandlung. Dies verursacht pro Wurf den Verlust von 1W10 LP und 1 Blutend-Zustand, was bedeutet, dass es bei chirurgischen Eingriffen eine hohe Chance gibt, den Patienten zu töten, wenn man nicht vorsichtig ist. Nach der Operation muss der Patient einen durchschnittlichen (+20) Ausdauer-Wurf bestehen, oder er erhält eine leichte Infektion (siehe Seite 187)</p>",
       "id": "Surgery",
       "name": "Chirurgie",
-      "tests": "Guérison en dehors des rounds de combat; c'est à dire quand vous avez du temps pour réaliser les soins correctement"
+      "tests": "Heilen-Würfe außerhalb des Kampfes; also mit der Zeit, es ‚richtig‘ zu machen"
     },
     {
-      "description": "Vous n'abandonnez jamais, même si les tâches paraissent impossibles. Vous pouvez doubler le temps que les Tests de Résistance réussis vous accordent pour supporter une difficulté. Cela inclut endurer une chevauchée prolongée, une exposition, des rituels et autres problèmes similaires.",
+      "description": "<p>Du gibst niemals auf, egal wie anstrengend etwas ist. Du verdoppelst die Zeit, die dir ein erfolgreicher Ausdauer-Wurf erlaubt, Anstrengungen durchzuhalten. Anstrengungen im Sinne dieses Talentes wären langes Reiten, schlimme Witterung, Rituale und ähnliche Aktivitäten.</p>",
       "id": "Tenacious",
-      "name": "Persévérant",
-      "tests": "Résistance pour supporter les difficultés"
+      "name": "Beharrlich",
+      "tests": "Ausdauer-Würfe zum Ertragen von Anstrengungen"
     },
     {
-      "description": "Vous êtes une sort de touche-à-tout, capable de réparer presque n'importe quoi. Vous considérez toutes les Compétences Métier non magiques comme étant de Base lorsque vous réparer des objets cassés.",
+      "description": "<p>Du bist ein echter Hansdampf in allen Gassen und dazu imstande, nahezu alles zu reparieren. Wenn es um das Reparieren von Dingen geht, behandelst du alle Berufs-Fähigkeiten als Grundfähigkeiten.</p>",
       "id": "Tinker",
-      "name": "Bricoleur",
-      "tests": "Métier pour réparer des objets cassés"
+      "name": "Bastler",
+      "tests": "Berufs-Würfe zur Reparatur beschädigter Dinge"
     },
     {
-      "description": "<p>Une technique de mémorisation initiée par le Culte de Venera, réputée pour les pratiques elfiques enseignées par les Maîtres du savoir de Hoeth. Tour des souvenirs vous permet de vous rappeler parfaitement une série d'évènements en les mémorisant dansune tour imaginaire. Vous pouvez vous souvenir d'une série d'évènements d'une longueur égale à votre Intelligence sans avoir besoin d'effectuer de Test. Pour chaque Tranche de 10 éléments supplémentaires que vous tentez de mémoriser, vous devez effectuer un Test d'Intelligence donc la Difficulté augmente pour vous en souvenir correctement, en parte de <em>Très facile (+60)</em> pour 10+, <em>Facile (+40)</em> pour 20+, <em>Accessible (+40)</em> pour 30+, etc. Au-delà de son utilité évidente pour le Jeu (Pari), car ce Talent ajoute un bonus de +20 à +60, selon l'utilité de la mémorisation lors du jeu en cours, le MJ peut, si nécessaire, appliquer des Bonus aux autres Tests. Chaque fois que vous prenez ce Talent, vous pouvez vous rappeler une série supplémentaire d'évènements, sans avoir à en oublier une précedemment mémorisée.</p>",
+      "description": "<p>Der Turm der Erinnerungen ist eine in der Alten Welt ursprünglich nur im Kult der Verena verbreitete Praxis der elfischen Lehrmeister von Hoeth. Turm der Erinnerungen erlaubt es dir, dich perfekt an eine lange Sequenz von Fakten zu erinnern, indem du diese in einem imaginären Turm unterbringst. Du kannst dich an eine Sequenz, so lang wie dein Intelligenz-Wert, erinnern, ohne würfeln zu müssen. Für je 10 Dinge mehr, an die du dich erinnern möchtest, musst du einen Intelligenz-Wurf mit ansteigender Schwierigkeit bestehen, um dich korrekt an die Liste zu erinnern; die Schwierigkeit beginnt mit Sehr einfach (+60) für +10, Einfach (+40) für +20, Durchschnittlich (+20) für +30 und so weiter. Abgesehen von seinem ursprünglichen Sinn, ist dieses Talent auch bei Glücksspiel-Würfen hilfreich. Dabei verschafft es einen Bonus von +20 bis +60, abhängig davon, wie nützlich beim betreffenden Spiel Dinge wie Kartenzählen sind. Der SL kann auch Boni auf andere passende Würfe gewähren. Jedes Mal, wenn du dieses Talent wählst, kannst du dir eine zusätzliche Sequenz merken, ohne eine zuvor gelernte zu vergessen.</p>",
       "id": "Tower of Memories",
-      "name": "Tour des souvenirs",
+      "name": "Turm der Erinnerungen",
       "tests": ""
     },
     {
-      "description": "Vous êtes doué pour repérer et utiliser des pièges. Vous pouvez effectuer un Test de Perception pour en repérer automatiquement, sans avoir à prévenir le MJ de votre intention; le MJ peut effectuer ces Tests secrètement, à votre place.",
+      "description": "<p>Du bist darin geübt, Fallen zu entdecken und zu verwenden. Du kannst einen Wahrnehmungs-Wurf durchführen, um Fallen automatisch zu finden, ohne den SL vorab darüber informieren zu müssen; der SL wird es möglicherweise bevorzugen, einige dieser Würfe verdeckt für dich durchzuführen.</p>",
       "id": "Trapper",
-      "name": "Trappeur",
-      "tests": "Perception pour repérer ou placer des pièges"
+      "name": "Fallensteller",
+      "tests": "Wahrnehmungs-Würfe zum Entdecken von Fallen und Fallenstellen"
     },
     {
-      "description": "Vous êtes capable de prouesses incroyables à cheval. Vous pouvez utiliser n'importe laquelle de vos Compétences Représentation, et Esquive non modifiée, quand vous êtes à cheval. De plus, quand vous êtes en selle, vous pouvez effectuer votre Mouvement au début du round au lieu de votre Tour.",
+      "description": "<p>Du bist im Sattel zu beeindruckender Beweglichkeit imstande. Du kannst Ausweichen und jede deiner Artistik-Fähigkeiten auf dem Sattel einsetzen, ohne dafür Abzüge zu bekommen. Des Weiteren kannst du, wenn du beritten bist, deine Bewegungsaktion am Anfang der Runde statt erst in deinem Zug durchführen.</p>",
       "id": "Trick Riding",
-      "name": "Acrobaties équestres",
-      "tests": "Esquive lorsque monté, Chevaucher (Cheval)"
+      "name": "Kunstreiter",
+      "tests": "Ausweichen-Würfe auf dem Pferderücken und Reiten (Pferd)"
     },
     {
-      "description": "Vous êtes à l'aise dans les tunnels, les égouts et tout autre environnement souterrain. Quand vous y utilisez Discrétion, ceux qui croisent votre chemin n'obtiennent pas de Tests de Perception passifs pour vous détecter; ils ne peuvent vous remarquer que s'ils sont spécifiquement à l'âffut ou à la recherche de personnes cachées.",
+      "description": "<p>Du bist in Tunneln, Stollen, Abwasserkanälen etc. wie zuhause. Wenn du im Untergrund Schleichen einsetzt, erhalten Umstehende keinen passiven Wahrnehmungs-Wurf, um dich zu entdecken; sie können dich nur entdecken, wenn sie ganz gezielt Ausschau halten oder nach Schleichenden suchen</p>",
       "id": "Tunnel Rat",
-      "name": "Rat d'égout",
-      "tests": "Discrétion en sous-sol"
+      "name": "Tunnelratte",
+      "tests": "Schleichen-Würfe im Untergrund"
     },
     {
-      "description": "<p>Vous êtes un Vétéran blasé qui a survecu à plus d'une rafale de tirs d'Armes à Poudre noire. Vous avez besoin d'effectuer un Test de Calme pour résister à un Etat <em>Brisé</em>, uniquement si vous êtes blessé avec un succès par une arme à Poudre noire, et non pas simplement sous le feu d'une arme à poudre.</p>",
+      "description": "<p>Du bist ein abgebrühter Veteran, der schon mehr als eine Salve aus Schießpulverwaffen erlebt und überstanden hat. Du musst nur dann auf Besonnenheit würfeln, um dem Demoralisiert-Zustand durch Schießpulverwaffen zu entgehen, wenn du wirklich erfolgreich durch eine Schießpulverwaffe verwundet wurdest, nicht nur, weil diese auf dich geschossen hat.</p>",
       "id": "Unshakable",
-      "name": "Inébranlable",
-      "tests": "Calme pour résister aux tirs des armes à Poudre noire"
+      "name": "Unerschütterlich",
+      "tests": "Besonnenheits-Würfe gegen durch Schießpulver ausgelöste Panik"
     },
     {
-      "description": "Vous gagnez un bonus permanent de +5 à votre Caractéristique Endurance de départ (ne compte pas comme des Augmentations).",
+      "description": "<p>Auf deinen Anfangswert für das Attribut Widerstand erhältst du einen permanenten Bonus von +5, der nicht bezüglich deiner Steigerungen zählt.</p>",
       "id": "Very Resilient",
-      "name": "Très résistant",
+      "name": "Unverwüstlich",
       "tests": ""
     },
     {
-      "description": "Vous gagnez un bonus permanent de +5 à votre Caractéristique Force de départ (ne compte pas comme des Augmentations).",
+      "description": "<p>Auf deinen Anfangswert für das Attribut Stärke erhältst du einen permanenten Bonus von +5, der nicht bezüglich deiner Steigerungen zählt.</p>",
       "id": "Very Strong",
-      "name": "Très fort",
+      "name": "Sehr stark",
       "tests": ""
     },
     {
-      "description": "<p>Votre regard sévère et vos mots exaltants incitent vos soldats à se battre jusqu'au bout. Tous les subalternes capables de vous voir peuvent ajouter votre Niveau de Seigneur de Guerre au DR d'un Test de Force Mentale par Round. Ce bonus n'est pas cumulatif.</p>",
+      "description": "<p>Dein gestrenger Blick und deine inspirierenden Worte bringen deine Soldaten dazu, bis zum Ende zu kämpfen. Alle Untergebenen, die dich sehen können, dürfen bei einem einzelnen Willenskraft-Wurf pro Runde deine Stufe in Mitreißender Anführer zu ihren EG addieren. Dieser Bonus ist nicht kumulativ</p>",
       "id": "War Leader",
-      "name": "Seigneur de guerre",
-      "tests": "Commandement pendant les combats"
+      "name": "Mitreißender Anführer",
+      "tests": "Anführen-Würfe im Krieg"
     },
     {
-      "description": "<p>Vous êtes entraîné à faire appel à l amagie au milieu de combat. A votre Tour, vous pouvez lancer gratuitement un Sort avec un Niveau d'Incantation de 5 ou moins, sans utiliser votre Action. Cependant, si vous le faites, vous ne pouvez lancer aucun autre Sort ce Tour.</p>",
+      "description": "<p>Du wurdest darin ausgebildet, Magie auch inmitten des wildesten Kampfgetümmels zu wirken. Bei deinem Zug darfst du als Freie Handlung einen einzelnen Zauber mit einem Zauberwert von 5 oder weniger wirken, ohne dafür deine Handlung verwenden zu müssen. Wenn du dies tust, kannst du bei diesem Zug keinen weiteren Zauber wirken.</p>",
       "id": "War Wizard",
-      "name": "Mage de guerre",
+      "name": "Kampfzauberer",
       "tests": ""
     },
     {
-      "description": "<p>Vous gagnez un bonus permanent de +5 à votre Caractéristique de Combat (ne compte pas comme une Augmentation).</p>",
+      "description": "<p>Auf deinen Anfangswert für das Attribut Kampfgeschick erhältst du einen permanenten Bonus von +5, der nicht bezüglich deiner Steigerungen zählt.</p>",
       "id": "Warrior Born",
-      "name": "Guerrier né",
+      "name": "Geborener Krieger",
       "tests": ""
     },
     {
-      "description": "<p>Vous êtes un navigateur expérimenté en eaux douces, habitué aux navires fluviaux. Vous pouvez ignorer toutes les pénalités à vos Tests quand vous vous trouvez à bord d'une barque qui dérive à cause des tourbillons, de navires qui tanguent, lorsqu'il vous êtes déséquilibré et autres situations similaires. De plus, vous comptez comme deux bateliers pour le nombre minimum de membres d'équipage nécessaires pour diriger un navire fluvial.</p>",
+      "description": "<p>Du bist ein erfahrener Süßwasser-Segler und sehr gut mit Flussbooten und Barken vertraut. Du kannst auf Flüssen alle negativen Modifikatoren auf Würfe ignorieren, die durch Bootsbewegungen, ein durch Nässe schlüpfriges Deck oder Ähnliches entstehen. Des Weiteren zählst du bezüglich der Minimalbesatzung eines Flüsse befahrenden Gefährtes als zwei Personen. </p>",
       "id": "Waterman",
-      "name": "Marinier",
-      "tests": "Voile pour les navires fluviaux"
+      "name": "Binnenschiffer",
+      "tests": "Segeln-Würfe auf Flussschiffen"
     },
     {
-      "description": "<p>Vous êtes fabuleusement riche, et rarement à court d'argent. Quand vous Gagnez de l'argent (y compris avec des Activités <em>Revenus</em>), vous gagnez + 1CO par nombre de fois ou vous avez pris ce Talent.</p>",
+      "description": "<p>Du bist äußerst wohlhabend und selten mit leerer Börse unterwegs. Wenn es um deine Einkünfte geht, sei es durch Geld verdienen oder eine Einnahmen-Unternehmung, erhältst du für jede Stufe in diesem Talent +1 Goldkrone</p>",
       "id": "Wealthy",
-      "name": "Nanti",
+      "name": "Wohlhabend",
       "tests": ""
     },
     {
-      "description": "<p>Vous êtes habitués à anticiper les besoins des autres commes les vôtres. Un nombre de fois par séance égal à votre niveau de Prévoyant, vous pouvez sortir de votre sac à dos (ou similaire) l'équipement nécessaire à la situation actuelle, tant que son Encombrement est de 0, qu'il est crédible que vous l'ayez acheté recemment, et qu'il ne soit pas trop invraisemblable. Cela peut-être n'importe quoi, de la flasque d'alcool pour fortifier un camarade blessé au sifflet bon marché, absolument nécessaire pour un saltimbanque de passage. Chaque fois que vous le faites, vous devez déduire le coût de l'objet sorti de votre pour compenser l'argent dépensé plus tôt.</p>",
+      "description": "<p>Du bist darin geübt, vorherzuahnen, was du und andere brauchen werden. Für eine deiner Stufe in diesem Talent entsprechende Anzahl von Malen pro Spielabend kannst du das in der jeweiligen Situation benötigte Utensil aus dem Rucksack (oder Ähnlichem) ziehen, solange es eine Traglast von 0 hat, kürzlich bei einer Gelegenheit besorgt worden sein könnte und es nach gesundem Menschenverstand nicht zu teuer war. Das könnte alles sein, von einer Flasche Schnaps, die einem verwundeten Kameraden guttun soll, bis zu einer kleinen Trillerpfeife, die ein naher Schausteller gerade dringend für seine Darbietung gebrauchen könnte. Wann immer du diese Fähigkeit einsetzt, musst du die Kosten des fraglichen Utensils sogleich aus deiner Börse begleichen, was das Geld darstellt, das du zuvor dafür ausgegeben hast.</p>",
       "id": "Well-prepared",
-      "name": "Prévoyant",
+      "name": "Gut vorbereitet",
       "tests": ""
     },
     {
-      "description": "Vous êtes un lanceur de Sorts autodidacte qui a compris peu à peu comment utiliser la magie, par tâtonnements. Ajoutez Language (Magick) à n'importe quelle carrière que vous entamez; si elle est déja comprise dans votre Carrière, vou pouvez à la place acheter la compétence pour 5 PX de moins par Augmentation. De plus, vous pouvez dépenser un Point de résilience pour lancer (et mémoriser) un Sort provenant de n'importe quel Domaine de Magie, pour 0 PX. Vous pouvez le faire un nombre de fois égal à votre Niveau dans ce Talent.",
+      "description": "<p>Du hast durch Ausprobieren herausgefunden, wie man Zauber wirkt. Füge jeder Karriere, in die du wechselst, die Fähigkeit Sprache (Magick) hinzu. Wenn sich diese bereits in der entsprechenden Karriere befindet, kannst du die Fähigkeit stattdessen für 5 EP weniger pro Steigerung verbessern. Des Weiteren kannst du einen Zähigkeitspunkt dafür ausgeben, um sofort irgendeinen beliebigen Zauber zu wirken, als wäre er ein Zauber deiner Arkanen Lehre. Du prägst dir diesen Zauber damit auch für 0 EP ein, als wäre er ein Zauber deiner Arkanen Lehre. Du darfst dies eine deiner Stufe in diesem Talent entsprechende Anzahl von Malen tun.</p>",
       "id": "Witch!",
-      "name": "Sorcier!",
+      "name": "Hexer",
       "tests": ""
     }
   ]
