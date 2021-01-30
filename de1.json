@@ -770,5 +770,38 @@
     "CHATOPT.UseFortuneReroll":"Nutze einen Glückspunkt um den Würfelwurf zu wiederholen", 
     "CHATOPT.UseFortuneSL":"Nutze einen Glückspunkt um +1 EG zu erhalten", 
     "CHATOPT.DarkDeal": "Gehe einen Dunklen Pakt ein um den Würfelwurf zu wiederholen (+1 Korruption)",
-    "CHATOPT.OpposeTarget": "Vergleiche mit Ziel"	
+    "CHATOPT.OpposeTarget": "Vergleiche mit Ziel",
+
+	"TRAVEL.TravelMessageBase": "Von <b>{from}</b> zu <b>{to}</b> : ",
+    "TRAVEL.TravelMessageRoad": "<br><b>Road</b> : {road_distance} miles<br>&nbsp;&nbsp;With Coach : {road_days} Tage, Gefahr: {road_danger_string}<br>&nbsp;&nbsp;With Heavy Horse : {road_horse_heavy_days} days, danger is {road_danger_string}<br>&nbsp;&nbsp;With Fast Horse : {road_horse_fast_days} days, danger is {road_danger_string}<br>&nbsp;&nbsp;By Feet : {road_feet_days} days, danger is {road_danger_feet_string}",
+    "TRAVEL.TravelMessageRiver": "<br><b>River</b> : {river_distance} miles<br>&nbsp;&nbsp;By Boat : {river_days} Tage, Gefahr: {river_danger_string}",
+    "TRAVEL.TravelMessageSea": "<br><b>Sea</b> : {sea_distance} miles<br>&nbsp;&nbsp;By Boat : {sea_days} Tage, Gefahr: {sea_danger_string}",
+    "TRAVEL.TownPrompt": "Wähle den Zielort",
+    "TRAVEL.TownOriginPrompt": "Wähle den Abreiseort",
+    "TRAVEL.DangerVeryLow": "Sehr gering",
+    "TRAVEL.DangerLow" : "Gering",
+    "TRAVEL.DangerMedium" : "Mittel",
+    "TRAVEL.DangerHigh" : "Hoch",
+    "TRAVEL.DangerVeryHigh" : "Sehr hoch",
+    "TRAVEL.Helper" : "Die Wegstrecken liegen dem Buch <i>Travel Distances in the Empire</i>, von <i>Jackdays</i> zugrunde. Die Wegstrecken per Fluss zählen ebenfalls dazu.<br><b>Usage</b> : <b>/travel town</b> or <b>/travel town1 town2</b> or <b>/travel</b>",
+    
+    "VEHICLE.ModEncumbranceTT" : "Belastung durch Modifikatoren: {amt}",
+    "VEHICLE.CarryEncumbranceTT" : "Belastung durch Ladung: {amt}",
+    "VEHICLE.CrewRoles" : "Crew Roles",
+    "VEHICLE.Skill" : "Fähigkeit",
+    "VEHICLE.Modifications" : "Modifikatoren von Fahrzeugen",
+    "VEHICLE.ModType" : "Modifikator-Typ",
+    
+
+    "CONFIGURE.CalcTokenSize" : "Automatische Berechnung der Token-Größe",
+    "CONFIGURE.CalcRun" : "Automatische Berechnung der Geschwindigkeit beim Rennen",
+    "CONFIGURE.CalcWalk" : "Automatische Berechnung der Geschwindigkeit beim Gehen",
+    "CONFIGURE.CalcWounds" : "Automatische Berechnung der Wunden",
+    "CONFIGURE.CalcCritWounds" : "Automatische Berechnung von kritischen Wunden",
+    "CONFIGURE.CalcCorruption" : "Automatische Berechnung Korruption",
+    "CONFIGURE.CalcMaxEnc" : "Automatische Berechnung maximale Traglast",
+    "CONFIGURE.AddActorEncumbrance" : "Füge Traglast für Charakter hinzu",
+
+    "BUTTON.PostBug" : "Schreib eine Beschwerde",
+    "BUTTON.CharacterCreation" : "Charaktererstellung"
 }
