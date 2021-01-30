@@ -1,5 +1,5 @@
 {
-	"label": "Equipement",  
+	"label": "Ausrüstung",  
 	"mapping": {      
     "special":  "data.special.value",
     "qualities": {
@@ -14,104 +14,104 @@
 	"entries": [
 		{
 			"id": "Abacus",
-			"name": "Boulier",
+			"name": "Abakus",
 			"description": ""
 		},
 		{
 			"id": "Ale, Keg",
-			"name": "Cervoise, Tonnelet",
-			"description": "<p>Capacité de 13 lites. Les tonnelets vides peuvent être remplis pour 18d.</p>"
+			"name": "Bierfass",
+			"description": "<p>Kapazität 12 Liter; leere Bierfässer lassen sich für 18d nachfüllen.</p>"
 		},
 		{
 			"id": "Ale, pint",
-			"name": "Cervoise, pinte"
+			"name": "Bier (Humpen)"
 		},
 		{
 			"id": "Amulet",
-			"name": "Amulette"
+			"name": "Amulet"
 		},
 		{
 			"id": "Animal Trap",
-			"name": "Pièges à animal",
-			"description": "<p>Utilisé pour attraper du gibier ( cf. page 131)</p>"
+			"name": "Tierfalle",
+			"description": "<p>Eine Falle zum Fangen von Wild (siehe Nahrung und Kräuter sammeln auf Seite 130)</p>"
 		},
 		{
 			"id": "Antitoxin Kit",
-			"name": "Nécessaire anti-poison",
-			"description": "<p>Renferme un petit couteau, des herbes et un bocal des sanguse. Un test de Guérison réussi avec un nécessaire antipoison retire tous les Etats <em>Empoisonné</em<. Le traitement prend au moins deux rounds.</p>"
+			"name": "Gegengiftset",
+			"description": "<p>Enthält ein kleines Messer, Kräuter und ein Gefäß mit Blutegeln; ein erfolgreicher Heilen-Wurf mit einem Gegengiftset entfernt alle Vergiftet-Zustände. Die Behandlung dauert mindestens zwei Runden.</p>"
 		},
 		{
 			"id": "Arrow",
-			"name": "Flèche",
-			"description": "<p>Empaleuse</p>"
+			"name": "Pfeil",
+			"description": "<p>Durchbohrend</p>"
 		},
 		{
 			"id": "Backpack",
-			"name": "Sac à dos",
+			"name": "Rucksack",
 			"description": ""
 		},
 		{
 			"id": "Ball",
-			"name": "Balle"
+			"name": "Ball"
 		},
 		{
 			"id": "Bandage",
-			"name": "Bandages",
-			"description": "<p>Un testde Guérison ou de Dextérité réussi retire +1 Etat hémorragique supplémetaire</p>"
+			"name": "Verband",
+			"description": "<p>Ein erfolgreicher Heilen- oder Geschicklichkeits-Wurf entfernt +1 zusätzlichen Blutend-Zustand.</p>"
 		},
 		{
 			"id": "Barrel",
-			"name": "Baril",
-			"description": "<p>Capacité: 145 litres de liquide.</p>\n<p>&nbsp;</p>"
+			"name": "Fass",
+			"description": "<p>Kapazität 120 Liter Flüssigkeit</p>"
 		},
 		{
 			"id": "Bastard Sword",
-			"name": "Epée Batârde",
+			"name": "Langes Schwert",
 			"description": ""
 		},
 		{
 			"id": "Baton ",
-			"name": "Baton ",
+			"name": "Kampfstab",
 			"description": ""
 		},
 		{
 			"id": "Bedroll ",
-			"name": "Sac de couchage ",
-			"description": "<p>Les Test de Résistance effectués pour résister au foid (cf. page 181) gagnent un bonus de +20 quand vous l'utilisez pour vous reposer.</p>"
+			"name": "Schlafsack",
+			"description": "<p>Ausdauer-Würfe gegen Kälte (siehe Seite 181) erhalten beim Lagern einen Bonus von +20.</p>"
 		},
 		{
 			"id": "Black Lotus",
-			"name": "Lotus Noir",
-			"description": "<p>Cette plante mortelle pousse dans les jungles du Sud, et elle est utilisée pour empoisonner les lames. Les victimes qui subissent au moins 1 Point de Blessure d'une lame recouverte de sa sève subissent immédiatement 2 Etats <em>Empoisonnés</em>. Combattu avec un <strong>Testde Resistance Complexe (-10)</strong></p>"
+			"name": "Schwarzer Lotus",
+			"description": "<p>Diese tödliche Pflanze wächst in den Dschungeln der Südlande und wird für Klingengift verwendet. Opfer, die mindestens 1 LP Schaden durch eine mit dem Saft dieser Pflanze benetzten Klinge erleiden, erhalten sofort 2 Vergiftet-Zustände. Würfe gegen diese Zustände sind schwierige (-10) Ausdauer-Würfe.</p>"
 		},
 		{
 			"id": "Blanket",
-			"name": "Couverture",
-			"description": "<p>Les Test de Résistance effectués pour résister au foid (cf. page 181) gagnent un bonus de +20 quand vous l'utilisez pour vous reposer.</p>"
+			"name": "Decke",
+			"description": "<p>Kann auch als Mantel benutzt werden.</p>"
 		},
 		{
 			"id": "Blunderbuss",
-			"name": "Tromblon",
+			"name": "Donnerbüchse",
 			"description": "",
-      "special": "Le Tromblon est la seule arme qui peut utiliser les Petites Munitions et les Munitions Improvisées." 
+			"special": "Donnerbüchsen sind die einzigen hier aufgeführten Waffen, die „Improvisierte Kugeln und Pulver“ und „Kleine Kugeln und Pulver“ als Munition verwenden. Alle anderen Schießpulver- und Technicus-Waffen verwenden „Kugel und Pulver“." 
 		},
 		{
 			"id": "Boat Hook",
-			"name": "Gaffe",
+			"name": "Bootshaken",
 			"description": ""
 		},
 		{
 			"id": "Boiled Leather Breastplate",
-			"name": "Plastron en Cuir Bouilli",
+			"name": "Lederpanzer",
 			"description": ""
 		},
 		{
 			"id": "Bolas",
-			"name": "Bolas"
+			"name": "Bola"
 		},
 		{
 			"id": "Bolt",
-			"name": "Carreau",
+			"name": "Bolzen",
 			"description": ""
 		},
 		{
@@ -120,450 +120,450 @@
 		},
 		{
 			"id": "Book, Apothecary",
-			"name": "Livre, Apothicaire",
+			"name": "Buch (Apotheker)",
 			"description": ""
 		},
 		{
 			"id": "Book, Art",
-			"name": "Livre, Art",
+			"name": "Buch (Kunst)",
 			"description": ""
 		},
 		{
 			"id": "Book, Cryptography",
-			"name": "Livre, Cryptographie",
+			"name": "Buch (Kryptographie)",
 			"description": "</p>"
 		},
 		{
 			"id": "Book, Engineer",
-			"name": "Livre, Ingénierie",
+			"name": "Buch (Technicus)",
 			"description": ""
 		},
 		{
 			"id": "Book, Law",
-			"name": "Livre, Juridique",
+			"name": "Buch (Gesetz)",
 			"description": ""
 		},
 		{
 			"id": "Book, Magic",
-			"name": "Livre, Magick",
+			"name": "Buch (Magick)",
 			"description": ""
 		},
 		{
 			"id": "Book, Medicine",
-			"name": "Livre, Médecine",
+			"name": "Buch (Medizin)",
 			"description": ""
 		},
 		{
 			"id": "Book, Religion",
-			"name": "Livre, Religion",
+			"name": "Buch (Religion)",
 			"description": ""
 		},
 		{
 			"id": "Boots",
-			"name": "Bottes"
+			"name": "Stiefel"
 		},
 		{
 			"id": "Bow",
-			"name": "Arc"
+			"name": "Bogen"
 		},
 		{
 			"id": "Bowl",
-			"name": "Bol",
+			"name": "Schüssel",
 			"description": ""
 		},
 		{
 			"id": "Brass Penny",
-			"name": "Sous de Cuivre",
+			"name": "Messinggroschen",
 			"description": ""
 		},
 		{
 			"id": "Broom",
-			"name": "Balai",
+			"name": "Besen",
 			"description": ""
 		},
 		{
 			"id": "Bucket",
-			"name": "Seau",
+			"name": "Eimer",
 			"description": ""
 		},
 		{
 			"id": "Bugman’s XXXXXX Ale, pint ",
-			"name": "Cervoise de Bugman, pinte ",
-			"description": "<p>Une chope de cervoise de Burgman compte pour 4 chopes de cervoise normale pour le calcul de l'intoxication (cf page 129), et confère une immunité aux Tests de Peur pour 1d10 heures.</p>"
+			"name": "Bugmans XXXXXX Bier (Humpen)",
+			"description": "<p>Ein Humpen Bugmans zählt bezüglich der Wirkung des Alkohols als 4 Humpen normalen Bieres (siehe Zechen auf Seite 131) und macht für 1W10 Stunden immun gegen Angst-Würfe.</p>"
 		},
 		{
 			"id": "Bullet and Powder",
-			"name": "Poudre et Balles",
+			"name": "Kugel und Schießpulver",
 			"description": ""
 		},
 		{
 			"id": "Candle",
-			"name": "Bougie",
-			"description": "<p>Fourni de la lumière jusqu'à 10 mètres.</p>"
+			"name": "Kerze",
+			"description": "<p>Erleuchtet 10 Meter, wenn sie entzündet ist.</p>"
 		},
 		{
 			"id": "Canvas Tarp",
-			"name": "Bâche de toile",
+			"name": "Leinwand",
 			"description": ""
 		},
 		{
 			"id": "Cart",
-			"name": "Charette",
-			"description": "<p>Nécessite un conducteur et un animal de trait.</p>"
+			"name": "Wagen",
+			"description": "<p>Benötigt einen Fahrer und ein Zugtier.</p>"
 		},
 		{
 			"id": "Cask",
-			"name": "Tonneau",
-			"description": "<p>Capacité: 45 litres de liquide.</p>"
+			"name": "Fässchen",
+			"description": "<p>Kapazität 40 Liter Flüssigkeit</p>"
 		},
 		{
 			"id": "Cavalry Hammer",
-			"name": "Marteau de Cavalerie",
+			"name": "Reiterhammer",
 			"description": ""
 		},
 		{
 			"id": "Chalk",
-			"name": "Craie",
+			"name": "Kreide",
 			"description": ""
 		},
 		{
 			"id": "Charcoal stick",
-			"name": "Batonnet de fusain",
+			"name": "Kohlestift",
 			"description": ""
 		},
 		{
 			"id": "Chicken",
-			"name": "Poulet"
+			"name": "Hähnchen"
 		},
 		{
 			"id": "Chisel",
-			"name": "Ciseau",
+			"name": "Meißel",
 			"description": ""
 		},
 		{
 			"id": "Cloak",
-			"name": "Cape",
-			"description": "<p>Protège contre les éléments</p>"
+			"name": "Umhang",
+			"description": "<p> Schützt den Träger vor den Elementen</p>"
 		},
 		{
 			"id": "Clothing",
-			"name": "Vêtement",
+			"name": "Kleidung",
 			"description": ""
 		},
 		{
 			"id": "Coach",
-			"name": "Diligence",
-			"description": "<p>Nécessite 2 conducteurs et quatre chevaux.</p>"
+			"name": "Kutsche",
+			"description": "<p>Zwei Fahrer und vier Pferde sind der Standard.</p>"
 		},
 		{
 			"id": "Coat",
-			"name": "Manteau",
-			"description": "<p>Protège le porteur contre les éléments et le froid extrême ; sans un bon manteau ou similaire, vous recevrez des pénalites pour résister à l'exposition au froid (cf. page 181).</p>"
+			"name": "Mantel",
+			"description": "<p>Schützt den Träger vor Witterungseinflüssen und extremer Kälte; ohne einen guten Mantel oder Ähnliches erhältst du Abzüge, wenn du Kälte widerstehen musst (siehe Seite 181).</p>"
 		},
 		{
 			"id": "Comb",
-			"name": "Peigne",
+			"name": "Kamm",
 			"description": ""
 		},
 		{
 			"id": "Cooking Pot",
-			"name": "Marmite",
+			"name": "Kochtopf",
 			"description": ""
 		},
 		{
 			"id": "Coracle",
-			"name": "Coracle",
-			"description": "<p>Les coracles sont de petits bateaux légers qui conviennent pour une personne et peuvent être facilement transportés. Ils sont fait de cuir, ou d'écorce, tendu sur un cadre de bois, et dirigés à l'aide d'une seule rame.</p>"
+			"name": "Faltboot",
+			"description": "<p>Faltboote sind kleine, leichte Boote, die Platz für eine Person bieten und einfach zu transportieren sind. Sie bestehen aus Leder oder Rinde, die über einen Holzrahmen gespannt werden, und man bewegt und steuert sie mit einem einzelnen Paddel.</p>"
 		},
 		{
 			"id": "Courtly Garb",
-			"name": "Habit de Cour",
+			"name": "Höfischs Gewand",
 			"description": ""
 		},
 		{
 			"id": "Crossbow",
-			"name": "Arbalète",
+			"name": "Armbrust",
 			"description": ""
 		},
 		{
 			"id": "Crossbow Pistol",
-			"name": "Arbalète de Poing"
+			"name": "Handarmbrust"
 		},
 		{
 			"id": "Cup",
-			"name": "Coupe",
+			"name": "Becher",
 			"description": ""
 		},
 		{
 			"id": "Cutlery",
-			"name": "Couvert",
+			"name": "Besteck",
 			"description": ""
 		},
 		{
 			"id": "Dagger",
-			"name": "Dague"
+			"name": "Dolch"
 		},
 		{
 			"id": "Dart",
-			"name": "Fléchette"
+			"name": "Wurfspeer"
 		},
 		{
 			"id": "Davrich Lamp",
-			"name": "Lampe Davrich",
-			"description": "<p>Une lampe de sureté. Elle abrite une bougie qui emet une lumière vive en présence de grisou, après 1d10 rounds d'exposition à la lampe, le grisou explosera.</p>"
+			"name": "Davrich-Laterne",
+			"description": "<p>Eine Sicherheitslaterne, die das Licht einer Kerze verwendet und einst von Meistertechnicus Davrich Stephansson für die Minen des Reiklandes entwickelt wurde; sie flackert hell im „Grubengas“ (explosiven Gasen); nach 1W10 Runden, in denen die Laterne Grubengas ausgesetzt war, explodiert sie. Es ist ratsam, sich zurückzuziehen, ehe dies geschieht.</p>"
 		},
 		{
 			"id": "Deck of Cards",
-			"name": "Paquet de cartes",
+			"name": "Kartenspiel",
 			"description": ""
 		},
 		{
 			"id": "Destrier",
-			"name": "Destrier",
-			"description": "<p>Cheval entraîné pour la guerre.</p>"
+			"name": "Schlachtross",
+			"description": "<p>Ein Pferd, für den Krieg ausgebildet.</p>"
 		},
 		{
 			"id": "Dice",
-			"name": "Dé",
+			"name": "Würfel",
 			"description": ""
 		},
 		{
 			"id": "Digestive Tonic",
-			"name": "Tonique digestif",
-			"description": "<p>Octroie +20 aux Tests pour se remettre des maux d'estomacs tels que la Courante Galopante ou le Flux Sanglant (cf. page 186).</p>"
+			"name": "Verdauungstonikum",
+			"description": "<p>Gewährt +20 auf alle Würfe zum Erholen von Verdauungskrankheiten wie den Galoppierenden Durchfall oder dem Blutschiss (siehe Krankheiten und Infektionen auf Seite 186).</p>"
 		},
 		{
 			"id": "Disguise Kit",
-			"name": "Nécessaire de déguisement",
-			"description": "<p>Contient 4 déguisements ainsi que des éléments pour changer d'apparence.</p>"
+			"name": "Verkleidungsset",
+			"description": "<p>Enthält genügend Requisiten für vier Verkleidungen (zum Beispiel Perücken und Schminke) sowie andere Dinge zum Ändern deines Aussehens, wie sie von den Leuten mit der Fähigkeit Unterhalten (Schauspielerei) verwendet werden (zum Beispiel Wachs für Narben, falsches Blut und Prothesen).</p>"
 		},
 		{
 			"id": "Dog collar and lead",
-			"name": "Collier et laisse"
+			"name": "Hundehalsband und Leine"
 		},
 		{
 			"id": "Doll",
-			"name": "Poupée",
+			"name": "Puppe",
 			"description": ""
 		},
 		{
 			"id": "Draught Horse",
-			"name": "Cheval de trait",
+			"name": "Zugpferd",
 			"description": ""
 		},
 		{
 			"id": "Ear Pick",
-			"name": "Cure Oreilles",
+			"name": "Ohrlöffel",
 			"description": ""
 		},
 		{
 			"id": "Earth Root",
-			"name": "Racine de Terre",
-			"description": "<p>Annule les effets des bubons de la Peste Noire. De plus, gagnez un bonus de +10 à tous les Tests concernant cette malade. Dose : 1 / jour.</p>"
+			"name": "Erdwurzel",
+			"description": "<p>Dieses Kraut wird eingenommen, um die Auswirkungen der durch die Schwarze Pest verursachten Beulen zu negieren (obwohl die Schwellungen immer noch erheblich sind). Du erhältst zudem einen Bonus von +10 auf alle Würfe bezüglich dieser Krankheit. Dosis: 1 pro Tag.</p>"
 		},
 		{
 			"id": "Elf Arrow",
-			"name": "Flèche Elfe",
+			"name": "Elfenpfeil",
 			"description": ""
 		},
 		{
 			"id": "Elf Bow",
-			"name": "Arc Elfique"
+			"name": "Elfenbogen"
 		},
 		{
 			"id": "Engineering Marvel",
-			"name": "Merveille d'ingénierie",
-			"description": "<p>Oeuvre d'art réalisée par une Guilde d'Ingénieur. Permet d'ignorer complètement la perte d'un membre (oreille, bras, main, jambe). Si la Merveille subit une Blessure Critique, elle tombe automatiquement panne et doit être réparée (au moins 10% du prix de base, en fonction de la Blessure Critique reçue).</p>"
+			"name": "TechnicusWunderwerk",
+			"description": "<p>: Nur überaus reiche Leute können es sich leisten, eine der Technicus-Gilden mit der Herstellung eines Wunderwerkes zu beauftragen, das es erlaubt, den Verlust eines Ohres, einer Hand, eines Arms oder eines Beins vollständig zu ignorieren. Mit einem solchen Wunderwerk zischt nun Dampf und drehen sich Zahnräder, wo zuvor Blut und Muskeln arbeiteten. Solltest du je eine Kritische Verletzung an diesem Wunderwerk erleiden, stellt dieses sofort seine Funktion ein und muss kostspielig von seinem Schöpfer repariert werden (was mindestens 10% der Anschaffungskosten erfordert, abhängig von der Art der erlittenen Kritischen Verletzung).</p>"
 		},
 		{
 			"id": "Eye patch",
-			"name": "Cache Oeil",
-			"description": ""
+			"name": "Augenklappe",
+			"description": "Augenklappen werden verwendet, um vernarbte Augenhöhlen abzudecken und sind häufig verziert."
 		},
 		{
 			"id": "Face Powder",
-			"name": "Poudre pour le visage",
+			"name": "Gesichtspuder",
 			"description": ""
 		},
 		{
 			"id": "False Eye",
-			"name": "Oeil de verre",
-			"description": ""
+			"name": "Falsches Auge",
+			"description": "Besonders beliebt bei den Reichen, die keine Augenklappen tragen möchten. Falsche Augen gibt es in vielen Formen, von Holz bis zu poliertem Glas."
 		},
 		{
 			"id": "False Leg",
-			"name": "Fausse jambe",
-			"description": "<p>Une fausse jambe (ou un faux pied) vous permet d'ignorer 1 Point de Mouvement perdu par la perte de votre membre. De plus, pour 100 XP, vous pouvez récupérer le dernier point de Mouvement perdu, car vous vous entraînez à utiliser votre prothèse, et pour 200XP, vous réaprenez comment utiliser de nouveau <em>Esquive</em>.</p>"
+			"name": "Falsches Bein",
+			"description": "<p>Ein Falsches Bein (oder auch nur ein Falscher Fuß zum halben Preis) ermöglicht es dir, 1 Punkt Bewegungs-Abzug aufgrund des fehlenden Körperteils zu ignorieren. Außerdem kannst du für 100 EP auch noch den letzten Punkt des Bewegungs-Abzuges wiedererlangen, weil du dich mit der Verwendung des neuen Körperteils vertraut gemacht hast, und für 200 EP lernst du sogar wieder, Ausweichen einzusetzen. All dies erfordert natürlich, dass du dein Falsches Bein nicht verlierst.</p>"
 		},
 		{
 			"id": "Faxtoryll",
 			"name": "Faxtoryll",
-			"description": "<p>Retirent les Etats <em>Hémorragiques</em> sans Test de Guérison. Dose : 1 par Blessure Cirtique.</p>"
+			"description": "<p>Wenn sie auf eine Wunde gelegt werden, dann entfernen Umschläge mit diesem pflanzlichen Gerinnungsmittel alle Blutend-Zustände, ohne dass ein Heilen-Wurf notwendig wäre. Dosis: 1 pro Kritischer Verletzung.</p>"
 		},
 		{
 			"id": "Fish Hooks",
-			"name": "Hameçons",
+			"name": "Angelharken",
 			"description": ""
 		},
 		{
 			"id": "Flail",
-			"name": "Fléau"
+			"name": "Flegel"
 		},
 		{
 			"id": "Flask",
-			"name": "Flasque",
-			"description": "<p>Capacité : un demi-litre de liquide.</p>\n<p>&nbsp;</p>"
+			"name": "Flasche",
+			"description": "<p>Kapazität 1 halber Liter Flüssigkeit</p>"
 		},
 		{
 			"id": "Flask of Spirits",
-			"name": "Fasque de Liqueur"
+			"name": "Schnapsflasche"
 		},
 		{
 			"id": "Floor Brush",
-			"name": "Brosse",
+			"name": "Bodenbürste",
 			"description": ""
 		},
 		{
 			"id": "Foil",
-			"name": "Fleuret"
+			"name": "Florett"
 		},
 		{
 			"id": "Crowbar",
-			"name": "Pied de Biche"
+			"name": "Brecheisen"
 		},
 		{
 			"id": "Food, groceries/day",
-			"name": "Nourriture, rations/jour",
+			"name": "Lebensmittel (pro Tag)",
 			"description": ""
 		},
 		{
 			"id": "Gavel",
-			"name": "Marteau",
+			"name": "Hammer",
 			"description": ""
 		},
 		{
 			"id": "Gilded Nose",
-			"name": "Nez doré",
-			"description": "<p>En général en bois ou céramique, le terme demeure très utilisé. Vous pouvez ignorer le malus de Sociabilité lorsque vous le portez.</p>"
+			"name": "Güldene Nase",
+			"description": "<p>: Obwohl falsche Nasen meist aus Holz oder Keramik bestehen, wird dennoch häufig der Begriff Güldene Nase verwendet. Du kannst damit den Charisma-Abzug dafür ignorieren, keine Nase mehr zu haben.</p>"
 		},
 		{
 			"id": "Gloves",
-			"name": "Gants",
+			"name": "Handschuhe",
 			"description": ""
 		},
 		{
 			"id": "Gold Crown",
-			"name": "Couronne d'Or",
+			"name": "Goldkrone",
 			"description": ""
 		},
 		{
 			"id": "Grain Flail",
-			"name": "Fléau à Grain"
+			"name": "Dreschflegel"
 		},
 		{
 			"id": "Grappling Hook",
-			"name": "Grappin",
+			"name": "Enterharken",
 			"description": ""
 		},
 		{
 			"id": "Great Axe",
-			"name": "Grande Hache"
+			"name": "Zweihandaxt (2H)"
 		},
 		{
 			"id": "Guild License",
-			"name": "License de Guilde",
+			"name": "Gildenlizenz",
 			"description": ""
 		},
 		{
 			"id": "Halberd",
-			"name": "Hallebarde"
+			"name": "Hellebarde"
 		},
 		{
 			"id": "Hammer",
-			"name": "Marteau",
+			"name": "Hammer",
 			"description": ""
 		},
 		{
 			"id": "Hand Mirror",
-			"name": "Miroir à main",
+			"name": "Handspiegel",
 			"description": ""
 		},
 		{
 			"id": "Hand Weapon",
-			"name": "Arme à 1 main",
+			"name": "Handwaffe",
 			"description": ""
 		},
 		{
 			"id": "Handgun",
-			"name": "Arquebuse",
+			"name": "Muskete* (2H)",
 			"description": ""
 		},
 		{
 			"id": "Hat",
-			"name": "Chapeau",
+			"name": "Hut",
 			"description": ""
 		},
 		{
 			"id": "Healing Draught",
-			"name": "Potion de Guérison",
-			"description": "Si vous avez plus de 0 Points de Blessure, récupérez immédiatement (Bonus d'Endurance) Points de Blessure. Dose : 1 par rencontre.</p>"
+			"name": "Heiltrank",
+			"description": "<p>Wenn du mehr als 0 LP hast, dann erhältst du sofort LP in Höhe deines Widerstands-Bonus zurück. Dosis: 1 pro Begegnung.</p>"
 		},
 		{
 			"id": "Healing Poultice",
-			"name": "Cataplasme de Guérison",
-			"description": "<p>Aucune infection mineure issue d'une Blessure Critique lorsqu'appliqué.</p>"
+			"name": "Heilender Umschlag",
+			"description": "<p>Diese übelriechende medizinische Packung wird aus tierischem Dung und Urin in Kombination mit einer beliebigen Anzahl gängiger Kräuter wie Sigmalaub, Tarrabeth und Baldrian hergestellt. Du erleidest keine leichten Infektionen durch Kritische Verletzungen, die mit einem Heilenden Umschlag behandelt wurden.</p>"
 		},
 		{
 			"id": "Heartkill",
-			"name": "Brise-coeur",
-			"description": "<p>Ingéré, la mixture mortelle inflige 4 Etats <em>Empoisonné</em>. Combattu avec un <strong>Test de Resistance Complexe (-10)</strong.</p>"
+			"name": "Herztod",
+			"description": "<p>Die Kombination der Gifte einer Amphisbaena (einer seltenen, zweiköpfigen Schlange) und eines Grinderlak ergibt ein geruchloses, farbloses Gift. Bei Einnahme verursacht die tödliche Mischung 4 Vergiftet-Zustände. Würfe gegen diese Zustände sind schwierige (-10) Ausdauer-Würfe.</p>"
 		},
 		{
 			"id": "Heavy Crossbow",
-			"name": "Arbalète Lourde"
+			"name": "Schwere Armbrust"
 		},
 		{
 			"id": "Hochland Long Rifle",
-			"name": "Long Fusil d'Hochland",
+			"name": "Hochland-Langbüchse* (2H)",
 			"description": ""
 		},
 		{
 			"id": "Hoe",
-			"name": "Binette",
+			"name": "Hacke",
 			"description": ""
 		},
 		{
 			"id": "Homing Pigeon",
-			"name": "Pigeon Voyageur"
+			"name": "Brieftaube"
 		},
 		{
 			"id": "Hood",
-			"name": "Capuchon",
+			"name": "Kapuze",
 			"description": ""
 		},
 		{
 			"id": "Hook",
-			"name": "Crochet",
-			"description": "<p>Cf. page 308</p>"
+			"name": "Haken",
+			"description": "<p>: Du hast jetzt dort, wo früher eine Hand saß, einen Haken. Dieser ist ein überraschend nützliches Werkzeug, wenn man sich erst einmal daran gewöhnt hat. Du kannst den Abzug von -20 für alles, was beide Hände erfordert, für je 100 EP in 5er-Schritten reduzieren, also für insgesamt 400 EP den gesamten Abzug aufheben. Anmerkung: Im Nahkampf zählen Haken als Dolche.</p>"
 		},
 		{
 			"id": "Hunting Dog",
-			"name": "Chien de chasse"
+			"name": "Jagdhund"
 		},
 		{
 			"id": "Improvised Shot and Powder",
-			"name": "Munitions Improvisées Balles et Poudres",
+			"name": "Improvisierte Kugeln und Pulver",
 			"description": ""
 		},
 		{
 			"id": "Improvised Weapon",
-			"name": "Arme Improvisée",
+			"name": "Improvisierte Waffe",
 			"description": ""
 		},
 		{
 			"id": "Incendiary",
-			"name": "Molotof",
-			"special": "Un Molotof attribue 1+DR Etat <em>Aveuglé</em> à toutes les cibles touchées."
+			"name": "Brandflasche",
+			"special": "Eine Brandflasche verursacht bei jedem betroffenen Ziel 1+EG Brennend-Zustände."
 		},
 		{
 			"id": "Instrument",
@@ -572,642 +572,632 @@
 		},
 		{
 			"id": "Javelin",
-			"name": "Javelot"
+			"name": "Speer"
 		},
 		{
 			"id": "Jewellry",
-			"name": "Bijoux",
+			"name": "Schmuck",
 			"description": ""
 		},
 		{
 			"id": "Jug",
-			"name": "Cruche",
-			"description": "<p>Capacité: 4/5 litres de liquide.</p>"
+			"name": "Trinkschlauch",
+			"description": "<p>Kapazität 4 Liter Flüssigkeit.</p>"
 		},
 		{
 			"id": "Key",
-			"name": "Clé",
+			"name": "Schlüssel",
 			"description": ""
 		},
 		{
 			"id": "Knife",
-			"name": "Couteau"
-		},
-		{
-			"id": "Knife",
-			"name": "Couteau",
-			"description": ""
+			"name": "Messer"
 		},
 		{
 			"id": "Knuckledusters",
-			"name": "Cestes"
+			"name": "Schlagring"
 		},
 		{
 			"id": "Lamp Oil",
-			"name": "Lampe à Huile",
-			"description": "<p>Contient du combustible pour 4 heures en standard, ou 8 heures avec une flamme faible.</p>"
+			"name": "Lampenöl",
+			"description": "<p>Enthält genug Brennstoff für 4 Stunden Normalbetrieb oder 8 Stunden mit niedriger Flamme, die in ihrer Leuchtkraft einer Kerze entspricht.</p>"
 		},
 		{
 			"id": "Lance",
-			"name": "Lance",
+			"name": "Lanze",
 			"description": "",
-			"special": "Les Lances comptent comme Armes Improvisées si elles sont utilisées lors d'un round où vous n'avez pas chargé."
+			"special": "Lanzen zählen als Improvisierte Waffe, wenn sie in einer Runde eingesetzt werden, in der du keinen Sturmangriff durchgeführt hast."
 		},
 		{
 			"id": "Lantern",
 			"name": "Lanterne",
-			"description": "<p>Illumine à 20 mètres.</p>"
+			"description": "<p>Erleuchtet 20 Meter.</p>"
 		},
 		{
 			"id": "Lasso",
 			"name": "Lasso",
-			"special": "Les armes immobilisantes ne possèdent pas de fourchette de portée, juste la portée indiqée."
+			"special": "Fesselnd-Waffen haben keine Reichweiten-Stufen, nur die hier angegebene Reichweite."
 		},
 		{
 			"id": "Lead Bullet",
-			"name": "Balle de plomb",
+			"name": "Bleikugel",
 			"description": ""
 		},
 		{
 			"id": "Leaflet",
-			"name": "Brochure"
+			"name": "Flugblatt"
 		},
 		{
 			"id": "Leather Jack",
-			"name": "Veste de cuir"
+			"name": "Gambeson"
 		},
 		{
 			"id": "Leather Jerkin",
-			"name": "Justaucorps de cuir"
+			"name": "Lederwams"
 		},
 		{
 			"id": "Leather Leggings",
-			"name": "Jambières de cuir"
+			"name": "Lederbeinlinge"
 		},
 		{
 			"id": "Leather Skullcap",
-			"name": "Calotte de cuir"
+			"name": "Lederkappe"
 		},
 		{
 			"id": "Legal Document",
-			"name": "Document légal",
+			"name": "Amtliches Dokument",
 			"description": ""
 		},
 		{
 			"id": "Light Warhorse",
-			"name": "Cheval de guerre léger",
-			"description": "<p>Cheval entraîner pour la guerre</p>"
+			"name": "Leichtes Schlachtross",
+			"description": "<p>Ein Pferd, für den Krieg ausgebildet.</p>"
 		},
 		{
 			"id": "Lock Picks",
-			"name": "Outil de crochetage",
-			"description": "<p>Permet de crocheter sans malus</p>"
+			"name": "Dietrich",
+			"description": "<p>Eine Auswahl kleiner, verschieden geformter Werkzeuge, die benötigt werden, um die Fähigkeit Schlösser öffnen ohne Abzüge einzusetzen.</p>"
 		},
 		{
 			"id": "Longbow",
-			"name": "Arc long"
+			"name": "Langbogen"
 		},
 		{
 			"id": "Mad Cap Mushrooms",
-			"name": "Bonnet de Fou",
-			"description": "<p>Induisent une Rage Berserk : +10 en Force, +4 Blessures et le Talent <em>Frénésie</em>. Quand l'effet se dissipe, l'utilisateur perd 1d10 Points de Blessure. Si le consommateur n'est pas un peaux-verte : <strong>Test d'Endurance Intermédiaire</strong> ou Infection Mineure. Durée: actif tant que mâché plus 2d20 minutes. supplémentaires.</p>"
+			"name": "Grünkappiger Wahnpilz",
+			"description": "<p>Diese halluzinogenen Pilze werden vor dem Kampf von Goblin-Fanatikern verzehrt. Sie lösen eine berserkerhafte Wut aus und verleihen +10 Stärke, +4 LP und das Talent Raserei. Wenn der Effekt nachlässt, verliert der Benutzer 1W10 LP. Nicht-Grünhäute müssen zudem einen herausfordernden (+0) Ausdauer-Wurf bestehen, oder sie erhalten eine leichte Infektion. Dauer: Sobald sie gekaut werden, plus 2W10 Minuten</p>"
 		},
 		{
 			"id": "Mail Chausses",
-			"name": "Chausses de Mailles"
+			"name": "Kettenbeinlinge"
 		},
 		{
 			"id": "Mail Coat",
-			"name": "Cotte de Mailles"
+			"name": "Kettenbrünne"
 		},
 		{
 			"id": "Mail Coif",
-			"name": "Coiffe de Mailles"
+			"name": "Kettenhaube"
 		},
 		{
 			"id": "Mail Shirt",
-			"name": "Chemise de Mailles"
+			"name": "Kettenhemd"
 		},
 		{
 			"id": "Main Gauche",
-			"name": "Main Gauche"
+			"name": "Parierdolch"
 		},
 		{
 			"id": "Manacles",
-			"name": "Menottes",
-			"description": "<p>Les Prisonniers qui essayent de se libérer de menottes perdent 1 Point de Blessures et doivent réussi un <strong>Test de Force Trés Difficile(-30)</strong>.</p>"
+			"name": "Gelenkeisen (Handschellen)",
+			"description": "<p>Häftlinge, die versuchen, sich aus Gelenkeisen zu befreien, verlieren 1 LP und müssen einen sehr schweren (-30) Stärke-Wurf bestehen.</p>"
 		},
 		{
 			"id": "Mandrake Root",
-			"name": "Racine de Mandragore",
-			"description": "<p>Substance hallucinogène extrêmement addictive. Les utilisateurs doivent réussir un Test de Force Mentale à chaque round pour effectuer une Action ou un Mouvement; le Mouvement étant réduit de moitié. Les Tests de Calme reçoivent un bonus de +20. Durée : active tant qu'lle est machée plus 1d10 x 10 minutes supplémentaires.</p>"
+			"name": "Alraunwurzel",
+			"description": "<p>Dieses süchtig machende Beruhigungsmittel wächst unter Galgen und wird gekaut, um den unruhigen Geist ruhiger zu machen. Konsumenten müssen in jeder Runde einen Willenskraft-Wurf bestehen, um eine einzelne Handlung oder eine einzelne Bewegungsaktion durchführen zu können (wähle eines von beidem). Die Bewegung wird halbiert. Besonnenheits-Würfe haben jedoch einen Bonus von +20. Dauer: Sobald sie gekaut wird, plus 1W10 × 10 Minuten.</p>"
 		},
 		{
 			"id": "Map",
-			"name": "Carte"
+			"name": "Karte"
 		},
 		{
 			"id": "Mask",
-			"name": "Masque",
+			"name": "Maske",
 			"description": ""
 		},
 		{
 			"id": "Match",
-			"name": "Allumette",
+			"name": "Streichholz",
 			"description": ""
 		},
 		{
 			"id": "Meal, inn",
-			"name": "Nourriture, auberge",
+			"name": "Essen im Gasthaus",
 			"description": ""
 		},
 		{
 			"id": "Military Flail",
-			"name": "Fléau d'armes"
+			"name": "Kriegsflegel (2H)"
 		},
 		{
 			"id": "Monkey",
-			"name": "Singe",
+			"name": "Affe",
 			"description": ""
 		},
 		{
 			"id": "Moonflower",
-			"name": "Fleur de Lune",
-			"description": "<p>ce tranquilisant est une mousse séchée qui pousse seulement sur les fruilles de la forêt de Laurelorn.Les Elfes utilisent la Fleur de Lune pour traiter la Peste Noire, octroyant un Bonus de +30 à tous les Tests associés pour résister à la maladie, mais elle n'a aucun effet sur les autres races. Les autres peuvent inhaler les vapeurs en faisant bouillir la mousse et s'ils ratent un <strong>Test de Force Mentale Trés Difficile (-30)</strong>, ils gagnent un Etat <em>Inconscient</em>. Sur un succès ils reçoivent un bonus de +20 aux Tests de Calme et gagnent 1 Etat <em>Exténué</em>. Durée : 1d1° + 5 heures.</p>"
+			"name": "Mondblume",
+			"description": "<p>Dieses Betäubungsmittel ist eigentlich ein getrocknetes Moos, das nur auf Blättern im Laurelorn-Wald wächst. Elfen verwenden die Mondblume zur Behandlung der Schwarzen Pest. Sie gewährt Elfen bei allen mit der Krankheit und dem Widerstand gegen sie verbundenen Würfe einen Bonus von +30. Diesbezüglich bringt sie anderen Völkern keine Vorteile. Andere können jedoch die Dämpfe des aufkochenden Mooses inhalieren und wenn ihnen dann ein sehr schwerer (-30) Willenskraft-Wurf misslingt, dann erhalten sie einen BewusstlosZustand. Wenn sie den Wurf bestehen, erhalten sie einen Bonus von +20 auf Besonnenheits-Würfe und einen Erschöpft-Zustand. Mondblume wird von den teuersten Medici als Anästhetikum verwendet. Dauer: 1W10+5 Stunden</p>"
 		},
 		{
 			"id": "Mop",
-			"name": "Serpillière",
+			"name": "Mopp",
 			"description": ""
 		},
 		{
 			"id": "Mule",
-			"name": "Mule",
-			"description": "<p>Horse trained for war.</p>"
+			"name": "Maultier",
+			"description": ""
 		},
 		{
 			"id": "Nails ",
-			"name": "Clous ",
+			"name": "Nägel ",
 			"description": ""
 		},
 		{
 			"id": "Nightshade",
-			"name": "Belladone",
-			"description": "<p>La consommation de cette herbe plonge la victime dans un profond sommeil au bout de 2-3 heures, à moins qu'elle ne réussisse un <strong>Test de Résistance</em>. Un sommeil induit par la Belladone dure 1d10+4 heures. Dose : 1 par personne.</p>"
+			"name": "Nachtschatten",
+			"description": "<p>Der Verzehr dieses Krauts führt dazu, dass das Opfer nach 2-3 Stunden in einen tiefen Schlaf fällt, sofern ihm kein Ausdauer-Wurf gelingt. Ein Nachtschatten-Schlummer dauert 1W10+4 Stunden. Dosis: 1 pro Person.</p>"
 		},
 		{
 			"id": "Open Plate Helm",
-			"name": "Heaume ouvert"
+			"name": "Offener Helm"
 		},
 		{
 			"id": "Paint Brush",
-			"name": "Pinceau",
+			"name": "Pinsel",
 			"description": ""
 		},
 		{
 			"id": "Pan",
-			"name": "Poêle",
+			"name": "Pfanne",
 			"description": ""
 		},
 		{
 			"id": "Parchment/sheet",
-			"name": "Feuille de Parchemin"
+			"name": "Pergament (Seite)"
 		},
 		{
 			"id": "Perfume",
-			"name": "Parfum",
+			"name": "Parfüm",
 			"description": ""
 		},
 		{
 			"id": "Pestle & Mortar",
-			"name": "Mortier et Pilon",
+			"name": "Mörser und Stößel",
 			"description": ""
 		},
 		{
 			"id": "Pewter Stein",
-			"name": "Chope en étain",
+			"name": "Zinnbecher",
 			"description": ""
 		},
 		{
 			"id": "Pick",
-			"name": "Pioche de Guerre",
-			"description": ""
-		},
-		{
-			"id": "Pick",
-			"name": "Pioche",
+			"name": "Kriegshacke (2H)",
 			"description": ""
 		},
 		{
 			"id": "Pike",
-			"name": "Pique"
+			"name": "Pike (2H)"
 		},
 		{
 			"id": "Pins",
-			"name": "Epingle",
+			"name": "Stecknadeln",
 			"description": ""
 		},
 		{
 			"id": "Pipe and Tobacco",
-			"name": "Pipe et Tabac",
+			"name": "Pfeife und Tabak",
 			"description": ""
 		},
 		{
 			"id": "Pistol",
-			"name": "Pistolet",
+			"name": "Pistole",
 			"description": ""
 		},
 		{
 			"id": "Placard",
-			"name": "Placard",
+			"name": "Plakat",
 			"description": ""
 		},
 		{
 			"id": "Plate",
-			"name": "Assiette",
+			"name": "Teller",
 			"description": ""
 		},
 		{
 			"id": "Plate Bracers",
-			"name": "Brassards d'acier"
+			"name": "Plattenarme"
 		},
 		{
 			"id": "Plate Breastplate",
-			"name": "Plastron d'acier"
+			"name": "Kürass"
 		},
 		{
 			"id": "Plate Helm",
-			"name": "Heaume"
+			"name": "Helm"
 		},
 		{
 			"id": "Plate Leggings",
-			"name": "Jambières d'acier"
+			"name": "Plattenbeine"
 		},
 		{
 			"id": "Pole (3 yards)",
-			"name": "Perche (3 mètres)",
-			"description": "<p>Compte comme Arme Improvisée</p>"
+			"name": "Stange (3 Meter)",
+			"description": "<p>Eine lange Stange, wie sie zum Staken verwendet wird, zählt im Kampf als Improvisierte Waffe.</p>"
 		},
 		{
 			"id": "Pony",
-			"name": "Poney",
+			"name": "Pony",
 			"description": ""
 		},
 		{
 			"id": "Pouch",
-			"name": "Bourse",
+			"name": "Geldbeutel",
 			"description": ""
 		},
 		{
 			"id": "Quarterstaff",
-			"name": "Bâton de combat"
+			"name": "Kampfstab (2H)"
 		},
 		{
 			"id": "Quill Pen",
-			"name": "Plume d'oie",
+			"name": "Schreibfeder",
 			"description": ""
 		},
 		{
 			"id": "Rags",
-			"name": "Chiffons",
+			"name": "Lumpen",
 			"description": ""
 		},
 		{
 			"id": "Rake",
-			"name": "Rateau",
+			"name": "Rechen",
 			"description": ""
 		},
 		{
 			"id": "Ranald's Delight",
-			"name": "Délice de Ranald",
-			"description": "<p>Ce stimulant très addictif est un composé synthétique à base de soufre, de mercure et d'autres éléments. Inhaler la poudre octroie un bonus de +1 en Mouvement, +10 en F, E, Ag et FM. Cela dure 3 heures, après lesquelles l'utilisateur subit une pénalité de -2 en Mouvement et -20 en CC, Endurance, Force et Agilité. Durée : 1 jour.</p>"
+			"name": "Ranalds Entzücken",
+			"description": "<p>Dieses stark süchtig machende Stimulans ist eine synthetische Verbindung, die aus Schwefel, Quecksilber und anderen Elementen hergestellt wird. Das Einatmen des Pulvers gewährt einen Bonus von +1 auf Bewegung und +10 für Kampfgeschick, Stärke, Widerstand und Gewandtheit. Dies hält 3 Stunden lang an, danach erleidet der Benutzer einen Abzug von -2 Bewegung und -20 auf Kampfgeschick, Stärke, Widerstand und Gewandtheit. Dauer: 1 Tag</p>"
 		},
 		{
 			"id": "Rapier",
-			"name": "Rapière",
+			"name": "Rapier",
 			"description": ""
 		},
 		{
 			"id": "Rations, 1 day",
-			"name": "Rations, 1 jour",
+			"name": "Rationen (pro Tag)",
 			"description": ""
 		},
 		{
 			"id": "Reading Lens",
-			"name": "Bésicles/Lentille",
-			"description": "<p>Les bésicles de verres dotées de poignées confère un bonus de +20 aux Tests de Lire/Ecrire pour déchiffrer une écriture miniscule ou inintelligible. Les Tests de Perception pour chercher des détails précis, tels qu'une porte ou un compartiment secret reçoivent aussi un bonus de +20.</p>"
+			"name": "Leselinse",
+			"description": "<p>Glaslinsen mit Handgriff bieten einen +20 Bonus auf Lesen & Schreiben-Würfe zum Entschlüsseln von Schreiben in winziger oder unleserlicher Schrift. Bei Wahrnehmungs-Würfen zur Suche nach feinen Details wie geheimen Türen oder Fächern erhältst du ebenfalls einen Bonus von +20.</p>"
 		},
 		{
 			"id": "Religious Symbol",
-			"name": "Symbole Religieux",
+			"name": "Religiöses Symbol",
 			"description": ""
 		},
 		{
 			"id": "Repeater Handgun",
-			"name": "Arquebuse à Répétition",
+			"name": "Bündelmuskete",
 			"description": ""
 		},
 		{
 			"id": "Repeater Pistol",
-			"name": "Pistolet à Répétition",
+			"name": "Bündelpistole",
 			"description": ""
 		},
 		{
 			"id": "Riding Horse",
-			"name": "Cheval de selle",
+			"name": "Reitpferd",
 			"description": ""
 		},
 		{
 			"id": "River Barge",
-			"name": "Chaland",
-			"description": "<p>Nécessite 3 membres d'équipage.</p>"
+			"name": "Flussboot",
+			"description": "<p>Drei Besatzungsmitglieder sind der Standard.</p>"
 		},
 		{
 			"id": "Robes",
-			"name": "Robes",
+			"name": "Robe",
 			"description": ""
 		},
 		{
 			"id": "Rock",
-			"name": "Pierre"
+			"name": "Stein"
 		},
 		{
 			"id": "Room, common/night",
-			"name": "Chambre, commune/nuit",
-			"description": ""
+			"name": "Gemeinschaftsunterkunft (pro Nacht)",
+			"description": "<p>Gäste, die im gemeinsamen Schlafraum übernachten, sollten auf Diebe achten.</p>"
 		},
 		{
 			"id": "Room, private/night",
-			"name": "Chambre, privée/nuit",
-			"description": "<p>Pour 2 personnes. Les chambres pour 4 personnes coûtent le double.</p>"
+			"name": "Zimmer (pro Nacht)",
+			"description": "<p>Bietet Platz für 2 Gäste; große Zimmer kosten das Doppelte und bieten für 4 Gäste Platz.</p>"
 		},
 		{
 			"id": "Rope, 10 yards",
-			"name": "Corde, 10 mètres",
+			"name": "Seil, 10 meter",
 			"description": ""
 		},
 		{
 			"id": "Row Boat",
-			"name": "Barque",
-			"description": "<p>Un seul rameur nécessaire.</p>"
+			"name": "Ruderboot",
+			"description": "<p>Ein Ruderer ist der Standard.</p>"
 		},
 		{
 			"id": "Sack",
-			"name": "Sac",
-			"description": "<p>Nécessite 1 main pour être transporté.</p>"
+			"name": "Sack",
+			"description": "<p>Erfordert eine Hand zum Tragen</p>"
 		},
 		{
 			"id": "Sack, Large",
-			"name": "Sac, Grand",
-			"description": "<p>Nécessite 1 main pour être transporté, ou 2 mains si plein.</p>"
+			"name": "Großer Sack",
+			"description": "<p>: Erfordert eine Hand zum Tragen (oder zwei Hände, wenn er voll ist).</p>"
 		},
 		{
 			"id": "Saddle and Harness",
-			"name": "Selle et Harnais"
+			"name": "Sattel und Geschirr"
 		},
 		{
 			"id": "Saddlebags",
-			"name": "Fontes de selle",
+			"name": "Satteltaschen",
 			"description": ""
 		},
 		{
 			"id": "Salwort",
-			"name": "Soude Commune",
-			"description": "<p>Maintenu sous le nez d'une personne, l'arôme d'une branche écrasée de cette herbe retire 1 Etat <em>Assommé</em>. Dose : 1 par rencontre.</p>"
+			"name": "Salwort",
+			"description": "<p>Unter die Nase von jemandem gehalten, entfernt das Aroma eines zerbrochenen Zweiges dieser Pflanze 1 Betäubt-Zustand. Dosis: 1 pro Begegnung</p>"
 		},
 		{
 			"id": "Saw",
-			"name": "Scie",
+			"name": "Säge",
 			"description": ""
 		},
 		{
 			"id": "Scepter",
-			"name": "Sceptre",
+			"name": "Zepter",
 			"description": ""
 		},
 		{
 			"id": "Scroll Case",
-			"name": "Etui à Parchemins",
-			"description": "<p>.</p>"
+			"name": "Lederrolle für Schriften",
+			"description": ""
 		},
 		{
 			"id": "Shield",
-			"name": "Bouclier"
+			"name": "Schild"
 		},
 		{
 			"id": "Shield (Buckler)",
-			"name": "Bouclier (Parma)"
+			"name": "Schild (Buckler)"
 		},
 		{
 			"id": "Shield (Large)",
-			"name": "Bouclier (Grand)"
+			"name": "Schild (Groß)"
 		},
 		{
 			"id": "Shoes",
-			"name": "Chaussures",
+			"name": "Schuhe",
 			"description": ""
 		},
 		{
 			"id": "Shortbow",
-			"name": "Arc court"
+			"name": "Kurzbogen"
 		},
 		{
 			"id": "Sickle",
-			"name": "Faucille",
+			"name": "Sichel",
 			"description": ""
 		},
 		{
 			"id": "Signet Ring",
-			"name": "Chevalière",
-			"description": ""
+			"name": "Siegelring",
+			"description": ": Goldringe mit eingravierten Stempeln werden von Adeligen und Zunftbeamten gleichermaßen getragen, um damit jederzeit ihr Wappen oder ihre Insignien in Siegellack prägen zu können."
 		},
 		{
 			"id": "Silver Shilling",
-			"name": "Pistole d'Argent",
+			"name": "Silberschilling",
 			"description": ""
 		},
 		{
 			"id": "Sling",
-			"name": "Fronde"
+			"name": "Schleuder"
 		},
 		{
 			"id": "Sling Bag",
-			"name": "Sac en Bandoulière",
-			"description": "<p>Considéré comme porté si vous le mettez en bandoulière.</p>"
+			"name": "Umhängetasche",
+			"description": "<p>Gilt als „am Körper getragen“, wenn sie über die Schulter gehängt ist.</p>"
 		},
 		{
 			"id": "Small shot and Powder",
-			"name": "Petites munitions et Poudre",
+			"name": "Kleine Kugeln und Pulver",
 			"description": ""
 		},
 		{
 			"id": "Spade",
-			"name": "Pelle",
+			"name": "Spaten",
 			"description": ""
 		},
 		{
 			"id": "Spear",
-			"name": "Sarisse",
+			"name": "Speer",
 			"description": ""
 		},
 		{
 			"id": "Spike",
-			"name": "Pointe/Clou",
+			"name": "Eisenbolzen",
 			"description": ""
 		},
 		{
 			"id": "Spirits, pint",
-			"name": "Liqueur, pinte"
+			"name": "Schnaps (Krug)"
 		},
 		{
 			"id": "Spit",
-			"name": "Bave",
-			"description": "<p>Hallucinogène puissant : vision d'un désir profond. Après l'exposition, vous devez réussir un <strong>Test d'Endurance Trés Difficile(-30)</strong> ou être pedu dans un fantasme trés réaliste, que le MJ doit gérer. Durée : 1d10 minutes.</p>"
+			"name": "Spucke",
+			"description": "<p>: Dieses außergewöhnlich starke Halluzinogen wird aus den Täuscher-Egeln der Sümpfe des Imperiums gewonnen und bringt Visionen von etwas tief Ersehntem, zum Beispiel einer geliebten Person, die man verlor, einem toten Freund oder einem vermissten Kind. Spucke ist der auf den Straßen übliche Name dieser Substanz, die besonders bei Verzweifelten beliebt ist. Nachdem du ihr ausgesetzt warst, musst du einen sehr schweren (-30) Widerstands-Wurf bestehen oder du verlierst dich in einer vollkommen echt scheinenden Fantasie, deren Details und Auswirkungen vom SL bestimmt werden. Dauer: 1W10 Minuten.</p>"
 		},
 		{
 			"id": "Stables/night",
-			"name": "Etables/nuit"
+			"name": "Stall (pro Nacht)"
 		},
 		{
 			"id": "Staff Sling",
-			"name": "Fustibale"
+			"name": "Stabschleuder (2H)"
 		},
 		{
 			"id": "Stamp, engraved",
-			"name": "Cachet, gravé",
+			"name": "Stempel, graviert",
 			"description": ""
 		},
 		{
 			"id": "Stone Bullet",
-			"name": "Projectile de Pierre",
+			"name": "Steinkugel",
 			"description": ""
 		},
 		{
 			"id": "Storm Lantern",
-			"name": "Lampe Tempête",
-			"description": "<p>Des obturateurs protègent la flamme du vent et permettent également de diriger la lumière dans un arc de 90° ou de l'obscurcir complètement. Fournit un éclairage sur 20 mètres ou 30 quand orienté.</p>"
+			"name": "Sturmlaterne",
+			"description": "<p>Klappläden schützen die Flamme vor Wind und ermöglichen es auch, das Licht auf einen 90°-Kegel zu beschränken oder ganz abzudunkeln. Sie erleuchtet 20 Meter – oder 30, wenn du den Kegel einstellst.</p>"
 		},
 		{
 			"id": "Swordbreaker",
-			"name": "Brise-Epée"
+			"name": "Klingenbrecher"
 		},
 		{
 			"id": "Tattoo",
-			"name": "Tatouage",
+			"name": "Tätowierung",
 			"description": ""
 		},
 		{
 			"id": "Telescope",
-			"name": "Téléscope",
+			"name": "Teleskop",
 			"description": ""
 		},
 		{
 			"id": "Tent",
-			"name": "Tente",
+			"name": "Zelt",
 			"description": ""
 		},
 		{
 			"id": "Throwing Axe",
-			"name": "Hache de Lancer"
+			"name": "Wurfaxt"
 		},
 		{
 			"id": "Throwing Knife",
-			"name": "Couteau de Lancer"
+			"name": "Wurfmesser"
 		},
 		{
 			"id": "Tinderbox",
-			"name": "Boîte d'Amadou",
+			"name": "Zunderkästchen",
 			"description": ""
 		},
 		{
 			"id": "Tongs, steel",
-			"name": "Pinces en acier",
+			"name": "Zange, Stahl",
 			"description": ""
 		},
 		{
 			"id": "Trade Tools (Type)",
-			"name": "Outils Professionnels (Type)",
-			"description": "Cf. Page 305."
+			"name": "Handwerkszeug (Typ)",
+			"description": "Siehe Seite 305."
 		},
 		{
 			"id": "Tweezers",
-			"name": "Pince à épiler",
+			"name": "Pinzette",
 			"description": ""
 		},
 		{
 			"id": "Unarmed",
-			"name": "Désarmé"
+			"name": "Unbewaffnet"
 		},
 		{
 			"id": "Uniform",
-			"name": "Uniforme",
+			"name": "Uniform",
 			"description": ""
 		},
 		{
 			"id": "Vitality Draught",
-			"name": "Potion de vitalité",
-			"description": "<p>Boire cette décoction retire instanténement tous les Etats <em>Exténué</em>¨</p>"
+			"name": "Belebender Trank",
+			"description": "<p>Wenn du diesen Trank trinkst, werden sofort alle Ermüdet-Zustände entfernt.</p>"
 		},
 		{
 			"id": "Wagon",
-			"name": "Chariot",
-			"description": "<p>Nécessite un conducteur et deux chevaux.</p>"
+			"name": "Wagen",
+			"description": "<p>Ein Fahrer und zwei Pferde sind der Standard</p>"
 		},
 		{
 			"id": "Walking Cane",
-			"name": "Canne",
+			"name": "Gehstock",
 			"description": ""
 		},
 		{
 			"id": "Warhammer",
-			"name": "Marteau de Guerre",
+			"name": "Kriegshammer (2H)",
 			"description": ""
 		},
 		{
 			"id": "Waterskin",
-			"name": "Outre d'eau",
-			"description": "<p>Capacité : 4/5 litres</p>"
+			"name": "Trinkschlauch",
+			"description": "<p>Kapazität 4 Liter Flüssigkeit</p>"
 		},
 		{
 			"id": "Weirdroot",
-			"name": "Mystracine",
-			"description": "<p>Une des drogues les plus courantes de l'Empire, la mystracine doit être machée, pour apporter une sensation d'euphorie et des hallucinations agréables, dont certains suggèrent qu'elles pourraient être reliées aux Vents de la Magie. La drogue donne un bonus de +10 aux Tests d'Endurance et de Force Mentale, mais une pénalité de -10 aux Tests d'Agilité, d'Initiative et d'Intelligence. Durée : active tant qu'elle est machée plus 1d10x10 minutes supplémentaires</p>"
+			"name": "Hexenwurzel",
+			"description": "<p>Hexenwurzel ist eine der häufigsten Straßendrogen im Imperium. Sie wird gekaut und bringt Euphorie und angenehme Halluzinationen mit sich, von denen einige vermuten, dass sie mit den Winden der Magie in Verbindung stehen. Die Droge bringt einen Bonus von +10 auf Widerstands- und Willenskraft-Würfe, aber einen Abzug von -10 auf Gewandtheits-, Initiative- und Intelligenz-Würfe. Dauer: Sobald sie gekaut wird, plus 1W10×10 Minuten.</p>"
 		},
 		{
 			"id": "Whip",
-			"name": "Fouet",
-			"special": "Les armes immobilisantes ne possèdent pas de fourchette de portée, juste la portée indiquée."
+			"name": "Peitsche",
+			"special": "Fesselnd-Waffen haben keine Reichweiten-Stufen, nur die hier angegebene Reichweite."
 		},
 		{
 			"id": "Wine & Spirits, drink",
-			"name": "Vin et Liqueurs, boisson"
+			"name": "Wein & Schnaps (Becher)"
 		},
 		{
 			"id": "Wine, bottle",
-			"name": "Vin, bouteille"
+			"name": "Wein (Flasche)"
 		},
 		{
 			"id": "Wooden Teeth",
-			"name": "Dent en Bois",
-			"description": "<p>Vous ignorez toutes les pénalités dues à la perte de dents.</p>"
+			"name": "Holzzähne",
+			"description": "<p>Falsche Zähne sind oft gut geschnitzt und schön bemalt, was im Vergleich mit den Originalen gelegentlich eine deutliche Verbesserung darstellt. Mit ihnen ignorierst du alle Abzüge für Zahnverluste.</p>"
 		},
 		{
 			"id": "Workshop (Type)",
-			"name": "Atelier (Type)",
-			"description": "<p>Cf. page 305.</p>"
+			"name": "Werkstatt (Type)",
+			"description": "<p>siehe Seite 305.</p>"
 		},
 		{
 			"id": "Worms",
-			"name": "Vers"
+			"name": "Würmer"
 		},
 		{
 			"id": "Writing Kit",
-			"name": "Nécessaire d'écriture",
-			"description": "<p>Ecritoire qui renferme une plume d'oie, encrier et papier buvard</p>"
+			"name": "Schreibzeug",
+			"description": "<p>Enthält eine Schreibfeder, ein Tintenfass und einen Tintenkratzer</p>"
 		},
 		{
 			"id": "Zweihander",
-			"name": "Zweihander",
+			"name": "Zweihänder",
 			"description": ""
 		}
 	]
