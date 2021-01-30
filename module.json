@@ -24,11 +24,6 @@
          "lang" : "de",
          "name" : "Deutsch",
          "path" : "de1.json"
-   },
-   {
-         "lang" : "de",
-         "name" : "Deutsch",
-         "path" : "de2.json"
    }],
    "packs" : [],
    "scripts" : [],
