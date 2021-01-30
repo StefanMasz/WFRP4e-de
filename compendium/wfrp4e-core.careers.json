@@ -1,0 +1,2346 @@
+{
+	"label": "Karrieren",
+	"mapping": {
+    "skills": {
+      "path": "data.skills",
+      "converter": "career_skills"
+    },
+    "talents": {
+      "path": "data.talents",
+      "converter": "career_talents"
+    },
+    "class": {
+      "path": "data.class.value",
+      "converter": "generic_localization"
+    },
+    "careergroup": {
+      "path": "data.careergroup.value",
+      "converter": "career_careergroup"
+    },
+    "trappings": "data.trappings"
+  },
+	"entries": [
+		{
+			"id": "Abbess",
+			"name": "Abt",
+			"description": "",
+			"trappings": [	"Abtei","Buch (Religion)"]
+		},
+		{
+			"id": "Advisor",
+			"name": "Berater",
+			"description": "",
+			"trappings": [ "Livree" ]
+		},
+		{
+			"id": "Agent",
+			"name": "Agent",
+			"description": "",
+			"trappings": [
+				"Buch (Kryptographie)",
+				"Ring von Spionen und Informanten",
+				"Schlag mit Brieftauben",
+				"Feder und Tinte"
+			]
+		},
+		{
+			"id": "Agitator",
+			"name": "Agitator",
+			"description": "",
+			"trappings": [
+				"Gambeson"
+			]			
+		},
+		{
+			"id": "Aide",
+			"name": "Referent",
+			"description": "",
+			"trappings": [
+				"Schreibzeug"
+			]
+		},
+		{
+			"id": "Ambassador",
+			"name": "Botschafter",
+			"description": "",
+			"trappings": [
+				"Adjutant",
+				"Höfische Gewandung (mit Qualität)",
+				"Stab von Diplomaten",
+				"Herold"
+			]
+		},
+		{
+			"id": "Apothecary",
+			"name": "Apotheker",
+			"description": "",
+			"trappings": [
+				"Gildenlizenz",
+				"Handwerkszeug"
+			]
+		},		
+		{
+			"id": "Apothecary's Lehrlingce",
+			"name": "Apotheker-Lehrling",
+			"description": "",
+			"trappings": [
+				"Buch (leer)",
+				"Heiltrank",
+				"Lederwams",
+				"Mörser und Stößel"
+			]
+		},
+		{
+			"id": "Apothecary-General",
+			"name": "Hofapotheker",
+			"description": "",
+			"trappings": [
+				"Amtliche Genehmigung",
+				"Große Werkstatt"
+			]						
+		},
+		{
+			"id": "Lehrlingce Artisan",
+			"name": "Handwerkerlehrling",
+			"description": "",
+			"trappings": [
+				"Kreide",
+				"Lederwams",
+				"W10 Lappen"
+			]			
+		},
+		{
+			"id": "Lehrlingce Artist",
+			"name": "Künstlerlehrling",
+			"description": "",
+			"trappings": [
+				"Pinsel oder Meißel oder Federkie"
+			]
+		},
+		{
+			"id": "Artisan",
+			"name": "Handwerker",
+			"description": "",
+			"trappings": [
+				"Gildenlizenz",
+				"Handwerkszeug"
+			]			
+		},
+		{
+			"id": "Artist",
+			"name": "Künstler",
+			"description": "",
+			"trappings": [
+				"Umhängetasche mit Handwerkszeug (Künstler)"
+			]			
+		},
+		{
+			"id": "Assassin",
+			"name": "Assassine",
+			"description": "",
+			"trappings": [
+				"Armbrust mit 10 Bolzen",
+				"Verkleidungsset"
+			]
+		},
+		{
+			"id": "Attendant",
+			"name": "Kammerdiener",
+			"description": "",
+			"trappings": [
+				"Livree (mit Qualität)",
+				"Sturmlaterne",
+				"Zunderkästchen",
+				"Lampenöl"
+			]			
+		},
+		{
+			"id": "Bailiff",
+			"name": "Büttel",
+			"trappings": [
+				"Gambeson",
+				"3 Steuereintreiber"
+			]			
+		},
+		{
+			"id": "Bandit King",
+			"name": "Banditenkönig",
+			"trappings": [
+				"Königreich‘ mit mehreren Räuberhauptmännern",
+				"Unterschlupf"
+			]			
+		},
+		{
+			"id": "Barge Master",
+			"name": "Barkenmeister",
+			"trappings": [
+				"Hut",
+				"Flussboot mit Besatzung"
+			]			
+		},
+		{
+			"id": "Bargeswain",
+			"name": "Bootsmann",
+			"trappings": [
+				"Rucksack",
+				"Handwerkszeug (Zimmermann)"
+			]
+		},
+		{
+			"id": "Barrister",
+			"name": "Rechtsgelehrter",
+			"description": "",
+			"trappings": [
+				"Kanzlei",
+				"Assistent (Student oder Diener)"
+			]			
+		},
+		{
+			"id": "Bawd",
+			"name": "Kuppler",
+			"trappings": [
+				"Dosis Hexenwurzel",
+				"Kleidung (mit Qualität)"
+			]			
+		},
+		{
+			"id": "Beggar",
+			"name": "Bettler",
+			"description": "",
+			"trappings": [
+				"Krücke",
+				"Schale"
+			]			
+		},
+		{
+			"id": "Beggar King",
+			"name": "König der Bettler",
+			"description": "",
+			"trappings": [
+				"Unterschlupf",
+				"großes Gefolge aus Bettlern"
+			]			
+		},
+		{
+			"id": "Schwarzmarktbaron",
+			"name": "Professionnel du marché noir",
+			"trappings": [
+				"Angeheuerte Schläger",
+				"Netzwerk von Informanten",
+				"Lagerhaus"
+			]			
+		},
+		{
+			"id": "Boat-hand",
+			"name": "Deckratte",
+			"trappings": [
+				"Handwaffe (Entermesser)",
+				"Gambeson",
+				"Stange"
+			]			
+		},
+		{
+			"id": "Boatman",
+			"name": "Flussschiffer",
+			"trappings": [
+				"Seil",
+				"Ruderboot"
+			]			
+		},
+		{
+			"id": "Boatswain",
+			"name": "Bootsmann",
+			"trappings": [
+				"Handwerkszeug (Zimmermann)"
+			]			
+		},
+		{
+			"id": "Body Snatcher",
+			"name": "Leichendieb",
+			"trappings": [
+				"Brecheisen",
+				"Handkarren",
+				"Kapuzenumhang",
+				"Wagenplane"
+			]			
+		},
+		{
+			"id": "Bounty Hunter",
+			"name": "Kopfgeldjäger",
+			"trappings": [
+				"Armbrust mit 10 Bolzen",
+				"Lederkappe",
+				"Gelenkeisen (Handschellen)",
+				"Netz",
+				"Haftbefehle"
+			]			
+		},
+		{
+			"id": "Bounty Hunter General",
+			"name": "Kopfgeldjäger-Hauptmann",
+			"trappings": [
+				"Zugpferd und Karren",
+				"Kettenhemd",
+				" 4 Paar Gelenkeisen (Handschellen)"
+			]			
+		},
+		{
+			"id": "Braggart",
+			"name": "Mietling",
+			"trappings": [
+				"Gugel oder Maske",
+				"Schlagring",
+				"Gambeson"
+			]			
+		},
+		{
+			"id": "Brigand",
+			"name": "Brigant",
+			"trappings": [
+				"Schlafrolle",
+				"Handwaffe",
+				"Lederwams",
+				"Zunderkästchen"
+			]			
+		},
+		{
+			"id": "Broker",
+			"name": "Trödler",
+			"trappings": [
+				"Handwaffe",
+				"gestohlene Waren im Wert von 3W10 S"
+			]			
+		},		{
+			"id": "Burgomeister",
+			"name": "Bürgermeister",
+			"description": "",
+			"trappings": [
+				"Amtskette",
+				"Kutsche und Wächter",
+				"Kleidung (mit Qualität)",
+				"großes Stadthaus mit Garten und Dienern"
+			]			
+		},
+		{
+			"id": "Busker",
+			"name": "Straßenkünstler",
+			"trappings": [
+				"Schale",
+				"Instrument"
+			]			
+		},
+		{
+			"id": "Cargo Scavenger",
+			"name": "Frachtplünderer",
+			"trappings": [
+				"Brecheisen",
+				"großer Sack",
+				"Lederhandschuhe"
+			]			
+		},
+		{
+			"id": "Cat Burglar",
+			"name": "Einbrecherkönig",
+			"trappings": [
+				"Dunkle Kleidung",
+				"Wurfanker",
+				"Maske oder Gesichtstuch"
+			]
+		},
+		{
+			"id": "Cavalryman",
+			"name": "Kavallerist",
+			"trappings": [
+				"Kürass",
+				"Helm",
+				"leichtes Schlachtross mit Sattel und Zaumzeug",
+				"Pistole mit 10 Schuss",
+				"Schild"
+			]
+		},		
+		{
+			"id": "Chancellor",
+			"name": "Kanzler",
+			"description": "",
+			"trappings": [
+				"Reitpferd mit Sattel und Harnisch",
+				"Höfische Gewandung (mit Qualität)",
+				"Stab von Beratern und Referenten"
+			]			
+		},
+		{
+			"id": "Charlatan",
+			"name": "Scharlatan",
+			"trappings": [
+				"1 gefälschtes Dokument",
+				"2 Sätze Kleidung (mit Qualität)",
+				"Sammlung farbiger Pulver und farbigen Wassers",
+				"Sammlung von Anhängern und Glücksbringern"
+			]			
+		},
+		{
+			"id": "Chartered Engineer",
+			"name": "Hoftechnicus",
+			"description": "",
+			"trappings": [
+				"Gildenlizenz",
+				"Bibliothek (Technicus)",
+				"Handwerkszeug (Technicus, mit Qualität)",
+				"Große Werkstatt (Technicus)"
+			]			
+		},
+		{
+			"id": "Clerk",
+			"name": "Gehilfe",
+			"description": "",
+			"trappings": [
+				"Möbliertes Zimmer",
+				"feste Stiefel"
+			]
+		},
+		{
+			"id": "Coach Master",
+			"name": "Kutschmeister",
+			"trappings": [
+				"Kettenhemd",
+				"Pistole mit 10 Schuss",
+				"Umhang (mit Qualität)"
+			]			
+		},
+		{
+			"id": "Coachman",
+			"name": "Kutscher",
+			"trappings": [
+				"Donnerbüchse mit 10 Schuss",
+				"Kutschenhorn",
+				"Gambeson",
+				"Hut"
+			]			
+		},
+		{
+			"id": "Con Artist",
+			"name": "Hochstapler",
+			"trappings": [
+				"Verkleidungsset",
+				"Dietriche",
+				"viele gefälschte Dokumente"
+			]			
+		},
+		{
+			"id": "Councilor",
+			"name": "Stadtrat",
+			"trappings": [
+				"Kutsche und Fahrer",
+				"Stadthaus"
+			]			
+		},
+		{
+			"id": "Counsellor",
+			"name": "Ratgeber",
+			"description": "",
+			"trappings": [
+				"Kleidung (mit Qualität)",
+				"Referent"
+			]			
+		},
+		{
+			"id": "Courier",
+			"name": "Kurier",
+			"trappings": [
+				"Rucksack",
+				"Satteltaschen",
+				"Schild"
+			]			
+		},
+		{
+			"id": "Courier-Captain",
+			"name": "Kurier-Meister",
+			"trappings": [
+				"Kuriere",
+				"Kettenhemd",
+				"Schreibzeug"
+			]			
+		},
+		{
+			"id": "Court Physician",
+			"name": "Hofarzt",
+			"description": "",
+			"trappings": [
+				"Höfische Gewandung",
+				"Ernennungsurkunde"
+			]
+		},
+		{
+			"id": "Crime Lord",
+			"name": "Pate",
+			"trappings": [
+				"Netzwerk von Informanten",
+				"Kleidung (mit Qualität) und Hut",
+				"untergebene Bandenführer"
+			]			
+		},
+		{
+			"id": "Custodian",
+			"name": "Verwalter",
+			"description": "",
+			"trappings": [
+				"Schlüssel",
+				"Laterne",
+				"Lampenöl",
+				"Livree"
+			]			
+		},
+		{
+			"id": "Daemon Slayer",
+			"name": "Dämonenslayer",
+			"trappings": [
+				"Drachenkopf"
+			]			
+		},
+		{
+			"id": "Demagogue",
+			"name": "Demagoge",
+			"description": "",
+			"trappings": [
+				"3 Pamphletverteiler",
+				"Gönner",
+				"Druckerpresse",
+				"Beeindruckender Hut"
+			]			
+		},
+		{
+			"id": "Detective",
+			"name": "Detektiv",
+			"description": "",
+			"trappings": [
+				"Netzwerk von Informanten",
+				"Fernrohr"
+			]			
+		},
+		{
+			"id": "Diplomat",
+			"name": "Diplomat",
+			"description": "",
+			"trappings": [
+				"Adjutant",
+				"Kleidung (mit Qualität)",
+				"Karte"
+			]			
+		},
+		{
+			"id": "Dock Master",
+			"name": "Hafenmeister",
+			"trappings": [
+				"Büro samt Personal",
+				"Schreibzeug"
+			]			
+		},
+		{
+			"id": "Dockhand",
+			"name": "Dockarbeiter",
+			"trappings": [
+				"Handwaffe (Entermesser)",
+				"Lederhandschuhe"
+			]			
+		},
+		{
+			"id": "Doktor",
+			"name": "Doktor",
+			"description": "",
+			"trappings": [
+				"Lehrling",
+				"Werkstatt (Medizin)"
+			]			
+		},
+		{
+			"id": "Dragon Slayer",
+			"name": "Drachenslayer",
+			"trappings": [
+				"Riesenkopf",
+				"Wurfäxte"
+			]			
+		},
+		{
+			"id": "Duelist",
+			"name": "Duellist",
+			"description": "",
+			"trappings": [
+				"Parierdolch oder Klingenbrecher",
+				"Pistole mit 10 Schuss"
+			]			
+		},
+		{
+			"id": "Duelmaster",
+			"name": "Meisterduellant",
+			"description": "",
+			"trappings": [
+				"Rapier (mit Qualität)",
+				"Handwaffe",
+				"vertrauenswürdiger Sekundant",
+				"2 hölzerne Übungsschwerter"
+			]			
+		},
+		{
+			"id": "Engineer",
+			"name": "Technicus",
+			"description": "",
+			"trappings": [
+				"Gildenlizenz",
+				"Handwerkszeug"
+			]			
+		},
+		{
+			"id": "Entertainer",
+			"name": "Schausteller",
+			"trappings": [
+				"Kostüm",
+				"Instrument",
+				"Sammlung von Stücken (die du noch nicht lesen kannst)",
+				"Wurfwaffen"
+			]			
+		},
+		{
+			"id": "Envoy",
+			"name": "Gesandter",
+			"description": "",
+			"trappings": [
+				"Feder und Tinte",
+				"10 Blätter Pergament"
+			]			
+		},
+		{
+			"id": "Explorer",
+			"name": "Erkunder",
+			"trappings": [
+				"Sammlung von Karten",
+				"Handwerkszeug (Kartograph)"
+			]			
+		},
+		{
+			"id": "Exterminator",
+			"name": "Schädlingsbekämpfer",
+			"description": "",
+			"trappings": [
+				"Assistent",
+				"großer und bissiger Hund",
+				"Sack mit Giftködern (10 Dosen Herztod)"
+			]			
+		},
+		{
+			"id": "Fellow",
+			"name": "Dozent",
+			"description": "",
+			"trappings": [
+				"Schreibtisch",
+				"Robe"
+			]			
+		},
+		{
+			"id": "Fence",
+			"name": "Hehler",
+			"trappings": [
+				"Augenglas",
+				"Handwerkszeug (Graveur)",
+				"Schreibzeug"
+			]			
+		},
+		{
+			"id": "Fencer",
+			"name": "Fechter",
+			"description": "",
+			"trappings": [
+				"Handwaffe oder Rapier",
+				"Umhängetasche mit Kleidung und 1W10 Verbände"
+			]			
+		},
+		{
+			"id": "First Knight",
+			"name": "Erster Ritter",
+			"trappings": [
+				"Kleine Einheit Ritter"
+			]			
+		},
+		{
+			"id": "Flagellant",
+			"name": "Flagellant",
+			"trappings": [
+				"Plakat",
+				"Religiöses Symbol",
+				"Schleuder"
+			]
+		},		
+		{
+			"id": "Foreman",
+			"name": "Vormann",
+			"trappings": [
+				"Trupp Stauer",
+				"Trillerpfeife"
+			]			
+		},
+		{
+			"id": "Fortune Teller",
+			"name": "Wahrsager",
+			"trappings": [
+				"Satz Karten oder Würfel",
+				"billiger Schmuck"
+			]			
+		},
+		{
+			"id": "Gang Boss",
+			"name": "Bandenführer",
+			"trappings": [
+				"Handarmbrust mit 10 Bolzen",
+				"Bande Schläger und Halunken",
+				"Unterschlupf"
+			]			
+		},
+		{
+			"id": "Giant Slayer",
+			"name": "Riesenslayer",
+			"trappings": [
+				"Zweihandaxt",
+				"Schmuck",
+				"Trollkopf"
+			]			
+		},
+		{
+			"id": "Governor",
+			"name": "Gouverneur",
+			"description": "",
+			"trappings": [
+				"Assistent",
+				"Résidence de Gouverneur",
+				"Serviteur"
+			]			
+		},
+		{
+			"id": "Grave Robber",
+			"name": "Grabräuber",
+			"trappings": [
+				"Rucksack",
+				"Handwaffe",
+				"Spaten",
+				"Sturmlaterne und Öl"
+			]			
+		},
+		{
+			"id": "Greenfish",
+			"name": "Jungspund",
+			"trappings": [
+				"Eimer",
+				"Angelrute und Köder",
+				"Lederbeinlinge"
+			]			
+		},
+		{
+			"id": "Guard",
+			"name": "Wächter",
+			"trappings": [
+				"Bogen mit 10 Pfeilen",
+				"Kettenbrünne",
+				"Schild",
+				"Speer"
+			]			
+		},
+		{
+			"id": "Guard Officer",
+			"name": "Wachoffizier",
+			"trappings": [
+				"Kürass"
+			]
+		},
+		{
+			"id": "Guide",
+			"name": "Ortskundiger",
+			"trappings": [
+				"Handwaffe",
+				"Gambeson",
+				"feste Stiefel und Umhang",
+				"Seil"
+			]			
+		},
+		{
+			"id": "Guildmaster",
+			"name": "Gildenmeister",
+			"description": "",
+			"trappings": [
+				"Gilde",
+				"Kleidung (mit Qualität)"
+			]			
+		},
+		{
+			"id": "Hedge Apprentice",
+			"name": "Heckenlehrling",
+			"trappings": [
+				"1W10 Glücksbringer",
+				"Kampfstab",
+				"Rucksack"
+			]			
+		},
+		{
+			"id": "Hedge Master",
+			"name": "Heckenmagus",
+			"trappings": [
+				"Abgelegene Hütte",
+				"Lehrling"
+			]			
+		},
+		{
+			"id": "Hedge Witch",
+			"name": "Heckenhexer",
+			"trappings": [
+				"Gegengiftset",
+				"heilende Umschläge",
+				"Handwerkszeug (Kräuterkundiger)"
+			]			
+		},
+		{
+			"id": "Hedgewise",
+			"name": "Heckenweiser",
+			"trappings": [
+				"Sammlung von Tierschädeln",
+				"zeremonieller Umhang und Blätterkranz"
+			]			
+		},
+		{
+			"id": "Herald",
+			"name": "Herold",
+			"description": "",
+			"trappings": [
+				"Gambeson",
+				"Livree",
+				"Lederrolle für Schriftstücke"
+			]			
+		},
+		{
+			"id": "Herb Gatherer",
+			"name": "Kräutersammler",
+			"trappings": [
+				"Stiefel",
+				"Umhang",
+				"Umhängetasche mit einer Sammlung von Kräutern"
+			]			
+		},
+		{
+			"id": "Herb Master",
+			"name": "Kräutermeister",
+			"trappings": [
+				"Kräutersammler",
+				"3 heilende Umschläge",
+				"Heiltrank",
+				"Werkstatt (Kräuterkundiger)"
+			]			
+		},
+		{
+			"id": "Herbalist",
+			"name": "Kräuterkundiger",
+			"trappings": [
+				"Handwaffe (Sichel)",
+				"heilender Umschlag",
+				"Handwerkszeug (Kräuterkundiger)"
+			]			
+		},
+		{
+			"id": "Herbwise",
+			"name": "Kräuterweiser",
+			"trappings": [
+				"Pony und Karren"
+			]			
+		},
+		{
+			"id": "Hexer",
+			"name": "Hexling",
+			"trappings": [
+				"Kerzen",
+				"Kreide",
+				"Puppe",
+				"Nadeln"
+			]			
+		},
+		{
+			"id": "High Priest",
+			"name": "Hohepriester",
+			"description": "",
+			"trappings": [
+				"Robe (mit Qualität)",
+				"Religiöse Reliquie",
+				"untergeordnete Priester",
+				"Tempel"
+			]			
+		},
+		{
+			"id": "Hitman",
+			"name": "Meuchler",
+			"trappings": [
+				"Umhang",
+				"Garotte",
+				"Gift",
+				"Wurfmesser"
+			]			
+		},
+		{
+			"id": "Honor Guard",
+			"name": "Ehrenwächter",
+			"trappings": [
+				"Zweihändige Waffe oder Hellebarde",
+				"Helm",
+				"Uniform"
+			]			
+		},
+		{
+			"id": "Horseman",
+			"name": "Berittener",
+			"trappings": [
+				"Gambeson",
+				"Reitpferd mit Sattel und Zaumzeug"
+			]			
+		},
+		{
+			"id": "Huffer",
+			"name": "Lotse",
+			"trappings": [
+				"Lederwams",
+				"Seil",
+				"Ruderboot"
+			]			
+		},
+		{
+			"id": "Hunter",
+			"name": "Jäger",
+			"trappings": [
+				"Bogen mit 10 Pfeilen"
+			]			
+		},
+		{
+			"id": "Huntsmaster",
+			"name": "Jagdmeister",
+			"trappings": [
+				"Reitpferd mit Sattel und Zaumzeug",
+				"Zwinger mit Jagdhunden"
+			]			
+		},
+		{
+			"id": "Hustler",
+			"name": "Stricher",
+			"trappings": [
+				"Flasche mit Schnaps"
+			]			
+		},
+		{
+			"id": "Informer",
+			"name": "Informant",
+			"description": "",
+			"trappings": [
+				"Kohlestift",
+				"Umhängetasche mit 2 unterschiedlichen Sätzen Kleidung und Kapuzenumhang"
+			]			
+		},
+		{
+			"id": "Initiate",
+			"name": "Initiat",
+			"description": "",
+			"trappings": [
+				"Religiöses Symbol",
+				"Robe"
+			]			
+		},
+		{
+			"id": "Inquisitor",
+			"name": "Inquisitor",
+			"trappings": [
+				"Kleidung (mit Qualität)",
+				"unterstellte Verhörspezialisten"
+			]			
+		},
+		{
+			"id": "Interrogator",
+			"name": "Verhörspezialist",
+			"trappings": [
+				"Handwaffe",
+				"Folterinstrumente"
+			]			
+		},
+		{
+			"id": "Investigator",
+			"name": "Ermittler",
+			"description": "",
+			"trappings": [
+				"Gambeson",
+				"Handwaffe",
+				"Lupe",
+				"Dietrich"
+			]			
+		},
+		{
+			"id": "Judge",
+			"name": "Richter",
+			"description": "",
+			"trappings": [
+				"Hammer",
+				"Pompöse Perücke"
+			]			
+		},
+		{
+			"id": "Judicial Champion",
+			"name": "Schiedskämpfer",
+			"description": "",
+			"trappings": [
+				"2 Waffen (mit Qualität)"
+			]			
+		},
+		{
+			"id": "Knight",
+			"name": "Ritter",
+			"trappings": [
+				"Schlachtross mit Sattel und Zaumzeug",
+				"Nahkampfwaffe (1 nach Wahl)",
+				"Lanze",
+				"vollständige Plattenrüstung mit Helm"
+			]			
+		},
+		{
+			"id": "Knight of the Inner Circle",
+			"name": "Ritter des Inneren Zirkels",
+			"trappings": [
+				"Helm mit Helmschmuck",
+				"Knappe",
+				"große Einheit Ritter oder mehrere kleine Einheiten Ritter"
+			]			
+		},
+		{
+			"id": "Landsman",
+			"name": "Landratte",
+			"trappings": [
+				"Eimer",
+				"Besen",
+				"Wischlappen"
+			]			
+		},
+		{
+			"id": "Lawyer",
+			"name": "Advokat",
+			"description": "",
+			"trappings": [
+				"Gerichtsrobe",
+				"Gildenlizenz",
+				"Schreibzeug"
+			]			
+		},
+		{
+			"id": "Lector",
+			"name": "Lektor",
+			"description": "",
+			"trappings": [
+				"Bibliothek (Theologie)",
+				"untergeordnete Hohepriester"
+			]			
+		},
+		{
+			"id": "Light Cavalry Officer",
+			"name": "Kavallerieoffizier",
+			"trappings": [
+				"Satz Spielkarten",
+				"Kleidung (mit Qualität)"
+			]			
+		},
+		{
+			"id": "Light Cavalry Sergeant",
+			"name": "Rossweibel",
+			"trappings": [
+				"Schärpe"
+			]			
+		},
+		{
+			"id": "Maestro",
+			"name": "Maestro",
+			"description": "",
+			"trappings": [
+				"Große Werkstatt (Künstler)",
+				"Bibliothek (Kunst)",
+				"3 Lehrlinge"
+			]			
+		},
+		{
+			"id": "Magistrate",
+			"name": "Magistrat",
+			"description": "",
+			"trappings": [
+				"Bibliothek (Gesetze)",
+				"Robe (mit Qualität)",
+				"Amtssiegel"
+			]			
+		},
+		{
+			"id": "Magnate",
+			"name": "Edler",
+			"description": "",
+			"trappings": [
+				"2 Sätze Höfischer Gewandung (mit Qualität)",
+				"200 GK",
+				"Lehensgut",
+				"Schmuck im Wert von 200 GK",
+				"Siegelring"
+			]			
+		},
+		{
+			"id": "Master Apothecary",
+			"name": "Apotheker-Meister",
+			"description": "",
+			"trappings": [
+				"Buch (Apotheker)",
+				"Lehrling",
+				"Werkstatt"
+			]			
+		},
+		{
+			"id": "Master Artisan",
+			"name": "Meisterhandwerker",
+			"description": "",
+			"trappings": [
+				"Lehrling",
+				"Werkstatt"
+			]			
+		},
+		{
+			"id": "Master Artist",
+			"name": "Meisterkünstler",
+			"description": "",
+			"trappings": [
+				"Lehrling",
+				"Mäzen",
+				"Werkstatt (Künstler)"
+			]			
+		},
+		{
+			"id": "Master Beggar",
+			"name": "Meisterbettler",
+			"description": "",
+			"trappings": [
+				"Verkleidungsset",
+				"Versteck",
+				"Hungerleider-Gefolge"
+			]			
+		},
+		{
+			"id": "Master Bounty Hunter",
+			"name": "Meister Kopfgeldjäger",
+			"trappings": [
+				"Kettenhemd",
+				"Reitpferd mit Sattel"
+			]
+		},
+		{
+			"id": "Master Engineer",
+			"name": "Meistertechnicus",
+			"description": "",
+			"trappings": [
+				"Werkstatt"
+			]			
+		},
+		{
+			"id": "Master Fence",
+			"name": "Meisterhehler",
+			"trappings": [
+				"Pfandleiher-Geschäft"
+			]			
+		},
+		{
+			"id": "Master Investigator",
+			"name": "Meisterermittler",
+			"description": "",
+			"trappings": [
+				"Assistent",
+				"Büro"
+			]
+		},
+		{
+			"id": "Master Merchant",
+			"name": "Meisterhändler",
+			"description": "",
+			"trappings": [
+				"Stadthaus mit Dienern",
+				"Lagerhaus",
+				"100 GK"
+			]			
+		},
+		{
+			"id": "Master Miner",
+			"name": "Steiger",
+			"trappings": [
+				"Zweihändige Waffe (Kriegshacke)",
+				"Helm",
+				"Handwerkszeug (Technicus)"
+			]			
+		},
+		{
+			"id": "Master Pedlar",
+			"name": "Meisterhausierer",
+			"trappings": [
+				"Karren",
+				"Waren im Wert von mindestens 2W10 GK"
+			]			
+		},
+		{
+			"id": "Master Pilot",
+			"name": "Meisternavigator",
+			"trappings": [
+				"Deckratte",
+				"kleines Flussboot"
+			]
+		},
+		{
+			"id": "Master Smuggler",
+			"name": "Meisterschmuggler",
+			"trappings": [
+				"Flussstrolch",
+				"schnelles Flussboot"
+			]			
+		},
+		{
+			"id": "Master Thief",
+			"name": "Meisterdieb",
+			"trappings": [
+				"Handarmbrust mit 10 Bolzen"
+			]			
+		},
+		{
+			"id": "Master Wizard",
+			"name": "Meisterzauberer",
+			"description": "",
+			"trappings": [
+				"Lehrling",
+				"Leichtes Schlachtross",
+				"Magischer Gegenstand"
+			]			
+		},
+		{
+			"id": "Menial",
+			"name": "Lakai",
+			"description": "",
+			"trappings": [
+				"Besen"
+			]			
+		},
+		{
+			"id": "Merchant",
+			"name": "Kaufmann",
+			"description": "",
+			"trappings": [
+				"Flussboot oder 2 Wagen",
+				"Gildenlizenz",
+				"20 GK"
+			]			
+		},
+		{
+			"id": "Merchant Prince",
+			"name": "Handelsfürst",
+			"description": "",
+			"trappings": [
+				"Kleidung (mit Qualität)",
+				"2 Flussboote oder 4 Wagen",
+				"großes Anwesen in der Stadt,",
+				"1000 GK",
+				"2 Lagerhäuser"
+			]			
+		},
+		{
+			"id": "Messenger",
+			"name": "Bote",
+			"trappings": [
+				"Handwaffe",
+				"Gambeson",
+				"Reitpferd mit Sattel und Zaumzeug"
+			]			
+		},
+		{
+			"id": "Mine Foreman",
+			"name": "Minenaufseher",
+			"trappings": [
+				"Truppe Bergarbeiter",
+				"Schreibzeug"
+			]			
+		},
+		{
+			"id": "Miner",
+			"name": "Bergmann",
+			"trappings": [
+				"Davrich-Laterne",
+				"Handwaffe (Spitzhacke)",
+				"Lampenöl",
+				"Gambeson"
+			]			
+		},
+		{
+			"id": "Mystic",
+			"name": "Mystiker",
+			"trappings": [
+				"Sammlung von Amuletten"
+			]			
+		},
+		{
+			"id": "Noble",
+			"name": "Adeliger",
+			"description": "",
+			"trappings": [
+				"4 Dienstboten",
+				"Höfische Gewandung (mit Qualität)",
+				"Höfische Gewandung",
+				"Reitpferd mit Sattel und Harnisch oder Kutsche",
+				"Paradedolch oder Umhang (mit Qualität)",
+				"Schmuck im Wert von 50 GK"
+			]			
+		},
+		{
+			"id": "Noble Lord",
+			"name": "Fürst",
+			"description": "",
+			"trappings": [
+				"4 Sätze Höfischer Gewandung (mit Qualität)",
+				"Florett (mit Qualität) oder Handspiegel",
+				"500 GK",
+				"Schmuck im Wert von 500 GK",
+				"Ländereien"
+			]
+		},
+		{
+			"id": "OERQpwcRziRTeQRb",
+			"name": "Novize",
+			"trappings": [
+				"Lvre (Religion)",
+				"Lederwams",
+				"Religiöses Symbol",
+				"Robes",
+				"Arme (Au choix)"
+			]			
+		},
+		{
+			"id": "Novitiate",
+			"name": "Novize",
+			"description": "",
+			"trappings": [
+			"Symboles Religieux",
+				"Religiöses Symbol",
+				"Robe"
+			]
+		},
+		{
+			"id": "Nun",
+			"name": "Mönch/Nonne",
+			"description": "",
+			"trappings": [
+				"Buch (Religion)",
+				"religiöse Reliquie",
+				"Handwerkszeug (1 nach Wahl)"
+			]			
+		},
+		{
+			"id": "Officer",
+			"name": "Offizier",
+			"trappings": [
+				"Offizierspatent",
+				"Leichtes Schlachtross mit Sattel und Zaumzeug",
+				"Karte",
+				"Befehle",
+				"Einheit von Soldaten",
+				"Uniform (mit Qualität)",
+				"Rangabzeichen"
+			]			
+		},
+		{
+			"id": "Outlaw",
+			"name": "Bandit",
+			"trappings": [
+				"Bogen mit 10 Pfeilen",
+				"Schild",
+				"Zelt"
+			]			
+		},
+		{
+			"id": "Outlaw Chief",
+			"name": "Räuberhauptmann",
+			"trappings": [
+				"Helm",
+				"Reitpferd mit Sattel und Zaumzeug",
+				"Kettenhemd mit Ärmeln",
+				"Banditenbande"
+			]			
+		},
+		{
+			"id": "Pamphleteer",
+			"name": "Pamphleteverteiler",
+			"description": "",
+			"trappings": [
+				"Schreibzeug",
+				"Hammer und Nägel",
+				"Stapel Pamphlete"
+			]			
+		},
+		{
+			"id": "Pathfinder",
+			"name": "Pfadfinder",
+			"trappings": [
+				"Karte",
+				"Reitpferd mit Sattel und Zaumzeug",
+				"Satteltaschen mit Rationen für 2 Wochen",
+				"Zelt"
+			]
+		},
+		{
+			"id": "Pauper",
+			"name": "Hungerleider",
+			"description": "",
+			"trappings": [
+				"Decke (ärmliche Qualität)",
+				"Becher"
+			]			
+		},
+		{
+			"id": "Peasant",
+			"name": "Gemeiner",
+			"trappings": [
+				"Keine"
+			]			
+		},
+		{
+			"id": "Pedlar",
+			"name": "Hausierer",
+			"trappings": [
+				"Maultier und Satteltaschen",
+				"Waren im Wert von 2W10 S",
+				"Sammlung von Töpfen und Pfannen",
+				"Handwerkszeug (Bastler)"
+			]			
+		},
+		{
+			"id": "Penitent",
+			"name": "Büßer",
+			"trappings": [
+				"Religiöse Reliquie"
+			]
+		},
+		{
+			"id": "Physician",
+			"name": "Medicus",
+			"description": "",
+			"trappings": [
+				"Buch (Medizin)",
+				"Gildenlizenz",
+				"Handwerkszeug (Medizin)"
+			]
+		},
+		{
+			"id": "Physician's Lehrlingce",
+			"name": "Medicus-Lehrling",
+			"description": "",
+			"trappings": [
+				"Verbände",
+				"Heiltrank"
+			]
+		},
+		{
+			"id": "Pilot",
+			"name": "Navigator",
+			"trappings": [
+				"Stange",
+				"Sturmlaterne und Öl"
+			]			
+		},
+		{
+			"id": "Pit Champion",
+			"name": "Grubenveteran",
+			"trappings": [
+				"Kürass",
+				"Helm"
+			]			
+		},
+		{
+			"id": "Pit Fighter",
+			"name": "Grubenkämpfer",
+			"trappings": [
+				"Flegel oder Zweihändige Waffe",
+				"Handwaffe",
+				"Netz oder Peitsche",
+				"Schild oder Buckler"
+			]			
+		},
+		{
+			"id": "Pit Legend",
+			"name": "Grubenlegende",
+			"trappings": [
+				"Helm (mit Qualität)"
+			]
+		},
+		{
+			"id": "Postilion",
+			"name": "Postillon",
+			"trappings": [
+				"Warmer Mantel und Handschuhe",
+				"Peitsche"
+			]			
+		},
+		{
+			"id": "Priest",
+			"name": "Priester",
+			"description": "",
+			"trappings": [
+				"Buch (Religion)",
+				"Zeremonienrobe"
+			]			
+		},
+		{
+			"id": "Priest Captain",
+			"name": "Priestergeneral",
+			"trappings": [
+				"Religiöse Reliquie"
+			]			
+		},
+		{
+			"id": "Priest Sergeant",
+			"name": "Feldpriester",
+			"trappings": [
+				"Leichtes Schlachtross mit Sattel und Zaumzeug"
+			]			
+		},
+		{
+			"id": "Prioress General",
+			"name": "Generaloberer",
+			"description": "",
+			"trappings": [
+				"Religiöser Orden"
+			]
+		},
+		{
+			"id": "Procurer",
+			"name": "Zuhälter",
+			"trappings": [
+				"Ein Ring von Strichern"
+			]
+		},
+		{
+			"id": "Professor",
+			"name": "Professor",
+			"description": "",
+			"trappings": [
+				"Studierzimmer"
+			]			
+		},
+		{
+			"id": "Prophet of Doom",
+			"name": "Untergangsprophet",
+			"trappings": [
+				"Buch (Religion)",
+				"Gefolge (inklusive Büßer, Flagellanten und Zeloten)"
+			]			
+		},
+		{
+			"id": "Prospector",
+			"name": "Schürfer",
+			"trappings": [
+				"Kohlestift",
+				"grobe Karte",
+				"Pfanne zum Goldwaschen",
+				"Spaten"
+			]			
+		},
+		{
+			"id": "Protagonist",
+			"name": "Gedungener",
+			"trappings": [
+				"Handwaffe",
+				"Kettenhemd",
+				"Reitpferd mit Sattel und Zaumzeug",
+				"Schild"
+			]			
+		},
+		{
+			"id": "Prowler",
+			"name": "Beutelschneider",
+			"trappings": [
+				"Brecheisen",
+				"Lederwams",
+				"Sack"
+			]			
+		},
+		{
+			"id": "Pugilist",
+			"name": "Faustkämpfer",
+			"trappings": [
+				"Verbände",
+				"Schlagring",
+				"Gambeson"
+			]			
+		},
+		{
+			"id": "Rabble Rouser",
+			"name": "Aufwiegler",
+			"description": "",
+			"trappings": [
+				"Handwaffe",
+				"Pamphleteverteiler"
+			]			
+		},
+		{
+			"id": "Racketeer",
+			"name": "Halunke",
+			"trappings": [
+				"Handwaffe",
+				"Hut",
+				"Kettenhemd"
+			]
+		},
+		{
+			"id": "Rat Catcher",
+			"name": "Rattenfänger",
+			"description": "",
+			"trappings": [
+				"Tierfallen",
+				"Stab für tote Ratten"
+			]			
+		},
+		{
+			"id": "Rat Hunter",
+			"name": "Rattenjäger",
+			"description": "",
+			"trappings": [
+				"Schleuder mit Munition",
+				"Sack",
+				"kleiner-, aber bissiger Hund"
+			]			
+		},
+		{
+			"id": "Recruit",
+			"name": "Rekrut",
+			"trappings": [
+				"Dolch",
+				"Lederpanzer",
+				"Uniform"
+			]			
+		},
+		{
+			"id": "Reeve",
+			"name": "Vogt",
+			"trappings": [
+				"Pferd mit Sattel und Zaumzeug",
+				"Kürass",
+				"Büttel"
+			]
+		},
+		{
+			"id": "Ringleader",
+			"name": "Ludenkönig",
+			"trappings": [
+				"Stadthaus mit diskreter Hintertür",
+				"ein Ring von Zuhältern"
+			]		
+		},
+		{
+			"id": "River Elder",
+			"name": "Flussältester",
+			"trappings": [
+				"Hütte oder Flussboot"
+			]			
+		},
+		{
+			"id": "River Pirate",
+			"name": "Flusspirat",
+			"trappings": [
+				"Armbrust mit 10 Bolzen",
+				"Wurfanker und Seil",
+				"Flussboot"
+			]			
+		},
+		{
+			"id": "River Recruit",
+			"name": "Flussrekrut",
+			"trappings": [
+				"Handwaffe (Schwert)",
+				"Gambeson",
+				"Uniform"
+			]			
+		},
+		{
+			"id": "River Runner",
+			"name": "Flussstrolch",
+			"trappings": [
+				"Großer Sack",
+				"Maske oder Gesichtstuch",
+				"Zunderkästchen",
+				"Sturmlaterne und Öl"
+			]			
+		},
+		{
+			"id": "Riverguide",
+			"name": "Flusskundiger",
+			"trappings": [
+				"Handwaffe (Entermesser)",
+				"Sturmlaterne und Öl"
+			]
+		},
+		{
+			"id": "Riverwarden",
+			"name": "Flusswächter",
+			"trappings": [
+				"Laterne",
+				"Lampenöl",
+				"Pistole mit 10 Schuss",
+				"Schild"
+			]			
+		},
+		{
+			"id": "Riverwise",
+			"name": "Flussweiser",
+			"trappings": [
+				"Ruderboot",
+				"Sturmlaterne und Öl"
+			]	
+		},
+		{
+			"id": "Riverwoman",
+			"name": "Flussbewohner",
+			"trappings": [
+				"Aalfalle",
+				"Lederwams",
+				"Netz",
+				"Speer"
+			]
+    },
+		{
+			"id": "Road Captain",
+			"name": "Straßenhauptmann",
+			"trappings": [
+				"Leichtes Schlachtross",
+				"Pistole mit 10 Schuss",
+				"Hut (mit Qualität) und Umhang",
+				"Abteilung Straßenwächter"
+			]			
+		},    
+		{
+			"id": "Road Sergeant",
+			"name": "Straßenweibel",
+			"trappings": [
+				"Trupp Straßenwächter",
+				"Pistole mit 10 Schuss",
+				"Schild",
+				"Rangabzeichen"
+			]			
+		},
+		{
+			"id": "Straßenwächter",
+			"name": "Patrouilleur routier",
+			"trappings": [
+				"Handwaffe",
+				"Kettenhemd",
+				"Reitpferd mit Sattel und Harnisch",
+				"Seil"
+			]			
+		},
+		{
+			"id": "Route Master",
+			"name": "Linienmeister",
+			"trappings": [
+				"Mehrere Kutschen und Pferde",
+				"Karten"
+			]			
+		},
+		{
+			"id": "Runner",
+			"name": "Meldeläufer",
+			"trappings": [
+				"Lederrolle für Schriftstücke"
+			]			
+		},
+		{
+			"id": "Sage",
+			"name": "Weiser",
+			"trappings": [
+				"Handwerkszeug (Schreiben)"
+			]			
+		},
+		{
+			"id": "Scholar",
+			"name": "Gelehrter",
+			"description": "",
+			"trappings": [
+				"Zugang zu einer Bibliothek",
+				"Abschluss"
+			]			
+		},
+		{
+			"id": "Scion",
+			"name": "Adelsspross",
+			"description": "",
+			"trappings": [
+				"Höfische Gewandung",
+				"Florett oder Handspiegel",
+				"Schmuck im Wert von 3W10 GK",
+				"persönlicher Diener"
+			]			
+		},
+		{
+			"id": "Scoundrel",
+			"name": "Lügenbaron",
+			"trappings": [
+				"gefälschtes Siegel",
+				"Schreibzeug"
+			]			
+		},
+		{
+			"id": "Scout",
+			"name": "Kundschafter",
+			"trappings": [
+				"Bogen mit 10 Pfeilen",
+				"Kettenhemd"
+			]			
+		},
+		{
+			"id": "Seaman",
+			"name": "Seemann",
+			"trappings": [
+				"Handwaffe (Entermesser)",
+				"Lederwams"
+			]			
+		},
+		{
+			"id": "Seer",
+			"name": "Hellseher",
+			"trappings": [
+				"Handwerkszeug (Astrologie)"
+			]			
+		},
+		{
+			"id": "Seneschal",
+			"name": "Seneschall",
+			"description": "",
+			"trappings": [
+				"Kürass",
+				"zeremonieller Amtsstab",
+				"Stab von Meiern und Verwaltern"
+			]			
+		},
+		{
+			"id": "Sentry",
+			"name": "Torwächter",
+			"trappings": [
+				"Buckler",
+				"Lederwams",
+				"Sturmlaterne mit Öl"
+			]			
+		},
+		{
+			"id": "Sergeant",
+			"name": "Feldweibel",
+			"trappings": [
+				"Rangabzeichen",
+				"Einheit von Soldaten oder Rekruten"
+			]		
+		},
+		{
+			"id": "Servant",
+			"name": "Diener",
+			"description": "",
+			"trappings": [
+				"Livree"
+			]			
+		},
+		{
+			"id": "Sewer Jack",
+			"name": "Kanalwächter",
+			"description": "",
+			"trappings": [
+				"Abblendbare Laterne",
+				"Handwaffe",
+				"Gambeson"
+			]			
+		},
+		{
+			"id": "Ship's Master",
+			"name": "Schiffsmeister",
+			"trappings": [
+				"Seekarten",
+				"Segelschiff und Besatzung",
+				"Sextant",
+				"Fernrohr"
+			]			
+		},
+		{
+			"id": "Shipsword",
+			"name": "Flussklinge",
+			"trappings": [
+				"Enterhaken",
+				"Helm",
+				"Kettenhemd"
+			]			
+		},
+		{
+			"id": "Shipsword Master",
+			"name": "Flussoffizier",
+			"trappings": [
+				"Patrouillenboote mit Besatzung",
+				"Rangabzeichen"
+			]			
+		},
+		{
+			"id": "Sleuth",
+			"name": "Schnüffler",
+			"description": "",
+			"trappings": [
+				"Laterne",
+				"Lampenöl",
+				"Notizbuch",
+				"Feder und Tinte"
+			]			
+		},
+		{
+			"id": "Smuggler",
+			"name": "Schmuggler",
+			"trappings": [
+				"2 Fässer",
+				"Handwaffe",
+				"Gambeson",
+				"Ruderboot"
+			]			
+		},
+		{
+			"id": "Smuggler King",
+			"name": "König der Schmuggler",
+			"trappings": [
+				"Verkleidungsset",
+				"kleine Flotte von Flussbooten"
+			]			
+		},
+		{
+			"id": "Soldier",
+			"name": "Soldat",
+			"trappings": [
+				"Kürass",
+				"Helm",
+				"Waffe (1 nach Wahl)"
+			]			
+		},
+		{
+			"id": "Spy",
+			"name": "Spion",
+			"description": "",
+			"trappings": [
+				"Informant",
+				"Handwaffe",
+				"Verkleidungsset",
+				"Ring von Informanten",
+				"Fernrohr"
+			]			
+		},
+		{
+			"id": "Spymaster",
+			"name": "Meisterspion",
+			"description": "",
+			"trappings": [
+				"Büro samt Personal",
+				"großer Ring von Agenten",
+				"Spionen und Informanten"
+			]
+		},
+		{
+			"id": "Squire",
+			"name": "Knappe",
+			"trappings": [
+				"Gambeson",
+				"Kettenhemd",
+				"Reitpferd mit Sattel und Zaumzeug",
+				"Schild",
+				"Handwerkszeug (Hufschmied)"
+			]			
+		},
+		{
+			"id": "Stevedore",
+			"name": "Stauer",
+			"trappings": [
+				"Gildenlizenz",
+				"Lederwams",
+				"Pfeife und Tabak",
+				"Trägermütze"
+			]			
+		},
+		{
+			"id": "Steward",
+			"name": "Hausdiener",
+			"description": "",
+			"trappings": [
+				"Handwaffe",
+				"Gute Kleidung",
+				"Diener"
+			]			
+		},
+		{
+			"id": "Student",
+			"name": "Student",
+			"description": "",
+			"trappings": [
+				"Alkohol",
+				"Buch (je nach Wissen)",
+				"Meinungen (Empfehlungsschreiben?)",
+				"Schreibzeug"
+			]			
+		},
+		{
+			"id": "Student Engineer",
+			"name": "Technicus-Student",
+			"description": "",
+			"trappings": [
+				"Buch (Technicus)",
+				"Hammer und Eisenbolzen"
+			]			
+		},
+		{
+			"id": "Student Lawyer",
+			"name": "Student der Juristerei",
+			"description": "",
+			"trappings": [
+				"Buch (Gesetz)",
+				"Lupe"
+			]			
+		},
+		{
+			"id": "Swindler",
+			"name": "Schwindler",
+			"trappings": [
+				"Rucksack",
+				"2 Sätze Kleidung",
+				"Satz Spielkarten",
+				"Würfel"
+			]			
+		},
+		{
+			"id": "Tax Collector",
+			"name": "Steuereintreiber",
+			"trappings": [
+				"Handwaffe",
+				"kleine Kiste mit Schloss"
+			]			
+		},
+		{
+			"id": "Thief",
+			"name": "Dieb",
+			"trappings": [
+				"Handwerkszeug (Dieb)",
+				"Seil"
+			]			
+		},
+		{
+			"id": "Thief-taker",
+			"name": "Diebesfänger",
+			"trappings": [
+				"Handwaffe",
+				"Lederwams",
+				"Seil"
+			]
+		},
+		{
+			"id": "Thug",
+			"name": "Schläger",
+			"trappings": [
+				"Schlagring",
+				"Gambeson"
+			]			
+		},
+		{
+			"id": "Toll Keeper",
+			"name": "Zöllner",
+			"trappings": [
+				"Armbrust mit 10 Bolzen",
+				"Gambeson"
+			]			
+		},
+		{
+			"id": "Tomb Robber",
+			"name": "Raubgräber",
+			"trappings": [
+				"Handwaffe (Hacke)",
+				"Pferd und Karren",
+				"Gambeson",
+				"Seil",
+				"Handwerkszeug (Dieb)"
+			]			
+		},
+		{
+			"id": "Town Councilor",
+			"name": "Stadtrat",
+			"description": "",
+			"trappings": [
+				"Kutsche und Fahrer",
+				"Stadthaus"
+			]			
+		},
+		{
+			"id": "Townsman",
+			"name": "Städter",
+			"description": "",
+			"trappings": [
+				"Kleines Stadthaus",
+				"Diener",
+				"Feder und Tinte"
+			]			
+		},
+		{
+			"id": "Tracker",
+			"name": "Fährtenleser",
+			"trappings": [
+				"Rucksack",
+				"Schlafrolle",
+				"Zelt"
+			]			
+		},
+		{
+			"id": "Trader",
+			"name": "Händler",			
+			"description": "",
+			"trappings": [
+				"Abakus",
+				"Maultier und Karren",
+				"Wagenplane aus Leinwand",
+				"3W10 S"
+			]
+		},
+		{
+			"id": "Trapper",
+			"name": "Fallensteller",
+			"trappings": [
+				"Sammlung von Tierfallen",
+				"Handwaffe",
+				"feste Stiefel und Umhang",
+				"Schleuder mit 10 Steinen"
+			]			
+		},
+		{
+			"id": "Treasure Hunter",
+			"name": "Schatzjäger",
+			"trappings": [
+				"Schlafrolle",
+				"Karten",
+				"Zelt",
+				"Handwerkszeug (Technicus)",
+				"Schreibzeug"
+			]			
+		},
+		{
+			"id": "Troll Slayer",
+			"name": "Trollslayer",
+			"trappings": [
+				"Axt",
+				"Flasche mit Schnaps",
+				"Schande",
+				"Tätowierungen"
+			]			
+		},
+		{
+			"id": "Troubadour",
+			"name": "Troubadour",
+			"trappings": [
+				"Abgerichtetes Tier",
+				"Schreibzeug"
+			]			
+		},
+		{
+			"id": "Troupe Leader",
+			"name": "Ensembleleiter",
+			"trappings": [
+				"Zugpferde und Wagen (Bühne)",
+				"Fundus an Kostümen und Requisiten",
+				"ein Ensemble von Schaustellern"
+			]			
+		},
+		{
+			"id": "Vagabond",
+			"name": "Vagabund",
+			"trappings": [
+				"Rucksack",
+				"Schlafrolle",
+				"Waren im Wert von 2W10 G",
+				"Zelt"
+			]			
+		},
+		{
+			"id": "Village Elder",
+			"name": "Dorfältester",
+			"trappings": [
+				"Der Respekt des Dorfes"
+			]			
+		},
+		{
+			"id": "Villager",
+			"name": "Dörfler",
+			"trappings": [
+				"Lederwams",
+				"Handwaffe (Axt)",
+				"Handwerkszeug (passend zum Handwerk)"
+			]			
+		},
+		{
+			"id": "Wandering Trader",
+			"name": "Wanderkrämer",
+			"trappings": [
+				"Zugpferd und Wagen",
+				"Waren im Wert von mindestens 5W10 GK",
+				"50 S in bar"
+			]			
+		},
+		{
+			"id": "Warden",
+			"name": "Meier",
+			"description": "",
+			"trappings": [
+				"Handwaffe oder Bogen mit 10 Pfeilen",
+				"Reitpferd mit Sattel und Harnisch",
+				"Gambeson"
+			]			
+		},
+		{
+			"id": "Warlock",
+			"name": "Hexenmeister",
+			"trappings": [
+				"Robe",
+				"Schädel"
+			]			
+		},
+		{
+			"id": "Warrior Priest",
+			"name": "Kriegerpriester",
+			"trappings": [
+				"Kürass",
+				"Waffe (1 nach Wahl)"
+			]			
+		},
+		{
+			"id": "Watch Captain",
+			"name": "Hauptmann der Wache",
+			"description": "",
+			"trappings": [
+				"Reitpferd mit Sattel und Geschirr",
+				"Hut (mit Qualität)",
+				"Handwaffe (mit Qualität)",
+				"Rangabzeichen (mit Qualität)"
+			]			
+		},
+		{
+			"id": "Watch Recruit",
+			"name": "Rekrut der Wache",
+			"description": "",
+			"trappings": [
+				"Handwaffe",
+				"Gambeson",
+				"Uniform"
+			]			
+		},
+		{
+			"id": "Watch Sergeant",
+			"name": "Weibel der Wache",
+			"description": "",
+			"trappings": [
+				"Kürass",
+				"Helm",
+				"Rangabzeichen"
+			]			
+		},
+		{
+			"id": "Watchman",
+			"name": "Wachmann",
+			"description": "",
+			"trappings": [
+				"Stablaterne",
+				"Lampenöl",
+				"Kupferabzeichen"
+			]			
+		},
+		{
+			"id": "Witch",
+			"name": "Hexe(r)",
+			"trappings": [
+				"Kampfstab",
+				"Sack",
+				"Sammlung von Kräutern",
+				"Handwerkszeug (Kräuterkundiger)"
+			]			
+		},
+		{
+			"id": "Witch Hunter",
+			"name": "Hexenjäger",
+			"trappings": [
+				"Handarmbrust oder Pistole",
+				"hoher Hut",
+				"Gambeson",
+				"Reitpferd mit Sattel und Zaumzeug",
+				"Seil",
+				"versilbertes Schwert"
+			]			
+		},
+		{
+			"id": "Witchfinder General",
+			"name": "Hexenjäger-Hauptmann",
+			"trappings": [
+				"Höfische Gewandung (mit Qualität)",
+				"unterstellte Hexenjäger"
+			]			
+		},
+		{
+			"id": "Wizard",
+			"name": "Zauberer",
+			"description": "",
+			"trappings": [
+				"Magielizenz"
+			]			
+		},
+		{
+			"id": "Wizard Lord",
+			"name": "Erzmagier",
+			"description": "",
+			"trappings": [
+				"Lehrling",
+				"Bibliothek (Magie)",
+				"Werkstatt (Magie)"
+			]			
+		},
+		{
+			"id": "Wizard's Apprentice",
+			"name": "Zauberlehrling",
+			"description": "",
+			"trappings": [
+				"Grimoire",
+				"Kampfstab"
+			]			
+		},
+		{
+			"id": "Wrecker",
+			"name": "Strandräuber",
+			"trappings": [
+				"Handwaffe (Entermesser)",
+				"Gambeson",
+				"Sturmlaterne und Öl"
+			]			
+		},
+		{
+			"id": "Wrecker Captain",
+			"name": "Strandräuberkapitän",
+			"trappings": [
+				"Flotte von Flussbooten und Strandräuber-Besatzungen",
+				"Fass Bier",
+				"Gelenkeisen (Handschellen)"
+			]			
+		},
+		{
+			"id": "Wyrd",
+			"name": "Drudner",
+			"trappings": [
+				"Rucksack",
+				"Umhang mit mehreren Taschen",
+				"Glücksbringer"
+			]			
+		},
+		{
+			"id": "Zealot",
+			"name": "Zealot",
+			"trappings": [
+				"Flegel",
+				"zerschlissene Robe"
+			]			
+		}
+	]
+}
