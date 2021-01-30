@@ -579,5 +579,28 @@
     "ITEM.ChannelOverride" : "Kanalisieren überschreiben",
     "ITEM.ChannelPlaceholder" : "Überschreibe den Standard-Kanalisieren Fähigkeit zum Benutzen.",
     "ITEM.DefaultDifficulty" : "Standard Schwierigkeit.",
-    "ITEM.Progress" : "Fortschritt"
+    "ITEM.Progress" : "Fortschritt",
+	
+	"CHARAbbrev.WS": "KG",
+	"CHARAbbrev.BS": "BF",
+	"CHARAbbrev.S": "S",
+	"CHARAbbrev.T": "WI",
+	"CHARAbbrev.I": "I",
+	"CHARAbbrev.Ag": "GW",
+	"CHARAbbrev.Dex": "GS",
+	"CHARAbbrev.Int": "IN",
+	"CHARAbbrev.WP": "WK",
+    "CHARAbbrev.Fel": "CH",
+
+    "CHARBonus.WS": "Kampfgeschick Bonus",
+	"CHARBonus.BS": "Ballistische Fertigkeit Bonus",
+	"CHARBonus.S": "Stärke Bonus",
+	"CHARBonus.T": "Widerstand Bonus",
+	"CHARBonus.I": "Initiative Bonus",
+	"CHARBonus.Ag": "Gewandheit Bonus",
+	"CHARBonus.Dex": "Geschicklichkeit Bonus",
+	"CHARBonus.Int": "Intelligenz Bonus",
+	"CHARBonus.WP": "Willenskraft Bonus",
+    "CHARBonus.Fel": "Charisma Bonus",
+    "Bonus" : "Bonus"
 }
