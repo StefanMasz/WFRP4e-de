@@ -1304,18 +1304,28 @@
 		},
 		{
 			"id": "OERQpwcRziRTeQRb",
-			"name": "Novize",
+			"name": "Laienpriester",
 			"trappings": [
-				"Lvre (Religion)",
+				"Buch (Religion)",
 				"Lederwams",
 				"Religiöses Symbol",
-				"Robes",
-				"Arme (Au choix)"
+				"Robe",
+				"Nahkampfwaffe (1 nach Wahl)"
 			]			
 		},
 		{
 			"id": "Novitiate",
 			"name": "Novize",
+			"description": "",
+			"trappings": [
+			"Symboles Religieux",
+				"Religiöses Symbol",
+				"Robe"
+			]
+		},
+		{
+			"id": "Novitiate (Nun)",
+			"name": "Novize (Mönch/Nonne)",
 			"description": "",
 			"trappings": [
 			"Symboles Religieux",
