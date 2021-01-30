@@ -735,5 +735,40 @@
     "WFRP4E.BPandEng" : "Schießpulver- und Technicus-Waffen",
     "WFRP4E.Bow" : "Bogen",
     "WFRP4E.Crossbow" : "Armbrust",
-    "WFRP4E.Sling" : "Schleuder"
+    "WFRP4E.Sling" : "Schleuder",
+	
+	"ITEM.IsSpec" : "Spezialisiert",
+    "ITEM.NoSpec" : "Nicht spezilisiert",
+
+    "Instant" : "Sofort",
+
+    "AP" : "AP",
+    "Scatter" : "Streuung",
+    "yard" : "yard",
+    "yards" : "yards",
+    "Ammo" : "Munition",
+    "yds" : "yds",
+
+    "NAME.CombatReflexes" : "Kampfreflexe",
+    "FORTUNE.Use" : "Glückspunkt genutzt",
+    "FORTUNE.UsageRerollText" : "{character} benutzte einen Glückspunkt um den Wurf zu wiederholen.",
+    "FORTUNE.PointsRemaining" : "Verbleibende Glückspunkte:",
+    "FORTUNE.UsageAddSLText" : "{character} benutzte einen Glückspunkt um +1 EG hinzuzufügen. Der Wurf wurde aktualisiert.",
+    "DARKDEAL.Use" : "Gehe einen Dunklen Pakt ein",
+    "DARKDEAL.UsageText" : "{character} ging einen Dunklen Pakt ein und erhält einen Wiederholungswurf und +1 Korruption.",
+
+    "OPPOSED.DefenderWins" : "<b>{defender}</b> gewann gegen <b>{attacker}</b> mit {SL} EG",
+    "OPPOSED.AttackerWins" : "<b>{attacker}</b> gewann gegen <b>{defender}</b> mit {SL} EG",
+    "ROLL.Misfire" : "<b>Misfire:</b> Deine Waffe wird zerstört! Erleide {damage} Schaden an deinem primären Arm.",
+    "OPPOSED.FailedRanged" : "<b>Test Failed</b>: Vergleichender Wurf automatisch verloren",
+    "OPPOSED.Daemonic" : "<b>Daemonic</b>: Treffer ignoriert (Rolled {roll})",
+
+    "CHATOPT.ApplyDamage": "Schaden hinzufügen",
+    "CHATOPT.ApplyDamageNoAP": "Schaden hinzufügen (RP ignorieren)",
+    "CHATOPT.ApplyDamageNoTB": "Schaden hinzufügen (WIB ignorieren)",
+    "CHATOPT.ApplyDamageNoTBAP": "Schaden hinzufügen (RP und WIB ignorieren)",
+    "CHATOPT.UseFortuneReroll":"Nutze einen Glückspunkt um den Würfelwurf zu wiederholen", 
+    "CHATOPT.UseFortuneSL":"Nutze einen Glückspunkt um +1 EG zu erhalten", 
+    "CHATOPT.DarkDeal": "Gehe einen Dunklen Pakt ein um den Würfelwurf zu wiederholen (+1 Korruption)",
+    "CHATOPT.OpposeTarget": "Vergleiche mit Ziel"	
 }
