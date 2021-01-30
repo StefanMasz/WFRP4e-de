@@ -1,5 +1,16 @@
 {
-    "CHARAbbrev.WS": "KG",
+    "CHAR.WS": "Kampfgeschick",
+	"CHAR.BS": "Ballistische Fertigkeit",
+	"CHAR.S": "Stärke",
+	"CHAR.T": "Widerstand",
+	"CHAR.I": "Initiative",
+	"CHAR.Ag": "Gewandtheit",
+	"CHAR.Dex": "Geschicklichkeit",
+	"CHAR.Int": "Intelligenz",
+	"CHAR.WP": "Willenskraft",
+    "CHAR.Fel": "Charisma",
+	
+	"CHARAbbrev.WS": "KG",
 	"CHARAbbrev.BS": "BF",
 	"CHARAbbrev.S": "S",
 	"CHARAbbrev.T": "WI",

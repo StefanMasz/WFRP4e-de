@@ -579,16 +579,5 @@
     "ITEM.ChannelOverride" : "Kanalisieren überschreiben",
     "ITEM.ChannelPlaceholder" : "Überschreibe den Standard-Kanalisieren Fähigkeit zum Benutzen.",
     "ITEM.DefaultDifficulty" : "Standard Schwierigkeit.",
-    "ITEM.Progress" : "Fortschritt",
-
-    "CHAR.WS": "Kampfgeschick",
-	"CHAR.BS": "Ballistische Fertigkeit",
-	"CHAR.S": "Stärke",
-	"CHAR.T": "Widerstand",
-	"CHAR.I": "Initiative",
-	"CHAR.Ag": "Gewandtheit",
-	"CHAR.Dex": "Geschicklichkeit",
-	"CHAR.Int": "Intelligenz",
-	"CHAR.WP": "Willenskraft",
-    "CHAR.Fel": "Charisma"
+    "ITEM.Progress" : "Fortschritt"
 }
