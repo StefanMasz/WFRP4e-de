@@ -618,5 +618,17 @@
     "SPEC.Average" : "Normal",
     "SPEC.Large" : "Groß",
     "SPEC.Enormous" : "Enorm",
-    "SPEC.Monstrous" : "Monströs"
+    "SPEC.Monstrous" : "Monströs",
+	
+	"NAME.BP" : "Messinggroschen",
+    "NAME.SS" : "Silberschilling",
+    "NAME.GC" : "Goldkrone",
+
+    "NAME.BPPlural" : "Messinggroschen",
+    "NAME.SSPlural" : "Silberschillinge",
+    "NAME.GCPlural" : "Goldkronen",
+
+    "TIER.Gold" : "Gold",
+    "TIER.Silver" : "Silber",
+    "TIER.Brass" : "Messing"
 }
