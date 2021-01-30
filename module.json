@@ -23,7 +23,7 @@
    "languages" : [{
          "lang" : "de",
          "name" : "Deutsch",
-         "path" : "de.json"
+         "path" : "de1.json"
    }],
    "packs" : [],
    "scripts" : [],
