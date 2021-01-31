@@ -755,6 +755,10 @@
 			"name": "Offener Helm"
 		},
 		{
+			"id": "Plate Open Helm",
+			"name": "Offener Helm"
+		},
+		{
 			"id": "Paint Brush",
 			"name": "Pinsel",
 			"description": ""
