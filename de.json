@@ -684,6 +684,7 @@
     "SPEC.Explosives" : "Explosiv",
     "SPEC.Sling" : "Schleuder",
     "SPEC.Throwing" : "Werfen",
+    "SPEC.Dodge" : "Ausweichen",
 
     "SHEET.DupPrompt" : "Möchtest du diesen Gegenstand duplizieren?",
     "SHEET.DupTitle" : "Gegenstand duplizieren",
