@@ -1,5 +1,5 @@
 {
-	"label": "Prières",
+	"label": "Gebete",
 	"mapping": {
     "pduration": {
       "path": "data.duration.value",
