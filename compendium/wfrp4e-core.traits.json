@@ -1,0 +1,450 @@
+{
+	"label": "Traits",
+	"entries": [
+		{
+			"id": "# Tentacles",
+			"name": "# Tentakel (Wert)",
+			"description": "<p>Die Kreatur hat eine # entsprechende Anzahl von Tentakeln. Pro Tentakel erhält sie eine einzelne Freie Attacke. Jede Attacke eines Tentakels richtet Schaden in Höhe des Wertes an, wobei der Stärke-Bonus bereits einberechnet ist. Wenn sie Schaden verursacht, kann die Kreatur bei ihrem Gegner auch einen Gefesselt-Zustand verursachen, der als Einleiten eines Packens des Zieles mit diesem Tentakel gilt. Wenn ein Tentakel ein Ziel packt, dann wird zur Abhandlung die Freie Attacke des Tentakels verwendet, nicht die Handlung der Kreatur (siehe Seite 338).</p>"
+		},
+		{
+			"id": "Tentacles",
+			"name": "Tentakel",
+			"description": "<p>Die Kreatur hat eine # entsprechende Anzahl von Tentakeln. Pro Tentakel erhält sie eine einzelne Freie Attacke. Jede Attacke eines Tentakels richtet Schaden in Höhe des Wertes an, wobei der Stärke-Bonus bereits einberechnet ist. Wenn sie Schaden verursacht, kann die Kreatur bei ihrem Gegner auch einen Gefesselt-Zustand verursachen, der als Einleiten eines Packens des Zieles mit diesem Tentakel gilt. Wenn ein Tentakel ein Ziel packt, dann wird zur Abhandlung die Freie Attacke des Tentakels verwendet, nicht die Handlung der Kreatur (siehe Seite 338).</p>"
+		},
+		{
+			"id": "Afraid",
+			"name": "Furcht (Ziel)",
+			"description": "<p>Die Kreatur fürchtet sich vor dem Ziel und behandelt es, als würde es Angst (0) verbreiten. Mehr zu Angst auf Seite 190.</p>"
+		},
+		{
+			"id": "Amphibious",
+			"name": "Amphibisch",
+			"description": "<p>Die Kreatur lebt im Wasser. Sie kann ihren Gewandtheits-Bonus zu den EG aller Schwimmen-Würfe addieren und sich im Wasser mit vollem Bewegungs-Wert bewegen.</p>"
+		},
+		{
+			"id": "Animosity",
+			"name": "Feindseligkeit (Ziel)",
+			"description": "<p>Die Kreatur mag das Ziel nicht. Mehr zu Feindseligkeit auf Seite 190.</p>"
+		},
+		{
+			"id": "Arboreal",
+			"name": "Waldbewohner",
+			"description": "<p>Die Kreatur ist in den Wäldern zu Hause. In den Wäldern kann sie ihren Gewandtheits-Bonus zum EG bei allen Klettern- und Schleichen-Würfen addieren.</p>"
+		},
+		{
+			"id": "Armour",
+			"name": "Rüstung (Wert)",
+			"description": "<p>Die Kreatur wird durch Rüstung oder dicke Haut geschützt. Sie hat eine Rüstungspunkte in Höhe des Wertes an allen Treffzonen.</p>"
+		},
+		{
+			"id": "Belligerent",
+			"name": "Kampflustig",
+			"description": "<p>Die Kreatur liebt es, Kämpfe zu gewinnen. Solange sie im Kampf mehr Vorteile als ihr Gegner hat, ist sie Immun gegen Psychologie (siehe Seite 340).</p>"
+		},
+		{
+			"id": "Bestial",
+			"name": "Tierhaft",
+			"description": "<p>Die Kreatur ist nicht zu höherem Denken oder Sprache in der Lage. Sie meidet Feuer und erhält einen Demoralisiert-Zustand, wenn sie davon getroffen wird. Zur Verteidigung verwendet sie nur die Ausweichen-Fähigkeit. Wenn sie mehr als die Hälfte ihrer LP verliert, wird sie versuchen zu fliehen, sofern sie nicht ihre Jungen schützt, in die Enge getrieben ist oder die Eigenschaft Territorial besitzt. Sollte mindestens einer dieser Umstände zutreffend sein, verfällt sie, statt zu fliehen in Raserei (siehe Seite 190). Tierhafte Kreaturen haben keinen Charisma-Wert.</p>"
+		},
+		{
+			"id": "Big",
+			"name": "Gewaltig",
+			"description": "<p>Die Kreatur ist ein großes Beispiel ihrer Art. Sie erhält +10 Stärke, +10 Widerstand und -5 Gewandtheit.</p>"
+		},
+		{
+			"id": "Bite",
+			"name": "Biss",
+			"description": "<p>Die Kreatur kann in ihrem Zug eine einzelne Freie Attacke durchführen, indem sie 1 Vorteil ausgibt. Der Schaden des Angriffs entspricht dem Wert und beinhaltet bereits den Stärke-Bonus der Kreatur.</p>"
+		},
+		{
+			"id": "Blessed",
+			"name": "Gesegnet (Verschieden)",
+			"description": "<p>Die Kreatur ist gesegnet und kann Segnungen durchführen; die jeweilige Gottheit ist in Klammern angegeben.</p>"
+		},
+		{
+			"id": "Bounce",
+			"name": "Hüpfen",
+			"description": "<p>Die Kreatur kann sehr hoch springen, sei es durch starke Gliedmaßen, Magie oder Stummelflügel. Während des Sturmangriffs oder Rennens wird ihr Bewegungs-Wert verdoppelt und sie kann im Weg befindliches Gelände und Charaktere ignorieren, da sie darüber hinwegspringt.</p>"
+		},
+		{
+			"id": "Breath",
+			"name": "Odem Wert (Art)",
+			"description": "<p>Der Atem der Kreatur ist eine mächtige Waffe. Während ihres Zuges, kann die Kreatur für den Preis von 2 Vorteilen ihren Odem als eine einzelne Freie Attacke einsetzen. Wähle 1 Ziel, das sich innerhalb von 20+Widerstands-Bonus Metern in Sichtlinie befindet. Alle Charaktere innerhalb einer Distanz von Stärke-Bonus Meter um dieses Ziel, sowie alle Charaktere zwischen der Kreatur und ihrem Ziel werden getroffen. Führe einen Vergleichenden Ballistische Fertigkeit/Ausweichen-Wurf gegen alle betroffenen Ziele durch (die Kreatur würfelt nur einmal, während die Ziele jedes für sich werfen). Alle Ziele, deren Wurf misslingt, erleiden Schaden in Höhe des Wertes. Wenn die Eigenschaft mit einer oder mehreren Arten in Klammern gekennzeichnet ist, kommen zusätzlich noch deren Regeln zur Anwendung.</p><ul><li>Elektrizität: Schaden durch den Odem ignoriert Rüstungspunkte.Ziele erhalten einen Betäubt- Zustand.</li><li>Feuer: Schaden durch den Odem ignoriert Rüstungspunkte. Ziele erhalten einen Brennend-Zustand.</li><li>Gift: Schaden durch den Odem ignoriert Rüstungspunkte, Ziele erhalten einen Vergiftet-Zustand.</li><li>Kälte: Ziele erhalten für jede 5 verlorene LP einen Betäubt-Zustand (mindestens 1).</li><li>Korrosion: Alle von betroffenen Zielen getragenen Rüstungen und Waffen erleiden 1 Schaden.</li><li>Rauch: Der Bereich füllt sich mit Rauch und blockiert die Sichtlinien für eine Anzahl von Runden, die dem Widerstands-Bonus entspricht</li></ul><p>Die Kreatur ist immun gegen ihren eigenen Odem. Diese Attacke ist magisch.</p>"
+		},
+		{
+			"id": "Brute",
+			"name": "Rohling",
+			"description": "<p>Die Kreatur ist massig und grobschlächtig. Sie erhält -1 Bewegung, -10 Gewandtheit, +10 Stärke und +10 Wiederstand.</p>"
+		},
+		{
+			"id": "Champion",
+			"name": "Champion",
+			"description": "<p>The creature is an extraordinarily skilled warrior. If it wins an Opposed Test when defending in melee combat, it can cause Damage just as if it was the attacker.</p>"
+		},
+		{
+			"id": "Chill Grasp",
+			"name": "Eisiger Grif",
+			"description": "<p>Die Berührung der Kreatur lässt die Seelen ihrer Feinde erfrieren. Für den Preis von 2 Vorteilen und ihrer Handlung kann sie einen Vergleichenden Kampfgeschick/Nahkampf- oder Ausweichen-Wurf durchführen. Wenn sie gewinnt, verliert sein Ziel 1W10+EG LP ohne Modifikation durch Widerstands-Bonus oder Rüstungspunkte. Diese Attacke ist magisch.</p>"
+		},
+		{
+			"id": "Clever",
+			"name": "Durchtrieben",
+			"description": "<p>Die Kreatur ist besonders scharfsinnig. Sie erhält +20 Intelligenz und +10 Initiative.</p>"
+		},
+		{
+			"id": "Cold Blooded",
+			"name": "Kaltblütig",
+			"description": "<p>Die Kreatur ist kaltblütig und reagiert langsam. Sie kann bei misslungenen Willenskraft-Würfen das Wurfergebnis umkehren.</p>"
+		},
+		{
+			"id": "Constrictor",
+			"name": "Würger",
+			"description": "<p>Die Kreatur kann ihre Beute umschlingen und zerquetschen. Jeder gelungene Trefferwurf sorgt für einen Gefesselt-Zustand beim Ziel. Die Kreatur kann dann auf Wunsch auch noch versuchen, den Gegner zu packen. Siehe Seite 163.</p>"
+		},
+		{
+			"id": "Construct",
+			"name": "Konstrukt",
+			"description": "<p>Die Kreatur ist ein magisches Konstrukt, das völlig geistlos ist und von magischen Banden zusammengehalten wird. Es hat keinen Intelligenz-, Willenskraft- oder Charisma-Wert und muss niemals für diese Werte würfeln. Wenn es weder einen Zauberer hat, der es kontrolliert, noch die Eigenschaft Territorial besitzt, bewegt es sich einfach gedankenlos dahin und folgt dem Fluss der Umgebungsmagie.</p><p>Zur Berechnung der LP verwendet es den Stärke-Bonus, wann immer ein Willenskraft-Bonus erforderlich ist. Alle Attacken sind magisch.</p>"
+		},
+		{
+			"id": "Corrosive Blood",
+			"name": "Beißendes Blut",
+			"description": "<p>Das Blut der Kreatur ist ätzend. Jedes Mal, wenn sie LP verliert, spritzt Blut umher und alle mit ihr im Nahkampf gebundenen Ziele verlieren 1W10 LP, modifiziert durch den Widerstands-Bonus und der Rüstungspunkte, mit einem Minimum von 1.</p>"
+		},
+		{
+			"id": "Corruption",
+			"name": "Korrumpierend (Stärke)",
+			"description": "<p>Die Kreatur ist vom Chaos befleckt oder von Schwarzer Magie erfüllt. Die Stärke der Korrumpierenden Einflusses ist in Klammern angegeben. Siehe Seite 182.</p>"
+		},
+		{
+			"id": "Cunning",
+			"name": "Gerissen",
+			"description": "<p>Die Kreatur ist außergewöhnlich gerissen. Sie erhält +10 Initiative, +10 Intelligenz und +10 Charisma.</p>"
+		},
+		{
+			"id": "Daemonic",
+			"name": "Dämonisch (Wert)",
+			"description": "<p>Die Essenz der Kreatur besteht aus roher Magie, und die unheilige Säfte pumpen durch das, was ihre Adern darstellt. Dämonische Kreaturen sind nicht auf die normalen Voraussetzungen von Leben angewiesen, also auf Nahrung, Wasser, Luft etc.</p><p>Alle Attacken sind magisch. Würfle 1W10, nachdem sie irgendeinem Treffer erhalten hat. Wenn sie den Wert oder höher würfelt, wird der Treffer ignoriert, selbst wenn er kritisch war. Wenn die Kreatur auf 0 LP reduziert wird, kehrt die Essenz sofort in das Reich des Chaos zurück und sie wird aus dem Spiel entfernt.</p>"
+		},
+		{
+			"id": "Dark Vision",
+			"name": "Dunkelsicht",
+			"description": "<p>Die Kreatur kann bei Dunkelheit so gut wie bei Tageslicht sehen</p>"
+		},
+		{
+			"id": "Die Hard",
+			"name": "Nicht totzukriegen",
+			"description": "<p>Egal wie schwer die Kreatur getroffen wird, sie wird wieder aufstehen. Alle Kritischen Verletzungen, die nicht zum Tod führen, können geheilt werden. Befestige einfach die abgetrennten Körperteile an den richtigen Stellen, zum Beispiel mit Nägeln oder Nadel und Faden, um sie an Ort und Stelle zu halten. Sogar der „Tod“ kann „geheilt“ werden, wenn die entsprechenden Teile (zum Beispiel ein verlorener Kopf ) wieder am Körper befestigt wurden. Wenn der Tod eintritt und alle Teile vorhanden sind, kann ab dem Tod Widerstand-Bonus Runden lang am Anfang jeder Runde ein herausfordernder (+0) Ausdauer-Wurf versucht werden, der 6 EG nach dem Tod erfordert. Wenn ein Wurf erfolgreich ist, kehrt die Kreatur mit 1 LP zurück ins Leben.</p>"
+		},
+		{
+			"id": "Disease",
+			"name": "Krankheit (Typ)",
+			"description": "<p>Die Kreatur ist Überträger der angegebenen Krankheit. Andere müssen entsprechend für Ansteckung würfeln. Siehe Seite 186.</p>"
+		},
+		{
+			"id": "Distracting",
+			"name": "Verstörend",
+			"description": "<p>Die Kreatur verwirrt oder wirkt ablenkend auf ihre Feinde, möglicherweise durch einen moschusartigen Duft, übelriechenden Gestank oder durch ein besonders bizarres oder erschreckendes Aussehen. Alle lebenden Ziele innerhalb einer Anzahl von Metern, die ihrem WiderstandsBonus entspricht, erleiden einen Abzug von -20 auf alle Würfe. Jedes Ziel kann diesem Abzug nur einmal zur gleichen Zeit unterliegen, egal wie viele verstörende Feinde gerade ringsum sind.</p>"
+		},
+		{
+			"id": "Elite",
+			"name": "Elite",
+			"description": "<p>Die Kreatur ist ein hartgesottener Veteran. Sie erhält +20 auf Kampfgeschick, +20 auf Ballistische Fertigkeit und +20 auf Willenskraft.</p>"
+		},
+		{
+			"id": "Ethereal",
+			"name": "Ätherisch",
+			"description": "<p>Der Körper der Kreatur ist substanzlos, sodass sie feste Objekte passieren kann. Sie kann nur durch magische Attacken verwundet werden.</p>"
+		},
+		{
+			"id": "Fast",
+			"name": "Schnell",
+			"description": "<p>Die Kreatur bewegt sich ungewöhnlich schnell. Sie erhält +1 Bewegung und +10 Gewandtheit.</p>"
+		},
+		{
+			"id": "Fear",
+			"name": "Angst (Wert)",
+			"description": "<p>Die Kreatur verursacht übernatürliche Angst in anderen Kreaturen, wobei der Wert den Angst-Wert angibt. Siehe Seite 190</p>"
+		},
+		{
+			"id": "Flight",
+			"name": "Fliegen (Wert)",
+			"description": "<p>Als Bewegungsaktion kann die Kreatur bis zu dem Wert in Metern weit fliegen. Während des Fluges werden im Weg befindliches Gelände, Hindernisse oder Charaktere ignoriert. Am Ende ihrer Bewegungsaktion entscheidet die Kreatur, ob sie landet oder weiterfliegt. Sie kann diese Bewegung zum Sturmangriff nutzen. Wenn sie ihren Zug fliegend beginnt, muss sie als Bewegungsaktion fliegen wählen. Wenn dies nicht möglich ist, entscheidet der SL, wie tief die Kreatur fällt (siehe Seite 166).</p><p>Wenn die Kreatur im Flug als Ziel gewählt wird, bestimmst du die horizontale Entfernung wie gewohnt und erhöhst dann die Entfernung um eine Stufe. Aus einem Schuss mit Langer Reichweite würde also einer mit Extremer Reichweite werden und wenn es ein Schuss mit Extremer Reichweite ist, der um eine Entfernungsstufe gesteigert werden muss, kann überhaupt nicht geschossen werden.</p><p>Beim Fliegen erleidet die Kreatur einen Abzug von -20 auf alle Würfe für Fernangriffe, da das Fliegen ständige Bewegung und Manöver erfordert.</p>"
+		},
+		{
+			"id": "Frenzy",
+			"name": "Raserei",
+			"description": "<p>Die Kreatur unterliegt Raserei. Siehe Seite 190.</p>"
+		},
+		{
+			"id": "Fury",
+			"name": "Zorn",
+			"description": "<p>Die Kreatur kann sich selbst in eine alles verzehrende Wut steigern. Sie kann ihre gesamten Vorteile (mindestens 1) dafür ausgeben, in Hass gegenüber einem Nahkampfgegner zu verfallen. Wenn die Kreatur mindestens 3 Vorteile hat, kann sie stattdessen ihre gesamten Vorteile aufwenden, um sich in Raserei zu steigern. Siehe Seite 190.</p>"
+		},
+		{
+			"id": "Ghostly Howl",
+			"name": "Geisterhaftes Heulen",
+			"description": "<p>Die Kreatur kann ein grausiges Heulen von sich geben, das buchstäblich dazu imstande ist, diejenigen vor Angst sterben zu lassen, die es hören. Die Kreatur kann all ihre Vorteile ausgeben (mindestens 2), um eine einzelne Freie Attacke in Form eines abscheulichen Schreies auszulösen.</p><p>Alle lebenden Ziele innerhalb einer Anzahl von Metern, die der Initiative der Kreatur entsprechen, erhalten sofort 3 Ertaubt-Zustände und verlieren 1W10 LP, wobei der Widerstands-Bonus und die Rüstungspunkte ignoriert werden. Die Betroffenen müssen außerdem einen durchschnittlichen (+20) Ausdauer-Wurf bestehen oder sie erhalten einen Demoralisiert-Zustand.</p>"
+		},
+		{
+			"id": "Hardy",
+			"name": "Robustheit",
+			"description": "<p>Die Kreatur kann mehr Schaden einstecken als die meisten anderen. Erhöhe ihre LP um eine dem Widerstands-Bonus entsprechende Zahl (vor etwaigen Modifikatoren für die Größe).</p>"
+		},
+		{
+			"id": "Hatred",
+			"name": "Hass (Ziel)",
+			"description": "<p>Die Kreatur hasst das Ziel wirklich. Siehe Hass auf Seite 190.</p>"
+		},
+		{
+			"id": "Horns (Feature)",
+			"name": "Hörner Wert (Form)",
+			"description": "<p>Die Kreatur hat Hörner oder andere scharfen Auswüchse (wenn ihre Eigenschaft Hörner eigentlich etwas anderes beschreibt, wird dies in Klammern angegeben). Sie kann 1 Vorteil ausgeben, um mit ihren Hörnern eine einzelne Freie Attacke durchführen, die wie üblich ausgeführt wird, wobei der Wert zur Berechnung des Schadens verwendet wird (der Stärke-Bonus ist bereits enthalten).</p>"
+		},
+		{
+			"id": "Horns",
+			"name": "Hörner",
+			"description": "<p>Die Kreatur hat Hörner oder andere scharfen Auswüchse (wenn ihre Eigenschaft Hörner eigentlich etwas anderes beschreibt, wird dies in Klammern angegeben). Sie kann 1 Vorteil ausgeben, um mit ihren Hörnern eine einzelne Freie Attacke durchführen, die wie üblich ausgeführt wird, wobei der Wert zur Berechnung des Schadens verwendet wird (der Stärke-Bonus ist bereits enthalten).</p>"
+		},
+		{
+			"id": "Hungry",
+			"name": "Hungrig",
+			"description": "<p>Die Kreatur giert stets nach frischem Fleisch. Wenn sie einen lebenden Gegner tötet oder außer Gefecht setzt (oder auf einen frischen Körper stößt), muss sie einen durchschnittlichen (+20) Willenskraft-Wurf bestehen, oder sie beginnt zu fressen und verliert ihre nächste Handlung und Bewegungsaktion.</p>"
+		},
+		{
+			"id": "Immunity",
+			"name": "Immunität (Typ)",
+			"description": "<p>Die Kreatur ist völlig immun gegen bestimmte Arten von Schaden, seien es Gift, Magie oder Elektrizität. Jeglicher Schaden dieser Art, einschließlich durch eine Kritische Verletzung, wird ignoriert.</p>"
+		},
+		{
+			"id": "Immunity to Psychology",
+			"name": "Immun gegen Psychologie",
+			"description": "<p>Die Kreatur ist absolut furchtlos, sei es, weil sie besonders mutig, überaus dumm oder einfach nur selbstvergessen ist. Sie ignoriert die Regeln für Psychologie. Siehe Seite 190.</p>"
+		},
+		{
+			"id": "Infected",
+			"name": "Infiziert",
+			"description": "<p>Die Kreatur oder ihre Waffen bergen eine böse Infektion. Wenn ein lebender Gegner LP verliert, muss er einen einfachen (+40) Ausdauer-Wurf bestehen oder er fängt sich eine Schwärende Wunde ein (siehe Seite 187).</p>"
+		},
+		{
+			"id": "Infestation",
+			"name": "Befall",
+			"description": "<p>Die Haut der Kreatur wird von beißenden Flöhen oder Ähnlichem bewohnt. Alle Gegner erleiden einen Abzug von -10 auf alle Trefferwürfe im Nahkampf, da die Parasiten sie ablenken und auf sie überspringen wollen.</p>"
+		},
+		{
+			"id": "Leader",
+			"name": "Anführer",
+			"description": "<p>Die Kreatur ist ein geübter Anführer. Sie erhält einen Bonus von +10 auf Willenskraft und Charisma. Anmerkung: Diese Eigenschaft kann nicht für Kreaturen mit der Eigenschaft Tierhaft genommen werden.</p>"
+		},
+		{
+			"id": "Magic Resistance",
+			"name": "Magieresistenz (Wert)",
+			"description": "<p>Magie hat auf die Kreatur nur einen reduzierten Effekt. Der EG jedes Zaubers, der auf sie wirkt, wird um den angegebenen Wert verringert. So würde Magieresistenz (2) den EG um 2 reduzieren.</p>"
+		},
+		{
+			"id": "Magical",
+			"name": "Magisch",
+			"description": "<p>Die Kreatur ist in Magie gehüllt. Alle ihre Angriffe gelten als magisch, was bedeutet, dass sie auch Kreaturen verletzen kann, die nur durch magische Attacken verwundbar sind.</p>"
+		},
+		{
+			"id": "Mental Corruption",
+			"name": "Geistige Korrumpierung",
+			"description": "<p>Die Kreatur trägt das Chaos in ihrem Geist. Würfle auf die Tabelle für mentale Korrumpierung auf Seite 185.</p>"
+		},
+		{
+			"id": "Miracles",
+			"name": "Wunder (Verschiedene)",
+			"description": "<p>Die Kreatur kann Wunder wirken. Die betreffende Gottheit ist in Klammern angegeben.</p>"
+		},
+		{
+			"id": "Mutation",
+			"name": "Mutation",
+			"description": "<p>Die Kreatur ist mit einer Mutation „gesegnet“. Würfle auf die Tabelle für physische Korrumpierung, die auf Seite 184 zu finden ist.</p>"
+		},
+		{
+			"id": "Night Vision",
+			"name": "Nachtsicht",
+			"description": "<p>Die Kreatur hat das Talent Nachtsicht. Siehe Seite 140.</p>"
+		},
+		{
+			"id": "Painless",
+			"name": "Schmerzfrei",
+			"description": "<p>Die Kreatur spürt keinen Schmerz oder kann ihn ignorieren. Alle nicht durch Amputationen entstehenden Abzüge, die man durch Kritische Verletzungen erleiden würde, werden ignoriert, wobei die Zustände wie üblich wirken.</p>"
+		},
+		{
+			"id": "Petrifying Gaze",
+			"name": "Versteinernder Blick",
+			"description": "<p>Der Blick der Kreatur kann Fleisch in Stein verwandeln. Als ihre Handlung kann sie all ihre Vorteile (mindestens 1) ausgeben, um den Blick einzusetzen. Die Kreatur führt einen Vergleichenden Ballistische Fertigkeit/Initiative-Wurf durch und addiert 1 EG pro eingesetzten Vorteil hinzu. Ihr Gegner erhält pro 2 EG, um die sie gewinnt, 1 Betäubt-Zustand. Wenn sie um mit mindestens 6 EG gewinnt, wird ihr Ziel dauerhaft zu Stein verwandelt.</p><p>Wenn das Ziel ein Zauberer ist, kann dieser statt gegen die Initiative für Sprache (Magick) würfeln, was repräsentiert, dass er sich mit einem Gegenzauber verteidigt.</p>"
+		},
+		{
+			"id": "Prejudice",
+			"name": "Vorurteil (Ziel)",
+			"description": "<p>Die Kreatur mag das Ziel einfach nicht. Auf Seite 191 findest du Regeln zu Vorurteilen.</p>"
+		},
+		{
+			"id": "Ranged (Range)",
+			"name": "Fernkampf Wert (Reichweite)",
+			"description": "<p>Die Kreatur hat eine Fernkampfwaffe. Die Waffe verursacht Schaden in Höhe des Wertes, und die Reichweite in Metern ist in den Klammern angegeben.</p>"
+		},
+		{
+			"id": "Ranged Weapon",
+			"name": "Fernkampf Wert (Reichweite)",
+			"description": "<p>Die Kreatur hat eine Fernkampfwaffe. Die Waffe verursacht Schaden in Höhe des Wertes, und die Reichweite in Metern ist in den Klammern angegeben.</p>"
+		},
+		{
+			"id": "Ranged",
+			"name": "Fernkampf Wert (Reichweite)",
+			"description": "<p>Die Kreatur hat eine Fernkampfwaffe. Die Waffe verursacht Schaden in Höhe des Wertes, und die Reichweite in Metern ist in den Klammern angegeben.</p>"
+		},
+		{
+			"id": "Rear",
+			"name": "Austreten",
+			"description": "<p>Als ihre Bewegungsaktion kann die Kreatur eine Niedertrampeln-Attacke ausführen, sofern sie größer als ihr Gegner ist (siehe Größe, Seite 339).</p>"
+		},
+		{
+			"id": "Regenerate",
+			"name": "Regenerieren",
+			"description": "<p>Die Kreatur ist in der Lage, mit außergewöhnlicher Geschwindigkeit zu heilen und sogar einzelne Körperteile nachwachsen zu lassen. Zu Beginn jeder Runde, in der sie noch mehr als 0 LP hat, werden automatisch 1W10 LP regeneriert. Wenn sie nur 0 LP hat wird bei einem W10-Wurf von 8+ ein einzelner LP regeneriert. Wenn sie jemals eine 10 für die Regeneration würfelt, regeneriert auch eine Kritische Verletzung vollständig. Sie verliert alle damit verbundenen Abzüge und Zustände. Durch Feuer verursachte Kritische Verletzungen oder LP-Verluste können nicht regeneriert werden und sollten separat aufgezeichnet werden.</p>"
+		},
+		{
+			"id": "Size",
+			"name": "Größe (Verschieden)",
+			"description": "<p>Dieses Merkmal repräsentiert Kreaturen, deren Körpergröße und -masse sich vom Spielstandard (also von ungefähr menschlicher Größe) unterscheidet. Es gibt sieben Größenstufen, die von Winzig bis Monströs reichen.</p><table><tr><th>Größe</th><th>Beispiele</th></tr><tr><td>Winzig</td><td>Maus, Schmetterling, Taube</td></tr><tr><td>Klein</td><td>Falke, Katze, menschliches Kleinkind</td></tr><tr><td>Zierlich</td><td>Halbling, menschliches Kind, Riesenratte</td></tr><tr><td>Normal</td><td>Elf, Mensch, Zwerg</td></tr><tr><td>Groß</td><td>Oger, Pferd, Troll</td></tr><tr><td>Enorm</td><td>Greif, Lindwurm, Mantikor</td></tr><tr><td>Monströs</td><td>Dämonenprinz, Drache, Riese</td></tr></table>"
+		},
+		{
+			"id": "Skittish",
+			"name": "Scheu",
+			"description": "<p>Die Kreatur kann durch Magie oder laute Geräusche leicht erschreckt werden. Wenn dies passiert, erhält sie +3 Demoralisiert-Zustände.</p>"
+		},
+		{
+			"id": "Spellcaster",
+			"name": "Zauberer (Verschiedene)",
+			"description": "<p>Die Kreatur kann Magie wirken; die genaue Lehre der Magie wird in Klammern angegeben.</p>"
+		},
+		{
+			"id": "Stealthy",
+			"name": "Heimlich",
+			"description": "<p>Die Kreatur ist besonders heimlich. Sie addiert zu den EG aller Schleichen-Würfe eine Zahl hinzu, die ihrem Gewandtheits-Bonus entspricht.</p>"
+		},
+		{
+			"id": "Stride",
+			"name": "Schnell",
+			"description": "<p>Die Kreatur bewegt sich ungewöhnlich schnell. Sie erhält +1 Bewegung und +10 Gewandtheit.</p>"
+		},
+		{
+			"id": "Stupid",
+			"name": "Blödheit",
+			"description": "<p>Die Kreatur ist in Ansätzen zu höherem Denken in der Lage (und hat daher nicht die Eigenschaft Tierhaft), aber sie ist reichlich dumm. Wenn sie sich in der Nähe von Verbündeten ohne die Eigenschaft Blödheit befindet, dann leiten diese sie an und es passiert nichts. Andernfalls muss sie zu Beginn jeder Runde einen einfachen (+40) Intelligenz-Wurf bestehen oder sie ist verwirrt. Sollte dies passieren, dann verliert sie für diese Runde sowohl ihre Bewegungsaktion als auch ihre Handlung, weil sie einfach stumpf vor sich hinsabbert, sich vielleicht hinsetzt oder in der Nase bohrt. </p>"
+		},
+		{
+			"id": "Swamp-strider",
+			"name": "Sumpfbewohner",
+			"description": "<p>Die Kreatur ist im Sumpf zu Hause. Sie erleidet keine Bewegungs-Abzüge, wenn sie sich durch sumpfiges Gelände bewegt.</p>"
+		},
+		{
+			"id": "Swarm",
+			"name": "Schwarm",
+			"description": "<p>Schwärme bestehen aus einer großen Anzahl derselben Kreaturen, die in ihrer Masse wie eine Einheit wirken. Der Schwarm gilt als eine einzige Kreatur, die die Psychologie-Regeln ignoriert (siehe Seite 190) und auch die Gebunden-Regel ignorieren kann, wenn sie ihre Bewegungsaktion durchführt. Wenn der Schwarm erfolgreich einen Gegner trifft, aktiviert dies die Todesstoß-Regel (auch wenn er seinen Gegner nicht getötet hat – siehe Seite 160). Alle Gegner, die mit einem Schwarm im Nahkampf gebunden sind, verlieren am Ende jeder Runde automatisch 1 LP, da der Schwarm alles in seiner Nähe durch pure Masse übertrifft. Der Schwarm hat fünfmal so viele LP wie ein einzelnes Exemplar der jeweiligen Kreatur und erhält +10 Kampfgeschick. Bei jedem Versuch, den Schwarm im Fernkampf zu beschießen, erhält man einen Bonus von +40. Schwärme ignorieren zudem alle Regeln, die sich aus der Eigenschaft Größe ergeben.</p>"
+		},
+		{
+			"id": "Tail Attack",
+			"name": "Schwanzhieb (Wert)",
+			"description": "<p>Der Schwanz der Kreatur kann Feinde von ihren Füßen fegen. Sie kann eine einzelne Freie Attacke durchführen, indem sie 1 Vorteil ausgibt. Der Schwanz richtet Schaden in Höhe des Wertes an, wobei der Stärke-Bonus bereits einberechnet ist. Gegner mit einer geringeren Größe als die Kreatur, die durch die Attacke LP verlieren, erhalten zudem den Niedergestreckt-Zustand.</p>"
+		},
+		{
+			"id": "Territorial",
+			"name": "Territorial",
+			"description": "<p>Diese Kreatur schützt einen bestimmten Bereich oder Ort. Sie wird bis zum Tod kämpfen, um ihn zu verteidigen und normalerweise keine Feinde verfolgen, die aus diesem Bereich heraus fliehen.</p>"
+		},
+		{
+			"id": "Terror",
+			"name": "Entsetzen (Wert)",
+			"description": "<p>Die Kreatur verursacht auf übernatürliche Art bei anderen Kreaturen eiskaltes Entsetzen, mit einem Wert, der der Angabe in Klammern entspricht. Siehe Seite 190.</p>"
+		},
+		{
+			"id": "Tongue Attack (Range)",
+			"name": "Zungenattacke Wert (Reichweite)",
+			"description": "<p>Die lange und bewegliche Zunge der Kreatur kann sich um deren Beute wickeln und sie ihrem grausamen Ende entgegenziehen. Sie kann eine einzelne Freie Attacke durchführen, indem sie 1 Vorteil ausgibt. Dies ist eine Fernkampfattacke, die Schaden in Höhe des Wertes verursacht (die Reichweite ist in Klammern angegeben). Wenn die Attacke getroffen hat, erhält das Ziel 1 Gefesselt-Zustand, und falls es bezüglich der Größe kleiner als die Kreatur ist, wird es in deren Richtung gezogen und ist mit dieser im Nahkampf gebunden. Die Kreatur kann dann entscheiden, ob sie das Ziel freigibt, eine Freie Attacke mittels einer ihrer WaffenEigenschaft ausführt oder das Ziel in der Zunge behält und es richtig zu packen versucht (siehe Seite 163).</p>"
+		},
+		{
+			"id": "Tongue Attack",
+			"name": "Zungenattacke Wert (Reichweite)",
+			"description": "<p>Die lange und bewegliche Zunge der Kreatur kann sich um deren Beute wickeln und sie ihrem grausamen Ende entgegenziehen. Sie kann eine einzelne Freie Attacke durchführen, indem sie 1 Vorteil ausgibt. Dies ist eine Fernkampfattacke, die Schaden in Höhe des Wertes verursacht (die Reichweite ist in Klammern angegeben). Wenn die Attacke getroffen hat, erhält das Ziel 1 Gefesselt-Zustand, und falls es bezüglich der Größe kleiner als die Kreatur ist, wird es in deren Richtung gezogen und ist mit dieser im Nahkampf gebunden. Die Kreatur kann dann entscheiden, ob sie das Ziel freigibt, eine Freie Attacke mittels einer ihrer WaffenEigenschaft ausführt oder das Ziel in der Zunge behält und es richtig zu packen versucht (siehe Seite 163).</p>"
+		},
+		{
+			"id": "Tough",
+			"name": "Zäh",
+			"description": "<p>Die Kreatur ist widerstandsfähiger als andere ihrer Art und es ist unwahrscheinlich, dass sie sich freiwillig zurückzieht. Sie erhält +10 Widerstand und +10 Willenskraft.</p>"
+		},
+		{
+			"id": "Tracker",
+			"name": "Spurensucher",
+			"description": "<p>Diese Kreatur kann sehr effizient Beute verfolgen, im Allgemeinen durch ihren Geruchssinn oder ihr Gehör. Sie fügen den EG jedes Spurenlesen-Wurfes in Höhe ihres Initiative-Bonus hinzu.</p>"
+		},
+		{
+			"id": "Trained",
+			"name": "Ausgebildet (Fähigkeit)",
+			"description": "<p>Dieses Merkmal besitzen normalerweise Tiere, die mittels der Abrichten-Fähigkeit trainiert wurden. Die Fähigkeiten, die das Tier danach kennt, sind in den Klammern angegeben. Fühle dich frei, hier bei Bedarf eigene Fähigkeiten zu entwickeln.</p><p><br/><strong>Apportieren:</strong> Das Tier ist darauf trainiert, zu apportieren. Dies ist normalerweise Hunden oder vergleichbaren Tieren vorbehalten.<br/><strong>Bewachen:</strong> Das Tier ist darauf trainiert, an einem Ort zu bleiben oder als dessen Wächter umherzustreifen, wodurch es die Eigenschaft Territorial erhält.<br/><strong>Heimfinden:</strong> Das Tier ist darauf trainiert, selbstständig nach Hause zurückzukehren, wenn es freigelassen wird oder verloren geht.<br/><strong>Magie:</strong> Das Tier ist darauf trainiert, Scheu zu ignorieren, wenn es um Magie geht, was für die meisten von Zauberern verwendeten Pferde erforderlich ist.<br/><strong>Reittier:</strong> Das Tier akzeptiert einen Reiter. Einige Kreaturen sind besonders eigensinnig und akzeptieren keinen Reiter ohne die richtigen Fähigkeiten. Um zum Beispiel einen Greifen zu reiten, benötigst du die Fähigkeit Reiten (Greif ).<br/><strong>Unterhalten:</strong> Das Tier ist darauf trainiert, andere zu unterhalten. Dies sorgt bei entsprechenden Würfen für Unterhalten, Artistik oder Musizieren für einen Bonus von +10.<br/><strong>Kampf:</strong> Das Tier wurde für den Krieg ausgebildet und erhält +10 Kampfgeschick. Es kann auch Scheu ignorieren, wenn es um laute Geräusche geht.<br/><strong>Zahm:</strong> Das Tier ist darauf trainiert, seine Tierhaft-Eigenschaft zu ignorieren. Es erhält 2W10 Charisma.<br/><strong>Ziehen:</strong> Das Tier ist darauf trainiert, eine Kutsche, einen Wagen, einen Pflug, einen Karren oder Ähnliches zu ziehen.</p>"
+		},
+		{
+			"id": "Undead",
+			"name": "Untot",
+			"description": "<p>Die Untoten sind weder lebend noch tot, was bedeutet, dass sie nicht auf die normalen Voraussetzungen von Leben angewiesen sind, also auf Nahrung, Wasser, Luft etc. Diese Eigenschaft ist bezüglich der Regeln meist nur dann von Relevanz, wenn Zauber, Wunder oder bestimmte Fähigkeiten nur Untote betreffen.</p>"
+		},
+		{
+			"id": "Unstable",
+			"name": "Instabil",
+			"description": "<p>Der Körper der Kreatur wird von übler Magie zusammengehalten, die im materiellen Universum von Natur aus instabil ist. Wann immer die Kreatur am Ende einer Runde mit irgendwelchen Gegnern im Nahkampf gebunden ist, die mehr Vorteile als sie haben, verliert die Kreatur so viele LP wie die Differenz ihrer Vorteile zu denen des Gegners mit den meisten Vorteilen beträgt, und die Magie, die sie zusammenhält, wird schwächer. Wenn die Kreatur also am Ende der Runde 1 Vorteil hat und der Gegner mit den meisten Vorteilen 3, dann verliert die Kreatur 2 LP. Wenn die LP der Kreatur auf 0 sinken, bricht die Magie zusammen, die sie stabil hält und sie „stirbt“.</p>"
+		},
+		{
+			"id": "Vampiric",
+			"name": "Vampirisch",
+			"description": "<p>Die Kreatur ernährt sich von Blut und erneuert damit ihre gewaltige körperliche Kraft. Immer wenn sie eine erfolgreiche Biss-Attacke gegen einen geeigneten Gegner durchführt, heilt sie so viele LP, wie ihr Gegner verliert. Auf diese Weise Blut zu trinken ist für sie der Weg, sich zu heilen.</p>"
+		},
+		{
+			"id": "Venom",
+			"name": "Giftig (Schwierigkeit)",
+			"description": "<p>Die Attacken der Kreatur sind giftig oder vergiftet. Wann immer es durch sie zu LP-Verlusten kommt, erhält der betroffene Gegner einen Vergiftet-Zustand. Wenn keine Schwierigkeit dafür angegeben ist, dem Gift zu widerstehen, gilt als Schwierigkeit Herausfordernd. Siehe Seite 169.</p>"
+		},
+		{
+			"id": "Vomit",
+			"name": "Kotze",
+			"description": "<p>Die Kreatur kann einen Schwall von korrosiven Säften ausspeien und ihre Gegner mit schmutzigem, halbverdauten Dreck überziehen. Durch den Einsatz von 3 Vorteilen kann die Kreatur ihr Kotzen als eine einzelne Freie Attacke ausführen. Die Kreatur wählt 1 Ziel aus, das sich in bis zu Widerstands-Bonus Meter und in Sichtlinie befindet, und speit einfach los. Alle Ziele innerhalb von zwei Metern zum Hauptziel werden ebenfalls getroffen.</p><p>Die Kreatur führt einen Vergleichenden Ballistische Fertigkeit/Ausweichen-Wurf gegen alle betroffenen Ziele durch (sie würfelt nur einmal, die Ziele verteidigen sich jeweils mit einem separaten Wurf ). Der Wurf ist aufgrund der Nähe in der Regel einfach (+40) für die kotzende Kreatur und herausfordernd (+0) für ihre Gegner. Alle unterlegenen Gegner erleiden einen Treffer mit einem Schaden, der dem Widerstands-Bonus +4 der Kreatur entspricht, sowie zusätzliche einen Betäubt-Zustand.</p><p>Alle Rüstungen und Waffen, die von den betroffenen Zielen getragen werden, erleiden 1 Schaden, da das ätzende Erbrochene sie korrodieren lässt.</p>"
+		},
+		{
+			"id": "Wallcrawler",
+			"name": "Wandläufer",
+			"description": "<p>Die Kreatur kann mühelos über vertikale Flächen laufen und sich sogar unter Decken entlang bewegen, um sich dann auf unachtsame Beute fallen zu lassen. Sie bewegt sich mit ihrer vollen Bewegung über jede geeignete Oberfläche und besteht automatisch alle Klettern-Würfe.</p>"
+		},
+		{
+			"id": "Ward",
+			"name": "Schutz (Wert)",
+			"description": "<p>Egal ob durch Magie, einen besonderen Talisman oder einfach nur Glück – sicher geglaubte Treffer scheinen die Kreatur manchmal einfach zu verfehlen. Würfle nach einem Treffer 1W10. Wenn die Kreatur den Schutz-Wert oder höher würfelt, wird der Treffer ignoriert, selbst wenn er kritisch ist.</p>"
+		},
+		{
+			"id": "Hand Weapon",
+			"name": "Waffe (Wert)",
+			"description": "<p>Die Kreatur trägt eine Nahkampfwaffe oder verwendet im Kampf Zähne, Krallen oder Ähnliches.</p><p>Die Waffe verursacht Schaden in Höhe ihres Wertes, der bereits den Stärke-Bonus der Kreatur beinhaltet. Normalerweise entspricht der Schaden 4 + Stärke-Bonus (den Werten einer Handwaffe).</p>"
+		},
+		{
+			"id": "Weapon",
+			"name": "Waffe (Wert)",
+			"description": "<p>Die Kreatur trägt eine Nahkampfwaffe oder verwendet im Kampf Zähne, Krallen oder Ähnliches.</p><p>Die Waffe verursacht Schaden in Höhe ihres Wertes, der bereits den Stärke-Bonus der Kreatur beinhaltet. Normalerweise entspricht der Schaden 4 + Stärke-Bonus (den Werten einer Handwaffe).</p>"
+		},
+		{
+			"id": "Web",
+			"name": "Netz (Wert)",
+			"description": "<p>Die Kreatur kann ein Gewebe erschaffen, um unachtsame Feinde einzufangen. Immer wenn sie erfolgreich trifft, erhalten Gegner 1 Gefesselt-Zustand, wobei die Stärke der Fesselung dem Wert entspricht. Siehe Seite 169.</p>"
+		},
+		{
+			"id": "Any Creature Trait",
+			"name": "Beliebige Kreatureneigenschaft",
+			"description": "<p>Fügen Sie eine Eigenschaft Ihrer Wahl hinzu</p>"
+		},		
+		{
+			"id": "Addict",
+			"name": "Süchtig",
+			"description": "<p>Abhängig von der betreffenden Substanz</p>"
+		}		
+	]
+}
