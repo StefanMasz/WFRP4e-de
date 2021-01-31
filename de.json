@@ -745,10 +745,10 @@
 
     "AP" : "AP",
     "Scatter" : "Streuung",
-    "yard" : "yard",
-    "yards" : "yards",
+    "yard" : "meter",
+    "yards" : "meter",
     "Ammo" : "Munition",
-    "yds" : "yds",
+    "yds" : "m",
 
     "NAME.CombatReflexes" : "Kampfreflexe",
     "FORTUNE.Use" : "Glückspunkt genutzt",
