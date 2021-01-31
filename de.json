@@ -357,7 +357,6 @@
     "DIALOG.SuccessBonusTT" : "EG, welcher nur bei Erfolg hinzugefügt wird (bspw Talente)",
     "DIALOG.TalentBonusTT" : "Liste möglicher Talent-Boni",
     "DIALOG.RollMode" : "Würfel-Modus",
-	"DIALOG.Difficulty": "Schwierigkeit",
     "DIALOG.Extensions" : "Erweiterungen",
     "DIALOG.CastSkill" : "Cast Skill",
     "DIALOG.HitLocation" : "Beinhaltet einen Wurf auf der Treffenzonen-Tabelle",
