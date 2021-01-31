@@ -1,0 +1,418 @@
+{
+	"label": "Prières",
+	"mapping": {
+    "pduration": {
+      "path": "data.duration.value",
+      "converter": "spells_duration_range_target_damage"
+    },
+    "prange": {
+      "path": "data.range.value",
+      "converter": "spells_duration_range_target_damage"
+    },
+    "ptarget": {
+      "path": "data.target.value",
+      "converter": "spells_duration_range_target_damage"
+    },    
+    "pdamage": {
+      "path": "data.damage.value",
+      "converter": "spells_duration_range_target_damage"
+    }
+  },	
+	"entries": [
+		{
+			"id": "An Invitation ",
+			"name": "Invitation ",
+			"description": "<p>Reichweite: 1 Schritt<br> Ziel: 1<br> Dauer: Sofort<br> Du rezitierst eines von Ranalds Rätseln über Durchgänge und ob diese überhaupt existieren, wenn sie geschlossen sind. Bei einer Tür, einem Fenster oder einer Luke, abhängig von deinem Ziel, löst sich eine Art auf, in der es oder sie gesichert ist – ein Schloss springt auf, ein Riegel schiebt sich beiseite oder ein haltender Knoten löst sich. Für je +2 EG kannst du eine andere Methode auflösen, in der die Tür, das Fenster oder die Luke gesichert ist.</p>"
+		},
+		{
+			"id": "Anchorite's Endurance",
+			"name": "Einsiedlers Kraft",
+			"description": "<p>Reichweite: Charisma in Schritt<br> Ziel: 1<br> Dauer: Charisma-Bonus in Runden<br> Dein nachdrückliches Beten erreicht Shallya und sie gewährt dem Ziel die Kraft, zu erdulden. Das Ziel spürt keine Schmerzen und erleidet keine Abzüge durch Zustände.</p>"
+		},
+		{
+			"id": "Animal Instincts",
+			"name": "Tierische Instinkte",
+			"description": "<p>Reichweite: Berührung<br> Ziel: 1<br> Dauer: Charisma-Bonus in Stunden<br> Du intonierst Gesänge, die Taals außerordentliche Sinne preisen, und flehst ihn um Unterstützung an. Während dieses Wunder wirkt, erhältst du das Talent Scharfer Sinn (einer nach Wahl), beziehungsweise +1 Stufe in Scharfer Sinn, wenn du das Talent für diesen Sinn schon besitzt. Solltest du schlafen, wachst du automatisch auf falls irgendeine Gefahr bis auf Initiative-Bonus in Schritt an dich herankommt.</p>"
+		},
+		{
+			"id": "As Verena is My Witness",
+			"name": "Verena, sei meine Zeugin",
+			"description": "<p>Reichweite: Du selbst<br> Ziel: Du selbst<br> Dauer: Charisma-Bonus in Runden<br> Du rufst Verena als deine Zeugin an und die Wahrheit deiner Worte wird für jeden offensichtlich. Für die Dauer des Wunders und vorausgesetzt, dass du die Wahrheit sagst, werden dir alle Zuhörer das glauben, was du sagst. Das bedeutet natürlich nicht, dass sie zwingend zu den gleichen Schlüssen wie du kommen.</p>"
+		},
+		{
+			"id": "Balm to a Wounded Mind",
+			"name": "Balsam des verwundeten Geistes",
+			"description": "<p>Reichweite: Berührung<br> Ziel: 1<br> Dauer: Charisma-Bonus in Minuten<br> Du bittest Shallya, den aufgewühlten Geist des Zieles zu besänftigen. Für die Dauer werden alle Psychologischen Eigenschaften entfernt und danach sinkt das Ziel bis zum nächsten Morgen in tiefen, erholsamen Schlaf, sofern dieser nicht unterbrochen wird. Unwillige Ziele müssen einen herausfordernden (+0) Besonnenheits-Wurf bestehen, um dem Einschlafen zu widerstehen.</p>"
+		},
+		{
+			"id": "Beacon of Righteous Virtue",
+			"name": "Leuchtfeuer der rechtschaffenen Tugend",
+			"description": "<p>Reichweite: Du selbst<br> Ziel: Wirkungsbereich<br> Dauer: Charisma-Bonus in Runden<br>Als du in Sigmars Namen betest, wirst du vom heiligen Feuer der Rechtschaffenheit erfüllt. Bei allen Verbündeten, die eine Sichtlinie zu dir haben, wird sofort jeder Demoralisiert-Zustand entfernt und sie erhalten das Talent Furchtlosigkeit, solange das Wunder wirkt und sie weiter Sichtlinie zu dir haben. Für alle Grünhäute, die Sichtlinie zu dir haben, verursachst du zudem Angst (1).</p>"
+		},
+		{
+			"id": "Becalm",
+			"name": "Besänftigen",
+			"description": "<p>Reichweite: Initiative-Bonus in Meilen<br> Ziel: 1 Segelschiff in Sichtlinie<br> Dauer: 1 Stunde<br> Du stiehlst den Wind aus den Segeln eines Schiffes oder Bootes. Er wird vollkommen besänftigt. Selbst inmitten eines Sturmes gibt es einen Bereich mit geisterhafter Windstille und ruhigem Wasser um das Schiff herum, während ringsum der Regen peitscht und die sich auftürmenden Wellen brechen. Dieser Bereich reicht deine Initiative in Schritt weit um das Schiff herum und falls das Schiff auf irgendeine andere Weise bewegt werden kann, zum Beispiel mit Rudern, dann bewegt sich die besänftigte Zone mit ihm.</p>"
+		},
+		{
+			"id": "Bitter Catharsis",
+			"name": "Bittere Katharsis",
+			"description": "<p>Reichweite: Berührung<br> Ziel: 1<br> Dauer: Sofort<br> Als Antwort auf dein herzerwärmendes Gebet, zieht Shallya ein Gift oder eine Krankheit vollständig aus dem Körper deines Zieles in den deinen, und löscht es oder sie aus. Für je +2 EG kannst du ein weiteres Gift oder eine andere Krankheit auslöschen. Für jedes und jede auf diese Weise ausgelöschte Gift oder Krankheit verlierst du 1W10 - Charisma-Bonus LP, die nicht durch den Widerstandsbonus oder RP modifiziert werden.</p>"
+		},
+		{
+			"id": "Blazing Sun",
+			"name": "Brennende Sonne",
+			"description": "<p>Reichweite: Du selbst<br> Ziel: Wirkungsbereich<br> Dauer: Sofort<br> Du bittest Myrmidia, das Schlachtfeld von ehrlosen Feinden zu säubern und ein blendender Blitz goldenen Lichts bricht hervor. Alle, die keine Myrmidianer sind und in deine Richtung blicken, erhalten 1 Geblendet-Zustand. Für je +2 EG erhalten sie +1 Geblendet-Zustand.</p>"
+		},
+		{
+			"id": "Blessing of Battle",
+			"name": "Segnung der Schlacht",
+			"description": "<p>Reichweite: 6 Schritt<br> Ziel: 1<br> Dauer: 6 Runden<br> Dein Ziel erhält +10 KG.</p>"
+		},
+		{
+			"id": "Blessing of Breath",
+			"name": "Segnung des Atems",
+			"description": "<p>Reichweite: 6 Schritt<br> Ziel: 1<br> Dauer: 6 Runden<br> Dein Ziel muss nicht atmen und ignoriert die Regeln für Erstickung.</p>"
+		},
+		{
+			"id": "Blessing of Charisma",
+			"name": "Segnung der Ausstrahlung",
+			"description": "<p>Reichweite: 6 Schritt<br> Ziel: 1<br> Dauer: 6 Runden<br> Dein Ziel erhält +10 CH.</p>"
+		},
+		{
+			"id": "Blessing of Conscience",
+			"name": "Segnung des Gewissens",
+			"description": "<p>Reichweite: 6 Schritt<br> Ziel: 1<br> Dauer: 6 Runden<br> Dein Ziel muss immer dann, wenn es ein Gebot deiner Gottheit brechen will, erst einen durchschnittlichen (+20) Willenskraft-Wurf bestehen. Wenn dieser misslingt, wird es von Scham übermannt und kann die Handlung nicht durchführen.</p>"
+		},
+		{
+			"id": "Blessing of Courage",
+			"name": "Segnung der Tapferkeit",
+			"description": "<p>Reichweite: 6 Schritt<br> Ziel: 1<br> Dauer: 6 Runden<br> Dein Ziel erhält +10 WK.</p>"
+		},
+		{
+			"id": "Blessing of Finesse",
+			"name": "Segnung der Finesse",
+			"description": "<p>Reichweite: 6 Schritt<br> Ziel: 1<br> Dauer: 6 Runden<br> Dein Ziel erhält +10 GE.</p>"
+		},
+		{
+			"id": "Blessing of Fortune",
+			"name": "Segnung des Glücks",
+			"description": "<p>Reichweite: 6 Schritt<br> Ziel: 1<br> Dauer: 6 Runden<br> Der nächste misslungene Wurf des Zieles darf wiederholt werden. Das Ergebnis des Wiederholungswurfs gilt.</p>"
+		},
+		{
+			"id": "Blessing of Grace",
+			"name": "Segnung der Grazie",
+			"description": "<p>Reichweite: 6 Schritt<br> Ziel: 1<br> Dauer: 6 Runden<br> Dein Ziel erhält +10 GW.</p>"
+		},
+		{
+			"id": "Blessing of Hardiness",
+			"name": "Segnung der Zähigkeit",
+			"description": "<p>Reichweite: 6 Schritt<br> Ziel: 1<br> Dauer: 6 Runden<br> Dein Ziel erhält +10 WI.</p>"
+		},
+		{
+			"id": "Blessing of Healing",
+			"name": "Segnung der Heilung",
+			"description": "<p>Reichweite: Berührung<br> Ziel: 1<br> Dauer: Sofort<br> Dein Ziel heilt 1 LP.</p>"
+		},
+		{
+			"id": "Blessing of Might",
+			"name": "Segnung der Macht",
+			"description": "<p>Reichweite: 6 Schritt<br> Ziel: 1<br> Dauer: 6 Runden<br> Dein Ziel erhält +10 ST.</p>"
+		},
+		{
+			"id": "Blessing of Protection",
+			"name": "Segnung des Schutzes",
+			"description": "<p>Reichweite: 6 Schritt<br> Ziel: 1<br> Dauer: 6 Runden<br> Gegner müssen immer erst einen durchschnittlichen(+20) Willenskraft-Wurf bestehen, um dein Ziel attackieren zu können. Wenn dieser misslingt, übermannt sie Scham darüber diese Attacke überhaupt zu erwägen und sie müssen ein anderes Ziel oder eine andere Handlung wählen.</p>"
+		},
+		{
+			"id": "Blessing of Recuperation",
+			"name": "Segnung der Genesung",
+			"description": "<p>Reichweite: Berührung<br> Ziel: 1<br> Dauer: Sofort<br> Dein Ziel darf die Dauer einer Krankheit, mit der es infiziert ist um 1 Tag reduzieren. Diese Segnung darf nur einmal pro Krankheit und Person gewirkt werden.</p>"
+		},
+		{
+			"id": "Blessing of Righteousness",
+			"name": "Segnung der Rechtschaffenheit",
+			"description": "<p>Reichweite: 6 Schritt<br> Ziel: 1<br> Dauer: 6 Runden<br> Die Waffe deines Ziels gilt als magisch.</p>"
+		},
+		{
+			"id": "Blessing of Savagery",
+			"name": "Segnung der Wildheit",
+			"description": "<p>Reichweite: 6 Schritt<br> Ziel: 1<br> Dauer: 6 Runden<br> Wenn dein Ziel das nächste Mal einen Kritischen Treffer verursacht, würfelt es zweimal für die Verletzung und wählt die bessere aus.</p>"
+		},
+		{
+			"id": "Blessing of Tenacity",
+			"name": "Segnung der Beharrlichkeit",
+			"description": "<p>Reichweite: 6 Schritt<br> Ziel: 1<br> Dauer: Sofort<br> Dein Ziel darf 1 Zustand entfernen.</p>"
+		},
+		{
+			"id": "Blessing of The Hunt",
+			"name": "Segnung der Jagd",
+			"description": "<p>Reichweite: 6 Schritt<br> Ziel: 1<br> Dauer: 6 Runden<br> Dein Ziel erhält +10 BF.</p>"
+		},
+		{
+			"id": "Blessing of Wisdom",
+			"name": "Segnung der Weisheit",
+			"description": "<p>Reichweite: 6 Schritt<br> Ziel: 1<br> Dauer: 6 Runden<br> Dein Ziel erhält +10 IN.</p>"
+		},
+		{
+			"id": "Blessing of Wit",
+			"name": "Segnung der Gewitztheit",
+			"description": "<p>Reichweite: 6 Schritt<br> Ziel: 1<br> Dauer: 6 Runden<br> Dein Ziel erhält +10 I.</p>"
+		},
+		{
+			"id": "Blind Justice",
+			"name": "Blinde Gerechtigkeit",
+			"description": "<p>Reichweite: Du selbst<br> Ziel: Du selbst<br> Dauer: Charisma-Bonus in Runden<br> Du formulierst Gebete, die Verenas präzise Wahrnehmung und ihre Fähigkeit betreffen, bis zur Wahrheit hinter allen Dingen zu blicken. Wenn dir während der Wirkdauer ein herausfordernder (+0) Wahrnehmungs-Wurf gelingt, kannst du alle Zauber und Wunder durchschauen, die Illusion und Täuschung umfassen. Du darfst außerdem mit einem durchschnittlichen (+20) Intuitions- Wurf versuchen zu erkennen, ob jemand lügt, der mit dir spricht. Anmerkung: Dies verrät dir nur, ob der Charakter selbst glaubt, die Wahrheit zu sagen und verrät dir nicht, ob dieser getäuscht wurde.</p>"
+		},
+		{
+			"id": "Cat's Eyes",
+			"name": "Katzenaugen",
+			"description": "<p>Reichweite: Charisma in Schritt<br> Ziel: Du selbst<br> Dauer: Charisma-Bonus in Runden<br> Existieren Dinge, die man nicht sehen kann? Du stellst Ranald ein Rätsel, der daraufhin einen Göttlichen Diener in Form einer Katze entsendet. Die Katze sieht wie eine normale Katze aus und hat deren Fähigkeiten, kann jedoch nicht physisch mit der Welt interagieren oder auf irgendeine Weise verletzt werden. Während das Wunder wirkt, kannst du die Sinne der Katze verwenden – Sicht, Gehör und Tastsinn – und deren Bewegungen kontrollieren. Diese Sinne sind so scharf wie die einer echten Katze, du hast jedoch keinen Zugriff auf deine eigenen, die Sicht verbessernden Talente, wie zum Beispiel Nachtsicht. Während du die Sinne der Katze benutzt, kannst du nicht die eigenen verwenden, was dich möglicherweise verletzlich macht.</p>"
+		},
+		{
+			"id": "Death Mask",
+			"name": "Todesmaske",
+			"description": "<p>Reichweite: Du selbst<br> Ziel: Du selbst<br> Dauer: Charisma-Bonus in Runden<br> Morr wirkt durch dich und dringt durch das Portal, um den Feind seine Präsenz spüren zu lassen. Dein Gesicht wird zu einer kadaverhaften Fratze und du erhältst Angst (1).</p>"
+		},
+		{
+			"id": "Destroy Undead",
+			"name": "Untote zerstören",
+			"description": "<p>Reichweite: Du selbst<br> Ziel: Wirkungsbereich<br> Dauer: Sofort<br> Du erflehst die Macht des Morr, um alle Untoten zu zerschmettern. Schwarzes Feuer bricht aus deinem Körper und breitet sich in einem perfekten Kreis deinen Charisma-Bonus in Schritt weit aus. Alle potentiellen Ziele mit der Kreaturen-Eigenschaft Untot verlieren 1W10 LP, wobei der Widerstands-Bonus und die RP ignoriert werden. Alle Untoten, die durch dieses Wunder zerstört werden, können unter normalen Umständen nie wieder durch Nekromantie erhoben werden. Für je +2 EG kannst du den Wirkungsbereich um eine Anzahl von Schritt erweitern, die deinem Charisma-Bonus entspricht.</p>"
+		},
+		{
+			"id": "Dooming",
+			"name": "Unkenruf",
+			"description": "<p>Reichweite: Berührung<br> Ziel: 1<br> Dauer: Sofort<br> Du blickst tief in die Augen des Zieles, während du eine Threnodie des Morr anstimmst und den Unkenruf des Zieles erblickst, einen kurzen Blick auf das, was seine Zukunft bereithält. Das Gesehene ist fast immer auf den Tod des Zieles bezogen. Dieses Wunder kann auf jeden Charakter nur einmal gewirkt werden und dieser darf danach das Talent Unkenruf mit EP erwerben, ganz so, als sei es Teil der Karriere.</p>"
+		},
+		{
+			"id": "Drowned Man's Face",
+			"name": "Antlitz des Ertrunkenen",
+			"description": "<p>Reichweite: Charisma in Schritt<br> Ziel: 1<br> Dauer: Charisma-Bonus in Runden<br> Du bittest Manann darum, deine Feinde zu ertränken. Während das Wunder wirkt, füllen sich die Lungen deiner Ziele kontinuierlich mit Salzwasser und ihr Haar treibt um den Kopf herum als wären sie unter Wasser. Die Ziele erhalten 1 Erschöpft-Zustand und unterliegen den Regeln für Ertrinken und Ersticken (siehe Seite 181), solange das Wunder wirkt. Wenn das Wunder endet, müssen die Ziele einen schweren (-20) Ausdauer-Wurf durchführen. Misslingt dieser, erhalten sie zudem den Zustand Niedergestreckt.</p>"
+		},
+		{
+			"id": "Eagle's Eye",
+			"name": "Adlerblick",
+			"description": "<p>Reichweite: Charisma in Schritt<br> Ziel: Du selbst<br> Dauer: Charisma-Bonus in Runden<br> Du bittest Myrmidia um die Entsendung eines Göttlichen Dieners, der dir Wissen über den Feind offenbart. Ein geisterhafter Adler erscheint, der hoch oben durch den Himmel gleitet. Der Adler sieht wie ein normaler Adler aus und hat dessen Fähigkeiten, kann jedoch nicht physisch mit der Welt interagieren oder auf irgendeine Weise verletzt werden. Während das Wunder wirkt, kannst du durch die Augen des Adlers blicken und dessen Flug kontrollieren, um das Schlachtfeld zu überblicken und deine Feinde auszuspähen. Diese Sicht ist sehr genau, du hast jedoch keinen Zugriff auf deine eigenen, die Sicht verbessernden Talente, wie zum Beispiel Nachtsicht. Während du durch die Augen des Adlers blickst, kannst du deine eigenen Augen nicht benutzen, was dich möglicherweise verletzlich macht.</p>"
+		},
+		{
+			"id": "Fair Winds",
+			"name": "Günstiger Wind",
+			"description": "<p>Reichweite: Initiative-Bonus in Meilen<br> Ziel: 1 Segelschiff in Sichtlinie<br> Dauer: 1 Stunde<br> Reichweite: Initiative-Bonus in Meilen, Ziel: 1 Segelschiff in Sichtlinie, Dauer: 1 Stunde. Die Segel des Schiffes füllen sich mit günstigem Wind und tragen es sicher seinem Ziel entgegen. Während dieses Wunder wirkt, bewegt sich das Segelschiff mit Höchstgeschwindigkeit, unabhängig vom eigentlichen Wind, Strömungen oder Gezeiten, und alle Würfe für das Steuern des Schiffes erhalten einen Bonus von +10.</p>"
+		},
+		{
+			"id": "Fury's Call",
+			"name": "Ruf der Furie",
+			"description": "<p>Reichweite: Charisma in Schritt<br> Ziel: Intelligenz-Bonus in Verbündeten<br> Dauer: Charisma-Bonus in Runden<br> Deine leidenschaftlichen Gebete erfüllen die Verbündeten mit tiefer Abscheu gegenüber dem Feind. Alle betroffenen Verbündeten erhalten die Psychologische Eigenschaft Hass gegenüber allen, mit denen sie im Kampf sind.</p>"
+		},
+		{
+			"id": "Heed Not the Witch",
+			"name": "Trotzet dem Hexer!",
+			"description": "<p>Reichweite: Du selbst<br> Ziel: Wirkungsbereich<br> Dauer: Charisma-Bonus in Runden<br> Du flehst Sigmar an, jene in deiner Nähe vor dem verderbten Einfluss des Chaos zu bewahren. Bei jedem Zauber, der irgendwen oder irgendetwas innerhalb einer Anzahl von Schritt zum Ziel hat, die deinem Charisma-Bonus entspricht, erleidet der Zaubernde einen Abzug von -20 auf seinen Sprache-(Magick)-Wurf, zusätzlich zu etwaigen anderen Abzügen. Für je +2 EG kannst du den Wirkungsbereich um eine Anzahl von Schritt erweitern, die deinem Charisma-Bonus entspricht.</p>"
+		},
+		{
+			"id": "Hoarfrost's Chill",
+			"name": "Raureifs Schaudern",
+			"description": "<p>Reichweite: Du selbst<br> Ziel: Wirkungsbereich<br> Dauer: Charisma-Bonus in Runden<br> Du brüllst wütende Gebete und der kalte Ulric antwortet. Deine Augen beginnen stahlblau zu glitzern und die Luft ringsum wird unnatürlich kalt. Du verursachst Angst (1) (siehe Seite 190) bei allen Feinden und jeder in einer Entfernung zu dir, die deinem Charisma in Schritt entspricht, verliert am Anfang jeder Runde -1 Vorteil, durch die zehrende Kälte.</p>"
+		},
+		{
+			"id": "Howl of the Wolf",
+			"name": "Wolfsgeheul",
+			"description": "<p>Reichweite: Charisma in Schritt<br> Ziel: Speziell<br> Dauer: Charisma-Bonus in Runden<br> Du rufst heulend Ulrics Unterstützung herbei und er schickt einen geringeren Göttlichen Diener in Form eines Weißen Wolfes. Der Wolf bekämpft deine Gegner für die Dauer des Wunders, ehe er mit geisterhaftem, das Blut gefrieren lassendem Heulen in Ulrics Jagdgründe zurückkehrt. Der Weiße Wolf hat die Werte eines Wolfes (siehe Seite 317) mit den Kreaturen-Eigenschaften Raserei, Magisch und Größe (groß).</p>"
+		},
+		{
+			"id": "Inspiring",
+			"name": "Inspirierende Führung",
+			"description": "<p>Reichweite: Charisma in Schritt<br> Ziel: Intelligenz-Bonus in Verbündeten<br> Dauer: Charisma-Bonus in Runden<br> Deine begeisternden Gebete inspirieren die Schlachtreihe zu höherer Disziplin und Koordination. Die Ziele erhalten das Talent Gedrillt (beziehungsweise +1 Stufe in Gedrillt, wenn sie das Talent schon besitzen).</p>"
+		},
+		{
+			"id": "King of the Wild",
+			"name": "König der Wildnis",
+			"description": "<p>Reichweite: Charisma in Schritt<br> Ziel: 1<br> Dauer: Charisma-Bonus in Runden<br> Du singst ein leises Gebet und Taal beantwortet es mit wilden Tieren, die in dieser Umgebung typisch sind, die sich für die Dauer des Wunders gemäß deiner Wünsche verhalten. Unter Tiere des Reiklandes auf Seite 314 findest du Beispiele für Tiere, die so gerufen werden könnten.</p>"
+		},
+		{
+			"id": "Last Rites",
+			"name": "Letzte Riten",
+			"description": "<p>Reichweite: 1 Schritt<br> Ziel: 1<br> Dauer: Sofort<br> Du intonierst ein feierliches Requiem über einem Leichnam. Das Wunder stellt sicher, dass die Seele durch das Portal in Morrs Reich geschickt wird und garantiert, dass der Leichnam nicht zum Ziel irgendwelcher nekromantischen Zauber werden kann. Wenn das Wunder gegen ein Ziel gewirkt wird, welches die Kreaturen-Eigenschaften Untot und Konstrukt besitzt, dann wird dieses zerstört.</p>"
+		},
+		{
+			"id": "Leaping Stag",
+			"name": "Hirschsprung",
+			"description": "<p>Reichweite: Du selbst<br> Ziel: Du selbst<br> Dauer: Charisma-Bonus in Runden<br> Du singst ein Lied für Vater Taal und er schenkt dir seine Gunst, indem er dich mit Geschwindigkeit und Wendigkeit erfüllt. Während dieses Wunder wirkt, erhältst +1 Bewegung und das Talent Starke Beine (beziehungsweise +1 Stufe in Starke Beine, wenn du das Talent schon besitzt). Des Weiteren bestehst du jeden Athletik-Wurf für Sprünge mit mindestens +0 EG; solltest du weniger erwürfeln, erhöhst du die EG auf 0.</p>"
+		},
+		{
+			"id": "Lord of the Hunt",
+			"name": "Herr der Jagd",
+			"description": "<p>Reichweite: Du selbst<br> Ziel: Du selbst<br> Dauer: Charisma-Bonus in Stunden<br> Du flehst zu Taal, auf dass er dich bei der Jagd deiner Beute führen möge, bei der es sich entweder um ein Tier handeln muss, das du gesehen hast, oder ein Individuum, das du kennst (wobei der SL hier Beschränkungen festlegen kann). Während dieses Wunder wirkt, kannst du die Spur deiner Beute nicht verlieren, außer durch übernatürliche Einflüsse. Sollte die Beute eine Siedlung betreten, endet die Spur dort. Solange das Wunder wirkt, erhältst du zudem einen Bonus von +10 bei allen die Beute betreffenden Würfen.</p>"
+		},
+		{
+			"id": "Manann's Bounty",
+			"name": "Mananns Überfluss",
+			"description": "<p>Reichweite: Berührung<br> Ziel: 1<br> Dauer: Sofort<br> Du flehst Manann an, dich mit Nahrung zu versorgen. Indem du in ein Gewässer greifst, kannst du genug Fisch fangen, um 1 Person zu ernähren. Wenn du in das Meer greifst, ist es genug Fisch für 2 Personen. Pro +2 EG fängst du genug Fisch für eine weitere Portion.</p>"
+		},
+		{
+			"id": "Martyr",
+			"name": "Märtyrer",
+			"description": "<p>Reichweite: Charisma in Schritt<br> Ziel: 1<br> Dauer: Charisma-Bonus in Runden<br> Du intonierst Gebete an Shallyas Streben, den Schmerz der Welt von ihr zu nehmen. Jeder Schaden, den deine Ziele erleiden, wird stattdessen von dir erlitten. Wenn du aufgrund dieses Wunders irgendwelchen Schaden erleidest, wird dein Widerstands-Bonus zur Berechnung der LP, die du durch den Schaden erleidest, verdoppelt.</p>"
+		},
+		{
+			"id": "Pelt of the Winter Wolf",
+			"name": "Pelz des Winterwolfs",
+			"description": "<p>Reichweite: Berührung<br> Ziel: 1<br> Dauer: Charisma-Bonus in Stunden<br> Du brüllst Gebete, die Ulrics Aufmerksamkeit wecken und es deinen Zielen erlauben, in der Kälte seines Reiches zu überleben. Die Ziele spüren noch immer, wie schmerzhaft und unbequem die Winterkälte ist, erleiden aber keine regelmechanischen Abzüge durch sie.</p>"
+		},
+		{
+			"id": "Portal's Threshold",
+			"name": "Todesschwelle",
+			"description": "<p>Reichweite: Berührung<br> Ziel: Wirkungsbereich<br> Dauer: Speziell<br> Du ziehst eine bis zu acht Schritt lange Linie über den Boden, während du ein Klagelied an Morr richtest. Wenn du das Wunder wirkst, manifestiert sich ein undeutliches, schattenhaftes Portal, begleitet vom Gekrächze von Raben. Wesen mit der Kreaturen-Eigenschaft Untot müssen einen herausfordernden (+0) Willenskraft-Wurf bestehen, um die Linie überschreiten zu können. Wesen mit den Kreaturen-Eigenschaften Untot und Konstrukt können die Linie gar nicht überqueren. Das Wunder bleibt bis zum Morgengrauen erhalten.</p>"
+		},
+		{
+			"id": "Ranald's Grace",
+			"name": "Ranalds Eleganz",
+			"description": "<p>Reichweite: Berührung<br> Ziel: 1<br> Dauer: Gewandtheits-Bonus in Runden<br> Du bittest Ranald, die Rätsel der Realität mit dem Ziel nachzuverhandeln. Dein Ziel erhält +10 Gewandtheit, +10 Schleichen und das Talent Katzenfüßig (beziehungsweise +1 Stufe in Katzenfüßig, wenn es das Talent schon besitzt).</p>"
+		},
+		{
+			"id": "Rhya's Children",
+			"name": "Rhyas Kinder",
+			"description": "<p>Reichweite: Du selbst<br> Ziel: Wirkungsbereich<br> Dauer: Charisma-Bonus in Runden<br> Du legst die Hände auf den Boden und singst ein Gebet zu Rhya, in dem du um ihre Hilfe beim Erkennen ihres Reiches bittest. Dieses Wunder kann nur im Freien gewirkt werden, außerhalb von Siedlungen. Du spürst die Gegenwart und die Bewegungen aller empfindungsfähigen Wesen innerhalb einer Reichweite in Schritt, die deinem Charisma entspricht. Für je +2 EG kannst du den Wirkungsbereich um eine Anzahl von Schritt erweitern, die deinem Charisma entspricht.</p>"
+		},
+		{
+			"id": "Rhya's Harvest",
+			"name": "Récolte de Rhya",
+			"description": "<p>Reichweite: Du selbst<br> Ziel: Wirkungsbereich<br> Dauer: Charisma-Bonus in Runden<br> Du legst die Hände auf den Boden und singst ein Gebet zu Rhya, in dem du um ihre Hilfe beim Erkennen ihres Reiches bittest. Dieses Wunder kann nur im Freien gewirkt werden, außerhalb von Siedlungen. Du spürst die Gegenwart und die Bewegungen aller empfindungsfähigen Wesen innerhalb einer Reichweite in Schritt, die deinem Charisma entspricht. Für je +2 EG kannst du den Wirkungsbereich um eine Anzahl von Schritt erweitern, die deinem Charisma entspricht.</p>"
+		},
+		{
+			"id": "Rhya's Shelter",
+			"name": "Rhyas Zuflucht",
+			"description": "<p>Reichweite: Du selbst<br> Ziel: Du selbst<br> Dauer: Speziell<br> Du singst eine von Rhyas Hymnen über Zuflucht und Geborgenheit. Dieses Wunder kann nur im Freien gewirkt werden, außerhalb von Siedlungen. Du findest eine perfekte natürliche Zuflucht. Irgendeine Kombination aus Bodenstruktur und Bäumen hat einen perfekten Ort erschaffen, um an ihm das Nachtlager aufzuschlagen. Der Ort ist vor jedem natürlichen Wind oder Regen geschützt und besteht so lange, wie du dort lagerst. Die Zuflucht ist groß genug für 1 Person. Für je +2 EG reicht sie auch noch für eine weitere Person. Wenn du das Lager verlässt, ist es danach nicht mehr auffindbar, denn es existierte nur durch den Willen der Göttin.</p>"
+		},
+		{
+			"id": "Rhya's Succour",
+			"name": "Rhyas Trost",
+			"description": "<p>Reichweite: Charisma in Schritt<br> Ziel: Charisma-Bonus in Verbündeten<br> Dauer: Sofort<br> Du singst Rhyas Lied der neuen Lebenskraft. Bei allen betroffenen Zielen wird 1 Zustand entfernt. Sollte dies alle erlittenen Zustände beseitigen, fühlen sich die Ziele so erfrischt, als wären sie gerade aus einem gesunden Nachtschlaf erwacht und erhalten einen Bonus von +10 auf alle Würfe in der nächsten Runde.</p>"
+		},
+		{
+			"id": "Rhya's Touch",
+			"name": "Rhyas Berührung",
+			"description": "<p>Reichweite: Berührung<br> Ziel: 1<br> Dauer: Speziell<br> Du legst die Hände auf ein verletztes oder krankes Ziel und singst dein Gebet. Wähle einen der folgenden Effekte: 1. Heile eine deinem Charisma-Bonus entsprechende Anzahl von LP. 2. Heile 1 natürlich verursachte Krankheit. Für je +2 EG kannst du einen weiteren Effekt wählen, auch den gleichen mehrfach. Dieses Wunder wirkt langsam; die Effekte brauchen wenigstens 10 Minuten, um sich zu manifestieren. Wenn es unterbrochen wird, dann muss das Wunder neu gewirkt werden.</p>"
+		},
+		{
+			"id": "Rhya's Union",
+			"name": "Rhyas Vereinigung",
+			"description": "<p>Reichweite: Berührung<br> Ziel: Speziell<br> Dauer: Charisma-Bonus in Stunden<br> Du segnest und weihst die Vereinigung zweier Seelen. Während das Wunder wirkt, wird das Paar ein Kind zeugen, sofern dies biologisch möglich ist.</p>"
+		},
+		{
+			"id": "Rich Man, Poor Man, Beggar Man, Thief",
+			"name": "Reicher, Armer, Bettler, Dieb",
+			"description": "<p>Reichweite: 1 Schritt<br> Ziel: 1 Schritt<br> Dauer: Charisma-Bonus in Minuten<br> Du lächelst Ranald an, während du jemanden frech fragst, was genau eigentlich Reichtum sei? Für jedes betroffene Ziel wählst du eine der folgenden Optionen: 1. Die Börse des Zieles sieht leer aus. 2. Die Börse des Zieles sieht voll aus. 3. Die Gewandung des Zieles sieht billig und nicht bemerkenswert aus. 4. Die Gewandung des Zieles sieht reich und nach bester Machart aus. 5. Ein einzelner wertvoller Gegenstand ist unmöglich zu entdecken. Pro +2 EG darfst du einen zusätzlichen Effekt für ein einzelnes deiner Ziele wählen.</p>"
+		},
+		{
+			"id": "Sea Legs",
+			"name": "Matrosengang",
+			"description": "<p>Reichweite: Charisma in Schritt<br> Ziel: 1<br> Dauer: Charisma-Bonus in Runden<br> Deine Ziele sind sofort von Salzwasser durchtränkt und schwanken, als würden sie über das Deck eines im Sturm hin und her rollenden Schiffes taumeln. Ihr Haar wird von geisterhaften Winden gepeitscht und die Gischt spritzt ihnen ins Gesicht. Sie erhalten je 1 Geblendet-, Ertaubt und Erschöpft-Zustand und müssen einen durchschnittlichen (+20) Gewandtheits-Wurf bestehen, um ihre Bewegungsaktion durchführen zu können. Wenn der Wurf misslingt, erhalten sie zudem den Zustand Niedergestreckt.</p>"
+		},
+		{
+			"id": "Shackles of Truth",
+			"name": "Fesseln der Wahrheit",
+			"description": "<p>Reichweite: Charisma in Schritt<br> Ziel: 1<br> Dauer: Charisma-Bonus in Runden<br> Du appellierst an Verena und erbittest ihr Urteil im Falle eines Beschuldigten. Wenn das Ziel ein Verbrechen begangen hat und behauptet, dies nicht getan zu haben, während dieses Wunder andauert, dann erhält es 1 Gefesselt-Zustand, der während der Dauer nicht entfernt werden kann. Wenn du das Ziel fälschlich beschuldigt hast, reagiert Verena unerfreut auf deinen Mangel an Weisheit; du erhältst 1 Sündenpunkt und musst sofort auf die Tabelle für den Zorn der Götter würfeln.</p>"
+		},
+		{
+			"id": "Shallya's Tears",
+			"name": "Shallyas Tränen",
+			"description": "<p>Reichweite: Berührung<br> Ziel: 1<br> Dauer: Speziell<br> Deine leidenschaftlichen Gebete bringen Shallya dazu, einer armen, verwundeten Seele beizustehen und die Tränen rinnen dir in Strömen über die Wangen. Du betest für 10 - Charisma-Bonus Runden, nach denen 1 Kritische Verletzung des Zieles geheilt ist. Für je +2 EG kannst du eine weitere Kritische Verletzung heilen. Wenn dein Gebet unterbrochen wird, profitiert das Ziel nicht von ihm. Dieses Wunder kann keine amputierten Körperteile zurückbringen.</p>"
+		},
+		{
+			"id": "Shield of Myrmidia",
+			"name": "Myrmidias Schild",
+			"description": "<p>Reichweite: Charisma in Schritt<br> Ziel: Intelligenz-Bonus in Verbündeten<br> Dauer: Charisma-Bonus in Runden<br> Dein unerschütterliches Beten bringt Myrmidia dazu, deine Verbündeten mit leuchtenden, hauchfeinen Bändern aus Licht zu umhüllen, die gegnerische Treffer ablenken. Alle Ziele erhalten +1 RP an allen Trefferzonen.</p>"
+		},
+		{
+			"id": "Sigmar's Fiery Hammer",
+			"name": "Sigmars flammender Hammer",
+			"description": "<p>Reichweite: Du selbst<br> Ziel: Du selbst<br> Dauer: Charisma-Bonus in Runden<br> Du intonierst Weihegesänge an Sigmars Macht. Wenn du einen Kriegshammer führst, gilt dieser als magisch, verursacht + Charisma-Bonus Schaden und jedes getroffene Ziel erhält die 1 Brennend-Zustand und den Zustand Niedergestreckt.</p>"
+		},
+		{
+			"id": "Soulfire",
+			"name": "Seelenfeuer",
+			"description": "<p>Reichweite: Du selbst<br> Ziel: Wirkungsbereich<br> Dauer: Sofort<br> Du rufst die Macht Sigmars herab, um die Feinde des Imperiums zu vernichten. Ein heiliges Feuer bricht aus deinem Leib hervor und breitet sich deinen Charisma-Bonus in Schritt weit aus. Alle Ziele innerhalb dieser Reichweite verlieren 1W10 LP, wobei Widerstands-Bonus und RP ignoriert werden. Ziele mit den Kreaturen-Eigenschaften Untot und Dämon erhalten zudem 1 Brennend-Zustand. Für je +2 EG kannst du das Feuer sich entweder weitere Charisma-Bonus in Schritt weit ausbreiten lassen oder zusätzliche +2 Schaden gegen alle Grünhäute, Untoten oder Diener der Mächte der Verderbnis anrichten lassen.</p>"
+		},
+		{
+			"id": "Spear of Myrmidia",
+			"name": "Myrmidias Speer",
+			"description": "<p>Reichweite: Du selbst<br> Ziel: Du selbst<br> Dauer: Charisma-Bonus in Runden<br> Wenn du einen Speer führst, erhält dieser die Qualität Wuchtig und gilt als magisch.</p>"
+		},
+		{
+			"id": "Stay Lucky",
+			"name": "Viel Glück!",
+			"description": "<p>Reichweite: Du selbst<br> Ziel: Du selbst<br> Dauer: Speziell<br> Indem du die Finger kreuzt, gibst du Ranalds Rätsel auf und fragst, was genau Glück ist. Du erhältst +1 Glückspunkt. Pro +2 EG erhältst du einen zusätzlichen +1 Glückspunkt. Dies darf dein gewöhnliches Maximum übersteigen. Du darfst dieses Wunder nicht erneut wirken, ehe du nicht 0 Glückspunkte erreicht hast.</p>"
+		},
+		{
+			"id": "Stay Morr's Hand",
+			"name": "Morrs behütende Hand",
+			"description": "<p>Reichweite: Berührung<br> Ziel: 1<br> Dauer: Charisma-Bonus in Stunden (speziell)<br> Du berührst die Augen von jemandem, der kurz vor dem Sterben ist und bittest Morr, die Seele zu behüten, aber noch nicht zu nehmen. Das Ziel muss 0 LP haben und zustimmen. Für die Dauer des Wunders erhält das Ziel den Zustand Bewusstlos und seine Lage wird sich nicht verschlechtern, ehe das Wunder nicht endet, weder durch Krankheiten noch durch Kritische Verletzungen, Gifte oder Ähnliches. Das Wunder endet, sobald wirksame Heilung begonnen wird oder du die letzten Riten vollziehst, woraufhin die Seele durch Morrs Portal schreitet und der zurückbleibende Leichnam nicht mehr zum Ziel irgendwelcher nekromantischen Zauber werden kann.</p>"
+		},
+		{
+			"id": "Sword of Justice",
+			"name": "Schwert der Gerechtigkeit",
+			"description": "<p>Reichweite: Du selbst<br> Ziel: Du selbst<br> Dauer: Charisma-Bonus in Runden<br> Du betest zu Verena, auf dass sie deine Klinge führen und die Unredlichen niederstrecken möge. Wenn du ein Schwert führst, dann ignoriert es RP und gilt als magisch. Wenn die getroffenen Gegner Kriminelle sind (nach Entscheidung des SL), dann müssen sie einen durchschnittlichen (+20) Ausdauer-Wurf bestehen, oder sie erhalten den Status Bewusstlos, der Charisma-Bonus in Runden lang anhält. Wenn an dem bewusstlosen Gegner irgendein Verbrechen verübt wird, dann erhältst du 1 Sündenpunkt.</p>"
+		},
+		{
+			"id": "Tanglefoot",
+			"name": "Verstricken",
+			"description": "<p>Reichweite: Charisma in Schritt<br> Ziel: Wirkungsbereich<br> Dauer: Sofort<br> Du rufst zu Taal und bittest ihn, seine wilden Orte zu beschützen. Wurzeln, Ranken und Insekten winden sich um deine Feinde. Alle Ziele innerhalb einer Anzahl von Schritt, die deinem Charisma-Bonus entspricht, erhalten 1 Gefesselt-Zustand. Für je +2 EG kannst du entweder den Wirkungsbereich um eine Anzahl von Schritt vergrößern, die deinem Charisma-Bonus entspricht, oder 1 zusätzlichen Gefesselt-Zustand verursachen. Bezüglich der Versuche sich zu befreien, hat Verstricken eine Stärke, die dieser Willenskraft entspricht.</p>"
+		},
+		{
+			"id": "The Snow King's Judgement",
+			"name": "Schneekönigs Richtspruch",
+			"description": "<p>Reichweite: Charisma in Schritt<br> Ziel: 1<br> Dauer: Sofort<br> Du rufst zu Ulric, um dessen Verachtung für die Schwachen, Feigen und Heimtückischen manifestieren zu lassen. Das Ziel verliert 1W10 LP, wobei Widerstands-Bonus und RP ignoriert werden. Sollte der SL entscheiden, dass das Ziel weder schwach, noch feige oder heimtückisch ist, erleidest stattdessen du den Effekt.</p>"
+		},
+		{
+			"id": "Tooth and Claw",
+			"name": "Fang und Klaue",
+			"description": "<p>Reichweite: Du selbst<br> Ziel: Du selbst<br> Dauer: Charisma-Bonus in Runden<br> Du bittest Taal, dir die wilde Macht seines Königreiches zu gewähren. Du erhältst die Kreaturen-Eigenschaften Biss (STB+3) und Waffe (STB+4). Diese Attacken sind magisch.</p>"
+		},
+		{
+			"id": "Truth Will Out",
+			"name": "Wahrheit will ans Licht",
+			"description": "<p>Reichweite: Charisma in Schritt<br> Ziel: 1<br> Dauer: Sofort<br> Du intonierst Gebete an Verenas Fähigkeit, die Wahrheit zu erkennen. Du kannst den Zielen eine einfache Frage stellen. Diese wird sofort wahrheitsgemäß und vollständig beantwortet. Wenn sie es wollen, können Ziele versuchen, dem zu widerstehen, indem sie mit einem durchschnittlichen (+20) Besonnenheits-Wurf gegen deine EG würfeln. Wenn der Wurf gelingt, können sie sich stur weigern Auskunft zu geben. Wenn sie +2 EG erreichen, können sie eine kleinere Information zurückhalten, bei +4 EG können sie eine signifikante Information zurückhalten und bei +6 EG können sie ungebremst lügen. Du erfährst, wenn sie dem Wunder erfolgreich widerstehen, doch du bekommst keine genaueren Informationen zu dem, was sie verschweigen und auch keinen Beweis für ihre Unehrlichkeit.</p>"
+		},
+		{
+			"id": "Twin-tailed Comet",
+			"name": "Zweischweifiger Komet",
+			"description": "<p>Reichweite: Charisma in Schritt<br> Ziel: Wirkungsbereich<br> Dauer: Sofort<br> Du intonierst Litaneien Sigmars und bittest ihn, seine Feinde zu zerschmettern. Ein Komet mit zwei brennenden Schweifen bricht aus dem Himmel hervor und schlägt an einem Punkt in deiner Sichtlinie und innerhalb der Reichweite ein. Alles innerhalb einer Distanz zum Einschlagsort, die deinem Charisma-Bonus in Schritt entspricht, erleidet 1W10+EG Schaden, der Widerstands-Bonus und RP ignoriert, und erhält zudem 1 Brennend-Zustand. Der Zielort muss sich unter freiem Himmel befinden und es können nur Ziele anvisiert werden, die Sigmar als Feind erachten würde.</p>"
+		},
+		{
+			"id": "Ulric's Fury",
+			"name": "Ulrics Wut",
+			"description": "<p>Reichweite: Charisma in Schritt<br> Ziel: 1<br> Dauer: Charisma-Bonus in Runden<br> Du rufst wutschnaubende Gebete und Ulrics Wut breitet sich aus. Das Ziel erhält die Psychologische Eigenschaft Raserei.</p>"
+		},
+		{
+			"id": "Unblemished Innocence",
+			"name": "Unbefleckte Unschuld",
+			"description": "<p>Reichweite: Berührung<br> Ziel: 1<br> Dauer: Sofort<br> Du legst deine Hände auf den Betroffenen und bittest Shallya, ihn von der kürzlich erhaltenen Korrumpierung zu befreien. Das Ziel verliert 1 Korrumpierungspunkt und kannst pro +2 EG einen weiteren verlieren. Die Chaosgötter mögen es jedoch nicht, wenn man ihr Tun auf diese Weise vereitelt. Solltest du beim Versuch dieses Wunder zu wirken einen Patzer würfeln, dann erhalten sowohl du als auch dein Ziel je 1W10 Korrumpierungspunkte, zusätzlich zu allen weiteren Effekten. Das Wunder muss binnen einer Stunde durchgeführt werden, nachdem das Ziel den oder die Korrumpierungspunkte erhielt.</p>"
+		},
+		{
+			"id": "Vanquish the Unrighteous",
+			"name": "Zerschmettert die Unreinen!",
+			"description": "<p>Reichweite: Charisma in Schritt<br> Ziel: Charisma-Bonus in Verbündeten<br> Dauer: Charisma-Bonus in Runden<br> Deine Gebete erfüllen die Verbündeten mit tiefer Abscheu gegenüber den Feinden Sigmars. Alle betroffenen Verbündeten erhalten die Psychologische Eigenschaft Hass gegenüber Grünhäuten, Untoten und jenen, die mit dem Chaos im Bunde sind.</p>"
+		},
+		{
+			"id": "Waterwalk",
+			"name": "Wasserwandeln",
+			"description": "<p>Reichweite: Du selbst<br> Ziel: Du selbst<br> Dauer: Charisma-Bonus in Minuten<br> Du bittest Manann darum, dich über eine offene Wasserfläche schreiten zu lassen, als wäre es fester Boden. Dies funktioniert nur bei größeren Gewässern, die mindestens 10 Schritt breit sind. Alles was kleiner ist, ist zu weit von Mananns Einflusssphäre entfernt, um von ihm bemerkt zu werden.</p>"
+		},
+		{
+			"id": "Winter's Bite",
+			"name": "Winterbiss",
+			"description": "<p>Reichweite: Du selbst<br> Ziel: Du selbst<br> Dauer: Charisma-Bonus in Runden<br> Deine geröhrten Gebete preisen Blitzbeil, Ulrics stets nach Blut dürstende Axt. Wenn du eine Axt führst, zählt diese als magisch, verursacht + EG Schaden und jedes getroffene Ziel muss einen herausfordernden (+0) Ausdauer-Wurf bestehen, oder es erhält 1 Betäubt-Zustand. Des Weiteren verlieren getroffene Ziele jeden Blutend-Zustand, da das Blut in der Wunde gefriert und Attacken mit dieser Axt können keine Blutend-Zustände verursachen.</p>"
+		},
+		{
+			"id": "Wisdom of the Owl",
+			"name": "Weisheit der Eule",
+			"description": "<p>Reichweite: Du selbst<br> Ziel: Du selbst<br> Dauer: Charisma-Bonus in Runden<br> Du bittest Verena, dir mit ihrer Weisheit und ihrem Wissen beizustehen. Während dieses Wunder wirkt, erhältst du +20 auf alle Intelligenz-Würfe. Außerdem öffnen sich deine Pupillen und dein Starren wird durchdringend und beunruhigend. Du erhältst die Talente Bedrohlich und Scharfe Sinne (Sicht), beziehungsweise +1 Stufe in diesen, wenn du das jeweilige Talent schon besitzt.</p>"
+		},
+		{
+			"id": "You Ain’t Seen Me, Right?",
+			"name": "Du kannst mich nicht sehen, oder?",
+			"description": "<p>Reichweite: Charisma in Schritt<br> Ziel: 1<br> Dauer: Charisma-Bonus in Runden<br> Du stellst ein komplexes Rätsel über die Realität dessen, was nicht gesehen werden kann. Ziele, die von diesem Wunder beeinflusst werden, werden weder bemerkt noch bleiben sie im Gedächtnis, sofern sie nichts tun, das Aufmerksamkeit auf sie lenkt, wie berühren, attackieren, jemanden ansprechen, zaubern oder laute Geräusche machen. Du kannst diesesWunder nur wirken, wenn dich niemand direkt ansieht.</p>"
+		}
+	]
+}
