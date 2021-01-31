@@ -1,0 +1,411 @@
+{
+	"label": "Critiques",
+	"mapping": {      
+    "location": {
+      "path": "data.location.value",
+      "converter": "generic_localization"
+    }
+  },
+	"entries": [
+		{
+			"id": "Arterial Damage",
+			"name": "Arterie verletzt",
+			"description": "<p>LP-Verlust: 3.<br>Du erhältst 4 Blutend-Zustände. Bis dir mit Chirurgie geholfen wurde, verursacht jeder weitere Treffer an der Trefferzone Körper zusätzlich 2 Blutend-Zustände. </p>"
+		},
+		{
+			"id": "Bad Cut",
+			"name": "Böser Schnitt",
+			"description": "<p>LP-Verlust: 3.<br>An deinem Schienbein öffnet sich ein tiefer Schnitt. Du erhältst 2 Blutend-Zustände und musst einen herausfordernden (+0) Ausdauer-Wurf bestehen, oder du erhältst den Zustand Niedergestreckt.</p>"
+		},
+		{
+			"id": "Badly Cut Toe",
+			"name": "Übler Schnitt im Zeh",
+			"description": "<p>LP-Verlust: 2.<br>Du erhältst 1 Blutend-Zustand. Nach der Begegnung musst du einen herausfordernden (+0) Ausdauer-Wurf bestehen, oder du verlierst einen Zeh – Amputation (durchschnittlich).</p>"
+		},
+		{
+			"id": "Badly Jarred Arm",
+			"name": "Böse geprellter Arm",
+			"description": "<p>LP-Verlust: 2.<br>Der Treffer prellt dir den Arm schwer. Du lässt alles fallen, was du in der Hand hältst, die danach für 1W10 – WIB Runden (Minimum 1) nutzlos ist. Während dieser Zeit gilt die Hand als wäre sie verloren (siehe Amputierte Körperteile).</p>"
+		},
+		{
+			"id": "Badly Twisted Knee",
+			"name": "Übel verdrehtes Knie",
+			"description": "<p>LP-Verlust: 3.<br>Im Bemühen, deinem Gegner auszuweichen, verdrehst du dir übel das Knie. Du erleidest die Verletzung Muskelriss (schwer).</p>"
+		},
+		{
+			"id": "Black Eye",
+			"name": "Blaues Auge",
+			"description": "<p>LP-Verlust: 2.<br>Ein übler Treffer trifft dein Auge und hinterlässt Tränen und Schmerzen. Du erhältst 2 Geblendet-Zustände.</p>"
+		},
+		{
+			"id": "Bleeding hand",
+			"name": "Blutende Hand",
+			"description": "<p>LP-Verlust: 2.<br>Du hast einen üblen Schnitt in der Hand, der deinen Griff schlüpfrig werden lässt. Du erhältst 1 Blutend-Zustand. Während du unter dem Blutend-Zustand leidest, musst du vor jeder Handlung, die etwas in dieser Hand Gehaltenes erfordert, einen durchschnittlichen (+20) Geschicklichkeits-Wurf bestehen, oder du lässt das fallen, was du in dieser Hand hältst.</p>"
+		},
+		{
+			"id": "Broken Collar Bone",
+			"name": "Gebrochenes Schlüsselbein",
+			"description": "<p>LP-Verlust: 5.<br>Du erhältst 1 Bewusstlos-Zustand, der bis zu medizinischer Versorgung anhält, und erleidest die Verletzung Knochenbruch (schwer).</p>"
+		},
+		{
+			"id": "Broken Jaw",
+			"name": "Gebrochener Kiefer",
+			"description": "<p>LP-Verlust: 4.<br>Das Knacken verdreht einem den Magen, als ein Treffer dein Kinn trifft und es bricht. Du erhältst 3 Betäubt-Zustände. Du musst einen herausfordernden (+0) Ausdauer-Wurf bestehen, oder du erhältst zusätzlich den Zustand Bewusstlos. Du erleidest die Verletzung Knochenbruch (schwer).</p>"
+		},
+		{
+			"id": "Broken Knee",
+			"name": "Gebrochenes Knie",
+			"description": "<p>LP-Verlust: 4.<br>Der Hieb erwischt deine Kniescheibe und lässt sie zu kleinen Stücken zersplittern. Du erhältst 1 Blutend-, 1 Betäubt- sowie den Niedergestreckt-Zustand und die Verletzung Knochenbruch (leicht), um dann am Boden liegend dein verletztes Bein zu umklammern.</p>"
+		},
+		{
+			"id": "Broken Nose",
+			"name": "Gebrochene Nase",
+			"description": "<p>LP-Verlust: 3.<br>Ein satter Treffer trifft dich mitten ins Gesicht und lässt Blut daraus hervorschießen. Du erhältst 2 Blutend-Zustände. Du musst einen herausfordernden (+0) Ausdauer-Wurf bestehen, oder du erhältst zusätzlich den Zustand Betäubt. Nach dem Verheilen erhältst du +/-1 EG bei passenden sozialen Würfen, abhängig vom Kontext, bis Chirurgie angewandt wurde, um die Nase zu richten.</p>"
+		},
+		{
+			"id": "Bruised Ribs",
+			"name": "Angebrochene Rippen",
+			"description": "<p>LP-Verlust: 2.<br>Alle Gewandtheits-Würfe leiden 1W10 Tage lang unter einem Abzug von -10.</p>"
+		},
+		{
+			"id": "Brutal Dismemberment",
+			"name": "Brutale Verstümmelung",
+			"description": "<p>LP-Verlust: Tod.<br>Dein Arm wird abgetrennt und lässt arterielles Blut 1W10 Fuß weit in Zufallsrichtung spritzen (siehe Abweichung), während sich der Treffer bis tief in deinen Oberkörper hineingräbt.</p>"
+		},
+		{
+			"id": "Carved Shin",
+			"name": "Schienbeintreffer",
+			"description": "<p>LP-Verlust: 4.<br>Die Waffe schneidet dicht unter dem Knie tief durch Knochen und Sehnen. Du erhältst 1 Betäubt- und den Niedergestreckt-Zustand. Zusätzlich erleidest du die Verletzungen Knochenbruch (leicht) und Muskelriss (schwer).</p>"
+		},
+		{
+			"id": "Clean Break",
+			"name": "Sauberer Bruch",
+			"description": "<p>LP-Verlust: 3.<br>Ein lautes Knacken ist zu hören, als der Treffer deinen Arm trifft. Du lässt alles fallen, was du in der entsprechenden Hand hältst und erhältst die Verletzung Knochenbruch (leicht). Du musst einen schwierigen (-10) Ausdauer-Wurf bestehen, oder du erhältst zusätzlich einen Betäubt-Zustand.</p>"
+		},
+		{
+			"id": "Cleft Hand",
+			"name": "Gespaltene Hand",
+			"description": "<p>LP-Verlust: 5.<br>Der Treffer teilt dir die Hand. Du verlierst einen Finger – Amputation (schwierig). Du erhältst 2 Blutend-Zustände und 1 Betäubt-Zustand. In jeder darauffolgenden Runde, in der du keine medizinische Versorgung erhältst, verlierst du einen weiteren Finger, da die Wunde aufreißt; wenn dir die Finger ausgehen verlierst du die Hand – Amputation (schwierig).</p>"
+		},
+		{
+			"id": "Concussive Blow",
+			"name": "Gehirnerschütterung",
+			"description": "<p>LP-Verlust: 4.<br>Dein Gehirn wird im Kopf umhergeworfen und Blut spritzt dir aus Nase und Ohren. Du erhältst 1 Ertaubt-Zustand, 2 Blutend-Zustände und 1W10 Betäubt-Zustände. Du erhältst zudem den Zustand Erschöpft, der 1W10 Tage anhält. Wenn du eine weitere Kritische Verletzung am Kopf erleidest, während der Erschöpft-Zustand anhält, muss dir ein durchschnittlicher (+20) Ausdauer-Wurf gelingen, oder du erhältst zudem einen Bewusstlos-Zustand.</p>"
+		},
+		{
+			"id": "Cracked Ribs",
+			"name": "Rippenbruch",
+			"description": "<p>LP-Verlust: 3.<br>Der Treffer bricht dir eine oder mehrere Rippen. Du erhältst 1 Betäubt-Zustand und die Verletzung Knochenbruch (leicht).</p>"
+		},
+		{
+			"id": "Crushed Elbow",
+			"name": "Zerschmetterter Ellenbogen",
+			"description": "<p>LP-Verlust: 4.<br>Der Treffer zerschlägt dir den Ellenbogen und lässt Knochensplitter und Blut spritzen. Du lässt alles fallen, was du in der Hand hältst und erleidest die Verletzung Knochenbruch (schwer).</p>"
+		},
+		{
+			"id": "Crushed Foot",
+			"name": "Zerschmetterter Fuß",
+			"description": "<p>LP-Verlust: 5.<br>Der Treffer zerschmettert deinen Fuß. Du musst einen schweren (-20) Ausdauer-Wurf bestehen oder du erhältst den Zustand Niedergestreckt und verlierst 1 Zeh, plus einen zusätzlichen Zeh für jeden EG unter 0 – Amputation (durchschnittlich). Du erhältst 2 Blutend-Zustände. Wenn du nicht binnen 1W10 Tagen mittels Chirurgie behandelt wirst, verlierst du den Fuß vollständig.</p>"
+		},
+		{
+			"id": "Cut Tendon",
+			"name": "Zerteilter Muskel",
+			"description": "<p>LP-Verlust: 5.<br>Eine großer Muskelstrang auf der Rückseite deines Oberschenkels wird gekappt und lässt dich aufbrüllen, als das Bein unter dir zusammenbricht. Du erhältst 2 Blutend- und 2 Betäubt-Zustände sowie den Niedergestreckt-Zustand und starrst in blankem Entsetzen auf dein Bein, das dich nie mehr tragen wird – Amputation (sehr schwer).</p>"
+		},
+		{
+			"id": "Damaged Artery",
+			"name": "Verletzte Arterie",
+			"description": "<p>LP-Verlust: 4.<br>Du erhältst 4 Blutend-Zustände. Bis dir mit Chirurgie geholfen wurde, verursacht jeder weitere Treffer an diesem Arm zusätzlich 2 Blutend-Zustände.</p>"
+		},
+		{
+			"id": "Decapitated",
+			"name": "Geköpft",
+			"description": "<p>LP-Verlust: Tod.<br>Dein Kopf wird vollständig vom Hals getrennt und fliegt durch die Luft, um 1W10 Fuß weit in Zufallsrichtung zu landen (siehe Abweichung). Dein Körper bricht sofort leblos zusammen.</p>"
+		},
+		{
+			"id": "Deep Cut",
+			"name": "Tiefer Schnitt",
+			"description": "<p>LP-Verlust: 3.<br>Du erhältst 2 Blutend-Zustände als dein Arm übel zugerichtet wird. Du erhältst 1 Betäubt-Zustand und erleidest die Verletzung Muskelriss (leicht). Du musst einen schweren (-20) Ausdauer-Wurf bestehen, oder du erhältst zusätzlich den Zustand Bewusstlos.</p>"
+		},
+		{
+			"id": "Devastated Eye",
+			"name": "Zerstörtes Auge",
+			"description": "<p>LP-Verlust: 5.<br>Der Treffer zerschmettert dein Auge vollständig und verursacht rasende Schmerzen. Du erhältst 3 Blutend-, 2 Geblendet-Zustände und 1 Betäubt-Zustand, und du verlierst dein Auge – Amputation (schwierig).</p>"
+		},
+		{
+			"id": "Disfiguring Blow",
+			"name": "Entstellender Treffer",
+			"description": "<p>LP-Verlust: 5.<br>Der Schlag zerschmettert dein Gesicht und zerstört in einem Regen von Blut ein Auge und deine Nase. Du erhältst 3 Blutend-, 3 Geblendet- und 2 Betäubt-Zustände, und du verlierst ein Auge und die Nase – Amputation (schwer).</p>"
+		},
+		{
+			"id": "Dislocated Knee",
+			"name": "Ausgerenktes Knie",
+			"description": "<p>LP-Verlust: 4.<br>Dein Knie wird aus dem Gelenk gedreht und das Bein gilt als nutzlos. Du erhältst den Niedergestreckt-Zustand und musst einen schweren (-20) Ausdauer-Wurf bestehen, oder du erhältst zusätzlich den Zustand Betäubt, der bis zu medizinischer Versorgung anhält. Nach der ersten medizinischen Versorgung ist ein Erweiterter durchschnittlicher (+20) Heilen-Wurf nötig, der 6 EG benötigt, um das Knie wieder einzurenken, und es wieder nutzbar zu machen. 1W10 Tage lang ist deine Bewegung halbiert und Würfe, die dieses Bein erfordern, werden mit -10 durchgeführt.</p>"
+		},
+		{
+			"id": "Dislocated Shoulder",
+			"name": "Ausgerenkte Schulter",
+			"description": "<p>LP-Verlust: 4.<br>Dir wird der Arm ausgekugelt. Du musst einen schweren (-20) Ausdauer-Wurf bestehen, oder du erhältst die Zustände Betäubt und Niedergestreckt. Du lässt alles fallen, was du in der entsprechenden Hand hältst. Der Arm ist danach nutzlos und gilt, als wäre er verloren (siehe Amputierte Körperteile). Du erhältst 1 Betäubt-Zustand, bis dir medizinische Versorgung zuteilwurde. Nach dieser medizinischen Versorgung ist ein Erweiterter durchschnittlicher (+20) Heilen-Wurf nötig, der 6 EG benötigt, um den Arm wieder einzurenken und ihn wieder nutzbar zu machen. Würfe, die diesen Arm erfordern, werden 1W10 Tage lang mit -10 durchgeführt.</p>"
+		},
+		{
+			"id": "Dramatic Injury",
+			"name": "Schmiss",
+			"description": "<p>LP-Verlust: 1.<br>Eine schmale Wunde über Stirn und Wange. Du erhältst 1 Blutend-Zustand. Sobald die Verletzung geheilt ist, bleibt ein beeindruckender Schmiss zurück, der einen Bonus von +1 EG bei passenden sozialen Würfen bringt. Du kannst diesen bleibenden Bonus nur ein einziges Mal erhalten.</p>"
+		},
+		{
+			"id": "Ear Bash",
+			"name": "Schlag aufs Ohr",
+			"description": "<p>LP-Verlust: 1.<br>Dein Ohr kassiert einen flachen Treffer und klingelt nun. Du erhältst 1 Ertaubt-Zustand.</p>"
+		},
+		{
+			"id": "Fractured Hip",
+			"name": "Gebrochene Hüfte",
+			"description": "<p>LP-Verlust: 4.<br>Du erhältst 1 Betäubt-Zustand und die Verletzung Knochenbruch (schwer). Zusätzlich musst einen herausfordernden (+0) Ausdauer-Wurf bestehen, oder du erhältst auch den Zustand Niedergestreckt.</p>"
+		},
+		{
+			"id": "Fractured Jaw",
+			"name": "Gebrochener Kiefer",
+			"description": "<p>LP-Verlust: 4.<br>Das Knacken verdreht einem den Magen, als ein Treffer dein Kinn trifft und es bricht. Du erhältst 3 Betäubt-Zustände. Du musst einen herausfordernden (+0) Ausdauer-Wurf bestehen, oder du erhältst zusätzlich den Zustand Bewusstlos. Du erleidest die Verletzung Knochenbruch (schwer).</p>"
+		},
+		{
+			"id": "Gaping Arm Wound",
+			"name": "Klaffende Armwunde",
+			"description": "<p>LP-Verlust: 3.<br>Der Treffer öffnet eine tiefe, klaffende Wunde. Du erhältst 2 Blutend-Zustände. Bis dir mit Chirurgie geholfen werden konnte und der Arm genäht ist, verursacht jeder weitere Treffer dieses Arms zusätzlich 1 Blutend-Zustand, da sich die Wunde wieder öffnet.</p>"
+		},
+		{
+			"id": "Gaping Chest Wound",
+			"name": "Klaffende Wunde am Körper",
+			"description": "<p>LP-Verlust: 3.<br>Du erhältst 3 Blutend-Zustände. Bis dir mit Chirurgie geholfen wurde, verursacht jeder weitere Treffer an der Trefferzone Körper zusätzlich 1 Blutend-Zustand, da sich die Wunde wieder öffnet.</p>"
+		},
+		{
+			"id": "Gut Blow",
+			"name": "Magentreffer",
+			"description": "<p>LP-Verlust: 1.<br>Du erhältst 1 Betäubt-Zustand und musst einen einfachen (+40) Ausdauer-Wurf bestehen, oder du erbrichst dich und erhältst zusätzlich einen Niedergestreckt-Zustand.</p>"
+		},
+		{
+			"id": "Gut Wound",
+			"name": "Bauchwunde",
+			"description": "<p>LP-Verlust: 4.<br>Du erleidest eine Schwärende Wunde (siehe Krankheiten und Infektionen) und erhältst 2 Blutend-Zustände.</p>"
+		},
+		{
+			"id": "Hacked Leg",
+			"name": "Hieb in das Bein",
+			"description": "<p>LP-Verlust: 3.<br>Der Treffer dringt in Hüfthöhe tief in das Bein ein. Du erhältst 2 Blutend-Zustände, den Zustand Niedergestreckt und erleidest die Verletzung Knochenbruch (leicht). Zudem musst du einen schweren (-20) Ausdauer-Wurf bestehen, oder du erhältst durch die Schmerzen den Zustand Betäubt.</p>"
+		},
+		{
+			"id": "Internal Bleeding",
+			"name": "Innere Blutungen",
+			"description": "<p>LP-Verlust: 5.<br>Du erhältst 1 Blutend-Zustand, der sich nur mit Chirurgie entfernen lässt, und infizierst dich mit Blutfäule (siehe Krankheiten und Infektionen).</p>"
+		},
+		{
+			"id": "Jarred Arm",
+			"name": "Geprellter Arm",
+			"description": "<p>LP-Verlust: 1.<br>Der Treffer prellt dir den Arm. Du lässt alles fallen, was du in der Hand hältst.</p>"
+		},
+		{
+			"id": "Lost Footing",
+			"name": "Aus dem Tritt",
+			"description": "<p>LP-Verlust: 1.<br>Du gerätst im Getümmel aus dem Tritt und ins Taumeln. Du musst einen herausfordernden (+0) Ausdauer-Wurf bestehen, oder du erhältst den Zustand Niedergestreckt.</p>"
+		},
+		{
+			"id": "Low Blow!",
+			"name": "Tiefschlag!",
+			"description": "<p>LP-Verlust: 1.<br>Du musst einen schweren (-20) Ausdauer-Wurf bestehen, oder du erhältst 3 Betäubt-Zustände.</p>"
+		},
+		{
+			"id": "Major Chest Wound",
+			"name": "Schwere Brustwunde",
+			"description": "<p>LP-Verlust: 4.<br>Dir wird eine schwere Wunde in der Brust zugefügt, die Haut, Muskeln und Sehnen aufreißt. Du erhältst 4 Blutend-Zustände. Bis dir mit Chirurgie geholfen wurde, verursacht jeder weitere Treffer an der Trefferzone Körper zusätzlich 2 Blutend-Zustände, da sich die Wunde wieder öffnet.</p>"
+		},
+		{
+			"id": "Major Ear Wound",
+			"name": "Schwere Ohrenverletzung",
+			"description": "<p>LP-Verlust: 3.<br>Der Treffer verletzt dein Ohr und lässt dich mit einem permanenten Gehörverlust dieses Ohres zurück. Du erhältst einen Abzug von -20 auf alle Würfe, die mit dem Hören zu tun haben. Wenn du diesen Treffer ein zweites Mal erhältst, ist dein Gehörverlust vollständig, da auch das zweite Ohr zerstört wird. Nur Magie kann dies heilen.</p>"
+		},
+		{
+			"id": "Major Eye Wound",
+			"name": "Schwere Augenverletzung",
+			"description": "<p>LP-Verlust: 3.<br>Der Treffer reißt dir die Augenbraue auf. Du erhältst 1 Blutend-Zustand und 1 Geblendet-Zustand, wobei der Geblendet-Zustand nicht ohne medizinische Versorgung beseitigt werden kann.</p>"
+		},
+		{
+			"id": "Mangled Ear",
+			"name": "Zerschmettertes Ohr",
+			"description": "<p>LP-Verlust: 4.<br>Von deinem Ohr bleibt wenig übrig, nachdem der Treffer es zerfetzt hat. Du erhältst 2 Ertaubt-Zustände und 1 Blutend-Zustand, und du verlierst dein Ohr – Amputation (durchschnittlich).</p>"
+		},
+		{
+			"id": "Mangled Hand",
+			"name": "Zerfetzte Hand",
+			"description": "<p>LP-Verlust: 5.<br>Deine Hand ist nur noch ein verdrehter, blutiger Klumpen. Du verlierst die Hand–Amputation (schwer) – und erhältst 2 Blutend-Zustände. Du musst einen schweren (-20) Ausdauer-Wurf bestehen, oder du erhältst zusätzlich die Zustände Betäubt und Niedergestreckt.</p>"
+		},
+		{
+			"id": "Mangled Jaw",
+			"name": "Zerschmetterter Kiefer",
+			"description": "<p>LP-Verlust: 5.<br>Der Treffer reißt dir beinahe den ganzen Kiefer ab, zerfetzt deine Zunge und lässt einen Regen aus Blut und Zähnen fliegen. Du erhältst 4 Blutend- und 3 Betäubt-Zustände. Du musst einen sehr schweren (-30) Ausdauer-Wurf bestehen, oder du erhältst zusätzlich den Zustand Bewusstlos. Du erleidest die Verletzung Knochenbruch (schwer) und verlierst die Zunge und 1W10 Zähne – Amputation (schwer).</p>"
+		},
+		{
+			"id": "Mauled Bicep",
+			"name": "Zerfleischter Bizeps",
+			"description": "<p>LP-Verlust: 5.<br>Der Treffer legt den Bizeps frei und trennt ihn teilweise vom Knochen ab, wobei aus der grausigen Verwundung Blut über deine Feinde spritzt. Du lässt alles fallen, was du in der entsprechenden Hand hältst, erleidest die Verletzung Muskelriss (schwer) und erhältst 2 Blutend-Zustände und 1 Betäubt-Zustand.</p>"
+		},
+		{
+			"id": "Minor Arm Cut",
+			"name": "Kleiner Schnitt am Arm",
+			"description": "<p>LP-Verlust: 1.<br>Du erhältst 1 Blutend-Zustand als dein Oberarm einen tiefen Schnitt erleidet.</p>"
+		},
+		{
+			"id": "Minor Head Cut",
+			"name": "Kleiner Schnitt am Kopf",
+			"description": "<p>LP-Verlust: 1.<br>Der Treffer öffnet deine Wange und lässt überall Blut umherspritzen. Du erhältst 1 Blutend-Zustand.</p>"
+		},
+		{
+			"id": "Minor Leg Cut",
+			"name": "Kleiner Schnitt am Bein",
+			"description": "<p>LP-Verlust: 1.<br>Du erhältst 1 Blutend-Zustand.</p>"
+		},
+		{
+			"id": "Painful Cut",
+			"name": "Schmerzhafter Schnitt",
+			"description": "<p>LP-Verlust: 3.<br>Du erhältst 2 Blutend-Zustände und 1 Betäubt-Zustand. Du musst einen schweren (-20) Ausdauer-Wurf bestehen, oder du erhältst zusätzlich den Zustand Bewusstlos, weil dir schwarz vor Augen wird. Sofern dir dabei nicht 4+ EG gelingen, schreist du zudem vor Pein auf.</p>"
+		},
+		{
+			"id": "Poked Eye",
+			"name": "Angeschlagenes Auge",
+			"description": "<p>LP-Verlust: 1.<br>Der Treffer streift deine Augenhöhle. Du erhältst 1 Geblendet-Zustand.</p>"
+		},
+		{
+			"id": "Pulled Back",
+			"name": "Gezerrter Rücken",
+			"description": "<p>LP-Verlust: 4.<br>Dein Rücken scheint vor Schmerzen geradezu zu glühen, als du dir dort einen Muskel zerrst. Du erleidest die Verletzung Muskelriss (schwer).</p>"
+		},
+		{
+			"id": "Ragged Wound",
+			"name": "Aufgerissene Wunde",
+			"description": "<p>LP-Verlust: 3.<br>Du erhältst 2 Blutend-Zustände.</p>"
+		},
+		{
+			"id": "Rattling Blow",
+			"name": "Krachender Treffer",
+			"description": "<p>LP-Verlust: 2.<br>Der Treffer lässt Sterne und Lichter vor deinen Augen tanzen. Du erhältst 1 Betäubt-Zustand.</p>"
+		},
+		{
+			"id": "Ruptered Ligament",
+			"name": "Bänderriss",
+			"description": "<p>LP-Verlust: 3.<br>Du lässt alles fallen, was du in der Hand hältst und erleidest die Verletzung Muskelriss (schwer).</p>"
+		},
+		{
+			"id": "Ruptured Tendon",
+			"name": "Gerissene Sehne",
+			"description": "<p>LP-Verlust: 4.<br>Du erhältst 1 Betäubt- und den Niedergestreckt-Zustand, als eine deiner Sehnen schmerzhaft reißt und musst einen schweren (-20) Ausdauer-Wurf bestehen, oder du erhältst zusätzlich den Zustand Bewusstlos. Dein Bein ist nutzlos (siehe Amputierte Körperteile) und du erleidest die Verletzung Muskelriss (schwer).</p>"
+		},
+		{
+			"id": "Severed Finger",
+			"name": "Abgetrennter Finger",
+			"description": "<p>LP-Verlust: 4.<br>Du erstarrst vor Schreck, als plötzlich einer deiner Finger davonfliegt. Du erhältst 1 Blutend-Zustand – Amputation (durchschnittlich).</p>"
+		},
+		{
+			"id": "Severed Foot",
+			"name": "Abgetrennter Fuß",
+			"description": "<p>LP-Verlust: 5.<br>Dein Fuß wird am Knöchel abgetrennt und landet 1W10 Fuß weit in Zufallsrichtung (siehe Abweichung) – Amputation (schwer). Du erhältst 3 Blutend- und 2 Betäubt-Zustände und den Niedergestreckt-Zustand.</p>"
+		},
+		{
+			"id": "Shattered Pelvis",
+			"name": "Zerschlagenes Becken",
+			"description": "<p>LP-Verlust: Tod.<br>Der Schlag schmettert durch dein Becken, trennt ein Bein ab und schlägt bis tief in das zweite. Du stirbst sofort durch das Wundtrauma.</p>"
+		},
+		{
+			"id": "Sliced Ear",
+			"name": "Zerschnittenes Ohr",
+			"description": "<p>LP-Verlust: 2.<br>Die Seite deines Kopfes kassiert einen bösen Treffer, der dir das Ohr zerschneidet. Du erhältst 2 Ertaubt-Zustände und 1 Blutend-Zustand.</p>"
+		},
+		{
+			"id": "Sliced Tendons",
+			"name": "Gekappte Sehnen",
+			"description": "<p>LP-Verlust: 5.<br>Der Treffer durchtrennt deine Sehnen und lässt den Arm nutzlos herabhängen Amputation (sehr schwer). Du erhältst 3 Blutend-Zustände, 1 Betäubt- und den Niedergestreckt-Zustand und musst einen schweren (-20) Ausdauer-Wurf bestehen, oder du erhältst zusätzlich den Zustand Bewusstlos.</p>"
+		},
+		{
+			"id": "Smashed Mouth",
+			"name": "Eingeschlagener Mund",
+			"description": "<p>LP-Verlust: 4.<br>Ein grausames Knirschen ertönt und plötzlich ist dein Mund mit Blut und ausgeschlagenen Zähnen gefüllt. Du erhältst 2 Blutend-Zustände und verlierst 1W10 Zähne –Amputation (einfach).</p>"
+		},
+		{
+			"id": "Smashed Rib Cage",
+			"name": "Eingeschlagener Brustkorb",
+			"description": "<p>LP-Verlust: 5.<br>Du erhältst 1 Betäubt-Zustand, der sich nur mit medizinischer Versorgung entfernen lässt, und erleidest die Verletzung Knochenbruch (schwer).</p>"
+		},
+		{
+			"id": "Sprain",
+			"name": "Stauchung",
+			"description": "<p>LP-Verlust: 1.<br>Dein Arm wird gestaucht und du erleidest die Verletzung Muskelriss (leicht).</p>"
+		},
+		{
+			"id": "Sprained Ankle",
+			"name": "Verstauchter Knöchel",
+			"description": "<p>LP-Verlust: 2.<br>Du verstauchst dir den Knöchel und erleidest die Verletzung Muskelriss (leicht).</p>"
+		},
+		{
+			"id": "Struck Forehead",
+			"name": "Stirntreffer",
+			"description": "<p>LP-Verlust: 2.<br>Dich trifft ein harter Schlag mitten auf die Stirn. Du erhältst 2 Blutend-Zustände und 1 Geblendet-Zustand, wobei der Geblendet-Zustand nicht beseitigt werden kann, ehe nicht alle Blutend-Zustände beseitigt wurden.</p>"
+		},
+		{
+			"id": "Stubbed Toe",
+			"name": "Verstauchter Zeh",
+			"description": "<p>LP-Verlust: 1.<br>Im Getümmel wird dir der Zeh angeschlagen. Du musst einen durchschnittlichen (+20) Ausdauer-Wurf bestehen, oder du erhältst bis zum Ende der nächsten Runde -10 auf Gewandtheits-Würfe.</p>"
+		},
+		{
+			"id": "Thigh Strike",
+			"name": "Oberschenkeltreffer",
+			"description": "<p>LP-Verlust: 2.<br>Ein schmerzhafter Treffer erwischt deinen Oberschenkel. Du erhältst 1 Blutend-Zustand und musst einen durchschnittlichen (+20) Ausdauer-Wurf bestehen, oder du stolperst und erhältst den Zustand Niedergestreckt.</p>"
+		},
+		{
+			"id": "Tis But A Scratch!",
+			"name": "Das ist nur ein Kratzer!",
+			"description": "<p>LP-Verlust: 1.<br>Du erhältst 1 Blutend-Zustand.</p>"
+		},
+		{
+			"id": "Torn Apart",
+			"name": "In Stücke gerissen",
+			"description": "<p>LP-Verlust: Tod.<br>Du wirst entzweigehackt. Deine obere Hälfte landet in Zufallsrichtung neben dir (siehe Abweichung) und alle Charaktere innerhalb von 2 Schritt werden geradezu in Blut getaucht.</p>"
+		},
+		{
+			"id": "Torn Muscles",
+			"name": "Muskelriss",
+			"description": "<p>LP-Verlust: 2.<br>Der Treffer schmettert in deinen Unterarm. Du erhältst 1 Blutend-Zustand und die Verletzung Muskelriss (leicht).</p>"
+		},
+		{
+			"id": "Torn Thigh",
+			"name": "Aufgerissener Oberschenkel",
+			"description": "<p>LP-Verlust: 3.<br>Die Waffe schlitzt dir den Oberschenkel auf. Du erhältst 3 Blutend-Zustände und musst einen herausfordernden (+0) Ausdauer-Wurf bestehen, oder du erhältst zusätzlich den Zustand Niedergestreckt. Bis die Wunde mit Chirurgie genäht wurde, verursacht jeder weitere Treffer an diesem Bein zusätzlich 1 Blutend-Zustand.</p>"
+		},
+		{
+			"id": "Twisted Ankle",
+			"name": "Verdrehter Knöchel",
+			"description": "<p>LP-Verlust: 1.<br>Du stolperst und vertrittst dir schmerzhaft den Knöchel. Du erhältst für 1W10 Runden -10 auf Gewandtheits-Würfe.</p>"
+		},
+		{
+			"id": "Twisted Back",
+			"name": "Rücken verdreht",
+			"description": "<p>LP-Verlust: 1.<br>Du erleidest die Verletzung Muskelriss (leicht).</p>"
+		},
+		{
+			"id": "Twisted Knee",
+			"name": "Verdrehtes Knie",
+			"description": "<p>LP-Verlust: 2.<br>Du verdrehst das Knie deutlich zu weit und erhältst für 1W10 Runden -20 auf Gewandtheits-Würfe.</p>"
+		},
+		{
+			"id": "Winded",
+			"name": "Solarplexus geprellt",
+			"description": "<p>LP-Verlust: 2.<br>Du erhältst 1 Betäubt-Zustand und musst einen durchschnittlichen (+20) Ausdauer-Wurf bestehen, oder du erhältst zusätzlich den Niedergestreckt-Zustand. Deine Bewegung ist für 1W10 Runden halbiert, da du erst wieder zu Atem kommen musst.</p>"
+		},
+		{
+			"id": "Wrenched Arm",
+			"name": "Verdrehter Arm",
+			"description": "<p>LP-Verlust: 2.<br>Dir wird beinahe der Arm aus der Schulter gehebelt. Du lässt alles fallen, was du in der entsprechenden Hand hältst. Der Arm ist danach für 1W10 Runden nutzlos. Während dieser Zeit gilt der Arm als wäre er verloren (siehe Amputierte Körperteile).</p>"
+		},
+		{
+			"id": "Wrenched Collar Bone",
+			"name": "Verdrehtes Schlüsselbein",
+			"description": "<p>LP-Verlust: 2.<br>Wähle zufällig einen Arm aus. Du lässt alles fallen, was du in der entsprechenden Hand hältst und der Arm ist danach für 1W10 Runden nutzlos. Während dieser Zeit gilt der Arm, als wäre er verloren (siehe Amputierte Körperteile).</p>"
+		}
+	]
+}
