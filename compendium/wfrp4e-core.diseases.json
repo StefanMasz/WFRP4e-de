@@ -1,0 +1,112 @@
+{
+  "mapping": {
+    "duration": "data.duration.value",
+    "contraction": "data.contraction.value",
+    "incubation": "data.incubation.value",
+    "symptoms": "data.symptoms.value",
+    "permanent": "data.permanent.value"
+  },
+  "label": "Krankheiten",
+  "entries": [
+    {
+      "permanent": "",
+      "symptoms": "Fieber (schwerwiegend), Siechtum, Unwohlsein",
+      "duration": "1W10 Tage",
+      "id": "Blood Rot",
+      "contraction": "Als Folge einer anderen Krankheit oder einer Kritischen Verletzung",
+      "incubation": "Sofort",
+      "name": "Blutfäule",
+      "description": "<p>Dein Blut selbst ist erkrankt und so pumpt dein Herz nun schwärende Pestilenz durch den Körper. Blutegel sind eine weithin akzeptierte Behandlungsmethode, doch es gibt auch Ärzte, die hier einen Aderlass in Halsnähe durchführen, um das kränkliche Blut ausfließen zu lassen, und vom Patienten verlangen, große Mengen gesunden Blutes zu trinken, um den Verlust auszugleichen. Egal ob der Patient sich darauf einlässt oder nicht, die Blutfäule ist tödlich und wird höchstwahrscheinlich mit Besuch der Gilde der Klager und dem Kult des Morr enden.</p>"
+    },
+    {
+      "permanent": "",
+      "symptoms": "Fièvre, Persistant (Facile), Malaise, Nausée",
+      "duration": "1d10 jours",
+      "id": "Bronze Fever",
+      "contraction": "Si vous échouez à un Test d'Endurance Accessible (+20) après avoir été piqué par des Moustiques. Si du sang infecté est injecté ou absorbé, vous contractez la Fièvre Dorée automatiquement.",
+      "incubation": "1d10 jours",
+      "name": "Fièvre Dorée",
+      "description": "<p>PLATZHALTER</p>"
+    },
+    {
+      "permanent": "",
+      "symptoms": "Fieber, Langanhaltend (herausfordernd), Offene Wunde, Unwohlsein",
+      "duration": "1W10 Tage",
+      "id": "Festering Wound",
+      "contraction": "Wenn dir ein leichter (+40) Ausdauer-Wurf misslingt, nachdem du mit einer Kreatur gekämpft hast, die die Eigenschaft Infiziert hatte (siehe Bestiarium). Du kannst eine Schwärende Wunde auch als Folge einer Leichten Infektion bekommen.",
+      "incubation": "1W10 Tage oder sofort, falls sie die Folge eines anderen Symptoms ist",
+      "name": "Schwärende Wunde",
+      "description": "<p>Infizierte Schnitte und Schürfwunden sind weit verbreitet, was bedeutet, dass es viel Aberglauben bezüglich ihrer Behandlung gibt. Umschläge aus Blättern und Kot, Krötenhäute und Taubenfedern sind ebenso verbreitet wie das Einreiben mit Sigmar-geweihter Erde. Die meisten Medicusse lehnen Derartiges ab und bevorzugen solch wissenschaftliche Methoden wie eine Mischung aus der Galle eines schwarzen Ochsen, drei Löffeln Urin des Patienten und einem halben Löffel Meersalz, um dies dann in die schwärende, eitrige Wunde zu reiben. Die Schreie des Patienten werden hierbei als Hinweis auf die Wirksamkeit gedeutet.</p>"
+    },
+    {
+      "permanent": "",
+      "symptoms": "Durchfall (moderat), Übelkeit, Unwohlsein",
+      "duration": "1W10 Tage",
+      "id": "Galloping Trots",
+      "contraction": "Wenn dir ein leichter (+40) Widerstands-Wurf misslingt, nachdem etwas Infiziertes in deinen Mund gelangte.",
+      "incubation": "1W10 Stunden",
+      "name": "Galoppierender Durchfall",
+      "description": "<p>Man sagt, dass der Verzehr von Halbling-Speisen zum Galoppierenden Durchfall führen kann, einer unerfreulichen Krankheit, die im Imperium nur allzu verbreitet ist, was nicht zuletzt an der eher sorglosen Weise liegt, in der in den Küchen gearbeitet wird. Doch selbst jene, die sich durch die billige Halbling-Pasteten, die überall in Altdorf von fliegenden Händlern verkauft werden, „Rumsters Rache“ eingefangen haben, werden sich eher Gedanken darüber machen, wie lang sie wohl noch den Donnerbalken bewohnen werden.</p>"
+    },
+    {
+      "permanent": "Sobald man diese Krankheit einmal durchgemacht hat, ist man dagegen immun sich erneut anzustecken.",
+      "symptoms": "Husten und Niesen, Pocken",
+      "duration": "1W10+7 Tage",
+      "id": "Itching Pox",
+      "contraction": "Wenn dir ein durchschnittlicher (+20) Ausdauer-Wurf misslang, nachdem du Kontakt mit einer infizierten Person hattest oder falls eine infizierte Person in deiner unmittelbaren Umgebung hustet oder niest (mit einer Rate von einem Wurf pro Stunde in entsprechender Umgebung).",
+      "incubation": "1W10 Tage",
+      "name": "Juckende Pocken",
+      "description": "<p>Ausbrüche der Juckenden Pocken sind in den Städten und Dörfern des Imperiums eine nahezu jährlich wiederkehrende Angelegenheit. Diese Krankheit verursacht überall auf dem Körper stark juckende Pusteln, verläuft harmlos und hinterlässt nur selten dauerhafte Folgen, sodass sich höchstens Eltern und Adelige Sorgen machen, wenn das Jucken umgeht. Die Krankheit ist so verbreitet, dass in den meisten Tempeln der Shallya stets Tiegel mit weißer Paste bereitstehen, um den Betroffenen Linderung zu verschaffen.</p>"
+    },
+    {
+      "permanent": "",
+      "symptoms": "Langanhaltend (leicht), Offene Wunde, Unwohlsein",
+      "duration": "1W10 Tage",
+      "id": "Minor Infection",
+      "contraction": "Wenn dir ein sehr leichter (+60) Ausdauer-Wurf nach einem Kampf misslang, indem du eine Kritische Verletzung erlitten hast.",
+      "incubation": "1W10 Tage",
+      "name": "Leichte Infektion",
+      "description": "<p>Leichte Infektionen sind langsam abheilende Wunden, die etwas anschwellen und dabei warm werden. Sie sind extrem häufig. Meist heilen sie von allein wieder ab, wenn man ihnen Zeit lässt, also machen sich die meisten Leute keine Sorgen, bis es zu spät ist und sich Morrs Portal öffnet.</p>"
+    },
+    {
+      "permanent": "",
+      "symptoms": "Langanhaltend (herausfordernd), Pocken",
+      "duration": "5W10 Tage",
+      "id": "Packer's Pox",
+      "contraction": "Wenn dir ein leichter (+40) Ausdauer-Wurf misslang, nachdem du Kontakt mit infizierten Tieren, Häuten, Wolle oder Körpern hattest.",
+      "incubation": "1W10 Tage",
+      "name": "Treiberpocken",
+      "description": "<p>Eine recht häufige Krankheit unter Jägern, Kürschnern, Hirten und Händlern, die von befallenen Kühen und Schafen übertragen wird, ebenso wie von ihren Häuten und ihrer Wolle, sowie von allen, die durch die Krankheit starben. Sie beginnt als kleine juckende Stelle, doch dann breiten sich rasch rosafarbene und leicht eingesunkene Flecken am ganzen Körper aus, die sich auf Arme und Torso konzentrieren. Dies ist bei Weitem nicht die schwerste der vielen Pocken-Formen im Imperium, doch eine, die sich sehr lange hinziehen kann und manchmal tödlich verläuft.</p>"
+    },
+    {
+      "permanent": "",
+      "symptoms": "Fieber, Krämpfe, Langanhaltend (durchschnittlich), Offene Wunde, Pocken, Unwohlsein",
+      "duration": "3W10+10 Tage",
+      "id": "Ratte Fever",
+      "contraction": "Wenn dir ein durchschnittlicher (+20) Ausdauer-Wurf misslang, nachdem du im Kampf mit Nagern (inklusive Skaven) mit der Eigenschaft Infiziert verwundet wurdest, oder wenn dir ein leichter (+40) Ausdauer-Wurf misslang, nachdem etwas Infiziertes in deinen Mund gelangte.",
+      "incubation": "3W10+5 Tage",
+      "name": "Rattenfieber",
+      "description": "<p>Das gefürchtete Rattenfieber wird von infizierten Nagern übertragen und beginnt mit entzündeten, eitrigen Ausschlägen, ehe das Fieber steigt und die Krämpfe beginnen. Die Krankheit verläuft selten tödlich, ist aber sehr zehrend und es dauert sehr lange, sie auszukurieren, weshalb die meisten Kranken irgendwann beinahe alles auf sich nehmen, um die Symptome zu lindern. Verbreitete Behandlungsmethoden sind zum Beispiel in Altdorf die Selbstgeißelung, die bei den Entzündungen der Haut helfen soll, und in Talabheim das Einreiben mit einer Mischung aus Ziegenkäse und importiertem kislevitischem Eispfeffer. In den größeren Städten ist das Rattenfieber auch als Pastetenfieber bekannt, denn in manch einer Pastete wird statt teurerem Fleisch Ratte verarbeitet.</p>"
+    },
+    {
+      "permanent": "",
+      "symptoms": "Beulen, Fieber, Unwohlsein, Siechtum (moderat), Wundbrand",
+      "duration": "3W10 Tage",
+      "id": "The Black Plague",
+      "contraction": "Führe einen durchschnittlichen (+20) Ausdauer-Wurf für jede ganze oder angefangene Stunde durch, die du dich in einem von infizierten Flöhen befallenen Gebiet aufhältst, oder wenn du infizierten Flüssigkeiten ausgesetzt bist.",
+      "incubation": "1W10 Minuten",
+      "name": "Schwarze Pest",
+      "description": "<p>Historiker berichten, dass vor Jahrhunderten Ratten das Imperium überfluteten und dass ihnen die Schwarze Pest folgte und neun von zehn Seelen auslöschte. Auch heute noch kommt es immer wieder zu einem unerklärlichen Aufflackern dieser schrecklichen Krankheit. Wenn sie irgendwo ausbricht, erscheinen beinahe sofort die weißen Nonnen. Der Kult der Shallya hat geschworen, alles zu tun, um diese üble Pestilenz auszulöschen. Sie berufen sich auf uralte Gesetze und Rechte, die ihnen einst eingeräumt wurden, und errichten mit weißen Seilen markierte Quarantänezonen, wo auch immer sie der Seuche begegnen. Diese darf niemand betreten oder verlassen, ehe der Ausbruch nicht eingedämmt wurde und alle Leichen ordnungsgemäß bestattet wurden.</p>"
+    },
+    {
+      "permanent": "",
+      "symptoms": "Durchfall (schwerwiegend), Fieber, Langanhaltend (herausfordernd), Übelkeit, Unwohlsein",
+      "duration": "1W10 Tage",
+      "id": "The Bloody Flux",
+      "contraction": "Wenn dir ein leichter (+40) Widerstands-Wurf misslingt, nachdem etwas Infiziertes in deinen Mund gelangte.",
+      "incubation": "2W10 Tage",
+      "name": "Blutschiss",
+      "description": "<p>Der Blutschiss ist ein ewiges Problem im Imperium und wird gemeinhin als Fluch gesehen, den die Götter über jene bringen, die nicht fromm genug waren. Diese üble Krankheit zwingt ihr unglückliches Opfer dazu, seine Gedärme ebenso unsanft wie ständig zu entleeren. Besonders in den Feldlagern der Heere ist der Blutschiss berüchtigt, und man sagt, dass er üblicherweise mehr Soldaten tötet als der Feind. Typische Behandlungen umfassen das Essen von Blutwurst zum Ausgleich des Blutverlustes, das berüchtigte „Verkorken“ und das Einreiben des überanspruchten Körperteils mit Fett, um zumindest die Schmerzen zu lindern.</p>"
+    }
+  ]
+}
