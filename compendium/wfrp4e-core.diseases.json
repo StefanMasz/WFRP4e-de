@@ -20,6 +20,16 @@
     },
     {
       "permanent": "",
+      "symptoms": "Fiber, Langanhaltend (Leicht), Unwohlsein, Übelkeit",
+      "duration": "1W10 Tage",
+      "id": "Bronze Fever",
+	  "contraction": "Wenn dir ein Durchschnittlicher (+20) Ausdauer-Wurf misslingt, nachdem du von einer infizierten Mücke gestochen wurdest. Wenn infiziertes Blut injiziert oder eingeflößt wird erkrankst du automatisch an Bronze Fiber",
+      "incubation": "1W10 Tage",
+      "name": "Bronze Fieber",
+	  "description": "<p>Bronze Fiber findet man gewöhnlich nur im Süden der Alten Welt, in wärmeren und feuchteren Klimagebieten, wo es sich über Insektenbisse verbreitet. Die meisten Erkrankten erholen sich binnen Tagen, in seltenen Fällen kann die Erkrankung aber zu Komplikationen führen, und sogar dem Tod.</p>",
+    },
+    {
+      "permanent": "",
       "symptoms": "Fieber, Langanhaltend (herausfordernd), Offene Wunde, Unwohlsein",
       "duration": "1W10 Tage",
       "id": "Festering Wound",
