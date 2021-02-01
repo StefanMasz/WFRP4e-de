@@ -467,9 +467,9 @@
       "tests": ""
     },
     {
-      "description": "<p>Du reagierst blitzschnell. Addiere für jede Stufe in diesem Talent 10 zu deiner Initiative, wenn es um die Bestimmung der Kampf-Initiative geht.</p>",
+      "description": "<p>Auf deinen Anfangswert für das Attribut Gewandtheit erhältst du einen permanenten Bonus von +5, der nicht bezüglich deiner Steigerungen zählt</p>",
       "id": "Lightning Reflexes",
-      "name": "Kampfreflexe",
+      "name": "Blitzschnelle Reflexe",
       "tests": ""
     },
     {
