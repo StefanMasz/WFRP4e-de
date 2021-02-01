@@ -20,16 +20,6 @@
     },
     {
       "permanent": "",
-      "symptoms": "Fièvre, Persistant (Facile), Malaise, Nausée",
-      "duration": "1d10 jours",
-      "id": "Bronze Fever",
-      "contraction": "Si vous échouez à un Test d'Endurance Accessible (+20) après avoir été piqué par des Moustiques. Si du sang infecté est injecté ou absorbé, vous contractez la Fièvre Dorée automatiquement.",
-      "incubation": "1d10 jours",
-      "name": "Fièvre Dorée",
-      "description": "<p>PLATZHALTER</p>"
-    },
-    {
-      "permanent": "",
       "symptoms": "Fieber, Langanhaltend (herausfordernd), Offene Wunde, Unwohlsein",
       "duration": "1W10 Tage",
       "id": "Festering Wound",
