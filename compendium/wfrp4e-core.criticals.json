@@ -1,5 +1,5 @@
 {
-	"label": "Kritische Verletzungen",
+	"label": "Kritische Treffer",
 	"mapping": {      
     "location": {
       "path": "data.location.value",
