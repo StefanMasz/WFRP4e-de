@@ -325,6 +325,15 @@
     "Hide Progress" : "Verbergen-Fortschritt",
     "Negative SL Possible" : "Mögliche Negativ-EG",
     "Failing Decreases Progress" : "Failing Decreases Progress",
+	
+	"Academics": "Akademiker",
+	"Burgher": "Bürger",
+	"Riverfolk": "Flussvolk",
+	"Courtier": "Höfling",
+	"Warrior": "Krieger",
+	"Rogues": "Gesetzlose",
+	"Peasants": "Landvolk",
+	"Ranger": "Freisassen",
 
     "BROWSER.ItemCategories" : "Gegenstandskategorie",
     "BROWSER.IncludeWorld" : "Include World Items?",

@@ -100,7 +100,7 @@
 			]						
 		},
 		{
-			"id": "Lehrlingce Artisan",
+			"id": "Apprentice Artisan",
 			"name": "Handwerkerlehrling",
 			"description": "",
 			"trappings": [
@@ -110,7 +110,7 @@
 			]			
 		},
 		{
-			"id": "Lehrlingce Artist",
+			"id": "Apprentice Artist",
 			"name": "Künstlerlehrling",
 			"description": "",
 			"trappings": [
