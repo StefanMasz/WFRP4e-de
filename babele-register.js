@@ -1,4 +1,4 @@
-var compmod = "wfrp4e";
+var compmod = "wfrp4e-core";
 
 Hooks.on('init', () => {
 
@@ -16,9 +16,9 @@ Hooks.on('init', () => {
             dir: 'compendium'
         });
 		Babele.get().registerConverters({
-		  "career_skills": (skills_list) => {
+			"career_skills": (skills_list) => {
 			var compendium = game.packs.find(p => p.collection === compmod+'.skills');
-			//console.log( "Thru here ...", compendium, skills_list);
+			//console.log( "Thru here ...", compmod, skills_list);
 			if ( skills_list ) { 
 			  var i;
 			  var len = skills_list.length;
@@ -48,8 +48,13 @@ Hooks.on('init', () => {
 			  }
 			}
 			return skills_list;  
-		  },
-		  "career_talents": (talents_list) => { 
+			},
+			// To avoid duplicateing class for all careers
+			"generic_localization": (value) => { 
+			if ( value )
+			  return game.i18n.localize( value.trim() );
+			},
+			"career_talents": (talents_list) => { 
 			var compendium = game.packs.find(p => p.collection === compmod+'.talents');
 			var i;
 			if ( talents_list ) {
@@ -78,7 +83,7 @@ Hooks.on('init', () => {
 			  }
 			}
 			return talents_list;      
-		  }
+			}
 		});
     }
 });
