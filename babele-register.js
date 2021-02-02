@@ -1,3 +1,5 @@
+var compmod = "wfrp4e";
+
 Hooks.on('init', () => {
 
     if(typeof Babele !== 'undefined') {
