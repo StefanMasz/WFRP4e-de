@@ -3,7 +3,7 @@
    "name" : "WH4-de-translation",
    "title" : "Deutsche Übersetzung für Warhammer 4. Edition",
    "description" : "German language support for Moomans WFRP Modules",
-   "version" : "0.2.1",
+   "version" : "0.3.0",
    "minimumCoreVersion" : "0.6.6",
    "compatibleCoreVersion" : "1.0.0",
    "author" : "Johann Groß & Magnus Seibert",
@@ -17,9 +17,7 @@
 		"type": "module"
     }
    ], 
-   "esmodules": [
-      "babele-register.js"
-    ],
+   "esmodules": ["babele-register.js"],
    "languages" : [{
          "lang" : "de",
          "name" : "Deutsch",
