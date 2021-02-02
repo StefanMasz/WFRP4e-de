@@ -1,24 +1,24 @@
 {
 	"label": "Karrieren",
 	"mapping": {
-    "skills": {
-      "path": "data.skills",
-      "converter": "career_skills"
-    },
-    "talents": {
-      "path": "data.talents",
-      "converter": "career_talents"
-    },
-    "class": {
-      "path": "data.class.value",
-      "converter": "generic_localization"
-    },
-    "careergroup": {
-      "path": "data.careergroup.value",
-      "converter": "career_careergroup"
-    },
-    "trappings": "data.trappings"
-  },
+		"skills": {
+		  "path": "data.skills",
+		  "converter": "career_skills"
+		},
+		"talents": {
+		  "path": "data.talents",
+		  "converter": "career_talents"
+		},
+		"class": {
+		  "path": "data.class.value",
+		  "converter": "generic_localization"
+		},
+		"careergroup": {
+		  "path": "data.careergroup.value",
+		  "converter": "career_careergroup"
+		},
+		"trappings": "data.trappings"
+	},
 	"entries": [
 		{
 			"id": "Abbess",
