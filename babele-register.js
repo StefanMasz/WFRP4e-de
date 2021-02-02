@@ -2,7 +2,14 @@ var compmod = "wfrp4e";
 
 Hooks.on('init', () => {
 
-    if(typeof Babele !== 'undefined') {
+	// Check various settings in the installation  
+	game.modules.forEach((module, name) => {
+	if ( name == "wfrp4e-content" && module.active) {
+	  compmod = "wfrp4e-content";
+	}
+	});
+	
+	if(typeof Babele !== 'undefined') {
         Babele.get().register({
             module: 'WH4-de-translation',
             lang: 'de',
