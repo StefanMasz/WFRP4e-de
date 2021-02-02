@@ -70,5 +70,6 @@ Hooks.on('init', () => {
 			}
 			return talents_list;      
 		  }
+		)
     }
 });
