@@ -1,0 +1,650 @@
+{
+  "name": "Zufällige Karrieren",
+  "columns": ["Mensch", "Zwerg", "Halbling", "Gnome", "Hochelf", "Waldelf"],
+  "rows": [
+    {
+      "range":{
+        "Mensch" : [1, 1],
+        "Zwerg" : [1, 1],
+        "Halbling" : [1, 1],
+        "Gnome" : [1, 1],
+        "Hochelf" : [1, 2],
+        "Waldelf" : []
+      },
+      "name": "Apotheker"
+    },
+    {
+      "range":{
+        "Mensch" : [2, 2],
+        "Zwerg" : [2, 4],
+        "Halbling" : [2, 2],
+        "Gnome" : [],
+        "Hochelf" : [],
+        "Waldelf" : []
+      },
+      "name": "Technicus"
+    },    {
+      "range":{
+        "Mensch" : [3, 3],
+        "Zwerg" : [5, 6],
+        "Halbling" : [3, 4],
+        "Gnome" : [2, 2],
+        "Hochelf" : [3, 6],
+        "Waldelf" : []
+      },
+      "name": "Advokat"
+    },    {
+      "range":{
+        "Mensch" : [4, 5],
+        "Zwerg" : [],
+        "Halbling" : [],
+        "Gnome" : [],
+        "Hochelf" : [],
+        "Waldelf" : []
+      },
+      "name": "Mönch"
+    },    {
+      "range":{
+        "Mensch" : [6, 6],
+        "Zwerg" : [7, 7],
+        "Halbling" : [5, 6],
+        "Gnome" : [3, 4],
+        "Hochelf" : [7, 8],
+        "Waldelf" : []
+      },
+      "name": "Medicus"
+    },    {
+      "range":{
+        "Mensch" : [7, 11],
+        "Zwerg" : [],
+        "Halbling" : [],
+        "Gnome" : [5, 5],
+        "Hochelf" : [],
+        "Waldelf" : []
+      },
+      "name": "Priester"
+    },    {
+      "range":{
+        "Mensch" : [12, 13],
+        "Zwerg" : [8, 9],
+        "Halbling" : [7, 8],
+        "Gnome" : [6, 7],
+        "Hochelf" : [9, 12],
+        "Waldelf" : [1, 1]
+      },
+      "name": "Gelehrter"
+    },    {
+      "range":{
+        "Mensch" : [14, 14],
+        "Zwerg" : [],
+        "Halbling" : [],
+        "Gnome" : [8, 14],
+        "Hochelf" : [13, 16],
+        "Waldelf" : [2, 5]
+      },
+      "name": "Zauberer"
+    },    {
+      "range":{
+        "Mensch" : [15, 15],
+        "Zwerg" : [10, 11],
+        "Halbling" : [9, 10],
+        "Gnome" : [15, 15],
+        "Hochelf" : [],
+        "Waldelf" : []
+      },
+      "name": "Agitator"
+    },    {
+      "range":{
+        "Mensch" : [16, 17],
+        "Zwerg" : [12, 17],
+        "Halbling" : [11, 15],
+        "Gnome" : [16, 17],
+        "Hochelf" : [17, 19],
+        "Waldelf" : [6, 10]
+      },
+      "name": "Handwerker"
+    },    {
+      "range":{
+        "Mensch" : [18, 19],
+        "Zwerg" : [18, 18],
+        "Halbling" : [16, 19],
+        "Gnome" : [18, 18],
+        "Hochelf" : [],
+        "Waldelf" : []
+      },
+      "name": "Bettler"
+    },    {
+      "range":{
+        "Mensch" : [20, 20],
+        "Zwerg" : [19, 20],
+        "Halbling" : [20, 21],
+        "Gnome" : [19, 19],
+        "Hochelf" : [20, 21],
+        "Waldelf" : []
+      },
+      "name": "Ermittler"
+    },    {
+      "range":{
+        "Mensch" : [21, 21],
+        "Zwerg" : [21, 24],
+        "Halbling" : [22, 25],
+        "Gnome" : [20, 21],
+        "Hochelf" : [22, 26],
+        "Waldelf" : []
+      },
+      "name": "Kaufmann"
+    },    {
+      "range":{
+        "Mensch" : [22, 23],
+        "Zwerg" : [25, 25],
+        "Halbling" : [26, 28],
+        "Gnome" : [22, 22],
+        "Hochelf" : [],
+        "Waldelf" : []
+      },
+      "name": "Rattenfänger"
+    },    {
+      "range":{
+        "Mensch" : [24, 26],
+        "Zwerg" : [26, 31],
+        "Halbling" : [29, 31],
+        "Gnome" : [23, 28],
+        "Hochelf" : [27, 28],
+        "Waldelf" : []
+      },
+      "name": "Städter"
+    },    {
+      "range":{
+        "Mensch" : [27, 27],
+        "Zwerg" : [32, 34],
+        "Halbling" : [32, 33],
+        "Gnome" : [29, 29],
+        "Hochelf" : [29, 29],
+        "Waldelf" : []
+      },
+      "name": "Wachmann"
+    },    {
+      "range":{
+        "Mensch" : [28, 28],
+        "Zwerg" : [35, 36],
+        "Halbling" : [34, 34],
+        "Gnome" : [30, 30],
+        "Hochelf" : [30, 31],
+        "Waldelf" : [11, 14]
+      },
+      "name": "Berater"
+    },    {
+      "range":{
+        "Mensch" : [29, 29],
+        "Zwerg" : [37, 37],
+        "Halbling" : [35, 36],
+        "Gnome" : [31, 31],
+        "Hochelf" : [32, 32],
+        "Waldelf" : [15, 18]
+      },
+      "name": "Künstler"
+    },    {
+      "range":{
+        "Mensch" : [30, 30],
+        "Zwerg" : [38, 38],
+        "Halbling" : [],
+        "Gnome" : [],
+        "Hochelf" : [33, 34],
+        "Waldelf" : []
+      },
+      "name": "Duellist"
+    },    {
+      "range":{
+        "Mensch" : [31, 31],
+        "Zwerg" : [39, 40],
+        "Halbling" : [37, 37],
+        "Gnome" : [32, 32],
+        "Hochelf" : [35, 37],
+        "Waldelf" : [19, 25]
+      },
+      "name": "Gesandter"
+    },    {
+      "range":{
+        "Mensch" : [32, 32],
+        "Zwerg" : [41, 41],
+        "Halbling" : [],
+        "Gnome" : [33, 33],
+        "Hochelf" : [38, 40],
+        "Waldelf" : [26, 31]
+      },
+      "name": "Adeliger"
+    },
+    {
+      "range":{
+        "Mensch" : [33, 35],
+        "Zwerg" : [42, 42],
+        "Halbling" : [38, 43],
+        "Gnome" : [34, 35],
+        "Hochelf" : [],
+        "Waldelf" : []
+      },
+      "name": "Diener"
+    },{
+      "range":{
+        "Mensch" : [36, 36],
+        "Zwerg" : [43, 43],
+        "Halbling" : [44, 44],
+        "Gnome" : [36, 40],
+        "Hochelf" : [41, 43],
+        "Waldelf" : [32, 35]
+      },
+      "name": "Spion"
+    },{
+      "range":{
+        "Mensch" : [37, 37],
+        "Zwerg" : [44, 45],
+        "Halbling" : [45, 46],
+        "Gnome" : [41, 42],
+        "Hochelf" : [44, 45],
+        "Waldelf" : []
+      },
+      "name": "Meier"
+    },{
+      "range":{
+        "Mensch" : [38, 38],
+        "Zwerg" : [46, 47],
+        "Halbling" : [47, 47],
+        "Gnome" : [43, 43],
+        "Hochelf" : [],
+        "Waldelf" : []
+      },
+      "name": "Büttel"
+    },{
+      "range":{
+        "Mensch" : [39, 39],
+        "Zwerg" : [],
+        "Halbling" : [],
+        "Gnome" : [],
+        "Hochelf" : [],
+        "Waldelf" : []
+      },
+      "name": "Heckenhexer"
+    },{
+      "range":{
+        "Mensch" : [40, 40],
+        "Zwerg" : [],
+        "Halbling" : [48, 50],
+        "Gnome" : [44, 44],
+        "Hochelf" : [46, 47],
+        "Waldelf" : [36, 42]
+      },
+      "name": "Kräuterkundiger"
+    },{
+      "range":{
+        "Mensch" : [41, 42],
+        "Zwerg" : [48, 49],
+        "Halbling" : [51, 52],
+        "Gnome" : [45, 46],
+        "Hochelf" : [48, 50],
+        "Waldelf" : [43, 52]
+      },
+      "name": "Jäger"
+    },{
+      "range":{
+        "Mensch" : [43, 43],
+        "Zwerg" : [50, 54],
+        "Halbling" : [53, 53],
+        "Gnome" : [47, 54],
+        "Hochelf" : [],
+        "Waldelf" : []
+      },
+      "name": "Bergmann"
+    },{
+      "range":{
+        "Mensch" : [44, 44],
+        "Zwerg" : [],
+        "Halbling" : [],
+        "Gnome" : [],
+        "Hochelf" : [],
+        "Waldelf" : [53, 57]
+      },
+      "name": "Mystiker"
+    },{
+      "range":{
+        "Mensch" : [45, 45],
+        "Zwerg" : [55, 55],
+        "Halbling" : [54, 54],
+        "Gnome" : [55, 58],
+        "Hochelf" : [51, 56],
+        "Waldelf" : [58, 68]
+      },
+      "name": "Kundschafter"
+    },{
+      "range":{
+        "Mensch" : [46, 50],
+        "Zwerg" : [56, 56],
+        "Halbling" : [55, 57],
+        "Gnome" : [59, 62],
+        "Hochelf" : [],
+        "Waldelf" : []
+      },
+      "name": "Dörfler"
+    },{
+      "range":{
+        "Mensch" : [51, 51],
+        "Zwerg" : [57, 60],
+        "Halbling" : [58, 58],
+        "Gnome" : [63, 63],
+        "Hochelf" : [57, 59],
+        "Waldelf" : [69, 70]
+      },
+      "name": "Kopfgeldjäger"
+    },{
+      "range":{
+        "Mensch" : [52, 52],
+        "Zwerg" : [61, 61],
+        "Halbling" : [59, 60],
+        "Gnome" : [],
+        "Hochelf" : [],
+        "Waldelf" : []
+      },
+      "name": "Kutscher"
+    },{
+      "range":{
+        "Mensch" : [53, 54],
+        "Zwerg" : [62, 63],
+        "Halbling" : [61, 63],
+        "Gnome" : [64, 68],
+        "Hochelf" : [60, 62],
+        "Waldelf" : [71, 75]
+      },
+      "name": "Schausteller"
+    },{
+      "range":{
+        "Mensch" : [55, 56],
+        "Zwerg" : [],
+        "Halbling" : [],
+        "Gnome" : [],
+        "Hochelf" : [],
+        "Waldelf" : []
+      },
+      "name": "Flagellant"
+    },{
+      "range":{
+        "Mensch" : [57, 57],
+        "Zwerg" : [64, 65],
+        "Halbling" : [64, 65],
+        "Gnome" : [69, 69],
+        "Hochelf" : [63, 63],
+        "Waldelf" : [76, 78]
+      },
+      "name": "Bote"
+    },{
+      "range":{
+        "Mensch" : [58, 58],
+        "Zwerg" : [66, 67],
+        "Halbling" : [66, 67],
+        "Gnome" : [70, 75],
+        "Hochelf" : [],
+        "Waldelf" : []
+      },
+      "name": "Hausierer"
+    },{
+      "range":{
+        "Mensch" : [59, 59],
+        "Zwerg" : [],
+        "Halbling" : [68, 68],
+        "Gnome" : [],
+        "Hochelf" : [],
+        "Waldelf" : []
+      },
+      "name": "Straßenwächter"
+    },{
+      "range":{
+        "Mensch" : [60, 60],
+        "Zwerg" : [],
+        "Halbling" : [],
+        "Gnome" : [],
+        "Hochelf" : [],
+        "Waldelf" : []
+      },
+      "name": "Hexenjäger"
+    },{
+      "range":{
+        "Mensch" : [61, 62],
+        "Zwerg" : [68, 69],
+        "Halbling" : [69, 69],
+        "Gnome" : [76, 76],
+        "Hochelf" : [64, 64],
+        "Waldelf" : []
+      },
+      "name": "Flussschiffer"
+    },{
+      "range":{
+        "Mensch" : [63, 63],
+        "Zwerg" : [70, 70],
+        "Halbling" : [70, 70],
+        "Gnome" : [],
+        "Hochelf" : [],
+        "Waldelf" : []
+      },
+      "name": "Lotse"
+    },{
+      "range":{
+        "Mensch" : [64, 65],
+        "Zwerg" : [],
+        "Halbling" : [71, 71],
+        "Gnome" : [77, 80],
+        "Hochelf" : [],
+        "Waldelf" : []
+      },
+      "name": "Flusswächter"
+    },{
+      "range":{
+        "Mensch" : [66, 68],
+        "Zwerg" : [71, 72],
+        "Halbling" : [72, 74],
+        "Gnome" : [],
+        "Hochelf" : [],
+        "Waldelf" : []
+      },
+      "name": "Flussbewohner"
+    },{
+      "range":{
+        "Mensch" : [69, 70],
+        "Zwerg" : [73, 73],
+        "Halbling" : [75, 75],
+        "Gnome" : [],
+        "Hochelf" : [65, 79],
+        "Waldelf" : []
+      },
+      "name": "Seemann"
+    },{
+      "range":{
+        "Mensch" : [71, 71],
+        "Zwerg" : [74, 75],
+        "Halbling" : [76, 79],
+        "Gnome" : [81, 83],
+        "Hochelf" : [80, 80],
+        "Waldelf" : []
+      },
+      "name": "Schmuggler"
+    },{
+      "range":{
+        "Mensch" : [72, 73],
+        "Zwerg" : [76, 77],
+        "Halbling" : [80, 82],
+        "Gnome" : [],
+        "Hochelf" : [],
+        "Waldelf" : []
+      },
+      "name": "Stauer"
+    },{
+      "range":{
+        "Mensch" : [74, 74],
+        "Zwerg" : [78, 78],
+        "Halbling" : [],
+        "Gnome" : [],
+        "Hochelf" : [],
+        "Waldelf" : [79, 79]
+      },
+      "name": "Strandräuber"
+    },{
+      "range":{
+        "Mensch" : [75, 76],
+        "Zwerg" : [],
+        "Halbling" : [83, 85],
+        "Gnome" : [84, 85],
+        "Hochelf" : [81, 82],
+        "Waldelf" : []
+      },
+      "name": "Kuppler"
+    },{
+      "range":{
+        "Mensch" : [77, 77],
+        "Zwerg" : [],
+        "Halbling" : [86, 86],
+        "Gnome" : [86, 90],
+        "Hochelf" : [83, 85],
+        "Waldelf" : []
+      },
+      "name": "Scharlatan"
+    },{
+      "range":{
+        "Mensch" : [78, 78],
+        "Zwerg" : [79, 79],
+        "Halbling" : [87, 87],
+        "Gnome" : [91, 91],
+        "Hochelf" : [],
+        "Waldelf" : []
+      },
+      "name": "Hehler"
+    },{
+      "range":{
+        "Mensch" : [79, 79],
+        "Zwerg" : [],
+        "Halbling" : [88, 88],
+        "Gnome" : [],
+        "Hochelf" : [],
+        "Waldelf" : []
+      },
+      "name": "Grabräuber"
+    },{
+      "range":{
+        "Mensch" : [80, 83],
+        "Zwerg" : [80, 82],
+        "Halbling" : [89, 89],
+        "Gnome" : [92, 92],
+        "Hochelf" : [86, 88],
+        "Waldelf" : [80, 85]
+      },
+      "name": "Bandit"
+    },{
+      "range":{
+        "Mensch" : [84, 84],
+        "Zwerg" : [83, 83],
+        "Halbling" : [90, 90],
+        "Gnome" : [93, 94],
+        "Hochelf" : [],
+        "Waldelf" : []
+      },
+      "name": "Halunke"
+    },{
+      "range":{
+        "Mensch" : [85, 87],
+        "Zwerg" : [84, 84],
+        "Halbling" : [91, 94],
+        "Gnome" : [95, 97],
+        "Hochelf" : [],
+        "Waldelf" : []
+      },
+      "name": "Dieb"
+    },{
+      "range":{
+        "Mensch" : [88, 88],
+        "Zwerg" : [],
+        "Halbling" : [],
+        "Gnome" : [],
+        "Hochelf" : [],
+        "Waldelf" : []
+      },
+      "name": "Hexer"
+    },{
+      "range":{
+        "Mensch" : [89, 90],
+        "Zwerg" : [],
+        "Halbling" : [],
+        "Gnome" : [],
+        "Hochelf" : [89, 92],
+        "Waldelf" : [86, 90]
+      },
+      "name": "Kavallerist"
+    },
+    {
+      "range":{
+        "Mensch" : [91, 92],
+        "Zwerg" : [85, 87],
+        "Halbling" : [95, 96],
+        "Gnome" : [98, 98],
+        "Hochelf" : [93, 94],
+        "Waldelf" : [91, 92]
+      },
+      "name": "Wächter"
+    },{
+      "range":{
+        "Mensch" : [93, 93],
+        "Zwerg" : [],
+        "Halbling" : [],
+        "Gnome" : [],
+        "Hochelf" : [95, 95],
+        "Waldelf" : [93, 94]
+      },
+      "name": "Ritter"
+    },{
+      "range":{
+        "Mensch" : [94, 94],
+        "Zwerg" : [88, 90],
+        "Halbling" : [97, 97],
+        "Gnome" : [],
+        "Hochelf" : [96, 97],
+        "Waldelf" : [95, 96]
+      },
+      "name": "Grubenkämpfer"
+    },{
+      "range":{
+        "Mensch" : [95, 95],
+        "Zwerg" : [91, 93],
+        "Halbling" : [],
+        "Gnome" : [],
+        "Hochelf" : [98, 98],
+        "Waldelf" : []
+      },
+      "name": "Gedungener"
+    },{
+      "range":{
+        "Mensch" : [96, 99],
+        "Zwerg" : [94, 96],
+        "Halbling" : [98, 100],
+        "Gnome" : [99, 99],
+        "Hochelf" : [99, 100],
+        "Waldelf" : [97, 100]
+      },
+      "name": "Soldat"
+    },{
+      "range":{
+        "Mensch" : [],
+        "Zwerg" : [97, 100],
+        "Halbling" : [],
+        "Gnome" : [],
+        "Hochelf" : [],
+        "Waldelf" : []
+      },
+      "name": "Slayer"
+    },{
+      "range":{
+        "Mensch" : [100, 100],
+        "Zwerg" : [],
+        "Halbling" : [],
+        "Gnome" : [100, 100],
+        "Hochelf" : [],
+        "Waldelf" : []
+      },
+      "name": "Kriegerpriester"
+    }
+  ]
+}
