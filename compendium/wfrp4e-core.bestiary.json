@@ -1,0 +1,273 @@
+{
+  "label": "Bestiaire",
+  "mapping": {
+    "items": {
+      "path": "items", 
+      "converter": "bestiary_traits"
+      },
+    "characteristics": {
+      "path": "data.characteristics",
+      "converter": "npc_characteristics"
+    }
+  },
+  "entries": [
+    {
+      "description": "<p>Diese achtbeinigen Reptilienkreaturen sind einzelgängerisch und schwer zu finden. Laut der Legenden sollen Basilisken zu den ältesten der Kreaturen des Chaos gehören und mit so viel Bosheit und Gift gefüllt sein, dass sie sogar den Boden vergiften, über den sie laufen. Auch ihr Biss ist giftig, doch noch gefürchteter ist ihr versteinernder Blick. Basilisken sind heutzutage schwer zu finden und äußerst gefährliche Gegner. Ihre Drüsen und Organe werden von Zauberern und Alchemisten hochgeschätzt, weshalb tollkühne Jäger gern Gerüchte über Basilisken folgend in die Wildnis des Vorberglandes aufbrechen. Nur wenige kehren zurück.</p>",
+      "name": "Basilisk",
+      "id": "Basilisk"
+    },
+    {
+      "description": "<p>Wanderers of the Reikland’s wild places, Bears are solitary and usually shy, only turning aggressive when interlopers threaten their young or when wounded. When food is scarce, they will approach unprotected settlements and travellers, especially those careless with provisions.</p>",
+      "name": "Bär",
+      "id": "Bear"
+    },
+    {
+      "description": "<p>Die Zerfleischer, Khornes erwählte Krieger, gehen auf den Schlachtfeldern der Alten Welt um und nehmen Schädel zu Ehren des Blutgottes. Aus ihren monströsen, gehörnten Köpfen ragen scharfe, nadelartige Zähne hervor. Ihre blutrote Haut ist hart wie Messing, das auf dem Amboss des unaufhörlichen Krieges geschmiedet wurde. Jeder Zerfleischer trägt eine Höllenklinge, eine bösartig scharfe Waffe, die nahezu ständig vor Blut trieft und die er mit rücksichtsloser Hingabe schwingt, während er sich dem süßen Gefühl des sinnlosen Gemetzels hingibt.</p>",
+      "name": "Zerfleischer des Khorne",
+      "id": "Bloodletter of Khorne"
+    },
+    {
+      "description": "<p>Die Wildschweine in den Wäldern sind eher zurückgezogen lebende Kreaturen, doch wenn sie in die Enge getrieben werden, dann kämpfen sie mit ihren scharfen Hauern und einer Zähigkeit, die Unwissende oft böse überrascht. Meist sind sie 5 bis 6 Fuß lang, doch einige wachsen zu bis zu wahrlich bemerkenswerten Ausmaßen. Es sind diese großen Tiere, die von den Orks geschätzt und als überaus gefährliche Reittiere eingesetzt werden.</p>",
+      "name": "Wildschwein",
+      "id": "Boar"
+    },
+    {
+      "description": "<p>Sumpfoktopusse lauern in flachen Gewässern, meist in Sumpf und Marschland. Dort warten sie völlig bewegungslos auf Beute. Wenn sie im Wasser die Schwingungen einer sich nähernden Kreatur spüren, brechen sie aus dem schlammigen Wasser empor und versuchen, diese mit ihren starken Tentakeln zu umschlingen und zu ertränken. Normalerweise sind Sumpfoktopusse grün und braun gesprenkelt und damit perfekt für sumpfige Umgebungen getarnt. Ihre großen, klaren Augen sind oft der einzige Hinweis auf ihre Anwesenheit. Die meisten haben Tentakel von etwa 20 Schritt Länge und einen etwa 6 Schritt langen Körper, aber es gibt auch Geschichten über Exemplare, die ein Vielfaches dieser Größe erreichen, insbesondere, wenn sie regelmäßig Fleisch gefunden haben.</p>",
+      "name": "Sumpfoktopuss",
+      "id": "Bog Octopus"
+    },
+    {
+      "description": "<p>Tiermenschen-Schamanen werden mit der instinktiven Fähigkeit geboren, die Kräfte des Chaos zu nutzen, und sie setzen diese mit furchterregender Wirkung ein. Sie müssen sich nie gegen andere Mitglieder ihrer Herde wehren, was unter den Tiermenschen einzigartig ist; niemand würde es wagen, einem Tiermenschen-Schamanen Schaden zuzufügen, da sie den Willen der Dunklen Götter selbst sprechen.</p>",
+      "name": "Tiermenschen-Schamane",
+      "id": "Bray-Shaman"
+    },
+    {
+      "description": "<p>Gespenster sind besonders starke Geister. Häufig sind sie die spektralen Überreste ehrgeiziger Nekromanten, die ihr Leben durch dunkle Magie verlängern wollten. Im Leben waren sie willensstark und im Tod treibt ihr boshafter Wille sie nun dazu, grausame Rache an den lodernden Seelen der Lebenden zu nehmen. Viele dieser Gespenster gehen bei den nebelverhangenen Hügelgräbern um, die die Landschaft der abgelegenen Regionen des Reiches prägen, zum Beispiel in den düsteren Hagerbergen.</p>",
+      "name": "Gespenst",
+      "id": "Cairn Wraith"
+    },
+    {
+      "description": "<p>Squigs sind große, meist runde Kreaturen, die tief in der Erde hausen, in den feuchtesten und dunkelsten Höhlen. Sie besitzen einen klaffenden Schlund und große, scharfe Zähne und werden von Goblins wegen ihres Fleisches und ihrer Häute geschätzt, fungieren aber auch gelegentlich als ihre Wächter und Begleiter.</p>",
+      "name": "Höhlensquig",
+      "id": "Cave Squig"
+    },
+    {
+      "description": "<p>Die schwer gepanzerten Kolosse, die reich mit Stacheln verzierte Rüstungen tragen, auf denen die in den Augen brennenden Symbole ihrer Götter prangen, sind längst und auch völlig eindeutig keine Menschen mehr. Nichts ist von ihrem früheren Leben mehr übrig, denn sie existieren nur noch, um ihrem dunklen Herrn zu dienen. Die meisten Chaos-Krieger entstammen den Rängen der Barbaren aus den Landen im hohen Norden, doch einige sind auch von den Dunklen Göttern erwählte Kultisten, denen eine der mächtigen Chaosrüstungen geschenkt wurde. Diese verleiht ihnen zwar große Macht, doch können sie die Rüstung nie mehr ablegen, so lange sie leben. Da ihnen nur wenige Krieger ebenbürtig und selbst Ritter nicht besser geschützt sind, ist ihr Leben allerdings oft sehr, sehr lang.</p>",
+      "name": "Chaoskrieger",
+      "id": "Chaos Warrior"
+    },
+    {
+      "description": "<p>Die meisten Skaven sind Klanratten, die zu einem der vielen Skavenklane gehören, die ständig verfehdet sind, einander in Ränke verstricken und immer wieder offen bekriegen. Sie handeln im Allgemeinen auf Befehl von Skaven mit höherem Status, suchen jedoch immer nach einem Weg, um sich eine bessere Position zu sichern, meist durch Verrat. Normalerweise kleiden sie sich in schimmliges Leder oder schmutziges Tuch, wobei rostige und angelaufene Metallreste als provisorische Rüstung dienen. Klanratten werden oft als Kundschafter oder Plünderer ausgesandt, um Beute zu sichern, nach Warpstein zu suchen oder Sklaven zu erbeuten.</p>",
+      "name": "Klanratte",
+      "id": "Clanrat"
+    },
+    {
+      "description": "<p>Gruftghule gehören zu den erbärmlichsten Kreaturen der Alten Welt; sie sind hässliche, bucklige Wesen mit fahler, schmutziger Haut und scharfen, gelben Zähnen, mit denen sich trefflich das Fleisch ihrer Opfer herunterreißen lässt. Gruftghule werden von den magischen Energien des Shyish und des Dhar angezogen, was bedeutet, dass sie sich bevorzugt auf Friedhöfen, in Krypten und in der Nähe von Schlachtfeldern aufhalten.</p>",
+      "name": "Gruftghul",
+      "id": "Crypt Ghoul"
+    },
+    {
+      "description": "<p>Für diejenigen, die nicht vom Chaos berührt wurden, scheint schon der Gedanke ihm zu dienen auf bizarrste Weise befremdlich, aber für diejenigen die ihm verfallen sind, scheint jede abgründige Idee und jeder Schritt in Richtung Verdammnis nicht nur logisch, sondern unvermeidlich zu sein. Einige besonders fromme Anhänger der verbotenen Kulte erhalten von ihren Göttern „Gaben“, üble Mutationen, die den sicheren Tod bedeuten, sollten die Hexenjäger ihrer je ansichtig werden.</p>",
+      "name": "Kultist",
+      "id": "Cultist"
+    },
+    {
+      "description": "<p>Wie alle Kreaturen des Prinzen des Schmerzes und der Lust sind die Dämonetten des Slaanesh ebenso schön wie schrecklich. Sie lösen eine unheimliche Faszination aus, die allen Sinnen und jeder Vernunft spottet. Sie nehmen ihren Feinden, durch ihre unheilige Sinnlichkeit und ihr furchtbares Antlitz, jede Kraft zum Widerstand. Sie haben samtige, blasse Haut und große tiefschwarze Augen. Wildes, unnatürlich gefärbtes Haar ziert ihre zarten Häupter. Anstelle von Händen, enden ihre schlanken Arme in gewundenen, krabbenartigen Klauen.</p>",
+      "name": "Dämonette des Slaanesh",
+      "id": "Daemonette of Slaanesh"
+    },
+    {
+      "description": "<p>Demigreifen haben den Kopf des Adlers und dem Körper einer Raubkatze, was sie zu mächtige Kreaturen mit einer edlen Ausstrahlung macht. Sie durchstreifen die Wälder und Graslande des Imperiums, meist weit entfernt von Menschen, und jagen als Einzelgänger. Gefangene Demigreifen werden von den mächtigsten Ritterorden des Imperiums als Reittiere eingesetzt. Im Gegensatz zu größeren monströsen Reittieren, die in der Regel jung gefangen oder in Gefangenschaft gezüchtet werden, werden Demigreifen meist als erwachsene Tiere gefangen, was bei einigen Orden Teil ihres Initiationsritus ist.</p>",
+      "name": "Demigreif",
+      "id": "Demigryph"
+    },
+    {
+      "description": "<p>Wenn der Boden die Toten entlässt, dann erheben sich nicht nur Menschen, sondern auch Todeswölfe, makabre Parodien von Riesenwölfen, die mit glühenden Augen und Fleischstücken, die aus ihren verrottenden, schwärenden Kadavern fallen, die für ihre nekromantischen Herren durch die Nacht streifen. Im Reikland sagt man, dass sie in den verwunschenen Wäldern der Hagerberge umgehen, wenn Morrslieb voll ist. Dann jagen sie in wilden Rudeln nach Beute, um ihren unersättlichen Hunger nach lebendem Fleisch zu stillen und sich dabei ganz von ihrem Instinkt und dem Geruch von Blut leiten zu lassen.</p>",
+      "name": "Todeswolf",
+      "id": "Dire Wolf"
+    },
+    {
+      "description": "<p>Hunde werden in der ganzen Alten Welt für unzählige Zwecke gezüchtet. Während die verwöhnten Schoßhündchen der Altdorfer Höflinge höchstens die Würde eines Abenteurers bedrohen, können die größeren Rassen, besonders die speziell für den Krieg und den Hundekampf gezüchteten Tiere, eine ernsthafte Bedrohung für Leib und Leben darstellen.</p>",
+      "name": "Hund",
+      "id": "Dog"
+    },
+    {
+      "description": "<p>Drachen beherrschten den Himmel schon lange bevor die älteren Völker die bekannte Welt zu durchwandern begannen. Die Drachen der Gegenwart mögen nur noch ein blasser Schatten ihrer uralten Brüder aus der Vergangenheit sein, doch gehören sie dennoch zu den mächtigsten Kreaturen, die im Imperium bekannt sind. Die wenigen überlebenden älteren Drachen sind von erschreckender Größe und werden nur noch selten aus ihrem Schlummer geweckt. Sollte ein Drache auf eine kleine Gruppe von Abenteurern aufmerksam werden, ist es an der Zeit, Reißaus zu nehmen.</p>",
+      "name": "Drache",
+      "id": "Dragon"
+    },
+    {
+      "description": "<p>Moorbestien werden von Zauberern aus dem Dreck der Sümpfe und Mooren emporgehoben und sind scheinbar geistlose Konstrukte, die nur von Magie zusammengehalten werden. Ihre Gestalt ist vage humanoid und besteht aus Schlamm, Knochen, Ästen und Schleim. Es erfordert erhebliche Mengen an Magie sie zusammenzuhalten. Gelegentlich werden sie von Zauberern emporgerufen, die in der Jademagie kundig sind, um als ihre Leibwächter zu fungieren oder eine bestimmte Aufgabe zu erfüllen, die brutale Stärke oder gedankenloses Töten erfordert. Manchmal erheben sie sich auch ohne Zauberer und tauchen an Orten auf, an denen die Magie stagniert und korrumpierend wirkt, weil ihr Fluss gestört wurde. Man sagt, dass es an der Akademie des Jadeordens zu Altdorf einige dieser Kreaturen gibt, die von mächtigen Magistern heraufbeschworen wurden und deren Erhalt ein ununterbrochenes Kanalisieren von Magie durch Dutzende von Lehrlingen erfordert.</p>",
+      "name": "Moorbestie",
+      "id": "Fenbeast"
+    },
+    {
+      "description": "<p>Die Fimir sind geheimnisvolle, einäugige Reptilienkreaturen, die in den dunkelsten Tiefen der feuchten Sümpfe und Moorlandschaften des westlichen Reiklandes leben. Sie meiden das Sonnenlicht und erscheinen normalerweise nur im Morgengrauen, in der Abenddämmerung oder im Schutze dichten Nebels, um die Opfer für ihre mysteriösen, mutmaßlich abscheulichen Zwecke zu jagen. Menschliche Hexer, die verrückt oder verzweifelt genug sind sich mit Dämonen einzulassen, suchen gelegentlich nach den Fimir, um deren dunkle Geheimnisse zu ergründen, denn es heißt, dass diese solche Wesenheiten beschwören und kontrollieren können. Ob das größere Risiko dabei im Handel mit den Mächten der Verderbnis oder im Paktieren mit den Fimir liegt, vermag niemand zu sagen. Die Fimir haben eine matriarchalische Gesellschaft. Die Anführerin eines jeden Klans ist eine mächtige Hexe mit dem Titel Meargh, die von einem Kader geringerer Zauberer unterstützt wird, die man Dirach nennt. Die Mehrheit der Klanmitglieder sind einfache Shearl, die von einer Kriegerkaste geschützt werden, den Fimm. Diese haben knochige Stacheln und Keulenenden an ihren Schwänzen, mit denen sie die Knochen unachtsamer Gegner brechen können.</p>",
+      "name": "Fimir",
+      "id": "Fimir"
+    },
+    {
+      "name": "Fr'hough Trauerhauch",
+      "id": "Fr'hough Mournbreath"
+    },
+    {
+      "description": "<p>Geister sind die spektralen Überreste von gequälten Seelen, die mit unerledigten Angelegenheiten starben. Ähnlich wie bei Skeletten und Zombies können Geister von Vampiren oder Nekromanten beschworen werden oder an mit Dhar erfüllten Orten entstehen. Unter außergewöhnlichen Umständen können sich besonders getriebene Geister ihren Weg aus dem Reich des Morr suchen, um ihre Angelegenheiten zu einem Ende zu bringen, wobei solche Vorkommnisse rasch die Aufmerksamkeit des Morr-Kultes oder der Magister des Amethystordens auf sich ziehen. Wenn sie durch die nekromantischen Künste beschworen wurden, dann sammeln sich Geister häufig und bilden große Geisterschwärme, die sich auf ihre Feinde stürzen und Angst und Verwirrung über diese bringen.</p>",
+      "name": "Geist",
+      "id": "Ghost"
+    },
+    {
+      "description": "<p>Riesen sind Einzelgänger, die die Zivilisation normalerweise meiden. Die meisten leben an abgelegenen und erhöhten Orten rund um das Imperium. Dort hausen sie in Höhlen und vergessene Ruinen fernab der kleineren Völker, obwohl sie manchmal auf der Suche nach Nahrung in die Randbereiche der Zivilisation eindringen. Sie sind für ihre Gefährlichkeit und ihre Grausamkeit bekannt, was nicht nur ihrer eindrucksvollen Größe und ihrer Vorliebe für Rindfleisch zuzuschreiben ist, sondern auch besonders dem Umstand, dass sie häufig in Verbindung mit mordbrennenden Grünhaut-Armeen auftauchen, die sie versklavt haben. In Wahrheit sind viele Riesen sanfte Seelen, die zu wütenden Wutanfällen neigen und ihre Privatsphäre zur Not auch mit Gewalt schützen, aber nicht notwendigerweise feindlich gegenüber anderen sind. Aufgrund ihrer Langlebigkeit gibt es Gerüchte, dass sie uralte Überlieferungen bewahren, obwohl die meisten weniger gebildet erscheinen und sicherlich mehr an Alkohol interessiert sind als an Debatten über die Geschichte.</p>",
+      "name": "Riese",
+      "id": "Giant"
+    },
+    {
+      "description": "<p>Ratten kommen überall hin und sind besonders in den Städten verbreitet. Je dichter Menschen zusammenleben, desto dichter tun dies auch die Ratten, was besonders dann schlimm ist, wenn die Tiere Krankheiten in sich tragen. Obwohl sie normalerweise klein sind, können Ratten zu ungeheuren Ausmaßen anwachsen. Es gibt Berichte über Ratten unter Altdorf, die die Größe eines Menschen erreichen oder gar noch größer werden. Darum setzt man Rattenfänger ein, um sie in Schach zu halten.</p>",
+      "name": "Riesenratte",
+      "id": "Giant Rat"
+    },
+    {
+      "description": "<p>Riesenspinnen lauern tief in den Wäldern und Höhlen des Imperiums, können aber überall leben, selbst auf staubigen Dachböden und in dunklen Kellern. Die meisten fangen ihre Beute mit starken Netzen, bevor sie Gift injizieren. Viele erreichen nur die Größe einer großen Ratte, doch einige Riesenspinnenarten werden erschreckend groß. Waldgoblins fangen sich größere Exemplare gern, um sie als Reittiere abzurichten.</p>",
+      "name": "Riesenspinne",
+      "id": "Giant Spider"
+    },
+    {
+      "description": "<p>Man sollte niemals die Heimtücke, Bosheit, Flinkheit und den Scharfsinn eines Goblins unterschätzen, ebenso wenig wie seinen Selbsterhaltungstrieb. Obwohl sie im Grunde feige sind, scharen sich Goblins gern zusammen und entwickeln erstaunlichen Mut, wenn sie in der Überzahl sind. Goblins schließen sich häufig Ork-Armeen an – nicht immer freiwillig – und bedienen sich großzügig an der Kriegsbeute, während andere den Großteil des Kämpfens übernehmen.</p>",
+      "name": "Goblin",
+      "id": "Goblin"
+    },
+    {
+      "description": "<p>Die Gor sind die zahlreichsten Vertreter der Tiermenschen und hausen in fast jedem Wald der Alten Welt. Ihr Aussehen variiert stark, aber sie alle kombinieren tierische und menschliche Merkmale, oft mit den Köpfen und Beinen von Ziegen und mit dem Torso und den Armen von Menschen. Das einzige Merkmal, das wirklich alle Gor besitzen, ist ein großes Hörnerpaar – je größer, desto besser, denn das Gehörn bestimmt den Status unter den Tiermenschen – ein Merkmal, das sie von Ungor und Balgwandlern unterscheidet. Die größten Gor sind als Bestigor bekannt.</p>",
+      "name": "Gor",
+      "id": "Gor"
+    },
+    {
+      "description": "<p>Mit einem Vorderkörper und Flügeln, die einem Adler gleichen, und einer hinteren Körperhälfte, die einer Großkatze gleicht, sind Greifen elegante Tiere, die von Natur aus stolz und majestätisch sind. Sie nisten hoch in den Bergen, die das Imperium umgeben, und sind schnelle, effiziente Jäger, die nicht zu der wahllosen Zerstörung neigen, die Kreaturen wie Mantikore oder Hippogreifen anrichten. Es mag an diesem scheinbaren Edelmut liegen, dass das Motiv des Greifen im Imperium außerordentlich populär ist; es wird in Heraldiken, religiöser Ikonographie und auch als Symbol des Imperiums selbst verwendet. Greifen gehören auch zu den intelligentesten Bestien. Wenn sie relativ jung gefangen und richtig ausgebildet werden, dann können sie unglaublich loyal sein und eine Vielzahl von Befehlen erlernen und befolgen. Sie sind so begehrt, dass regelmäßig Jäger bei dem Versuch sterben, Greifeneier für den Verkauf zu ergattern. Der berühmteste Greif im Reikland ist vermutlich Todesklaue. Todesklaue ist in der Imperialen Menagerie zu Altdorf untergebracht und befindet sich im Privatbesitz des Großfürsten des Reiklandes. Er wurde angeblich von Imperator Karl-Franz persönlich ausgebrütet, eine Geschichte, die zu einigen unzüchtigen Karikaturen auf geschmacklosen Flugblättern führte.</p>",
+      "name": "Greif",
+      "id": "Griffon"
+    },
+    {
+      "description": "<p>Hippogreifen sind extrem aggressive und territoriale Kreaturen mit dem Kopf, den Flügeln und der vorderen Körperhälfte eines Adlers und der hinteren Körperhälfte eines Pferdes. Sie stammen am häufigsten aus dem Grauen Gebirge und greifen ohne Provokation an, geradezu waghalsig in ihrem Zorn, um ihre blutige Beute dann zum späteren Fressen fortzuschleppen. Ihre Wut ist so rasend, dass schon ganze Viehherden von einem einzigen Hippogreif ausgelöscht wurden, um nach dessen Aufbruch mit Teilen eines Rindes zum Schmaus der Krähen zu werden. Hippogreifen sind nicht sehr intelligent und neigen bei der Jagd auch dazu, alles in Sichtweite zu töten, und dabei zu glauben, dass alles, was sie nicht mehr sehen können, für immer fort ist. Das bedeutet, dass man sich eigentlich recht gut vor Hippogreifen schützen kann, denn alles was man braucht, ist ein gutes Versteck.</p>",
+      "name": "Hippogreif",
+      "id": "Hippogryph"
+    },
+    {
+      "description": "<p>Pferde werden für viele Verwendungen gezüchtet, darunter als schnelles Reittier für Boten, robustes Schlachtross für Ritter und stämmiges Kaltblut für Bauern. Sie sind so nützlich und verbreitet, dass der Pferdehandel im Reikland geradezu ein Sport ist. Skrupellose Pferdehändler sind Meister darin, unerfahrene Käufer übers Ohr zu hauen. Sie bemalen und feilen die Zähne älterer Pferde zurecht oder stopfen ihnen Lumpenstücke in die Nase, um das Tropfen von Schleim zu verhindern, weshalb man sich als Käufer vorsehen sollte.</p>",
+      "name": "Pferd",
+      "id": "Horse"
+    },
+    {
+      "description": "<p>Die echsenartigen, vielköpfigen Hydren haben einen massigen Körper, der ein wahres Knäul aus Hälsen und Köpfen trägt, die rauchiges Feuer speien und wild um sich beißen. Hydren sind zähe und überraschend verstohlene Kreaturen, die Beute meilenweit nachschleichen können. Allzu oft verlieren sie jedoch irgendwann die Geduld und werfen sich mit brüllenden Köpfen auf ihre Beute.</p>",
+      "name": "Hydra",
+      "id": "Hydra"
+    },
+    {
+      "description": "<p>Der Grinderlak ist eine uralte Kreatur des Chaos, die unter den schattigen Kronen der tiefsten, dunkelsten Wälder umgeht. Ein Grinderlak ist eine verrückte Kreatur, eine Mischung aus Kröte, Schnecke, Drache und Insekt, deren Leib mit ätzendem, schwarzen Blut gefüllt ist, das schon bei kleinsten Wunden herausspritzt. Schlimmer ist jedoch, dass schon sein Anblick reicht, um den Verstand zu verlieren, sich zu erbrechen, wie im Wahn zu reimen, sich die Augen auszukratzen und manisch zu lachen und zu schreien, so dass man leichte Beute des Grinderlaks wird. Eine besondere Überraschung ist oft die klebrige Zunge des Grinderlaks, die herausschnellen und die nächste Mahlzeit in den klaffenden Schlund zerren kann. Bei all dem scheint es seltsam angemessen zu sein, dass sich die Kreatur auf unbeholfene und taumelnde Weise bewegt und Flügel besitzt, die viel zu klein sind, um ihren aufgeblähten Leib in die Luft zu heben.</p>",
+      "name": "Grinderlak",
+      "id": "Jabberslythe"
+    },
+    {
+      "description": "<p>Mantikore sind äußerst selten, was ein großes Glück ist, wenn man bedenkt mit welch unerbittlicher Grausamkeit und außergewöhnlicher Brutalität sie ihr Territorium von räuberischen Rivalen reinigen. Dieses Verhalten hat den Vorteil, dass man es in der Regel frühzeitig bemerkt, wenn man in das Gebiet eines Mantikors eindringt, denn die Kadaver anderer sind an hohen Stellen drapiert und geradezu ausgestellt. Die Kreatur hat den Kopf und den Körper einer verdrehten Raubkatze (obwohl ihr Gesicht manchmal geradezu menschlich erscheint), die Flügel einer Fledermaus und einen mit bösartigen Stacheln besetzten Peitschenschwanz.</p>",
+      "name": "Mantikor",
+      "id": "Manticore"
+    },
+    {
+      "description": "<p>Die massigen, stierköpfigen Minotauren überragen sogar die größten Bestigor. Herden mit einem großen Kontingent von Minotauren halten sich für besonders von den Dunklen Göttern gesegnet. Tiermenschenherden versammeln sich um die Minotauren, da deren imposante Präsenz den kleineren Bestien zusätzlichen Mut verleiht.</p>",
+      "name": "Minotaure",
+      "id": "Minotaur"
+    },
+    {
+      "description": "<p>Eines der tragischsten Schicksale das einen Menschen ereilen kann, besteht darin, dem mutierenden Einfluss des Chaos zu erliegen. Es kann ohne Schuld oder Grund passieren; sogar Babys werden mitunter mutiert geboren. Wenn dies geschieht, stellen viele Eltern fest, dass sie es nicht über das Herz bringen, ihre Kinder zu töten, wie das Gesetz es verlangt. Stattdessen setzen sie ihren Nachwuchs am Waldrand aus, damit er dort entweder stirbt oder von anderen Mutanten oder Tiermenschen aufgenommen wird. Egal wie unschuldig sie auch sein mögen, alle Mutanten sind für die einfachen Leute Schreckgestalten, weshalb die meisten irgendwann einsam und verbittert den Dunklen Göttern verfallen oder ihrem Leben selbst ein Ende setzen, ehe es zu spät ist.</p>",
+      "name": "Mutant",
+      "id": "Mutant"
+    },
+    {
+      "description": "<p>Die großen, lauten, brutalen und extrem gewalttätigen Oger werden stets von dem Bedürfnis getrieben, ihre prachtvollen, muskulösen Bäuche zu füllen. Ihnen fehlen der Scharfsinn und die Intelligenz dies auf kluge Weise zu tun oder zumindest zu verstehen, was gerade ein der Situation angemessenes Verhalten wäre. Oger kommen aus dem fernen Osten und sind ein alltäglicher Anblick in der Alten Welt, da sie gern umherwandern und immer auf der Suche nach neuem Fleisch sind, das sich ja gleich hinter dem Horizont verbergen könnte. Während ihrer jahrzehntelange Essenssuche arbeiten sie hart daran, sich einzufügen, tragen örtliche Kleidung und befolgen die lokalen Gepflogenheiten, sofern sie diese verstehen, da dies gemeinhin der beste Weg zur nächsten Mahlzeit ist. Im Imperium dienen sie häufig bei den Staatstruppen und sind in den größeren Städten immer dort ein alltäglicher Anblick, wo pure Muskelkraft gebraucht wird. Die Halbling-Vorarbeitergilde (Bauarbeiter) hat in vielen Städten des Imperiums geradezu ein Monopol auf billige Oger-Arbeitskräfte, sehr zum Verdruss ihrer Rivalen.</p>",
+      "name": "Oger",
+      "id": "Ogre"
+    },
+    {
+      "description": "<p>Orks sind lästig, brutal, kriegerisch und nahezu immun gegen Schmerzen. Sie haben muskulöse, kräftige Körper, breite Schultern und lassen sich von so einer Kleinigkeit wie einem verlorenen Arm keinen guten Kampf entgehen. Sie sind für den Kampf gebaut und lieben nichts mehr als das zu tun, für das sie geboren wurden. Wenn es keine Feinde zu bekämpfen gibt, dann treten sie gegen rivalisierende Grünhaut-Gruppen an. Wenn es keine gegnerischen Gruppen mehr gibt, beginnen sie, untereinander zu kämpfen. Sie sind zwar nicht so zahlreich wie Goblins, aber sie sind größer und härter – und sie lassen sie es bei jeder Gelegenheit spüren. Orks können eine erstaunliche Größe erreichen, wobei größere Orks stärker, härter und aggressiver werden und daher mehr Ansehen besitzen. In ihrer kriegerischen Gesellschaft hat der Stärkere immer recht. Einige Orks reiten auf gewaltigen Wildschweinen in die Schlacht, ein Anblick, der selbst die Hartgesottenen erschüttert.</p>",
+      "name": "Ork",
+      "id": "Orc"
+    },
+    {
+      "description": "<p>Pegasi sind wunderschöne weiße Pferde mit großen Flügeln, die an Schwäne oder Raubvögel erinnern. Sie sind gute und ausdauernde Flieger, die in großen Herden im Hochgebirge leben und scheinbar große Freude daran finden, in den Aufwinden zu kreisen. Sie sind als Reittiere geradezu offensichtliche Kandidaten und viele Krieger oder Kundschafter haben schon versucht, sich einen eigenen Pegasus zu fangen. Allerdings sind sie auch sehr intelligent, und manche glauben, dass sie sich nur dann einfangen lassen, wenn sie es wollen, was zu allerlei fantasievollen und romantischen Legenden geführt hat, die davon berichten, dass nur die Würdigen oder Tugendhaften ausgewählt werden.</p>",
+      "name": "Pegasus",
+      "id": "Pegasus"
+    },
+    {
+      "description": "<p>Überall im Reikland werden Tauben gezüchtet, um als Brieftauben Botschaften aller Art zu überbringen. In letzter Zeit sind sie zudem dafür berüchtigt, gelegentlich tödliche Sendungen zu bringen, da der leicht verfügbare Vogel unter Technicussen beliebt wurde, um sogenannte „Taubenbomben“ zu transportieren – mit eher durchwachsenem Erfolg.</p>",
+      "name": "Taube",
+      "id": "Pigeon"
+    },
+    {
+      "description": "<p>Rattenoger sind gewaltige Bestien, die in den dunklen Höhlen des Tiefenreich von den bösartigen Meutenbändigern des Züchterklans trainiert werden. Sie sind dumm, aber wenn sie von ihren Skaven-Meistern geführt werden, sind sie furchtlos und unnachgiebig im Kampf. Man trifft sie nur selten allein, und wenn sie nicht in getriebenen Meuten unterwegs sind, fungieren sie meist als Leibwächter für Graue Propheten oder andere hochrangige Skaven.</p>",
+      "name": "Rattenoger",
+      "id": "Rat Ogre"
+    },
+    {
+      "description": "<p>Skelette sind die fleischlosen Knochen lang verblichener Toter, die durch Schwarze Magie wiederbelebt wurden, um zur Verhöhnung der Lebenden auf der Erde zu wandeln. Diejenigen, die gestorben sind und nicht gemäß der Rituale des Morr, des Todesgottes, zur ewigen Ruhe geführt wurden, können von einem ausreichend mächtigen Nekromanten in dieser Form wiederbelebt werden. Die Skelette kämpfen völlig geistlos, bis ihre Knochen in Stücke geschlagen wurden. Sie brauchen keinen Mut, weil sie keine Angst kennen. Sie können nicht getötet werden, weil sie nicht leben.</p>",
+      "name": "Skelett",
+      "id": "Skeleton"
+    },
+    {
+      "description": "<p>Das ultimative Ziel aller Champions des Chaos ist die Apotheose; sie streben danach, in den Dämonenstand erhoben zu werden und ihrem Meister auf ewig als Dämonenprinz im Reich des Chaos dienen zu dürfen. Dämonenprinzen sind schreckliche Gegner, denen zu trotzen selbst die mächtigsten Helden des Imperiums schwerfällt.</p>",
+      "id": "Slenderthigh Peitschzung"
+    },
+    {
+      "description": "<p>Schlangen sind im ganzen Reich zu finden, besonders tief in den Wäldern. Die meisten sind harmlos, doch einige besitzen tödliches Gift oder umschlingen ihre Opfer, bis diese ersticken. Wie so viele Kreaturen der Alten Welt können auch sie gigantische Ausmaße annehmen, wie zum Beispiel der enorme Fenwurm, der selbst für den kräftigsten Söldner eine echte Gefahr darstellt.</p>",
+      "name": "Schlange",
+      "id": "Snake"
+    },
+    {
+      "description": "<p>Snotlinge sind Kreaturen mit erbsengroßen Gehirnen, die an begeisterte, unkontrollierbare Welpen erinnern. Sie sind Aasfresser und natürliche Nachahmer, die überall Knochen und glänzende Dinge mitnehmen, wo auch immer sie sind, und die Handlungen von jedem kopieren den sie sehen. Wenn sie von Goblins oder Orks in den Kampf getrieben werden, dann kämpfen sie in wimmelnden Schwärmen und versuchen ihre Feinde durch schiere Masse zu überwältigen. Dazu setzen sie alle möglichen abscheulichen und schädlichen Substanzen ein, zum Beispiel giftige Pilze oder Körperausscheidungen, um sie auf ihre Feinde zu werfen.</p>",
+      "name": "Snotling",
+      "id": "Snotling"
+    },
+    {
+      "description": "<p>Die Elitekämpfer der Skaven sind die Sturmratten, die größer, stärker, zäher und disziplinierter als Klanratten sind. Sie dienen als Kern jedes größeren Angriffs und fungieren als Leibwache wichtiger Skaven. Sturmratten sind in der Regel gut bewaffnet und gepanzert, wobei die genaue Bewaffnung von Klan zu Klan variiert.</p>",
+      "name": "Sturmratte",
+      "id": "Stormvermin"
+    },
+    {
+      "description": "<p>Banshees sind die spektralen Überreste einst mächtiger Hexen, deren Seelen von den rohen Energien des Dhar ergriffen wurden. Ihr ruheloses Leben nach dem Tod wird von Verlust und Verbitterung geprägt, einer gähnenden Leere in ihren Seelen, die sie dazu bringt, ein grausiges, in der Seele widerhallendes Heulen von sich zu geben, das so stark ist, dass es Hörer in den Wahnsinn treiben oder sogar ihr Herz zum Stillstand bringen kann.</p>",
+      "name": "Banshee",
+      "id": "Tomb Banshee"
+    },
+    {
+      "description": "<p>Trolle sind schmutzige Kreaturen, die in allen Winkeln der Alten Welt hausen. Sie können sich schnell an ihre Umgebung anpassen und kommen in verschiedensten Formen vor, die aber allesamt riesig und beeindruckend sind. Sie sind eher dümmlich und werden hauptsächlich von ihrem Hunger auf Fleisch geleitet, aber sie horten auch gern, weshalb ihre Höhlen einen ganzen Fundus nützlicher und wertvoller Schätze enthalten können … und natürlich die grausigen Überreste ihrer Mahlzeiten. Es gibt viele Trollarten, die jedoch alle eine Gemeinsamkeit haben: Sie sind in der Regel extrem dumm, was bedeutet, dass jeder gewitzte Feind einen Vorteil hat. Zudem können sie sich regenerieren, was es extrem schwer macht, sie zu töten. Außerdem sind sie in der Lage ihre letzte schon halbverdaute Mahlzeit nach Belieben hochzuwürgen und in einem Strahl ätzender Magensäure eine gleichermaßen erschreckende wie beeindruckende Distanz weit zu erbrechen – wobei sie dies nur sehr ungern tun, da sie stets äußerst hungrig sind.</p>",
+      "name": "Troll",
+      "id": "Troll"
+    },
+    {
+      "description": "<p>Ungor haben nur rudimentäre oder sehr kurze Hörner und werden daher vom Rest der Herde kaum als „Gor“ bezeichnet. Manche haben sogar menschliche Gesichter, was sie zwar zu geeigneten Infiltratoren macht, aber auch zum Ziel von Spott und Hohn. Ungor werden von den Gor sehr schlecht behandelt und sind im Vergleich zu ihren Brüdern mit größeren Hörnern oft verkümmert oder unterernährt, was sie zu verbitterten Kreaturen voller Neid macht, die ihre Eifersucht gern an anderen auslassen.</p>",
+      "name": "Ungor",
+      "id": "Ungor"
+    },
+    {
+      "description": "<p>Vampire verstehen sich als die Herrscher der Nacht. Viele können als Menschen durchgehen und manche leben sogar seit langer Zeit mitten unter den Lebenden. Trotz ihres menschlichen Aussehens schlägt das Herz unter ihrer blassen Haut nicht mehr, und statt des Hungers der Sterblichen, besitzen sie nur noch einen ständigen Durst nach Blut. Alle Vampire der Alten Welt stammen ursprünglich von uralten Blutlinien ab, die vor Jahrtausenden weit im Süden entstanden sind. Viele sind sehr stolz auf ihr Erbe und die Merkmale und Traditionen, die die ihre von den anderen Linien unterscheiden. Die Vampire der verschiedenen Blutlinien sind oft erbitterte Rivalen, aber sie sind klug genug sich miteinander zu verbünden, falls es notwendig werden sollte, sich größeren Feinden zu stellen.</p>",
+      "name": "Vampire",
+      "id": "Vampire"
+    },
+    {
+      "description": "<p>Die meisten Vampire versuchen eine gewisse Balance zwischen ihrem untoten Bedürfnis nach Blut und dem Anschein von zivilisiertem Verhalten und Noblesse zu wahren, ganz ihrem Selbstbild als Aristokratie der Untoten entsprechend. Einige geben die Fassade der Menschlichkeit jedoch irgendwann auf und nehmen die Bestie in sich voll und ganz an. Diese Varghulfs sind blutrünstig und wild, Kreaturen, die keinerlei Zurückhaltung mehr kennen und sich ganz der animalischen Befriedigung ihrer Bedürfnisse hingeben. Sie manifestieren sich als große, aufgedunsene, fledermausartige Bestie, die ungehemmt in ihrem Blutdurst schwelgt.</p>",
+      "name": "Varghulf",
+      "id": "Varghulf"
+    },
+    {
+      "description": "<p>Wölfe jagen in der Regel in Rudeln und haben den Ruf, hartnäckige Jäger zu sein, die ihre Beute über Dutzende von Meilen hinweg zu Tode hetzen, ohne Chance auf eine Atempause. Im Reikland gehen gleich mehrere Arten um, darunter die wilden Riesenwölfe, die von Goblins gefangen und gezüchtet werden, um sie als Wächter und Reittiere zu verwenden.</p>",
+      "name": "Wolf",
+      "id": "Wolf"
+    },
+    {
+      "description": "<p>Obwohl die Unwissenden sie oft mit Drachen verwechseln, haben Lindwürmer, von oberflächlichen Ähnlichkeiten abgesehen, nichts mit diesen edlen Wesen gemein. Sie sind feige Aasfresser mit schwacher Sehkraft, die dazu neigen, ihren räuberischen Appetit dadurch zu stillen, dass sie sich auf wehrlose Kreaturen stürzen, meist Schafe oder Ziegen, und direkte Kämpfe nach Möglichkeit vermeiden. Im Gegensatz zu anderen Monstern der Berge sind Lindwürmer nicht besonders territorial und neigen dazu weiterzuziehen, wenn ihnen in ihren Jagdgebieten Konkurrenz erwächst.</p>",
+      "name": "Lindwurm",
+      "id": "Wyvern"
+    },
+    {
+      "description": "<p>Wie Skelette sind auch Zombies untote Kreaturen, die von verdorbener Magie wiederbelebt und zusammengehalten werden. Im Gegensatz zu den Skeletten, sind ihre Leiber erst kürzlich gestorben, sodass noch ein Großteil des Körpers vorhanden ist und verfaultes und verwesendes Fleisch über ihren vor Maden wimmelnden Organen herabhängt. Im Kampf lösen sich gelegentlich Fleisch und Organe von den Knochen und verströmen einen übelriechenden, widerwärtigen Gestank, der stark genug ist, um selbst den Magen des hartnäckigsten Soldaten zum Krampfen zu bringen.</p>",
+      "name": "Zombie",
+      "id": "Zombie"
+    }
+  ]
+}
