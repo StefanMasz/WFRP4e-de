@@ -1,0 +1,1848 @@
+{
+	"label": "Zauber",
+	"mapping": {
+    "sduration": {
+      "path": "data.duration.value",
+      "converter": "spells_duration_range_target_damage"
+    },
+    "srange": {
+      "path": "data.range.value",
+      "converter": "spells_duration_range_target_damage"
+    },
+    "starget": {
+      "path": "data.target.value",
+      "converter": "spells_duration_range_target_damage"
+    },    
+    "sdamage": {
+      "path": "data.damage.value",
+      "converter": "spells_duration_range_target_damage"
+    }
+  },
+  "entries": [
+		{
+			"id": "Acquiescence",
+			"name": "Ergebenheit",
+			"description": "<p>Zauberwert: 5<br>Reichweite: WK-Schritt<br>Ziel: 1<br>Dauer: WK-B in Runden<br>Deine Magie dringt tief in das Ziel ein und erfüllt dessen Seele mit einem überdeutlichen Eindruck seiner zerbrochenen Träume. Der Initiative-Wert des Zieles sinkt auf 10, sofern er nicht noch tiefer ist, als sich seine Aufmerksamkeit nach Innen richtet. Wenn das Ziel am Zuge ist, ist seine Bewegung völlig zufällig, nach Vorgabe des SL, denn der Charakter beweint sein Leben, verkündet was alles hätte sein sollen und wedelt sinnlos gestikulierend mit den Händen durch die Luft. Außerdem kann das Ziel nur dann eine Handlung ausführen, wenn ihm zuvor ein herausfordernder (+0) Besonnenheits-Wurf gelingt; wenn dieser misslingt, ist das Ziel viel zu sehr damit beschäftigt sich selbst zu bemitleiden und das zu beklagen, was hätte sein sollen, als irgendetwas anderes zu tun.</p>"
+		},
+		{
+			"id": "Aethyric Armour",
+			"name": "Ätherrüstung",
+			"description": "<p>Zauberwert: 2<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: WK-B in Runden+<br>Du hüllst dich in schützende Magie und erhältst +1 Rüstungspunkt an allen Trefferzonen.</p>"
+		},
+		{
+			"id": "Aethyric Armour (Beasts)",
+			"name": "Ätherrüstung (Bestien)",
+			"description": "<p>Zauberwert: 2<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: WK-B in Runden+<br>Du hüllst dich in schützende Magie und erhältst +1 Rüstungspunkt an allen Trefferzonen.</p>"
+		},
+		{
+			"id": "Aethyric Armour (Daemonology)",
+			"name": "Ätherrüstung (Dämonologie)",
+			"description": "<p>Zauberwert: 2<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: WK-B in Runden+<br>Du hüllst dich in schützende Magie und erhältst +1 Rüstungspunkt an allen Trefferzonen.</p>"
+		},
+		{
+			"id": "Aethyric Armour (Death)",
+			"name": "Ätherrüstung (Tod)",
+			"description": "<p>Zauberwert: 2<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: WK-B in Runden+<br>Du hüllst dich in schützende Magie und erhältst +1 Rüstungspunkt an allen Trefferzonen.</p>"
+		},
+		{
+			"id": "Aethyric Armour (Fire)",
+			"name": "Ätherrüstung (Feuer)",
+			"description": "<p>Zauberwert: 2<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: WK-B in Runden+<br>Du hüllst dich in schützende Magie und erhältst +1 Rüstungspunkt an allen Trefferzonen.</p>"
+		},
+		{
+			"id": "Aethyric Armour (Heavens)",
+			"name": "Ätherrüstung (Himmel)",
+			"description": "<p>Zauberwert: 2<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: WK-B in Runden+<br>Du hüllst dich in schützende Magie und erhältst +1 Rüstungspunkt an allen Trefferzonen.</p>"
+		},
+		{
+			"id": "Aethyric Armour (Life)",
+			"name": "Ätherrüstung (Leben)",
+			"description": "<p>Zauberwert: 2<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: WK-B in Runden+<br>Du hüllst dich in schützende Magie und erhältst +1 Rüstungspunkt an allen Trefferzonen.</p>"
+		},
+		{
+			"id": "Aethyric Armour (Light)",
+			"name": "Ätherrüstung (Licht)",
+			"description": "<p>Zauberwert: 2<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: WK-B in Runden+<br>Du hüllst dich in schützende Magie und erhältst +1 Rüstungspunkt an allen Trefferzonen.</p>"
+		},
+		{
+			"id": "Aethyric Armour (Metal)",
+			"name": "Ätherrüstung (Metall)",
+			"description": "<p>Zauberwert: 2<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: WK-B in Runden+<br>Du hüllst dich in schützende Magie und erhältst +1 Rüstungspunkt an allen Trefferzonen.</p>"
+		},
+		{
+			"id": "Aethyric Armour (Necromancy)",
+			"name": "Ätherrüstung (Nekromantie)",
+			"description": "<p>Zauberwert: 2<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: WK-B in Runden+<br>Du hüllst dich in schützende Magie und erhältst +1 Rüstungspunkt an allen Trefferzonen.</p>"
+		},
+		{
+			"id": "Aethyric Armour (Shadow)",
+			"name": "Ätherrüstung (Schatten)",
+			"description": "<p>Zauberwert: 2<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: WK-B in Runden+<br>Du hüllst dich in schützende Magie und erhältst +1 Rüstungspunkt an allen Trefferzonen.</p>"
+		},
+		{
+			"id": "Aethyric Arms",
+			"name": "Ätherwaffe",
+			"description": "<p>Zauberwert: 2<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: WK-B in Runden+<br>Du erschaffst eine Nahkampfwaffe mit einem Schaden, der deinem Willenskraft-Bonus entspricht. Diese kann jede Form haben und daher jede Nahkampf-Fähigkeit nutzen, die du besitzt. Die Waffe zählt als magisch.</p>"
+		},
+		{
+			"id": "Aethyric Arms (Beasts)",
+			"name": "Ätherwaffe (Bestien)",
+			"description": "<p>Zauberwert: 2<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: WK-B in Runden+<br>Du erschaffst eine Nahkampfwaffe mit einem Schaden, der deinem Willenskraft-Bonus entspricht. Diese kann jede Form haben und daher jede Nahkampf-Fähigkeit nutzen, die du besitzt. Die Waffe zählt als magisch.</p>"
+		},
+		{
+			"id": "Aethyric Arms (Daemonology)",
+			"name": "Ätherwaffe (Dämonologie)",
+			"description": "<p>Zauberwert: 2<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: WK-B in Runden+<br>Du erschaffst eine Nahkampfwaffe mit einem Schaden, der deinem Willenskraft-Bonus entspricht. Diese kann jede Form haben und daher jede Nahkampf-Fähigkeit nutzen, die du besitzt. Die Waffe zählt als magisch.</p>"
+		},
+		{
+			"id": "Aethyric Arms (Death)",
+			"name": "Ätherwaffe (Tod)",
+			"description": "<p>Zauberwert: 2<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: WK-B in Runden+<br>Du erschaffst eine Nahkampfwaffe mit einem Schaden, der deinem Willenskraft-Bonus entspricht. Diese kann jede Form haben und daher jede Nahkampf-Fähigkeit nutzen, die du besitzt. Die Waffe zählt als magisch.</p>"
+		},
+		{
+			"id": "Aethyric Arms (Fire)",
+			"name": "Ätherwaffe (Feuer)",
+			"description": "<p>Zauberwert: 2<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: WK-B in Runden+<br>Du erschaffst eine Nahkampfwaffe mit einem Schaden, der deinem Willenskraft-Bonus entspricht. Diese kann jede Form haben und daher jede Nahkampf-Fähigkeit nutzen, die du besitzt. Die Waffe zählt als magisch.</p>"
+		},
+		{
+			"id": "Aethyric Arms (Heavens)",
+			"name": "Ätherwaffe (Himmel)",
+			"description": "<p>Zauberwert: 2<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: WK-B in Runden+<br>Du erschaffst eine Nahkampfwaffe mit einem Schaden, der deinem Willenskraft-Bonus entspricht. Diese kann jede Form haben und daher jede Nahkampf-Fähigkeit nutzen, die du besitzt. Die Waffe zählt als magisch.</p>"
+		},
+		{
+			"id": "Aethyric Arms (Life)",
+			"name": "Ätherwaffe (Leben)",
+			"description": "<p>Zauberwert: 2<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: WK-B in Runden+<br>Du erschaffst eine Nahkampfwaffe mit einem Schaden, der deinem Willenskraft-Bonus entspricht. Diese kann jede Form haben und daher jede Nahkampf-Fähigkeit nutzen, die du besitzt. Die Waffe zählt als magisch.</p>"
+		},
+		{
+			"id": "Aethyric Arms (Light)",
+			"name": "Ätherwaffe (Licht)",
+			"description": "<p>Zauberwert: 2<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: WK-B in Runden+<br>Du erschaffst eine Nahkampfwaffe mit einem Schaden, der deinem Willenskraft-Bonus entspricht. Diese kann jede Form haben und daher jede Nahkampf-Fähigkeit nutzen, die du besitzt. Die Waffe zählt als magisch.</p>"
+		},
+		{
+			"id": "Aethyric Arms (Metal)",
+			"name": "Ätherwaffe (Metall)",
+			"description": "<p>Zauberwert: 2<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: WK-B in Runden+<br>Du erschaffst eine Nahkampfwaffe mit einem Schaden, der deinem Willenskraft-Bonus entspricht. Diese kann jede Form haben und daher jede Nahkampf-Fähigkeit nutzen, die du besitzt. Die Waffe zählt als magisch.</p>"
+		},
+		{
+			"id": "Aethyric Arms (Necromancy)",
+			"name": "Ätherwaffe (Nekromantie)",
+			"description": "<p>Zauberwert: 2<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: WK-B in Runden+<br>Du erschaffst eine Nahkampfwaffe mit einem Schaden, der deinem Willenskraft-Bonus entspricht. Diese kann jede Form haben und daher jede Nahkampf-Fähigkeit nutzen, die du besitzt. Die Waffe zählt als magisch.</p>"
+		},
+		{
+			"id": "Aethyric Arms (Shadow)",
+			"name": "Ätherwaffe (Schatten)",
+			"description": "<p>Zauberwert: 2<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: WK-B in Runden+<br>Du erschaffst eine Nahkampfwaffe mit einem Schaden, der deinem Willenskraft-Bonus entspricht. Diese kann jede Form haben und daher jede Nahkampf-Fähigkeit nutzen, die du besitzt. Die Waffe zählt als magisch.</p>"
+		},
+		{
+			"id": "Amber Talons",
+			"name": "Bernsteinklauen",
+			"description": "<p>Zauberwert: 6<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft-Bonus Runden<br>Deine Fingernägel wachsen zu gekrümmten und äußerst scharfen Krallen aus Bernstein. Waffenlose Attacken mit Nahkampf (Waffenlos) gelten als magisch, richten Schaden an, der deinem Willenskraft-Bonus entspricht, und verursachen +1 Blutend-Zustand wann immer sie den Verlust von LP verursachen.</p>"
+		},
+		{
+			"id": "Animal Friend",
+			"name": "Tierfreund",
+			"description": "<p>Zauberwert: 0<br>Reichweite: 1 Schritt<br>Ziel: 1<br>Dauer: 1 Stunde<br>Du schließt Freundschaft mit einer Kreatur die kleiner als du ist und die Kreaturen-Eigenschaft Tierhaft hat. Das Tier vertraut dir vollständig und sieht dich als Freund.</p>"
+		},
+		{
+			"id": "Aqshy’s Aegis",
+			"name": "Aqshys Aegis",
+			"description": "<p>Zauberwert: 5<br>Reichweite: Du selbst Schritt<br>Ziel: Du selbst<br>Dauer: Willenskraft-Bonus Runden<br>Du hüllst dich in einen lodernden Umhang aus Aqshy, der Feuer in den Äther ableitet. Du bist vollständig immun gegen Schaden durch nichtmagisches Feuer, inklusive der Odem-Attacken von Monstern, und ignorierst alle Brennend-Zustände, die du erhältst. Du erhältst die Kreaturen-Eigenschaft Schutz (9+) (siehe Seite 342) gegen Attacken mit magischem Feuer, inklusive der Zauber der Lehre des Feuers.</p>"
+		},
+		{
+			"id": "Arrow Shield",
+			"name": "Pfeilschild",
+			"description": "<p>Zauberwert: 3<br>Reichweite: Du selbst<br>Ziel: Wirkungsbereich (WK-Bonus Schritt)<br>Dauer: WK-Bonus Runden+<br>Jedes Geschoss, das organische Materie enthält, zum Beispiel Pfeile mit einem hölzernen Schaft, werden automatisch zerstört, wenn sie in den Wirkungsbereich eindringen, und richten keinen Schaden an ihrem Ziel an. Geschosse, die vollständig aus unorganischer Materie bestehen, zum Beispiel Wurfmesser mit Metallgriff oder Pistolenkugeln, werden nicht beeinflusst.</p>"
+		},
+		{
+			"id": "Arrow Shield (Beasts)",
+			"name": "Pfeilschild (Bestien)",
+			"description": "<p>Zauberwert: 3<br>Reichweite: Du selbst<br>Ziel: Wirkungsbereich (WK-Bonus Schritt)<br>Dauer: WK-Bonus Runden+<br>Jedes Geschoss, das organische Materie enthält, zum Beispiel Pfeile mit einem hölzernen Schaft, werden automatisch zerstört, wenn sie in den Wirkungsbereich eindringen, und richten keinen Schaden an ihrem Ziel an. Geschosse, die vollständig aus unorganischer Materie bestehen, zum Beispiel Wurfmesser mit Metallgriff oder Pistolenkugeln, werden nicht beeinflusst.</p>"
+		},
+		{
+			"id": "Arrow Shield (Daemonology)",
+			"name": "Pfeilschild (Dämonologie)",
+			"description": "<p>Zauberwert: 3<br>Reichweite: Du selbst<br>Ziel: Wirkungsbereich (WK-Bonus Schritt)<br>Dauer: WK-Bonus Runden+<br>Jedes Geschoss, das organische Materie enthält, zum Beispiel Pfeile mit einem hölzernen Schaft, werden automatisch zerstört, wenn sie in den Wirkungsbereich eindringen, und richten keinen Schaden an ihrem Ziel an. Geschosse, die vollständig aus unorganischer Materie bestehen, zum Beispiel Wurfmesser mit Metallgriff oder Pistolenkugeln, werden nicht beeinflusst.</p>"
+		},
+		{
+			"id": "Arrow Shield (Death)",
+			"name": "Pfeilschild (Tod)",
+			"description": "<p>Zauberwert: 3<br>Reichweite: Du selbst<br>Ziel: Wirkungsbereich (WK-Bonus Schritt)<br>Dauer: WK-Bonus Runden+<br>Jedes Geschoss, das organische Materie enthält, zum Beispiel Pfeile mit einem hölzernen Schaft, werden automatisch zerstört, wenn sie in den Wirkungsbereich eindringen, und richten keinen Schaden an ihrem Ziel an. Geschosse, die vollständig aus unorganischer Materie bestehen, zum Beispiel Wurfmesser mit Metallgriff oder Pistolenkugeln, werden nicht beeinflusst.</p>"
+		},
+		{
+			"id": "Arrow Shield (Fire)",
+			"name": "Pfeilschild (Feuer)",
+			"description": "<p>Zauberwert: 3<br>Reichweite: Du selbst<br>Ziel: Wirkungsbereich (WK-Bonus Schritt)<br>Dauer: WK-Bonus Runden+<br>Jedes Geschoss, das organische Materie enthält, zum Beispiel Pfeile mit einem hölzernen Schaft, werden automatisch zerstört, wenn sie in den Wirkungsbereich eindringen, und richten keinen Schaden an ihrem Ziel an. Geschosse, die vollständig aus unorganischer Materie bestehen, zum Beispiel Wurfmesser mit Metallgriff oder Pistolenkugeln, werden nicht beeinflusst.</p>"
+		},
+		{
+			"id": "Arrow Shield (Heavens)",
+			"name": "Pfeilschild (Himmel)",
+			"description": "<p>Zauberwert: 3<br>Reichweite: Du selbst<br>Ziel: Wirkungsbereich (WK-Bonus Schritt)<br>Dauer: WK-Bonus Runden+<br>Jedes Geschoss, das organische Materie enthält, zum Beispiel Pfeile mit einem hölzernen Schaft, werden automatisch zerstört, wenn sie in den Wirkungsbereich eindringen, und richten keinen Schaden an ihrem Ziel an. Geschosse, die vollständig aus unorganischer Materie bestehen, zum Beispiel Wurfmesser mit Metallgriff oder Pistolenkugeln, werden nicht beeinflusst.</p>"
+		},
+		{
+			"id": "Arrow Shield (Life)",
+			"name": "Pfeilschild (Leben)",
+			"description": "<p>Zauberwert: 3<br>Reichweite: Du selbst<br>Ziel: Wirkungsbereich (WK-Bonus Schritt)<br>Dauer: WK-Bonus Runden+<br>Jedes Geschoss, das organische Materie enthält, zum Beispiel Pfeile mit einem hölzernen Schaft, werden automatisch zerstört, wenn sie in den Wirkungsbereich eindringen, und richten keinen Schaden an ihrem Ziel an. Geschosse, die vollständig aus unorganischer Materie bestehen, zum Beispiel Wurfmesser mit Metallgriff oder Pistolenkugeln, werden nicht beeinflusst.</p>"
+		},
+		{
+			"id": "Arrow Shield (Light)",
+			"name": "Pfeilschild (Licht)",
+			"description": "<p>Zauberwert: 3<br>Reichweite: Du selbst<br>Ziel: Wirkungsbereich (WK-Bonus Schritt)<br>Dauer: WK-Bonus Runden+<br>Jedes Geschoss, das organische Materie enthält, zum Beispiel Pfeile mit einem hölzernen Schaft, werden automatisch zerstört, wenn sie in den Wirkungsbereich eindringen, und richten keinen Schaden an ihrem Ziel an. Geschosse, die vollständig aus unorganischer Materie bestehen, zum Beispiel Wurfmesser mit Metallgriff oder Pistolenkugeln, werden nicht beeinflusst.</p>"
+		},
+		{
+			"id": "Arrow Shield (Metal)",
+			"name": "Pfeilschild (Metall)",
+			"description": "<p>Zauberwert: 3<br>Reichweite: Du selbst<br>Ziel: Wirkungsbereich (WK-Bonus Schritt)<br>Dauer: WK-Bonus Runden+<br>Jedes Geschoss, das organische Materie enthält, zum Beispiel Pfeile mit einem hölzernen Schaft, werden automatisch zerstört, wenn sie in den Wirkungsbereich eindringen, und richten keinen Schaden an ihrem Ziel an. Geschosse, die vollständig aus unorganischer Materie bestehen, zum Beispiel Wurfmesser mit Metallgriff oder Pistolenkugeln, werden nicht beeinflusst.</p>"
+		},
+		{
+			"id": "Arrow Shield (Necromancy)",
+			"name": "Pfeilschild (Nekromantie)",
+			"description": "<p>Zauberwert: 3<br>Reichweite: Du selbst<br>Ziel: Wirkungsbereich (WK-Bonus Schritt)<br>Dauer: WK-Bonus Runden+<br>Jedes Geschoss, das organische Materie enthält, zum Beispiel Pfeile mit einem hölzernen Schaft, werden automatisch zerstört, wenn sie in den Wirkungsbereich eindringen, und richten keinen Schaden an ihrem Ziel an. Geschosse, die vollständig aus unorganischer Materie bestehen, zum Beispiel Wurfmesser mit Metallgriff oder Pistolenkugeln, werden nicht beeinflusst.</p>"
+		},
+		{
+			"id": "Arrow Shield (Shadow)",
+			"name": "Pfeilschild (Schatten)",
+			"description": "<p>Zauberwert: 3<br>Reichweite: Du selbst<br>Ziel: Wirkungsbereich (WK-Bonus Schritt)<br>Dauer: WK-Bonus Runden+<br>Jedes Geschoss, das organische Materie enthält, zum Beispiel Pfeile mit einem hölzernen Schaft, werden automatisch zerstört, wenn sie in den Wirkungsbereich eindringen, und richten keinen Schaden an ihrem Ziel an. Geschosse, die vollständig aus unorganischer Materie bestehen, zum Beispiel Wurfmesser mit Metallgriff oder Pistolenkugeln, werden nicht beeinflusst.</p>"
+		},
+		{
+			"id": "Banishment",
+			"name": "Bannen",
+			"description": "<p>Zauberwert: 12<br>Reichweite: Du selbst<br>Ziel: Wirkungsbereich (Willenskraft-Bonus Schritt)<br>Dauer: Sofort<br>Aus deinen Händen schickst du einen gleißenden Halo aus Hysh, der alle Wesen innerhalb des Wirkungsbereiches beeinflusst, deren Widerstand geringer als deine Willenskraft ist. Ziele mit den Kreaturen-Eigenschaften Dämonisch oder Untot erhalten die Kreaturen-Eigenschaft Instabil (siehe Seite 341). Wenn sie die Eigenschaft Instabil bereits haben, werden ihre LP auf 0 reduziert.</p>"
+		},
+		{
+			"id": "Barkskin",
+			"name": "Borkenhaut",
+			"description": "<p>Zauberwert: 3<br>Reichweite: Berührung<br>Ziel: 1<br>Dauer: Willenskraft-Bonus Runden<br>Du bringst die Haut des Zieles dazu, hart und dick wie die Borke eines Baumes zu werden. Während der Zauber auf es wirkt, erhält das Ziel +2 auf seinen Widerstands-Bonus, erleidet aber einen Abzug von -10 auf Gewandtheit und Geschicklichkeit.</p>"
+		},
+		{
+			"id": "Bearing",
+			"name": "Richtung",
+			"description": "<p>Zauberwert: 0<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Sofort<br>Anhand der Winde der Magie erspürst du wo deren Quelle liegt. Du weißt immer in welcher Richtung Norden liegt.</p>"
+		},
+		{
+			"id": "Beast Form",
+			"name": "Tierform",
+			"description": "<p>Zauberwert: 5<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft Minuten<br>Du erfüllst dein Fleisch und deine Knochen mit Ghur und verwandelst deinen Körper in den eines Tieres. Wenn der Zauber gewirkt wurde, suchst du dir deine neue Form aus der Tiere des Reiklandes Sektion im Bestiarium (siehe Seite 314) aus. Du erhältst die Standard-Eigenschaften der Kreatur, mit Ausnahme von Tierhaft. Des Weiteren ersetzt du deine ST, WI, GW und GS durch die der Kreatur und kalkulierst deine LP entsprechend neu. Für je + 2 EG darfst du zusätzlich 1 der zugehörigen optionalen Kreaturen-Eigenschaft wählen. Wenn du während der Wirkung des Zaubers irgendwelche LP verloren hast, dann hast du nach der Rückkehr in deine wahre Gestalt die gleiche Anzahl an LP verloren, bis zu einem Minimum von 0 Lebenspunkten. Während du in Tierform bist, wirkst du wie eine normale Version des Tieres, mit bernsteinfarbener und brauner Färbung. Du kannst nicht sprechen, was bedeutet, dass du weder Zauber noch Gegenzauber wirken kannst.</p>"
+		},
+		{
+			"id": "Beast Master",
+			"name": "Bestienmeister",
+			"description": "<p>Zauberwert: 10<br>Reichweite: Willenskraft-Bonus Schritt<br>Ziel: 1<br>Dauer: Willenskraft-Bonus Tage<br>Dein Atem dampft und in deine Augen tritt ein glänzender Bernsteinschimmer, als dich Ghur erfüllt. Dein Blick und deine Worte überzeugen 1 Kreatur mit der Eigenschaft Tierhaft davon, dass du ihr Rudelführer bist. Sie wird dich beschützen und bis zum Tode für dich kämpfen. Während sie dir gehorcht, folgt sie deinen Befehlen instinktiv und versteht einfache Anweisungen. Wenn der Zauber endet, sei es weil die Dauer vorüber ist oder er mit einem Gegenzauber beendet wurde, wird die Kreatur genug Respekt verspüren, um dich nicht anzugreifen, sofern sie sich nicht dazu gezwungen sieht. Deine Verbündeten haben vielleicht nicht so viel Glück.</p>"
+		},
+		{
+			"id": "Beast Tongue",
+			"name": "Tierzunge",
+			"description": "<p>Zauberwert: 3<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft Minuten<br>Du kannst mit allen Kreaturen kommunizieren, die die Eigenschaft Tierhaft haben. Ghur verändert deine Kehle und deine Stimme klingt nach Schnarren, Zischen oder Grollen, abhängig von dem Tier, mit dem du sprichst. Die Kreaturen sind nicht gezwungen dir zu antworten oder zu tun, was du sagst, doch die meisten werden neugierig genug sein, dir zuzuhören. Du erhältst +20 auf alle Würfe für Tiere bezirzen und Abrichten. Während der Zauber wirkt, kannst du nur mit Tieren sprechen – du kannst in keiner zivilisierten Sprache sprechen und dich deiner Gruppe nur mittels Handzeichen oder Sprache (Schlachtenzunge) mitteilen. Beachte, dass du weder Zauber noch Gegenzauber wirken kannst, solange Tierzunge wirkt.</p>"
+		},
+		{
+			"id": "Blast",
+			"name": "Explosion",
+			"description": "<p>Zauberwert: 4<br>Reichweite: WK-Schritt<br>Ziel: Wirkungsbereich (WK-Bonus Schritt)<br>Dauer: Sofort<br>Du kanalisierst Magie und lässt sie detonieren. Dies ist ein magisches Geschoss mit Schaden +3 das jeden im Wirkungsbereich zum Ziel hat.</p>"
+		},
+		{
+			"id": "Blast (Beasts)",
+			"name": "Explosion (Bestien)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: WK-Schritt<br>Ziel: Wirkungsbereich (WK-Bonus Schritt)<br>Dauer: Sofort<br>Du kanalisierst Magie und lässt sie detonieren. Dies ist ein magisches Geschoss mit Schaden +3 das jeden im Wirkungsbereich zum Ziel hat.</p>"
+		},
+		{
+			"id": "Blast (Daemonology)",
+			"name": "Explosion (Dämonologie)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: WK-Schritt<br>Ziel: Wirkungsbereich (WK-Bonus Schritt)<br>Dauer: Sofort<br>Du kanalisierst Magie und lässt sie detonieren. Dies ist ein magisches Geschoss mit Schaden +3 das jeden im Wirkungsbereich zum Ziel hat.</p>"
+		},
+		{
+			"id": "Blast (Death)",
+			"name": "Explosion (Tod)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: WK-Schritt<br>Ziel: Wirkungsbereich (WK-Bonus Schritt)<br>Dauer: Sofort<br>Du kanalisierst Magie und lässt sie detonieren. Dies ist ein magisches Geschoss mit Schaden +3 das jeden im Wirkungsbereich zum Ziel hat.</p>"
+		},
+		{
+			"id": "Blast (Fire)",
+			"name": "Explosion (Feuer)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: WK-Schritt<br>Ziel: Wirkungsbereich (WK-Bonus Schritt)<br>Dauer: Sofort<br>Du kanalisierst Magie und lässt sie detonieren. Dies ist ein magisches Geschoss mit Schaden +3 das jeden im Wirkungsbereich zum Ziel hat.</p>"
+		},
+		{
+			"id": "Blast (Heavens)",
+			"name": "Explosion (Himmel)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: WK-Schritt<br>Ziel: Wirkungsbereich (WK-Bonus Schritt)<br>Dauer: Sofort<br>Du kanalisierst Magie und lässt sie detonieren. Dies ist ein magisches Geschoss mit Schaden +3 das jeden im Wirkungsbereich zum Ziel hat.</p>"
+		},
+		{
+			"id": "Blast (Life)",
+			"name": "Explosion (Leben)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: WK-Schritt<br>Ziel: Wirkungsbereich (WK-Bonus Schritt)<br>Dauer: Sofort<br>Du kanalisierst Magie und lässt sie detonieren. Dies ist ein magisches Geschoss mit Schaden +3 das jeden im Wirkungsbereich zum Ziel hat.</p>"
+		},
+		{
+			"id": "Blast (Light)",
+			"name": "Explosion (Licht)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: WK-Schritt<br>Ziel: Wirkungsbereich (WK-Bonus Schritt)<br>Dauer: Sofort<br>Du kanalisierst Magie und lässt sie detonieren. Dies ist ein magisches Geschoss mit Schaden +3 das jeden im Wirkungsbereich zum Ziel hat.</p>"
+		},
+		{
+			"id": "Blast (Metal)",
+			"name": "Explosion (Metall)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: WK-Schritt<br>Ziel: Wirkungsbereich (WK-Bonus Schritt)<br>Dauer: Sofort<br>Du kanalisierst Magie und lässt sie detonieren. Dies ist ein magisches Geschoss mit Schaden +3 das jeden im Wirkungsbereich zum Ziel hat.</p>"
+		},
+		{
+			"id": "Blast (Necromancy)",
+			"name": "Explosion (Nekromantie)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: WK-Schritt<br>Ziel: Wirkungsbereich (WK-Bonus Schritt)<br>Dauer: Sofort<br>Du kanalisierst Magie und lässt sie detonieren. Dies ist ein magisches Geschoss mit Schaden +3 das jeden im Wirkungsbereich zum Ziel hat.</p>"
+		},
+		{
+			"id": "Blast (Shadow)",
+			"name": "Explosion (Schatten)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: WK-Schritt<br>Ziel: Wirkungsbereich (WK-Bonus Schritt)<br>Dauer: Sofort<br>Du kanalisierst Magie und lässt sie detonieren. Dies ist ein magisches Geschoss mit Schaden +3 das jeden im Wirkungsbereich zum Ziel hat.</p>"
+		},
+		{
+			"id": "Blight",
+			"name": "Verfall",
+			"description": "<p>Zauberwert: 14<br>Reichweite: Willenskraft-Bonus Schritt<br>Ziel: Speziell<br>Dauer: Speziell<br>Du kannst einen Brunnen, ein Feld oder ein Haustier als Ziel wählen. Wenn der Zauber gelingt, unterliegt das Ziel dem Verfall:<br>Das Wasser in einem Brunnen wird abgestanden und brackig.<br>Alle auf dem Feld gepflanzten Feldfrüchte verfaulen über Nacht.<br>Das Tier wird krank und produziert nicht länger etwas (Kühe geben keine Milch, Hennen legen keine Eier und Schafwolle und Felle werden räudig und sind nicht zu verwenden). Nach 10-EG Tagen stirbt das Tier.</p>"
+		},
+		{
+			"id": "Blinding Light",
+			"name": "Blendendes Licht",
+			"description": "<p>Zauberwert: 5<br>Reichweite: Willenskraft Schritt<br>Ziel: Du selbst<br>Dauer: Sofort<br>Du strahlst aus deiner Hand oder deinem Stab einen strahlend hellen, blendenden Lichtblitz aus. Jeder, der dich anblickt und nicht das Talent Arkane Magie (Licht) besitzt, erhält +EG Geblendet-Zustände.</p>"
+		},
+		{
+			"id": "Bolt",
+			"name": "Geschoss",
+			"description": "<p>Zauberwert: 4<br>Reichweite: WK-Schritt Schritt<br>Ziel: 1<br>Dauer: Sofort<br>Du kanalisierst deine Magie zu einem arkanen Geschoss. Dies ist ein magisches Geschoss mit Schaden +4.</p>"
+		},
+		{
+			"id": "Bolt (Beasts)",
+			"name": "Geschoss (Bestien)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: WK-Schritt Schritt<br>Ziel: 1<br>Dauer: Sofort<br>Du kanalisierst deine Magie zu einem arkanen Geschoss. Dies ist ein magisches Geschoss mit Schaden +4.</p>"
+		},
+		{
+			"id": "Bolt (Daemonology)",
+			"name": "Geschoss (Dämonologie)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: WK-Schritt Schritt<br>Ziel: 1<br>Dauer: Sofort<br>Du kanalisierst deine Magie zu einem arkanen Geschoss. Dies ist ein magisches Geschoss mit Schaden +4.</p>"
+		},
+		{
+			"id": "Bolt (Death)",
+			"name": "Geschoss (Tod)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: WK-Schritt Schritt<br>Ziel: 1<br>Dauer: Sofort<br>Du kanalisierst deine Magie zu einem arkanen Geschoss. Dies ist ein magisches Geschoss mit Schaden +4.</p>"
+		},
+		{
+			"id": "Bolt (Fire)",
+			"name": "Geschoss (Feuer)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: WK-Schritt Schritt<br>Ziel: 1<br>Dauer: Sofort<br>Du kanalisierst deine Magie zu einem arkanen Geschoss. Dies ist ein magisches Geschoss mit Schaden +4.</p>"
+		},
+		{
+			"id": "Bolt (Heavens)",
+			"name": "Geschoss (Himmel)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: WK-Schritt Schritt<br>Ziel: 1<br>Dauer: Sofort<br>Du kanalisierst deine Magie zu einem arkanen Geschoss. Dies ist ein magisches Geschoss mit Schaden +4.</p>"
+		},
+		{
+			"id": "Bolt (Life)",
+			"name": "Geschoss (Leben)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: WK-Schritt Schritt<br>Ziel: 1<br>Dauer: Sofort<br>Du kanalisierst deine Magie zu einem arkanen Geschoss. Dies ist ein magisches Geschoss mit Schaden +4.</p>"
+		},
+		{
+			"id": "Bolt (Light)",
+			"name": "Geschoss (Licht)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: WK-Schritt Schritt<br>Ziel: 1<br>Dauer: Sofort<br>Du kanalisierst deine Magie zu einem arkanen Geschoss. Dies ist ein magisches Geschoss mit Schaden +4.</p>"
+		},
+		{
+			"id": "Bolt (Metal)",
+			"name": "Geschoss (Metall)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: WK-Schritt Schritt<br>Ziel: 1<br>Dauer: Sofort<br>Du kanalisierst deine Magie zu einem arkanen Geschoss. Dies ist ein magisches Geschoss mit Schaden +4.</p>"
+		},
+		{
+			"id": "Bolt (Necromancy)",
+			"name": "Geschoss (Nekromantie)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: WK-Schritt Schritt<br>Ziel: 1<br>Dauer: Sofort<br>Du kanalisierst deine Magie zu einem arkanen Geschoss. Dies ist ein magisches Geschoss mit Schaden +4.</p>"
+		},
+		{
+			"id": "Bolt (Shadow)",
+			"name": "Geschoss (Schatten)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: WK-Schritt Schritt<br>Ziel: 1<br>Dauer: Sofort<br>Du kanalisierst deine Magie zu einem arkanen Geschoss. Dies ist ein magisches Geschoss mit Schaden +4.</p>"
+		},
+		{
+			"id": "Breath",
+			"name": "Odem",
+			"description": "<p>Zauberwert: 6<br>Reichweite: 1 Schritt<br>Ziel: Speziell<br>Dauer: Sofort<br>Du führst sofort eine Odem-Attacke durch, so als hättest du 2 Vorteile darauf verwendet die Kreaturen-Eigenschaft Odem (siehe Seite 341) auszulösen. Der Odem ist ein magisches Geschoss mit einem Schaden, der deinem Widerstands-Bonus entspricht. Der SL entscheidet, welche Art von Odem-Attacke am besten zu deinem Talent Arkane Magie passt.</p>"
+		},
+		{
+			"id": "Breath (Beasts)",
+			"name": "Odem (Bestien)",
+			"description": "<p>Zauberwert: 6<br>Reichweite: 1 Schritt<br>Ziel: Speziell<br>Dauer: Sofort<br>Du führst sofort eine Odem-Attacke durch, so als hättest du 2 Vorteile darauf verwendet die Kreaturen-Eigenschaft Odem (siehe Seite 341) auszulösen. Der Odem ist ein magisches Geschoss mit einem Schaden, der deinem Widerstands-Bonus entspricht. Der SL entscheidet, welche Art von Odem-Attacke am besten zu deinem Talent Arkane Magie passt.</p>"
+		},
+		{
+			"id": "Breath (Daemonology)",
+			"name": "Odem (Dämonologie)",
+			"description": "<p>Zauberwert: 6<br>Reichweite: 1 Schritt<br>Ziel: Speziell<br>Dauer: Sofort<br>Du führst sofort eine Odem-Attacke durch, so als hättest du 2 Vorteile darauf verwendet die Kreaturen-Eigenschaft Odem (siehe Seite 341) auszulösen. Der Odem ist ein magisches Geschoss mit einem Schaden, der deinem Widerstands-Bonus entspricht. Der SL entscheidet, welche Art von Odem-Attacke am besten zu deinem Talent Arkane Magie passt.</p>"
+		},
+		{
+			"id": "Breath (Death)",
+			"name": "Odem (Tod)",
+			"description": "<p>Zauberwert: 6<br>Reichweite: 1 Schritt<br>Ziel: Speziell<br>Dauer: Sofort<br>Du führst sofort eine Odem-Attacke durch, so als hättest du 2 Vorteile darauf verwendet die Kreaturen-Eigenschaft Odem (siehe Seite 341) auszulösen. Der Odem ist ein magisches Geschoss mit einem Schaden, der deinem Widerstands-Bonus entspricht. Der SL entscheidet, welche Art von Odem-Attacke am besten zu deinem Talent Arkane Magie passt.</p>"
+		},
+		{
+			"id": "Breath (Fire)",
+			"name": "Odem (Feuer)",
+			"description": "<p>Zauberwert: 6<br>Reichweite: 1 Schritt<br>Ziel: Speziell<br>Dauer: Sofort<br>Du führst sofort eine Odem-Attacke durch, so als hättest du 2 Vorteile darauf verwendet die Kreaturen-Eigenschaft Odem (siehe Seite 341) auszulösen. Der Odem ist ein magisches Geschoss mit einem Schaden, der deinem Widerstands-Bonus entspricht. Der SL entscheidet, welche Art von Odem-Attacke am besten zu deinem Talent Arkane Magie passt.</p>"
+		},
+		{
+			"id": "Breath (Heavens)",
+			"name": "Odem (Himmel)",
+			"description": "<p>Zauberwert: 6<br>Reichweite: 1 Schritt<br>Ziel: Speziell<br>Dauer: Sofort<br>Du führst sofort eine Odem-Attacke durch, so als hättest du 2 Vorteile darauf verwendet die Kreaturen-Eigenschaft Odem (siehe Seite 341) auszulösen. Der Odem ist ein magisches Geschoss mit einem Schaden, der deinem Widerstands-Bonus entspricht. Der SL entscheidet, welche Art von Odem-Attacke am besten zu deinem Talent Arkane Magie passt.</p>"
+		},
+		{
+			"id": "Breath (Life)",
+			"name": "Odem (Leben)",
+			"description": "<p>Zauberwert: 6<br>Reichweite: 1 Schritt<br>Ziel: Speziell<br>Dauer: Sofort<br>Du führst sofort eine Odem-Attacke durch, so als hättest du 2 Vorteile darauf verwendet die Kreaturen-Eigenschaft Odem (siehe Seite 341) auszulösen. Der Odem ist ein magisches Geschoss mit einem Schaden, der deinem Widerstands-Bonus entspricht. Der SL entscheidet, welche Art von Odem-Attacke am besten zu deinem Talent Arkane Magie passt.</p>"
+		},
+		{
+			"id": "Breath (Light)",
+			"name": "Odem (Licht)",
+			"description": "<p>Zauberwert: 6<br>Reichweite: 1 Schritt<br>Ziel: Speziell<br>Dauer: Sofort<br>Du führst sofort eine Odem-Attacke durch, so als hättest du 2 Vorteile darauf verwendet die Kreaturen-Eigenschaft Odem (siehe Seite 341) auszulösen. Der Odem ist ein magisches Geschoss mit einem Schaden, der deinem Widerstands-Bonus entspricht. Der SL entscheidet, welche Art von Odem-Attacke am besten zu deinem Talent Arkane Magie passt.</p>"
+		},
+		{
+			"id": "Breath (Metal)",
+			"name": "Odem (Metall)",
+			"description": "<p>Zauberwert: 6<br>Reichweite: 1 Schritt<br>Ziel: Speziell<br>Dauer: Sofort<br>Du führst sofort eine Odem-Attacke durch, so als hättest du 2 Vorteile darauf verwendet die Kreaturen-Eigenschaft Odem (siehe Seite 341) auszulösen. Der Odem ist ein magisches Geschoss mit einem Schaden, der deinem Widerstands-Bonus entspricht. Der SL entscheidet, welche Art von Odem-Attacke am besten zu deinem Talent Arkane Magie passt.</p>"
+		},
+		{
+			"id": "Breath (Necromancy)",
+			"name": "Odem (Nekromantie)",
+			"description": "<p>Zauberwert: 6<br>Reichweite: 1 Schritt<br>Ziel: Speziell<br>Dauer: Sofort<br>Du führst sofort eine Odem-Attacke durch, so als hättest du 2 Vorteile darauf verwendet die Kreaturen-Eigenschaft Odem (siehe Seite 341) auszulösen. Der Odem ist ein magisches Geschoss mit einem Schaden, der deinem Widerstands-Bonus entspricht. Der SL entscheidet, welche Art von Odem-Attacke am besten zu deinem Talent Arkane Magie passt.</p>"
+		},
+		{
+			"id": "Breath (Shadow)",
+			"name": "Odem (Schatten)",
+			"description": "<p>Zauberwert: 6<br>Reichweite: 1 Schritt<br>Ziel: Speziell<br>Dauer: Sofort<br>Du führst sofort eine Odem-Attacke durch, so als hättest du 2 Vorteile darauf verwendet die Kreaturen-Eigenschaft Odem (siehe Seite 341) auszulösen. Der Odem ist ein magisches Geschoss mit einem Schaden, der deinem Widerstands-Bonus entspricht. Der SL entscheidet, welche Art von Odem-Attacke am besten zu deinem Talent Arkane Magie passt.</p>"
+		},
+		{
+			"id": "Bridge",
+			"name": "Brücke",
+			"description": "<p>Zauberwert: 4<br>Reichweite: WK-Schritt<br>Ziel: Wirkungsbereich (siehe Beschreibung)<br>Dauer: WK-Bonus Runden+<br>Du erschaffst eine Brücke aus magischer Energie, die eine maximale Länge und Breite hat, die deinem Willenskraft-Bonus in Schritt entspricht. Für je +2 EG kannst du die Länge oder Breite um deine Willenskraft-Bonus in Schritt verlängern.</p>"
+		},
+		{
+			"id": "Bridge (Beasts)",
+			"name": "Brücke (Bestien)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: WK-Schritt<br>Ziel: Wirkungsbereich (siehe Beschreibung)<br>Dauer: WK-Bonus Runden+<br>Du erschaffst eine Brücke aus magischer Energie, die eine maximale Länge und Breite hat, die deinem Willenskraft-Bonus in Schritt entspricht. Für je +2 EG kannst du die Länge oder Breite um deine Willenskraft-Bonus in Schritt verlängern.</p>"
+		},
+		{
+			"id": "Bridge (Daemonology)",
+			"name": "Brücke (Dämonologie)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: WK-Schritt<br>Ziel: Wirkungsbereich (siehe Beschreibung)<br>Dauer: WK-Bonus Runden+<br>Du erschaffst eine Brücke aus magischer Energie, die eine maximale Länge und Breite hat, die deinem Willenskraft-Bonus in Schritt entspricht. Für je +2 EG kannst du die Länge oder Breite um deine Willenskraft-Bonus in Schritt verlängern.</p>"
+		},
+		{
+			"id": "Bridge (Death)",
+			"name": "Brücke (Tod)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: WK-Schritt<br>Ziel: Wirkungsbereich (siehe Beschreibung)<br>Dauer: WK-Bonus Runden+<br>Du erschaffst eine Brücke aus magischer Energie, die eine maximale Länge und Breite hat, die deinem Willenskraft-Bonus in Schritt entspricht. Für je +2 EG kannst du die Länge oder Breite um deine Willenskraft-Bonus in Schritt verlängern.</p>"
+		},
+		{
+			"id": "Bridge (Fire)",
+			"name": "Brücke (Feuer)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: WK-Schritt<br>Ziel: Wirkungsbereich (siehe Beschreibung)<br>Dauer: WK-Bonus Runden+<br>Du erschaffst eine Brücke aus magischer Energie, die eine maximale Länge und Breite hat, die deinem Willenskraft-Bonus in Schritt entspricht. Für je +2 EG kannst du die Länge oder Breite um deine Willenskraft-Bonus in Schritt verlängern.</p>"
+		},
+		{
+			"id": "Bridge (Heavens)",
+			"name": "Brücke (Himmel)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: WK-Schritt<br>Ziel: Wirkungsbereich (siehe Beschreibung)<br>Dauer: WK-Bonus Runden+<br>Du erschaffst eine Brücke aus magischer Energie, die eine maximale Länge und Breite hat, die deinem Willenskraft-Bonus in Schritt entspricht. Für je +2 EG kannst du die Länge oder Breite um deine Willenskraft-Bonus in Schritt verlängern.</p>"
+		},
+		{
+			"id": "Bridge (Life)",
+			"name": "Brücke (Leben)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: WK-Schritt<br>Ziel: Wirkungsbereich (siehe Beschreibung)<br>Dauer: WK-Bonus Runden+<br>Du erschaffst eine Brücke aus magischer Energie, die eine maximale Länge und Breite hat, die deinem Willenskraft-Bonus in Schritt entspricht. Für je +2 EG kannst du die Länge oder Breite um deine Willenskraft-Bonus in Schritt verlängern.</p>"
+		},
+		{
+			"id": "Bridge (Light)",
+			"name": "Brücke (Licht)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: WK-Schritt<br>Ziel: Wirkungsbereich (siehe Beschreibung)<br>Dauer: WK-Bonus Runden+<br>Du erschaffst eine Brücke aus magischer Energie, die eine maximale Länge und Breite hat, die deinem Willenskraft-Bonus in Schritt entspricht. Für je +2 EG kannst du die Länge oder Breite um deine Willenskraft-Bonus in Schritt verlängern.</p>"
+		},
+		{
+			"id": "Bridge (Metal)",
+			"name": "Brücke (Metall)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: WK-Schritt<br>Ziel: Wirkungsbereich (siehe Beschreibung)<br>Dauer: WK-Bonus Runden+<br>Du erschaffst eine Brücke aus magischer Energie, die eine maximale Länge und Breite hat, die deinem Willenskraft-Bonus in Schritt entspricht. Für je +2 EG kannst du die Länge oder Breite um deine Willenskraft-Bonus in Schritt verlängern.</p>"
+		},
+		{
+			"id": "Bridge (Necromancy)",
+			"name": "Brücke (Nekromantie)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: WK-Schritt<br>Ziel: Wirkungsbereich (siehe Beschreibung)<br>Dauer: WK-Bonus Runden+<br>Du erschaffst eine Brücke aus magischer Energie, die eine maximale Länge und Breite hat, die deinem Willenskraft-Bonus in Schritt entspricht. Für je +2 EG kannst du die Länge oder Breite um deine Willenskraft-Bonus in Schritt verlängern.</p>"
+		},
+		{
+			"id": "Bridge (Shadow)",
+			"name": "Brücke (Schatten)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: WK-Schritt<br>Ziel: Wirkungsbereich (siehe Beschreibung)<br>Dauer: WK-Bonus Runden+<br>Du erschaffst eine Brücke aus magischer Energie, die eine maximale Länge und Breite hat, die deinem Willenskraft-Bonus in Schritt entspricht. Für je +2 EG kannst du die Länge oder Breite um deine Willenskraft-Bonus in Schritt verlängern.</p>"
+		},
+		{
+			"id": "Careful Step",
+			"name": "Geisterschritt",
+			"description": "<p>Zauberwert: 0<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: WK Minuten<br>Die Magie fließt durch deine Füße und stellt sicher, dass jede organische Materie unversehrt bleibt, auf die du trittst: Zweige brechen nicht, Grashalme richten sich sofort wieder auf und selbst empfindlichste Blumen nehmen keinen Schaden. Wer Spurenlesen einsetzen will, um dir durch ländliches Gebiet zu folgen, erleidet einen Abzug von -30 auf entsprechende Würfe.</p>"
+		},
+		{
+			"id": "Caress of Laniph",
+			"name": "Laniphs Liebkosung",
+			"description": "<p>Zauberwert: 7<br>Reichweite: Berührung<br>Ziel: Speziell<br>Dauer: Sofort<br>Du streckst deine Hand aus, die wie verdorrt wirkt, geradezu skelettiert, und ziehst Shyish aus dem Leib deines Zieles. Dies gilt als magisches Geschoss mit Schaden +6, der Widerstands-Bonus und Rüstungspunkte ignoriert. Für je 2 verursachte LP-Verluste erhältst du 1 LP zurück.</p>"
+		},
+		{
+			"id": "Cauterise",
+			"name": "Ausbrennen",
+			"description": "<p>Zauberwert: 4<br>Reichweite: Berührung<br>Ziel: 1<br>Dauer: Sofort<br>Du leitest Aqshy durch deine Hände und legst sie auf die Wunden eines Verbündeten. Dies heilt sofort 1W10 LP und entfernt alle Blutend-Zustände. Weiterhin infizieren sich die Wunden nicht. Ziele ohne das Talent Arkane Magie (Feuer), müssen einen herausfordernden (+0) Besonnenheits-Wurf schaffen oder sie schreien vor Agonie. Bei einem Verblüffenden Scheitern (–6 oder mehr) erhält das Ziel den Zustand Bewusstlos und ist permanent von Narben gezeichnet, wenn es 1W10 Stunden später wieder aufwacht.</p>"
+		},
+		{
+			"id": "Cerulean Shield",
+			"name": "Himmelblauer Schild",
+			"description": "<p>Zauberwert: 7<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft-Bonus Runden<br>Du hüllst dich selbst in einen knisternden Käfig aus der funkensprühenden Energie des Azyr. Für die Dauer des Zaubers erhältst du gegen Nahkampfattacken +EG Rüstungspunkte an allen Trefferzonen. Wenn du von Nahkampfwaffen attackiert wirst – wie Dolchen, Schwertern und Speeren mit Metallspitze – erleidet dein Angreifer +Willenskraft-Bonus Schaden.</p>"
+		},
+		{
+			"id": "Chain Attack",
+			"name": "Kettengeschoss",
+			"description": "<p>Zauberwert: 6<br>Reichweite: WK-Schritt<br>Ziel: Speziell<br>Dauer: Sofort<br>Du kanalisierst sich windende Zerstörungsenergie auf dein Ziel. Dies ist ein magisches Geschoss mit Schaden +4. Wenn das Kettengeschoss ein Ziel auf 0 LP reduziert, springt es auf ein anderes Ziel innerhalb von Willenskraft-Bonus Schritt zum vorherigen Ziel über, das sich innerhalb der ursprünglichen Reichweite befindet. Dort richtet es den gleichen Schaden an. Es springt auf maximal so viele Ziele über, wie dein Willenskraft-Bonus beträgt. Für je +2 EG kann das Kettengeschoss auf ein zusätzliches Ziel überspringen.</p>"
+		},
+		{
+			"id": "Chain Attack (Beasts)",
+			"name": "Kettengeschoss (Bestien)",
+			"description": "<p>Zauberwert: 6<br>Reichweite: WK-Schritt<br>Ziel: Speziell<br>Dauer: Sofort<br>Du kanalisierst sich windende Zerstörungsenergie auf dein Ziel. Dies ist ein magisches Geschoss mit Schaden +4. Wenn das Kettengeschoss ein Ziel auf 0 LP reduziert, springt es auf ein anderes Ziel innerhalb von Willenskraft-Bonus Schritt zum vorherigen Ziel über, das sich innerhalb der ursprünglichen Reichweite befindet. Dort richtet es den gleichen Schaden an. Es springt auf maximal so viele Ziele über, wie dein Willenskraft-Bonus beträgt. Für je +2 EG kann das Kettengeschoss auf ein zusätzliches Ziel überspringen.</p>"
+		},
+		{
+			"id": "Chain Attack (Daemonology)",
+			"name": "Kettengeschoss (Dämonologie)",
+			"description": "<p>Zauberwert: 6<br>Reichweite: WK-Schritt<br>Ziel: Speziell<br>Dauer: Sofort<br>Du kanalisierst sich windende Zerstörungsenergie auf dein Ziel. Dies ist ein magisches Geschoss mit Schaden +4. Wenn das Kettengeschoss ein Ziel auf 0 LP reduziert, springt es auf ein anderes Ziel innerhalb von Willenskraft-Bonus Schritt zum vorherigen Ziel über, das sich innerhalb der ursprünglichen Reichweite befindet. Dort richtet es den gleichen Schaden an. Es springt auf maximal so viele Ziele über, wie dein Willenskraft-Bonus beträgt. Für je +2 EG kann das Kettengeschoss auf ein zusätzliches Ziel überspringen.</p>"
+		},
+		{
+			"id": "Chain Attack (Death)",
+			"name": "Kettengeschoss (Tod)",
+			"description": "<p>Zauberwert: 6<br>Reichweite: WK-Schritt<br>Ziel: Speziell<br>Dauer: Sofort<br>Du kanalisierst sich windende Zerstörungsenergie auf dein Ziel. Dies ist ein magisches Geschoss mit Schaden +4. Wenn das Kettengeschoss ein Ziel auf 0 LP reduziert, springt es auf ein anderes Ziel innerhalb von Willenskraft-Bonus Schritt zum vorherigen Ziel über, das sich innerhalb der ursprünglichen Reichweite befindet. Dort richtet es den gleichen Schaden an. Es springt auf maximal so viele Ziele über, wie dein Willenskraft-Bonus beträgt. Für je +2 EG kann das Kettengeschoss auf ein zusätzliches Ziel überspringen.</p>"
+		},
+		{
+			"id": "Chain Attack (Fire)",
+			"name": "Kettengeschoss (Feuer)",
+			"description": "<p>Zauberwert: 6<br>Reichweite: WK-Schritt<br>Ziel: Speziell<br>Dauer: Sofort<br>Du kanalisierst sich windende Zerstörungsenergie auf dein Ziel. Dies ist ein magisches Geschoss mit Schaden +4. Wenn das Kettengeschoss ein Ziel auf 0 LP reduziert, springt es auf ein anderes Ziel innerhalb von Willenskraft-Bonus Schritt zum vorherigen Ziel über, das sich innerhalb der ursprünglichen Reichweite befindet. Dort richtet es den gleichen Schaden an. Es springt auf maximal so viele Ziele über, wie dein Willenskraft-Bonus beträgt. Für je +2 EG kann das Kettengeschoss auf ein zusätzliches Ziel überspringen.</p>"
+		},
+		{
+			"id": "Chain Attack (Heavens)",
+			"name": "Kettengeschoss (Himmel)",
+			"description": "<p>Zauberwert: 6<br>Reichweite: WK-Schritt<br>Ziel: Speziell<br>Dauer: Sofort<br>Du kanalisierst sich windende Zerstörungsenergie auf dein Ziel. Dies ist ein magisches Geschoss mit Schaden +4. Wenn das Kettengeschoss ein Ziel auf 0 LP reduziert, springt es auf ein anderes Ziel innerhalb von Willenskraft-Bonus Schritt zum vorherigen Ziel über, das sich innerhalb der ursprünglichen Reichweite befindet. Dort richtet es den gleichen Schaden an. Es springt auf maximal so viele Ziele über, wie dein Willenskraft-Bonus beträgt. Für je +2 EG kann das Kettengeschoss auf ein zusätzliches Ziel überspringen.</p>"
+		},
+		{
+			"id": "Chain Attack (Life)",
+			"name": "Kettengeschoss (Leben)",
+			"description": "<p>Zauberwert: 6<br>Reichweite: WK-Schritt<br>Ziel: Speziell<br>Dauer: Sofort<br>Du kanalisierst sich windende Zerstörungsenergie auf dein Ziel. Dies ist ein magisches Geschoss mit Schaden +4. Wenn das Kettengeschoss ein Ziel auf 0 LP reduziert, springt es auf ein anderes Ziel innerhalb von Willenskraft-Bonus Schritt zum vorherigen Ziel über, das sich innerhalb der ursprünglichen Reichweite befindet. Dort richtet es den gleichen Schaden an. Es springt auf maximal so viele Ziele über, wie dein Willenskraft-Bonus beträgt. Für je +2 EG kann das Kettengeschoss auf ein zusätzliches Ziel überspringen.</p>"
+		},
+		{
+			"id": "Chain Attack (Light)",
+			"name": "Kettengeschoss (Licht)",
+			"description": "<p>Zauberwert: 6<br>Reichweite: WK-Schritt<br>Ziel: Speziell<br>Dauer: Sofort<br>Du kanalisierst sich windende Zerstörungsenergie auf dein Ziel. Dies ist ein magisches Geschoss mit Schaden +4. Wenn das Kettengeschoss ein Ziel auf 0 LP reduziert, springt es auf ein anderes Ziel innerhalb von Willenskraft-Bonus Schritt zum vorherigen Ziel über, das sich innerhalb der ursprünglichen Reichweite befindet. Dort richtet es den gleichen Schaden an. Es springt auf maximal so viele Ziele über, wie dein Willenskraft-Bonus beträgt. Für je +2 EG kann das Kettengeschoss auf ein zusätzliches Ziel überspringen.</p>"
+		},
+		{
+			"id": "Chain Attack (Metal)",
+			"name": "Kettengeschoss (Metall)",
+			"description": "<p>Zauberwert: 6<br>Reichweite: WK-Schritt<br>Ziel: Speziell<br>Dauer: Sofort<br>Du kanalisierst sich windende Zerstörungsenergie auf dein Ziel. Dies ist ein magisches Geschoss mit Schaden +4. Wenn das Kettengeschoss ein Ziel auf 0 LP reduziert, springt es auf ein anderes Ziel innerhalb von Willenskraft-Bonus Schritt zum vorherigen Ziel über, das sich innerhalb der ursprünglichen Reichweite befindet. Dort richtet es den gleichen Schaden an. Es springt auf maximal so viele Ziele über, wie dein Willenskraft-Bonus beträgt. Für je +2 EG kann das Kettengeschoss auf ein zusätzliches Ziel überspringen.</p>"
+		},
+		{
+			"id": "Chain Attack (Necromancy)",
+			"name": "Kettengeschoss (Nekromantie)",
+			"description": "<p>Zauberwert: 6<br>Reichweite: WK-Schritt<br>Ziel: Speziell<br>Dauer: Sofort<br>Du kanalisierst sich windende Zerstörungsenergie auf dein Ziel. Dies ist ein magisches Geschoss mit Schaden +4. Wenn das Kettengeschoss ein Ziel auf 0 LP reduziert, springt es auf ein anderes Ziel innerhalb von Willenskraft-Bonus Schritt zum vorherigen Ziel über, das sich innerhalb der ursprünglichen Reichweite befindet. Dort richtet es den gleichen Schaden an. Es springt auf maximal so viele Ziele über, wie dein Willenskraft-Bonus beträgt. Für je +2 EG kann das Kettengeschoss auf ein zusätzliches Ziel überspringen.</p>"
+		},
+		{
+			"id": "Chain Attack (Shadow)",
+			"name": "Kettengeschoss (Schatten)",
+			"description": "<p>Zauberwert: 6<br>Reichweite: WK-Schritt<br>Ziel: Speziell<br>Dauer: Sofort<br>Du kanalisierst sich windende Zerstörungsenergie auf dein Ziel. Dies ist ein magisches Geschoss mit Schaden +4. Wenn das Kettengeschoss ein Ziel auf 0 LP reduziert, springt es auf ein anderes Ziel innerhalb von Willenskraft-Bonus Schritt zum vorherigen Ziel über, das sich innerhalb der ursprünglichen Reichweite befindet. Dort richtet es den gleichen Schaden an. Es springt auf maximal so viele Ziele über, wie dein Willenskraft-Bonus beträgt. Für je +2 EG kann das Kettengeschoss auf ein zusätzliches Ziel überspringen.</p>"
+		},
+		{
+			"id": "Choking Shadows",
+			"name": "Erstickende Schatten",
+			"description": "<p>Zauberwert: 6<br>Reichweite: Willenskraft-Bonus Schritt<br>Ziel: 1<br>Dauer: Willenskraft-Bonus Runden<br>Du schlingst schattenhafte Tentakel des Ulgu um die Hälse deiner Feinde. Vorausgesetzt, dass sie atmen müssen, erhalten diese +1 Erschöpft-Zustand, können nicht sprechen und unterliegen den Regeln für Ersticken (siehe Seite 181).</p>"
+		},
+		{
+			"id": "Clarity of Thought",
+			"name": "Klarheit des Gedankens",
+			"description": "<p>Zauberwert: 6<br>Reichweite: Berührung<br>Ziel: 1<br>Dauer: Intelligenz Minuten<br>Du besänftigst den Geist des Zieles und erlaubst es ihm, klar zu denken. Alle negativen Modifikatoren bezüglich Denkprozessen – durch Zustände, mentale Mutation, Psychologie oder irgendeine andere Quelle – werden während der Dauer ignoriert.</p>"
+		},
+		{
+			"id": "Comet of Casandora",
+			"name": "Komet von Casandora",
+			"description": "<p>Zauberwert: 10<br>Reichweite: Initiative Schritt<br>Ziel: Wirkungsbereich (Initiative-Bonus Schritt)<br>Dauer: Speziell<br>Du kanalisierst allen Azyr, den du sammeln kannst, und greifst in den Himmel, um einen Kometen herabzuziehen, der Tod und Verderben über deine Feinde bringt. Wähle einen Aufschlagpunkt innerhalb der Reichweite. Am Ende der nächsten Runde führst du einen durchschnittlichen (+20) Wahrnehmungs-Wurf durch. Für jeden +EG den du erreichst, darfst du den Aufschlagpunkt um Initiative-Bonus Schritt verschieben. Für jeden –EG verschiebt der SL den Aufschlagpunkt um Initiative-Bonus Schritt in eine zufällige Richtung. Der Komet von Casandora schlägt danach als magisches Geschoss mit Schaden +12 ein, das alle Ziele im Wirkungsbereich trifft, die zudem +1 Brennend- und den Niedergestreckt-Zustand erhalten.</p>"
+		},
+		{
+			"id": "Conserve",
+			"name": "Konservieren",
+			"description": "<p>Zauberwert: 0<br>Reichweite: 1 Schritt<br>Ziel: 1<br>Dauer: Willenskraft-Bonus Tage<br>Du konservierst einen Tagesvorrat an Rationen. Während der Dauer werden diese nicht schlecht werden und nicht schimmeln, sie sind jedoch nicht gegen äußere Faktoren gefeit, wie nass zu werden, zu verbrennen oder vergiftet zu werden.</p>"
+		},
+		{
+			"id": "Corrosive Blood",
+			"name": "Beißendes Blut",
+			"description": "<p>Zauberwert: 4<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: WK-Bonus Runden<br>Du erfüllst dich selbst mit Magie und lädst dein Blut mit schreckenerregender Energie auf. Während der Zauber wirkt, erhältst du die Kreaturen-Eigenschaft Beißendes Blut (siehe Seite 339).</p>"
+		},
+		{
+			"id": "Corrosive Blood (Beasts)",
+			"name": "Beißendes Blut (Bestien)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: WK-Bonus Runden<br>Du erfüllst dich selbst mit Magie und lädst dein Blut mit schreckenerregender Energie auf. Während der Zauber wirkt, erhältst du die Kreaturen-Eigenschaft Beißendes Blut (siehe Seite 339).</p>"
+		},
+		{
+			"id": "Corrosive Blood (Daemonology)",
+			"name": "Beißendes Blut (Dämonologie)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: WK-Bonus Runden<br>Du erfüllst dich selbst mit Magie und lädst dein Blut mit schreckenerregender Energie auf. Während der Zauber wirkt, erhältst du die Kreaturen-Eigenschaft Beißendes Blut (siehe Seite 339).</p>"
+		},
+		{
+			"id": "Corrosive Blood (Death)",
+			"name": "Beißendes Blut (Tod)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: WK-Bonus Runden<br>Du erfüllst dich selbst mit Magie und lädst dein Blut mit schreckenerregender Energie auf. Während der Zauber wirkt, erhältst du die Kreaturen-Eigenschaft Beißendes Blut (siehe Seite 339).</p>"
+		},
+		{
+			"id": "Corrosive Blood (Fire)",
+			"name": "Beißendes Blut (Feuer)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: WK-Bonus Runden<br>Du erfüllst dich selbst mit Magie und lädst dein Blut mit schreckenerregender Energie auf. Während der Zauber wirkt, erhältst du die Kreaturen-Eigenschaft Beißendes Blut (siehe Seite 339).</p>"
+		},
+		{
+			"id": "Corrosive Blood (Heavens)",
+			"name": "Beißendes Blut (Himmel)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: WK-Bonus Runden<br>Du erfüllst dich selbst mit Magie und lädst dein Blut mit schreckenerregender Energie auf. Während der Zauber wirkt, erhältst du die Kreaturen-Eigenschaft Beißendes Blut (siehe Seite 339).</p>"
+		},
+		{
+			"id": "Corrosive Blood (Life)",
+			"name": "Beißendes Blut (Leben)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: WK-Bonus Runden<br>Du erfüllst dich selbst mit Magie und lädst dein Blut mit schreckenerregender Energie auf. Während der Zauber wirkt, erhältst du die Kreaturen-Eigenschaft Beißendes Blut (siehe Seite 339).</p>"
+		},
+		{
+			"id": "Corrosive Blood (Light)",
+			"name": "Beißendes Blut (Licht)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: WK-Bonus Runden<br>Du erfüllst dich selbst mit Magie und lädst dein Blut mit schreckenerregender Energie auf. Während der Zauber wirkt, erhältst du die Kreaturen-Eigenschaft Beißendes Blut (siehe Seite 339).</p>"
+		},
+		{
+			"id": "Corrosive Blood (Metal)",
+			"name": "Beißendes Blut (Metall)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: WK-Bonus Runden<br>Du erfüllst dich selbst mit Magie und lädst dein Blut mit schreckenerregender Energie auf. Während der Zauber wirkt, erhältst du die Kreaturen-Eigenschaft Beißendes Blut (siehe Seite 339).</p>"
+		},
+		{
+			"id": "Corrosive Blood (Necromancy)",
+			"name": "Beißendes Blut (Nekromantie)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: WK-Bonus Runden<br>Du erfüllst dich selbst mit Magie und lädst dein Blut mit schreckenerregender Energie auf. Während der Zauber wirkt, erhältst du die Kreaturen-Eigenschaft Beißendes Blut (siehe Seite 339).</p>"
+		},
+		{
+			"id": "Corrosive Blood (Shadow)",
+			"name": "Beißendes Blut (Schatten)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: WK-Bonus Runden<br>Du erfüllst dich selbst mit Magie und lädst dein Blut mit schreckenerregender Energie auf. Während der Zauber wirkt, erhältst du die Kreaturen-Eigenschaft Beißendes Blut (siehe Seite 339).</p>"
+		},
+		{
+			"id": "Creeping Menace",
+			"name": "Wimmelnder Schrecken",
+			"description": "<p>Zauberwert: 6<br>Reichweite: Willenskraft Schritt<br>Ziel: 1<br>Dauer: Willenskraft-Bonus Runden<br>Du rufst einen Schwarm kriechender, wimmelnder Wesen herbei, die deinen Feind heimsuchen. Jedes Ziel wird sofort von einem Schwarm von Riesenratten, Riesenspinnen oder Schlangen im Nahkampf gebunden. Verwende das Standardprofil der jeweiligen Kreatur und füge die Kreaturen-Eigenschaft Schwarm hinzu. Als Handlung kannst du mit einem herausfordernden (+0) Tiere-bezirzen-Wurf versuchen, 1 oder mehrere dieser Schwärme zu lenken. Wenn der Zauber endet, verschwinden alle verbliebenen Schwärme in den Schatten.</p>"
+		},
+		{
+			"id": "Crown of Flame",
+			"name": "Feuerkrone",
+			"description": "<p>Zauberwert: 8<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: WK-Bonus Runden<br>Du kanalisierst Aqshy zu einer majestätischen Krone aus inspirierendem Feuer über deiner Stirn. Du erhältst die Eigenschaft Angst (1) und das Talent Mitreißender Anführer (beziehungsweise +1 Stufe in Mitreißender Anführer, wenn du das Talent schon besitzt), solange der Zauber wirkt. Für je +2 EG kannst du den Angst-Wert um +1 erhöhen oder das Talent Mitreißender Anführer erneut wählen. Des Weiteren erhältst du einen Bonus von +10 auf alle Zauberwürfe und Kanalisieren-Würfe mit Aqshy, solange der Zauber wirkt.</p>"
+		},
+		{
+			"id": "Crucible of Chamon",
+			"name": "Schmelztiegel des Chamon",
+			"description": "<p>Zauberwert: 7<br>Reichweite: Willenskraft-Bonus Schritt<br>Ziel: 1<br>Dauer: Sofort<br>Du kanalisierst Chamon in ein einzelnes nichtmagisches Objekt aus Metall, zum Beispiel eine Waffe oder ein Stück Rüstwerk. Das Objekt schmilzt, tropft als geschmolzenes Metall auf den Boden und kühlt dort beinahe sofort ab. Wenn das Objekt festgehalten wird, wird es fallengelassen, wird es fest am Körper getragen, dann erleidet der Träger einen Treffer wie von einem magischen Geschoss mit einem Schaden in Höhe deines Willenskraft-Bonus, das den Widerstands-Bonus ignoriert. Das Objekt wird zwar zerstört, doch das Metall behält seinen Eigenwert und könnte von einem Schmied als Rohmaterial genutzt werden.</p>"
+		},
+		{
+			"id": "Curse of Crippling Pain",
+			"name": "Fluch des Verkrüppelnden Schmerzes",
+			"description": "<p>Zauberwert: 10<br>Reichweite: Willenskraft Schritt<br>Ziel: 1<br>Dauer: Willenskraft-Bonus Runden<br>Du stichst auf eine krude Repräsentation deines Zieles ein – eine Puppe oder eine Lehmfigur – und verursachst mörderische Schmerzen. Nach dem erfolgreichen Wirken wählst du die Trefferzone, in die du stichst:<br>Bein – Das Bein wird nutzlos, so als sei es amputiert (siehe Seite 180).Wenn das Ziel rennt, bekommt es zudem den Niedergestreckt-Zustand und erhält Fall-Schaden.<br>Arm – Der Arm wird nutzlos, so als sei er amputiert (siehe Seite 180). Wenn das Ziel irgendetwas in der Hand hält, lässt es dies automatisch fallen.<br>Körper – Das Ziel biegt sich vor Schmerzen. Es erhält +1 Erschöpft-Zustand und einen schweren (-20) Ausdauer-Wurf bestehen, oder es erhält zusätzlich den Niedergestreckt Zustand. <br>Kopf – Das Ziel bekommt den Betäubt-Zustand und muss einen durchschnittlichen (+20) Ausdauer-Wurf bestehen, oder es bekommt für die Dauer des Zaubers den Bewusstlos-Zustand. Während der Zauber wirkt, kannst du als Handlung einen Kanalisieren-Wurf durchführen, um erneut auf die Puppe einzustechen und eine andere Trefferzone zu wählen.</p>"
+		},
+		{
+			"id": "Curse of Ill-Fortune",
+			"name": "Fluch des Unglücks",
+			"description": "<p>Zauberwert: 8<br>Reichweite: Willenskraft-Bonus Meilen<br>Ziel: 1<br>Dauer: Willenskraft-Bonus Tage<br>Die Ingredienz dieses Zaubers ist etwas, das dem Ziel gehört, sei es ein persönlicher Gegenstand oder eine Haarsträhne. Für die Dauer des Zaubers leidet das Ziel an schlimmem Pech. Riemen reißen, Stühle brechen zusammen und andere, eher erzählerische Effekte machen ihm das Leben schwer. Zusätzlich erhält das Ziel einen Abzug von -10 auf alle Würfe, zusätzlich zu allen sonstigen Modifikatoren, und darf keine Glückspunkte ausgeben.</p>"
+		},
+		{
+			"id": "Daemonbane",
+			"name": "Dämonenbann",
+			"description": "<p>Zauberwert: 10<br>Reichweite: Willenskraft-Bonus Schritt<br>Ziel: 1<br>Dauer: Sofort<br>Du rufst eine Detonation des Hysh herbei, die die Grenze zwischen dem Reich des Chaos und der Welt der Sterblichen durchdringt. Der Zauberwurf ist ein Vergleichender Wurf gegen die Willenskraft des Zieles. Wenn du gewinnst, vernichtest du ein Ziel mit der Kreaturen-Eigenschaft Dämonisch in einem blendend weißen Licht und schickst es dorthin zurück, von wo es kam. Wenn du auf diese Weise erfolgreich einen Dämonen bannst, dann erhält jeder, der dein Ziel ansieht und nicht das Talent Arkane Magie (Licht) besitzt, +EG Geblendet-Zustände.</p>"
+		},
+		{
+			"id": "Dark Vision",
+			"name": "Dunkelsicht",
+			"description": "<p>Zauberwert: 1<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: WK-Bonus Runden<br>Du verstärkst dein Zweites Gesicht so, dass es deine weltlichen Sinne unterstützt. Während der Zauber wirkt, erhältst du die Kreaturen-Eigenschaft Dunkelsicht (siehe Seite 338).</p>"
+		},
+		{
+			"id": "Dark Vision (Beasts)",
+			"name": "Dunkelsicht (Bestien)",
+			"description": "<p>Zauberwert: 1<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: WK-Bonus Runden<br>Du verstärkst dein Zweites Gesicht so, dass es deine weltlichen Sinne unterstützt. Während der Zauber wirkt, erhältst du die Kreaturen-Eigenschaft Dunkelsicht (siehe Seite 338).</p>"
+		},
+		{
+			"id": "Dark Vision (Daemonology)",
+			"name": "Dunkelsicht (Dämonologie)",
+			"description": "<p>Zauberwert: 1<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: WK-Bonus Runden<br>Du verstärkst dein Zweites Gesicht so, dass es deine weltlichen Sinne unterstützt. Während der Zauber wirkt, erhältst du die Kreaturen-Eigenschaft Dunkelsicht (siehe Seite 338).</p>"
+		},
+		{
+			"id": "Dark Vision (Death)",
+			"name": "Dunkelsicht (Tod)",
+			"description": "<p>Zauberwert: 1<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: WK-Bonus Runden<br>Du verstärkst dein Zweites Gesicht so, dass es deine weltlichen Sinne unterstützt. Während der Zauber wirkt, erhältst du die Kreaturen-Eigenschaft Dunkelsicht (siehe Seite 338).</p>"
+		},
+		{
+			"id": "Dark Vision (Fire)",
+			"name": "Dunkelsicht (Feuer)",
+			"description": "<p>Zauberwert: 1<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: WK-Bonus Runden<br>Du verstärkst dein Zweites Gesicht so, dass es deine weltlichen Sinne unterstützt. Während der Zauber wirkt, erhältst du die Kreaturen-Eigenschaft Dunkelsicht (siehe Seite 338).</p>"
+		},
+		{
+			"id": "Dark Vision (Heavens)",
+			"name": "Dunkelsicht (Himmel)",
+			"description": "<p>Zauberwert: 1<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: WK-Bonus Runden<br>Du verstärkst dein Zweites Gesicht so, dass es deine weltlichen Sinne unterstützt. Während der Zauber wirkt, erhältst du die Kreaturen-Eigenschaft Dunkelsicht (siehe Seite 338).</p>"
+		},
+		{
+			"id": "Dark Vision (Life)",
+			"name": "Dunkelsicht (Leben)",
+			"description": "<p>Zauberwert: 1<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: WK-Bonus Runden<br>Du verstärkst dein Zweites Gesicht so, dass es deine weltlichen Sinne unterstützt. Während der Zauber wirkt, erhältst du die Kreaturen-Eigenschaft Dunkelsicht (siehe Seite 338).</p>"
+		},
+		{
+			"id": "Dark Vision (Light)",
+			"name": "Dunkelsicht (Licht)",
+			"description": "<p>Zauberwert: 1<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: WK-Bonus Runden<br>Du verstärkst dein Zweites Gesicht so, dass es deine weltlichen Sinne unterstützt. Während der Zauber wirkt, erhältst du die Kreaturen-Eigenschaft Dunkelsicht (siehe Seite 338).</p>"
+		},
+		{
+			"id": "Dark Vision (Metal)",
+			"name": "Dunkelsicht (Metall)",
+			"description": "<p>Zauberwert: 1<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: WK-Bonus Runden<br>Du verstärkst dein Zweites Gesicht so, dass es deine weltlichen Sinne unterstützt. Während der Zauber wirkt, erhältst du die Kreaturen-Eigenschaft Dunkelsicht (siehe Seite 338).</p>"
+		},
+		{
+			"id": "Dark Vision (Necromancy)",
+			"name": "Dunkelsicht (Nekromantie)",
+			"description": "<p>Zauberwert: 1<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: WK-Bonus Runden<br>Du verstärkst dein Zweites Gesicht so, dass es deine weltlichen Sinne unterstützt. Während der Zauber wirkt, erhältst du die Kreaturen-Eigenschaft Dunkelsicht (siehe Seite 338).</p>"
+		},
+		{
+			"id": "Dark Vision (Shadow)",
+			"name": "Dunkelsicht (Schatten)",
+			"description": "<p>Zauberwert: 1<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: WK-Bonus Runden<br>Du verstärkst dein Zweites Gesicht so, dass es deine weltlichen Sinne unterstützt. Während der Zauber wirkt, erhältst du die Kreaturen-Eigenschaft Dunkelsicht (siehe Seite 338).</p>"
+		},
+		{
+			"id": "Dart",
+			"name": "Pfeil",
+			"description": "<p>Zauberwert: 0<br>Reichweite: Willenskraft Schritte<br>Ziel: 1<br>Dauer: Sofort<br>Du lässt einen kleinen Pfeil aus magischer Energie aus deinen Fingern fliegen. Dies ist ein magisches Geschoss mit einem Schaden von +0.</p>"
+		},
+		{
+			"id": "Dazzle",
+			"name": "Verwirren",
+			"description": "<p>Zauberwert: 0<br>Reichweite: Berührung<br>Ziel: 1<br>Dauer: WK-Bonus Runden<br>Das Ziel erhält 1 Geblendet-Zustand und erhält für die Dauer des Zaubers am Anfang jeder Runde +1 Geblendet-Zustand.</p>"
+		},
+		{
+			"id": "Destroy Lesser Demon",
+			"name": "Niederen Dämonen vernichten",
+			"description": "<p>Zauberwert: 6<br>Reichweite: Willenskraft Schritt<br>Ziel: 1<br>Dauer: Willenskraft-Bonus Runden<br>Du unterbrichst die Bande des Dhar, die dein dämonisches Ziel zusammenhalten und ziehst sie zu dir. Ein Ziel mit der Kreaturen-Eigenschaft Dämonisch und einer niedrigeren Willenskraft als du verliert LP in Höhe deines Willenskraft-Bonus, wobei der Widerstands-Bonus und Rüstungspunkte ignoriert werden. Danach darfst du für die Dauer des Zaubers einen deiner Spielwerte um +10 erhöhen, da du die unheiligen Energien in dich aufnimmst.</p>"
+		},
+		{
+			"id": "Detect Daemon",
+			"name": "Dämonen spüren",
+			"description": "<p>Zauberwert: 4<br>Reichweite: Willenskraft Schritt<br>Ziel: Speziell<br>Dauer: Sofort<br>Dein Zauber enthüllt dir die dämonischen Einflüsse in der Umgebung. Du weißt automatisch, ob es innerhalb der Reichweite manifestierte Dämonen gibt, egal ob beschworen, in einem Artefakt gebunden, in einem Besessenen oder Ähnliches.</p>"
+		},
+		{
+			"id": "Distracting",
+			"name": "Ablenkung",
+			"description": "<p>Zauberwert: 4<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: WK-Bonus Runden<br>Du legst Magie um dich, die dich umwirbelt und den Feind ablenkt. Während der Zauber wirkt, erhältst du die Kreaturen-Eigenschaft Verstörend (siehe Seite 343).</p>"
+		},
+		{
+			"id": "Distracting (Beasts)",
+			"name": "Ablenkung (Bestien)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: WK-Bonus Runden<br>Du legst Magie um dich, die dich umwirbelt und den Feind ablenkt. Während der Zauber wirkt, erhältst du die Kreaturen-Eigenschaft Verstörend (siehe Seite 343).</p>"
+		},
+		{
+			"id": "Distracting (Daemonology)",
+			"name": "Ablenkung (Dämonologie)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: WK-Bonus Runden<br>Du legst Magie um dich, die dich umwirbelt und den Feind ablenkt. Während der Zauber wirkt, erhältst du die Kreaturen-Eigenschaft Verstörend (siehe Seite 343).</p>"
+		},
+		{
+			"id": "Distracting (Death)",
+			"name": "Ablenkung (Tod)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: WK-Bonus Runden<br>Du legst Magie um dich, die dich umwirbelt und den Feind ablenkt. Während der Zauber wirkt, erhältst du die Kreaturen-Eigenschaft Verstörend (siehe Seite 343).</p>"
+		},
+		{
+			"id": "Distracting (Fire)",
+			"name": "Ablenkung (Feuer)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: WK-Bonus Runden<br>Du legst Magie um dich, die dich umwirbelt und den Feind ablenkt. Während der Zauber wirkt, erhältst du die Kreaturen-Eigenschaft Verstörend (siehe Seite 343).</p>"
+		},
+		{
+			"id": "Distracting (Heavens)",
+			"name": "Ablenkung (Himmel)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: WK-Bonus Runden<br>Du legst Magie um dich, die dich umwirbelt und den Feind ablenkt. Während der Zauber wirkt, erhältst du die Kreaturen-Eigenschaft Verstörend (siehe Seite 343).</p>"
+		},
+		{
+			"id": "Distracting (Life)",
+			"name": "Ablenkung (Leben)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: WK-Bonus Runden<br>Du legst Magie um dich, die dich umwirbelt und den Feind ablenkt. Während der Zauber wirkt, erhältst du die Kreaturen-Eigenschaft Verstörend (siehe Seite 343).</p>"
+		},
+		{
+			"id": "Distracting (Light)",
+			"name": "Ablenkung (Licht)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: WK-Bonus Runden<br>Du legst Magie um dich, die dich umwirbelt und den Feind ablenkt. Während der Zauber wirkt, erhältst du die Kreaturen-Eigenschaft Verstörend (siehe Seite 343).</p>"
+		},
+		{
+			"id": "Distracting (Metal)",
+			"name": "Ablenkung (Metall)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: WK-Bonus Runden<br>Du legst Magie um dich, die dich umwirbelt und den Feind ablenkt. Während der Zauber wirkt, erhältst du die Kreaturen-Eigenschaft Verstörend (siehe Seite 343).</p>"
+		},
+		{
+			"id": "Distracting (Necromancy)",
+			"name": "Ablenkung (Nekromantie)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: WK-Bonus Runden<br>Du legst Magie um dich, die dich umwirbelt und den Feind ablenkt. Während der Zauber wirkt, erhältst du die Kreaturen-Eigenschaft Verstörend (siehe Seite 343).</p>"
+		},
+		{
+			"id": "Distracting (Shadow)",
+			"name": "Ablenkung (Schatten)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: WK-Bonus Runden<br>Du legst Magie um dich, die dich umwirbelt und den Feind ablenkt. Während der Zauber wirkt, erhältst du die Kreaturen-Eigenschaft Verstörend (siehe Seite 343).</p>"
+		},
+		{
+			"id": "Dome",
+			"name": "Kuppel",
+			"description": "<p>Zauberwert: 7<br>Reichweite: Du selbst<br>Ziel: Wirkungsbereich (WK-Bonus Schritt)<br>Dauer: WK-Bonus Runden<br>Du erschaffst über dir eine Kuppel aus magischer Energie, die hereinkommende Attacken blockiert. Jeder im Wirkungsbereich erhält die Kreaturen-Eigenschaft Protection (6+) (siehe Seite 342) gegen magische Attacken oder Fernkampfattacken von außerhalb der Kuppel. Die Charaktere im Inneren der Kuppel können auch Ziele außerhalb ganz normal attackieren und die Kuppel lässt sich problemlos betreten.</p>"
+		},
+		{
+			"id": "Dome (Beasts)",
+			"name": "Kuppel (Bestien)",
+			"description": "<p>Zauberwert: 7<br>Reichweite: Du selbst<br>Ziel: Wirkungsbereich (WK-Bonus Schritt)<br>Dauer: WK-Bonus Runden<br>Du erschaffst über dir eine Kuppel aus magischer Energie, die hereinkommende Attacken blockiert. Jeder im Wirkungsbereich erhält die Kreaturen-Eigenschaft Protection (6+) (siehe Seite 342) gegen magische Attacken oder Fernkampfattacken von außerhalb der Kuppel. Die Charaktere im Inneren der Kuppel können auch Ziele außerhalb ganz normal attackieren und die Kuppel lässt sich problemlos betreten.</p>"
+		},
+		{
+			"id": "Dome (Daemonology)",
+			"name": "Kuppel (Dämonologie)",
+			"description": "<p>Zauberwert: 7<br>Reichweite: Du selbst<br>Ziel: Wirkungsbereich (WK-Bonus Schritt)<br>Dauer: WK-Bonus Runden<br>Du erschaffst über dir eine Kuppel aus magischer Energie, die hereinkommende Attacken blockiert. Jeder im Wirkungsbereich erhält die Kreaturen-Eigenschaft Protection (6+) (siehe Seite 342) gegen magische Attacken oder Fernkampfattacken von außerhalb der Kuppel. Die Charaktere im Inneren der Kuppel können auch Ziele außerhalb ganz normal attackieren und die Kuppel lässt sich problemlos betreten.</p>"
+		},
+		{
+			"id": "Dome (Death)",
+			"name": "Kuppel (Tod)",
+			"description": "<p>Zauberwert: 7<br>Reichweite: Du selbst<br>Ziel: Wirkungsbereich (WK-Bonus Schritt)<br>Dauer: WK-Bonus Runden<br>Du erschaffst über dir eine Kuppel aus magischer Energie, die hereinkommende Attacken blockiert. Jeder im Wirkungsbereich erhält die Kreaturen-Eigenschaft Protection (6+) (siehe Seite 342) gegen magische Attacken oder Fernkampfattacken von außerhalb der Kuppel. Die Charaktere im Inneren der Kuppel können auch Ziele außerhalb ganz normal attackieren und die Kuppel lässt sich problemlos betreten.</p>"
+		},
+		{
+			"id": "Dome (Fire)",
+			"name": "Kuppel (Feuer)",
+			"description": "<p>Zauberwert: 7<br>Reichweite: Du selbst<br>Ziel: Wirkungsbereich (WK-Bonus Schritt)<br>Dauer: WK-Bonus Runden<br>Du erschaffst über dir eine Kuppel aus magischer Energie, die hereinkommende Attacken blockiert. Jeder im Wirkungsbereich erhält die Kreaturen-Eigenschaft Protection (6+) (siehe Seite 342) gegen magische Attacken oder Fernkampfattacken von außerhalb der Kuppel. Die Charaktere im Inneren der Kuppel können auch Ziele außerhalb ganz normal attackieren und die Kuppel lässt sich problemlos betreten.</p>"
+		},
+		{
+			"id": "Dome (Heavens)",
+			"name": "Kuppel (Himmel)",
+			"description": "<p>Zauberwert: 7<br>Reichweite: Du selbst<br>Ziel: Wirkungsbereich (WK-Bonus Schritt)<br>Dauer: WK-Bonus Runden<br>Du erschaffst über dir eine Kuppel aus magischer Energie, die hereinkommende Attacken blockiert. Jeder im Wirkungsbereich erhält die Kreaturen-Eigenschaft Protection (6+) (siehe Seite 342) gegen magische Attacken oder Fernkampfattacken von außerhalb der Kuppel. Die Charaktere im Inneren der Kuppel können auch Ziele außerhalb ganz normal attackieren und die Kuppel lässt sich problemlos betreten.</p>"
+		},
+		{
+			"id": "Dome (Life)",
+			"name": "Kuppel (Leben)",
+			"description": "<p>Zauberwert: 7<br>Reichweite: Du selbst<br>Ziel: Wirkungsbereich (WK-Bonus Schritt)<br>Dauer: WK-Bonus Runden<br>Du erschaffst über dir eine Kuppel aus magischer Energie, die hereinkommende Attacken blockiert. Jeder im Wirkungsbereich erhält die Kreaturen-Eigenschaft Protection (6+) (siehe Seite 342) gegen magische Attacken oder Fernkampfattacken von außerhalb der Kuppel. Die Charaktere im Inneren der Kuppel können auch Ziele außerhalb ganz normal attackieren und die Kuppel lässt sich problemlos betreten.</p>"
+		},
+		{
+			"id": "Dome (Light)",
+			"name": "Kuppel (Licht)",
+			"description": "<p>Zauberwert: 7<br>Reichweite: Du selbst<br>Ziel: Wirkungsbereich (WK-Bonus Schritt)<br>Dauer: WK-Bonus Runden<br>Du erschaffst über dir eine Kuppel aus magischer Energie, die hereinkommende Attacken blockiert. Jeder im Wirkungsbereich erhält die Kreaturen-Eigenschaft Protection (6+) (siehe Seite 342) gegen magische Attacken oder Fernkampfattacken von außerhalb der Kuppel. Die Charaktere im Inneren der Kuppel können auch Ziele außerhalb ganz normal attackieren und die Kuppel lässt sich problemlos betreten.</p>"
+		},
+		{
+			"id": "Dome (Metal)",
+			"name": "Kuppel (Metall)",
+			"description": "<p>Zauberwert: 7<br>Reichweite: Du selbst<br>Ziel: Wirkungsbereich (WK-Bonus Schritt)<br>Dauer: WK-Bonus Runden<br>Du erschaffst über dir eine Kuppel aus magischer Energie, die hereinkommende Attacken blockiert. Jeder im Wirkungsbereich erhält die Kreaturen-Eigenschaft Protection (6+) (siehe Seite 342) gegen magische Attacken oder Fernkampfattacken von außerhalb der Kuppel. Die Charaktere im Inneren der Kuppel können auch Ziele außerhalb ganz normal attackieren und die Kuppel lässt sich problemlos betreten.</p>"
+		},
+		{
+			"id": "Dome (Necromancy)",
+			"name": "Kuppel (Nekromantie)",
+			"description": "<p>Zauberwert: 7<br>Reichweite: Du selbst<br>Ziel: Wirkungsbereich (WK-Bonus Schritt)<br>Dauer: WK-Bonus Runden<br>Du erschaffst über dir eine Kuppel aus magischer Energie, die hereinkommende Attacken blockiert. Jeder im Wirkungsbereich erhält die Kreaturen-Eigenschaft Protection (6+) (siehe Seite 342) gegen magische Attacken oder Fernkampfattacken von außerhalb der Kuppel. Die Charaktere im Inneren der Kuppel können auch Ziele außerhalb ganz normal attackieren und die Kuppel lässt sich problemlos betreten.</p>"
+		},
+		{
+			"id": "Dome (Shadow)",
+			"name": "Kuppel (Schatten)",
+			"description": "<p>Zauberwert: 7<br>Reichweite: Du selbst<br>Ziel: Wirkungsbereich (WK-Bonus Schritt)<br>Dauer: WK-Bonus Runden<br>Du erschaffst über dir eine Kuppel aus magischer Energie, die hereinkommende Attacken blockiert. Jeder im Wirkungsbereich erhält die Kreaturen-Eigenschaft Protection (6+) (siehe Seite 342) gegen magische Attacken oder Fernkampfattacken von außerhalb der Kuppel. Die Charaktere im Inneren der Kuppel können auch Ziele außerhalb ganz normal attackieren und die Kuppel lässt sich problemlos betreten.</p>"
+		},
+		{
+			"id": "Doppelganger",
+			"name": "Doppelgänger",
+			"description": "<p>Zauberwert: 10<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Intelligenz-Bonus Minuten<br>Du webst eine Maske und einen Mantel aus Ulgu um deine Gestalt und siehst nun äußerlich wie ein anderes humanoides Wesen aus, mit dem du vertraut bist (nach Festlegung des SL). Dein Äußeres wird automatisch jeden ohne das Talent Zweites Gesicht täuschen, obwohl manchen öglicherweise auffallen wird, dass deine Manierismen nicht stimmen. Jene, die das Talent haben, müssen einen schwierigen (-10) Wahrnehmungs-Wurf bestehen, um zu bemerken, dass du deine Gestalt verändert hast. Dies erlaubt ihnen jedoch nicht durch den Zauber zu sehen. Dazu müssten sie ihn mit einem Gegenzauber bannen.</p>"
+		},
+		{
+			"id": "Drain",
+			"name": "Saugen",
+			"description": "<p>Zauberwert: 0<br>Reichweite: Berührung<br>Ziel: 1<br>Dauer: Sofort<br>Du berührst deine Ziele und saugst ihnen Lebenskraft ab. Dies gilt als ein magisches Geschoss mit einem Schaden von +0, das Rüstungspunkte ignoriert. Danach heilst du 1 LP bei dir selbst.</p>"
+		},
+		{
+			"id": "Drop",
+			"name": "Fallenlassen",
+			"description": "<p>Zauberwert: 1<br>Reichweite: Willenskraft Schritt<br>Ziel: 1<br>Dauer: Sofort<br>Du kanalisierst deine Magie in ein von einem Ziel gehaltenes Objekt. Dies kann eine Waffe, ein Seil oder die Hand einer anderen Person sein. Wenn dem Ziel kein herausfordernder (+0) Geschicklichkeits-Wurf gelingt, lässt es das Objekt fallen. Für je +2 EG kannst du diesen Geschicklichkeits-Wurf um -10 erschweren.</p>"
+		},
+		{
+			"id": "Drop (Beasts)",
+			"name": "Fallenlassen (Bestien)",
+			"description": "<p>Zauberwert: 1<br>Reichweite: Willenskraft Schritt<br>Ziel: 1<br>Dauer: Sofort<br>Du kanalisierst deine Magie in ein von einem Ziel gehaltenes Objekt. Dies kann eine Waffe, ein Seil oder die Hand einer anderen Person sein. Wenn dem Ziel kein herausfordernder (+0) Geschicklichkeits-Wurf gelingt, lässt es das Objekt fallen. Für je +2 EG kannst du diesen Geschicklichkeits-Wurf um -10 erschweren.</p>"
+		},
+		{
+			"id": "Drop (Daemonology)",
+			"name": "Fallenlassen (Dämonologie)",
+			"description": "<p>Zauberwert: 1<br>Reichweite: Willenskraft Schritt<br>Ziel: 1<br>Dauer: Sofort<br>Du kanalisierst deine Magie in ein von einem Ziel gehaltenes Objekt. Dies kann eine Waffe, ein Seil oder die Hand einer anderen Person sein. Wenn dem Ziel kein herausfordernder (+0) Geschicklichkeits-Wurf gelingt, lässt es das Objekt fallen. Für je +2 EG kannst du diesen Geschicklichkeits-Wurf um -10 erschweren.</p>"
+		},
+		{
+			"id": "Drop (Death)",
+			"name": "Fallenlassen (Tod)",
+			"description": "<p>Zauberwert: 1<br>Reichweite: Willenskraft Schritt<br>Ziel: 1<br>Dauer: Sofort<br>Du kanalisierst deine Magie in ein von einem Ziel gehaltenes Objekt. Dies kann eine Waffe, ein Seil oder die Hand einer anderen Person sein. Wenn dem Ziel kein herausfordernder (+0) Geschicklichkeits-Wurf gelingt, lässt es das Objekt fallen. Für je +2 EG kannst du diesen Geschicklichkeits-Wurf um -10 erschweren.</p>"
+		},
+		{
+			"id": "Drop (Fire)",
+			"name": "Fallenlassen (Feuer)",
+			"description": "<p>Zauberwert: 1<br>Reichweite: Willenskraft Schritt<br>Ziel: 1<br>Dauer: Sofort<br>Du kanalisierst deine Magie in ein von einem Ziel gehaltenes Objekt. Dies kann eine Waffe, ein Seil oder die Hand einer anderen Person sein. Wenn dem Ziel kein herausfordernder (+0) Geschicklichkeits-Wurf gelingt, lässt es das Objekt fallen. Für je +2 EG kannst du diesen Geschicklichkeits-Wurf um -10 erschweren.</p>"
+		},
+		{
+			"id": "Drop (Heavens)",
+			"name": "Fallenlassen (Himmel)",
+			"description": "<p>Zauberwert: 1<br>Reichweite: Willenskraft Schritt<br>Ziel: 1<br>Dauer: Sofort<br>Du kanalisierst deine Magie in ein von einem Ziel gehaltenes Objekt. Dies kann eine Waffe, ein Seil oder die Hand einer anderen Person sein. Wenn dem Ziel kein herausfordernder (+0) Geschicklichkeits-Wurf gelingt, lässt es das Objekt fallen. Für je +2 EG kannst du diesen Geschicklichkeits-Wurf um -10 erschweren.</p>"
+		},
+		{
+			"id": "Drop (Life)",
+			"name": "Fallenlassen (Leben)",
+			"description": "<p>Zauberwert: 1<br>Reichweite: Willenskraft Schritt<br>Ziel: 1<br>Dauer: Sofort<br>Du kanalisierst deine Magie in ein von einem Ziel gehaltenes Objekt. Dies kann eine Waffe, ein Seil oder die Hand einer anderen Person sein. Wenn dem Ziel kein herausfordernder (+0) Geschicklichkeits-Wurf gelingt, lässt es das Objekt fallen. Für je +2 EG kannst du diesen Geschicklichkeits-Wurf um -10 erschweren.</p>"
+		},
+		{
+			"id": "Drop (Light)",
+			"name": "Fallenlassen (Licht)",
+			"description": "<p>Zauberwert: 1<br>Reichweite: Willenskraft Schritt<br>Ziel: 1<br>Dauer: Sofort<br>Du kanalisierst deine Magie in ein von einem Ziel gehaltenes Objekt. Dies kann eine Waffe, ein Seil oder die Hand einer anderen Person sein. Wenn dem Ziel kein herausfordernder (+0) Geschicklichkeits-Wurf gelingt, lässt es das Objekt fallen. Für je +2 EG kannst du diesen Geschicklichkeits-Wurf um -10 erschweren.</p>"
+		},
+		{
+			"id": "Drop (Metal)",
+			"name": "Fallenlassen (Metall)",
+			"description": "<p>Zauberwert: 1<br>Reichweite: Willenskraft Schritt<br>Ziel: 1<br>Dauer: Sofort<br>Du kanalisierst deine Magie in ein von einem Ziel gehaltenes Objekt. Dies kann eine Waffe, ein Seil oder die Hand einer anderen Person sein. Wenn dem Ziel kein herausfordernder (+0) Geschicklichkeits-Wurf gelingt, lässt es das Objekt fallen. Für je +2 EG kannst du diesen Geschicklichkeits-Wurf um -10 erschweren.</p>"
+		},
+		{
+			"id": "Drop (Necromancy)",
+			"name": "Fallenlassen (Nekromantie)",
+			"description": "<p>Zauberwert: 1<br>Reichweite: Willenskraft Schritt<br>Ziel: 1<br>Dauer: Sofort<br>Du kanalisierst deine Magie in ein von einem Ziel gehaltenes Objekt. Dies kann eine Waffe, ein Seil oder die Hand einer anderen Person sein. Wenn dem Ziel kein herausfordernder (+0) Geschicklichkeits-Wurf gelingt, lässt es das Objekt fallen. Für je +2 EG kannst du diesen Geschicklichkeits-Wurf um -10 erschweren.</p>"
+		},
+		{
+			"id": "Drop (Shadow)",
+			"name": "Fallenlassen (Schatten)",
+			"description": "<p>Zauberwert: 1<br>Reichweite: Willenskraft Schritt<br>Ziel: 1<br>Dauer: Sofort<br>Du kanalisierst deine Magie in ein von einem Ziel gehaltenes Objekt. Dies kann eine Waffe, ein Seil oder die Hand einer anderen Person sein. Wenn dem Ziel kein herausfordernder (+0) Geschicklichkeits-Wurf gelingt, lässt es das Objekt fallen. Für je +2 EG kannst du diesen Geschicklichkeits-Wurf um -10 erschweren.</p>"
+		},
+		{
+			"id": "Dying Words",
+			"name": "Letzte Worte",
+			"description": "<p>Zauberwert: 6<br>Reichweite: Berührung<br>Ziel: 1<br>Dauer: Willenskraft-Bonus Runden<br>Du berührst den Körper einer Seele, die erst kürzlich die Welt verlassen hat (während des letzten Tages) und rufst sie für kurze Zeit zurück. Für die Dauer des Zaubers kannst du dich mit der Seele des Toten unterhalten, wobei diese nicht mehr tun kann, als zu sprechen. Sie ist nicht verpflichtet dir Antworten zu geben, doch die Toten lügen nicht.</p>"
+		},
+		{
+			"id": "Earthblood",
+			"name": "Erdenblut",
+			"description": "<p>Zauberwert: 6<br>Reichweite: Du selbst<br>Ziel: Wirkungsbereich (Willenskraft-Bonus Schritt)<br>Dauer: WK-Bonus Runden<br>Um diesen Zauber wirken zu können, musst du in direktem Kontakt mit der Erde sein. Barfuß zu sein zählt. Für die Dauer des Zaubers erhalten alle Wesen in direktem Kontakt mit der Erde am Anfang jeder Runde LP in Höhe deines Willenskraft-Bonus zurück.</p>"
+		},
+		{
+			"id": "Earthpool",
+			"name": "Erdreise",
+			"description": "<p>Zauberwert: 8<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Sofort<br>Wenn du diesen Zauber wirkst, verschwindest du sofort inmitten einer wilden Fontäne aus Ghyran im Erdboden. Du erscheinst am Beginn der nächsten Runde an einem beliebigen Punkt innerhalb von Willenskraft Schritt und steigst geradezu gewaltsam aus der Erde empor. Für je +2 EG kannst du die gereiste Distanz um Willenskraft Schritt verlängern. Alle Feinde, die durch dein Erscheinen im Nahkampf gebunden werden, erhalten den Zustand Überrascht. Dieser Zauber erlaubt es dir nicht, durch Stein zu reisen, aber du kannst dich durch Wasser bewegen.</p>"
+		},
+		{
+			"id": "Eavesdrop",
+			"name": "Gespitztes Ohr",
+			"description": "<p>Zauberwert: 0<br>Reichweite: Willenskraft Schritte<br>Ziel: 1<br>Dauer: Initiative-Bonus Minuten<br>Du hörst was deine Ziele sagen. So gut, als würdest du direkt neben ihnen stehen.</p>"
+		},
+		{
+			"id": "Enchant Weapon",
+			"name": "Waffe verzaubern",
+			"description": "<p>Zauberwert: 6<br>Reichweite: Berührung<br>Ziel: Speziell<br>Dauer: Willenskraft-Bonus Runden<br>Du umhüllst eine einzelne, nichtmagische Waffe mit schweren Banden des Chamon und verstärkst ihr Potential. Für die Dauer des Zaubers gilt sie als magisch, erhält einen Bonus auf den Schaden in Höhe deines Willenskraft-Bonus und erhält die Qualität Unzerbrechlich (siehe Seite 298). Für je +3 EG kannst du zudem 1 Qualität hinzufügen oder 1 Makel von der Waffe entfernen, während der Zauber wirkt.</p>"
+		},
+		{
+			"id": "Entangle",
+			"name": "Fesseln",
+			"description": "<p>Zauberwert: 3<br>Reichweite: Willenskraft Schritt<br>Ziel: 1<br>Dauer: Speziell<br>Du nutzt deine Magie, um das Ziel mit etwas zu umschlingen, das zu deiner Lehre passt, seien es Ranken, Schatten, die eigene Kleidung etc. Dein Ziel erhält 1 Gefesselt-Zustand mit einer Stärke, die deiner Intelligenz entspricht. Für je +2 EG kannst du dem Ziel +1 zusätzlichen Gefesselt-Zustand verleihen. Der Zauber wirkt, bis alle Gefesselt-Zustände entfernt wurden.</p>"
+		},
+		{
+			"id": "Entangle (Beasts)",
+			"name": "Fesseln (Bestien)",
+			"description": "<p>Zauberwert: 3<br>Reichweite: Willenskraft Schritt<br>Ziel: 1<br>Dauer: Speziell<br>Du nutzt deine Magie, um das Ziel mit etwas zu umschlingen, das zu deiner Lehre passt, seien es Ranken, Schatten, die eigene Kleidung etc. Dein Ziel erhält 1 Gefesselt-Zustand mit einer Stärke, die deiner Intelligenz entspricht. Für je +2 EG kannst du dem Ziel +1 zusätzlichen Gefesselt-Zustand verleihen. Der Zauber wirkt, bis alle Gefesselt-Zustände entfernt wurden.</p>"
+		},
+		{
+			"id": "Entangle (Daemonology)",
+			"name": "Fesseln (Dämonologie)",
+			"description": "<p>Zauberwert: 3<br>Reichweite: Willenskraft Schritt<br>Ziel: 1<br>Dauer: Speziell<br>Du nutzt deine Magie, um das Ziel mit etwas zu umschlingen, das zu deiner Lehre passt, seien es Ranken, Schatten, die eigene Kleidung etc. Dein Ziel erhält 1 Gefesselt-Zustand mit einer Stärke, die deiner Intelligenz entspricht. Für je +2 EG kannst du dem Ziel +1 zusätzlichen Gefesselt-Zustand verleihen. Der Zauber wirkt, bis alle Gefesselt-Zustände entfernt wurden.</p>"
+		},
+		{
+			"id": "Entangle (Death)",
+			"name": "Fesseln (Tod)",
+			"description": "<p>Zauberwert: 3<br>Reichweite: Willenskraft Schritt<br>Ziel: 1<br>Dauer: Speziell<br>Du nutzt deine Magie, um das Ziel mit etwas zu umschlingen, das zu deiner Lehre passt, seien es Ranken, Schatten, die eigene Kleidung etc. Dein Ziel erhält 1 Gefesselt-Zustand mit einer Stärke, die deiner Intelligenz entspricht. Für je +2 EG kannst du dem Ziel +1 zusätzlichen Gefesselt-Zustand verleihen. Der Zauber wirkt, bis alle Gefesselt-Zustände entfernt wurden.</p>"
+		},
+		{
+			"id": "Entangle (Fire)",
+			"name": "Fesseln (Feuer)",
+			"description": "<p>Zauberwert: 3<br>Reichweite: Willenskraft Schritt<br>Ziel: 1<br>Dauer: Speziell<br>Du nutzt deine Magie, um das Ziel mit etwas zu umschlingen, das zu deiner Lehre passt, seien es Ranken, Schatten, die eigene Kleidung etc. Dein Ziel erhält 1 Gefesselt-Zustand mit einer Stärke, die deiner Intelligenz entspricht. Für je +2 EG kannst du dem Ziel +1 zusätzlichen Gefesselt-Zustand verleihen. Der Zauber wirkt, bis alle Gefesselt-Zustände entfernt wurden.</p>"
+		},
+		{
+			"id": "Entangle (Heavens)",
+			"name": "Fesseln (Himmel)",
+			"description": "<p>Zauberwert: 3<br>Reichweite: Willenskraft Schritt<br>Ziel: 1<br>Dauer: Speziell<br>Du nutzt deine Magie, um das Ziel mit etwas zu umschlingen, das zu deiner Lehre passt, seien es Ranken, Schatten, die eigene Kleidung etc. Dein Ziel erhält 1 Gefesselt-Zustand mit einer Stärke, die deiner Intelligenz entspricht. Für je +2 EG kannst du dem Ziel +1 zusätzlichen Gefesselt-Zustand verleihen. Der Zauber wirkt, bis alle Gefesselt-Zustände entfernt wurden.</p>"
+		},
+		{
+			"id": "Entangle (Life)",
+			"name": "Fesseln (Leben)",
+			"description": "<p>Zauberwert: 3<br>Reichweite: Willenskraft Schritt<br>Ziel: 1<br>Dauer: Speziell<br>Du nutzt deine Magie, um das Ziel mit etwas zu umschlingen, das zu deiner Lehre passt, seien es Ranken, Schatten, die eigene Kleidung etc. Dein Ziel erhält 1 Gefesselt-Zustand mit einer Stärke, die deiner Intelligenz entspricht. Für je +2 EG kannst du dem Ziel +1 zusätzlichen Gefesselt-Zustand verleihen. Der Zauber wirkt, bis alle Gefesselt-Zustände entfernt wurden.</p>"
+		},
+		{
+			"id": "Entangle (Light)",
+			"name": "Fesseln (Licht)",
+			"description": "<p>Zauberwert: 3<br>Reichweite: Willenskraft Schritt<br>Ziel: 1<br>Dauer: Speziell<br>Du nutzt deine Magie, um das Ziel mit etwas zu umschlingen, das zu deiner Lehre passt, seien es Ranken, Schatten, die eigene Kleidung etc. Dein Ziel erhält 1 Gefesselt-Zustand mit einer Stärke, die deiner Intelligenz entspricht. Für je +2 EG kannst du dem Ziel +1 zusätzlichen Gefesselt-Zustand verleihen. Der Zauber wirkt, bis alle Gefesselt-Zustände entfernt wurden.</p>"
+		},
+		{
+			"id": "Entangle (Metal)",
+			"name": "Fesseln (Metall)",
+			"description": "<p>Zauberwert: 3<br>Reichweite: Willenskraft Schritt<br>Ziel: 1<br>Dauer: Speziell<br>Du nutzt deine Magie, um das Ziel mit etwas zu umschlingen, das zu deiner Lehre passt, seien es Ranken, Schatten, die eigene Kleidung etc. Dein Ziel erhält 1 Gefesselt-Zustand mit einer Stärke, die deiner Intelligenz entspricht. Für je +2 EG kannst du dem Ziel +1 zusätzlichen Gefesselt-Zustand verleihen. Der Zauber wirkt, bis alle Gefesselt-Zustände entfernt wurden.</p>"
+		},
+		{
+			"id": "Entangle (Necromancy)",
+			"name": "Fesseln (Nekromantie)",
+			"description": "<p>Zauberwert: 3<br>Reichweite: Willenskraft Schritt<br>Ziel: 1<br>Dauer: Speziell<br>Du nutzt deine Magie, um das Ziel mit etwas zu umschlingen, das zu deiner Lehre passt, seien es Ranken, Schatten, die eigene Kleidung etc. Dein Ziel erhält 1 Gefesselt-Zustand mit einer Stärke, die deiner Intelligenz entspricht. Für je +2 EG kannst du dem Ziel +1 zusätzlichen Gefesselt-Zustand verleihen. Der Zauber wirkt, bis alle Gefesselt-Zustände entfernt wurden.</p>"
+		},
+		{
+			"id": "Entangle (Shadow)",
+			"name": "Fesseln (Schatten)",
+			"description": "<p>Zauberwert: 3<br>Reichweite: Willenskraft Schritt<br>Ziel: 1<br>Dauer: Speziell<br>Du nutzt deine Magie, um das Ziel mit etwas zu umschlingen, das zu deiner Lehre passt, seien es Ranken, Schatten, die eigene Kleidung etc. Dein Ziel erhält 1 Gefesselt-Zustand mit einer Stärke, die deiner Intelligenz entspricht. Für je +2 EG kannst du dem Ziel +1 zusätzlichen Gefesselt-Zustand verleihen. Der Zauber wirkt, bis alle Gefesselt-Zustände entfernt wurden.</p>"
+		},
+		{
+			"id": "Fat of the Land",
+			"name": "Winterspeck",
+			"description": "<p>Zauberwert: 4<br>Reichweite: Berührung<br>Ziel: 1<br>Dauer: Willenskraft-Bonus Tage<br>Du flutest das Ziel mit nährendem Ghyran. Das Ziel muss weder essen noch trinken, gibt aber dennoch normal Ausscheidungen ab, auch wenn diese grün sind.</p>"
+		},
+		{
+			"id": "Fate’s Fickle Fingers",
+			"name": "Launen des Glücks",
+			"description": "<p>Zauberwert: 6<br>Reichweite: Du selbst<br>Ziel: Wirkungsbereich (Initiative-Bonus Schritt)<br>Dauer: WK-Bonus Runden<br>Alle Verbündeten im Wirkungsbereich mit Ausnahme jener, die über das Talent Arkane Magie (Himmel) verfügen, legen ihre aktuellen Glückspunkte zu einem gemeinsamen Gesamtvorrat zusammen. Alle können sich aus diesem Vorrat bedienen; wer zuerst kommt, mahlt zuerst. Wenn der Zauber endet, verteilst du alle verbliebenen Glückspunkte so fair wie möglich.</p>"
+		},
+		{
+			"id": "Fearsome",
+			"name": "Angst erregen",
+			"description": "<p>Zauberwert: 3<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft-Bonus Runden<br>Du umgibst dich mit Magie, die dich furchterregend und einschüchternd aussehen lässt. Du erhältst Angst (1). Für je +3 EG kannst du den Angst-Wert um +1 erhöhen.</p>"
+		},
+		{
+			"id": "Fearsome (Beasts)",
+			"name": "Angst erregen (Bestien)",
+			"description": "<p>Zauberwert: 3<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft-Bonus Runden<br>Du umgibst dich mit Magie, die dich furchterregend und einschüchternd aussehen lässt. Du erhältst Angst (1). Für je +3 EG kannst du den Angst-Wert um +1 erhöhen.</p>"
+		},
+		{
+			"id": "Fearsome (Daemonology)",
+			"name": "Angst erregen (Dämonologie)",
+			"description": "<p>Zauberwert: 3<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft-Bonus Runden<br>Du umgibst dich mit Magie, die dich furchterregend und einschüchternd aussehen lässt. Du erhältst Angst (1). Für je +3 EG kannst du den Angst-Wert um +1 erhöhen.</p>"
+		},
+		{
+			"id": "Fearsome (Death)",
+			"name": "Angst erregen (Tod)",
+			"description": "<p>Zauberwert: 3<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft-Bonus Runden<br>Du umgibst dich mit Magie, die dich furchterregend und einschüchternd aussehen lässt. Du erhältst Angst (1). Für je +3 EG kannst du den Angst-Wert um +1 erhöhen.</p>"
+		},
+		{
+			"id": "Fearsome (Fire)",
+			"name": "Angst erregen (Feuer)",
+			"description": "<p>Zauberwert: 3<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft-Bonus Runden<br>Du umgibst dich mit Magie, die dich furchterregend und einschüchternd aussehen lässt. Du erhältst Angst (1). Für je +3 EG kannst du den Angst-Wert um +1 erhöhen.</p>"
+		},
+		{
+			"id": "Fearsome (Heavens)",
+			"name": "Angst erregen (Himmel)",
+			"description": "<p>Zauberwert: 3<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft-Bonus Runden<br>Du umgibst dich mit Magie, die dich furchterregend und einschüchternd aussehen lässt. Du erhältst Angst (1). Für je +3 EG kannst du den Angst-Wert um +1 erhöhen.</p>"
+		},
+		{
+			"id": "Fearsome (Life)",
+			"name": "Angst erregen (Leben)",
+			"description": "<p>Zauberwert: 3<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft-Bonus Runden<br>Du umgibst dich mit Magie, die dich furchterregend und einschüchternd aussehen lässt. Du erhältst Angst (1). Für je +3 EG kannst du den Angst-Wert um +1 erhöhen.</p>"
+		},
+		{
+			"id": "Fearsome (Light)",
+			"name": "Angst erregen (Licht)",
+			"description": "<p>Zauberwert: 3<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft-Bonus Runden<br>Du umgibst dich mit Magie, die dich furchterregend und einschüchternd aussehen lässt. Du erhältst Angst (1). Für je +3 EG kannst du den Angst-Wert um +1 erhöhen.</p>"
+		},
+		{
+			"id": "Fearsome (Metal)",
+			"name": "Angst erregen (Metall)",
+			"description": "<p>Zauberwert: 3<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft-Bonus Runden<br>Du umgibst dich mit Magie, die dich furchterregend und einschüchternd aussehen lässt. Du erhältst Angst (1). Für je +3 EG kannst du den Angst-Wert um +1 erhöhen.</p>"
+		},
+		{
+			"id": "Fearsome (Necromancy)",
+			"name": "Angst erregen (Nekromantie)",
+			"description": "<p>Zauberwert: 3<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft-Bonus Runden<br>Du umgibst dich mit Magie, die dich furchterregend und einschüchternd aussehen lässt. Du erhältst Angst (1). Für je +3 EG kannst du den Angst-Wert um +1 erhöhen.</p>"
+		},
+		{
+			"id": "Fearsome (Shadow)",
+			"name": "Angst erregen (Schatten)",
+			"description": "<p>Zauberwert: 3<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft-Bonus Runden<br>Du umgibst dich mit Magie, die dich furchterregend und einschüchternd aussehen lässt. Du erhältst Angst (1). Für je +3 EG kannst du den Angst-Wert um +1 erhöhen.</p>"
+		},
+		{
+			"id": "Feather of Lead",
+			"name": "Feder aus Blei",
+			"description": "<p>Zauberwert: 5<br>Reichweite: WK Schritt<br>Ziel: Wirkungsbereich (WK-Bonus Schritt)<br>Dauer: WK-Bonus Runden<br>Du rufst den goldenen Wind und veränderst die Dichte der Besitztümer deines Zieles, wodurch sich deren Gewicht erhöht oder senkt. Für die Dauer des Zaubers kannst du einen einzelnen der folgenden Effekte wählen, der für jeden im Wirkungsbereich gilt:<br>Das Ziel zählt als um 2 Stufen mehr überladen, als es ist.<br>Das Ziel zählt nicht als überladen.<br>Details zur Traglast findest du auf Seite 293.</p>"
+		},
+		{
+			"id": "Firewall",
+			"name": "Flammenwand",
+			"description": "<p>Zauberwert: 6<br>Reichweite: Willenskraft Schritt<br>Ziel: Wirkungsbereich (Speziell)<br>Dauer: Willenskraft-Bonus Runden<br>Du kanalisierst feurige Lohen des Aqshy und erschaffst eine Wand aus Flammen. Die Flammenwand ist Willenskraft-Bonus Schritt breit und 1 Schritt tief. Für je +2 EG kannst du die Länge der Flammenwand um weitere Willenskraft-Bonus Schritt verlängern. Jeder, der die Flammenwand durchquert, erhält 1 Brennend-Zustand und erleidet einen Treffer mit einem Schaden in Höhe deines Willenskraft-Bonus, der wie bei einem magischen Geschoss abgehandelt wird.</p>"
+		},
+		{
+			"id": "Flaming Hearts",
+			"name": "Brennende Herzen",
+			"description": "<p>Zauberwert: 8<br>Reichweite: WK Schritt<br>Ziel: Wirkungsbereich (WK-Bonus Schritt)<br>Dauer: Willenskraft-Bonus Runden<br>Deine Stimme bekommt eine mächtige Resonanz, da Aqshys feurige Leidenschaft in ihr wiederhallt. Betroffene Verbündete verlieren alle Demoralisiert-und Erschöpft-Zustände, und sie erhalten die Talente Beherzt, Furchtlosigkeit und Gedrillt (beziehungsweise +1 Stufe in diesen Talenten, falls sie diese schon besitzen), während der Zauber wirkt.</p>"
+		},
+		{
+			"id": "Flaming Sword of Rhuin",
+			"name": "Flammendes Schwert des Rhuin",
+			"description": "<p>Zauberwert: 8<br>Reichweite: Willenskraft Schritt<br>Ziel: 1<br>Dauer: Willenskraft-Bonus Runden<br>Du hüllst ein Schwert in magische Flammen. Die Waffe hat Schaden +6 und die Qualität Wuchtig (siehe Seite 298). Wenn jemand von der Klinge getroffen wird, erhält er +1 Brennend-Zustand. Wenn der Träger nicht das Talent Arkane Magie (Feuer) besitzt und bei einer Attacke mit dem Flammenden Schwert einen Patzer würfelt, dann erhält er +1 Brennend Zustand.</p>"
+		},
+		{
+			"id": "Flight",
+			"name": "Fliegen",
+			"description": "<p>Zauberwert: 8<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft-Bonus Runden+<br>Du kannst fliegen, sei es dadurch, dass dir Flügel wachsen, du auf einer Säule magischen Lichts emporsteigst oder was auch immer. Du erhältst die Kreaturen-Eigenschaft Fliegen (Geschicklichkeit) (siehe Seite 339).</p>"
+		},
+		{
+			"id": "Flight (Beasts)",
+			"name": "Fliegen (Bestien)",
+			"description": "<p>Zauberwert: 8<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft-Bonus Runden+<br>Du kannst fliegen, sei es dadurch, dass dir Flügel wachsen, du auf einer Säule magischen Lichts emporsteigst oder was auch immer. Du erhältst die Kreaturen-Eigenschaft Fliegen (Geschicklichkeit) (siehe Seite 339).</p>"
+		},
+		{
+			"id": "Flight (Daemonology)",
+			"name": "Fliegen (Dämonologie)",
+			"description": "<p>Zauberwert: 8<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft-Bonus Runden+<br>Du kannst fliegen, sei es dadurch, dass dir Flügel wachsen, du auf einer Säule magischen Lichts emporsteigst oder was auch immer. Du erhältst die Kreaturen-Eigenschaft Fliegen (Geschicklichkeit) (siehe Seite 339).</p>"
+		},
+		{
+			"id": "Flight (Death)",
+			"name": "Fliegen (Tod)",
+			"description": "<p>Zauberwert: 8<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft-Bonus Runden+<br>Du kannst fliegen, sei es dadurch, dass dir Flügel wachsen, du auf einer Säule magischen Lichts emporsteigst oder was auch immer. Du erhältst die Kreaturen-Eigenschaft Fliegen (Geschicklichkeit) (siehe Seite 339).</p>"
+		},
+		{
+			"id": "Flight (Fire)",
+			"name": "Fliegen (Feuer)",
+			"description": "<p>Zauberwert: 8<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft-Bonus Runden+<br>Du kannst fliegen, sei es dadurch, dass dir Flügel wachsen, du auf einer Säule magischen Lichts emporsteigst oder was auch immer. Du erhältst die Kreaturen-Eigenschaft Fliegen (Geschicklichkeit) (siehe Seite 339).</p>"
+		},
+		{
+			"id": "Flight (Heavens)",
+			"name": "Fliegen (Himmel)",
+			"description": "<p>Zauberwert: 8<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft-Bonus Runden+<br>Du kannst fliegen, sei es dadurch, dass dir Flügel wachsen, du auf einer Säule magischen Lichts emporsteigst oder was auch immer. Du erhältst die Kreaturen-Eigenschaft Fliegen (Geschicklichkeit) (siehe Seite 339).</p>"
+		},
+		{
+			"id": "Flight (Life)",
+			"name": "Fliegen (Leben)",
+			"description": "<p>Zauberwert: 8<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft-Bonus Runden+<br>Du kannst fliegen, sei es dadurch, dass dir Flügel wachsen, du auf einer Säule magischen Lichts emporsteigst oder was auch immer. Du erhältst die Kreaturen-Eigenschaft Fliegen (Geschicklichkeit) (siehe Seite 339).</p>"
+		},
+		{
+			"id": "Flight (Light)",
+			"name": "Fliegen (Licht)",
+			"description": "<p>Zauberwert: 8<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft-Bonus Runden+<br>Du kannst fliegen, sei es dadurch, dass dir Flügel wachsen, du auf einer Säule magischen Lichts emporsteigst oder was auch immer. Du erhältst die Kreaturen-Eigenschaft Fliegen (Geschicklichkeit) (siehe Seite 339).</p>"
+		},
+		{
+			"id": "Flight (Metal)",
+			"name": "Fliegen (Metall)",
+			"description": "<p>Zauberwert: 8<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft-Bonus Runden+<br>Du kannst fliegen, sei es dadurch, dass dir Flügel wachsen, du auf einer Säule magischen Lichts emporsteigst oder was auch immer. Du erhältst die Kreaturen-Eigenschaft Fliegen (Geschicklichkeit) (siehe Seite 339).</p>"
+		},
+		{
+			"id": "Flight (Necromancy)",
+			"name": "Fliegen (Nekromantie)",
+			"description": "<p>Zauberwert: 8<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft-Bonus Runden+<br>Du kannst fliegen, sei es dadurch, dass dir Flügel wachsen, du auf einer Säule magischen Lichts emporsteigst oder was auch immer. Du erhältst die Kreaturen-Eigenschaft Fliegen (Geschicklichkeit) (siehe Seite 339).</p>"
+		},
+		{
+			"id": "Flight (Shadow)",
+			"name": "Fliegen (Schatten)",
+			"description": "<p>Zauberwert: 8<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft-Bonus Runden+<br>Du kannst fliegen, sei es dadurch, dass dir Flügel wachsen, du auf einer Säule magischen Lichts emporsteigst oder was auch immer. Du erhältst die Kreaturen-Eigenschaft Fliegen (Geschicklichkeit) (siehe Seite 339).</p>"
+		},
+		{
+			"id": "Flock of Doom",
+			"name": "Schmaus der Krähen",
+			"description": "<p>Zauberwert: 8<br>Reichweite: Willenskraft Schritt<br>Ziel: Wirkungsbereich (Willenskraft-Bonus Schritt)<br>Dauer: Willenskraft-Bonus Runden<br>Du bringst einen Schwarm Krähen oder eine vergleichbare Art örtlicher Vögel dazu, deine Feinde anzugreifen. Der Schwarm greift wie rasend jeden im Wirkungsbereich an, der nicht über das Talent Arkane Magie (Tiere) verfügt, und richtet am Ende der Runde einen Treffer mit Schaden +7 an. Der Schwarm bleibt für die Dauer des Zaubers im Spiel. Als Handlung kannst du mit einem durchschnittlichen (+20) Tiere-bezirzen-Wurf versuchen, den Schwarm auf ein anderes Ziel innerhalb der Reichweite zu richten. Während sie im Wirkungsbereich sind, erhalten alle Wesen +1 Geblendet-Zustand.</p>"
+		},
+		{
+			"id": "Fool’s Gold",
+			"name": "Narrengold",
+			"description": "<p>Zauberwert: 4<br>Reichweite: Berührung<br>Ziel: 1<br>Dauer: Willenskraft Minuten<br>Du verwebst Chamon mit einem einzelnen, nichtmagischen Objekt aus Metall und veränderst seine alchemistische Struktur fundamental. Für die Dauer des Zaubers wird alles Metall an dem Objekt zu Gold. Dies ist keine Illusion; das Metall wird buchstäblich in Gold verwandelt. Wenn der Zauber endet wird das Gold wieder zum ursprünglichen Metall. Dieser Zauber kann gute Waffen ruinieren, Rüstungen zu schwer machen und Bleimünzen in etwas sehr viel Begehrenswerteres verwandeln. Effekte und Folgen, die sich aus diesem Zauber ergeben, bleiben dem SL überlassen.</p>"
+		},
+		{
+			"id": "Forest of Thorns",
+			"name": "Dornenwald",
+			"description": "<p>Zauberwert: 6<br>Reichweite: WK Schritt<br>Ziel: Wirkungsbereich (WK-Bonus Schritt)<br>Dauer: WK-Bonus Runden<br>Dieser Zauber kann nur auf ein Stück Erdboden gerichtet werden (wobei dieses Stück auch sehr klein sein darf). Du lässt einen dichten Knoten aus mit bösartigen Dornen besetzten Ranken und Gestrüpp emporbrechen, das sogleich den gesamten Wirkungsbereich bedeckt. Während der Zauber wirkt, muss jeder, der den Bereich zu Fuß durchqueren will ohne das Talent Arkane Magie (Leben) zu haben, zunächst einen schweren (-20) Gewandtheits-Wurf bestehen. Ein Misslingen bedeutet, dass man 1 Blutend- und 1 Gefesselt-Zustand erhält, wobei deine Willenskraft als dessen Stärke gilt. Nach der Dauer bleibt das Gewächs erhalten, verliert jedoch seine übernatürlichen Eigenschaften.</p>"
+		},
+		{
+			"id": "Forge of Chamon",
+			"name": "Schmiede des Chamon",
+			"description": "<p>Zauberwert: 9<br>Reichweite: Willenskraft-Bonus Schritt<br>Ziel: Speziell<br>Dauer: Willenskraft Minuten<br>Du veränderst die Eigenschaften eines einzelnen aus Metall gefertigten Gegenstandes. Du kannst 1 Qualität hinzufügen oder 1 Makel entfernen. Für je +2 EG kannst du eine weitere Qualität hinzufügen oder einen weiteren Makel entfernen.</p>"
+		},
+		{
+			"id": "Glittering Robe",
+			"name": "Glitzernde Robe",
+			"description": "<p>Zauberwert: 5<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Widerstands-Bonus Runden<br>Wilde Böen aus Chamon umwirbeln dich und lenken Schläge, Geschosse und sogar magische Attacken ab. Du erhältst die Kreaturen-Eigenschaft Schutz (9+) (siehe Seite 342) gegen alle auf dich gerichteten Attacken und Zauber. Jeder durch den Schutz abgelenkte Treffer verbessert dessen Wirkung um 1, bis zu einem Maximum von Schutz (3+).</p>"
+		},
+		{
+			"id": "Goodwill",
+			"name": "Wohlwollen",
+			"description": "<p>Zauberwert: 0<br>Reichweite: Du selbst<br>Ziel: Wirkungsbereich (Charisma-Bonus Schritt)<br>Dauer: Willenskraft-Bonus Runden<br>Du erschaffst eine entspannte und freundliche Atmosphäre, die äußerst einladend ist. Alle Charisma-Würfe im Wirkungsbereich erhalten einen Bonus von +10 und die Psychologischen Eigenschaften Feindseligkeit und Hass haben keinen Effekt.</p>"
+		},
+		{
+			"id": "Great Fires of U’Zhul",
+			"name": "Großes Feuer von U’Zhul",
+			"description": "<p>Zauberwert: 10<br>Reichweite: Willenskraft Schritt<br>Ziel: Wirkungsbereich (Willenskraft-Bonus Schritt)<br>Dauer: WK-Bonus Runden<br>Du schleuderst eine gewaltige, explosive Lohe Aqshys, die mit gewaltiger Wucht detoniert und mit der Hitze einer Schmiedeesse brennt, auf einen einzelnen deiner Feinde. Dies ist ein magisches Geschoss mit Schaden +10, das Rüstungspunkte ignoriert und beim Ziel +2 Brennend-Zustände und den Niedergestreckt Zustand verursacht. Jeder im Wirkungsbereich um das Ziel erleidet einen Treffer mit Schaden +5, der Rüstungspunkte ignoriert, und muss einen Ausweichen-Wurf schaffen, sonst erhält er zusätzlich +1 Brennend-Zustand. Der Zauber hört danach auf sich wie ein magisches Geschoss zu verhalten und brennt bis zum Ende der Dauer im Wirkungsbereich weiter. Jeder, der sich am Anfang der Runde innerhalb des Wirkungsbereichs befindet, erleidet 1W10+6 Schaden, der RP ignoriert, und erhält +1 Brennend-Zustand.</p>"
+		},
+		{
+			"id": "Gust",
+			"name": "Böe",
+			"description": "<p>Zauberwert: 0<br>Reichweite: Willenskraft Schritte<br>Ziel: Speziell<br>Dauer: Sofort<br>Du erschaffst einen kleinen Windstoß, stark genug, um eine Kerze auszublasen, eine offene Tür zuzuwerfen oder ein paar Blätter Papier auf den Boden zu wehen.</p>"
+		},
+		{
+			"id": "Haunting Horror",
+			"name": "Plagende Heimsuchung",
+			"description": "<p>Zauberwert: 8<br>Reichweite: Berührung<br>Ziel: Wirkungsbereich (ein einzelner Ort)<br>Dauer: Willenskraft Tage<br>Du wählst einen Ort als Ziel, zum Beispiel ein Haus oder eine Lichtung, und verursachst bei jedem, der diesen Ort betritt, plagende Albträume. Wer den Ort während der Dauer betritt, den überkommt ein unheimliches Gefühl, er sieht Schatten und hört Flüstern, stets am Rande der Wahrnehmung. Sofern Leute, die diesen Ort betreten, nicht das Talent Arkane Magie (Hexerei) besitzen, erhalten sie +1 Erschöpft-Zustand. Wenn sie danach keinen herausfordernden (+0) Besonnenheits-Wurf bestehen, erhalten +1 Erschöpft-Zustand und den Demoralisiert-Zustand, die beide nur dadurch entfernt werden können, dass sie den Ort verlassen.</p>"
+		},
+		{
+			"id": "Healing Light",
+			"name": "Heilendes Licht",
+			"description": "<p>Zauberwert: 9<br>Reichweite: Willenskraft-Bonus Schritt<br>Ziel: 1<br>Dauer: Sofort<br>Dein Ziel erstrahlt in hellem, reinigendem Licht (das etwa so hell wie ein Lagerfeuer ist) und erhält LP in Höhe von Intelligenz-Bonus + Willenskraft-Bonus zurück. Wenn dem Ziel zudem ein schwerer (-20) Ausdauer-Wurf gelingt, dann verliert es zudem 1 Korrumpierungspunkt, sofern es diesen innerhalb der letzten Stunde erhalten hat.</p>"
+		},
+		{
+			"id": "Hunter's Hide",
+			"name": "Jägers Pelz",
+			"description": "<p>Zauberwert: 6<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft-Bonus Runden<br>Du hüllst dich selbst in einen schimmernden Mantel aus Ghur. Während der Zauber wirkt, erhältst du einen Bonus von +20 auf deinen Widerstand, die Kreaturen-Eigenschaften Angst (1) und Dunkelsicht (siehe Seite 338) sowie das Talent Scharfer Sinn (Geruch).</p>"
+		},
+		{
+			"id": "Illusion",
+			"name": "Illusion",
+			"description": "<p>Zauberwert: 8<br>Reichweite: Willenskraft Schritt<br>Ziel: Wirkungsbereich (Initiative-Bonus Schritt)<br>Dauer: Willenskraft Minuten<br>Du webst ein Spinnennetz aus verschachtelten Strängen des Ulgu und verhüllst den Wirkungsbereich mit einem illusorischen Bild deiner Wahl. Du wirst automatisch jeden ohne das Talent Zweites Gesicht täuschen. Jene, die das Talent haben, müssen einen schwierigen (-10) Wahrnehmungs-Wurf bestehen, um die Illusion zu bemerken. Dies erlaubt ihnen jedoch nicht durch den Zauber zu sehen. Dazu müssten sie ihn mit einem Gegenzauber bannen. Die Illusion ist normalerweise statisch. Als Handlung kannst du mit einem schweren (-20) Kanalisieren-Wurf versuchen die Illusion in dieser Runde zu bewegen.</p>"
+		},
+		{
+			"id": "Lie of the Land",
+			"name": "Land erspüren",
+			"description": "<p>Zauberwert: 5<br>Reichweite: Initiative-Bonus Meilen<br>Ziel: Du selbst<br>Dauer: Speziell<br>Indem du die Erde berührst, spürst du den Fluss des Ghyran durch die Umgebung. Nachdem du für 1 Minute in Zwiesprache mit dem Boden warst, hast du eine detaillierte mentale Karte aller natürlichen Gegebenheiten des Wirkungsbereiches im Kopf, also des Landes, der Wälder und der Flüsse, aber nicht der Ansiedlungen. Du kannst Ansiedlungen jedoch erahnen, zum Beispiel anhand von freiem Gelände oder gegrabenen Gräben. Für jede Erweiterung der Reichweite mittels EG, erhöht sich auch die Zeit um +1 Minute, die du mit dem Land kommunizieren kannst.</p>"
+		},
+		{
+			"id": "Lifebloom",
+			"name": "Blühendes Leben",
+			"description": "<p>Zauberwert: 8<br>Reichweite: Willenskraft-Bonus Schritt<br>Ziel: Speziell<br>Dauer: Speziell<br>Du bringst Ghyran dazu, ein Gebiet zu fluten, das heimgesucht oder verödet ist. Dein Ziel kann ein trockenes Flussbett, ein vergifteter Brunnen, ein Feld oder ein domestiziertes Tier sein. Wenn du den Zauber erfolgreich wirkst, sprudelt das Ziel nur so vor Lebenskraft:<br>Ein trockener Fluss führt plötzlich wieder Wasser.<br>Ein ausgetrockneter oder vergifteter Brunnen gibt wieder sauberes und frisches Wasser.<br>Ein bestelltes Feld, ein Weinberg oder Obstgarten erwacht zu Leben und trägt plötzlich volle, erntereife Früchte.<br>Ein krankes oder unproduktives Tier wird gesund. Das betroffene Tier ist wieder auf gesunde Weise produktiv (Kühe produzieren Milch, Hennen legen Eier, bei Schafen sprießt die Wolle und sie alle sind vermehrungsfreudig) und alle Krankheiten werden geheilt.</p>"
+		},
+		{
+			"id": "Light",
+			"name": "Licht",
+			"description": "<p>Zauberwert: 0<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft Minuten<br>Du erschaffst ein kleines Licht, etwa so stark wie eine Fackel, dass auf deiner Hand, deinem Stab oder einem anderen Teil von dir leuchtet. Während dieser Zauber wirkt, kannst du die Helligkeit zu der einer Laterne steigern oder zu der einer Kerze verringern, sofern dir dazu ein durchschnittlicher (+20) Kanalisieren-Wurf gelingt.</p>"
+		},
+		{
+			"id": "Magic Flame",
+			"name": "Magische Flamme",
+			"description": "<p>Zauberwert: 0<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft-Bonus Runden<br>Du entzündest eine kleine Flamme auf deiner Handfläche. Sie wird dich nicht verbrennen, strahlt jedoch Wärme aus und kann Brennbares in Brand setzen, genau wie eine natürliche Flamme.</p>"
+		},
+		{
+			"id": "Magic Shield",
+			"name": "Magischer Schild",
+			"description": "<p>Zauberwert: 4<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft-Bonus Runden<br>Du umhüllst dich selbst mit schützenden Energien. Während der Zauber anhält, addierst du zu allen Gegenzaubern, die du wirkst, EG in Höhe deines Willenskraft-Bonus.</p>"
+		},
+		{
+			"id": "Magic Shield (Beasts)",
+			"name": "Magischer Schild (Bestien)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft-Bonus Runden<br>Du umhüllst dich selbst mit schützenden Energien. Während der Zauber anhält, addierst du zu allen Gegenzaubern, die du wirkst, EG in Höhe deines Willenskraft-Bonus.</p>"
+		},
+		{
+			"id": "Magic Shield (Daemonology)",
+			"name": "Magischer Schild (Dämonologie)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft-Bonus Runden<br>Du umhüllst dich selbst mit schützenden Energien. Während der Zauber anhält, addierst du zu allen Gegenzaubern, die du wirkst, EG in Höhe deines Willenskraft-Bonus.</p>"
+		},
+		{
+			"id": "Magic Shield (Death)",
+			"name": "Magischer Schild (Tod)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft-Bonus Runden<br>Du umhüllst dich selbst mit schützenden Energien. Während der Zauber anhält, addierst du zu allen Gegenzaubern, die du wirkst, EG in Höhe deines Willenskraft-Bonus.</p>"
+		},
+		{
+			"id": "Magic Shield (Fire)",
+			"name": "Magischer Schild (Feuer)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft-Bonus Runden<br>Du umhüllst dich selbst mit schützenden Energien. Während der Zauber anhält, addierst du zu allen Gegenzaubern, die du wirkst, EG in Höhe deines Willenskraft-Bonus.</p>"
+		},
+		{
+			"id": "Magic Shield (Heavens)",
+			"name": "Magischer Schild (Himmel)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft-Bonus Runden<br>Du umhüllst dich selbst mit schützenden Energien. Während der Zauber anhält, addierst du zu allen Gegenzaubern, die du wirkst, EG in Höhe deines Willenskraft-Bonus.</p>"
+		},
+		{
+			"id": "Magic Shield (Life)",
+			"name": "Magischer Schild (Leben)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft-Bonus Runden<br>Du umhüllst dich selbst mit schützenden Energien. Während der Zauber anhält, addierst du zu allen Gegenzaubern, die du wirkst, EG in Höhe deines Willenskraft-Bonus.</p>"
+		},
+		{
+			"id": "Magic Shield (Light)",
+			"name": "Magischer Schild (Licht)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft-Bonus Runden<br>Du umhüllst dich selbst mit schützenden Energien. Während der Zauber anhält, addierst du zu allen Gegenzaubern, die du wirkst, EG in Höhe deines Willenskraft-Bonus.</p>"
+		},
+		{
+			"id": "Magic Shield (Metal)",
+			"name": "Magischer Schild (Metall)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft-Bonus Runden<br>Du umhüllst dich selbst mit schützenden Energien. Während der Zauber anhält, addierst du zu allen Gegenzaubern, die du wirkst, EG in Höhe deines Willenskraft-Bonus.</p>"
+		},
+		{
+			"id": "Magic Shield (Necromancy)",
+			"name": "Magischer Schild (Nekromantie)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft-Bonus Runden<br>Du umhüllst dich selbst mit schützenden Energien. Während der Zauber anhält, addierst du zu allen Gegenzaubern, die du wirkst, EG in Höhe deines Willenskraft-Bonus.</p>"
+		},
+		{
+			"id": "Magic Shield (Shadow)",
+			"name": "Magischer Schild (Schatten)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft-Bonus Runden<br>Du umhüllst dich selbst mit schützenden Energien. Während der Zauber anhält, addierst du zu allen Gegenzaubern, die du wirkst, EG in Höhe deines Willenskraft-Bonus.</p>"
+		},
+		{
+			"id": "Manifest Lesser Daemon",
+			"name": "Niederen Dämonen manifestieren",
+			"description": "<p>Zauberwert: 8<br>Reichweite: Willenskraft-Bonus Schritt<br>Ziel: Speziell<br>Dauer: Willenskraft-Bonus Runden<br>Du kanalisierst einen verstörenden Strom des Dhar und reißt einen Riss in die Struktur der Realität. Durch den Riss manifestiert sich sogleich ein Niederer Dämon (auf Seite 335 findest du zwei Beispiele: die Dämonette oder den Zerfleischer). Führe einen Vergleichenden Kanalisieren (Dhar)/Willenskraft-Wurf mit dem Dämon durch. Wenn er dir gelingt, wird der Dämon einem einzigen Befehl gehorchen, den du ihm gibst, möglichst buchstäblich, und danach verschwinden (voraussetzend, dass die Erledigung des Befehls abgeschlossen ist, ehe die Dauer vorüber ist). Wenn dir der Wurf misslingt, greift dich der Dämon sofort an.</p>"
+		},
+		{
+			"id": "Marsh Lights",
+			"name": "Irrlichter",
+			"description": "<p>Zauberwert: 0<br>Reichweite: Willenskraft Schritte<br>Ziel: Speziell<br>Dauer: Willenskraft Minuten<br>Du erschaffst eine Anzahl flackernder kleiner Lichter, bis zu einem Maximum in Höhe deines Intelligenz-Bonus. Diese sind etwa so hell wie Fackeln oder Blendlaternen. Solange du eine Sichtlinie hast, kannst du als Handlung wählen, die Lichter mit einem durchschnittlichen (+20) Kanalisieren-Wurf zu kontrollieren; ein Gelingen erlaubt es dir, die Lichter in jede Richtung zu lenken. Sie bewegen sich mit Schrittgeschwindigkeit in grader Linie und durchdringen Objekte (oder Zeugen) auf ihrem Weg, sofern du nicht würfelst, um ihre Richtung zu ändern.</p>"
+		},
+		{
+			"id": "Mindslip",
+			"name": "Gedankenschnitt",
+			"description": "<p>Zauberwert: 6<br>Reichweite: 1 Schritt<br>Ziel: 1<br>Dauer: Willenskraft Minuten<br>Du beschwörst feine Fäden aus Ulgu in den Geist deines Zieles und sorgst dafür, dass alle vorherigen Erinnerungen an dich für die Dauer des Zaubers verschwinden. Wenn die Wirkung vorüber ist, muss das Ziel einen durchschnittlichen (+20) Intelligenz-Wurf bestehen, oder die Erinnerung bleibt für immer verloren, solange sie kein Gegenzauber zurückholt.</p>"
+		},
+		{
+			"id": "Mirkride",
+			"name": "Heckenritt",
+			"description": "<p>Zauberwert: 0<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft-Bonus Minuten<br>Du sprichst uralte Worte der Magie und dein Geist verlässt deinen Körper, um in die Hecke zu treten, den dunklen Ort zwischen der materiellen Welt und dem Geisterreich. Während der Dauer stehst du abseits der Welt, dazu in der Lage, sie unsichtbar zu beobachten, aber nicht, sie irgendwie physisch zu beeinflussen. Physikalische Barrieren hindern dich nicht und du kannst nach Belieben durch nichtmagische Hindernisse hindurchlaufen. Dein Körper bleibt wo er ist, bewegungslos und ohne Empfindung. Zum Ende der Dauer wirst du schlagartig in deinen Körper zurückgerissen. Wenn dein Körper getötet wurde, während du in der Hecke warst, wird dein Geist auf ewig ziellos umherwandern.</p>"
+		},
+		{
+			"id": "Move Object",
+			"name": "Objekt bewegen",
+			"description": "<p>Zauberwert: 4<br>Reichweite: Willenskraft Schritt<br>Ziel: 1<br>Dauer: 1 Runde<br>Du setzt deine Magie ein, um ein nicht empfindungsfähiges Objekt, das nicht größer als du sein darf, mittels der Macht deines reinen Willens zu bewegen. Für diese Belange entspricht deine Stärke deiner Willenskraft. Du kannst das Objekt bis zu Willenskraft-Bonus Schritt weit bewegen. Wenn irgendwer versuchen sollte die Bewegung zu verhindern, führt ihr einen Vergleichenden Willenskraft gegen Stärke-Wurf durch. Für je +2 EG darfst du die Distanz, über die das Objekt bewegt wird, um Willenskraft-Bonus Schritt verlängern.</p>"
+		},
+		{
+			"id": "Move Object (Beasts)",
+			"name": "Objekt bewegen (Bestien)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: Willenskraft Schritt<br>Ziel: 1<br>Dauer: 1 Runde<br>Du setzt deine Magie ein, um ein nicht empfindungsfähiges Objekt, das nicht größer als du sein darf, mittels der Macht deines reinen Willens zu bewegen. Für diese Belange entspricht deine Stärke deiner Willenskraft. Du kannst das Objekt bis zu Willenskraft-Bonus Schritt weit bewegen. Wenn irgendwer versuchen sollte die Bewegung zu verhindern, führt ihr einen Vergleichenden Willenskraft gegen Stärke-Wurf durch. Für je +2 EG darfst du die Distanz, über die das Objekt bewegt wird, um Willenskraft-Bonus Schritt verlängern.</p>"
+		},
+		{
+			"id": "Move Object (Daemonology)",
+			"name": "Objekt bewegen (Dämonologie)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: Willenskraft Schritt<br>Ziel: 1<br>Dauer: 1 Runde<br>Du setzt deine Magie ein, um ein nicht empfindungsfähiges Objekt, das nicht größer als du sein darf, mittels der Macht deines reinen Willens zu bewegen. Für diese Belange entspricht deine Stärke deiner Willenskraft. Du kannst das Objekt bis zu Willenskraft-Bonus Schritt weit bewegen. Wenn irgendwer versuchen sollte die Bewegung zu verhindern, führt ihr einen Vergleichenden Willenskraft gegen Stärke-Wurf durch. Für je +2 EG darfst du die Distanz, über die das Objekt bewegt wird, um Willenskraft-Bonus Schritt verlängern.</p>"
+		},
+		{
+			"id": "Move Object (Death)",
+			"name": "Objekt bewegen (Tod)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: Willenskraft Schritt<br>Ziel: 1<br>Dauer: 1 Runde<br>Du setzt deine Magie ein, um ein nicht empfindungsfähiges Objekt, das nicht größer als du sein darf, mittels der Macht deines reinen Willens zu bewegen. Für diese Belange entspricht deine Stärke deiner Willenskraft. Du kannst das Objekt bis zu Willenskraft-Bonus Schritt weit bewegen. Wenn irgendwer versuchen sollte die Bewegung zu verhindern, führt ihr einen Vergleichenden Willenskraft gegen Stärke-Wurf durch. Für je +2 EG darfst du die Distanz, über die das Objekt bewegt wird, um Willenskraft-Bonus Schritt verlängern.</p>"
+		},
+		{
+			"id": "Move Object (Fire)",
+			"name": "Objekt bewegen (Feuer)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: Willenskraft Schritt<br>Ziel: 1<br>Dauer: 1 Runde<br>Du setzt deine Magie ein, um ein nicht empfindungsfähiges Objekt, das nicht größer als du sein darf, mittels der Macht deines reinen Willens zu bewegen. Für diese Belange entspricht deine Stärke deiner Willenskraft. Du kannst das Objekt bis zu Willenskraft-Bonus Schritt weit bewegen. Wenn irgendwer versuchen sollte die Bewegung zu verhindern, führt ihr einen Vergleichenden Willenskraft gegen Stärke-Wurf durch. Für je +2 EG darfst du die Distanz, über die das Objekt bewegt wird, um Willenskraft-Bonus Schritt verlängern.</p>"
+		},
+		{
+			"id": "Move Object (Heavens)",
+			"name": "Objekt bewegen (Himmel)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: Willenskraft Schritt<br>Ziel: 1<br>Dauer: 1 Runde<br>Du setzt deine Magie ein, um ein nicht empfindungsfähiges Objekt, das nicht größer als du sein darf, mittels der Macht deines reinen Willens zu bewegen. Für diese Belange entspricht deine Stärke deiner Willenskraft. Du kannst das Objekt bis zu Willenskraft-Bonus Schritt weit bewegen. Wenn irgendwer versuchen sollte die Bewegung zu verhindern, führt ihr einen Vergleichenden Willenskraft gegen Stärke-Wurf durch. Für je +2 EG darfst du die Distanz, über die das Objekt bewegt wird, um Willenskraft-Bonus Schritt verlängern.</p>"
+		},
+		{
+			"id": "Move Object (Life)",
+			"name": "Objekt bewegen (Leben)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: Willenskraft Schritt<br>Ziel: 1<br>Dauer: 1 Runde<br>Du setzt deine Magie ein, um ein nicht empfindungsfähiges Objekt, das nicht größer als du sein darf, mittels der Macht deines reinen Willens zu bewegen. Für diese Belange entspricht deine Stärke deiner Willenskraft. Du kannst das Objekt bis zu Willenskraft-Bonus Schritt weit bewegen. Wenn irgendwer versuchen sollte die Bewegung zu verhindern, führt ihr einen Vergleichenden Willenskraft gegen Stärke-Wurf durch. Für je +2 EG darfst du die Distanz, über die das Objekt bewegt wird, um Willenskraft-Bonus Schritt verlängern.</p>"
+		},
+		{
+			"id": "Move Object (Light)",
+			"name": "Objekt bewegen (Licht)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: Willenskraft Schritt<br>Ziel: 1<br>Dauer: 1 Runde<br>Du setzt deine Magie ein, um ein nicht empfindungsfähiges Objekt, das nicht größer als du sein darf, mittels der Macht deines reinen Willens zu bewegen. Für diese Belange entspricht deine Stärke deiner Willenskraft. Du kannst das Objekt bis zu Willenskraft-Bonus Schritt weit bewegen. Wenn irgendwer versuchen sollte die Bewegung zu verhindern, führt ihr einen Vergleichenden Willenskraft gegen Stärke-Wurf durch. Für je +2 EG darfst du die Distanz, über die das Objekt bewegt wird, um Willenskraft-Bonus Schritt verlängern.</p>"
+		},
+		{
+			"id": "Move Object (Metal)",
+			"name": "Objekt bewegen (Metall)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: Willenskraft Schritt<br>Ziel: 1<br>Dauer: 1 Runde<br>Du setzt deine Magie ein, um ein nicht empfindungsfähiges Objekt, das nicht größer als du sein darf, mittels der Macht deines reinen Willens zu bewegen. Für diese Belange entspricht deine Stärke deiner Willenskraft. Du kannst das Objekt bis zu Willenskraft-Bonus Schritt weit bewegen. Wenn irgendwer versuchen sollte die Bewegung zu verhindern, führt ihr einen Vergleichenden Willenskraft gegen Stärke-Wurf durch. Für je +2 EG darfst du die Distanz, über die das Objekt bewegt wird, um Willenskraft-Bonus Schritt verlängern.</p>"
+		},
+		{
+			"id": "Move Object (Necromancy)",
+			"name": "Objekt bewegen (Nekromantie)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: Willenskraft Schritt<br>Ziel: 1<br>Dauer: 1 Runde<br>Du setzt deine Magie ein, um ein nicht empfindungsfähiges Objekt, das nicht größer als du sein darf, mittels der Macht deines reinen Willens zu bewegen. Für diese Belange entspricht deine Stärke deiner Willenskraft. Du kannst das Objekt bis zu Willenskraft-Bonus Schritt weit bewegen. Wenn irgendwer versuchen sollte die Bewegung zu verhindern, führt ihr einen Vergleichenden Willenskraft gegen Stärke-Wurf durch. Für je +2 EG darfst du die Distanz, über die das Objekt bewegt wird, um Willenskraft-Bonus Schritt verlängern.</p>"
+		},
+		{
+			"id": "Move Object (Shadow)",
+			"name": "Objekt bewegen (Schatten)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: Willenskraft Schritt<br>Ziel: 1<br>Dauer: 1 Runde<br>Du setzt deine Magie ein, um ein nicht empfindungsfähiges Objekt, das nicht größer als du sein darf, mittels der Macht deines reinen Willens zu bewegen. Für diese Belange entspricht deine Stärke deiner Willenskraft. Du kannst das Objekt bis zu Willenskraft-Bonus Schritt weit bewegen. Wenn irgendwer versuchen sollte die Bewegung zu verhindern, führt ihr einen Vergleichenden Willenskraft gegen Stärke-Wurf durch. Für je +2 EG darfst du die Distanz, über die das Objekt bewegt wird, um Willenskraft-Bonus Schritt verlängern.</p>"
+		},
+		{
+			"id": "Mundane Aura",
+			"name": "Weltliche Aura",
+			"description": "<p>Zauberwert: 4<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft Minuten<br>Du entziehst deinem Körper, und dem was du bei dir trägst, jeden Hauch der Winde der Magie, was jede magische Aura entfernt. Für die Dauer des Zaubers wirkst du für das Talent Magiegespür und Ähnliches weltlich. Du hast keine erkennbaren magischen Fähigkeiten und deine magische Natur kann durch nichts entdeckt werden. Während der Effekt anhält, kannst du keine anderen Zauber wirken. Weltliche Aura wird sofort beendet, sobald dir ein Kanalisieren-Wurf gelingt.</p>"
+		},
+		{
+			"id": "Mundane Aura (Beasts)",
+			"name": "Weltliche Aura (Bestien)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft Minuten<br>Du entziehst deinem Körper, und dem was du bei dir trägst, jeden Hauch der Winde der Magie, was jede magische Aura entfernt. Für die Dauer des Zaubers wirkst du für das Talent Magiegespür und Ähnliches weltlich. Du hast keine erkennbaren magischen Fähigkeiten und deine magische Natur kann durch nichts entdeckt werden. Während der Effekt anhält, kannst du keine anderen Zauber wirken. Weltliche Aura wird sofort beendet, sobald dir ein Kanalisieren-Wurf gelingt.</p>"
+		},
+		{
+			"id": "Mundane Aura (Daemonology)",
+			"name": "Weltliche Aura (Dämonologie)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft Minuten<br>Du entziehst deinem Körper, und dem was du bei dir trägst, jeden Hauch der Winde der Magie, was jede magische Aura entfernt. Für die Dauer des Zaubers wirkst du für das Talent Magiegespür und Ähnliches weltlich. Du hast keine erkennbaren magischen Fähigkeiten und deine magische Natur kann durch nichts entdeckt werden. Während der Effekt anhält, kannst du keine anderen Zauber wirken. Weltliche Aura wird sofort beendet, sobald dir ein Kanalisieren-Wurf gelingt.</p>"
+		},
+		{
+			"id": "Mundane Aura (Death)",
+			"name": "Weltliche Aura (Tod)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft Minuten<br>Du entziehst deinem Körper, und dem was du bei dir trägst, jeden Hauch der Winde der Magie, was jede magische Aura entfernt. Für die Dauer des Zaubers wirkst du für das Talent Magiegespür und Ähnliches weltlich. Du hast keine erkennbaren magischen Fähigkeiten und deine magische Natur kann durch nichts entdeckt werden. Während der Effekt anhält, kannst du keine anderen Zauber wirken. Weltliche Aura wird sofort beendet, sobald dir ein Kanalisieren-Wurf gelingt.</p>"
+		},
+		{
+			"id": "Mundane Aura (Fire)",
+			"name": "Weltliche Aura (Feuer)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft Minuten<br>Du entziehst deinem Körper, und dem was du bei dir trägst, jeden Hauch der Winde der Magie, was jede magische Aura entfernt. Für die Dauer des Zaubers wirkst du für das Talent Magiegespür und Ähnliches weltlich. Du hast keine erkennbaren magischen Fähigkeiten und deine magische Natur kann durch nichts entdeckt werden. Während der Effekt anhält, kannst du keine anderen Zauber wirken. Weltliche Aura wird sofort beendet, sobald dir ein Kanalisieren-Wurf gelingt.</p>"
+		},
+		{
+			"id": "Mundane Aura (Heavens)",
+			"name": "Weltliche Aura (Himmel)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft Minuten<br>Du entziehst deinem Körper, und dem was du bei dir trägst, jeden Hauch der Winde der Magie, was jede magische Aura entfernt. Für die Dauer des Zaubers wirkst du für das Talent Magiegespür und Ähnliches weltlich. Du hast keine erkennbaren magischen Fähigkeiten und deine magische Natur kann durch nichts entdeckt werden. Während der Effekt anhält, kannst du keine anderen Zauber wirken. Weltliche Aura wird sofort beendet, sobald dir ein Kanalisieren-Wurf gelingt.</p>"
+		},
+		{
+			"id": "Mundane Aura (Life)",
+			"name": "Weltliche Aura (Leben)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft Minuten<br>Du entziehst deinem Körper, und dem was du bei dir trägst, jeden Hauch der Winde der Magie, was jede magische Aura entfernt. Für die Dauer des Zaubers wirkst du für das Talent Magiegespür und Ähnliches weltlich. Du hast keine erkennbaren magischen Fähigkeiten und deine magische Natur kann durch nichts entdeckt werden. Während der Effekt anhält, kannst du keine anderen Zauber wirken. Weltliche Aura wird sofort beendet, sobald dir ein Kanalisieren-Wurf gelingt.</p>"
+		},
+		{
+			"id": "Mundane Aura (Light)",
+			"name": "Weltliche Aura (Licht)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft Minuten<br>Du entziehst deinem Körper, und dem was du bei dir trägst, jeden Hauch der Winde der Magie, was jede magische Aura entfernt. Für die Dauer des Zaubers wirkst du für das Talent Magiegespür und Ähnliches weltlich. Du hast keine erkennbaren magischen Fähigkeiten und deine magische Natur kann durch nichts entdeckt werden. Während der Effekt anhält, kannst du keine anderen Zauber wirken. Weltliche Aura wird sofort beendet, sobald dir ein Kanalisieren-Wurf gelingt.</p>"
+		},
+		{
+			"id": "Mundane Aura (Metal)",
+			"name": "Weltliche Aura (Metall)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft Minuten<br>Du entziehst deinem Körper, und dem was du bei dir trägst, jeden Hauch der Winde der Magie, was jede magische Aura entfernt. Für die Dauer des Zaubers wirkst du für das Talent Magiegespür und Ähnliches weltlich. Du hast keine erkennbaren magischen Fähigkeiten und deine magische Natur kann durch nichts entdeckt werden. Während der Effekt anhält, kannst du keine anderen Zauber wirken. Weltliche Aura wird sofort beendet, sobald dir ein Kanalisieren-Wurf gelingt.</p>"
+		},
+		{
+			"id": "Mundane Aura (Necromancy)",
+			"name": "Weltliche Aura (Nekromantie)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft Minuten<br>Du entziehst deinem Körper, und dem was du bei dir trägst, jeden Hauch der Winde der Magie, was jede magische Aura entfernt. Für die Dauer des Zaubers wirkst du für das Talent Magiegespür und Ähnliches weltlich. Du hast keine erkennbaren magischen Fähigkeiten und deine magische Natur kann durch nichts entdeckt werden. Während der Effekt anhält, kannst du keine anderen Zauber wirken. Weltliche Aura wird sofort beendet, sobald dir ein Kanalisieren-Wurf gelingt.</p>"
+		},
+		{
+			"id": "Mundane Aura (Shadow)",
+			"name": "Weltliche Aura (Schatten)",
+			"description": "<p>Zauberwert: 4<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft Minuten<br>Du entziehst deinem Körper, und dem was du bei dir trägst, jeden Hauch der Winde der Magie, was jede magische Aura entfernt. Für die Dauer des Zaubers wirkst du für das Talent Magiegespür und Ähnliches weltlich. Du hast keine erkennbaren magischen Fähigkeiten und deine magische Natur kann durch nichts entdeckt werden. Während der Effekt anhält, kannst du keine anderen Zauber wirken. Weltliche Aura wird sofort beendet, sobald dir ein Kanalisieren-Wurf gelingt.</p>"
+		},
+		{
+			"id": "Murmured Whisper",
+			"name": "Flüstern",
+			"description": "<p>Zauberwert: 0<br>Reichweite: WK Schritte<br>Ziel: Speziell<br>Dauer: WK-Bonus Runden<br>Du schickst deine Stimme an einen Punkt innerhalb von Willenskraft Schritten, unabhängig von einer Sichtlinie. Deine Stimme erklingt von diesem Punkt und jeder in dortiger Hörweite kann sie hören.</p>"
+		},
+		{
+			"id": "Mutable Metal",
+			"name": "Wandelbares Metall",
+			"description": "<p>Zauberwert: 5<br>Reichweite: Berührung<br>Ziel: 1<br>Dauer: Willenskraft-Bonus Runden<br>Dauer: Willenskraft-Bonus Runden Du berührst ein einzelnes, nichtmagisches Objekt aus Metall, das sich sogleich warm anfühlt, da du Chamon hineinpresst. Du kannst das Objekt mit einem durchschnittlichen (+20) Stärke-Wurf verbiegen und verformen. Falls du komplexere Veränderungen vornehmen möchtest muss dir stattdessen ein durchschnittlicher (+20) Beruf- (Schmied, oder Ähnliches) -Wurf gelingen.</p>"
+		},
+		{
+			"id": "Mystifying Miasma",
+			"name": "Mystisches Miasma",
+			"description": "<p>Zauberwert: 6<br>Reichweite: Willenskraft Schritt<br>Ziel: Wirkungsbereich (Willenskraft-Bonus Schritt)<br>Dauer: Willenskraft-Bonus Runden<br>Du beschwörst eine wirbelnde Masse von Nebel, der von einem wabernden Schatten durchflutet wird und der die Sinne von jedem erstickt. Jeder ohne das Talent Arkane Magie (Schatten) wird von dem Miasma betroffen und erhält je +1 Geblendet-, Ertaubt- und Erschöpft-Zustand, die bis zum Ende der Dauer anhalten. Jeder Betroffene, der sich zu bewegen versucht, muss einen herausfordernden (+0) Wahrnehmungs-Wurf bestehen, oder er erhält den Zustand Niedergestreckt. Wenn der Zauber mit einem Gegenzauber gebannt wird, nachdem er ins Spiel kam, muss jeder Betroffene einen leichten (+40) Initiative-Wurf bestehen, oder er erhält 1 Betäubt-Zustand.</p>"
+		},
+		{
+			"id": "Nepenthe",
+			"name": "Berührung",
+			"description": "<p>Zauberwert: 0<br>Reichweite: Berührung<br>Ziel: Speziell<br>Dauer: Willenskraft-Bonus Runden<br>Du murmelst über einem zuvor vorbereiteten Kräutertrank Worte der Macht und verwandelst ihn magisch in einen mächtigen Zaubertrank. Wenn dieser während der Wirkungsdauer des Zaubers getrunken wird, kann das Ziel sich für ein Individuum entscheiden, das es für immer vollständig vergisst.</p>"
+		},
+		{
+			"id": "Net of Amyntok",
+			"name": "Amyntoks Netz",
+			"description": "<p>Zauberwert: 8<br>Reichweite: Intelligenz-Bonus Schritt<br>Ziel: 1<br>Dauer: Intelligenz-Bonus des Zieles Runden<br>Du wirst ein feines Netz, das aus Strahlen des Hysh gewoben wurde, über die Ziele und erfüllst ihre Geister mit Rätseln und gedanklichen Puzzlestücken, die sie paralysieren und unentschlossen werden lassen.. Die Ziele erhalten +1 Betäubt-Zustand, der nicht entfernt werden kann, während der Zauber wirkt. Wenn es um das Erholen von diesem Zustand geht, würfeln die Ziele für ihre Intelligenz statt für ihre Ausdauer-Fähigkeit. Ziele mit der Kreaturen-Eigenschaft Tierhaft sind gegen diesen Zauber immun.</p>"
+		},
+		{
+			"id": "Nostrum",
+			"name": "Hausmittelchen",
+			"description": "<p>Zauberwert: 0<br>Reichweite: Berührung<br>Ziel: Speziell<br>Dauer: Willenskraft-Bonus Runden<br>Du belegst einen vorbereiteten Trank mit einem Zauber und erfüllst ihn mit magischer Kraft. Wenn der Trank getrunken wird, während der Zauber wirkt, erhält das Ziel sofort LP in Höhe deines Willenskraft-Bonus zurück und wird von einer einzelnen Krankheit geheilt. Für je +2 EG kannst du eine weitere Krankheit heilen.</p>"
+		},
+		{
+			"id": "Octagram",
+			"name": "Oktogramm",
+			"description": "<p>Zauberwert: 10<br>Reichweite: Berührung<br>Ziel: Wirkungsbereich (maximal Willenskraft-Bonus Schritt im Durchmesser)<br>Dauer: Willenskraft Minuten<br>Du zeichnest einen achtzackigen Stern auf den Boden und umgibst ihn mit unheiligen Symbolen, um einen Schutz vor dämonischen Einflüssen zu erschaffen. Wer die Kreaturen-Eigenschaft Dämonisch besitzt, kann das Oktogramm weder betreten noch verlassen, solange seine Willenskraft nicht mehr als doppelt so hoch wie die deine ist.</p>"
+		},
+		{
+			"id": "Open Lock",
+			"name": "Öffnen",
+			"description": "<p>Zauberwert: 0<br>Reichweite: Berührung<br>Ziel: Speziell<br>Dauer: Sofort<br>Ein einzelnes, nichtmagisches Schloss öffnet sich bei deiner Berührung.</p>"
+		},
+		{
+			"id": "Part the Branches",
+			"name": "Blick durch die Hecke",
+			"description": "<p>Zauberwert: 0<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft Minuten<br>Deine Pupillen weiten sich als du deine Inkantation beendest und du bist in der Lage, in die Geisterwelt zu blicken. Dies erlaubt es dir, unsichtbare Wesen, Geister und Dämonen zu sehen, selbst wenn zu diesen angegeben ist, dass sie unmöglich zu sehen sind.</p>"
+		},
+		{
+			"id": "Phâ’s Protection",
+			"name": "Phâs schützendes Licht",
+			"description": "<p>Zauberwert: 10<br>Reichweite: Du selbst<br>Ziel: Wirkungsbereich (Willenskraft-Bonus Schritt)<br>Dauer: Willenskraft-Bonus Runden<br>Du beschwörst eine schützende Aura aus reinem, heiligem Licht. Unreine Wesen – also jene mit den Kreaturen-Eigenschaften Dämonisch oder Untot, mit Mutationen oder mehr Korrumpierungspunkten als ihr Willenskraft-Bonus und Widerstands-Bonus zusammen – können den Wirkungsbereich nicht betreten. Die, die sich bereits im Wirkungsbereich befinden, erhalten den Demoralisiert-Zustand, bis sie ihn verlassen. Wesen innerhalb der Aura können während der Dauer keine Korrumpierungspunkte erhalten.</p>"
+		},
+		{
+			"id": "Produce Small Animal",
+			"name": "Herbeizaubern",
+			"description": "<p>Zauberwert: 0<br>Reichweite: Berührung<br>Ziel: Speziell<br>Dauer: Sofort<br>Du greifst in einen Sack, eine Tasche, einen Hut, unter einen Felsen, in einen Busch oder ein Loch und ziehst ein kleines Tier hervor, das an dem Ort, an dem du gerade bist, heimisch sein könnte. Dies könnte ein Kaninchen, eine Taube oder eine Ratte sein. Wenn es keine geeigneten Tiere in dieser Gegend gibt, dann bewirkt der Zauber nichts. Für das Temperament des Tieres werden keinerlei Garantien gegeben.</p>"
+		},
+		{
+			"id": "Protection from Rain",
+			"name": "Regenschutz",
+			"description": "<p>Zauberwert: 0<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: WI-Bonus Stunden<br>Du kannst dich selbst trocken halten, egal wie das Wetter ist. Dies betrifft Regen, Hagel, Graupel, Schnee und was sonst noch an Wasser vom Himmel fallen mag, nicht jedoch stehendes Wasser.</p>"
+		},
+		{
+			"id": "Protective Charm",
+			"name": "Schutzamulett",
+			"description": "<p>Zauberwert: 0<br>Reichweite: Berührung<br>Ziel: Speziell<br>Dauer: Willenskraft-Bonus Tage<br>Du belegst ein Schutzamulett mit einem schützenden Zauber. Der Träger des Amuletts erhält das Talent Magieresistenz. Wenn er dieses Talent bereits besitzt bewirkt das Amulett bei ihm nichts weiter.</p>"
+		},
+		{
+			"id": "Purge",
+			"name": "Austilgung",
+			"description": "<p>Zauberwert: 10<br>Reichweite: Willenskraft Schritt<br>Ziel: Wirkungsbereich (WK-Bonus Schritt)<br>Dauer: WK-Bonus Runden<br>Du lässt intensive Flammen in einen Bereich fließen, um die Befleckung und Korrumpierung in ihm auszumerzen. Alles Brennbare entzündet sich und alle Wesen in diesem Bereich erhalten +EG Brennend-Zustände. Wenn die Stelle auch einen Korrumpierenden Einfluss enthält, zum Beispiel Dhar, Warpstein oder ein vom Chaos beflecktes Objekt, dann wird dieses zu schwelen beginnen und sich schwärzen, ehe es zu brennen beginnt. Der Zauber lässt sich in nachfolgenden Runden aufrechterhalten, wenn dir jeweils ein herausfordernder (+0) Kanalisieren-Wurf gelingt. Wie viel Zeit genau nötig ist, um den Korrumpierenden Einfluss auszutilgen wird vom SL festgelegt. Als grobe Richtschnur dauert das Zerstören einer kleinen Menge Warpstein (kleiner als eine Eichel) oder eines kleineren chaosbefleckten Objektes 10 - Willenskraft-Bonus Runden (minimal 1 Runde). Eine größere Menge Warpstein (Faustgröße) oder ein größeres chaosbeflecktes Objekt dauert doppelt so lange. Mächtige Chaosartefakte zu zerstören kann Stunden oder noch länger dauern. Auf Seite 182 erfährst du mehr über Korrumpierende Einflüsse.</p>"
+		},
+		{
+			"id": "Purify Water",
+			"name": "Wasser reinigen",
+			"description": "<p>Zauberwert: 0<br>Reichweite: 1 Schritt<br>Ziel: Speziell<br>Dauer: Sofort<br>Du reinigst alles Wasser in einem Behälter, wie zum Beispiel einer Wasserflasche, einem Krug oder einem Humpen. Alle nichtmagischen Unreinheiten wie Gifte oder Kontaminationen werden entfernt und es bleibt nichts als klares, sauberes Trinkwasser. Wenn das Gefäß eine andere Flüssigkeit enthält, die hauptsächlich aus Wasser besteht, zum Beispiel Bier oder Wein, dann wird auch dieser Inhalt gesäubert und zu wohlschmeckendem, reinem, nichtalkoholischem Wasser.</p>"
+		},
+		{
+			"id": "Purple Pall of Shyish",
+			"name": "Purpurnes Leichentuch des Shyish",
+			"description": "<p>Zauberwert: 9<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft-Bonus Runden<br>Du hüllst dich in ein Leichentuch, das aus feinen Strängen von Amethystmagie gewebt wurde. Du erhältst zusätzliche Rüstungspunkte in Höhe deines Willenskraft-Bonus an allen Trefferzonen sowie die Kreaturen-Eigenschaft Angst (1) (siehe Seite 338). Für je +2 EG darfst du den Angst-Wert um +1 erhöhen.</p>"
+		},
+		{
+			"id": "Push",
+			"name": "Stoß",
+			"description": "<p>Zauberwert: 6<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Sofort<br>Alle lebenden Kreaturen innerhalb von Willenskraft-Bonus Schritt werden deinen Willenskraft-Bonus in Schritt weit zurückgestoßen und erhalten den Zustand Niedergestreckt. Wenn sie dies in Kontakt mit Wänden oder anderen großen Hindernissen bringt, erleiden sie Schaden in Höhe der zuvor durch den Stoß zurückgelegten Distanz in Schritt. Für je +2 EG darfst du die Kreaturen weitere Willenskraft-Bonus in Schritt weit zurückstoßen.</p>"
+		},
+		{
+			"id": "Push (Beasts)",
+			"name": "Stoß (Bestien)",
+			"description": "<p>Zauberwert: 6<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Sofort<br>Alle lebenden Kreaturen innerhalb von Willenskraft-Bonus Schritt werden deinen Willenskraft-Bonus in Schritt weit zurückgestoßen und erhalten den Zustand Niedergestreckt. Wenn sie dies in Kontakt mit Wänden oder anderen großen Hindernissen bringt, erleiden sie Schaden in Höhe der zuvor durch den Stoß zurückgelegten Distanz in Schritt. Für je +2 EG darfst du die Kreaturen weitere Willenskraft-Bonus in Schritt weit zurückstoßen.</p>"
+		},
+		{
+			"id": "Push (Daemonology)",
+			"name": "Stoß (Dämonologie)",
+			"description": "<p>Zauberwert: 6<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Sofort<br>Alle lebenden Kreaturen innerhalb von Willenskraft-Bonus Schritt werden deinen Willenskraft-Bonus in Schritt weit zurückgestoßen und erhalten den Zustand Niedergestreckt. Wenn sie dies in Kontakt mit Wänden oder anderen großen Hindernissen bringt, erleiden sie Schaden in Höhe der zuvor durch den Stoß zurückgelegten Distanz in Schritt. Für je +2 EG darfst du die Kreaturen weitere Willenskraft-Bonus in Schritt weit zurückstoßen.</p>"
+		},
+		{
+			"id": "Push (Death)",
+			"name": "Stoß (Tod)",
+			"description": "<p>Zauberwert: 6<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Sofort<br>Alle lebenden Kreaturen innerhalb von Willenskraft-Bonus Schritt werden deinen Willenskraft-Bonus in Schritt weit zurückgestoßen und erhalten den Zustand Niedergestreckt. Wenn sie dies in Kontakt mit Wänden oder anderen großen Hindernissen bringt, erleiden sie Schaden in Höhe der zuvor durch den Stoß zurückgelegten Distanz in Schritt. Für je +2 EG darfst du die Kreaturen weitere Willenskraft-Bonus in Schritt weit zurückstoßen.</p>"
+		},
+		{
+			"id": "Push (Fire)",
+			"name": "Stoß (Feuer)",
+			"description": "<p>Zauberwert: 6<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Sofort<br>Alle lebenden Kreaturen innerhalb von Willenskraft-Bonus Schritt werden deinen Willenskraft-Bonus in Schritt weit zurückgestoßen und erhalten den Zustand Niedergestreckt. Wenn sie dies in Kontakt mit Wänden oder anderen großen Hindernissen bringt, erleiden sie Schaden in Höhe der zuvor durch den Stoß zurückgelegten Distanz in Schritt. Für je +2 EG darfst du die Kreaturen weitere Willenskraft-Bonus in Schritt weit zurückstoßen.</p>"
+		},
+		{
+			"id": "Push (Heavens)",
+			"name": "Stoß (Himmel)",
+			"description": "<p>Zauberwert: 6<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Sofort<br>Alle lebenden Kreaturen innerhalb von Willenskraft-Bonus Schritt werden deinen Willenskraft-Bonus in Schritt weit zurückgestoßen und erhalten den Zustand Niedergestreckt. Wenn sie dies in Kontakt mit Wänden oder anderen großen Hindernissen bringt, erleiden sie Schaden in Höhe der zuvor durch den Stoß zurückgelegten Distanz in Schritt. Für je +2 EG darfst du die Kreaturen weitere Willenskraft-Bonus in Schritt weit zurückstoßen.</p>"
+		},
+		{
+			"id": "Push (Life)",
+			"name": "Stoß (Leben)",
+			"description": "<p>Zauberwert: 6<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Sofort<br>Alle lebenden Kreaturen innerhalb von Willenskraft-Bonus Schritt werden deinen Willenskraft-Bonus in Schritt weit zurückgestoßen und erhalten den Zustand Niedergestreckt. Wenn sie dies in Kontakt mit Wänden oder anderen großen Hindernissen bringt, erleiden sie Schaden in Höhe der zuvor durch den Stoß zurückgelegten Distanz in Schritt. Für je +2 EG darfst du die Kreaturen weitere Willenskraft-Bonus in Schritt weit zurückstoßen.</p>"
+		},
+		{
+			"id": "Push (Light)",
+			"name": "Stoß (Licht)",
+			"description": "<p>Zauberwert: 6<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Sofort<br>Alle lebenden Kreaturen innerhalb von Willenskraft-Bonus Schritt werden deinen Willenskraft-Bonus in Schritt weit zurückgestoßen und erhalten den Zustand Niedergestreckt. Wenn sie dies in Kontakt mit Wänden oder anderen großen Hindernissen bringt, erleiden sie Schaden in Höhe der zuvor durch den Stoß zurückgelegten Distanz in Schritt. Für je +2 EG darfst du die Kreaturen weitere Willenskraft-Bonus in Schritt weit zurückstoßen.</p>"
+		},
+		{
+			"id": "Push (Metal)",
+			"name": "Stoß (Metall)",
+			"description": "<p>Zauberwert: 6<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Sofort<br>Alle lebenden Kreaturen innerhalb von Willenskraft-Bonus Schritt werden deinen Willenskraft-Bonus in Schritt weit zurückgestoßen und erhalten den Zustand Niedergestreckt. Wenn sie dies in Kontakt mit Wänden oder anderen großen Hindernissen bringt, erleiden sie Schaden in Höhe der zuvor durch den Stoß zurückgelegten Distanz in Schritt. Für je +2 EG darfst du die Kreaturen weitere Willenskraft-Bonus in Schritt weit zurückstoßen.</p>"
+		},
+		{
+			"id": "Push (Necromancy)",
+			"name": "Stoß (Nekromantie)",
+			"description": "<p>Zauberwert: 6<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Sofort<br>Alle lebenden Kreaturen innerhalb von Willenskraft-Bonus Schritt werden deinen Willenskraft-Bonus in Schritt weit zurückgestoßen und erhalten den Zustand Niedergestreckt. Wenn sie dies in Kontakt mit Wänden oder anderen großen Hindernissen bringt, erleiden sie Schaden in Höhe der zuvor durch den Stoß zurückgelegten Distanz in Schritt. Für je +2 EG darfst du die Kreaturen weitere Willenskraft-Bonus in Schritt weit zurückstoßen.</p>"
+		},
+		{
+			"id": "Push (Shadow)",
+			"name": "Stoß (Schatten)",
+			"description": "<p>Zauberwert: 6<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Sofort<br>Alle lebenden Kreaturen innerhalb von Willenskraft-Bonus Schritt werden deinen Willenskraft-Bonus in Schritt weit zurückgestoßen und erhalten den Zustand Niedergestreckt. Wenn sie dies in Kontakt mit Wänden oder anderen großen Hindernissen bringt, erleiden sie Schaden in Höhe der zuvor durch den Stoß zurückgelegten Distanz in Schritt. Für je +2 EG darfst du die Kreaturen weitere Willenskraft-Bonus in Schritt weit zurückstoßen.</p>"
+		},
+		{
+			"id": "Raise Dead",
+			"name": "Tote erheben",
+			"description": "<p>Zauberwert: 8<br>Reichweite: Willenskraft Schritt<br>Ziel: Wirkungsbereich (Willenskraft-Bonus Schritt)<br>Dauer: Bis zum Sonnenaufgang<br>Du kanalisierst einen dichten Strom des Dhar in die nackte Erde und bringst alte Knochen dazu, sich zu sammeln und zu erheben. EG+1 Skelette wühlen sich am Ende der Runde im Wirkungsbereich nach oben, wo dort genau obliegt dir. Sie beginnen mit dem Zustand Niedergestreckt. Die beschworenen Untoten unterliegen vollständig deiner Kontrolle und können einfache Befehle ausführen. Wenn du getötet wirst oder den Zustand Bewusstlos erhältst, endet der Zauber sofort und die beschworenen Untoten brechen zusammen. Für je +2 EG, die du erzielt hast, kannst du ein zusätzliches Skelett beschwören.</p>"
+		},
+		{
+			"id": "Reanimate",
+			"name": "Wiederbeleben",
+			"description": "<p>Zauberwert: 8<br>Reichweite: Willenskraft Schritt<br>Ziel: Wirkungsbereich (Willenskraft-Bonus Schritt)<br>Dauer: Bis zum Sonnenaufgang<br>Du kanalisierst sich windende Bande des Dhar vor dir, die sich in Leichen bohren und das wiederbeleben, was zuvor tot war. Du belebst Willenskraft-Bonus + EG tote Körper (als Zombies) oder Skelette (als Skelette) innerhalb des Wirkungsbereiches. Sie beginnen mit dem Zustand Niedergestreckt. Die beschworenen Untoten unterliegen vollständig deiner Kontrolle und können einfache Befehle ausführen. Wenn du getötet wirst oder den Zustand Bewusstlos erhältst, endet der Zauber sofort und die beschworenen Untoten brechen zusammen. Für je +2 EG, die du erzielt hast, kannst du zusätzlich Willenskraft-Bonus +EG Skelette oder Zombies wiederbeleben.</p>"
+		},
+		{
+			"id": "Regenerate",
+			"name": "Regenerieren",
+			"description": "<p>Zauberwert: 6<br>Reichweite: Berührung<br>Ziel: 1<br>Dauer: Willenskraft-Bonus Runden<br>Dein Ziel erhält die Kreaturen-Eigenschaft Regenerieren (siehe Seite 342).</p>"
+		},
+		{
+			"id": "Rot",
+			"name": "Verfaulen",
+			"description": "<p>Zauberwert: 0<br>Reichweite: 1 Schritt<br>Ziel: Speziell<br>Dauer: Sofort<br>Du bringst ein etwa faustgroßes Volumen organischer Materie dazu, sofort zu verrotten. Speisen verfaulen, Kleider werden löchrig, Leder bröselt (womit man 1 RP an der Trefferzone verliert) und Ähnliches, nach Maßgabe des SL.</p>"
+		},
+		{
+			"id": "Sanctify",
+			"name": "Heiligen",
+			"description": "<p>Zauberwert: 10<br>Reichweite: Berührung<br>Ziel: Wirkungsbereich (Willenskraft-Bonus Schritt)<br>Dauer: Willenskraft Minuten<br>Du zeichnest einen magischen Kreis auf und erfüllst ihn mit Shyish, um eine für Untote unüberwindliche Barriere zu erschaffen. Wesen mit der Kreaturen-Eigenschaft Untot können den Kreis weder betreten noch verlassen.</p>"
+		},
+		{
+			"id": "Screaming Skull",
+			"name": "Kreischender Schädel",
+			"description": "<p>Zauberwert: 8<br>Reichweite: Willenskraft Schritt<br>Ziel: Speziell<br>Dauer: Sofort<br>Du kreischst die schrillen Worte dieses Zaubers und ein großer geschwärzter Schädel, der in grünlich-purpurne Flammen gehüllt ist, bildet sich vor dir, ehe er kreischend und knisternd auf sein Ziel zurast. Der Schädel bewegt sich in gerader Linie bis zum Ende der Reichweite, folgt den Konturen des Bodens und dringt durch Hindernisse hindurch. Kreischender Schädel ist ein magisches Geschoss, das nur Ziele ohne die Kreaturen-Eigenschaft Untot beeinflusst und Schaden in Höhe deines Willenskraft-Bonus anrichtet. Wer LP durch diesen Zauber verliert, muss einen herausfordernden (+0) Besonnenheits-Wurf bestehen, oder er bekommt zusätzlich einen Demoralisiert-Zustand.</p>"
+		},
+		{
+			"id": "Scythe of Shyish",
+			"name": "Sense des Shyish",
+			"description": "<p>Zauberwert: 6<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft-Bonus Runden<br>Du beschwörst eine magische Sense, die im Kampf mit Hilfe der Fähigkeit Nahkampf (Stangenwaffe) eingesetzt werden kann. Sie fungiert wie eine normale Sense mit einem Schaden, der deinem Willenskraft-Bonus+ 3 entspricht. Feinde mit der Kreaturen-Eigenschaft Untot erhalten keine Vorteile, wenn sie mit dir im Nahkampf sind.</p>"
+		},
+		{
+			"id": "Shadowsteed",
+			"name": "Schattenross",
+			"description": "<p>Zauberwert: 6<br>Reichweite: Willenskraft-Bonus Schritt<br>Ziel: 1<br>Dauer: Bis zum nächsten Sonnenaufgang<br>Du beschwörst dir ein Pferd aus Schatten. Der unnatürliche Körper des Rosses ist schwarz wie die Nacht und manchmal scheint es weltlich und substanzlos zur gleichen Zeit zu sein. Verwende die Regeln eines Reitpferdes. Wenn sich das Schattenross nicht im Sonnenlicht befindet, hat es zudem die folgenden Kreaturen-Eigenschaften: Angst (1), Ätherisch, Dunkelsicht, Geschwind, Heimlich, Magisch, Schmerzfrei und Schutz (+9). Selbst substanzlos können Schattenrösser geritten werden. Reiter mit dem Talent Arkane Magie (Schatten) erhalten dabei +20 auf ihre Reiten-Würfe. Ohne dieses Talent hat man einen Abzug von -20 auf Reiten-Würfe. Schattenrösser sind unermüdlich und brauchen keine Pausen (vermutlich anders als ihr Reiter). Wenn die ersten Sonnenstrahlen über den Horizont kommen, lösen sie sich in Nebel auf. Wenn sie noch immer geritten werden, während der Zauber endet, oder falls sie beim Reiten mit einem Gegenzauber gebannt werden, erleidet der Reiter Fall-Schaden (siehe Seite 166).</p>"
+		},
+		{
+			"id": "Shadowstep",
+			"name": "Schattenschritt",
+			"description": "<p>Zauberwert: 8<br>Reichweite: Willenskraft Schritt<br>Ziel: Du selbst<br>Dauer: Sofort<br>Du erschaffst ein schattenhaftes Portal des Ulgu durch den Äther. Du verschwindest von deinem gegenwärtigen Standort und erscheinst unmittelbar bis Willenskraft Schritt entfernt. Feinde, die bei deinem Verschwinden und Erscheinen durch dich im Nahkampf gebunden werden, erhalten den Zustand Überrascht.</p>"
+		},
+		{
+			"id": "Shock",
+			"name": "Schock",
+			"description": "<p>Zauberwert: 0<br>Reichweite: Berührung<br>Ziel: 1<br>Dauer: Sofort<br>Dein Ziel erhält 1 Betäubt-Zustand.</p>"
+		},
+		{
+			"id": "Shroud of Invisibility",
+			"name": "Bahrtuch der Unsichtbarkeit",
+			"description": "<p>Zauberwert: 8<br>Reichweite: Berührung<br>Ziel: 1<br>Dauer: Willenskraft-Bonus Runden<br>Du hüllst dein Ziel in einen Schleier aus Ulgu. Das Ziel wird unsichtbar und kann nicht mit weltlichen Sinnen wahrgenommen werden. Der Zauber wird automatisch jeden ohne das Talent Zweites Gesicht täuschen. Jene, die das Talent haben, müssen einen herausfordernden (+0) Wahrnehmungs-Wurf bestehen, um zu bemerken, dass irgendwer in der Nähe ist, auch wenn sie nicht imstande sind, die genaue Richtung auszumachen. Sie müssen das Bahrtuch der Unsichtbarkeit mit einem Gegenzauber aufheben, um dies zu tun. Das Ziel ist mit anderen Sinnen noch immer wahrnehmbar und der Zauber endet, wenn es Aufmerksamkeit auf sich lenkt, zum Beispiel durch laute Geräusche oder indem es jemanden angreift.</p>"
+		},
+		{
+			"id": "Sleep",
+			"name": "Schlaf",
+			"description": "<p>Zauberwert: 0<br>Reichweite: Berührung<br>Ziel: 1<br>Dauer: WK-Bonus Runden<br>Du berührst deinen Gegner und schickst ihn in tiefen Schlaf. Wenn die Ziele den Zustand Niedergestreckt haben, erhalten sie beim Einschlafen den Zustand Bewusstlos. Sie bleiben für die Wirkdauer bewusstlos, wachen bei lauten Geräuschen oder wenn sie bewegt oder angestoßen werden jedoch sofort auf. Wenn deine Ziele stehen oder sitzen, wenn sie betroffen werden, dann wachen sie auf, wenn sie auf den Boden aufschlagen. Sie erhalten den Zustand Niedergestreckt, bleiben aber bei Bewusstsein. Wenn deine Ziele keinen Widerstand leisten und angemessen müde sind, dann schlafen sie über die Wirkdauer hinaus, tief und erholsam.</p>"
+		},
+		{
+			"id": "Sly Hands",
+			"name": "Zauberhand",
+			"description": "<p>Zauberwert: 0<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft-Bonus Runden<br>Du teleportierst ein kleines Objekt, das nicht größer als deine Faust sein darf, von irgendwo an deiner Person in deine Hand.</p>"
+		},
+		{
+			"id": "Soul Vortex",
+			"name": "Seelenstrudel",
+			"description": "<p>Zauberwert: 8<br>Reichweite: Willenskraft Schritt<br>Ziel: Wirkungsbereich (Willenskraft-Bonus Schritt)<br>Dauer: Sofort<br>Du schleuderst eine schimmernde Kugel aus Shyish, die zu purpurnen Flammen detoniert, in denen geisterhafte Gesichter wirbeln, deren Münder vor lautlosem Entsetzen weit aufgerissen sind. Ziele im Wirkungsbereich erhalten +1 Demoralisiert-Zustand. Gegen Ziele mit Kreaturen-Eigenschaft Untot ist Seelenstrudel ein magisches Geschoss mit Schaden +10, das Widerstands-Bonus und Rüstungspunkte ignoriert.</p>"
+		},
+		{
+			"id": "Sounds",
+			"name": "Geräusche",
+			"description": "<p>Zauberwert: 0<br>Reichweite: Willenskraft Schritte<br>Ziel: Speziell<br>Dauer: Willenskraft-Bonus Runden<br>Du erschaffst kleine Geräusche in der Nähe. Du kannst leise, uneindeutige Geräusche erschaffen, die klingen, als kämen sie von einem bestimmten Ort innerhalb der Reichweite, unabhängig von der Sichtlinie. Die Geräusche können an etwas Spezifisches erinnern, zum Beispiel Schritte, Flüstern oder das Heulen eines Tieres, sind aber nicht so deutlich, dass sie etwas mitteilen könnten. Während der Zauber wirkt, kannst du versuchen die Geräusche mit einem durchschnittlichen (+20) Kanalisieren-Wurf zu kontrollieren. Bei einem Gelingen kannst du die Geräusche an einen anderen Ort innerhalb der Reichweite wandern lassen oder sie lauter oder leiser werden lassen.</p>"
+		},
+		{
+			"id": "Speed of Thought",
+			"name": "Schnelligkeit des Gedankens",
+			"description": "<p>Zauberwert: 8<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft-Bonus Runden<br>Ein Gitternetz des Hysh ordnet deinen Geist und erlaubt es dir, schneller zu denken. Du erhältst einen Bonus von +20 auf Intelligenz und Initiative.</p>"
+		},
+		{
+			"id": "Spring",
+			"name": "Quelle",
+			"description": "<p>Zauberwert: 0<br>Reichweite: Berührung<br>Ziel: Speziell<br>Dauer: Willenskraft-Bonus Runden<br>Du berührst den Boden und dort steigt Wasser empor, mit einer Rate von einem Humpen (einem halben Liter) pro Runde, bis zu einer Menge, die deinem Initiative-Bonus in Humpen entspricht.</p>"
+		},
+		{
+			"id": "Starcrossed",
+			"name": "Schlechter Stern",
+			"description": "<p>Zauberwert: 7<br>Reichweite: Willenskraft Schritt<br>Ziel: 1<br>Dauer: Initiative-Bonus Runden<br>Solange dieser Zauber wirkt, kannst du Glückspunkte ausgeben, um Gegner zu Wiederholungswürfen zu zwingen.</p>"
+		},
+		{
+			"id": "Steal Life",
+			"name": "Seelenraub",
+			"description": "<p>Zauberwert: 7<br>Reichweite: Willenskraft Schritt<br>Ziel: 1<br>Dauer: Sofort<br>Dünne Ranken aus purpurnem Nebel verbinden sich kurzeitig mit deinem Ziel, das vor deinen Augen dahinwelkt. Dies gilt als magisches Geschoss mit Schaden +6, das Rüstungspunkte ignoriert und +1 Erschöpft-Zustand verursacht. Zudem entfernst du bei dir selbst alle Erschöpft-Zustände, unter denen du gerade leidest, und heilst dich um die Hälfte der LP (aufgerundet), die das Ziel verloren hat.</p>"
+		},
+		{
+			"id": "Stream of Corruption",
+			"name": "Strom der Fäulnis",
+			"description": "<p>Zauberwert: 9<br>Reichweite: Speziell<br>Ziel: Speziell<br>Dauer: Sofort<br>Dein Magen verkrampft sich in schrecklicher Weise, ehe du einen breiten Strahl von fauligem Schmutz und Schrecken erbrichst. Du führst sofort eine Odem-Attacke durch, so als hättest du 2 Vorteile darauf verwendet die Kreaturen-Eigenschaft Odem (siehe Seite 341) auszulösen. Dies gilt als magisches Geschoss mit einem Schaden, der deinem Widerstands-Bonus entspricht und Rüstungspunkte ignoriert. Die Attacke hat zudem die Korrosion- und Gift-Eigenschaften, die unter der Kreaturen-Eigenschaft Odem aufgeführt sind. Des Weiteren müssen Ziele, die dabei mehr LP verloren haben, als ihr Widerstands-Bonus beträgt, einen herausfordernden (+0) Ausdauer-Wurf bestehen, oder sie infizieren sich mit Blutfäule (siehe Seite 186). Für je +2 EG darfst du den Schaden um +2 erhöhen.</p>"
+		},
+		{
+			"id": "Swift Passing",
+			"name": "Schnelles Dahinscheiden",
+			"description": "<p>Zauberwert: 6<br>Reichweite: Berührung<br>Ziel: Speziell<br>Dauer: Sofort<br>Deine Berührung bringt einem einzelnen, tödlich verwundeten Ziel die Erlösung. Wenn es dir gelingt ein Ziel zu berühren, das 0 LP besitzt und mindestens 2 Kritische Verletzungen erlitten hat, dann folgt dessen rascher Tod. Des Weiteren kann dieses Ziel nicht als Untoter erhoben werden.</p>"
+		},
+		{
+			"id": "T'Essla's Arc",
+			"name": "T’Esslas Lichtbogen",
+			"description": "<p>Zauberwert: 7<br>Reichweite: Willenskraft Schritt<br>Ziel: 1<br>Dauer: Sofort<br>Ein knisternder Blitz schießt aus deinen Fingerspitzen und trifft dein Ziel. Dies ist ein magisches Geschoss mit Schaden +10 das +1 Geblendet-Zustand verursacht.</p>"
+		},
+		{
+			"id": "Teleport",
+			"name": "Teleportieren",
+			"description": "<p>Zauberwert: 5<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Sofort<br>Unter Verwendung deiner Magie kannst du dich bis zu Willenskraft-Bonus in Schritt weit teleportieren. Diese Bewegung erlaubt es dir Abgründe zu überqueren, Gefahren und Fallen auszuweichen und Hindernisse zu ignorieren. Für je +2 EG darfst du die zurückgelegte Distanz um deinen Willenskraft-Bonus in Schritt verlängern</p>"
+		},
+		{
+			"id": "Teleport (Beasts)",
+			"name": "Teleportieren (Bestien)",
+			"description": "<p>Zauberwert: 5<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Sofort<br>Unter Verwendung deiner Magie kannst du dich bis zu Willenskraft-Bonus in Schritt weit teleportieren. Diese Bewegung erlaubt es dir Abgründe zu überqueren, Gefahren und Fallen auszuweichen und Hindernisse zu ignorieren. Für je +2 EG darfst du die zurückgelegte Distanz um deinen Willenskraft-Bonus in Schritt verlängern</p>"
+		},
+		{
+			"id": "Teleport (Daemonology)",
+			"name": "Teleportieren (Dämonologie)",
+			"description": "<p>Zauberwert: 5<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Sofort<br>Unter Verwendung deiner Magie kannst du dich bis zu Willenskraft-Bonus in Schritt weit teleportieren. Diese Bewegung erlaubt es dir Abgründe zu überqueren, Gefahren und Fallen auszuweichen und Hindernisse zu ignorieren. Für je +2 EG darfst du die zurückgelegte Distanz um deinen Willenskraft-Bonus in Schritt verlängern</p>"
+		},
+		{
+			"id": "Teleport (Death)",
+			"name": "Teleportieren (Tod)",
+			"description": "<p>Zauberwert: 5<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Sofort<br>Unter Verwendung deiner Magie kannst du dich bis zu Willenskraft-Bonus in Schritt weit teleportieren. Diese Bewegung erlaubt es dir Abgründe zu überqueren, Gefahren und Fallen auszuweichen und Hindernisse zu ignorieren. Für je +2 EG darfst du die zurückgelegte Distanz um deinen Willenskraft-Bonus in Schritt verlängern</p>"
+		},
+		{
+			"id": "Teleport (Fire)",
+			"name": "Teleportieren (Feuer)",
+			"description": "<p>Zauberwert: 5<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Sofort<br>Unter Verwendung deiner Magie kannst du dich bis zu Willenskraft-Bonus in Schritt weit teleportieren. Diese Bewegung erlaubt es dir Abgründe zu überqueren, Gefahren und Fallen auszuweichen und Hindernisse zu ignorieren. Für je +2 EG darfst du die zurückgelegte Distanz um deinen Willenskraft-Bonus in Schritt verlängern</p>"
+		},
+		{
+			"id": "Teleport (Heavens)",
+			"name": "Teleportieren (Himmel)",
+			"description": "<p>Zauberwert: 5<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Sofort<br>Unter Verwendung deiner Magie kannst du dich bis zu Willenskraft-Bonus in Schritt weit teleportieren. Diese Bewegung erlaubt es dir Abgründe zu überqueren, Gefahren und Fallen auszuweichen und Hindernisse zu ignorieren. Für je +2 EG darfst du die zurückgelegte Distanz um deinen Willenskraft-Bonus in Schritt verlängern</p>"
+		},
+		{
+			"id": "Teleport (Life)",
+			"name": "Teleportieren (Leben)",
+			"description": "<p>Zauberwert: 5<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Sofort<br>Unter Verwendung deiner Magie kannst du dich bis zu Willenskraft-Bonus in Schritt weit teleportieren. Diese Bewegung erlaubt es dir Abgründe zu überqueren, Gefahren und Fallen auszuweichen und Hindernisse zu ignorieren. Für je +2 EG darfst du die zurückgelegte Distanz um deinen Willenskraft-Bonus in Schritt verlängern</p>"
+		},
+		{
+			"id": "Teleport (Light)",
+			"name": "Teleportieren (Licht)",
+			"description": "<p>Zauberwert: 5<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Sofort<br>Unter Verwendung deiner Magie kannst du dich bis zu Willenskraft-Bonus in Schritt weit teleportieren. Diese Bewegung erlaubt es dir Abgründe zu überqueren, Gefahren und Fallen auszuweichen und Hindernisse zu ignorieren. Für je +2 EG darfst du die zurückgelegte Distanz um deinen Willenskraft-Bonus in Schritt verlängern</p>"
+		},
+		{
+			"id": "Teleport (Metal)",
+			"name": "Teleportieren (Metall)",
+			"description": "<p>Zauberwert: 5<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Sofort<br>Unter Verwendung deiner Magie kannst du dich bis zu Willenskraft-Bonus in Schritt weit teleportieren. Diese Bewegung erlaubt es dir Abgründe zu überqueren, Gefahren und Fallen auszuweichen und Hindernisse zu ignorieren. Für je +2 EG darfst du die zurückgelegte Distanz um deinen Willenskraft-Bonus in Schritt verlängern</p>"
+		},
+		{
+			"id": "Teleport (Necromancy)",
+			"name": "Teleportieren (Nekromantie)",
+			"description": "<p>Zauberwert: 5<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Sofort<br>Unter Verwendung deiner Magie kannst du dich bis zu Willenskraft-Bonus in Schritt weit teleportieren. Diese Bewegung erlaubt es dir Abgründe zu überqueren, Gefahren und Fallen auszuweichen und Hindernisse zu ignorieren. Für je +2 EG darfst du die zurückgelegte Distanz um deinen Willenskraft-Bonus in Schritt verlängern</p>"
+		},
+		{
+			"id": "Teleport (Shadow)",
+			"name": "Teleportieren (Schatten)",
+			"description": "<p>Zauberwert: 5<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Sofort<br>Unter Verwendung deiner Magie kannst du dich bis zu Willenskraft-Bonus in Schritt weit teleportieren. Diese Bewegung erlaubt es dir Abgründe zu überqueren, Gefahren und Fallen auszuweichen und Hindernisse zu ignorieren. Für je +2 EG darfst du die zurückgelegte Distanz um deinen Willenskraft-Bonus in Schritt verlängern</p>"
+		},
+		{
+			"id": "Terrifying",
+			"name": "Entsetzen verursachen",
+			"description": "<p>Zauberwert: 7<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft-Bonus Runden<br>Du erhältst die Kreaturen-Eigenschaft Entsetzen (1) (siehe Seite 190).</p>"
+		},
+		{
+			"id": "Terrifying (Beasts)",
+			"name": "Entsetzen verursachen (Bestien)",
+			"description": "<p>Zauberwert: 7<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft-Bonus Runden<br>Du erhältst die Kreaturen-Eigenschaft Entsetzen (1) (siehe Seite 190).</p>"
+		},
+		{
+			"id": "Terrifying (Daemonology)",
+			"name": "Entsetzen verursachen (Dämonologie)",
+			"description": "<p>Zauberwert: 7<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft-Bonus Runden<br>Du erhältst die Kreaturen-Eigenschaft Entsetzen (1) (siehe Seite 190).</p>"
+		},
+		{
+			"id": "Terrifying (Death)",
+			"name": "Entsetzen verursachen (Tod)",
+			"description": "<p>Zauberwert: 7<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft-Bonus Runden<br>Du erhältst die Kreaturen-Eigenschaft Entsetzen (1) (siehe Seite 190).</p>"
+		},
+		{
+			"id": "Terrifying (Fire)",
+			"name": "Entsetzen verursachen (Feuer)",
+			"description": "<p>Zauberwert: 7<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft-Bonus Runden<br>Du erhältst die Kreaturen-Eigenschaft Entsetzen (1) (siehe Seite 190).</p>"
+		},
+		{
+			"id": "Terrifying (Heavens)",
+			"name": "Entsetzen verursachen (Himmel)",
+			"description": "<p>Zauberwert: 7<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft-Bonus Runden<br>Du erhältst die Kreaturen-Eigenschaft Entsetzen (1) (siehe Seite 190).</p>"
+		},
+		{
+			"id": "Terrifying (Life)",
+			"name": "Entsetzen verursachen (Leben)",
+			"description": "<p>Zauberwert: 7<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft-Bonus Runden<br>Du erhältst die Kreaturen-Eigenschaft Entsetzen (1) (siehe Seite 190).</p>"
+		},
+		{
+			"id": "Terrifying (Light)",
+			"name": "Entsetzen verursachen (Licht)",
+			"description": "<p>Zauberwert: 7<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft-Bonus Runden<br>Du erhältst die Kreaturen-Eigenschaft Entsetzen (1) (siehe Seite 190).</p>"
+		},
+		{
+			"id": "Terrifying (Metal)",
+			"name": "Entsetzen verursachen (Metall)",
+			"description": "<p>Zauberwert: 7<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft-Bonus Runden<br>Du erhältst die Kreaturen-Eigenschaft Entsetzen (1) (siehe Seite 190).</p>"
+		},
+		{
+			"id": "Terrifying (Necromancy)",
+			"name": "Entsetzen verursachen (Nekromantie)",
+			"description": "<p>Zauberwert: 7<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft-Bonus Runden<br>Du erhältst die Kreaturen-Eigenschaft Entsetzen (1) (siehe Seite 190).</p>"
+		},
+		{
+			"id": "Terrifying (Shadow)",
+			"name": "Entsetzen verursachen (Schatten)",
+			"description": "<p>Zauberwert: 7<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft-Bonus Runden<br>Du erhältst die Kreaturen-Eigenschaft Entsetzen (1) (siehe Seite 190).</p>"
+		},
+		{
+			"id": "The Amber Spear",
+			"name": "Bernsteinspeer",
+			"description": "<p>Zauberwert: 8<br>Reichweite: Willenskraft Schritt<br>Ziel: Speziell<br>Dauer: Sofort<br>Du schleuderst in gerader Linie einen schweren Speer aus purem Ghur. Dies ist ein magisches Geschoss mit Schaden +12. Er trifft das erste Wesen in seiner Bahn und ignoriert alle RP von Rüstung aus Leder und Fell. Wenn das Ziel irgendwelche LP verliert, erhält es zudem +1 Blutend-Zustand. Danach fliegt der Speer weiter auf seiner Bahn und trifft jedes Ziel in gleicher Weise, allerdings für jedes vorherige Ziel mit -1 auf den Schaden. Wenn der Speer bei einem Ziel keine LP-Verluste verursacht, wird er aufgehalten und der Zauber endet. Den minimalen LP-Verlust von 1 (siehe Seite 159) richtet der Speer nur beim ersten Ziel an, das er trifft.</p>"
+		},
+		{
+			"id": "The Evil Eye",
+			"name": "Der Böse Blick",
+			"description": "<p>Zauberwert: 6<br>Reichweite: Willenskraft Schritt<br>Ziel: Speziell<br>Dauer: Sofort<br>Du blickst einem einzelnen Ziel in die Augen, das diesen Blick erwidern muss. Führt einen Vergleichenden Einschüchtern/Besonnenheits-Wurf durch, wobei du alle EG von deinem Zauberwurf zum Resultat hinzufügen darfst. Dein Ziel erhält 1 Erschöpft-Zustand pro +2 EG, um die du gewinnst. Wenn du mit 6+ EG gewinnst, erhält dein Ziel den Demoralisiert-Zustand.</p>"
+		},
+		{
+			"id": "The First Portent of Amul",
+			"name": "Das Erste Zeichen Amuls",
+			"description": "<p>Zauberwert: 3<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Initiative-Bonus Runden<br>Du erhältst +1 Glückspunkt. Für je +2 EG erhältst du +1 mehr. Jeder dieser Punkte, der am Ende der Dauer noch nicht ausgegeben wurde, verfällt.</p>"
+		},
+		{
+			"id": "The Second Portent of Amul",
+			"name": "Das Zweite Zeichen Amuls",
+			"description": "<p>Zauberwert: 6<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Initiative-Bonus Runden<br>Du bekommst +EG Glückspunkte. Für je +2 EG erhältst du +1 zusätzlichen Glückspunkt. Alle nicht verwendeten Punkte verfallen am Ende der Dauer.</p>"
+		},
+		{
+			"id": "The Third Portent of Amul",
+			"name": "Das Dritte Zeichen Amuls",
+			"description": "<p>Zauberwert: 12<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Initiative-Bonus Runden<br>Du erhältst +1 Schicksalsspunkt. Wenn dieser Schicksalspunkt am Ende der Dauer noch nicht verbraucht wurde, verfällt er.</p>"
+		},
+		{
+			"id": "Transmutation of Chamon",
+			"name": "Transmutation des Chamon",
+			"description": "<p>Zauberwert: 12<br>Reichweite: Willenskraft Schritt<br>Ziel: Wirkungsbereich (WK-Bonus Schritt)<br>Dauer: WK-Bonus Runden<br>Du reißt Chamon aus dem von deinen Gegnern getragenen Metall und dem Boden selbst, und verwandelst das Fleisch deiner Feinde kurzzeitig in Metall. Dies ist ein magisches Geschoss, das alle im Wirkungsbereich trifft und Schaden in Höhe deines Willenskraft-Bonus verursacht; der Zauber ignoriert den Widerstands-Bonus und verursacht je +1 Betäubt-, Ertaubt- und Geblendet-Zustand, die alle für die Dauer des Zaubers anhalten. Alle betroffenen Ziele erhalten durch das sie einhüllende Gold +1 Rüstungspunkt, leiden jedoch auch unter Erstickung (siehe Seite 181). Wenn Ziele sterben, während der Zauber wirkt, bleiben sie als makabre Erinnerung an die Gefahren der Zauberei permanent in einer Hülle aus Gold eingeschlossen.</p>"
+		},
+		{
+			"id": "Treason of Tzeentch",
+			"name": "Verrat des Tzeentch",
+			"description": "<p>Zauberwert: 6<br>Reichweite: Willenskraft Schritt<br>Ziel: 1<br>Dauer: Willenskraft-Bonus Runden<br>Du kanalisierst feine Bande verräterischer Vermischungen der Winde der Magie direkt in den Geist deines Zieles und schürst die Feuer der Unzufriedenheit. Das Ziel kann nicht länger Talente nutzen und addiert seine Fähigkeits-Steigerungen nicht, was bedeutet, dass das Ziel nur noch auf Basis seiner unmodifizierten Spielwerte würfelt.</p>"
+		},
+		{
+			"id": "Twitch",
+			"name": "Verschieben",
+			"description": "<p>Zauberwert: 0<br>Reichweite: Willenskraft-Bonus Schritte<br>Ziel: Speziell<br>Dauer: Sofort<br>Du bringst ein kleines Objekt dazu, sich leicht zu bewegen. Etwas könnte aus einem Regal fallen oder ein offenes Buch könnte sich schlagartig selbst schließen. Wenn das Objekt festgehalten wird, muss der Haltende einen durchschnittlichen (+20) Geschicklichkeits-Wurf bestehen, oder er lässt es fallen.</p>"
+		},
+		{
+			"id": "Vanhel's Call",
+			"name": "Vanhels Ruf",
+			"description": "<p>Zauberwert: 6<br>Reichweite: Willenskraft Schritt<br>Ziel: Speziell<br>Dauer: Sofort<br>Du manipulierst den komplexen Fluss des Dhar in deinen Zielen und erfüllst sie mit überwältigender Energie. Intelligenz-Bonus Ziele mit der Eigenschaft Untot erhalten eine freie Bewegungsaktion oder eine freie Handlung – du wählst entweder das eine oder das andere für alle Ziele gemeinsam – die genau in dem Moment ausgeführt wird, wenn dieser Zauber gewirkt wurde. Für je +2 EG darfst du Intelligenz-Bonus Ziele zusätzlich erfüllen.</p>"
+		},
+		{
+			"id": "Ward",
+			"name": "Schutz",
+			"description": "<p>Zauberwert: 5<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft-Bonus Runden<br>Du umhüllst dich mit schützender Magie und erhältst die Kreaturen-Eigenschaft Protection (9+) (siehe Seite 342).</p>"
+		},
+		{
+			"id": "Ward (Beasts)",
+			"name": "Schutz (Bestien)",
+			"description": "<p>Zauberwert: 5<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft-Bonus Runden<br>Du umhüllst dich mit schützender Magie und erhältst die Kreaturen-Eigenschaft Protection (9+) (siehe Seite 342).</p>"
+		},
+		{
+			"id": "Ward (Daemonology)",
+			"name": "Schutz (Dämonologie)",
+			"description": "<p>Zauberwert: 5<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft-Bonus Runden<br>Du umhüllst dich mit schützender Magie und erhältst die Kreaturen-Eigenschaft Protection (9+) (siehe Seite 342).</p>"
+		},
+		{
+			"id": "Ward (Death)",
+			"name": "Schutz (Tod)",
+			"description": "<p>Zauberwert: 5<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft-Bonus Runden<br>Du umhüllst dich mit schützender Magie und erhältst die Kreaturen-Eigenschaft Protection (9+) (siehe Seite 342).</p>"
+		},
+		{
+			"id": "Ward (Fire)",
+			"name": "Schutz (Feuer)",
+			"description": "<p>Zauberwert: 5<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft-Bonus Runden<br>Du umhüllst dich mit schützender Magie und erhältst die Kreaturen-Eigenschaft Protection (9+) (siehe Seite 342).</p>"
+		},
+		{
+			"id": "Ward (Heavens)",
+			"name": "Schutz (Himmel)",
+			"description": "<p>Zauberwert: 5<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft-Bonus Runden<br>Du umhüllst dich mit schützender Magie und erhältst die Kreaturen-Eigenschaft Protection (9+) (siehe Seite 342).</p>"
+		},
+		{
+			"id": "Ward (Life)",
+			"name": "Schutz (Leben)",
+			"description": "<p>Zauberwert: 5<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft-Bonus Runden<br>Du umhüllst dich mit schützender Magie und erhältst die Kreaturen-Eigenschaft Protection (9+) (siehe Seite 342).</p>"
+		},
+		{
+			"id": "Ward (Light)",
+			"name": "Schutz (Licht)",
+			"description": "<p>Zauberwert: 5<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft-Bonus Runden<br>Du umhüllst dich mit schützender Magie und erhältst die Kreaturen-Eigenschaft Protection (9+) (siehe Seite 342).</p>"
+		},
+		{
+			"id": "Ward (Metal)",
+			"name": "Schutz (Metall)",
+			"description": "<p>Zauberwert: 5<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft-Bonus Runden<br>Du umhüllst dich mit schützender Magie und erhältst die Kreaturen-Eigenschaft Protection (9+) (siehe Seite 342).</p>"
+		},
+		{
+			"id": "Ward (Necromancy)",
+			"name": "Schutz (Nekromantie)",
+			"description": "<p>Zauberwert: 5<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft-Bonus Runden<br>Du umhüllst dich mit schützender Magie und erhältst die Kreaturen-Eigenschaft Protection (9+) (siehe Seite 342).</p>"
+		},
+		{
+			"id": "Ward (Shadow)",
+			"name": "Schutz (Schatten)",
+			"description": "<p>Zauberwert: 5<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft-Bonus Runden<br>Du umhüllst dich mit schützender Magie und erhältst die Kreaturen-Eigenschaft Protection (9+) (siehe Seite 342).</p>"
+		},
+		{
+			"id": "Warning",
+			"name": "Warnung",
+			"description": "<p>Zauberwert: 0<br>Reichweite: 1 Schritt<br>Ziel: Speziell<br>Dauer: Sofort<br>Du leitest Magie in ein Objekt und bemerkst sofort, ob es vergiftet oder mit einer Falle versehen wurde.</p>"
+		},
+		{
+			"id": "Wyssan’s Wildform",
+			"name": "Wyssans Tiergestalt",
+			"description": "<p>Zauberwert: 8<br>Reichweite: Du selbst<br>Ziel: Du selbst<br>Dauer: Willenskraft-Bonus Runden<br>Du rufst die wilde Macht des Ghur herbei, damit sie dich erfüllt und gibst dich ihrer Wildheit hin. Du erhältst die folgenden Kreaturen-Eigenschaften (siehe Seite 338): Angst (1), Biss (Stärke-Bonus +1), Gewaltig, Kampflustig, Magisch, Rüstung (2), Waffe (Stärke-Bonus +2), Waldbewohner, Zorn. Während dieser Zauber wirkt, bist du nicht in der Lage eine Sprache-oder Wissen-Fähigkeit einzusetzen.</p>"
+		}
+	]
+}
