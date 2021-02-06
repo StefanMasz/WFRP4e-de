@@ -1,0 +1,105 @@
+{
+  "name": "Kritische Beinverletzungen",
+  "die": "1d100",
+  "rows": [{
+    "name": "Verstauchter Zeh",
+    "wounds": "1",
+    "description": "Im Getümmel wird dir der Zeh angeschlagen. Du musst einen durchschnittlichen (+20) Ausdauer-Wurf bestehen, oder du erhältst bis zum Ende der nächsten Runde -10 auf Gewandtheits-Würfe.",
+    "range": [1, 10]
+  }, {
+    "name": "Verdrehter Knöchel",
+    "wounds": "1",
+    "description": "Du stolperst und vertrittst dir schmerzhaft den Knöchel. Du erhältst für 1W10 Runden -10 auf Gewandtheits-Würfe.",
+    "range": [11, 20]
+  }, {
+    "name": "Kleiner Schnitt",
+    "wounds": "1",
+    "description": "Du erhältst 1 Blutend-Zustand.",
+    "range": [21, 25]
+  }, {
+    "name": "Aus dem Tritt",
+    "wounds": "1",
+    "description": "Du gerätst im Getümmel aus dem Tritt und ins Taumeln. Du musst einen herausfordernden (+0) Ausdauer-Wurf bestehen, oder du erhältst den Zustand Niedergestreckt.",
+    "range": [26, 30]
+  }, {
+    "name": "Oberschenkeltreffer",
+    "wounds": "2",
+    "description": "Ein schmerzhafter Treffer erwischt deinen Oberschenkel. Du erhältst 1 Blutend-Zustand und musst einen durchschnittlichen (+20) Ausdauer-Wurf bestehen, oder du stolperst und erhältst den Zustand Niedergestreckt.",
+    "range": [31, 35]
+  }, {
+    "name": "Verstauchter Knöchel",
+    "wounds": "2",
+    "description": "Du verstauchst dir den Knöchel und erleidest die Verletzung Muskelriss (leicht).",
+    "range": [36, 40]
+  }, {
+    "name": "Verdrehtes Knie",
+    "wounds": "2",
+    "description": "Du verdrehst das Knie deutlich zu weit und erhältst für 1W10 Runden -20 auf Gewandtheits-Würfe.",
+    "range": [41, 45]
+  }, {
+    "name": "Übler Schnitt im Zeh",
+    "wounds": "2",
+    "description": "Du erhältst 1 Blutend-Zustand. Nach der Begegnung musst du einen herausfordernden (+0) Ausdauer-Wurf bestehen, oder du verlierst einen Zeh – Amputation (durchschnittlich).",
+    "range": [46, 50]
+  }, {
+    "name": "Böser Schnitt",
+    "wounds": "3",
+    "description": "An deinem Schienbein öffnet sich ein tiefer Schnitt. Du erhältst 2 Blutend-Zustände und musst einen herausfordernden (+0) Ausdauer-Wurf bestehen, oder du erhältst den Zustand Niedergestreckt.",
+    "range": [51, 55]
+  }, {
+    "name": "Übel verdrehtes Knie",
+    "wounds": "3",
+    "description": "Im Bemühen, deinem Gegner auszuweichen, verdrehst du dir übel das Knie. Du erleidest die Verletzung Muskelriss (schwer).",
+    "range": [56, 60]
+  }, {
+    "name": "Hieb in das Bein",
+    "wounds": "3",
+    "description": "Der Treffer dringt in Hüfthöhe tief in das Bein ein. Du erhältst 2 Blutend-Zustände, den Zustand Niedergestreckt und erleidest die Verletzung Knochenbruch (leicht). Zudem musst du einen schweren (-20) Ausdauer-Wurf bestehen, oder du erhältst durch die Schmerzen den Zustand Betäubt.",
+    "range": [61, 65]
+  }, {
+    "name": "Aufgerissener Oberschenkel",
+    "wounds": "3",
+    "description": "Die Waffe schlitzt dir den Oberschenkel auf. Du erhältst 3 Blutend-Zustände und musst einen herausfordernden (+0) Ausdauer-Wurf bestehen, oder du erhältst zusätzlich den Zustand Niedergestreckt. Bis die Wunde mit Chirurgie genäht wurde, verursacht jeder weitere Treffer an diesem Bein zusätzlich 1 Blutend-Zustand.",
+    "range": [66, 70]
+  }, {
+    "name": "Gerissene Sehne",
+    "wounds": "4",
+    "description": "Du erhältst 1 Betäubt- und den Niedergestreckt-Zustand, als eine deiner Sehnen schmerzhaft reißt und musst einen schweren (-20) Ausdauer-Wurf bestehen, oder du erhältst zusätzlich den Zustand Bewusstlos. Dein Bein ist nutzlos (siehe Amputierte Körperteile) und du erleidest die Verletzung Muskelriss (schwer).",
+    "range": [71, 75]
+  }, {
+    "name": "Schienbeintreffer",
+    "wounds": "4",
+    "description": "Die Waffe schneidet dicht unter dem Knie tief durch Knochen und Sehnen. Du erhältst 1 Betäubt- und den Niedergestreckt-Zustand. Zusätzlich erleidest du die Verletzungen Knochenbruch (leicht) und Muskelriss (schwer).",
+    "range": [76, 80]
+  }, {
+    "name": "Gebrochenes Knie",
+    "wounds": "4",
+    "description": "Der Hieb erwischt deine Kniescheibe und lässt sie zu kleinen Stücken zersplittern. Du erhältst 1 Blutend-, 1 Betäubt- sowie den Niedergestreckt-Zustand und die Verletzung Knochenbruch (leicht), um dann am Boden liegend dein verletztes Bein zu umklammern.",
+    "range": [81, 85]
+  }, {
+    "name": "Ausgerenktes Knie",
+    "wounds": "4",
+    "description": "Dein Knie wird aus dem Gelenk gedreht und das Bein gilt als nutzlos. Du erhältst den Niedergestreckt-Zustand und musst einen schweren (-20) Ausdauer-Wurf bestehen, oder du erhältst zusätzlich den Zustand Betäubt, der bis zu medizinischer Versorgung anhält. Nach der ersten medizinischen Versorgung ist ein Erweiterter durchschnittlicher (+20) Heilen-Wurf nötig, der 6 EG benötigt, um das Knie wieder einzurenken, und es wieder nutzbar zu machen. 1W10 Tage lang ist deine Bewegung halbiert und Würfe, die dieses Bein erfordern, werden mit -10 durchgeführt.",
+    "range": [86, 90]
+  }, {
+    "name": "Zerschmetterter Fuß",
+    "wounds": "5",
+    "description": "Der Treffer zerschmettert deinen Fuß. Du musst einen schweren (-20) Ausdauer-Wurf bestehen oder du erhältst den Zustand Niedergestreckt und verlierst 1 Zeh, plus einen zusätzlichen Zeh für jeden EG unter 0 – Amputation (durchschnittlich). Du erhältst 2 Blutend-Zustände. Wenn du nicht binnen 1W10 Tagen mittels Chirurgie behandelt wirst, verlierst du den Fuß vollständig.",
+    "range": [91, 93]
+  }, {
+    "name": "Abgetrennter Fuß",
+    "wounds": "5",
+    "description": "Dein Fuß wird am Knöchel abgetrennt und landet 1W10 Fuß weit in Zufallsrichtung (siehe Abweichung) – Amputation (schwer). Du erhältst 3 Blutend- und 2 Betäubt-Zustände und den Niedergestreckt-Zustand.",
+    "range": [94, 96]
+  }, {
+    "name": "Zerteilter Muskel",
+    "wounds": "5",
+    "description": "Eine großer Muskelstrang auf der Rückseite deines Oberschenkels wird gekappt und lässt dich aufbrüllen, als das Bein unter dir zusammenbricht. Du erhältst 2 Blutend- und 2 Betäubt-Zustände sowie den Niedergestreckt-Zustand und starrst in blankem Entsetzen auf dein Bein, das dich nie mehr tragen wird – Amputation (sehr schwer).",
+    "range": [97, 99]
+  }, {
+    "name": "Bassin fracassé",
+    "wounds": "Tod",
+    "description": "Der Schlag schmettert durch dein Becken, trennt ein Bein ab und schlägt bis tief in das zweite. Du stirbst sofort durch das Wundtrauma.",
+    "range": [100, 100]
+  }]
+}
