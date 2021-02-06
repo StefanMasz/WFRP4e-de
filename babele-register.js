@@ -83,7 +83,34 @@ Hooks.on('init', () => {
 			  }
 			}
 			return talents_list;      
+			},
+			// Search back in careers the translated name of the group (as it is the name of the level career itself)
+			"career_careergroup": (value) => {
+				var compendium = game.packs.find(p => p.collection === compmod+'.careers');
+				return compendium.i18nName( { name: value } );
+			},
+			"trapping_qualities_flaws": (value) => {
+				if ( value ) {
+					var list = value.split( "," );
+					var i=0;
+					var re  = /(.*) (\d+)/i;
+					for (i=0; i<list.length; i++) {
+						let trim = list[i].trim();
+						if ( trim == "Trap Blade") {
+							trim = "TrapBlade"; // Auto-patch, without space!
+							//console.log("PATCHED", trim);
+						}
+						var splitted = re.exec( trim );
+						if ( splitted ) {
+							list[i] = game.i18n.localize( splitted[1] ) + " " + splitted[2];
+						} else {
+							list[i] = game.i18n.localize( trim ) ;
+						}
+					}
+					return list.toString();
+				}
 			}
+
 		});
     }
 });
