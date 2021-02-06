@@ -1,16 +1,17 @@
 {
-	"label": "Ausrüstung",  
-	"mapping": {      
-    "special":  "data.special.value",
-    "qualities": {
-      "path": "data.qualities.value",
-      "converter": "trapping_qualities_flaws"
-    },
-    "flaws": {
-      "path": "data.flaws.value",
-      "converter": "trapping_qualities_flaws"
-    }
-  },
+	"label": "Ausrüstung",
+	"mapping": {
+		"special":  "data.special.value",
+		"qualities": {
+		  "path": "data.qualities.value",
+		  "converter": "trapping_qualities_flaws"
+		},
+		"flaws": {
+		  "path": "data.flaws.value",
+		  "converter": "trapping_qualities_flaws"
+		},
+		"penalty": "data.penalty.value"
+  	},
 	"entries": [
 		{
 			"id": "Abacus",
@@ -835,7 +836,8 @@
 		},
 		{
 			"id": "Plate Leggings",
-			"name": "Plattenbeine"
+			"name": "Plattenbeine",
+			"penalty": "-10 Schleichen"
 		},
 		{
 			"id": "Pole (3 yards)",
