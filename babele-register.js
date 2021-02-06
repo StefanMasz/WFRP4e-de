@@ -109,8 +109,46 @@ Hooks.on('init', () => {
 					}
 					return list.toString();
 				}
+			},
+			// Auto-translate duration
+			"spells_duration_range_target_damage": (value) => {
+				//console.log("Spell duration/range/damage/target :", value);
+				if ( value == "" ) return ""; // Hop !
+				if ( value == "Touch" ) return "Berührung"; // Hop !
+				if ( value == "You" ) return "Du selbst"; // Hop !
+				if ( value == "Instant" ) return "Sofort"; // Hop !
+				var translw = value;
+				var re  = /(.*) Bonus (\w*)/i;
+				var res = re.exec( value );
+				var unit = "";
+				if ( res ) { // Test "<charac> Bonus <unit>" pattern
+					if ( res[1] ) { // We have char name, then convert it
+						translw = "Bonus " + game.i18n.localize(  res[1].trim()  );
+					}
+					unit = res[2];
+				} else {
+					re = /(\d+) (\w+)/i;
+					res = re.exec( value );
+					if (res) { // Test : "<number> <unit>" pattern
+						translw  = res[1];
+						unit = res[2];
+					} else { // Test
+						re = /(\w+) (\w+)/i;
+						res = re.exec( value );
+						if (res) { // Test : "<charac> <unit>" pattern
+							translw  = game.i18n.localize( res[1].trim() );
+							unit = res[2];
+						}
+					}
+				}
+				if ( unit == "hour") unit = "Stunde";
+				if ( unit == "hours") unit = "Stunden";
+				if ( unit == "days") unit = "Tage";
+				if ( unit == "yard") unit = "meter";
+				if ( unit == "yards") unit = "meter";
+				translw += " " + unit;
+				return translw;
 			}
-
 		});
     }
 });

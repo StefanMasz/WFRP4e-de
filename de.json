@@ -365,6 +365,9 @@
     "Negative SL Possible" : "Mögliche Negativ-EG",
     "Failing Decreases Progress" : "Failing Decreases Progress",
 	"Language" : "Sprache",
+    "CastSkill" : "Wirkungsfähigkeit",
+
+    "Difficulty": "Schwierigkeitsgrad",
 	
 	"Academics": "Akademiker",
 	"Burgher": "Bürger",
@@ -407,7 +410,7 @@
     "DIALOG.TalentBonusTT" : "Liste möglicher Talent-Boni",
     "DIALOG.RollMode" : "Würfel-Modus",
     "DIALOG.Extensions" : "Erweiterungen",
-    "DIALOG.CastSkill" : "Cast Skill",
+    "DIALOG.CastSkill" : "Wirkungsfähigkeit",
     "DIALOG.HitLocation" : "Beinhaltet einen Wurf auf der Treffenzonen-Tabelle",
     "DIALOG.TableModifier" : "Modifikator-Tabelle",
     "DIALOG.Min1" : "Mindestens 1",
