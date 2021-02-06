@@ -3,7 +3,7 @@
 	"entries": [
 		{
 			"id": "# Tentacles",
-			"name": "# Tentakel (Wert)",
+			"name": "# Tentakel",
 			"description": "<p>Die Kreatur hat eine # entsprechende Anzahl von Tentakeln. Pro Tentakel erhält sie eine einzelne Freie Attacke. Jede Attacke eines Tentakels richtet Schaden in Höhe des Wertes an, wobei der Stärke-Bonus bereits einberechnet ist. Wenn sie Schaden verursacht, kann die Kreatur bei ihrem Gegner auch einen Gefesselt-Zustand verursachen, der als Einleiten eines Packens des Zieles mit diesem Tentakel gilt. Wenn ein Tentakel ein Ziel packt, dann wird zur Abhandlung die Freie Attacke des Tentakels verwendet, nicht die Handlung der Kreatur (siehe Seite 338).</p>"
 		},
 		{
@@ -13,7 +13,7 @@
 		},
 		{
 			"id": "Afraid",
-			"name": "Furcht (Ziel)",
+			"name": "Furcht",
 			"description": "<p>Die Kreatur fürchtet sich vor dem Ziel und behandelt es, als würde es Angst (0) verbreiten. Mehr zu Angst auf Seite 190.</p>"
 		},
 		{
@@ -23,7 +23,7 @@
 		},
 		{
 			"id": "Animosity",
-			"name": "Feindseligkeit (Ziel)",
+			"name": "Feindseligkeit",
 			"description": "<p>Die Kreatur mag das Ziel nicht. Mehr zu Feindseligkeit auf Seite 190.</p>"
 		},
 		{
@@ -33,7 +33,7 @@
 		},
 		{
 			"id": "Armour",
-			"name": "Rüstung (Wert)",
+			"name": "Rüstung",
 			"description": "<p>Die Kreatur wird durch Rüstung oder dicke Haut geschützt. Sie hat eine Rüstungspunkte in Höhe des Wertes an allen Treffzonen.</p>"
 		},
 		{
@@ -68,7 +68,7 @@
 		},
 		{
 			"id": "Breath",
-			"name": "Odem Wert (Art)",
+			"name": "Odem",
 			"description": "<p>Der Atem der Kreatur ist eine mächtige Waffe. Während ihres Zuges, kann die Kreatur für den Preis von 2 Vorteilen ihren Odem als eine einzelne Freie Attacke einsetzen. Wähle 1 Ziel, das sich innerhalb von 20+Widerstands-Bonus Metern in Sichtlinie befindet. Alle Charaktere innerhalb einer Distanz von Stärke-Bonus Meter um dieses Ziel, sowie alle Charaktere zwischen der Kreatur und ihrem Ziel werden getroffen. Führe einen Vergleichenden Ballistische Fertigkeit/Ausweichen-Wurf gegen alle betroffenen Ziele durch (die Kreatur würfelt nur einmal, während die Ziele jedes für sich werfen). Alle Ziele, deren Wurf misslingt, erleiden Schaden in Höhe des Wertes. Wenn die Eigenschaft mit einer oder mehreren Arten in Klammern gekennzeichnet ist, kommen zusätzlich noch deren Regeln zur Anwendung.</p><ul><li>Elektrizität: Schaden durch den Odem ignoriert Rüstungspunkte.Ziele erhalten einen Betäubt- Zustand.</li><li>Feuer: Schaden durch den Odem ignoriert Rüstungspunkte. Ziele erhalten einen Brennend-Zustand.</li><li>Gift: Schaden durch den Odem ignoriert Rüstungspunkte, Ziele erhalten einen Vergiftet-Zustand.</li><li>Kälte: Ziele erhalten für jede 5 verlorene LP einen Betäubt-Zustand (mindestens 1).</li><li>Korrosion: Alle von betroffenen Zielen getragenen Rüstungen und Waffen erleiden 1 Schaden.</li><li>Rauch: Der Bereich füllt sich mit Rauch und blockiert die Sichtlinien für eine Anzahl von Runden, die dem Widerstands-Bonus entspricht</li></ul><p>Die Kreatur ist immun gegen ihren eigenen Odem. Diese Attacke ist magisch.</p>"
 		},
 		{
@@ -113,7 +113,7 @@
 		},
 		{
 			"id": "Corruption",
-			"name": "Korrumpierend (Stärke)",
+			"name": "Korrumpierend",
 			"description": "<p>Die Kreatur ist vom Chaos befleckt oder von Schwarzer Magie erfüllt. Die Stärke der Korrumpierenden Einflusses ist in Klammern angegeben. Siehe Seite 182.</p>"
 		},
 		{
@@ -123,7 +123,7 @@
 		},
 		{
 			"id": "Daemonic",
-			"name": "Dämonisch (Wert)",
+			"name": "Dämonisch",
 			"description": "<p>Die Essenz der Kreatur besteht aus roher Magie, und die unheilige Säfte pumpen durch das, was ihre Adern darstellt. Dämonische Kreaturen sind nicht auf die normalen Voraussetzungen von Leben angewiesen, also auf Nahrung, Wasser, Luft etc.</p><p>Alle Attacken sind magisch. Würfle 1W10, nachdem sie irgendeinem Treffer erhalten hat. Wenn sie den Wert oder höher würfelt, wird der Treffer ignoriert, selbst wenn er kritisch war. Wenn die Kreatur auf 0 LP reduziert wird, kehrt die Essenz sofort in das Reich des Chaos zurück und sie wird aus dem Spiel entfernt.</p>"
 		},
 		{
@@ -138,7 +138,7 @@
 		},
 		{
 			"id": "Disease",
-			"name": "Krankheit (Typ)",
+			"name": "Krankheit",
 			"description": "<p>Die Kreatur ist Überträger der angegebenen Krankheit. Andere müssen entsprechend für Ansteckung würfeln. Siehe Seite 186.</p>"
 		},
 		{
@@ -163,12 +163,12 @@
 		},
 		{
 			"id": "Fear",
-			"name": "Angst (Wert)",
+			"name": "Angst",
 			"description": "<p>Die Kreatur verursacht übernatürliche Angst in anderen Kreaturen, wobei der Wert den Angst-Wert angibt. Siehe Seite 190</p>"
 		},
 		{
 			"id": "Flight",
-			"name": "Fliegen (Wert)",
+			"name": "Fliegen",
 			"description": "<p>Als Bewegungsaktion kann die Kreatur bis zu dem Wert in Metern weit fliegen. Während des Fluges werden im Weg befindliches Gelände, Hindernisse oder Charaktere ignoriert. Am Ende ihrer Bewegungsaktion entscheidet die Kreatur, ob sie landet oder weiterfliegt. Sie kann diese Bewegung zum Sturmangriff nutzen. Wenn sie ihren Zug fliegend beginnt, muss sie als Bewegungsaktion fliegen wählen. Wenn dies nicht möglich ist, entscheidet der SL, wie tief die Kreatur fällt (siehe Seite 166).</p><p>Wenn die Kreatur im Flug als Ziel gewählt wird, bestimmst du die horizontale Entfernung wie gewohnt und erhöhst dann die Entfernung um eine Stufe. Aus einem Schuss mit Langer Reichweite würde also einer mit Extremer Reichweite werden und wenn es ein Schuss mit Extremer Reichweite ist, der um eine Entfernungsstufe gesteigert werden muss, kann überhaupt nicht geschossen werden.</p><p>Beim Fliegen erleidet die Kreatur einen Abzug von -20 auf alle Würfe für Fernangriffe, da das Fliegen ständige Bewegung und Manöver erfordert.</p>"
 		},
 		{
@@ -193,12 +193,12 @@
 		},
 		{
 			"id": "Hatred",
-			"name": "Hass (Ziel)",
+			"name": "Hass",
 			"description": "<p>Die Kreatur hasst das Ziel wirklich. Siehe Hass auf Seite 190.</p>"
 		},
 		{
 			"id": "Horns (Feature)",
-			"name": "Hörner Wert (Form)",
+			"name": "Hörner",
 			"description": "<p>Die Kreatur hat Hörner oder andere scharfen Auswüchse (wenn ihre Eigenschaft Hörner eigentlich etwas anderes beschreibt, wird dies in Klammern angegeben). Sie kann 1 Vorteil ausgeben, um mit ihren Hörnern eine einzelne Freie Attacke durchführen, die wie üblich ausgeführt wird, wobei der Wert zur Berechnung des Schadens verwendet wird (der Stärke-Bonus ist bereits enthalten).</p>"
 		},
 		{
@@ -213,7 +213,7 @@
 		},
 		{
 			"id": "Immunity",
-			"name": "Immunität (Typ)",
+			"name": "Immunität",
 			"description": "<p>Die Kreatur ist völlig immun gegen bestimmte Arten von Schaden, seien es Gift, Magie oder Elektrizität. Jeglicher Schaden dieser Art, einschließlich durch eine Kritische Verletzung, wird ignoriert.</p>"
 		},
 		{
@@ -238,7 +238,7 @@
 		},
 		{
 			"id": "Magic Resistance",
-			"name": "Magieresistenz (Wert)",
+			"name": "Magieresistenz",
 			"description": "<p>Magie hat auf die Kreatur nur einen reduzierten Effekt. Der EG jedes Zaubers, der auf sie wirkt, wird um den angegebenen Wert verringert. So würde Magieresistenz (2) den EG um 2 reduzieren.</p>"
 		},
 		{
@@ -253,7 +253,7 @@
 		},
 		{
 			"id": "Miracles",
-			"name": "Wunder (Verschiedene)",
+			"name": "Wunder",
 			"description": "<p>Die Kreatur kann Wunder wirken. Die betreffende Gottheit ist in Klammern angegeben.</p>"
 		},
 		{
@@ -278,22 +278,22 @@
 		},
 		{
 			"id": "Prejudice",
-			"name": "Vorurteil (Ziel)",
+			"name": "Vorurteil",
 			"description": "<p>Die Kreatur mag das Ziel einfach nicht. Auf Seite 191 findest du Regeln zu Vorurteilen.</p>"
 		},
 		{
 			"id": "Ranged (Range)",
-			"name": "Fernkampf Wert (Reichweite)",
+			"name": "Fernkampfwert",
 			"description": "<p>Die Kreatur hat eine Fernkampfwaffe. Die Waffe verursacht Schaden in Höhe des Wertes, und die Reichweite in Metern ist in den Klammern angegeben.</p>"
 		},
 		{
 			"id": "Ranged Weapon",
-			"name": "Fernkampf Wert (Reichweite)",
+			"name": "Fernkampfwert",
 			"description": "<p>Die Kreatur hat eine Fernkampfwaffe. Die Waffe verursacht Schaden in Höhe des Wertes, und die Reichweite in Metern ist in den Klammern angegeben.</p>"
 		},
 		{
 			"id": "Ranged",
-			"name": "Fernkampf Wert (Reichweite)",
+			"name": "Fernkampfwert",
 			"description": "<p>Die Kreatur hat eine Fernkampfwaffe. Die Waffe verursacht Schaden in Höhe des Wertes, und die Reichweite in Metern ist in den Klammern angegeben.</p>"
 		},
 		{
@@ -308,7 +308,7 @@
 		},
 		{
 			"id": "Size",
-			"name": "Größe (Verschieden)",
+			"name": "Größe",
 			"description": "<p>Dieses Merkmal repräsentiert Kreaturen, deren Körpergröße und -masse sich vom Spielstandard (also von ungefähr menschlicher Größe) unterscheidet. Es gibt sieben Größenstufen, die von Winzig bis Monströs reichen.</p><table><tr><th>Größe</th><th>Beispiele</th></tr><tr><td>Winzig</td><td>Maus, Schmetterling, Taube</td></tr><tr><td>Klein</td><td>Falke, Katze, menschliches Kleinkind</td></tr><tr><td>Zierlich</td><td>Halbling, menschliches Kind, Riesenratte</td></tr><tr><td>Normal</td><td>Elf, Mensch, Zwerg</td></tr><tr><td>Groß</td><td>Oger, Pferd, Troll</td></tr><tr><td>Enorm</td><td>Greif, Lindwurm, Mantikor</td></tr><tr><td>Monströs</td><td>Dämonenprinz, Drache, Riese</td></tr></table>"
 		},
 		{
@@ -318,7 +318,7 @@
 		},
 		{
 			"id": "Spellcaster",
-			"name": "Zauberer (Verschiedene)",
+			"name": "Zauberer",
 			"description": "<p>Die Kreatur kann Magie wirken; die genaue Lehre der Magie wird in Klammern angegeben.</p>"
 		},
 		{
@@ -348,7 +348,7 @@
 		},
 		{
 			"id": "Tail Attack",
-			"name": "Schwanzhieb (Wert)",
+			"name": "Schwanzhieb",
 			"description": "<p>Der Schwanz der Kreatur kann Feinde von ihren Füßen fegen. Sie kann eine einzelne Freie Attacke durchführen, indem sie 1 Vorteil ausgibt. Der Schwanz richtet Schaden in Höhe des Wertes an, wobei der Stärke-Bonus bereits einberechnet ist. Gegner mit einer geringeren Größe als die Kreatur, die durch die Attacke LP verlieren, erhalten zudem den Niedergestreckt-Zustand.</p>"
 		},
 		{
@@ -358,17 +358,17 @@
 		},
 		{
 			"id": "Terror",
-			"name": "Entsetzen (Wert)",
+			"name": "Entsetzen",
 			"description": "<p>Die Kreatur verursacht auf übernatürliche Art bei anderen Kreaturen eiskaltes Entsetzen, mit einem Wert, der der Angabe in Klammern entspricht. Siehe Seite 190.</p>"
 		},
 		{
 			"id": "Tongue Attack (Range)",
-			"name": "Zungenattacke Wert (Reichweite)",
+			"name": "Zungenattacke",
 			"description": "<p>Die lange und bewegliche Zunge der Kreatur kann sich um deren Beute wickeln und sie ihrem grausamen Ende entgegenziehen. Sie kann eine einzelne Freie Attacke durchführen, indem sie 1 Vorteil ausgibt. Dies ist eine Fernkampfattacke, die Schaden in Höhe des Wertes verursacht (die Reichweite ist in Klammern angegeben). Wenn die Attacke getroffen hat, erhält das Ziel 1 Gefesselt-Zustand, und falls es bezüglich der Größe kleiner als die Kreatur ist, wird es in deren Richtung gezogen und ist mit dieser im Nahkampf gebunden. Die Kreatur kann dann entscheiden, ob sie das Ziel freigibt, eine Freie Attacke mittels einer ihrer WaffenEigenschaft ausführt oder das Ziel in der Zunge behält und es richtig zu packen versucht (siehe Seite 163).</p>"
 		},
 		{
 			"id": "Tongue Attack",
-			"name": "Zungenattacke Wert (Reichweite)",
+			"name": "Zungenattacke",
 			"description": "<p>Die lange und bewegliche Zunge der Kreatur kann sich um deren Beute wickeln und sie ihrem grausamen Ende entgegenziehen. Sie kann eine einzelne Freie Attacke durchführen, indem sie 1 Vorteil ausgibt. Dies ist eine Fernkampfattacke, die Schaden in Höhe des Wertes verursacht (die Reichweite ist in Klammern angegeben). Wenn die Attacke getroffen hat, erhält das Ziel 1 Gefesselt-Zustand, und falls es bezüglich der Größe kleiner als die Kreatur ist, wird es in deren Richtung gezogen und ist mit dieser im Nahkampf gebunden. Die Kreatur kann dann entscheiden, ob sie das Ziel freigibt, eine Freie Attacke mittels einer ihrer WaffenEigenschaft ausführt oder das Ziel in der Zunge behält und es richtig zu packen versucht (siehe Seite 163).</p>"
 		},
 		{
@@ -383,7 +383,7 @@
 		},
 		{
 			"id": "Trained",
-			"name": "Ausgebildet (Fähigkeit)",
+			"name": "Ausgebildet",
 			"description": "<p>Dieses Merkmal besitzen normalerweise Tiere, die mittels der Abrichten-Fähigkeit trainiert wurden. Die Fähigkeiten, die das Tier danach kennt, sind in den Klammern angegeben. Fühle dich frei, hier bei Bedarf eigene Fähigkeiten zu entwickeln.</p><p><br/><strong>Apportieren:</strong> Das Tier ist darauf trainiert, zu apportieren. Dies ist normalerweise Hunden oder vergleichbaren Tieren vorbehalten.<br/><strong>Bewachen:</strong> Das Tier ist darauf trainiert, an einem Ort zu bleiben oder als dessen Wächter umherzustreifen, wodurch es die Eigenschaft Territorial erhält.<br/><strong>Heimfinden:</strong> Das Tier ist darauf trainiert, selbstständig nach Hause zurückzukehren, wenn es freigelassen wird oder verloren geht.<br/><strong>Magie:</strong> Das Tier ist darauf trainiert, Scheu zu ignorieren, wenn es um Magie geht, was für die meisten von Zauberern verwendeten Pferde erforderlich ist.<br/><strong>Reittier:</strong> Das Tier akzeptiert einen Reiter. Einige Kreaturen sind besonders eigensinnig und akzeptieren keinen Reiter ohne die richtigen Fähigkeiten. Um zum Beispiel einen Greifen zu reiten, benötigst du die Fähigkeit Reiten (Greif ).<br/><strong>Unterhalten:</strong> Das Tier ist darauf trainiert, andere zu unterhalten. Dies sorgt bei entsprechenden Würfen für Unterhalten, Artistik oder Musizieren für einen Bonus von +10.<br/><strong>Kampf:</strong> Das Tier wurde für den Krieg ausgebildet und erhält +10 Kampfgeschick. Es kann auch Scheu ignorieren, wenn es um laute Geräusche geht.<br/><strong>Zahm:</strong> Das Tier ist darauf trainiert, seine Tierhaft-Eigenschaft zu ignorieren. Es erhält 2W10 Charisma.<br/><strong>Ziehen:</strong> Das Tier ist darauf trainiert, eine Kutsche, einen Wagen, einen Pflug, einen Karren oder Ähnliches zu ziehen.</p>"
 		},
 		{
@@ -403,7 +403,7 @@
 		},
 		{
 			"id": "Venom",
-			"name": "Giftig (Schwierigkeit)",
+			"name": "Giftig",
 			"description": "<p>Die Attacken der Kreatur sind giftig oder vergiftet. Wann immer es durch sie zu LP-Verlusten kommt, erhält der betroffene Gegner einen Vergiftet-Zustand. Wenn keine Schwierigkeit dafür angegeben ist, dem Gift zu widerstehen, gilt als Schwierigkeit Herausfordernd. Siehe Seite 169.</p>"
 		},
 		{
@@ -418,22 +418,22 @@
 		},
 		{
 			"id": "Ward",
-			"name": "Schutz (Wert)",
+			"name": "Schutz",
 			"description": "<p>Egal ob durch Magie, einen besonderen Talisman oder einfach nur Glück – sicher geglaubte Treffer scheinen die Kreatur manchmal einfach zu verfehlen. Würfle nach einem Treffer 1W10. Wenn die Kreatur den Schutz-Wert oder höher würfelt, wird der Treffer ignoriert, selbst wenn er kritisch ist.</p>"
 		},
 		{
 			"id": "Hand Weapon",
-			"name": "Waffe (Wert)",
+			"name": "Waffe",
 			"description": "<p>Die Kreatur trägt eine Nahkampfwaffe oder verwendet im Kampf Zähne, Krallen oder Ähnliches.</p><p>Die Waffe verursacht Schaden in Höhe ihres Wertes, der bereits den Stärke-Bonus der Kreatur beinhaltet. Normalerweise entspricht der Schaden 4 + Stärke-Bonus (den Werten einer Handwaffe).</p>"
 		},
 		{
 			"id": "Weapon",
-			"name": "Waffe (Wert)",
+			"name": "Waffe",
 			"description": "<p>Die Kreatur trägt eine Nahkampfwaffe oder verwendet im Kampf Zähne, Krallen oder Ähnliches.</p><p>Die Waffe verursacht Schaden in Höhe ihres Wertes, der bereits den Stärke-Bonus der Kreatur beinhaltet. Normalerweise entspricht der Schaden 4 + Stärke-Bonus (den Werten einer Handwaffe).</p>"
 		},
 		{
 			"id": "Web",
-			"name": "Netz (Wert)",
+			"name": "Netz",
 			"description": "<p>Die Kreatur kann ein Gewebe erschaffen, um unachtsame Feinde einzufangen. Immer wenn sie erfolgreich trifft, erhalten Gegner 1 Gefesselt-Zustand, wobei die Stärke der Fesselung dem Wert entspricht. Siehe Seite 169.</p>"
 		},
 		{

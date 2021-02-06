@@ -368,6 +368,14 @@
     "CastSkill" : "Wirkungsfähigkeit",
     "Extensions" : "Erweiterungen",
     "Difficulty": "Schwierigkeitsgrad",
+
+    "Tiny" : "Winzig",
+    "Little" : "Klein",
+    "Small" : "Zierlich",
+    "Average" : "Normal",
+    "Large" : "Groß",
+    "Enormous" : "Enorm",
+    "Monstrous" : "Monströs",
 	
 	"Academics": "Akademiker",
 	"Burgher": "Bürger",
