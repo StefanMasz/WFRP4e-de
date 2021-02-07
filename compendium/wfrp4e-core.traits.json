@@ -1,5 +1,11 @@
 {
 	"label": "Kreaturen-Eigenschaft",
+	"mapping": {
+		"effects": {
+			"path": "effects",
+			"converter": "effects"
+		}
+	},
 	"entries": [
 		{
 			"id": "# Tentacles",

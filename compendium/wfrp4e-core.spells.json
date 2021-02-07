@@ -1,23 +1,11 @@
 {
 	"label": "Zauber",
 	"mapping": {
-    "sduration": {
-      "path": "data.duration.value",
-      "converter": "spells_duration_range_target_damage"
-    },
-    "srange": {
-      "path": "data.range.value",
-      "converter": "spells_duration_range_target_damage"
-    },
-    "starget": {
-      "path": "data.target.value",
-      "converter": "spells_duration_range_target_damage"
-    },    
-    "sdamage": {
-      "path": "data.damage.value",
-      "converter": "spells_duration_range_target_damage"
-    }
-  },
+		"effects": {
+			"path": "effects",
+			"converter": "spells_effects"
+		}
+	},
   "entries": [
 		{
 			"id": "Acquiescence",

@@ -110,45 +110,6 @@ Hooks.on('init', () => {
 					return list.toString();
 				}
 			},
-			// Auto-translate duration
-			"spells_duration_range_target_damage": (value) => {
-				//console.log("Spell duration/range/damage/target :", value);
-				if ( value == "" ) return ""; // Hop !
-				if ( value == "Touch" ) return "Berührung"; // Hop !
-				if ( value == "You" ) return "Du selbst"; // Hop !
-				if ( value == "Instant" ) return "Sofort"; // Hop !
-				var translw = value;
-				var re  = /(.*) Bonus (\w*)/i;
-				var res = re.exec( value );
-				var unit = "";
-				if ( res ) { // Test "<charac> Bonus <unit>" pattern
-					if ( res[1] ) { // We have char name, then convert it
-						translw = "Bonus " + game.i18n.localize(  res[1].trim()  );
-					}
-					unit = res[2];
-				} else {
-					re = /(\d+) (\w+)/i;
-					res = re.exec( value );
-					if (res) { // Test : "<number> <unit>" pattern
-						translw  = res[1];
-						unit = res[2];
-					} else { // Test
-						re = /(\w+) (\w+)/i;
-						res = re.exec( value );
-						if (res) { // Test : "<charac> <unit>" pattern
-							translw  = game.i18n.localize( res[1].trim() );
-							unit = res[2];
-						}
-					}
-				}
-				if ( unit == "hour") unit = "Stunde";
-				if ( unit == "hours") unit = "Stunden";
-				if ( unit == "days") unit = "Tage";
-				if ( unit == "yard") unit = "meter";
-				if ( unit == "yards") unit = "meter";
-				translw += " " + unit;
-				return translw;
-			},
 			"npc_characteristics": (chars) => { // Auto-convert char names in the sheet
 				for (var key in chars) {
 					var char  = chars[key];
@@ -269,7 +230,42 @@ Hooks.on('init', () => {
 					}
 				}
 				return beast_traits;
-			}
+			},
+			"effects": (effects, translations) => {
+				if (!!effects) {
+					for (let i = 0; i < effects.length; i++) {
+						let effect = effects[i];
+						if (!!translations && !!translations['label' + i]) {
+							effect.label = translations['label' + i];
+						} //ignore missing translations
+					}
+				} //ignore when no effects
+				return effects
+			},
+			"spells_effects": (effects) => {
+				if (!!effects) {
+					for (let i = 0; i < effects.length; i++) {
+						let effect = effects[i];
+						effect.label = game.i18n.localize( effect.label.trim() );
+					}
+				} //ignore when no effects
+				return effects
+			},
+			"diseases_effects": (effects, translations) => {
+				for (let i=0; i<effects.length; i++) {
+					let effect = effects[i];
+					let label = effect.label;
+					let gravity = "";
+					if ( label.includes("(") && label.includes(")") ) { // Then process specific skills name with (xxxx) inside
+						var re  = /(.*) +\((.*)\)/i;
+						var res = re.exec( label );
+						label = res[1].trim(); // Get the gravity
+						gravity = " (" + game.i18n.localize( res[2].trim() ) + ")"; // And the special keyword
+					}
+					effect.label = game.i18n.localize( label ) + gravity;
+				}
+			},
+
 		});
     }
 });

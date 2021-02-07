@@ -1,65 +1,70 @@
 {
 	"label": "Psychologische Eigenschaften",
-	"entries": [
-		{
-			"id": "Animosity (Target)",
-			"name": "Feindseligkeit (Ziel)",
-			"description": "<p>Du hegst tiefe Ressentiments gegenüber dem Ziel, bei dem es sich normalerweise um eine Gruppe von Leuten oder Kreaturen handelt, zum Beispiel „Nordländer“, „Tiermenschen“ oder „Adelige“. Du musst einen Psychologie-Wurf durchführen, wann immer du auf Vertreter der entsprechenden Gruppe stößt. Wenn dieser gelingt, dann wirst du vielleicht fluchen und ausspeien, unterliegst danach aber nur einem Abzug von -20 bei allen Charisma-Würfen gegenüber dieser Gruppe. Sollte der Wurf aber scheitern, dann unterliegst du Feindseligkeit.</p><p>Am Ende jeder folgenden Runde kannst du versuchen, die Feindseligkeit mit einem weiteren Psychologie-Wurf zu beenden. Wenn du dies nicht tust, endet die Feindseligkeit automatisch, sobald alle Mitglieder der betreffenden Gruppe in deinem Sichtbereich entweder beschwichtigt oder verschwunden sind, du die Zustände <a class='condition-chat'>Betäubt</a> oder <a class='condition-chat'>Bewusstlos</a> erhältst oder einer anderen Psychologischen Eigenschaft unterliegst.</p><p>Wenn du der Feindseligkeit unterliegst, musst du die fraglichen Vertreter dieser Gruppe sofort angehen, entweder sozial (durch Beleidigungen,Spott oder Ähnliches) oder körperlich (in aller Regel mit den Fäusten), je nachdem, was angemessen ist. Du erhältst dabei zudem einen Bonus von +1 EG bei allen Versuchen die Gruppe sozial oder geistig anzugreifen. Feindseligkeit wird von @Compendium[wfrp4e.psychologies.Ib2YQYChktDFN93y]{Angst} und @Compendium[wfrp4e.psychologies.meMkLEwdJIDLxM0B]{Entsetzen} stets nichtig gemacht.</p>"
-		},
-		{
-			"id": "Camaraderie (Group)",
-			"name": "Kameradschaft (Gruppe)",
-			"description": "<p>Kameradschaft stellt positive Empfindungen und Vertrauen innerhalb einer Gruppe von Individuen dar. Du musst zur Hilfe eilen, wenn irgendwer in der Gruppe körperlich oder sozial bedroht ist und du bekommst einen Bonus von +1 EG bei allen Würfen zur Verteidigung oder zum Beistand von jemandem aus deiner Gruppe.</p>"
-		},
-		{
-			"id": "Fear (Rating)",
-			"name": "Angst (Wert)",
-			"description": "<p>Die Angst repräsentiert extreme Aversion oder Furcht vor etwas. Kreaturen die Angst verursachen, haben einen Angst-Wert; dieser Wert nennt die EG, die du bei einem Erweiterten Besonnenheits-Wurf erreichen musst, um deine Angst zu überwinden. Du kannst diesen Wurf am Ende jeder Runde fortsetzen, bis deine EG den Angst-Wert der Kreatur erreichen oder übertreffen. Bis dir dies gelungen ist, unterliegst du der Angst.</p><p>Solange du der Angst unterliegst, erleidest du -1 EG bei allen Würfen gegen die Quelle dieser Angst. Du darfst dich nur näher an das heranbewegen, was die Angst verursacht, wenn dir dazu zuvor ein herausfordernder (+0) Besonnenheits-Wurf gelingt. Wenn die Quelle der Angst näher an dich herankommt, musst du einen herausfordernden (+0) Besonnenheits-Wurf schaffen, oder du erhältst 1 Demoralisiert-Zustand.</p>"
-		},
-		{
-			"id": "Fear",
-			"name": "Angst (Wert)",
-			"description": "<p>Die Angst repräsentiert extreme Aversion oder Furcht vor etwas. Kreaturen die Angst verursachen, haben einen Angst-Wert; dieser Wert nennt die EG, die du bei einem Erweiterten Besonnenheits-Wurf erreichen musst, um deine Angst zu überwinden. Du kannst diesen Wurf am Ende jeder Runde fortsetzen, bis deine EG den Angst-Wert der Kreatur erreichen oder übertreffen. Bis dir dies gelungen ist, unterliegst du der Angst.</p><p>Solange du der Angst unterliegst, erleidest du -1 EG bei allen Würfen gegen die Quelle dieser Angst. Du darfst dich nur näher an das heranbewegen, was die Angst verursacht, wenn dir dazu zuvor ein herausfordernder (+0) Besonnenheits-Wurf gelingt. Wenn die Quelle der Angst näher an dich herankommt, musst du einen herausfordernden (+0) Besonnenheits-Wurf schaffen, oder du erhältst 1 Demoralisiert-Zustand.</p>"
-		},
-		{
-			"id": "Frenzy",
-			"name": "Raserei",
-			"description": "<p>Mit einem Willenskraft-Wurf kannst du dich selbst in einen Zustand der Raserei versetzen, indem du dich selbst mental aufpeitschst, heulst, in deinen Schild beißt oder Ähnliches tust. Wenn du Erfolg hast, unterliegst du Raserei.</p><p>Solange du der Raserei unterliegst, bist du gegen alle anderen Effekte von Psychologie immun und wirst weder fliehen noch dich zurückziehen, egal was geschieht. Tatsächlich musst du dich stets so schnell wie möglich auf den nächsten Gegner zubewegen, um ihn attackieren zu können. Generell sind die einzigen Handlungen, die du wählen kannst, Kampfgeschick-Würfe oder Athletik-Würfe zum möglichst schnellen Erreichen des Feindes. Des Weiteren darfst du in jeder Runde als Freie Handlung einen Nahkampf-Wurf durchführen, da du dich mit allem, was du hast, in deine Attacken stürzt. Zudem bekommst du auch noch +1 auf deinen Stärke-Bonus, so groß ist deine Wildheit. Du bleibst in Raserei, bis entweder alle Feinde in deinem Sichtbereich erledigt sind oder du den Zustand Betäubt oder Bewusstlos erhältst. Wenn deine Raserei vorbei ist, erhältst du automatisch 1 Ermüdet-Zustand.</p>"
-		},
-		{
-			"id": "Hatred (Target)",
-			"name": "Hass (Ziel)",
-			"description": "<p>Du hegst tiefe Hassgefühle gegenüber dem Ziel, bei dem es sich normalerweise um eine Gruppe von Leuten oder Kreaturen handelt, zum Beispiel „Hochländer“, „Sumpfoktopusse“ oder „Sklavenhändler“. Du wirst niemals sozial mit irgendjemandem oder irgendetwas interagieren, das du hasst. Du musst einen Psychologie-Wurf durchführen, wann immer du auf Vertreter der entsprechenden Gruppe stößt. Wenn dieser misslingt, unterliegst du Hass. Am Ende jeder folgenden Runde kannst du versuchen, deinen Hass mit einem weiteren Psychologie-Wurf zu beenden. Wenn du dies nicht tust, endet der Hass automatisch, sobald alle Mitglieder der betreffenden Gruppe in deinem Sichtbereich entweder tot oder verschwunden sind oder du den Zustand Bewusstlos erhältst. Solange du Hass unterliegst, musst du sofort versuchen, die Mitglieder der verhassten Gruppe auf die schnellste und tödlichste Weise zu vernichten. Du bekommst +1 EG auf alle Würfe, die du im Kampf gegen die spezifische Gruppe durchführst und bist immun gegen Angst und Einschüchtern (nicht jedoch gegen Entsetzen), sofern es von deinem verhassten Gegner verursacht wird.</p>"
-		},
-		{
-			"id": "Hatred",
-			"name": "Hass (Ziel)",
-			"description": "<p>Du hegst tiefe Hassgefühle gegenüber dem Ziel, bei dem es sich normalerweise um eine Gruppe von Leuten oder Kreaturen handelt, zum Beispiel „Hochländer“, „Sumpfoktopusse“ oder „Sklavenhändler“. Du wirst niemals sozial mit irgendjemandem oder irgendetwas interagieren, das du hasst. Du musst einen Psychologie-Wurf durchführen, wann immer du auf Vertreter der entsprechenden Gruppe stößt. Wenn dieser misslingt, unterliegst du Hass. Am Ende jeder folgenden Runde kannst du versuchen, deinen Hass mit einem weiteren Psychologie-Wurf zu beenden. Wenn du dies nicht tust, endet der Hass automatisch, sobald alle Mitglieder der betreffenden Gruppe in deinem Sichtbereich entweder tot oder verschwunden sind oder du den Zustand Bewusstlos erhältst. Solange du Hass unterliegst, musst du sofort versuchen, die Mitglieder der verhassten Gruppe auf die schnellste und tödlichste Weise zu vernichten. Du bekommst +1 EG auf alle Würfe, die du im Kampf gegen die spezifische Gruppe durchführst und bist immun gegen Angst und Einschüchtern (nicht jedoch gegen Entsetzen), sofern es von deinem verhassten Gegner verursacht wird.</p>"
-		},
-		{
-			"id": "Phobia (Target)",
-			"name": "Phobie (Ziel)",
-			"description": "<p>Eine Phobie stellt eine besondere Furcht dar; diese kann sich auf bestimmte Kreaturen, bestimmte Objekte oder bestimmte Umstände beziehen, zum Beispiel Phobie (Insekten), Phobie (Bücher) oder Phobie (enge Räume). Behandle das Objekt deiner Phobie als würde es Angst 1 verursachen. Du kannst den Angst-Wert auch erhöhen, wenn die Phobie besonders stark ist.</p>"
-		},
-		{
-			"id": "Prejudice",
-			"name": "Vorurteil (Ziel)",
-			"description": "<p>Du magst das Ziel in keiner Weise. Bei diesem handelt es sich normalerweise um eine Gruppe von Leuten oder Kreaturen, zum Beispiel „Ostländer“, „Elfen“ oder „Zauberer“. Du musst einen Psychologie-Wurf durchführen, wann immer du auf Vertreter der entsprechenden Gruppe stößt. Wenn dieser gelingt, dann wirst du vielleicht finster dreinblicken, verhältst dich ansonsten aber normal, abgesehen von einem Abzug von -10 bei allen Charisma-Würfen gegenüber dieser Gruppe. Sollte der Wurf aber scheitern, dann unterliegst du dem Vorurteil. Am Ende jeder folgenden Runde kannst du versuchen, das Vorurteil mit einem weiteren Psychologie-Wurf zu beenden. Wenn du dies nicht tust, endet das Vorurteil automatisch, sobald alle Mitglieder der betreffenden Gruppe aus deinem Sichtbereich verschwunden sind, du den Zustand Betäubt oder Bewusstlos erhältst oder einer anderen Psychologischen Eigenschaft unterliegst.</p><p>Wenn du dem Vorurteil unterliegst, musst du die fraglichen Vertreter dieser Gruppe sofort beleidigen. Lautstark.</p>"
-		},
-		{
-			"id": "Terror (Rating)",
-			"name": "Entsetzen (Wert)",
-			"description": "<p>Einige Kreaturen sind so tief verstörend und beunruhigend, dass sie grauenhaftes, markerschütterndes Entsetzen verbreiten. Wenn du einer Kreatur das erste Mal begegnest, die Entsetzen verbreitet, führst du einen Besonnenheits-Wurf durch. Wenn dir dieser gelingt, hat das Entsetzen keinen weiteren Effekt auf dich. Wenn er misslingt, erhältst du eine Anzahl von Demoralisiert-Zuständen, die dem Entsetzen-Wert der Kreatur entspricht, zusätzlich der EG unter 0.</p><p>Nachdem der Psychologie-Wurf abgehandelt ist, verbreitet die Kreatur Angst, wobei der Angst-Wert ihrem Entsetzen-Wert entspricht.</p>"
-		},
-		{
-			"id": "Terror",
-			"name": "Entsetzen (Wert)",
-			"description": "<p>Einige Kreaturen sind so tief verstörend und beunruhigend, dass sie grauenhaftes, markerschütterndes Entsetzen verbreiten. Wenn du einer Kreatur das erste Mal begegnest, die Entsetzen verbreitet, führst du einen Besonnenheits-Wurf durch. Wenn dir dieser gelingt, hat das Entsetzen keinen weiteren Effekt auf dich. Wenn er misslingt, erhältst du eine Anzahl von Demoralisiert-Zuständen, die dem Entsetzen-Wert der Kreatur entspricht, zusätzlich der EG unter 0.</p><p>Nachdem der Psychologie-Wurf abgehandelt ist, verbreitet die Kreatur Angst, wobei der Angst-Wert ihrem Entsetzen-Wert entspricht.</p>"
-		},
-		{
-			"id": "Trauma",
-			"name": "Trauma",
-			"description": "<p>Das Leben eines Reikländers ist rau, brutal und kurz. Das gilt doppelt für Abenteurer, die im Leben oft traumatische Erfahrungen gemacht haben. Jedes Trauma ist auf seine Weise einzigartig und daher solltest du etwas aussuchen, dass dieser breiten Spanne Rechnung trägt: Albträume, Missbrauch von Alkohol oder Drogen, blitzartige Rückerinnerungen, Feindseligkeit oder Hass gegenüber einer bestimmten Gruppe, oder eine Phobie. Ein Charakter, der eine traumatische Erfahrung gemacht hat, kann durch diese über die Zeit auf verschiedene Weisen beeinflusst werden.</p>"
+	"mapping": {
+		"effects": {
+			"path": "effects",
+			"converter": "effects"
 		}
-	]
+	},
+	"entries": [
+	{
+		"id": "Animosity (Target)",
+		"name": "Feindseligkeit (Ziel)",
+		"description": "<p>Du hegst tiefe Ressentiments gegenüber dem Ziel, bei dem es sich normalerweise um eine Gruppe von Leuten oder Kreaturen handelt, zum Beispiel „Nordländer“, „Tiermenschen“ oder „Adelige“. Du musst einen Psychologie-Wurf durchführen, wann immer du auf Vertreter der entsprechenden Gruppe stößt. Wenn dieser gelingt, dann wirst du vielleicht fluchen und ausspeien, unterliegst danach aber nur einem Abzug von -20 bei allen Charisma-Würfen gegenüber dieser Gruppe. Sollte der Wurf aber scheitern, dann unterliegst du Feindseligkeit.</p><p>Am Ende jeder folgenden Runde kannst du versuchen, die Feindseligkeit mit einem weiteren Psychologie-Wurf zu beenden. Wenn du dies nicht tust, endet die Feindseligkeit automatisch, sobald alle Mitglieder der betreffenden Gruppe in deinem Sichtbereich entweder beschwichtigt oder verschwunden sind, du die Zustände <a class='condition-chat'>Betäubt</a> oder <a class='condition-chat'>Bewusstlos</a> erhältst oder einer anderen Psychologischen Eigenschaft unterliegst.</p><p>Wenn du der Feindseligkeit unterliegst, musst du die fraglichen Vertreter dieser Gruppe sofort angehen, entweder sozial (durch Beleidigungen,Spott oder Ähnliches) oder körperlich (in aller Regel mit den Fäusten), je nachdem, was angemessen ist. Du erhältst dabei zudem einen Bonus von +1 EG bei allen Versuchen die Gruppe sozial oder geistig anzugreifen. Feindseligkeit wird von @Compendium[wfrp4e.psychologies.Ib2YQYChktDFN93y]{Angst} und @Compendium[wfrp4e.psychologies.meMkLEwdJIDLxM0B]{Entsetzen} stets nichtig gemacht.</p>"
+	},
+	{
+		"id": "Camaraderie (Group)",
+		"name": "Kameradschaft (Gruppe)",
+		"description": "<p>Kameradschaft stellt positive Empfindungen und Vertrauen innerhalb einer Gruppe von Individuen dar. Du musst zur Hilfe eilen, wenn irgendwer in der Gruppe körperlich oder sozial bedroht ist und du bekommst einen Bonus von +1 EG bei allen Würfen zur Verteidigung oder zum Beistand von jemandem aus deiner Gruppe.</p>"
+	},
+	{
+		"id": "Fear (Rating)",
+		"name": "Angst (Wert)",
+		"description": "<p>Die Angst repräsentiert extreme Aversion oder Furcht vor etwas. Kreaturen die Angst verursachen, haben einen Angst-Wert; dieser Wert nennt die EG, die du bei einem Erweiterten Besonnenheits-Wurf erreichen musst, um deine Angst zu überwinden. Du kannst diesen Wurf am Ende jeder Runde fortsetzen, bis deine EG den Angst-Wert der Kreatur erreichen oder übertreffen. Bis dir dies gelungen ist, unterliegst du der Angst.</p><p>Solange du der Angst unterliegst, erleidest du -1 EG bei allen Würfen gegen die Quelle dieser Angst. Du darfst dich nur näher an das heranbewegen, was die Angst verursacht, wenn dir dazu zuvor ein herausfordernder (+0) Besonnenheits-Wurf gelingt. Wenn die Quelle der Angst näher an dich herankommt, musst du einen herausfordernden (+0) Besonnenheits-Wurf schaffen, oder du erhältst 1 Demoralisiert-Zustand.</p>"
+	},
+	{
+		"id": "Fear",
+		"name": "Angst (Wert)",
+		"description": "<p>Die Angst repräsentiert extreme Aversion oder Furcht vor etwas. Kreaturen die Angst verursachen, haben einen Angst-Wert; dieser Wert nennt die EG, die du bei einem Erweiterten Besonnenheits-Wurf erreichen musst, um deine Angst zu überwinden. Du kannst diesen Wurf am Ende jeder Runde fortsetzen, bis deine EG den Angst-Wert der Kreatur erreichen oder übertreffen. Bis dir dies gelungen ist, unterliegst du der Angst.</p><p>Solange du der Angst unterliegst, erleidest du -1 EG bei allen Würfen gegen die Quelle dieser Angst. Du darfst dich nur näher an das heranbewegen, was die Angst verursacht, wenn dir dazu zuvor ein herausfordernder (+0) Besonnenheits-Wurf gelingt. Wenn die Quelle der Angst näher an dich herankommt, musst du einen herausfordernden (+0) Besonnenheits-Wurf schaffen, oder du erhältst 1 Demoralisiert-Zustand.</p>"
+	},
+	{
+		"id": "Frenzy",
+		"name": "Raserei",
+		"description": "<p>Mit einem Willenskraft-Wurf kannst du dich selbst in einen Zustand der Raserei versetzen, indem du dich selbst mental aufpeitschst, heulst, in deinen Schild beißt oder Ähnliches tust. Wenn du Erfolg hast, unterliegst du Raserei.</p><p>Solange du der Raserei unterliegst, bist du gegen alle anderen Effekte von Psychologie immun und wirst weder fliehen noch dich zurückziehen, egal was geschieht. Tatsächlich musst du dich stets so schnell wie möglich auf den nächsten Gegner zubewegen, um ihn attackieren zu können. Generell sind die einzigen Handlungen, die du wählen kannst, Kampfgeschick-Würfe oder Athletik-Würfe zum möglichst schnellen Erreichen des Feindes. Des Weiteren darfst du in jeder Runde als Freie Handlung einen Nahkampf-Wurf durchführen, da du dich mit allem, was du hast, in deine Attacken stürzt. Zudem bekommst du auch noch +1 auf deinen Stärke-Bonus, so groß ist deine Wildheit. Du bleibst in Raserei, bis entweder alle Feinde in deinem Sichtbereich erledigt sind oder du den Zustand Betäubt oder Bewusstlos erhältst. Wenn deine Raserei vorbei ist, erhältst du automatisch 1 Ermüdet-Zustand.</p>"
+	},
+	{
+		"id": "Hatred (Target)",
+		"name": "Hass (Ziel)",
+		"description": "<p>Du hegst tiefe Hassgefühle gegenüber dem Ziel, bei dem es sich normalerweise um eine Gruppe von Leuten oder Kreaturen handelt, zum Beispiel „Hochländer“, „Sumpfoktopusse“ oder „Sklavenhändler“. Du wirst niemals sozial mit irgendjemandem oder irgendetwas interagieren, das du hasst. Du musst einen Psychologie-Wurf durchführen, wann immer du auf Vertreter der entsprechenden Gruppe stößt. Wenn dieser misslingt, unterliegst du Hass. Am Ende jeder folgenden Runde kannst du versuchen, deinen Hass mit einem weiteren Psychologie-Wurf zu beenden. Wenn du dies nicht tust, endet der Hass automatisch, sobald alle Mitglieder der betreffenden Gruppe in deinem Sichtbereich entweder tot oder verschwunden sind oder du den Zustand Bewusstlos erhältst. Solange du Hass unterliegst, musst du sofort versuchen, die Mitglieder der verhassten Gruppe auf die schnellste und tödlichste Weise zu vernichten. Du bekommst +1 EG auf alle Würfe, die du im Kampf gegen die spezifische Gruppe durchführst und bist immun gegen Angst und Einschüchtern (nicht jedoch gegen Entsetzen), sofern es von deinem verhassten Gegner verursacht wird.</p>"
+	},
+	{
+		"id": "Hatred",
+		"name": "Hass (Ziel)",
+		"description": "<p>Du hegst tiefe Hassgefühle gegenüber dem Ziel, bei dem es sich normalerweise um eine Gruppe von Leuten oder Kreaturen handelt, zum Beispiel „Hochländer“, „Sumpfoktopusse“ oder „Sklavenhändler“. Du wirst niemals sozial mit irgendjemandem oder irgendetwas interagieren, das du hasst. Du musst einen Psychologie-Wurf durchführen, wann immer du auf Vertreter der entsprechenden Gruppe stößt. Wenn dieser misslingt, unterliegst du Hass. Am Ende jeder folgenden Runde kannst du versuchen, deinen Hass mit einem weiteren Psychologie-Wurf zu beenden. Wenn du dies nicht tust, endet der Hass automatisch, sobald alle Mitglieder der betreffenden Gruppe in deinem Sichtbereich entweder tot oder verschwunden sind oder du den Zustand Bewusstlos erhältst. Solange du Hass unterliegst, musst du sofort versuchen, die Mitglieder der verhassten Gruppe auf die schnellste und tödlichste Weise zu vernichten. Du bekommst +1 EG auf alle Würfe, die du im Kampf gegen die spezifische Gruppe durchführst und bist immun gegen Angst und Einschüchtern (nicht jedoch gegen Entsetzen), sofern es von deinem verhassten Gegner verursacht wird.</p>"
+	},
+	{
+		"id": "Phobia (Target)",
+		"name": "Phobie (Ziel)",
+		"description": "<p>Eine Phobie stellt eine besondere Furcht dar; diese kann sich auf bestimmte Kreaturen, bestimmte Objekte oder bestimmte Umstände beziehen, zum Beispiel Phobie (Insekten), Phobie (Bücher) oder Phobie (enge Räume). Behandle das Objekt deiner Phobie als würde es Angst 1 verursachen. Du kannst den Angst-Wert auch erhöhen, wenn die Phobie besonders stark ist.</p>"
+	},
+	{
+		"id": "Prejudice",
+		"name": "Vorurteil (Ziel)",
+		"description": "<p>Du magst das Ziel in keiner Weise. Bei diesem handelt es sich normalerweise um eine Gruppe von Leuten oder Kreaturen, zum Beispiel „Ostländer“, „Elfen“ oder „Zauberer“. Du musst einen Psychologie-Wurf durchführen, wann immer du auf Vertreter der entsprechenden Gruppe stößt. Wenn dieser gelingt, dann wirst du vielleicht finster dreinblicken, verhältst dich ansonsten aber normal, abgesehen von einem Abzug von -10 bei allen Charisma-Würfen gegenüber dieser Gruppe. Sollte der Wurf aber scheitern, dann unterliegst du dem Vorurteil. Am Ende jeder folgenden Runde kannst du versuchen, das Vorurteil mit einem weiteren Psychologie-Wurf zu beenden. Wenn du dies nicht tust, endet das Vorurteil automatisch, sobald alle Mitglieder der betreffenden Gruppe aus deinem Sichtbereich verschwunden sind, du den Zustand Betäubt oder Bewusstlos erhältst oder einer anderen Psychologischen Eigenschaft unterliegst.</p><p>Wenn du dem Vorurteil unterliegst, musst du die fraglichen Vertreter dieser Gruppe sofort beleidigen. Lautstark.</p>"
+	},
+	{
+		"id": "Terror (Rating)",
+		"name": "Entsetzen (Wert)",
+		"description": "<p>Einige Kreaturen sind so tief verstörend und beunruhigend, dass sie grauenhaftes, markerschütterndes Entsetzen verbreiten. Wenn du einer Kreatur das erste Mal begegnest, die Entsetzen verbreitet, führst du einen Besonnenheits-Wurf durch. Wenn dir dieser gelingt, hat das Entsetzen keinen weiteren Effekt auf dich. Wenn er misslingt, erhältst du eine Anzahl von Demoralisiert-Zuständen, die dem Entsetzen-Wert der Kreatur entspricht, zusätzlich der EG unter 0.</p><p>Nachdem der Psychologie-Wurf abgehandelt ist, verbreitet die Kreatur Angst, wobei der Angst-Wert ihrem Entsetzen-Wert entspricht.</p>"
+	},
+	{
+		"id": "Terror",
+		"name": "Entsetzen (Wert)",
+		"description": "<p>Einige Kreaturen sind so tief verstörend und beunruhigend, dass sie grauenhaftes, markerschütterndes Entsetzen verbreiten. Wenn du einer Kreatur das erste Mal begegnest, die Entsetzen verbreitet, führst du einen Besonnenheits-Wurf durch. Wenn dir dieser gelingt, hat das Entsetzen keinen weiteren Effekt auf dich. Wenn er misslingt, erhältst du eine Anzahl von Demoralisiert-Zuständen, die dem Entsetzen-Wert der Kreatur entspricht, zusätzlich der EG unter 0.</p><p>Nachdem der Psychologie-Wurf abgehandelt ist, verbreitet die Kreatur Angst, wobei der Angst-Wert ihrem Entsetzen-Wert entspricht.</p>"
+	},
+	{
+		"id": "Trauma",
+		"name": "Trauma",
+		"description": "<p>Das Leben eines Reikländers ist rau, brutal und kurz. Das gilt doppelt für Abenteurer, die im Leben oft traumatische Erfahrungen gemacht haben. Jedes Trauma ist auf seine Weise einzigartig und daher solltest du etwas aussuchen, dass dieser breiten Spanne Rechnung trägt: Albträume, Missbrauch von Alkohol oder Drogen, blitzartige Rückerinnerungen, Feindseligkeit oder Hass gegenüber einer bestimmten Gruppe, oder eine Phobie. Ein Charakter, der eine traumatische Erfahrung gemacht hat, kann durch diese über die Zeit auf verschiedene Weisen beeinflusst werden.</p>"
+	}]
 }

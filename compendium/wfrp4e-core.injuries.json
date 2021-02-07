@@ -1,12 +1,16 @@
 {
 	"label": "Verletzungen",
 	"mapping": {      
-    "penalty": "data.penalty.value",    
-    "location": {
-      "path": "data.location.value",
-      "converter": "generic_localization"
-    }
-  },	
+		"penalty": "data.penalty.value",
+		"location": {
+		  "path": "data.location.value",
+		  "converter": "generic_localization"
+		},
+		"effects": {
+			"path": "effects",
+			"converter": "effects"
+		}
+	},
 	"entries": [
 		{
 			"id": "8piWcBKFlQ2J1E3A",

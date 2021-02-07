@@ -1,7 +1,11 @@
 {
   "label": "Talente",
   "mapping": {
-    "tests": "data.tests.value"
+    "tests": "data.tests.value",
+    "effects": {
+      "path": "effects",
+      "converter": "effects"
+    }
   },
   "entries": [
     {

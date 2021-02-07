@@ -1,23 +1,27 @@
 {
 	"label": "Gebete",
 	"mapping": {
-    "pduration": {
-      "path": "data.duration.value",
-      "converter": "spells_duration_range_target_damage"
-    },
-    "prange": {
-      "path": "data.range.value",
-      "converter": "spells_duration_range_target_damage"
-    },
-    "ptarget": {
-      "path": "data.target.value",
-      "converter": "spells_duration_range_target_damage"
-    },    
-    "pdamage": {
-      "path": "data.damage.value",
-      "converter": "spells_duration_range_target_damage"
-    }
-  },	
+		"pduration": {
+		  "path": "data.duration.value",
+		  "converter": "spells_duration_range_target_damage"
+		},
+		"prange": {
+		  "path": "data.range.value",
+		  "converter": "spells_duration_range_target_damage"
+		},
+		"ptarget": {
+		  "path": "data.target.value",
+		  "converter": "spells_duration_range_target_damage"
+		},
+		"pdamage": {
+		  "path": "data.damage.value",
+		  "converter": "spells_duration_range_target_damage"
+		},
+		"effects": {
+			"path": "effects",
+			"converter": "effects"
+		}
+	},
 	"entries": [
 		{
 			"id": "An Invitation ",
