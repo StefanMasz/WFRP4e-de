@@ -246,7 +246,18 @@ Hooks.on('init', () => {
 				if (!!effects) {
 					for (let i = 0; i < effects.length; i++) {
 						let effect = effects[i];
-						effect.label = game.i18n.localize( effect.label.trim() );
+						effect.label = effect.label
+							.replace(' (Fire)', '')
+							.replace(' (Death)', '')
+							.replace(' (Shadow)', '')
+							.replace(' (Daemonology)', '')
+							.replace(' (Light)', '')
+							.replace(' (Life)', '')
+							.replace(' (Necromancy)', '')
+							.replace(' (Heavens)', '')
+							.replace(' (Metal)', '')
+							.replace(' (Beasts)', '');
+						effect.label = game.i18n.localize( 'EFFECTS.'+effect.label.trim() );
 					}
 				} //ignore when no effects
 				return effects
