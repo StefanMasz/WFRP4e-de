@@ -2,7 +2,30 @@ var compmod = "wfrp4e-core";
 
 Hooks.on('init', () => {
 
-	// Check various settings in the installation  
+	game.wfrp4e.entities.ActorWfrp4e.prototype.calculateSpellDamage = function(formula, isMagicMissile) {
+		let actorData = this.data
+		formula = formula.toLowerCase();
+		if (isMagicMissile) // If it's a magic missile, damage includes willpower bonus
+		{
+			formula += "+ " + actorData.data.characteristics["wp"].bonus
+		}
+		console.log(formula);
+		// Iterate through characteristics
+		for (let ch in actorData.data.characteristics) {
+			// If formula includes characteristic name
+			while (formula.includes(game.i18n.localize(actorData.data.characteristics[ch].label).toLowerCase())) {
+				// Determine if it's looking for the bonus or the value
+				if (formula.includes('bonus'))
+					formula = formula.replace(game.wfrp4e.config.characteristics[ch].toLowerCase().concat(" bonus"), actorData.data.characteristics[ch].bonus);
+				else
+					formula = formula.replace(game.wfrp4e.config.characteristics[ch].toLowerCase(), actorData.data.characteristics[ch].value);
+			}
+		}
+
+		return eval(formula);
+	}
+
+		// Check various settings in the installation
 	game.modules.forEach((module, name) => {
 	if ( name == "wfrp4e-content" && module.active) {
 	  compmod = "wfrp4e-content";
@@ -238,6 +261,9 @@ Hooks.on('init', () => {
 						if (!!translations && !!translations['label' + i]) {
 							effect.label = translations['label' + i];
 						} //ignore missing translations
+						if (!!translations && !!translations['description' + i]) {
+							effect.flags.wfrp4e.effectData.description = translations['description' + i];
+						}
 					}
 				} //ignore when no effects
 				return effects

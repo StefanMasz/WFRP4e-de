@@ -18,7 +18,9 @@
 			"description": "<p>Ein Ohr zu verlieren ist schmerzhaft, aber du wirst rasch lernen, ohne es zu leben. Solltest du das große Pech haben, beide Ohren zu verlieren, erhältst du einen permanenten Abzug von -20 auf alle auf das Hören basierenden Wahrnehmungs-Würfe. Des Weiteren erhältst du pro fehlendem Ohr einen Abzug von -5 auf Charisma-Würfe, wenn andere deinen ohrlosen Zustand sehen können.</p>",
 			"penalty": "-5 auf Charisma-Würfe, wenn andere deinen ohrlosen Zustand sehen können.",
 			"effects": {
-				"label0": "Amputiertes Ohr"
+				"label0": "Amputiertes Ohr",
+				"label1": "Beide Ohren verloren",
+				"description1": "Wahrnehmungswürfe die mit dem Gehör zusammenhängen"
 			}
 		},
 		{
@@ -33,7 +35,8 @@
 			"description": "<p>Du erhältst einen Abzug von -20 auf alle Würfe, die den Einsatz beider Hände erfordern und kannst keine zweihändigen Waffen mehr führen, allerdings kann ein Schild an den handlosen Arm geschnallt werden. Solltest du deine dominante Hand verloren haben, dann leidest du unter dem üblichen Abzug von -20 bei Nahkampf-Würfen mit der falschen Hand. Für je 100 EP kannst du diesen Abzug um 5 reduzieren, da du dich an den Kampf mit der anderen Hand gewöhnst. Wenn du beide Hände verlierst, ist es vielleicht an der Zeit den Kampf mit Haken zu lernen.</p>",
 			"penalty": "-20 auf alle Würfe, die den Einsatz beider Hände erfordern und kannst keine zweihändigen Waffen mehr führen",
 			"effects": {
-				"label0": "Amputierte Hand"
+				"label0": "Amputierte Hand",
+				"description0": "Tests die beide Hände benötigen"
 			}
 		},
 		{
@@ -42,7 +45,9 @@
 			"description": "<p>Du reduzierst deine Bewegung permanent um die Hälfte und erleidest einen Abzug von -20 bei allen Würfen, bei denen es um die Mobilität geht, zum Beispiel Ausweichen. Beide Füße zu verlieren macht es schwer zu gehen. Vielleicht solltest du jemanden anheuern, der dich trägt.</p>",
 			"penalty": "-20 bei allen Würfen, bei denen es um die Mobilität geht, zum Beispiel Ausweichen",
 			"effects": {
-				"label0": "Amputierter Fuß"
+				"label0": "Bewegung halbiert",
+				"label1": "Amputierter Fuß",
+				"description1": "Würfe die Bewegung benötigen"
 			}
 		},
 		{
@@ -69,7 +74,8 @@
 			"description": "<p>Mit verlorener Nase hat man ein sehr verstörendes Antlitz. Du erleidest einen permanenten Abzug von -20 auf dein Charisma und erhältst einen permanenten Abzug von -30 auf alle Würfe, bei denen es um das Riechen geht.</p>",
 			"penalty": "-20 auf dein Charisma und erhältst einen permanenten Abzug von -30 auf alle Würfe, bei denen es um das Riechen geht.",
 			"effects": {
-				"label0": "Amputierte Nase"
+				"label0": "Amputierte Nase",
+				"description0": "Wahrnehmungswürfe die mit dem Geruch zusammenhängen"
 			}
 		},
 		{
@@ -78,7 +84,8 @@
 			"description": "<p>Verwende die Regeln für eine verlorene Hand. Du kannst keinen Schild am Arm befestigen, denn du hast ja keinen mehr</p>",
 			"penalty": "-20 auf alle Würfe, die den Einsatz beider Hände erfordern und kannst keine zweihändigen Waffen mehr führen",
 			"effects": {
-				"label0": "Amputierter Arm"
+				"label0": "Amputierter Arm",
+				"description0": "Tests die beide Hände benötigen"
 			}
 		},
 		{
@@ -87,7 +94,8 @@
 			"description": "<p>Finger zu verlieren sorgt dafür, dass der Griff schwächer wird und das Risiko auf Patzer steigt. Nach dem Verlust des ersten Fingers zählt jeder misslungene, relevante Wurf, bei dem der Würfel für die Einerstelle eine 1 zeigt, als Patzer. Fehlen zwei Finger ist es schon jeder misslungene, relevante Wurf, bei dem der Würfel für die Einerstelle eine 1 oder 2 zeigt, und so weiter. Des Weiteren erhältst du einen Abzug von -5 pro verlorenem Finger auf jeden Wurf, bei dem die entsprechende Hand verwendet wird. Sobald vier oder mehr Finger verloren wurden, kommen die Regeln für eine abgetrennte Hand zum Tragen. </p>",
 			"penalty": "-5 pro verlorenem Finger auf jeden Wurf, bei dem die entsprechende Hand verwendet wird.",
 			"effects": {
-				"label0": "Amputierter Finger"
+				"label0": "Amputierter Finger",
+				"description0": "Verlorene Finger"
 			}
 		},
 		{
@@ -96,7 +104,9 @@
 			"description": "<p>Ein Auge zu verlieren ist furchtbar, aber du wirst rasch lernen, dies zu kompensieren. Solltest du das Pech haben, beide Augen zu verlieren, erhältst du einen permanenten Abzug von -30 auf alle Sicht erfordernden Würfe, also Trefferwürfe, Ausweichen, Reiten und so weiter. Des Weiteren erhältst du pro fehlendem Auge einen Abzug von -5 auf Charisma-Würfe, wenn andere deine leeren und vernarbten Augenhöhlen sehen können.</p>",
 			"penalty": "-5 auf Charisma-Würfe, wenn andere deine leeren und vernarbten Augenhöhlen sehen können",
 			"effects": {
-				"label0": "Verlorenes Auge"
+				"label0": "Beide Augen verloren",
+				"description0": "Würfe die Augenlicht benötigen",
+				"label1": "Auge verloren"
 			}
 		},
 		{
@@ -105,7 +115,9 @@
 			"description": "<p>Behandle dies als verlorenen Fuß, nur dass du Ausweichen gar nicht mehr einsetzen kannst.</p>",
 			"penalty": "",
 			"effects": {
-				"label0": "Amputiertes Bein"
+				"label0": "Bewegung halbiert",
+				"label1": "Amputiertes Bein",
+				"description1": "Würfe die Bewegung benötigen"
 			}
 		},
 		{
@@ -114,7 +126,8 @@
 			"description": "<p>Einer deiner Knochen ist wirklich schlimm gebrochen und liegt jetzt entweder in einem völlig falschen Winkel oder ist sogar durch die Haut gedrungen. Ohne medizinische Hilfe wird das so nicht wieder richtig heilen.Die Trefferzone ist effektiv nicht zu benutzen, ehe der Bruch nicht geheilt ist. Verwende die gleichen Regeln wie bei Knochenbruch (Leicht). </p><p>Heilung: Das Ausheilen dauert 10 Tage länger. Alle zugehörigen Würfe sind herausfordernd (+0). Jeder Abzug für misslungene Würfe wird um –10 verschlechtert.</p>",
 			"penalty": "-20 auf alle Würfe, die den Einsatz beider Hände erfordern und kannst keine zweihändigen Waffen mehr führen",
 			"effects": {
-				"label0": "Gebrochener Arm (Schwer)"
+				"label0": "Gebrochener Arm (Schwer)",
+				"description0": "Tests die beide Hände benötigen"
 			}
 		},
 		{
@@ -123,7 +136,9 @@
 			"description": "<p>Einer deiner Knochen ist wirklich schlimm gebrochen und liegt jetzt entweder in einem völlig falschen Winkel oder ist sogar durch die Haut gedrungen. Ohne medizinische Hilfe wird das so nicht wieder richtig heilen.Die Trefferzone ist effektiv nicht zu benutzen, ehe der Bruch nicht geheilt ist. Verwende die gleichen Regeln wie bei Knochenbruch (Leicht). </p><p>Heilung: Das Ausheilen dauert 10 Tage länger. Alle zugehörigen Würfe sind herausfordernd (+0). Jeder Abzug für misslungene Würfe wird um –10 verschlechtert.</p>",
 			"penalty": "-20 bei allen Würfen, bei denen es um die Mobilität geht, Ausweichen ist nicht mehr möglich, Bewegung halbiert",
 			"effects": {
-				"label0": "Gebrochenes Bein (Schwer)"
+				"label0": "Bewegung halbiert",
+				"label1": "Gebrochenes Bein",
+				"description1": "Würfe die Bewegung benötigen"
 			}
 		},
 		{
@@ -141,7 +156,8 @@
 			"description": "<p>Einer deiner Knochen ist wirklich schlimm gebrochen und liegt jetzt entweder in einem völlig falschen Winkel oder ist sogar durch die Haut gedrungen. Ohne medizinische Hilfe wird das so nicht wieder richtig heilen.Die Trefferzone ist effektiv nicht zu benutzen, ehe der Bruch nicht geheilt ist. Verwende die gleichen Regeln wie bei Knochenbruch (Leicht). </p><p>Heilung: Das Ausheilen dauert 10 Tage länger. Alle zugehörigen Würfe sind herausfordernd (+0). Jeder Abzug für misslungene Würfe wird um –10 verschlechtert.</p>",
 			"penalty": "",
 			"effects": {
-				"label0": "Knochenbruch Torso (Schwer)"
+				"label0": "Bewegung halbiert",
+				"label1": "Knochenbruch Torso (Schwer)"
 			}
 		},
 		{
@@ -150,7 +166,9 @@
 			"description": "<p>Du hast dir einen Knochen gebrochen, doch der Bruch hat sich nicht verschoben, weshalb er auch ohne medizinische Behandlung heilen wird. Die Trefferzone ist nicht benutzbar, bis der Bruch ausgeheilt ist. Bezüglich Armen und Beinen heißt dies, dass das entsprechende Glied wegen zu großer Schmerzen nutzlos ist und ruhiggestellt werden sollte. Verwende die Regeln für Abgetrennte Arme und Abgetrennte Beine, um dies darzustellen (siehe Amputierte Körperteile).</p>",
 			"penalty": "-20 bei allen Würfen, bei denen es um die Mobilität geht, Ausweichen ist nicht mehr möglich, Bewegung halbiert",
 			"effects": {
-				"label0": "Gebrochenes Bein (Leicht)"
+				"label0": "Gebrochenes Bein (Leicht)",
+				"description0": "Würfe die Bewegung benötigen",
+				"label1": "Bewegung halbiert"
 			}
 		},
 		{
@@ -159,7 +177,8 @@
 			"description": "<p>Du hast dir einen Knochen gebrochen, doch der Bruch hat sich nicht verschoben, weshalb er auch ohne medizinische Behandlung heilen wird. Die Trefferzone ist nicht benutzbar, bis der Bruch ausgeheilt ist. Bezüglich Armen und Beinen heißt dies, dass das entsprechende Glied wegen zu großer Schmerzen nutzlos ist und ruhiggestellt werden sollte. Verwende die Regeln für Abgetrennte Arme und Abgetrennte Beine, um dies darzustellen (siehe Amputierte Körperteile).</p>",
 			"penalty": "-20 auf alle Würfe, die den Einsatz beider Hände erfordern",
 			"effects": {
-				"label0": "Gebrochener Arm (Leicht)"
+				"label0": "Gebrochener Arm (Leicht)",
+				"description0": "Tests die beide Hände benötigen"
 			}
 		},
 		{
@@ -168,7 +187,8 @@
 			"description": "<p>Du hast dir einen Knochen gebrochen, doch der Bruch hat sich nicht verschoben, weshalb er auch ohne medizinische Behandlung heilen wird. Die Trefferzone ist nicht benutzbar, bis der Bruch ausgeheilt ist. Bezüglich Armen und Beinen heißt dies, dass das entsprechende Glied wegen zu großer Schmerzen nutzlos ist und ruhiggestellt werden sollte. Verwende die Regeln für Abgetrennte Arme und Abgetrennte Beine, um dies darzustellen (siehe Amputierte Körperteile).</p>",
 			"penalty": "",
 			"effects": {
-				"label0": "Knochenbruch Torso (Leicht)"
+				"label0": "Knochenbruch Torso (Leicht)",
+				"label1": "Bewegung halbiert"
 			}
 		},
 		{
@@ -186,7 +206,9 @@
 			"description": "<p>Einer deiner Muskeln oder eine wichtige Sehne wurde ernstlich verletzt, was enorm schmerzhaft ist und das entsprechende Körperteil stark einschränkt. Du erleidest die gleichen Folgen wie beim Muskelriss (leicht), allerdings mit -20 auf alle Würfe.</p><p><strong>Heilung:</strong> Der Muskel wird in (30 - Widerstands-Bonus) Tagen wieder teilweise heilen, wodurch sich der Abzug bei allen relevanten Würfen auf -10 reduziert. Ausgeheilt ist der Muskel dann in weiteren (30 - Widerstands-Bonus) Tagen. Heilen hilft hier nicht viel, außer dich mit dem Ratschlag zu versorgen, dass du die betreffende Körperstelle besser schonen solltest.</p>",
 			"penalty": "-20 bei allen Würfen, bei denen es um die Mobilität geht, Bewegung halbiert",
 			"effects": {
-				"label0": "Muskelriss Bein (Schwer)"
+				"label0": "Muskelriss Bein (Schwer)",
+				"description0": "Würfe die das verletzte Bein betreffen",
+				"label1": "Bewegung halbiert"
 			}
 		},
 		{
@@ -204,7 +226,8 @@
 			"description": "<p>Einer deiner Muskeln oder eine wichtige Sehne wurde ernstlich verletzt, was enorm schmerzhaft ist und das entsprechende Körperteil stark einschränkt. Du erleidest die gleichen Folgen wie beim Muskelriss (leicht), allerdings mit -20 auf alle Würfe.</p><p><strong>Heilung:</strong> Der Muskel wird in (30 - Widerstands-Bonus) Tagen wieder teilweise heilen, wodurch sich der Abzug bei allen relevanten Würfen auf -10 reduziert. Ausgeheilt ist der Muskel dann in weiteren (30 - Widerstands-Bonus) Tagen. Heilen hilft hier nicht viel, außer dich mit dem Ratschlag zu versorgen, dass du die betreffende Körperstelle besser schonen solltest.</p>",
 			"penalty": "",
 			"effects": {
-				"label0": "Muskelriss Torso (Schwer)"
+				"label0": "Muskelriss Torso (Schwer)",
+				"description0": "Würfe die den Körper betreffen"
 			}
 		},
 		{
@@ -213,7 +236,8 @@
 			"description": "<p>Einer deiner Muskeln oder eine wichtige Sehne wurde ernstlich verletzt, was enorm schmerzhaft ist und das entsprechende Körperteil stark einschränkt. Du erleidest die gleichen Folgen wie beim Muskelriss (leicht), allerdings mit -20 auf alle Würfe.</p><p><strong>Heilung:</strong> Der Muskel wird in (30 - Widerstands-Bonus) Tagen wieder teilweise heilen, wodurch sich der Abzug bei allen relevanten Würfen auf -10 reduziert. Ausgeheilt ist der Muskel dann in weiteren (30 - Widerstands-Bonus) Tagen. Heilen hilft hier nicht viel, außer dich mit dem Ratschlag zu versorgen, dass du die betreffende Körperstelle besser schonen solltest.</p>",
 			"penalty": "",
 			"effects": {
-				"label0": "Muskelriss Kopf (Schwer)"
+				"label0": "Muskelriss Kopf (Schwer)",
+				"description0": "Würfe die den Kopf betreffen"
 			}
 		},
 		{
@@ -222,7 +246,9 @@
 			"description": "<p>Einer deiner Muskeln ist gezerrt oder hat einen Faserriss, was dich körperlich einschränkt und starke Schmerzen verursacht. Du erleidest einen Abzug von -10 auf alle Würfe, bei denen Bewegungen der fraglichen Trefferzone nötig sind. Ist diese eines deiner Beine, ist zudem deine Bewegung halbiert.</p><p><strong>Heilung:</strong> Der Muskel wird in (30 - Widerstands-Bonus) Tagen wieder soweit heilen. Die gelungene Anwendung von Heilung reduziert diese Zeit um 1 Tag, plus einen weiteren Tag pro EG (du kannst nur einmal davon profitieren).</p>",
 			"penalty": "-10 auf alle Würfe die Bewegung des entsprechenden Beins benötigen",
 			"effects": {
-				"label0": "Muskelriss Bein (Leicht)"
+				"label0": "Bewegung halbiert",
+				"label1": "Muskelriss Bein (Leicht)",
+				"description0": "Würfe die das verletzte Bein betreffen"
 			}
 		},
 		{
@@ -231,7 +257,8 @@
 			"description": "<p>Einer deiner Muskeln ist gezerrt oder hat einen Faserriss, was dich körperlich einschränkt und starke Schmerzen verursacht. Du erleidest einen Abzug von -10 auf alle Würfe, bei denen Bewegungen der fraglichen Trefferzone nötig sind. Ist diese eines deiner Beine, ist zudem deine Bewegung halbiert.</p><p><strong>Heilung:</strong> Der Muskel wird in (30 - Widerstands-Bonus) Tagen wieder soweit heilen. Die gelungene Anwendung von Heilung reduziert diese Zeit um 1 Tag, plus einen weiteren Tag pro EG (du kannst nur einmal davon profitieren).</p>",
 			"penalty": "-10 auf alle Würfte die den entsprechenden Arm betreffen",
 			"effects": {
-				"label0": "Muskelriss Arm (Leicht)"
+				"label0": "Muskelriss Arm (Leicht)",
+				"description0": "Würfe die den verletzten Arm betreffen"
 			}
 		},
 		{
@@ -240,7 +267,8 @@
 			"description": "<p>Einer deiner Muskeln ist gezerrt oder hat einen Faserriss, was dich körperlich einschränkt und starke Schmerzen verursacht. Du erleidest einen Abzug von -10 auf alle Würfe, bei denen Bewegungen der fraglichen Trefferzone nötig sind. Ist diese eines deiner Beine, ist zudem deine Bewegung halbiert.</p><p><strong>Heilung:</strong> Der Muskel wird in (30 - Widerstands-Bonus) Tagen wieder soweit heilen. Die gelungene Anwendung von Heilung reduziert diese Zeit um 1 Tag, plus einen weiteren Tag pro EG (du kannst nur einmal davon profitieren).</p>",
 			"penalty": "",
 			"effects": {
-				"label0": "Muskelriss Kopf (Leicht)"
+				"label0": "Muskelriss Kopf (Leicht)",
+				"description0": "Würfe die den Kopf betreffen"
 			}
 		},
 		{
@@ -249,7 +277,8 @@
 			"description": "<p>Einer deiner Muskeln oder eine wichtige Sehne wurde ernstlich verletzt, was enorm schmerzhaft ist und das entsprechende Körperteil stark einschränkt. Du erleidest die gleichen Folgen wie beim Muskelriss (leicht), allerdings mit -20 auf alle Würfe.</p><p><strong>Heilung:</strong> Der Muskel wird in (30 - Widerstands-Bonus) Tagen wieder teilweise heilen, wodurch sich der Abzug bei allen relevanten Würfen auf -10 reduziert. Ausgeheilt ist der Muskel dann in weiteren (30 - Widerstands-Bonus) Tagen. Heilen hilft hier nicht viel, außer dich mit dem Ratschlag zu versorgen, dass du die betreffende Körperstelle besser schonen solltest.</p>",
 			"penalty": "",
 			"effects": {
-				"label0": "Muskelriss Torso (Leicht)"
+				"label0": "Muskelriss Torso (Leicht)",
+				"description0": "Würfe die den Körper betreffen"
 			}
 		}
 	]
