@@ -10,6 +10,10 @@
 		  "path": "data.flaws.value",
 		  "converter": "trapping_qualities_flaws"
 		},
+		"effects": {
+			"path": "effects",
+			"converter": "effects"
+		},
 		"penalty": "data.penalty.value"
   	},
 	"entries": [

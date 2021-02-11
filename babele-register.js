@@ -9,7 +9,6 @@ Hooks.on('init', () => {
 		{
 			formula += "+ " + actorData.data.characteristics["wp"].bonus
 		}
-		console.log(formula);
 		// Iterate through characteristics
 		for (let ch in actorData.data.characteristics) {
 			// If formula includes characteristic name
@@ -264,6 +263,13 @@ Hooks.on('init', () => {
 						if (!!translations && !!translations['description' + i]) {
 							effect.flags.wfrp4e.effectData.description = translations['description' + i];
 						}
+						if (!!effect && !!effect.flags && !!effect.flags.wfrp4e && !!effect.flags.wfrp4e.script) {
+							effect.flags.wfrp4e.script = effect.flags.wfrp4e.script
+								.replace('args.item.name.includes("Language")', 'args.item.name.includes( game.i18n.localize("Language") )')
+								.replace('args.item.name.includes("Stealth")', 'args.item.name.includes( game.i18n.localize("Stealth") )')
+								.replace('args.item.name == "Track"', 'args.item.name == game.i18n.localize("Track")');
+						}
+						console.log(effect);
 					}
 				} //ignore when no effects
 				return effects
