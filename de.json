@@ -85,7 +85,7 @@
     "SHEET.Encumbered" : "Belastet",
     "SHEET.UnEnc" : "Unbelastet: Keine Modifikatoren",
     "SHEET.EncAbbrev" : "Enc",
-    "SHEET.QtyAbbrev" : "Quallität",
+    "SHEET.QtyAbbrev" : "Menge",
     "SHEET.CountEncOn" : "Klicken Sie hier, um die Belastung dieses Containers (z. B. eines Wagens) nicht zu zählen.",
     "SHEET.CountEncOff" : "Klicken Sie hier, um die Belastung dieses Containers zu zählen (z. B. einen Rucksack, den Sie tragen).",
     "SHEET.CountEncTT" : "Fügen Sie diese Belastung zur Belastung des Charakters hinzu (deaktivieren Sie diese Option, wenn Sie sie nicht z. B. in einem Einkaufswagen herumtragen).",
