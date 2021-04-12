@@ -1,0 +1,305 @@
+{
+  "name": "Unkenrufe",
+  "die": "1d100",
+  "rows": [{
+    "description": "Dein Ende wird ein klebriges sein.\r",
+    "range": [1, 1]
+  }, {
+    "description": "Salzig´ Wasser seieth ein Gift für die Zung´. \r",
+    "range": [2, 2]
+  }, {
+    "description": "Verlassen und allein, Morr dein Freund werde sein. \r",
+    "range": [3, 3]
+  }, {
+    "description": "Das Feldgetier habeth ein Aug´ auf dich geworfen. \r",
+    "range": [4, 4]
+  }, {
+    "description": "Die Machenschaften des Hexensterns, dein Verderben werden sie sein. \r",
+    "range": [5, 5]
+  }, {
+    "description": "Eine gestockte Klinge bringet ein scharfes Ende. \r",
+    "range": [6, 6]
+  }, {
+    "description": "Das geschriebene Wort mögeth dein Verderben bringen. \r",
+    "range": [7, 7]
+  }, {
+    "description": "Dein Leib breche, aber zuforderst werde dein Geist zermalmeth. \r",
+    "range": [8, 8]
+  }, {
+    "description": "Neugier meide, nur in Unwissenheit wirst du Schutz finden. \r",
+    "range": [9, 9]
+  }, {
+    "description": "des Atems beraubet, deine letzten momente voller Angst. \r",
+    "range": [10, 10]
+  }, {
+    "description": "Bind nicht die Schleife, trag nicht die Feder, fürwahr, der Pfau dein Feind seieth. \r",
+    "range": [11, 11]
+  }, {
+    "description": "Sei nicht wie Gnuthus, sonst tueth der Meister dero letzten Tage zählen. \r",
+    "range": [12, 12]
+  }, {
+    "description": "Drei deine Zahl sein tueth! \r",
+    "range": [13, 13]
+  }, {
+    "description": "Das Bronzegetüm grölt dir nach! \r",
+    "range": [14, 14]
+  }, {
+    "description": "Die kalte Hand Ulrics führet dich zu Morr. \r",
+    "range": [15, 15]
+  }, {
+    "description": "Der gespaltene Huf, dein Feind er ist. \r",
+    "range": [16, 16]
+  }, {
+    "description": "Die Eingeweide esse nicht, geschweige denn das Fleisch mit Wurzeln. \r",
+    "range": [17, 17]
+  }, {
+    "description": "Wie du begannest, so wirst du auch enden. \r",
+    "range": [18, 18]
+  }, {
+    "description": "Wie die Sonne aufgehe, so werdest du fallen. \r",
+    "range": [19, 19]
+  }, {
+    "description": "Dero Verderben kenneth dich schon gut, du wissest es nur noch nicht. \r",
+    "range": [20, 20]
+  }, {
+    "description": "Ein Fremder möge dir mehr als ein Geschenk bringen. \r",
+    "range": [21, 21]
+  }, {
+    "description": "Fürchte die Jungen, das Kind, oh, sogar den Säugling. \r",
+    "range": [22, 22]
+  }, {
+    "description": "Nimm dich in Acht, Mammit und Mummit versuchen dich in den Staub zu werfen. \r",
+    "range": [23, 23]
+  }, {
+    "description": "Nimm dich in Acht vor der Börse, dem Sack und dem Samtenen Beutel. \r",
+    "range": [24, 24]
+  }, {
+    "description": "Die Raben gehorchen dem Geheiß Verenas, fürwahr, aber ihre Waage ist belastet. \r",
+    "range": [25, 25]
+  }, {
+    "description": "Die kleinsten von Taals Kindern werden sich laben and deinem Gedärm. \r",
+    "range": [26, 26]
+  }, {
+    "description": "Des Zeichners Linie seieth falsch. \r",
+    "range": [27, 27]
+  }, {
+    "description": "Der heilige Tag, dein letzter Tag ist. \r",
+    "range": [28, 28]
+  }, {
+    "description": "Sterben werdest du im Bette, aber nicht in deinem! \r",
+    "range": [29, 29]
+  }, {
+    "description": "Dein Blut die dürre Erde netzeth. \r",
+    "range": [30, 30]
+  }, {
+    "description": "Dereinst deine Noth am größten ist, Shallya dir den Rücken zuwendeth. \r",
+    "range": [31, 31]
+  }, {
+    "description": "Die Sense dein Fleisch ernten werdeth. \r",
+    "range": [32, 32]
+  }, {
+    "description": "Deine Seele, verzehret von Zorn, erblindet wird sein gegen den unsehbaren Feind. So sprechet Rollo der Prophet ! \r",
+    "range": [33, 33]
+  }, {
+    "description": "Ein Freund in Noth bringet den Tod geschwindh. \r",
+    "range": [34, 34]
+  }, {
+    "description": "Den letzten Athemzug du tust unter Morrsleibs Lichth.. \r",
+    "range": [35, 35]
+  }, {
+    "description": "Die gehoernten Ratten von Taal sollen geifern nach deinen Fersen. \r",
+    "range": [36, 36]
+  }, {
+    "description": "Dein Schwert kein Recht bringen wird, einzig Pein. \r",
+    "range": [37, 37]
+  }, {
+    "description": "Der doppelschweifige Komet über das Firmament ziehet , derweil im Staube du liegst. \r",
+    "range": [38, 38]
+  }, {
+    "description": "Wasser aller Sorten werden dein Verderben sein. \r",
+    "range": [39, 39]
+  }, {
+    "description": "Dein Ende liegt versteckt hinter der Abenddämmerung. \r",
+    "range": [40, 40]
+  }, {
+    "description": "Ein hoher Platz verspricht ein tiefes Ende. \r",
+    "range": [41, 41]
+  }, {
+    "description": "Dein letzter Ruf tut Liebe kund. \r",
+    "range": [42, 42]
+  }, {
+    "description": "Fürchte den Mann der keiner ist ! \r",
+    "range": [43, 43]
+  }, {
+    "description": "Fürchte die blinde Maid, derweil sie deine Seele auf die Waage legt. \r",
+    "range": [44, 44]
+  }, {
+    "description": "Dein gebrochener Karren dein Ende einläutet. \r",
+    "range": [45, 45]
+  }, {
+    "description": "Das Brot! Die Pastete! Der Kuchen! Sie sind auf Morrs Tisch für dich gedeckt. ! \r",
+    "range": [46, 46]
+  }, {
+    "description": "Dereinst die Glocken läuten, sie werden es nur für dich tun. \r",
+    "range": [47, 47]
+  }, {
+    "description": "Der Lorbeerkranz den giftgen Dorn versteckt. \r",
+    "range": [48, 48]
+  }, {
+    "description": "Verharre nicht auf dem Abort, gleichwohl nicht am Galgen. \r",
+    "range": [49, 49]
+  }, {
+    "description": "Cacklefax greifeth die Silberlinge deines Verderbens. \r",
+    "range": [50, 50]
+  }, {
+    "description": "noch bevor dein letzthes Sandkorn falleth, das Uhrglas zerbirst. \r",
+    "range": [51, 51]
+  }, {
+    "description": "Aus dem Dunkel nahet der Rabe. \r",
+    "range": [52, 52]
+  }, {
+    "description": "Hochwohlgeborenes Blut wird das deine vergießen. \r",
+    "range": [53, 53]
+  }, {
+    "description": "Dein Tod kommet von oben. \r",
+    "range": [54, 54]
+  }, {
+    "description": "Seuche und dunkle Krankheit zwingen dich auf die Knie. \r",
+    "range": [55, 55]
+  }, {
+    "description": "Fürchte dich vor grüner Haut, heimsuchen wird sie dich.\r",
+    "range": [56, 56]
+  }, {
+    "description": "Fürchte dich vor grünen Tiefen, dorthin ereilt dich das Verderben. \r",
+    "range": [57, 57]
+  }, {
+    "description": "Seiet wie der Tänzer, weil rüde Sprache Morr an deine Seite lockt. \r",
+    "range": [58, 58]
+  }, {
+    "description": "Das dunkelste Ungemach soll dein Innerstes auffressen. \r",
+    "range": [59, 59]
+  }, {
+    "description": "Die Götter wachen über dein Ende. \r",
+    "range": [60, 60]
+  }, {
+    "description": "Vermeide den Schmied, in seiner Kunst liegt dein Verderben. \r",
+    "range": [61, 61]
+  }, {
+    "description": "Trage nicht Grugnis Gehenk, weil es deinen Tod tragen wird. \r",
+    "range": [62, 62]
+  }, {
+    "description": "Mach dein Silber bereit beim dreizehnten Läuten. \r",
+    "range": [63, 63]
+  }, {
+    "description": "Der Trommler wird dein Ende einläuten. \r",
+    "range": [64, 64]
+  }, {
+    "description": "Katya´s Auge und Eitelkeit wird deinen Tod eilen . \r",
+    "range": [65, 65]
+  }, {
+    "description": "Dein Ende brennt mit unsehbaren Flammen. \r",
+    "range": [66, 66]
+  }, {
+    "description": "Eine üble Nachrede macht einen kranken Mann. \r",
+    "range": [67, 67]
+  }, {
+    "description": "Morr wird dich finden so nackend wie am Tage deiner Geburt. So sprechet Rollo der Prophet ! \r",
+    "range": [68, 68]
+  }, {
+    "description": "Ein Ochse ist sicher, deren zwei bringet den Raben. \r",
+    "range": [69, 69]
+  }, {
+    "description": "Dürste nicht nach Blut, denn es dürstet nach dir. \r",
+    "range": [70, 70]
+  }, {
+    "description": "Im Moment deines höchsten Mutes wirst du versagen. \r",
+    "range": [71, 71]
+  }, {
+    "description": "Fürchte die Bestie des Waldes, führwar sie ist Morrs Bote. \r",
+    "range": [72, 72]
+  }, {
+    "description": "Du wirst vom Becher der Korruption kosten. \r",
+    "range": [73, 73]
+  }, {
+    "description": "Fürchte die Machenschaften der Knochensäge, sie möge die Wurzel deines Todes sein. \r",
+    "range": [74, 74]
+  }, {
+    "description": "Deine Fürsorge wird  mit Kupfer und dem Schwert vergolten. \r",
+    "range": [75, 75]
+  }, {
+    "description": "Das rottend´ Auge ist deine Lohn und dein Ende. \r",
+    "range": [76, 76]
+  }, {
+    "description": "Folter und Pein wird an deinem Ende widerhallen. \r",
+    "range": [77, 77]
+  }, {
+    "description": "Folget nicht den Fußstapfen von Dragomas. \r",
+    "range": [78, 78]
+  }, {
+    "description": "Aus Gewalt  wird dein Verderben gewirkt. \r",
+    "range": [79, 79]
+  }, {
+    "description": "Die von Rhya´s Kessel entsprungenen sollen dir den Rabenstein bauen. \r",
+    "range": [80, 80]
+  }, {
+    "description": "Bist du nicht am rechten Orte, so wird dein Herz geschwächt. \r",
+    "range": [81, 81]
+  }, {
+    "description": "Die myrmidische Quelle dein Gift wird sein. \r",
+    "range": [82, 82]
+  }, {
+    "description": "Fürchte die Krähe, Ehre den Raben.\r",
+    "range": [83, 83]
+  }, {
+    "description": "Eine eingefettete Ziege zu halten ist einfacher als Geheimnisse im Busen zu tragen. \r",
+    "range": [84, 84]
+  }, {
+    "description": "Manann´s Gefolge wird keine Liebe für dich spüren. \r",
+    "range": [85, 85]
+  }, {
+    "description": "Dreifach heimgesucht, dann wird Morr dir Frieden bringen. \r",
+    "range": [86, 86]
+  }, {
+    "description": "Lustwandle mit Vobist, denn Hochmut wird dir den Atem rauben. \r",
+    "range": [87, 87]
+  }, {
+    "description": "Fürchte den Herrn des Mordes, er wartet im Dunkel. \r",
+    "range": [88, 88]
+  }, {
+    "description": "Die flinke Klinge schnitzt deine Totenmaske. \r",
+    "range": [89, 89]
+  }, {
+    "description": "Furchtbare Maschinen gebähren die Feuer deiner Zerstörung! \r",
+    "range": [90, 90]
+  }, {
+    "description": "Dein Ende ist nicht das Ende! \r",
+    "range": [91, 91]
+  }, {
+    "description": "Alsbald der Dudelsack ertönt, dein Herz wird zerbersten. \r",
+    "range": [92, 92]
+  }, {
+    "description": "Das Grün wird dich vergessen machen. \r",
+    "range": [93, 93]
+  }, {
+    "description": "Wenn üble Kunde an die Tür klopft wird Morr bald folge. \r",
+    "range": [94, 94]
+  }, {
+    "description": "Bis Shallya deine Feinde richtet, bleibe standhaft wie Wymund. \r",
+    "range": [95, 95]
+  }, {
+    "description": "Ranald soll dich dereinst verlassen. \r",
+    "range": [96, 96]
+  }, {
+    "description": "Denke nicht über deinen Stand hinaus, denn wisse Veränderung ist der Bote Morrs. \r",
+    "range": [97, 97]
+  }, {
+    "description": "Morr schickt eine Maid. \r",
+    "range": [98, 98]
+  }, {
+    "description": "Ohne dein Kreuz, gehen deine Entscheidungen fehl. \r",
+    "range": [99, 99]
+  }, {
+    "description": "Bevor der Wahrsager dir dein Schicksal mitteilen kann, stirbt er, mit einem Ausdruck des Entsetzens im Gesicht.",
+    "range": [100, 100]
+  }]
+}

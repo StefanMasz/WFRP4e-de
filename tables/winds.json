@@ -1,0 +1,26 @@
+{
+  "name" : "Auswirkungen der Winde der Magie",
+  "die" : "1d10",
+  "rows" : [
+    {
+      "modifier" : "-30",
+      "range": [1, 1]
+    },
+    {
+      "modifier" : "-10",
+      "range": [2, 3]
+    },
+    {
+      "modifier" : "0",
+      "range": [4, 7]
+    },
+    {
+      "modifier" : "+10",
+      "range": [8, 9]
+    },
+    {
+      "modifier": "+30",
+      "range": [10, 10]
+    }
+  ]
+}

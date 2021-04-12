@@ -1,0 +1,42 @@
+{
+  "name": "Positive Ereignisse",
+  "hide": true,
+  "die": "1d100",
+  "rows": [
+    {
+      "name": "Gute Gesellschaft",
+      "description": "Eine zufällige Begegnung unterwegs mit anderen Reisenden erinnert die Charaktere daran, dass es noch anständige Leute gibt. Wenn sie selbst nicht ehrlich sind, können sie natürlich versuchen, die Situation auszunutzen.",
+      "range": [1,25]
+    },
+    {
+      "name": "Das ist jetzt nützlich!",
+      "description": "Die Charaktere finden etwas heraus, das für ihr Abenteuer relevant ist - Klatsch, eine verlorene Botschaft, ein Ereignis, das sie nicht miterleben sollten, oder Ähnliches.",
+      "range": [26,45]
+    },
+    {
+      "name": "Wunderschöne Unterkunft",
+      "description": "Die Charaktere kommen an einem komfortablen Gasthaus vorbei, und wenn sie bereit sind, ein paar Münzen auszugeben, dann werden sie feststellen, dass ihr Geist sich entspannt, ihre Mägen voll und ihre Körper von allen verbliebenen Zuständen geheilt sind.",
+      "range": [46,60]
+    },
+    {
+      "name": "Leerlauf",
+      "description": "Die Reise ist so entspannt und unbehindert, dass die Charaktere Freizeit zur freien Verfügung haben. Jeder Charakter kann eine zusätzliche Reiseaktivität durchführen.",
+      "range": [61,75]
+    },
+    {
+      "name": "Ein freundliches Wort",
+      "description": "Ein einfacher Akt des Entgegenkommens seitens der Charaktere lässt einen Mitreisenden erfreut zurück - gute Worte über die Taten der Charaktere verbreitet sich bis zu ihrem Zielort, und mindestens ein NPC, den sie dort treffen, wird eine gute Meinung von den Charakteren haben.",
+      "range": [76,90]
+    },
+    {
+      "name": "Abkürzung!",
+      "description": "Beim Nachschlagen von Karten oder beim Einholen von Ratschlägen vor Ort entdecken die Charaktere eine Abkürzung durch die Region. Sie können die nächste Etappe ihrer Reise überspringen.",
+      "range": [91,95]
+    },
+    {
+      "name": "Ruhige Reise",
+      "description": "Die Reise ist glücklicherweise ereignislos, die Charaktere ruhen sich gut aus, die Landschaft ist besonders inspirierend, und vielleicht treffen sie auf einen NPC-Heiler oder hilfreichen Priester. Die Charaktere können alle Wunden heilen und alle Erschöpfungs Zustände beseitigen.",
+      "range": [96,100]
+    }
+  ]
+}

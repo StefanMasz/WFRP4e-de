@@ -1,0 +1,23 @@
+{
+  "die": "1d4",
+  "hide": true,
+  "name": "Tierische Missgeschicke",
+  "rows": [
+    {
+      "description": "Eine gerissene Sattelschnalle, ein zerrissener Harnisch oder ein verlorener Steigbügel - ein Teil des Geschirrs deines Reittiers wurde beschädigt und erschwert deine weitere Reise. Der Reiter muss einen Schwierigen (-10) Reittest machen oder herunterfallen ( Distanz 2 meter ). Solange das Geschirr nicht repariert ist bekommen alle zukünftigen Reittests einen malus von -20.",
+      "range": [1,1]
+    },
+    {
+      "description": "Das Tier verliert ein Hufeisen. Der Reiter muss einen Schwierigen (-10) Reittest machen oder herunterfallen ( Distanz 2 meter ). Das Tier kann nicht schneller als gehen bis das Hufeisen von einem Hufner ersetzt wurde. Wenn das Tier dazu gezwungen wird schneller zu reiten, wird es zu lahmen anfangen.",
+      "range": [2,2]
+    },
+    {
+      "description": "Das Tier kann nicht schneller als bis zur halben Geschwindigkeit laufen, kann nicht geritten werden, keine Last tragen oder ziehen. Wird versucht das Tier weiterhin auf der Reise mitzunehmen ( Reiseregeln Seite 27), dann wird die Reiselänge um 1 Stufe verlängert. Jeder Versuch, eines dieser Dinge trotzdem zu wagen, kostet dem Tier 1W10 Wunden, ungeachtet eines Widerstandsbonus. Mit einem Wurf von 8+, muss das Tier einen Herausfordernden Widerstandstest machen oder eine Kritische Wunde an den Beinen erleiden.",
+      "range": [3,3]
+    },
+    {
+      "description": "Das Tier bricht sich ein Bein und wird bewegungsunfähig. Selbst wenn der gebrochene Knochen heilt, wird die Bewegungsgeschwindigkeit halbiert bleiben. Üblicherweise wenn ein Pferd oder ähnliches sich ein Bein bricht, besteht wenig Hoffnung darauf, dass es überlebt.",
+      "range": [4,4]
+    }
+  ]
+}

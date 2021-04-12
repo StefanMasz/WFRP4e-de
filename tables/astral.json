@@ -1,0 +1,108 @@
+{
+  "die": "1d100",
+  "name": "Astrale Zeichen",
+  "rows": [
+    {
+      "name": "Wymund der Ankergänger",
+      "description": "Zeichen der Ausdauer",
+      "range": [1,5]
+    },
+    {
+      "name": "Das Große Kreuz",
+      "description": "Zeichen des Hellsehens",
+      "range": [6,10]
+    },    
+    {
+      "name": "Der Charakterzug von Peintre",
+      "description": "Zeichen der Genauigkeit und Perfektion",
+      "range": [11,15]
+    },
+    {
+      "name": "Gnuthus der Büffel",
+      "description": "Zeichen der Hingabe und Loyalität",
+      "range": [16,25]
+    },
+    {
+      "name": "Dragomas der Drache",
+      "description": "Zeichen der Tapferkeit",
+      "range": [26,30]
+    },
+    {
+      "name": " Zwielicht",
+      "description": "Zeichen der Illusion und des Geheimnisvollen",
+      "range": [31,35]
+    },
+    {
+      "name": "Die Grungni-Scheide",
+      "description": "Zeichen für Waffen und Krieg",
+      "range": [36,40]
+    },
+    {
+      "name": "Der Weise Mammit",
+      "description": "Zeichen der Weisheit",
+      "range": [41,45]
+    },
+    {
+      "name": "Mummit der Wahnsinnige",
+      "description": "Zeichen der Intuition",
+      "range": [46,50]
+    },
+    {
+      "name": "Die zwei Ochsen",
+      "description": "Zeichen der Erde und der schönen Arbeit",
+      "range": [51,55]
+    },
+    {
+      "name": "Die Tänzerin",
+      "description": "Zeichen der Verführung und Liebe",
+      "range": [56,60]
+    },
+    {
+      "name": "Die Trommel",
+      "description": "Zeichen des Vergnügens und des Exzesses",
+      "range": [61,65]
+    },
+    {
+      "name": "Der Flötenspieler",
+      "description": "Zeichen des Schwindlers",
+      "range": [66,70]
+    },
+    {
+      "name": "Vobist der Fahle",
+      "description": "Zeichen des Zweifels und der Ungewissheit",
+      "range": [71,75]
+    },
+    {
+      "name": "Der zerbrochene Karren",
+      "description": "Zeichen von Talent und Lernen",
+      "range": [76,80]
+    },
+    {
+      "name": "Die wilde Ziege",
+      "description": "Zeichen verbotener Leidenschaften",
+      "range": [81,85]
+    },
+    {
+      "name": "Der Kessel von Rhya",
+      "description": "Zeichen der Barmherzigkeit, des Todes und der Schöpfung",
+      "range": [86,90]
+    },
+    {
+      "name": "Kackelfax der Hahn",
+      "description": "Zeichen von Reichtum und Handel",
+      "range": [91,95]
+    },
+    {
+      "name": "Das Zauberbuch",
+      "description": "Zeichen von Kompetenz und Studium",
+      "range": [96,98]
+    },
+    {
+      "name": "Der Stern des Zauberers",
+      "description": "Zeichen der Magie",
+      "range": [96,98]
+    }
+  ]
+}
+ 
+ 

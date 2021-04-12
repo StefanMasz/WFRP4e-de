@@ -1,0 +1,129 @@
+{
+  "name": "Ereignisse",
+  "die": "1d100",
+  "rows": [{
+    "name": "Beschuldigter Verbündeter",
+    "description": "Einer deiner Verbündeten oder nahen Bekannten wird eines schrecklichen Verbrechens angeklagt. Ein Charakter mit der Gildenlizenz eines Advokaten kann eine Unternehmung dafür aufwenden, den Verbündeten mit dem Gelingen eines durchschnittlichen (+20) Wissen-(Gesetz)-Wurf zu befreien. Anderenfalls kann die Gruppe 3 Unternehmungen dafür aufwenden, die Unschuld ihres Verbündeten zu beweisen (oder ein Alibi zu konstruieren, falls er es wirklich war). Wenn der Verbündete befreit wurde, erhältst du einen Großen Gefallen (siehe Tu mir einen Gefallen …, auf Seite 198) zur künftigen Verwendung. Falls nicht, hängt dein Verbündeter!",
+    "range": [1, 3]
+  }, {
+    "name": "Arkane Auktion",
+    "description": "Die Habseligkeiten eines kürzlich verstorbenen Nachbarn werden versteigert, darunter auch ein altes, staubiges Buch unbekannter Herkunft. Wenn du dazu imstande bist, 10 GK zu zahlen, ist das Buch dein! Abgesehen von anderen Dingen, die das Buch nach Wahl des SL enthalten kann, erhält jeder Charakter der Akademiker-Klasse, der sich an der Unternehmung Recherche versucht, +20 auf seinen Wurf.",
+    "range": [4, 6]
+  }, {
+    "name": "Verraten!",
+    "description": "Ein Freund, Familienmitglied oder Verbündeter wendet sich gegen dich, und die Auswirkungen die das hat, werden dein nächstes Abenteuer beeinflussen. Wenn du keine Freunde, Familienmitglieder oder Verbündete hast, dann vergeht die Zeit zwischen den Abenteuern ohne Vorkommnisse, ist aber ein wenig langweilig.",
+    "range": [7, 10]
+  }, {
+    "name": "Ab durch die Mitte",
+    "description": "Irgendein nutzloser Stallknecht muss die Stalltür offengelassen haben und nun ist dein Pferd durchgegangen! Wenn dir ein durchschnittlicher (+20) Abrichten-(Pferd)-Wurf gelingt, dann weiß dein gut ausgebildetes Tier, welche Hand es füttert, und kehrt zurück. Misslingt der Wurf, dann wirst du dein Ross wohl nie wiedersehen. Wenn du kein Pferd besitzt, dann hast du dir an einem deiner Füße eine schmerzhafte neue Blase gelaufen.",
+    "range": [11, 14]
+  }, {
+    "name": "He, du hast mein Bier verschüttet!",
+    "description": "Eine unwichtige Streiterei im Ort wächst sich zur Fehde aus. Der SL entscheidet, wen du beleidigt hast und wie dies geschah. Diese Person wird sich die Gelegenheit zu einer hübschen kleinen Rache nicht entgehen lassen, vielleicht sogar schon im nächsten Abenteuer …",
+    "range": [15, 18]
+  }, {
+    "name": "Razzien",
+    "description": "Die Wache führt gerade eine Serie von Razzien gegen die örtliche Unterwelt durch. Charaktere der Klasse Gesetzlose können keine Gelder über Einnahmen-Unternehmungen erhalten, und wenn Gesetzlose eine Bankgeschäfte-Unternehmung durchführen, dann können sie als Investition nur solche mit maximalem Risiko wählen, da derzeit kein angesehenes Bankhaus ihr Schwarzgeld annehmen möchte.",
+    "range": [19, 21]
+  }, {
+    "name": "Der Steuereintreiber naht",
+    "description": "Der Ort wird von einem unerwarteten Besuch des Steuereintreibers (und seiner stattlichen Eskorte von Soldaten) heimgesucht. Alle Charaktere verlieren 30% ihrer aktuellen Geldmittel, noch ehe irgendetwas für Unternehmungen eingesetzt werden konnte.",
+    "range": [22, 25]
+  }, {
+    "name": "Falsches Silber",
+    "description": "Zum Schrecken der Kaufleute gehen in der Gegend gefälschte Münzen um. Ein Fünftel aller Münzen ist betroffen. Charaktere, die eine Bankgeschäfte-Unternehmung durchführen, werden 20% des angelegten Geldes verlieren, und Charaktere, die eine Einnahmen-Unternehmung durchführen, erhalten dadurch 20% weniger Geld.",
+    "range": [26, 29]
+  }, {
+    "name": "Schwimmender Profit",
+    "description": "Für alle, die mit dem Fluss Geschäfte machen, laufen diese wirklich gut. Wenn jemand mit der Klasse Flussvolk eine Einnahmen-Unternehmung durchführt, dann verdient er dabei 50% mehr.",
+    "range": [30, 33]
+  }, {
+    "name": "Vorgewarnt heißt vorbereitet",
+    "description": "Du erhältst ein kryptisches Omen durch einen Strigani-Mystiker oder einen Magister des Himmelsordens. Während des nächsten Abenteuers ist dein Maximum an Glückspunkten um 1 erhöht.",
+    "range": [34, 36]
+  }, {
+    "name": "Festivitäten",
+    "description": "Es wird gefeiert! Besprich die Art der Feierlichkeit mit dem SL. Die Möglichkeiten reichen von einer örtlichen Hochzeit über eine gute Ernte bis zu einer öffentlichen Hinrichtung! Du wirst sehr vom Anlass (und dessen Nachwirkungen) in Anspruch genommen und verlierst eine Unternehmung.",
+    "range": [37, 40]
+  }, {
+    "name": "Schreckliches Wetter",
+    "description": "Das Wetter wird äußerst schlecht. Während des nächsten Abenteuers werden alle Würfe für soziale Interaktionen mit -10 abgehandelt (weil jeder schlechter Stimmung ist) und die Lebensmittelpreise steigen um 20%.",
+    "range": [41, 44]
+  }, {
+    "name": "Wundervolles Wetter",
+    "description": "Das prachtvolle Wetter inspiriert dich und sorgt für gute Stimmung. Du kannst ein zusätzliches kurzfristiges Ziel wählen. Wenn es erreicht wurde, wird es nicht durch ein neues ersetzt.",
+    "range": [45, 48]
+  }, {
+    "name": "Örtliche Missernte",
+    "description": "Nahrung wird äußerst knapp und gerade das einfache Volk leidet sehr. Charaktere der Klasse Landvolk können keine Einnahmen-Unternehmungen durchführen, und für die Dauer des nächsten Abenteuers sind die Nahrungsmittelpreise in dieser Region doppelt so hoch.",
+    "range": [49, 52]
+  }, {
+    "name": "Üble Heimsuchung",
+    "description": "Im Ort geht der Blutschiss um. Führe einen einfachen (+40) Widerstands- Wurf durch. Gelingt er, wirst du nicht betroffen. Misslingt er, kennen du und die Wäscher-Gilde einander bald ziemlich gut. Details zum Blutschiss auf Seite 186.",
+    "range": [53, 56]
+  }, {
+    "name": "Monströse Komplikationen",
+    "description": "Ein Monster (das der SL auswählt, siehe Kapitel 12: Bestiarium) verbreitet Angst und Schrecken in der örtlichen Bevölkerung. Einnahmen- Unternehmungen werfen nichts ab, solange die Gefahr nicht gebannt wurde. Die Charaktere können je eine Unternehmung opfern, um sich der Sache anzunehmen (diese Begegnung sollte im Rollenspiel ausgetragen werden). Wenn ihr Erfolg habt, bekommt jeder eine freie Einnahmen-Unternehmung, die die individuellen Belohnungen vor Ort darstellt, und es wird ein Fest zu euren Ehren ausgerichtet. Scheitert ihr oder kümmert sich die Gruppe nicht darum, dann zieht das Monster irgendwann weiter oder wird von Rivalen getötet.",
+    "range": [57, 60]
+  }, {
+    "name": "Morrs Umarmung",
+    "description": "Einer der Freunde, Verwandten oder Verbündeten des Charakters stirbt. Der Tod könnte natürliche Ursachen haben, ein Unfall gewesen sein oder auf irgendetwas Finsteres hindeuten …",
+    "range": [61, 63]
+  }, {
+    "name": "Neumond",
+    "description": "Die Nächte sind derzeit besonders dunkel. Alle Gesetzlosen, die eine Einnahmen-Unternehmung angehen, haben einen Bonus von +20% auf den Gewinn.",
+    "range": [64, 65]
+  }, {
+    "name": "Alte Schulden",
+    "description": "Jemand fordert einen Großen Gefallen oder einen Erheblichen Gefallen von dir ein. Sich damit zu befassen wird Teil eures nächsten Abenteuers sein und du verlierst eine Unternehmung, da du dich darauf vorbereiten musst.",
+    "range": [66, 67]
+  }, {
+    "name": "Gelegenheiten kommen des Weges",
+    "description": "Marschierende Soldaten, wohlhabende Kaufleute oder reisende Adelige kommen durch das Gebiet und auch die Charaktere können versuchen, an ihnen zu verdienen und ihren Schnitt zu machen. Charaktere der Klassen Bürger und Landvolk haben bei Einnahmen-Unternehmungen einen Bonus von +50% auf den Gewinn.",
+    "range": [68, 69]
+  }, {
+    "name": "Ruhe und Frieden",
+    "description": "Es sind Zeiten wie diese, die dich daran erinnern, worum es im Leben wirklich geht: Guten Schlaf und feinen Käse. Das nächste Abenteuer trittst du sehr entspannt und zufrieden an.",
+    "range": [70, 71]
+  }, {
+    "name": "Hausierer",
+    "description": "Ein sehr gewitzter und weitgereister Hausierer kommt vorbei, der viel Spaß an Klatsch und Tratsch hat. Für den Preis eines guten Bieres (3 G) erhältst du einen Bonus von +10 auf jede Neueste-Nachrichten-Unternehmung.",
+    "range": [72, 73]
+  }, {
+    "name": "Erkranktes Tier",
+    "description": "Eines deiner Tiere erkrankt; führe einen herausfordernden (+0) Tierpflege- Wurf durch. Gelingt er, kommt dein Tier durch. Falls nicht, stirbt die unglückliche Kreatur. Falls du keine Tiere hast, suchen dich böse Omen nach Wahl des SL heim.",
+    "range": [74, 76]
+  }, {
+    "name": "Ausgenommen",
+    "description": "Ehe du eine Bankgeschäfte-Unternehmung durchführen kannst, wird dein verstecktes Geld bis auf den letzten Groschen gestohlen. Wenn die versteckte Summe weniger als 1 GK betrug, stehlen die Diebe auch noch dein wertvollstes Ausrüstungsstück.",
+    "range": [77, 79]
+  }, {
+    "name": "Unruhen",
+    "description": "Das gemeine Volk ist aufgebracht über die Reichen und Mächtigen! Charaktere der Klasse Adel können keine Einnahmen-Unternehmungen durchführen, denn selbst mit Leibwächtern ist es draußen derzeit nicht sicher genug, um seinen Geschäften nachzugehen. Des Weiteren muss sofort für jede Anlage bei einer angesehenen Bank gewürfelt werden (siehe Seite 196), denn die Unsicherheit und die Gewaltausbrüche haben diese Bank möglicherweise ihre Geschäfte beenden lassen. Allerdings erhalten Spieler, die sich an der Unternehmung Aufwiegeln versuchen, +10 bei allen zugehörigen Würfen.",
+    "range": [80, 82]
+  }, {
+    "name": "Lange Finger",
+    "description": "Deine Börse wurde geleert! Du verlierst die Hälfte des Geldes, mit dem du aus dem letzten Abenteuer gekommen bist.",
+    "range": [83, 85]
+  }, {
+    "name": "Verdacht der Ketzerei",
+    "description": "Du fällst einem Hexenjäger ins Auge, der dich verdächtigt, mit Mutanten, Kultisten oder Schlimmerem zu verkehren, während du dich bei deinen sogenannten „Abenteurern“ herumtreibst. Es erfordert einen sehr schweren (-30) Charme-Wurf, den Hexenjäger von deiner Unschuld zu überzeugen. Ein Misslingen des Wurfes kann dir eine äußerst hartnäckige Nemesis bescheren, die dir in der Zukunft gewiss noch viel Ärger bereiten wird …",
+    "range": [86, 88]
+  }, {
+    "name": "Unter Verdacht",
+    "description": "Die eher ungewöhnlichen Reisen der Gruppe haben Verdacht erregt, ebenso wie ihr plötzlicher Wohlstand. Alle Charaktere müssen eine ihrer Unternehmungen opfern, um ihre Unschuld zu beweisen. Charaktere der Klasse Gesetzlose können bis zum nächsten Abenteuer kein Geld über Einnahmen-Unternehmungen verdienen.",
+    "range": [89, 91]
+  }, {
+    "name": "Ereignislos",
+    "description": "Wenig Interessantes passiert, was dich vielleicht in so große Langeweile versetzt, dass du nun erst recht Appetit auf Risiken hast!",
+    "range": [92, 94]
+  }, {
+    "name": "Unerwartete Wertschätzung",
+    "description": "Jemand, dem du in der Vergangenheit geholfen hast, nutzt seine Chance, einen Teil seiner Schuld zu begleichen. Was genau deine Belohnung ist, sollte von deinen früheren Taten und den NSC abhängen, denen du während des Spiels oder in deiner Hintergrundgeschichte geholfen hast. Die Dankbarkeit könnte in Form eines einzelnen, qualitativ hochwertigen Gegenstandes oder einer Börse mit Silber (die zu Beginn des nächsten Abenteuers zur Verfügung steht) auftreten. Natürlich ist nicht alles Gold was glänzt, und so manches Geschenk kommt mit Hintergedanken …",
+    "range": [95, 97]
+  }, {
+    "name": "Söldner anwerben",
+    "description": "Einer oder mehrere seltene Söldner tauchen in der nächsten Siedlung auf und suchen nach Arbeit, vielleicht ein tileanischer Duellist mit gefürchtetem Ruf, die sogenannten Vogelmenschen von Catrazza, kontraktlose Oger unter dem Befehl eines Halbling-Hauptmannes oder andere, eher unwahrscheinliche Gesellen. Die Söldner werden interessierte Charaktere gern in kriegerischen Fähigkeiten oder Talenten unterweisen, mit einer Ermäßigung der Kosten um 20%, sofern die SC die Unternehmungen Unterweisung oder Besonderes Lernen wählen. Zusätzlich erhalten alle Charaktere, die die Unternehmung Kampfübungen durchführen, einen Bonus von +20 auf alle zugehörigen Würfe.",
+    "range": [98, 100]
+  }]
+}

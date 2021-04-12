@@ -1,0 +1,57 @@
+{
+  "die": "1d100",
+  "hide": true,
+  "name": "Zufallsbegegnungen",
+  "rows": [
+    {
+      "description": "Irgendwas stimmt nicht mit dem heutigen Reiseverlauf - die Straße ist merkwürdig ruhig, einheimisches Wild ist spärlich vorhanden, die wenigen Reisenden, denen man begegnet, werfen einen Blick zur Seite, bevor sie weiterhuschen. Irgendetwas stimmt nicht... Oder vielleicht ist es nur deine Fantasie.",
+      "name": "Verdächtige Umgebung",
+      "range": [1,10]
+    },
+    {
+      "description": "Die Charaktere stoßen auf den Ort einer kürzlich stattgefundenen Schlacht. War es ein Massaker durch Grünhäute, ein Straßenüberfall, ein Scharmützel mit Banditen oder etwas Schlimmeres? Bisher haben nur wenige Plünderer an den Leichen gewütet, und es bleibt noch viel zu holen... Aber wie weit sind die Täter entfernt, und wie werden sie darauf reagieren, wenn die Charaktere an ihren Hinterlassenschaften wühlen?",
+      "name": "Schlachtfeld",
+      "range": [11,20]
+    },
+    {
+      "description": "Die Charaktere ziehen an einer Kolonne von zusammengekauerten und niedergeschlagenen Individuen vorbei. Sind sie Flüchtlinge, Büßer, Aussätzige oder etwas Hinterhältigeres? Unabhängig vom Aussehen der Hauptgruppe können sie zusätzliche Bedrohungen verbergen",
+      "name": "Geknechtete Massen",
+      "range": [21,30]
+    },
+    {
+      "description": "Rivalen oder irgendein anderes Ärgernis plagt die SC auf ihrer Reise. Spiele dies möglichst amüsant aus, doch sorge dabei dafür, dass eine ärgerliche und wiederkehrende kleine Komplikation in das Leben der Charaktere tritt. Nie genug, um Gewalt zu rechtfertigen, aber dicht dran. Es könnte ein Rivale aus der Gilde eines SC sein, der davon besessen ist, im Wettstreit mit jemandem aus der Gruppe zu „gewinnen“, oder es ist einfach nur ein Mitreisender mit einer besonders nervigen Angewohnheit.",
+      "name": "Nicht die schon wieder!",
+      "range": [31,40]
+    },
+    {
+      "description": "Etwas Außergewöhnliches sticht den Figuren ins Auge - ein prächtiges und einladendes Gasthaus mitten im Nirgendwo, ein unbeaufsichtigtes Lagerfeuer mit einem brutzelnden und leckeren Wildschwein, die Geräusche einer reisenden Zirkustruppe. Machen die Charaktere einen Umweg von ihrer Reise, um nachzuforschen und zu schwelgen? Welche versteckten Gefahren lauern hinter diesen Verlockungen?",
+      "name": "Versuchungen auf dem Weg",
+      "range": [41,50]
+    },
+    {
+      "description": "Die Charaktere bewirken, dass einem Weggefährten auf der Reise Unrecht geschieht - sei es eine vermeintliche Bagatelle, ein versehentlicher Zusammenstoß oder eine absichtliche Beleidigung. Wie dem auch sei, der Reisende beschließt, schlechte und möglicherweise unwahre Gerüchte über die Gruppe am Zielort zu verbreiten.",
+      "name": "Schlechter Einfluss!",
+      "range": [51,60]
+    },
+    {
+      "description": "Die Charaktere passieren eine Kolonne, oder ein 'privates Unternehmen' erhebt einen Wegzoll vor den Charakteren. Zahlen sie die erpresserischen Gebühren - im angemessenen Umfang ihres sozialen Status - oder versuchen sie, sich den Behörden zu entziehen? Siehe Zollhäuser (Seite 42) für weitere Informationen.",
+      "name": "Zollstrasse",
+      "range": [61,70]
+    },
+    {
+      "description": "Es gibt hier etwas, das nicht sein sollte - ein schwarzer Steinobelisk inmitten eines grünen Waldes, seltsame Runen, die in die Baumstämme geritzt sind, ein schimmerndes kaltes Licht kurz hinter dem Schein des Lagerfeuers. Was auch immer es ist, andere haben es auch gesehen, und am Ort des Geschehens kursieren Gerüchte.",
+      "name": "Das Ding, das nicht sein sollte",
+      "range": [71,80]
+    },
+    {
+      "description": "Die Götter senden den Charakteren eine Botschaft - eine Offenbarung über die Vergangenheit, eine Andeutung über die Gegenwart oder eine Warnung vor der Zukunft. Aber die Götter sprechen nicht als Sterbliche und wirken stattdessen Zeichen in der Natur und den Gegebenheiten. Ein Rabe mit einem zuckenden Skorpion im Schnabel. Ein Hirsch, der von einem blühenden Zweig durch das Brustbein gestochen wird. Eine Prüfung der Überlieferung (Theologie) kann durchgeführt werden, um mehr Informationen zu erhalten, aber die Symbole sollten für alle Bürger des Reiches offensichtlich sein.",
+      "name": "Vorsehung",
+      "range": [80,90]
+    },
+    {
+      "description": "Ein anderer Reisender oder eine Gruppe von Reisenden benötigt Hilfe von den Charakteren. Vielleicht ist ihr Wagen kaputt oder sie werden von Wölfen gejagt. Wenn die Charaktere sie zu ihrem Zielort begleiten wollen, können sie ihre Dankbarkeit für die sichere Ankunft zum Ausdruck bringen.",
+      "name": "Ein Freund in Not",
+      "range": [91,100]
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "name": "Kritische Körperverletzungen",
+  "die": "1d100",
+  "rows": [{
+    "name": "Das ist nur ein Kratzer!",
+    "wounds": "1",
+    "description": "Du erhältst 1 <em>Blutend</em>-Zustand.",
+    "range": [1, 10]
+  }, {
+    "name": "Magentreffer",
+    "wounds": "1",
+    "description": "Du erhältst 1 <em>Betäubt</em>-Zustand und musst einen <b>einfachen (+40) Ausdauer-Wurf</b> bestehen, oder du erbrichst dich und erhältst zusätzlich einen <em>Niedergestreckt</em>-Zustand.",
+    "range": [11, 20]
+  }, {
+    "name": "Tiefschlag!",
+    "wounds": "1",
+    "description": "Du musst einen <b>schweren (-20) Ausdauer-Wurf</b> bestehen, oder du erhältst 3 <em>Betäubt</em>-Zustände.",
+    "range": [21, 25]
+  }, {
+    "name": "Rücken verdreht",
+    "wounds": "1",
+    "description": "Du erleidest die Verletzung @Compendium[wfrp4e.injuries.JMm9hqyAX6HBTqZO]{Muskelriss (leicht)}.",
+    "range": [26, 30]
+  }, {
+    "name": "Solarplexus geprellt",
+    "wounds": "2",
+    "description": "Du erhältst 1 <em>Betäubt</em>-Zustand und musst einen <b>durchschnittlichen (+20) Ausdauer-Wurf</b> bestehen, oder du erhältst zusätzlich den <em>Niedergestreckt</em>-Zustand. Deine Bewegung ist für <a class = 'chat-roll'><i class='fas fa-dice'></i> 1d10</a> Runden halbiert, da du erst wieder zu Atem kommen musst.",
+    "range": [31, 35]
+  }, {
+    "name": "Angebrochene Rippen",
+    "wounds": "2",
+    "description": "Alle Gewandtheits-Würfe leiden <a class = 'chat-roll'><i class='fas fa-dice'></i> 1d10</a> Tage lang unter einem Abzug von -10.",
+    "range": [36, 40]
+  }, {
+    "name": "Verdrehtes Schlüsselbein",
+    "wounds": "2",
+    "description": "Wähle zufällig einen Arm aus. Du lässt alles fallen, was du in der entsprechenden Hand hältst, und der Arm ist danach für <strong><a class=\"chat-roll\">1d10</a></strong> Runden nutzlos. Während dieser Zeit gilt der Arm, als wäre er verloren (siehe Amputierte Körperteile).",
+    "range": [41, 45]
+  }, {
+    "name": "Aufgerissene Wunde",
+    "wounds": "2",
+    "description": "Du erhältst 2 <b>Blutend</b>-Zustände.",
+    "range": [46, 50]
+  }, {
+    "name": "Rippenbruch",
+    "wounds": "3",
+    "description": "Der Treffer bricht dir eine oder mehrere Rippen. Du erhältst 1 <em>Betäubt</em>-Zustand und die Verletzung @Compendium[wfrp4e.injuries.AoJLxDfZtmWXCiDi]{Knochenbruch (leicht)}.",
+    "range": [51, 55]
+  }, {
+    "name": "Klaffende Brust Wunde",
+    "wounds": "3",
+    "description": "Du erhältst 3 <em>Blutend</em>-Zustände. Bis dir mit Chirurgie geholfen wurde, verursacht jeder weitere Treffer an der Trefferzone Körper zusätzlich 1 <em>Blutend</em>-Zustand, da sich die Wunde wieder öffnet.",
+    "range": [56, 60]
+  }, {
+    "name": "Schmerzhafter Schnitt",
+    "wounds": "3",
+    "description": "Du erhältst 2 <em>Blutend</em>-Zustände und 1 <em>Betäubt</em>-Zustand. Du musst einen <b>schweren (-20) Ausdauer-Wurf</b> bestehen, oder du erhältst zusätzlich den Zustand <em>Bewusstlos</em>, weil dir schwarz vor Augen wird. Sofern dir dabei nicht 4+ EG gelingen, schreist du zudem vor Pein auf.",
+    "range": [61, 65]
+  }, {
+    "name": "Verletzte Arterie",
+    "wounds": "3",
+    "description": "Du erhältst 4 <em>Blutend</em>-Zustände. Bis dir mit Chirurgie geholfen wurde, verursacht jeder weitere Treffer an der Trefferzone Körper zusätzlich 2 <em>Blutend</em>-Zustände.",
+    "range": [66, 70]
+  }, {
+    "name": "Gezerrter Rücken",
+    "wounds": "4",
+    "description": "Dein Rücken scheint vor Schmerzen geradezu zu glühen, als du dir dort einen Muskel zerrst. Du erleidest die Verletzung @Compendium[wfrp4e.injuries.XSlFkJD3Ef842LZo]{Muskelriss (schwer)}.",
+    "range": [71, 75]
+  }, {
+    "name": "Gebrochene Hüfte",
+    "wounds": "4",
+    "description": "Du erhältst 1 <em>Betäubt</em>-Zustand und die Verletzung @Compendium[wfrp4e.injuries.rIJz5nxmvxZTozmB]{Knochenbruch (schwer)}. Zusätzlich musst einen <b>herausfordernden (+0) Ausdauer-Wurf</b> bestehen, oder du erhältst auch den Zustand <em>Niedergestreckt</em>.",
+    "range": [76, 80]
+  }, {
+    "name": "Schwere Brustwunde",
+    "wounds": "4",
+    "description": "Dir wird eine schwere Wunde in der Brust zugefügt, die Haut, Muskeln und Sehnen aufreißt. Du erhältst 4 Blutend-Zustände. Bis dir mit Chirurgie geholfen wurde, verursacht jeder weitere Treffer an der Trefferzone Körper zusätzlich 2 <em>Blutend</em>-Zustände, da sich die Wunde wieder öffnet.",
+    "range": [81, 85]
+  }, {
+    "name": "Bauchwunde",
+    "wounds": "4",
+    "description": "Du erleidest eine @Compendium[wfrp4e.diseases.kKccDTGzWzSXCBOb]{Schwärende Wunde} (siehe Krankheiten und Infektionen) und erhältst 2 <em>Blutend</em>-Zustände.",
+    "range": [86, 90]
+  }, {
+    "name": "Eingeschlagener Brustkorb",
+    "wounds": "5",
+    "description": "Du erhältst 1 <em>Betäubt</em>-Zustand, der sich nur mit medizinischer Versorgung entfernen lässt, und erleidest die Verletzung @Compendium[wfrp4e.injuries.rIJz5nxmvxZTozmB]{Knochenbruch (schwer)}.",
+    "range": [91, 93]
+  }, {
+    "name": "Gebrochenes Schlüsselbein",
+    "wounds": "5",
+    "description": "Du erhältst 1 <em>Bewusstlos</em>-Zustand, der bis zu medizinischer Versorgung anhält, und erleidest die Verletzung @Compendium[wfrp4e.injuries.rIJz5nxmvxZTozmB]{Knochenbruch (schwer)}.",
+    "range": [94, 96]
+  }, {
+    "name": "Innere Blutungen",
+    "wounds": "5",
+    "description": "Du erhältst 1 <em>Blutend</em>-Zustand, der sich nur mit <em>Chirurgie</em> entfernen lässt, und infizierst dich mit @Compendium[wfrp4e.diseases.M8XyRs9DN12XsFTQ]{Blutfäule} (siehe Krankheiten und Infektionen).",
+    "range": [97, 99]
+  }, {
+    "name": "In Stücke gerissen",
+    "wounds": "Tod",
+    "description": "Du wirst entzweigehackt. Deine obere Hälfte landet in Zufallsrichtung neben dir (siehe Abweichung) und alle Charaktere innerhalb von 2 Metern werden geradezu in Blut getaucht.",
+    "range": [100, 100]
+  }]
+}

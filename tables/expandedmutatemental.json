@@ -1,0 +1,353 @@
+{
+  "name": "Erweiterte mentale Mutationen",
+  "die" : "1d100",
+  "columns": [
+    "Undivided",
+    "Khorne",
+    "Nurgle",
+    "Slaanesh",
+    "Tzeentch"
+  ],
+  "rows": [
+    {
+      "range": {
+        "Undivided": [1,1],
+        "Khorne": [],
+        "Nurgle": [1, 2],
+        "Slaanesh": [1, 3],
+        "Tzeentch": [1, 5]
+      },
+      "Description": "<a class = 'item-lookup' data-name='Aethryic Leak' data-type = 'mutation' data-location='eis.expandedmutations'><b>Aethyrisches Leck</b></a>"
+    },
+    {
+      "range": {
+        "Undivided": [2, 4],
+        "Khorne": [1, 5],
+        "Nurgle": [3, 4],
+        "Slaanesh": [4, 6],
+        "Tzeentch": [6, 9]
+      },
+      "Description": "<a class = 'item-lookup' data-name='Animalistic Psyche' data-type = 'mutation' data-location='eis.expandedmutations'><b>Animalische Psyche</b></a>"
+    },
+    {
+      "range": {
+        "Undivided": [5, 8],
+        "Khorne": [6, 9],
+        "Nurgle": [5, 7],
+        "Slaanesh": [7, 10],
+        "Tzeentch": [10, 11]
+      },
+      "Description": "<a class = 'item-lookup' data-name='Awful Cravings' data-type = 'mutation' data-location='wfrp4e.mutations'><b>Schrecklicher Heißhunger</b></a>"
+    },
+    {
+      "range": {
+        "Undivided": [9],
+        "Khorne": [10, 11],
+        "Nurgle": [8, 10],
+        "Slaanesh": [11, 13],
+        "Tzeentch": [12, 16]
+      },
+      "Description": "<a class = 'item-lookup' data-name='Beacon of Corruption' data-type = 'mutation' data-location='eis.expandedmutations'><b>Fanal der Korruption</b></a>"
+    },
+    {
+      "range": {
+        "Undivided": [10, 13],
+        "Khorne": [12, 17],
+        "Nurgle": [11, 14],
+        "Slaanesh": [14, 15],
+        "Tzeentch": [17, 19]
+      },
+      "Description": "<a class = 'item-lookup' data-name='Beast Within' data-type = 'mutation' data-location='eis.expandedmutations'><b>Innere Bestie</b></a>"
+    },
+    {
+      "range": {
+        "Undivided": [14, 15],
+        "Khorne": [18, 21],
+        "Nurgle": [15, 17],
+        "Slaanesh": [16, 19],
+        "Tzeentch": [20, 21]
+      },
+      "Description": "<a class = 'item-lookup' data-name='Beyond Pain' data-type = 'mutation' data-location='eis.expandedmutations'><b>Jenseits des Schmerzes</b></a>"
+    },
+    {
+      "range": {
+        "Undivided": [16, 19],
+        "Khorne": [22, 24],
+        "Nurgle": [18, 21],
+        "Slaanesh": [18, 21],
+        "Tzeentch": [22, 24]
+      },
+      "Description": "<a class = 'item-lookup' data-name='Blasphemous Soul' data-type = 'mutation' data-location='eis.expandedmutations'><b>Blasphemische Seele</b></a>"
+    },
+    {
+      "range": {
+        "Undivided": [20, 22],
+        "Khorne": [25, 29],
+        "Nurgle": [22, 25],
+        "Slaanesh": [24, 25],
+        "Tzeentch": []
+      },
+      "Description": "<a class = 'item-lookup' data-name='Blasted Mind' data-type = 'mutation' data-location='eis.expandedmutations'><b>Verdammter Verstand</b></a>"
+    },
+    {
+      "range": {
+        "Undivided": [23, 24],
+        "Khorne": [30, 33],
+        "Nurgle": [26, 27],
+        "Slaanesh": [26, 28],
+        "Tzeentch": [25, 29]
+      },
+      "Description": "<a class = 'item-lookup' data-name='Chaotic Dreams' data-type = 'mutation' data-location='eis.expandedmutations'><b>Chaotische Träume</b></a>"
+    },
+    {
+      "range": {
+        "Undivided": [25, 27],
+        "Khorne": [34, 35],
+        "Nurgle": [28, 32],
+        "Slaanesh": [29, 31],
+        "Tzeentch": []
+      },
+      "Description": "<a class = 'item-lookup' data-name='Crawling Skin' data-type = 'mutation' data-location='eis.expandedmutations'><b>Kribbelnde Haut</b></a>"
+    },
+    {
+      "range": {
+        "Undivided": [28, 30],
+        "Khorne": [36, 38],
+        "Nurgle": [],
+        "Slaanesh": [32, 34],
+        "Tzeentch": [30, 34]
+      },
+      "Description": "<a class = 'item-lookup' data-name='Fantasist' data-type = 'mutation' data-location='eis.expandedmutations'><b>Fantastiker</b></a>"
+    },
+    {
+      "range": {
+        "Undivided": [31, 33],
+        "Khorne": [39, 43],
+        "Nurgle": [],
+        "Slaanesh": [35, 37],
+        "Tzeentch": []
+      },
+      "Description": "<a class = 'item-lookup' data-name='Fitful Hatred' data-type = 'mutation' data-location='eis.expandedmutations'><b>sporadischer Hass</b></a>"
+    },
+    {
+      "range": {
+        "Undivided": [34, 35],
+        "Khorne": [],
+        "Nurgle": [],
+        "Slaanesh": [38, 41],
+        "Tzeentch": [35, 39]
+      },
+      "Description": "<a class = 'item-lookup' data-name='Glorious Corruption' data-type = 'mutation' data-location='eis.expandedmutations'><b>Glorreiche Korruption</b></a>"
+    },
+    {
+      "range": {
+        "Undivided": [36, 38],
+        "Khorne": [44, 48],
+        "Nurgle": [33, 35],
+        "Slaanesh": [],
+        "Tzeentch": [40, 41]
+      },
+      "Description": "<a class = 'item-lookup' data-name='Hateful Impulses' data-type = 'mutation' data-location='eis.expandedmutations'><b>Hasserfüllte Impulse</b></a>"
+    },
+    {
+      "range": {
+        "Undivided": [39, 42],
+        "Khorne": [49, 50],
+        "Nurgle": [36, 38],
+        "Slaanesh": [42, 45],
+        "Tzeentch": [42, 44]
+      },
+      "Description": "<a class = 'item-lookup' data-name='Hollow Heart' data-type = 'mutation' data-location='eis.expandedmutations'><b>Hohles Herz</b></a>"
+    },
+    {
+      "range": {
+        "Undivided": [43, 47],
+        "Khorne": [],
+        "Nurgle": [39, 43],
+        "Slaanesh": [46, 48],
+        "Tzeentch": [45, 47]
+      },
+      "Description": "<a class = 'item-lookup' data-name='Hounds of Despair' data-type = 'mutation' data-location='eis.expandedmutations'><b>Hetzhunde der Verzweiflung</b></a>"
+    },
+    {
+      "range": {
+        "Undivided": [48, 49],
+        "Khorne": [51, 54],
+        "Nurgle": [44, 46],
+        "Slaanesh": [49, 53],
+        "Tzeentch": []
+      },
+      "Description": "<a class = 'item-lookup' data-name='Hurried Masochism' data-type = 'mutation' data-location='eis.expandedmutations'><b>Hastiger Masochismus</b></a>"
+    },
+    {
+      "range": {
+        "Undivided": [50, 52],
+        "Khorne": [],
+        "Nurgle": [],
+        "Slaanesh": [54, 58],
+        "Tzeentch": [48, 52]
+      },
+      "Description": "<a class = 'item-lookup' data-name='Jealous Thoughts' data-type = 'mutation' data-location='eis.expandedmutations'><b>Eifersüchtige Gedanken</b></a>"
+    },
+    {
+      "range": {
+        "Undivided": [53, 55],
+        "Khorne": [],
+        "Nurgle": [47, 51],
+        "Slaanesh": [],
+        "Tzeentch": [53, 54]
+      },
+      "Description": "<a class = 'item-lookup' data-name='Lingering Foulness' data-type = 'mutation' data-location='eis.expandedmutations'><b>verweilende Fäulnis</b></a>"
+    },
+    {
+      "range": {
+        "Undivided": [56, 58],
+        "Khorne": [],
+        "Nurgle": [52, 56],
+        "Slaanesh": [59, 62],
+        "Tzeentch": []
+      },
+      "Description": "<a class = 'item-lookup' data-name='Lonely Spirit' data-type = 'mutation' data-location='eis.expandedmutations'><b>Einsamer Geist</b></a>"
+    },
+    {
+      "range": {
+        "Undivided": [59, 61],
+        "Khorne": [55, 57],
+        "Nurgle": [57, 59],
+        "Slaanesh": [63, 64],
+        "Tzeentch": []
+      },
+      "Description": "<a class = 'item-lookup' data-name='Mental Blocks' data-type = 'mutation' data-location='eis.expandedmutations'><b>Mentale Blockierung</b></a>"
+    },
+    {
+      "range": {
+        "Undivided": [62, 63],
+        "Khorne": [58, 60],
+        "Nurgle": [60, 62],
+        "Slaanesh": [],
+        "Tzeentch": [55, 58]
+      },
+      "Description": "<a class = 'item-lookup' data-name='Mindless Wandering' data-type = 'mutation' data-location='eis.expandedmutations'><b>Zerstreutes Umherwandeln</b></a>"
+    },
+    {
+      "range": {
+        "Undivided": [64, 66],
+        "Khorne": [],
+        "Nurgle": [63, 66],
+        "Slaanesh": [65, 67],
+        "Tzeentch": [59, 61]
+      },
+      "Description": "<a class = 'item-lookup' data-name='Monstrous Paranoia' data-type = 'mutation' data-location='eis.expandedmutations'><b>Monströse Paranoia</b></a>"
+    },
+    {
+      "range": {
+        "Undivided": [67, 69],
+        "Khorne": [61, 63],
+        "Nurgle": [67, 70],
+        "Slaanesh": [68, 72],
+        "Tzeentch": [62, 64]
+      },
+      "Description": "<a class = 'item-lookup' data-name='Panicked Urgency' data-type = 'mutation' data-location='eis.expandedmutations'><b>Panischer Alarmzustand</b></a>"
+    },
+    {
+      "range": {
+        "Undivided": [70, 72],
+        "Khorne": [64, 66],
+        "Nurgle": [71, 74],
+        "Slaanesh": [73, 76],
+        "Tzeentch": [65, 66]
+      },
+      "Description": "<a class = 'item-lookup' data-name='Ravenous Hunger' data-type = 'mutation' data-location='eis.expandedmutations'><b>Reißender Hunger</b></a>"
+    },
+    {
+      "range": {
+        "Undivided": [73, 76],
+        "Khorne": [67, 68],
+        "Nurgle": [75, 78],
+        "Slaanesh": [77, 78],
+        "Tzeentch": [67, 71]
+      },
+      "Description": "<a class = 'item-lookup' data-name='Shaky Morale' data-type = 'mutation' data-location='eis.expandedmutations'><b>Unsichere Moral</b></a>"
+    },
+    {
+      "range": {
+        "Undivided": [77, 79],
+        "Khorne": [69, 71],
+        "Nurgle": [79, 83],
+        "Slaanesh": [79, 81],
+        "Tzeentch": [72, 75]
+      },
+      "Description": "<a class = 'item-lookup' data-name='Soul Sickness' data-type = 'mutation' data-location='eis.expandedmutations'><b>Seelenkrankheit</b></a>"
+    },
+    {
+      "range": {
+        "Undivided": [80, 82],
+        "Khorne": [72, 75],
+        "Nurgle": [84, 85],
+        "Slaanesh": [82, 83],
+        "Tzeentch": [76, 80]
+      },
+      "Description": "<a class = 'item-lookup' data-name='Suspicious Mind' data-type = 'mutation' data-location='eis.expandedmutations'><b>Argwöhnischer Geist</b></a>"
+    },
+    {
+      "range": {
+        "Undivided": [83, 86],
+        "Khorne": [76, 77],
+        "Nurgle": [86, 87],
+        "Slaanesh": [],
+        "Tzeentch": [81, 83]
+      },
+      "Description": "<a class = 'item-lookup' data-name='Terrible Phobia' data-type = 'mutation' data-location='eis.expandedmutations'><b>Schreckliche Phobie</b></a>"
+    },
+    {
+      "range": {
+        "Undivided": [87, 89],
+        "Khorne": [78, 82],
+        "Nurgle": [],
+        "Slaanesh": [84, 87],
+        "Tzeentch": [84, 86]
+      },
+      "Description": "<a class = 'item-lookup' data-name='Thrill Seeker' data-type = 'mutation' data-location='eis.expandedmutations'><b>Adrenalin Junkie</b></a>"
+    },
+    {
+      "range": {
+        "Undivided": [90, 92],
+        "Khorne": [83, 87],
+        "Nurgle": [88, 92],
+        "Slaanesh": [88, 90],
+        "Tzeentch": [87, 88]
+      },
+      "Description": "<a class = 'item-lookup' data-name='Tortured Visions' data-type = 'mutation' data-location='eis.expandedmutations'><b>Belastende Visionen</b></a>"
+    },
+    {
+      "range": {
+        "Undivided": [93, 94],
+        "Khorne": [88, 92],
+        "Nurgle": [93, 97],
+        "Slaanesh": [91, 94],
+        "Tzeentch": [89, 93]
+      },
+      "Description": "<a class = 'item-lookup' data-name='Totally Unhinged' data-type = 'mutation' data-location='eis.expandedmutations'><b>Totale Gestörtheit </b></a>"
+    },
+    {
+      "range": {
+        "Undivided": [95, 97],
+        "Khorne": [93, 97],
+        "Nurgle": [],
+        "Slaanesh": [95, 98],
+        "Tzeentch": [94, 97]
+      },
+      "Description": "<a class = 'item-lookup' data-name='Unending Malice' data-type = 'mutation' data-location='eis.expandedmutations'><b>Unendliche Bosheit</b></a>"
+    },
+    {
+      "range": {
+        "Undivided": [98, 100],
+        "Khorne": [98, 100],
+        "Nurgle": [99, 100],
+        "Slaanesh": [99, 100],
+        "Tzeentch": [98, 100]
+      },
+      "Description": "<a class = 'item-lookup' data-name='Worried Jitters' data-type = 'mutation' data-location='eis.expandedmutations'><b>Heidenangst</b></a>"
+    }
+  ]
+}

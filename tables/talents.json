@@ -1,0 +1,101 @@
+{
+  "name": "Zufällige Talente",
+  "die" : "1d32",
+  "rows": [{
+    "name": "Scharfer Sinn (1 nach Wahl)",
+    "range": [1, 1]
+  }, {
+    "name": "Beidhändigkeit",
+    "range": [2, 2]
+  }, {
+    "name": "Tierverbundenheit",
+    "range": [3, 3]
+  }, {
+    "name": "Künstlerische Begabung",
+    "range": [4, 4]
+  }, {
+    "name": "Attraktiv",
+    "range": [5, 5]
+  }, {
+    "name": "Kühler Kopf",
+    "range": [6, 6]
+  }, {
+    "name": "Handwerksgeschick (1 nach Wahl)",
+    "range": [7, 7]
+  }, {
+    "name": "Fliehen!",
+    "range": [8, 8]
+  }, {
+    "name": "Robustheit",
+    "range": [9, 9]
+  }, {
+    "name": "Blitzschnelle Reflexe",
+    "range": [10, 10]
+  }, {
+    "name": "Sprachbegabung",
+    "range": [11, 11]
+  }, {
+    "name": "Glückspilz",
+    "range": [12, 12]
+  }, {
+    "name": "Meisterschütze",
+    "range": [13, 13]
+  }, {
+    "name": "Imitator",
+    "range": [14, 14]
+  }, {
+    "name": "Nachtsicht",
+    "range": [15, 15]
+  }, {
+    "name": "Geschickte Finger",
+    "range": [16, 16]
+  }, {
+    "name": "Blaublütig",
+    "range": [17, 17]
+  }, {
+    "name": "Richtungssinn",
+    "range": [18, 18]
+  }, {
+    "name": "Absolutes Gehör",
+    "range": [19, 19]
+  }, {
+    "name": "Reine Seele",
+    "range": [20, 20]
+  }, {
+    "name": "Lesen & Schreiben",
+    "range": [21, 21]
+  }, {
+    "name": "Resistenz (1 nach Wahl)",
+    "range": [22, 22]
+  }, {
+    "name": "Gerissenheit",
+    "range": [23, 23]
+  }, {
+    "name": "Aufgeweckt",
+    "range": [24, 24]
+  }, {
+    "name": "Sechster Sinn",
+    "range": [25, 25]
+  }, {
+    "name": "Starke Beine",
+    "range": [26, 26]
+  }, {
+    "name": "Stämmig",
+    "range": [27, 27]
+  }, {
+    "name": "Einnehmendes Wesen",
+    "range": [28, 28]
+  }, {
+    "name": "Zahlengenie",
+    "range": [29, 29]
+  }, {
+    "name": "Unverwüstlich",
+    "range": [30, 30]
+  }, {
+    "name": "Sehr stark",
+    "range": [31, 31]
+  }, {
+    "name": "Geborener Krieger",
+    "range": [32, 32]
+  }]
+}

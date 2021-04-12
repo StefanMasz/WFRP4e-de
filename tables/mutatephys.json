@@ -1,0 +1,85 @@
+{
+  "name": "Physische Korrumpierung",
+  "die": "1d100",
+  "rows": [{
+    "name": "Tierbeine",
+    "description": "+1 Bewegung",
+    "range": [1, 5]
+  }, {
+    "name": "Korpulent",
+    "description": "-1 Bewegung, +5 Stärke, +5 Widerstand",
+    "range": [6, 10]
+  }, {
+    "name": "Verlängerte Finger",
+    "description": "+10 Geschicklichkeit",
+    "range": [11, 15]
+  }, {
+    "name": "Ausgezehrt",
+    "description": "-10 Stärke, +5 Gewandtheit",
+    "range": [16, 20]
+  }, {
+    "name": "Enormes Auge",
+    "description": "+10 bei Wahrnehmungs-Würfen, bei denen es um die Sicht geht",
+    "range": [21, 25]
+  }, {
+    "name": "Zusätzliche Kniegelenke",
+    "description": "+5 Gewandtheit",
+    "range": [26, 30]
+  }, {
+    "name": "Zusätzlicher Mund",
+    "description": "Würfle die Stelle auf der Trefferzonen-Tabelle aus",
+    "range": [31, 35]
+  }, {
+    "name": "Fleischige Tentakel",
+    "description": "Du erhältst die Kreaturen-Eigenschaft Tentakel (siehe Seite 343).",
+    "range": [36, 40]
+  }, {
+    "name": "Glühende Haut",
+    "description": "So hell wie das Licht einer Kerze",
+    "range": [41, 45]
+  }, {
+    "name": "Unmenschliche Schönheit",
+    "description": "+10 Charisma; du bildest keine Narben",
+    "range": [46, 50]
+  }, {
+    "name": "Invertiertes Gesicht",
+    "description": "–20 Charisma",
+    "range": [51, 55]
+  }, {
+    "name": "Eisenhaut",
+    "description": "+2 Rüstungspunkte an allen Trefferzonen, –10 Gewandtheit",
+    "range": [56, 60]
+  }, {
+    "name": "Züngelnde Zunge",
+    "description": "–10 auf alle Sprache-Würfe beim Sprechen",
+    "range": [61, 65]
+  }, {
+    "name": "Flecken mit Federn",
+    "description": "Würfle zwei Stellen auf der Trefferzonen-Tabelle aus",
+    "range": [66, 70]
+  }, {
+    "name": "Kurze Beine",
+    "description": "–1 Bewegung",
+    "range": [71, 75]
+  }, {
+    "name": "Dornige Schuppen",
+    "description": "+1 Rüstungspunkt an allen Trefferzonen",
+    "range": [76, 80]
+  }, {
+    "name": "Ungleiche Hörner",
+    "description": "+1 Rüstungspunkt am Kopf; gilt als Kreaturen-Waffe, mit einem Schaden in Höhe deines STB (siehe Seite 343).",
+    "range": [81, 85]
+  }, {
+    "name": "Triefender Eiter",
+    "description": "Würfle die Stelle auf der Trefferzonen-Tabelle aus.",
+    "range": [86, 90]
+  }, {
+    "name": "Haarige Schnauze",
+    "description": "+10 Spurenlesen",
+    "range": [91, 95]
+  }, {
+    "name": "Wahl des SL",
+    "description": "Der SL wählt eine Mutation oder eine Kreaturen-Eigenschaft aus.",
+    "range": [96, 100]
+  }]
+}
