@@ -1,0 +1,129 @@
+{
+  "name": "Tabelle für den Zorn der Götter",
+  "die": "1d100",
+  "rows": [{
+    "name": "Heilige Visionen",
+    "description": "Visionen deines Gottes überfluten deine Sinne. Führe einen <b> Durchschnittlichen (+20) Ausdauer-Wurf <b> durch. Wenn dieser misslingt, erhältst du 1 @Condition[Betäubt]. Der SL entscheidet, was die Visionen sind.",
+    "range": [1, 5]
+  }, {
+    "name": "Überdenke dein Tun",
+    "description": " Während der nächsten Woche können gelungene Beten-Würfe nie mehr als +0 EG erzielen.",
+    "range": [6, 10]
+  }, {
+    "name": "Beherzige meine Lektionen",
+    "description": "Du erleidest für [[1d10]]+Sündenpunkte Runden einen Abzug von -10 auf deine Fähigkeit Beten.",
+    "range": [11, 15]
+  }, {
+    "name": "Beweise deine Hingabe",
+    "description": " Du erhältst den Zustand @Condition[Niedergestreckt]. Dieser Zustand kann erst entfernt werden, wenn dir ein <b>Durchschnittlicher (+20) Beten-Wurf</b> gelingt.",
+    "range": [16, 20]
+  }, {
+    "name": "Du überanspruchst meine Geduld",
+    "description": " Du kannst die nächsten [[1d10]] Runden lang keine Beten-Würfe durchführen.",
+    "range": [21, 25]
+  }, {
+    "name": "Du verkennst meine Absichten",
+    "description": " Du erleidest für die nächsten [[1d10]]+Sündenpunkte Stunden einen Abzug von -10 auf alle mit deiner Gottheit verbundenen Fähigkeiten (nach Entscheidung des SL).",
+    "range": [26, 30]
+  }, {
+    "name": "Ich finde deinen Mangel an Glauben beklagenswert",
+    "description": " Du kannst die nächsten [[1d10]]+Sündenpunkte Runden lang keine Beten-Würfe durchführen.",
+    "range": [31, 35]
+  }, {
+    "name": "Teile meinen Schmerz",
+    "description": "Du verlierst 1+Sündenpunkte LP, wobei Widerstands-Bonus und RP ignoriert werden. Führe zudem einen <b>Durchschnittlichen (+20) Ausdauer-Wurf</b> durch. Wenn dieser misslingt, erhältst du 1 @Condition[Betäubt]-Zustand.",
+    "range": [36, 40]
+  }, {
+    "name": "Eure Sache ist unwürdig",
+    "description": " Deine Ziele erhalten den Zustand @Condition[Niedergestreckt]. Alle Segnungen und Wunder deiner Gottheit, die sie während der nächsten [[1d10]+Sündenpunkte Tage zum Ziel haben, misslingen automatisch.",
+    "range": [41, 45]
+  }, {
+    "name": "Beende dein Gestammel",
+    "description": "Du kannst die nächsten [[2d10]]+Sündenpunkte Runden lang keine Beten-Würfe durchführen.",
+    "range": [46, 50]
+  }, {
+    "name": "Fühle meinen Zorn",
+    "description": "Du erleidest [[1d10]]+Sündenpunkte Schaden. Führe zudem einen <b>herausfordernden (+0) Ausdauer-Wurf</b> durch. Wenn dieser misslingt, erhältst du 1 @Condition[Betäubt]-Zustand.",
+    "range": [51, 55]
+  }, {
+    "name": "Ich werde dir nicht beistehen",
+    "description": "Du erleidest für die nächsten [[1d10]]+Sündenpunkte Tage einen Abzug von -10 auf alle mit deiner Gottheit verbundenen Fähigkeiten (nach Entscheidung des SL).",
+    "range": [56, 60]
+  }, {
+    "name": "Göttliche Verletzung",
+    "description": " Du erhältst 1+Sündenpunkte @Condition[Blutend]-Zustände.",
+    "range": [61, 65]
+  }, {
+    "name": "Ich schlage dich mit Blindheit",
+    "description": "Du erhältst den Zustand @Condition[Niedergestreckt]. Zusätzlich erhältst du 1+Sündenpunkte @Condition[Geblendet]-Zustände. Diese können nur durch <b>Herausfordernde (+0) Beten-Würfe</b> entfernt werden, deren Gelingen 1 + EG @Condition[Geblendet]-Zustände entfernt.",
+    "range": [66, 70]
+  }, {
+    "name": "Was wirst du opfern ?",
+    "description": "Du verlierst [[1d10]]+Sündenpunkte LP, wobei Widerstands-Bonus und RP ignoriert werden. Führe zudem einen <b>Schwierigen (-10) Ausdauer-Wurf</b> durch. Wenn dieser misslingt, erhältst du 1 @Condition[Betäubt]Zustand.",
+    "range": [71, 75]
+  }, {
+    "name": "Du hast gegen mich gesündigt",
+    "description": "Dein Gott ist äußerst erzürnt und zwingt dich als Buße dazu, für die nächsten [[1d10]]+Sündenpunkte Runden als deine Handlung Beten-Würfe zu wählen.",
+    "range": [76, 80]
+  }, {
+    "name": "Reinige das Fleisch",
+    "description": "Du verlierst [[2d10]]+Sündenpunkte LP, wobei Widerstands-Bonus und RP ignoriert werden. Führe zudem einen <b>Schweren (-20) Ausdauer-Wurf</b> durch. Wenn dieser misslingt, erhältst du 1 @Condition[Betäubt]Zustand. Wenn du -4 EG oder weniger erzielst, bekommst du den Zustand @Condition[Bewusstlos], der mindestens [[1d10]] Runden anhält.",
+    "range": [81, 87]
+  }, {
+    "name": "Dämonische Interferenz",
+    "description": "Statt deiner Gottheit beantworten die Dunklen Götter dein Flehen. [[1d10]] Niedere Dämonen erscheinen innerhalb von [[2d10]] Metern von deiner Position und greifen die nächsten Ziele an.",
+    "range": [88, 88]
+  }, {
+    "name": "Fürchte meinen Zorn",
+    "description": " Du erhältst 1+Sündenpunkte @Condition[Demoralisiert]Zustände.",
+    "range": [89, 95]
+  }, {
+    "name": "Leiste Buße",
+    "description": "Du musst Buße tun",
+    "range": [96, 100]
+  }, {
+    "name": "Züchtigung",
+    "description": " Du wirst auf 0 LP reduzierst (sofern du noch LP hattest) und bekommst den Zustand @Condition[Bewusstlos], der anhält, bis du mindestens 1 LP zurückerhalten hast.",
+    "range": [101, 105]
+  }, {
+    "name": "Nenne meinen Namen nicht aus Eitelkeit",
+    "description": " Du verlierst für die nächsten [[1d10]]+Sündenpunkte Tage die Talente  Segen und Anrufung.",
+    "range": [106, 110]
+  }, {
+    "name": "Verlasse dich nicht auf deine Nichtigkeiten",
+    "description": " Deine vollständige Ausrüstung verschwindet und du bleibst nackt zurück. Für jede Buße, die du leistest, kehrt einer deiner magischen Gegenstände zurück, solltest du welche besessen haben. ",
+    "range": [111, 115]
+  }, {
+    "name": "Du missbrauchst meine Gnade",
+    "description": "Du verlierst für die nächsten [[2d10]]+Sündenpunkte Tage die Talente Segen und  Anrufung.",
+    "range": [116, 120]
+  }, {
+    "name": "Siehe deine Verderbtheit",
+    "description": "Du erhältst quälende Visionen all deines Scheiterns, die eine Ewigkeit lang anzuhalten scheinen, in Wahrheit aber nur einen Lidschlag lang andauern. Besprich mit dem SL, wie du mittels Maßgeschneiderter Psychologie (siehe Seite 190) darstellen kannst, wie dein Charakter mit dieser traumatischen Erfahrung umgeht. ",
+    "range": [121, 125]
+  }, {
+    "name": "Blitz und Donner",
+    "description": " Deine Gottheit schmettert dich nieder. Du wirst auf 0 LP reduziert (sofern du noch LP hattest) und bekommst den Zustand @Condition[Brennend].",
+    "range": [126, 130]
+  }, {
+    "name": "Leide so wie ich gelitten habe",
+    "description": "Du erhältst jeden Morgen 1+Sündenpunkte @Condition[Blutend]Zustände, bis du Buße geleistet hast.",
+    "range": [131, 135]
+  }, {
+    "name": "Excommunikation",
+    "description": "Du verlierst für die Talente Segen und Anrufung, bis du zwei Buße geleistet hast. Die erste Buße stellt dein Talent Segen wieder her, die zweite dein Talent Anrufung. Alle Mitglieder deines Kultes wissen automatisch um deine Exkommunikation; alle Würfe zur Interaktion mit ihnen sind automatisch <b>Sehr schwer (-30)</b> und lassen sich nicht über diesen Wert modifizieren.",
+    "range": [136, 140]
+  }, {
+    "name": "Beweise deinen Wert",
+    "description": "Ein Göttlicher Diener deiner Gottheit erscheint innerhalb von [[1d100]] Metern und greift an, interveniert oder schmäht dich, je nach der Natur des beleidigten Gottes.",
+    "range": [141, 145]
+  }, {
+    "name": "Ich verstoße dich",
+    "description": "Dein Gott verbannt dich. Du verlierst permanent die Talente Segen und Anrufung sowie alle Beten-Steigerungen. Zudem wissen alle Mitglieder deines Kultes automatisch um deine Verbannung; alle Würfe zur Interaktion mit ihnen sind automatisch <b>Sehr schwer (-30)</b> und lassen sich nicht über diesen Wert modifizieren.",
+    "range": [146, 150]
+  }, {
+    "name": "Zur Rechenschaft gezogen",
+    "description": "Du wirst vor deinen Gott gerufen, um das letzte Urteil zu empfangen. Sofern du keinen Schicksalspunkt hast, kehrst du nie mehr zurück. Wenn du einen Schicksalspunkt opferst, kehrst du an einen Ort nach Wahl des SL zurück und erleidest zudem die Folgen des Resultats <b>Ich verstoße dich</b>.",
+    "range": [151, 151]
+  }]
+}

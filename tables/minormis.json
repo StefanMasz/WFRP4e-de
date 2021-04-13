@@ -1,0 +1,84 @@
+{
+  "name": "Tabelle für leichte Kontrollverluste",
+  "rows": [{
+    "name": "Hexenzeichen",
+    "description": "Das nächste lebende Wesen, das in 1,5 km Umkreis geboren wird, kommt mutiert zur Welt.",
+    "range": [1, 5]
+  }, {
+    "name": "Saure Milch",
+    "description": "Alle Milch im Umkreis von [[1d100]] Metern wird sofort sauer.",
+    "range": [6, 10]
+  }, {
+    "name": "Braunfäule",
+    "description": "Willenskraft-Bonus Felder im Umkreis von Willenskraft-Bonus Meilen (je 1,6 km) werden von Braunfäule heimgesucht und das Getreide verrottet über Nacht.",
+    "range": [11, 15]
+  }, {
+    "name": "Seelenwachs",
+    "description": "Deine Ohren sind schlagartig mit dickem Wachs verstopft. Du erhältst 1 Ertaubt-Zustand, der so lange anhält, bis jemand deine Ohren reinigt (durch den gelungenen Einsatz der Fähigkeit Heilen).",
+    "range": [16, 20]
+  }, {
+    "name": "Hexenlicht",
+    "description": "Du glühst in geisterhaftem, deiner Lehre entsprechendem Licht, das ungefähr so viel Licht wie ein Lagerfeuer verbreitet und [[1d10]] Runden anhält.",
+    "range": [21, 25]
+  }, {
+    "name": "Böses Flüstern",
+    "description": "Bestehe einen <b>durchschnittlichen (+20) Willenskraft-Wurf</b>, oder du erhältst 1 Korrumpierungspunkt.",
+    "range": [26, 30]
+  }, {
+    "name": "Aderrisse",
+    "description": "Deine Nase, deine Augen und deine Ohren bluten ausgiebig. Du erhältst [[1d10]]  @Condition[Blutend]-Zustände.",
+    "range": [31, 35]
+  }, {
+    "name": "Seelenbeben",
+    "description": "Du erhältst den Zustand @Condition[Niedergestreckt].",
+    "range": [36, 40]
+  }, {
+    "name": "Großes Lösen",
+    "description": "An deinem Körper öffnen sich jede Schnalle und jeder Knoten; deine Gürtel fallen, Beutel öffnen sich, Taschen stürzen zu Boden und Rüstungsteile verrutschen.",
+    "range": [41, 45]
+  }, {
+    "name": "Störrische Kleidung",
+    "description": "Deine Kleidungsstücke scheinen ein Eigenleben zu entwickeln. Du erhältst 1 @Condition[Gefesselt]-Zustand, wobei die Stärke, gegen die du würfeln musst, mit [[1d10*5]] bestimmt wird.",
+    "range": [46, 50]
+  }, {
+    "name": "Gärungsfluch",
+    "description": "Alle alkoholischen Getränke innerhalb von [[1d100]] Metern kippen und schmecken plötzlich bitter und faulig.",
+    "range": [51, 55]
+  }, {
+    "name": "Seelensog",
+    "description": "Du erhältst 1 @Condition[Erschöpft]-Zustand, der [[1d10]] Stunden anhält.",
+    "range": [56, 60]
+  }, {
+    "name": "Zu Tode erschreckt",
+    "description": "Wenn du im Kampf bist, erhältst du den Zustand @Condition[Überrascht]. Anderenfalls bist du völlig verschreckt, hast Herzrasen und bist einige Momente lang unfähig, dich zu konzentrieren.",
+    "range": [61, 65]
+  }, {
+    "name": "Unheilige Visionen",
+    "description": "Flüchtige Visionen schändlicher und unheiliger Akte suchen dich heim. Du erhältst 1 @Condition[Geblendet]-Zustand und musst einen <b>herausfordernden (+0) Besonnenheits-Wurf<b> bestehen, oder du erhältst einen weiteren.",
+    "range": [66, 70]
+  }, {
+    "name": "Geschwollene Zunge",
+    "description": "Bei allen Sprache-Würfen (inklusive Zauberwürfen) erleidest du für [[1d10]] Runden einen Abzug von -10.",
+    "range": [71, 75]
+  }, {
+    "name": "Der Schrecken!",
+    "description": "Du musst einen <bschweren (-20) Besonnenheits-Wurf</b> bestehen, oder du erhältst 1 @Condition[Demoralisiert]-Zustand.",
+    "range": [76, 80]
+  }, {
+    "name": "Fluch der Korrumpierung",
+    "description": "Du erhältst 1 Korrumpierungspunkt.",
+    "range": [81, 85]
+  }, {
+    "name": "Doppelter Ärger",
+    "description": "Der Effekt des Zaubers, den du gewirkt hast, tritt irgendwo innerhalb von [[1d10]] Meilen (je 1,6 km) ein. Der SL legt die Details fest, aber der Zauber sollte nach Möglichkeit Konsequenzen haben.",
+    "range": [86, 90]
+  }, {
+    "name": "Mehrfaches Missgeschick",
+    "description": "Wirf zweimal auf diese Tabelle und wiederhole Würfe von 91-00.",
+    "range": [91, 95]
+  }, {
+    "name": "Chaoskaskade",
+    "description": "Würfle auf die <b>Tabelle für Schwere Kontrollverluste</b>.",
+    "range": [96, 100]
+  }]
+}

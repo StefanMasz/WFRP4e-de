@@ -1,0 +1,358 @@
+{
+  "name": "Zufällige Augenfarbe",
+  "columns": ["human", "dwarf", "halfling", "helf", "welf"],
+  "die": "2d10",
+  "hide": true,
+  "rows": [
+    {
+      "range":{
+        "human" : [],
+        "dwarf" : [],
+        "halfling" : [],
+        "helf" : [15, 17],
+        "welf" : []
+      },
+      "name": "Bernstein"
+    },
+    {
+      "range":{
+        "human" : [],
+        "dwarf" : [],
+        "halfling" : [3, 3],
+        "helf" : [],
+        "welf" : []
+      },
+      "name": "Amethyst"
+    },
+    {
+      "range":{
+        "human" : [],
+        "dwarf" : [],
+        "halfling" : [],
+        "helf" : [4, 4],
+        "welf" : []
+      },
+      "name": "Aquamarine"
+    },
+    {
+      "range":{
+        "human" : [10, 20],
+        "dwarf" : [],
+        "halfling" : [],
+        "helf" : [5, 7],
+        "welf" : []
+      },
+      "name": "Schwarz"
+    },
+    {
+      "range":{
+        "human" : [5, 7],
+        "dwarf" : [5, 7],
+        "halfling" : [5, 7],
+        "helf" : [],
+        "welf" : []
+      },
+      "name": "Blau"
+    },
+    {
+      "range":{
+        "human" : [15, 17],
+        "dwarf" : [],
+        "halfling" : [15, 17],
+        "helf" : [],
+        "welf" : []
+      },
+      "name": "Braun"
+    },
+    {
+      "range":{
+        "human" : [],
+        "dwarf" : [],
+        "halfling" : [],
+        "helf" : [],
+        "welf" : [8, 14]
+      },
+      "name": "Kastanie"
+    },
+    {
+      "range":{
+        "human" : [],
+        "dwarf" : [],
+        "halfling" : [],
+        "helf" : [19, 19],
+        "welf" : []
+      },
+      "name": "Zitrin"
+    },
+    {
+      "range":{
+        "human" : [],
+        "dwarf" : [2, 2],
+        "halfling" : [],
+        "helf" : [],
+        "welf" : []
+      },
+      "name": "Kohle"
+    },
+    {
+      "range":{
+        "human" : [],
+        "dwarf" : [19, 19],
+        "halfling" : [18, 18],
+        "helf" : [19, 19],
+        "welf" : []
+      },
+      "name": "Kupfer"
+    },
+    {
+      "range":{
+        "human" : [19, 19],
+        "dwarf" : [12, 14],
+        "halfling" : [19, 20],
+        "helf" : [],
+        "welf" : [15, 17]
+      },
+      "name": "Dunkelbraun"
+    },
+    {
+      "range":{
+        "human" : [],
+        "dwarf" : [8, 11],
+        "halfling" : [],
+        "helf" : [],
+        "welf" : []
+      },
+      "name": "Erdbraun"
+    },
+    {
+      "range":{
+        "human" : [],
+        "dwarf" : [],
+        "halfling" : [],
+        "helf" : [],
+        "welf" : []
+      },
+      "name": "Erdbraun"
+    },
+    {
+      "range":{
+        "human" : [],
+        "dwarf" : [],
+        "halfling" : [],
+        "helf" : [12, 14],
+        "welf" : []
+      },
+      "name": "Smaragd"
+    },
+    {
+      "range":{
+        "human" : [2, 2],
+        "dwarf" : [],
+        "halfling" : [],
+        "helf" : [],
+        "welf" : []
+      },
+      "name": "Freie Wahl"
+    },
+    {
+      "range":{
+        "human" : [],
+        "dwarf" : [20, 20],
+        "halfling" : [],
+        "helf" : [20, 20],
+        "welf" : []
+      },
+      "name": "Gold"
+    },
+    {
+      "range":{
+        "human" : [3, 3],
+        "dwarf" : [18, 18],
+        "halfling" : [8, 11],
+        "helf" : [],
+        "welf" : []
+      },
+      "name": "Grün"
+    },
+    {
+      "range":{
+        "human" : [12, 14],
+        "dwarf" : [],
+        "halfling" : [3, 3],
+        "helf" : [],
+        "welf" : []
+      },
+      "name": "Grau"
+    },
+    {
+      "range":{
+        "human" : [18, 18],
+        "dwarf" : [15, 17],
+        "halfling" : [12, 14],
+        "helf" : [],
+        "welf" : []
+      },
+      "name": "Haselnuss"
+    },
+    {
+      "range":{
+        "human" : [],
+        "dwarf" : [],
+        "halfling" : [],
+        "helf" : [],
+        "welf" : [2, 2]
+      },
+      "name": "Elfenbein"
+    },
+    {
+      "range":{
+        "human" : [],
+        "dwarf" : [],
+        "halfling" : [],
+        "helf" : [],
+        "welf" : [4, 4]
+      },
+      "name": "Efeu Grün"
+    },
+    {
+      "range":{
+        "human" : [],
+        "dwarf" : [],
+        "halfling" : [],
+        "helf" : [2, 2],
+        "welf" : []
+      },
+      "name": "Jet"
+    },
+    {
+      "range":{
+        "human" : [],
+        "dwarf" : [3, 3],
+        "halfling" : [],
+        "helf" : [],
+        "welf" : []
+      },
+      "name": "Blei"
+    },
+    {
+      "range":{
+        "human" : [],
+        "dwarf" : [],
+        "halfling" : [2, 2],
+        "helf" : [],
+        "welf" : []
+      },
+      "name": "Hellgrau"
+    },
+    {
+      "range":{
+        "human" : [],
+        "dwarf" : [],
+        "halfling" : [],
+        "helf" : [],
+        "welf" : [5, 7]
+      },
+      "name": "Moosgrün"
+    },
+    {
+      "range":{
+        "human" : [4, 4],
+        "dwarf" : [],
+        "halfling" : [4, 4],
+        "helf" : [],
+        "welf" : []
+      },
+      "name": "Fahlblau"
+    },
+    {
+      "range":{
+        "human" : [],
+        "dwarf" : [],
+        "halfling" : [],
+        "helf" : [],
+        "welf" : []
+      },
+      "name": "Fahlbraun"
+    },
+    {
+      "range":{
+        "human" : [],
+        "dwarf" : [],
+        "halfling" : [],
+        "helf" : [],
+        "welf" : []
+      },
+      "name": "Fahlgrün"
+    },
+    {
+      "range":{
+        "human" : [8, 11],
+        "dwarf" : [],
+        "halfling" : [],
+        "helf" : [],
+        "welf" : []
+      },
+      "name": "Fahlgrau"
+    },
+    {
+      "range":{
+        "human" : [],
+        "dwarf" : [],
+        "halfling" : [],
+        "helf" : [],
+        "welf" : [19, 19]
+      },
+      "name": "Sandfarben"
+    },
+    {
+      "range":{
+        "human" : [],
+        "dwarf" : [],
+        "halfling" : [],
+        "helf" : [5, 7],
+        "welf" : []
+      },
+      "name": "Sapphir"
+    },
+    {
+      "range":{
+        "human" : [],
+        "dwarf" : [4, 4],
+        "halfling" : [],
+        "helf" : [],
+        "welf" : []
+      },
+      "name": "Stahl"
+    },
+    {
+      "range":{
+        "human" : [],
+        "dwarf" : [],
+        "halfling" : [],
+        "helf" : [],
+        "welf" : [18, 18]
+      },
+      "name": "Beige"
+    },
+    {
+      "range":{
+        "human" : [],
+        "dwarf" : [],
+        "halfling" : [],
+        "helf" : [8, 11],
+        "welf" : []
+      },
+      "name": "Türkis"
+    },
+    {
+      "range":{
+        "human" : [],
+        "dwarf" : [],
+        "halfling" : [],
+        "helf" : [],
+        "welf" : [20, 20]
+      },
+      "name": "Violett"
+    }
+  ]
+}

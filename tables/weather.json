@@ -1,0 +1,67 @@
+{
+  "name": "Wettertabelle",
+  "columns": ["Spring", "Summer", "Autumn", "Winter"],
+  "die" : "1d100",
+  "rows": [
+    {
+      "range":{
+        "Spring" : [1, 10],
+        "Summer" : [1, 40],
+        "Autumn" : [1, 30],
+        "Winter" : []
+      },
+      "name": "Trockenheit",
+      "description" : "Verlängerte Trockenheitsphasen verursachen Staubschleier die beim leisesten Wind übers Land ziehen, sie verschlechtern die Sicht und verursachen ausgetrocknete Kehlen. Das Reisen ist einfach wennauch ungemütlich, aber Foragier Versuche sind bei -10, weil das Wetter es erschwert Wasser zu finden."
+    },
+    {
+      "range":{
+        "Spring" : [11, 30],
+        "Summer" : [41, 70],
+        "Autumn" : [31, 60],
+        "Winter" : [1, 10]
+      },
+      "name": "Sonnig",
+      "description" : "Endlich einmal ist das Wetter freundlich. Es gibt keine wetterbedingten Gefahren."
+    },
+    {
+      "range":{
+        "Spring" : [31, 90],
+        "Summer" : [71, 95],
+        "Autumn" : [61, 90],
+        "Winter" : [11, 60]
+      },
+      "name": "Regen",
+      "description" : "Stundenlanger oder sogar tagelanger Regen prasselt nieder. Die "Frühlingsschauer" die von Poeten so geliebt werden können bis zu einer Woche andauern, was beweist, dass Poeten bemerkenswert wenig Zeit ausserhalb von Wärme und Wein verbringen. Regen reduziert die Sichtbarkeit auf unter 75 Fuß. Zusätzlich dazu erleiden Fernwaffen einen malus von -10 wegen unberechenbaren Winden und Regen."
+    },
+    {
+      "range":{
+        "Spring" : [91, 95],
+        "Summer" : [96, 100],
+        "Autumn" : [91, 98],
+        "Winter" : [61, 65]
+      },
+      "name": "Starkregen",
+      "description" : "Schreckliche Stürme reduzieren die Sichtbarkeit auf nahezu null, alles was leiser als Gebrüll ist unmöglich zu hören und alle physischen Tests erhalten einen malus von -10. Alle und alles nicht unter Bedeckung wird klatschnass innerhalb von minuten. Wasser strömt die Straßen entlang und gräbt matschige, tiefe Rinnen. Fernwaffen erleiden einen malus von -10 und ungeschütztes Schießpulver ist ruiniert. Tiere mit der Eigenheit "Schreckhaft" können von plötzlichen Blitzschlägen in Panik geraten."
+    },
+    {
+      "range":{
+        "Spring" : [96, 100],
+        "Summer" : [],
+        "Autumn" : [99, 100],
+        "Winter" : [66, 90]
+      },
+      "name": "Schnee",
+      "description" : "Sanfter Schnee bedeckt die Welt wie eine weiße Decke und alles sieht neu und sauber aus. Das sieht unzweifelhaft wunderschön aus, solange man sich nicht durchbewegen muss. Fallender Schnee reduziert die Sichtbarkeit auf unter 150 Fuß und erlaubt höchstens Gehgeschwindigkeit. Charaktere die im Schnee reisen müssen einen <b>Durchschnittlichen (+20) Ausdauer</b> Test oder erhalten eine <b><a class = 'condition-chat'>Erschöpft</a></b> Condition."
+    },
+    {
+      "range":{
+        "Spring" : [],
+        "Summer" : [],
+        "Autumn" : [],
+        "Winter" : [91, 100]
+      },
+      "name": "Schneesturm",
+      "description" : "Schnee verwandelt alles in eine blinde weiße Hölle. Die Straße verschwindet unter einer schnell wachsenden Schneedecke und ist nur noch an den angrenzenden Bäumen erkennbar. Die Sichtbarkeit ist nahezu null. Schneller als Schrittgeschwindigkeit kommt man nicht voran. Fernwaffen sind nutzlos unter diesen Bedingungen. Charaktere die in einem Schneesturm reisen, müssen einen <b>Herausfordernden (+0) Ausdauer</b> Test machen, oder erleiden eine <b><a class = 'condition-chat'>Erschöpft</a></b> Condition."
+    }
+   ]
+}

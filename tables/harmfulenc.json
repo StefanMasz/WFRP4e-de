@@ -1,0 +1,52 @@
+{
+  "name": "Gefährliche Ereignisse",
+  "hide": true,
+  "die": "1d100",
+  "rows": [
+    {
+      "name": "Ermüdende Reise!",
+      "description": "Der Weg ist blockiert. Vielleicht brach eine Brücke zusammen, die Straße wurde unterspült oder irgendein Hindernis ist im Weg. Ein einziger der Charaktere führt einen durchschnittlichen (+20) Überleben-Wurf durch, um eine brauchbare Alternativroute zu finden, oder jeder kommt mit einem Tag Verspätung und einem Erschöpft-Zustand an. @Condition[Erschöpft] Condition.",
+      "range": [1,10]
+    },
+    {
+      "name": "Diebe!",
+      "description": "Irgendwie werden die SC bestohlen. Vielleicht ist irgendwer ein Stück mit ihnen gereist, hat das Lagerfeuer mit ihnen geteilt oder sich einfach nur am Wegestrand mit ihnen unterhalten. Wollen sie sich an die Verfolgung machen oder den Verlust als Lehrgeld in Sachen Abenteuer verbuchen?",
+      "range": [11,20]
+    },
+    {
+      "name": "Unfreundliches Gebiet",
+      "description": "Während die Charaktere reisen, wird ihnen klar, dass die Region die Heimat von Banditen, Monstern oder Schlimmerem ist. Sie können es riskieren, sich durch das Gebiet zu bewegen, was von jedem Charakter einen erfolgreichen herausfordernden (+0) Schleichen-(Land)-Test erfordert, oder sie könnten in einen Hinterhalt geraten, oder sie finden einen anderen Weg, der ihnen einen @Condition[Erschöpft]-Zustand von der beschwerlichen Reise einbringt.",
+      "range": [21,30]
+    },
+    {
+      "name": "Vergiftete Erde!",
+      "description": "Die Region, durch die die Charaktere reisen, ist durch frühere Industrie, Kriege oder dunkle Magie verunreinigt worden. Oberflächlich betrachtet scheint alles normal zu sein, aber in den Flüssen lauern Krankheiten, die Tiere sind befallen und Seuchen hängen in der Luft. Jeder Charakter, der sich auf Nahrungssuche begibt, Waren aus dieser Gegend mitnimmt oder zu viel Zeit hier verbringt, wird mit Vergiftungen, Krankheiten und vielleicht sogar Korrumpierung zu kämpfen haben.",
+      "range": [31,40]
+    },
+    {
+      "name": "Selbst die Natur hasst euch!",
+      "description": "Die SC geraten durch die Natur in Gefahr. Tödliche Tiere, Gewitter, Krankheiten, Insekten – was auch immer dir einfällt! Das könnte zu Gewalt führen, dazu, einen Zustand zu erhalten, oder zu einer kleinen aber bissigen Begegnung, wenn sie im Regen die falsche Schäferhütte zur Schlafstätte küren.",
+      "range": [41,50]
+    },
+    {
+      "name": "Furchtbares Wetter!",
+      "description": "Als die Charaktere ihr Lager aufschlagen, verdunkelt sich der Himmel, der Wind nimmt zu und das Wetter ändert sich unerwartet in der Nacht. Beim nächsten @Table[Wetter]{Weather} Wurf addiere +40 (Rechtsklick zum Auswählen). Wenn dies die letzte Etappe der Reise ist, verhüllt das schreckliche Wetter stattdessen das Ziel und versetzt jeden in eine schlechte Stimmung.",
+      "range": [51,70]
+    },
+    {
+      "name": "Beschädigte Notwendigkeiten!",
+      "description": "Aufgrund einer holprigen Straße, eines verlorenen Rucksacks oder eines zerrissenen Zeltes ist ein wichtiger Teil der Reiseausrüstung der Charaktere verloren gegangen oder zerstört worden. Dabei kann es sich um einen feinen Ölzeugmantel, ein Zelt oder das gerissene Rad eines Karrens handeln. Möglicherweise müssen Reparaturen vorgenommen werden, oder der Charakter muss den Wetterbedingungen trotzen und riskiert dabei, ungeschützt zu sein.",
+      "range": [71,80]
+    },
+    {
+      "name": "Dreckige Zustände!",
+      "description": "Ungeachtet dessen, ob es sich um einen armseligen Lagerplatz oder ein verseuchtes Gasthaus handelt, haben sich die Charaktere alle den schrecklichen @Compendium[wfrp4e.diseases.BC4QyBeYAiw8cRuM]{Packer's Pox!} zugezogen. Siehe Warhammer-Fantasy-Rollenspiel Seite 187 für die Regeln zur Ansteckung mit dieser Krankheit.",
+      "range": [81,90]
+    },
+    {
+      "name": "Verankerungen!",
+      "description": "In der Nacht muss einer der Charaktere Verankerungen des Zeltes oder des Lagers befestigen. Ein Chrakter erhält einen @Condition[Erschöpft] Zustand wenn er das widerspenstige Zeug bändigen will, und muss zusätzlich einen Widerstands Wurf machen, wenn er nachts im Regen, Platzregen, Schnee oder in einem Schneesturm suchen muss",
+      "range": [91,100]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "name": "Tabelle für schwere Kontrollverluste",
+  "die": "1d100",
+  "rows": [{
+    "name": "Geisterhafte Stimmen",
+    "description": "Jeder in Willenskraft Meter Umkreis hört ein dunkles, verführerisches Flüstern. Alle empfindungsfähigen Wesen müssen einen <b>durchschnittlichen (+20) Besonnenheits-Wurf</b> bestehen, oder sie erhalten 1 Korrumpierungspunkt.",
+    "range": [1, 5]
+  }, {
+    "name": "Hexenaugen",
+    "description": "Deine Augen nehmen für [[1d10]] Stunden eine unnatürliche, deiner Lehre entsprechende Farbe an. Solange deine Augen derart verfärbt sind, hast du 1 @Condition[Geblendet]-Zustand, der durch absolut nichts vorzeitig beseitigt werden kann.",
+    "range": [6, 10]
+  }, {
+    "name": "Ätherschock",
+    "description": "Du verlierst [[1d10]] LP, wobei Widerstands-Bonus und RP ignoriert werden. Zudem musst du einen <b>herausfordernden (+0) Ausdauer-Wurf</b> bestehen, oder du erhältst 1 @Condition[Betäubt]-Zustand.",
+    "range": [11, 15]
+  }, {
+    "name": "Wandelnder Tod",
+    "description": "Deine Schritte hinterlassen den Tod. Für die nächsten [[1d10]] Stunden welkt jedwedes pflanzliche Leben, in dessen Nähe du kommst, dahin und stirbt.",
+    "range": [16, 20]
+  }, {
+    "name": "Innere Rebellion",
+    "description": "Deine Eingeweide bewegen sich unkontrolliert und du erleichterst dich in deine Kleidung. Du erhältst 1 @Condition[Erschöpft]-Zustand, der nur dadurch beseitigt werden kann, dass du die Kleider wechselst und dich reinigst.",
+    "range": [21, 25]
+  }, {
+    "name": "Seelenfeuer",
+    "description": "Du erhältst 1 @Condition[Brennend]-Zustand, während du in unheiligen Flammen mit deiner Lehre entsprechenden Farbe loderst.",
+    "range": [26, 30]
+  }, {
+    "name": "Fremde Zungen",
+    "description": "Du brabbelst [[1d10]] Runden dümmlich vor dich hin. Während dieser Zeit kannst du nicht verbal kommunizieren und keine Zauberwürfe durchführen, dich ansonsten aber normal verhalten.",
+    "range": [31, 35]
+  }, {
+    "name": "Umschwärmt",
+    "description": "Du wirst von einem Schwarm ätherischer Ratten, Riesenspinnen, Schlangen oder Ähnlichem (Wahl des SL) angegriffen. Verwende das Standardprofil der jeweiligen Kreatur und füge die Kreaturen-Eigenschaft Schwarm hinzu. Nach [[1d10]] Runden zieht sich der Schwarm zurück, sofern er zuvor nicht zerstört wurde.",
+    "range": [36, 40]
+  }, {
+    "name": "Weggeworfene Puppe",
+    "description": "Du wirst [[1d10]] Meter in Zufallsrichtung durch die Luft geschleudert und verlierst beim Aufprall [[1d10]] LP, die RP ignorieren. Zudem erhältst du den Zustand @Condition[Niedergestreckt].",
+    "range": [41, 45]
+  }, {
+    "name": "Gefrorenes Körperteil",
+    "description": "Ein Arm oder Bein (zufällig bestimmt) ist für [[1d10]] Stunden in seiner Haltung erstarrt. Das Glied ist nutzlos, so als sei es amputiert (siehe Seite 180).",
+    "range": [46, 50]
+  }, {
+    "name": "Verdunkelte Sicht",
+    "description": "Du verlierst für [[1d10]] Stunden die Vorteile des Talents Zweites Gesicht. Während dieser Zeit hast du -20 auf alle Kanalisieren-Würfe.",
+    "range": [51, 55]
+  }, {
+    "name": "Chaotische Voraussicht",
+    "description": "Du erhältst einen Vorrat von [[1d10]] Glückspunkten (was dich über deine Obergrenze bringen kann). Jedes Mal, wenn du einen dieser Glückspunkte einsetzt, erhältst du 1 Korrumpierungspunkt. Alle verbliebenen Punkte verfallen mit dem Ende des Spielabends.",
+    "range": [56, 60]
+  }, {
+    "name": "Levitation",
+    "description": "Du wirst von den Winden der Magie erfasst und schwebst für [[1d10]] Minuten [[1d10]] Meter hoch über dem Boden. Andere Charaktere können dich gewaltsam bewegen und auch du selbst kannst dies tun, solltest du geeignete Zauber, Flügel etc. haben, wobei du aber immer wieder in diesen schwebenden Zustand zurückkehrst, wenn man dich lässt. Die Regeln für das Fallen (siehe Seite 166) erklären dir, was passiert, wenn das Schweben endet.",
+    "range": [61, 65]
+  }, {
+    "name": "Rückfluss",
+    "description": "Du speist unkontrolliert einen Strahl von viel, viel mehr übelriechendem Erbrochenen aus, als dein Körper überhaupt fassen kann. Du erhältst für [[1d10]] Runden den Zustand @Condition[Betäubt].",
+    "range": [66, 70]
+  }, {
+    "name": "Chaosbeben",
+    "description": "Alle Wesen innerhalb von [[1d100]] Meter müssen einen <b>durchschnittlichen (+20) Athletik-Wurf</b> bestehen, oder sie erhalten den Zustand @Condition[Niedergestreckt].",
+    "range": [71, 75]
+  }, {
+    "name": "Verräterherz",
+    "description": "Die Dunklen Götter locken dich auf perfide Weise. Solltest du einen Verbündeten unter maximalem Einsatz deiner Möglichkeiten attackieren oder auf andere Weise verraten, erhältst du alle Glückspunkte zurück. Sollte ein anderer Charakter dabei einen Schicksalspunkt verlieren, erhältst du +1 Schicksalspunkt.",
+    "range": [76, 80]
+  }, {
+    "name": "Bösartige Schwächung",
+    "description": "Du erhältst 1 Korrumpierungspunkt, den Zustand @Condition[Niedergestreckt] und einen @Condition[Erschöpft]-Zustand.",
+    "range": [81, 85]
+  }, {
+    "name": "Höllischer Gestank",
+    "description": "Du riechst jetzt wirklich übel! Du erhältst die Kreaturen-Eigenschaft Verstörend (siehe Seite 343) und möglicherweise auch viel Ablehnung von jedem, der riechen kann. Dies hält [[1d10]] Stunden an.",
+    "range": [86, 90]
+  }, {
+    "name": "Machtverlust",
+    "description": "Du kannst [[1d10]] Minuten lang nicht mehr das Talent verwenden, das du zum Wirken dieses Zaubers genutzt hast (meist Arkane Magie, vielleicht aber auch Chaosmagie oder ein ähnliches Talent).",
+    "range": [91, 95]
+  }, {
+    "name": "Ätherische Rückkopplung",
+    "description": "Jeder im Umkreis deines Willenskraft-Bonus in Metern, egal ob Freund oder Feind, verliert [[1d10]] LP, wobei der Widerstands-Bonus und die RP ignoriert werden, und erhält den Zustand @Condition[Niedergestreckt]. Wenn sich keine Ziele in Reichweite befinden sollten, hat die Magie nichts, was sie erden würde, weshalb dein Kopf explodiert, was dich sofort tötet.",
+    "range": [96, 100]
+  }]
+}

@@ -1,0 +1,85 @@
+{
+  "name": "Mentale Korrumpierung",
+  "die": "1d100",
+  "rows": [{
+    "name": "Grässliche Gelüste",
+    "description": "–5 Charisma, –5 Willenskraft",
+    "range": [1, 5]
+  }, {
+    "name": "Inneres Tier",
+    "description": "+10 Willenskraft, –5 Charisma, –5 Intelligenz",
+    "range": [6, 10]
+  }, {
+    "name": "Chaotische Träume",
+    "description": "Du erhältst für die ersten beiden Stunden jeden Tages den Zustand Erschöpft.",
+    "range": [11, 15]
+  }, {
+    "name": "Krabbelnde Haut",
+    "description": "–5 Initiative, –5 Geschicklichkeit",
+    "range": [16, 20]
+  }, {
+    "name": "Erratischer Phantast",
+    "description": "–5 Initiative, –5 Willenskraft",
+    "range": [21, 25]
+  }, {
+    "name": "Ängstliche Bedenken",
+    "description": "–10 Willenskraft",
+    "range": [26, 30]
+  }, {
+    "name": "Hasserfüllte Impulse",
+    "description": "Du unterliegst Feindseligkeit (siehe Psychologie) gegenüber allen, die nicht zu deinem Volk gehören.",
+    "range": [31, 35]
+  }, {
+    "name": "Leeres Herz",
+    "description": "+10 Willenskraft, –10 Charisma",
+    "range": [36, 40]
+  }, {
+    "name": "Neidvolle Gedanken",
+    "description": "–10 Charisma",
+    "range": [41, 45]
+  }, {
+    "name": "Einsame Seele",
+    "description": "–10 auf jeden Wurf, wenn du allein bist",
+    "range": [46, 50]
+  }, {
+    "name": "Mentale Blockade",
+    "description": "–10 Intelligenz",
+    "range": [51, 55]
+  }, {
+    "name": "Unheilige Unruhe",
+    "description": "–10 Willenskraft, +10 Gewandtheit",
+    "range": [56, 60]
+  }, {
+    "name": "Wankende Moral",
+    "description": "Du erhältst jedes Mal, wenn dir irgendein Wurf misslingt, der auf deiner Willenskraft beruht, den Zustand Demoralisiert.",
+    "range": [61, 65]
+  }, {
+    "name": "Argwöhnischer Geist",
+    "description": "–5 Initiative, –5 Intelligenz",
+    "range": [66, 70]
+  }, {
+    "name": "Süchtig nach Aufregung",
+    "description": "+10 Willenskraft, –10 Initiative",
+    "range": [71, 75]
+  }, {
+    "name": "Marternde Visionen",
+    "description": "–10 Initiative",
+    "range": [76, 80]
+  }, {
+    "name": "Völlig verstört",
+    "description": "–20 Charisma, +10 Willenskraft",
+    "range": [81, 85]
+  }, {
+    "name": "Unendliche Bosheit",
+    "description": "–10 auf jeden Wurf, anderen keine Schmerzen zuzufügen; +10 auf jeden Wurf, anderen Schmerzen zuzufügen",
+    "range": [86, 90]
+  }, {
+    "name": "Unheiliger Zorn",
+    "description": "Du unterliegst Raserei (siehe Psychologie), +10 Kampfgeschick",
+    "range": [91, 95]
+  }, {
+    "name": "Schreckhafte Ängste",
+    "description": "+5 Gewandtheit, –5 Charisma",
+    "range": [96, 100]
+  }]
+}

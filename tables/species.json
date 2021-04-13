@@ -1,0 +1,31 @@
+{
+  "name": "Zufälliges Volk",
+  "die" : "1d100",
+  "rows": [
+    {
+      "name": "Mensch",
+      "value": "human",
+      "range": [1, 90]
+    },
+    {
+      "name": "Halbling",
+      "value": "halfling",
+      "range": [91, 94]
+    },
+    {
+      "name": "Zwerg",
+      "value": "dwarf",
+      "range": [95, 98]
+    },
+    {
+      "name": "Hochelf",
+      "value": "helf",
+      "range": [99, 99]
+    },
+    {
+      "name": "Waldelf",
+      "value": "welf",
+      "range": [100, 100]
+    }
+  ]
+}

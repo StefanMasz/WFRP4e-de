@@ -1,0 +1,292 @@
+{
+  "name": "Demonic Mien",
+  "die": "1d10",
+  "columns": [
+    "Nurgle",
+    "Slaanesh",
+    "Tzeentch",
+    "Undivided"
+  ],
+  
+  "rows": [
+    {
+      "range": {
+        "Nurgle": [1,1],
+        "Slaanesh": [],
+        "Tzeentch": [],
+        "Undivided": []
+      },
+      "Description": "@Compendium[wfrp4e.traits.a8MC97PLzl10WocT]{Big}"
+    },
+    {
+      "range": {
+        "Nurgle": [2,2],
+        "Slaanesh": [],
+        "Tzeentch": [],
+        "Undivided": []
+      },
+      "Description": "@Compendium[wfrp4e.traits.uqGxFOEqeurwkAO3]{Breath +7 (Corrosion & Poison)}"
+    },
+    {
+      "range": {
+        "Nurgle": [3,3],
+        "Slaanesh": [],
+        "Tzeentch": [],
+        "Undivided": []
+      },
+      "Description": "@Compendium[wfrp4e.traits.v3uzEthcq0JRar0J]{Daemonic 7}"
+    },
+    {
+      "range": {
+        "Nurgle": [4,4],
+        "Slaanesh": [],
+        "Tzeentch": [],
+        "Undivided": []
+      },
+      "Description": "@Compendium[wfrp4e.traits.PaW8i6JOxWyzAZCz]{Disease(Nurgle's Rot)}"
+    },
+    {
+      "range": {
+        "Nurgle": [5,5],
+        "Slaanesh": [],
+        "Tzeentch": [],
+        "Undivided": []
+      },
+      "Description": "@Compendium[wfrp4e.traits.MVI0lXcg6vvtooAF]{Distracting(Stench)}"
+    },
+    {
+      "range": {
+        "Nurgle": [6,6],
+        "Slaanesh": [3,3],
+        "Tzeentch": [4,4],
+        "Undivided": [5,5]
+      },
+      "Description": "@Compendium[wfrp4e.traits.pTorrE0l3VybAbtn]{Fear(3)}"
+    },
+    {
+      "range": {
+        "Nurgle": [7,7],
+        "Slaanesh": [],
+        "Tzeentch": [],
+        "Undivided": []
+      },
+      "Description": "@Compendium[wfrp4e.traits.TBcdTlYSRH8Rd1x0]{Infestation}"
+    },
+    {
+      "range": {
+        "Nurgle": [8,8],
+        "Slaanesh": [6,6],
+        "Tzeentch": [8, 9],
+        "Undivided": []
+      },
+      "Description": "<a class = 'table-click' data-table='expandedmutatephys'>Mutation</a>"
+    },
+    {
+      "range": {
+        "Nurgle": [9,9],
+        "Slaanesh": [],
+        "Tzeentch": [],
+        "Undivided": []
+      },
+      "Description": "@Compendium[wfrp4e.traits.SfUUdOGjdYpr3KSR]{Regenerate}"
+    },
+    {
+      "range": {
+        "Nurgle": [10,10],
+        "Slaanesh": [],
+        "Tzeentch": [],
+        "Undivided": []
+      },
+      "Description": "@Compendium[wfrp4e.traits.JzeN9MZ0xUDvpE2l]{Vomit}"
+    },
+    {
+      "range": {
+        "Nurgle": [],
+        "Slaanesh": [1,1],
+        "Tzeentch": [],
+        "Undivided": []
+      },
+      "Description": "@Compendium[wfrp4e.traits.v3uzEthcq0JRar0J]{Daemonic (6)}"
+    },
+    {
+      "range": {
+        "Nurgle": [],
+        "Slaanesh": [2,2],
+        "Tzeentch": [],
+        "Undivided": []
+      },
+      "Description": "@Compendium[wfrp4e.traits.MVI0lXcg6vvtooAF]{Distracting}"
+    },
+    {
+      "range": {
+        "Nurgle": [],
+        "Slaanesh": [4,4],
+        "Tzeentch": [],
+        "Undivided": []
+      },
+      "Description": "@Compendium[wfrp4e.traits.yRhhOlt18COq4e1q]{Frenzy}"
+    },
+    {
+      "range": {
+        "Nurgle": [],
+        "Slaanesh": [5,5],
+        "Tzeentch": [],
+        "Undivided": []
+      },
+      "Description": "@Compendium[wfrp4e.traits.IAWyzDfC286a9MPz]{Immunity to Psychology}"
+    },
+    {
+      "range": {
+        "Nurgle": [],
+        "Slaanesh": [7,7],
+        "Tzeentch": [],
+        "Undivided": []
+      },
+      "Description": "@Compendium[wfrp4e.traits.wMwSRDmgiF2IdCJr]{Painless}"
+    },
+    {
+      "range": {
+        "Nurgle": [],
+        "Slaanesh": [8,8],
+        "Tzeentch": [],
+        "Undivided": []
+      },
+      "Description": "@Compendium[wfrp4e.traits.0eEJ280MIC0IbEop]{Petrifying Gaze}"
+    },
+    {
+      "range": {
+        "Nurgle": [],
+        "Slaanesh": [9,9],
+        "Tzeentch": [],
+        "Undivided": []
+      },
+      "Description": "@Compendium[wfrp4e.traits.xg6z63j6BH5AaqLL]{Tongue Attack (6 yards) +6}"
+    },
+    {
+      "range": {
+        "Nurgle": [],
+        "Slaanesh": [10,10],
+        "Tzeentch": [],
+        "Undivided": []
+      },
+      "Description": "@Compendium[wfrp4e.traits.gFkRm9wS65qe18Xv]{Venom}"
+    },
+    {
+      "range": {
+        "Nurgle": [],
+        "Slaanesh": [],
+        "Tzeentch": [1,1],
+        "Undivided": []
+      },
+      "Description": "@Compendium[wfrp4e.traits.uqGxFOEqeurwkAO3]{Breath +9 (Fire)}"
+    },
+    {
+      "range": {
+        "Nurgle": [],
+        "Slaanesh": [],
+        "Tzeentch": [2,2],
+        "Undivided": []
+      },
+      "Description": "@Compendium[wfrp4e.traits.v3uzEthcq0JRar0J]{Daemonic (9)}"
+    },
+    {
+      "range": {
+        "Nurgle": [],
+        "Slaanesh": [],
+        "Tzeentch": [3,3],
+        "Undivided": []
+      },
+      "Description": "@Compendium[wfrp4e.traits.tNWrJUOArwfWXsPw]{Ethereal}"
+    },
+    {
+      "range": {
+        "Nurgle": [],
+        "Slaanesh": [],
+        "Tzeentch": [5,5],
+        "Undivided": []
+      },
+      "Description": "@Compendium[wfrp4e.traits.EO05HX7jql0g605A]{Flight(9)}"
+    },
+    {
+      "range": {
+        "Nurgle": [],
+        "Slaanesh": [],
+        "Tzeentch": [6,6],
+        "Undivided": [9,9]
+      },
+      "Description": "@Compendium[wfrp4e.traits.mDgEMOoJpi8DkRYb]{Magical}"
+    },
+    {
+      "range": {
+        "Nurgle": [],
+        "Slaanesh": [],
+        "Tzeentch": [7,7],
+        "Undivided": []
+      },
+      "Description": "@Compendium[wfrp4e.traits.yrkI7ATjqLPDTFmZ]{Magic Resistance}}"
+    },
+    {
+      "range": {
+        "Nurgle": [],
+        "Slaanesh": [],
+        "Tzeentch": [10,10],
+        "Undivided": []
+      },
+      "Description": "@Compendium[wfrp4e.traits.vY0CHKsJRV3gYBj3]{Spellcaster (any one)}"
+    },
+    {
+      "range": {
+        "Nurgle": [],
+        "Slaanesh": [],
+        "Tzeentch": [],
+        "Undivided": [1, 2]
+      },
+      "Description": "@Compendium[wfrp4e.traits.v3uzEthcq0JRar0J]{Daemonic (8)}"
+    },
+    {
+      "range": {
+        "Nurgle": [],
+        "Slaanesh": [],
+        "Tzeentch": [],
+        "Undivided": [3,3]
+      },
+      "Description": "@Compendium[wfrp4e.traits.9NROryHer1uXAKwY]{Elite}"
+    },
+    {
+      "range": {
+        "Nurgle": [],
+        "Slaanesh": [],
+        "Tzeentch": [],
+        "Undivided": [4,4]
+      },
+      "Description": "@Compendium[wfrp4e.traits.9MjH4xyVrd3Inzak]{Fast}"
+    },
+    {
+      "range": {
+        "Nurgle": [],
+        "Slaanesh": [],
+        "Tzeentch": [],
+        "Undivided": [6,6]
+      },
+      "Description": "@Compendium[wfrp4e.traits.EO05HX7jql0g605A]{Flight (8)}"
+    },
+    {
+      "range": {
+        "Nurgle": [],
+        "Slaanesh": [],
+        "Tzeentch": [],
+        "Undivided": [8,8]
+      },
+      "Description": "@Compendium[wfrp4e.traits.BqPZn6q3VHn9HUrW]{Horns +10}"
+    },
+    {
+      "range": {
+        "Nurgle": [],
+        "Slaanesh": [],
+        "Tzeentch": [],
+        "Undivided": [10,10]
+      },
+      "Description": "@Compendium[wfrp4e.traits.UnJ25lL8aUzem5JO]{Tail Attack (+10)}"
+    }
+    ]
+}

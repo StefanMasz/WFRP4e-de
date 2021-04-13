@@ -1,0 +1,22 @@
+{
+  "name": "Delirium",
+  "die": "1d10",
+  "hide": true,
+  "rows": [{
+    "name": "Lichter Moment",
+    "description": "Du hast eine Phase von lichten Momenten. Alle Zustände, die du zuvor aus deinem Delirium erhalten hast, werden entfernt.",
+    "range": [1, 2]
+  }, {
+    "name": "Unruhiger Schlaf",
+    "description": "Du drehst und wendest dich, schläfst zwar, aber erholst dich nicht. Du erhältst 1 <a class='condition-chat'><i class='fas fa-user-injured'></i> Bewusstlos</a> Zustand für die nächste Stunde, und 1 <a class='condition-chat'><i class='fas fa-user-injured'></i> Erschöpft</a> Zustand für die nächsten <b><a class='chat-roll'>1d10</a></b> Stunden.",
+    "range": [3, 5]
+  }, {
+    "name": "Verwirrung",
+    "description": "Von seltsamen, verzerrten Visionen geplagt, erhältst du einen <a class='condition-chat'><i class='fas fa-user-injured'></i> Betäubt</a> Zustand für die nächste Stunde",
+    "range": [6, 9]
+  }, {
+    "name": "Halluzinationen",
+    "description": "Du siehst seltsame und erschreckende Visionen und musst in der nächsten Stunde alle 10 Minuten einen Test gegen Angst (3) machen. Du erhältst außerdem +1 <a class='condition-chat'><i class='fas fa-user-injured'></i> Betäubt</a> Zustand für die nächsten <b><a class='chat-roll'>1d10</a></b> Stunden",
+    "range": [10, 10]
+  }]
+}

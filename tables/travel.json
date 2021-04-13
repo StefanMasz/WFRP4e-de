@@ -1,0 +1,45 @@
+{
+  "name": "Reisetabelle",
+  "die": "1d10",
+  "rows": [{
+    "name": "Sogar die Natur hasst dich!",
+    "description": "Die Charaktere befinden sich in Gefahr durch die Natur selbst. Tödliche Tiere, Gewitter, Krankheiten, Insekten ... was das Herz begehrt. Das könnte in Gewalt ausarten, oder zu einer Kondition führen, oder in einem kleinen aber erbitterten Gefecht enden, wenn sie in der Hütte des verkehrten Schäfers Unterschlupf suchen.",
+    "range": [1, 1]
+  }, {
+    "name": "Angegriffen!",
+    "description": "Die Charaktere werden auf der Reise angegriffen. Es könnte eine unglückliche Begegnung sein, die in Bezug auf die zu durchquerende Gegend steht ( z.B. Tiermenschen im tiefen Wald ), oder etwas von ihren Gegenspieler geplantes ( angeheuerte Schurken welche die Charaktere daran hindern sollen, ihr Ziel zu erreichen ). Wenn sie einen Routine (+20) Aufmerksamkeitstest nicht schaffen, werden sie möglicherweise sogar aus dem Hinterhalt angegriffen!",
+    "range": [2, 2]
+  }, {
+    "name": "Entspannte Reise",
+    "description": " Die Reise ist angenehm ereignislos, die SC bekommen genug Schlaf und die Szenerie ist überaus inspirierend. Möglicherweise kommt es sogar zu einer Begegnung mit einem NSC, der Heiler oder Priester ist. Die Charaktere können alle ihre LP heilen und entfernen alle Erschöpft-Zustände.",
+    "range": [3, 3]
+  }, {
+    "name": "Wie interessant!",
+    "description": " Eine zufällige Begegnung mit anderen Reisenden, ein besonders guter Rasthof oder Schrein oder eine beeindruckende, uralte Ruine sorgen für eine gute Geschichte für Lagerfeuer oder Schankstube.",
+    "range": [4, 4]
+  }, {
+    "name": "Das könnte nützlich sein!",
+    "description": " Die SC finden irgendetwas von Relevanz für das Abenteuer – Gerüchte; eine verlorene Nachricht; etwas, das sie eigentlich nicht hätten sehen sollen etc.",
+    "range": [5, 5]
+  }, {
+    "name": "Ermüdende Reise!",
+    "description": " Der Weg ist blockiert. Vielleicht brach eine Brücke zusammen, die Straße wurde unterspült oder irgendein Hindernis ist im Weg. Ein einziger der Charaktere führt einen durchschnittlichen (+20) Überleben-Wurf durch, um eine brauchbare Alternativroute zu finden, oder jeder kommt mit einem Tag Verspätung und einem Erschöpft-Zustand an.",
+    "range": [6, 6]
+  }, {
+    "name": "Verfolgt!",
+    "description": "Ein Feind hat die Fährte der Charaktere aufgenommen und man muss sich ihm stellen oder ihn abschütteln, ehe man das Ziel erreicht. Falls die Gruppe sich noch keine Feinde gemacht hat, wirfst du einen Blick in die Hintergrundgeschichten – irgendwer wird irgendwo jemanden haben, der ihn erledigt sehen will. Die Konfrontation dürfte gewalttätig werden, sofern sich die Gruppe nicht irgendwie aus der Geschichte herausreden kann oder einen Umweg macht und den Verfolger abschüttelt, was die Reise einen Tag verlängert.",
+    "range": [7, 7]
+  }, {
+    "name": "Diebe!",
+    "description": "Irgendwie werden die SC bestohlen. Vielleicht ist irgendwer ein Stück mit ihnen gereist, hat das Lagerfeuer mit ihnen geteilt oder sich einfach nur am Wegestrand mit ihnen unterhalten. Wollen sie sich an die Verfolgung machen oder den Verlust als Lehrgeld in Sachen Abenteuer verbuchen?",
+    "range": [8, 8]
+  }, {
+    "name": "Nicht die schon wieder!",
+    "description": "Rivalen oder irgendein anderes Ärgernis plagt die SC auf ihrer Reise. Spiele dies möglichst amüsant aus, doch sorge dabei dafür, dass eine ärgerliche und wiederkehrende kleine Komplikation in das Leben der Charaktere tritt. Nie genug, um Gewalt zu rechtfertigen, aber dicht dran. Es könnte ein Rivale aus der Gilde eines SC sein, der davon besessen ist, im Wettstreit mit jemandem aus der Gruppe zu „gewinnen“, oder es ist einfach nur ein Mitreisender mit einer besonders nervigen Angewohnheit.",
+    "range": [9, 9]
+  }, {
+    "name": "Schlechter Einfluß!",
+    "description": "Die Charaktere stoßen auf jemanden, der ihnen scheinbar hilft, aber Finsteres im Schilde führt. Dieser übelriechende Typ, der eine Abkürzung durch den Morrsgarten kennt, aber unbedingt möchte, dass ihr vorgeht. Die charmante alte Aristokratin, die euch zu Abendessen und Übernachtung in ihr uraltes Anwesen einlädt. Die freundliche alte Frau, die weiß, wo man die besten Pilze findet. Hab Spaß!",
+    "range": [10, 10]
+  }]
+}

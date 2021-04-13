@@ -1,0 +1,62 @@
+{
+  "name": "Fixierungen",
+  "die": "2d10",
+  "rows": [{
+    "description": "Leblose Objekte",
+    "range": [2,2]
+  }, {
+    "description": "Armut",
+    "range": [3,3]
+  }, {
+    "description": "Feuer",
+    "range": [4,4]
+  }, {
+    "description": "Figuren/Symbole des Krieges",
+    "range": [5,5]
+  }, {
+    "description": "Figuren/Symbole der Amtsgewalt",
+    "range": [6,6]
+  }, {
+    "description": "Figuren/Symbole der Religion",
+    "range": [7,7]
+  } ,{
+    "description": "Monster",
+    "range": [8,8]
+  }, {
+    "description": "Mutanten",
+    "range": [9,9]
+  }, {
+    "description": "Halblinge",
+    "range": [10,10]
+  }, {
+    "description": "Menschen",
+    "range": [11,11]
+  }, {
+    "description": "Zwerge",
+    "range": [12,12]
+  }, {
+    "description": "Elfen",
+    "range": [13,13]
+  }, {
+    "description": "Wilde Tiere",
+    "range": [14,14]
+  }, {
+    "description": "Haustiere",
+    "range": [15,15]
+  }, {
+    "description": "Magie",
+    "range": [16,16]
+  }, {
+    "description": "Krankheiten",
+    "range": [17,17]
+  }, {
+    "description": "Wasser",
+    "range": [18,18]
+  }, {
+    "description": "Wohlstand",
+    "range": [19,19]
+  }, {
+    "description": "Fröhlichkeit",
+    "range": [20,20]
+  }]
+}

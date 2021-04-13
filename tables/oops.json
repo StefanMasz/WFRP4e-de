@@ -1,0 +1,26 @@
+{
+  "name": "Ups!-Tabelle",
+  "die": "1d100",
+  "rows": [{
+    "description": "Du triffst einen Teil der eigenen Anatomie (wir empfehlen, dies auf amüsante Weise auszuspielen). Du verlierst 1 LP, wobei WiderstandsBonus und Rüstungspunkte ignoriert werden.",
+    "range": [1, 20]
+  }, {
+    "description": "Deine Nahkampfwaffe verkantet sich unglücklich oder deine Fernkampfwaffe hat eine Fehlfunktion und irgendetwas bricht ab. Deine Waffe erleidet 1 Punkt Schaden. In der nächsten Runde bist du als Letzter dran, unabhängig von der Initiative-Reihenfolge, Talenten oder Sonderregeln, da du dich erholen musst (siehe Seite 156).",
+    "range": [21, 40]
+  }, {
+    "description": "Dein Manöver lief ins Leere und bringt dich aus dem Tritt oder du verlierst den Halt an deiner Fernkampfwaffe. In der nächsten Runde hast du bei deiner Handlung einen Abzug von –10.",
+    "range": [41, 60]
+  }, {
+    "description": "Du stolperst und brauchst einen Moment, um wieder richtig in Position zu kommen. Du verlierst deine nächste Bewegungsaktion.",
+    "range": [61, 70]
+  }, {
+    "description": "Du greifst deine Waffe falsch oder verlierst deine Munition. Du verlierst deine nächste Handlung.",
+    "range": [71, 80]
+  }, {
+    "description": "Du überstreckst dich oder stolperst und verdrehst deinen Knöchel. Du erleidest eine Muskelriss (leicht)-Verletzung (siehe Seite 179). Dies gilt als Kritische Verletzung.",
+    "range": [81, 90]
+  }, {
+    "description": "Du verhaust es komplett und triffst einen zufälligen Verbündeten in Reichweite, wobei dein geworfener Würfel für die Einerstelle über die EG des Treffers entscheidet. Wenn das nicht möglich ist, schlägst du dir irgendwie selbst ins Gesicht und erhältst einen Betäubt-Zustand (siehe Seite 167).",
+    "range": [91, 100]
+  }]
+}

@@ -1,0 +1,107 @@
+{
+  "name": "Tierkopf",
+  "die" : "1d100",
+  "columns": ["Undivided", "Khorne", "Nurgle", "Slaanesh", "Tzeentch"],
+  "rows": [
+    {
+      "range":{
+        "Undivided" : [1, 5],
+        "Khorne" : [1, 10],
+        "Nurgle" : [1, 5],
+        "Slaanesh" : [1, 5],
+        "Tzeentch" : [1 ,10]
+      },
+      "beast": "<a class = 'item-lookup' data-name='Bear Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Bärenkopf</b></a>"
+    },
+    {
+      "range":{
+        "Undivided" : [6, 15],
+        "Khorne" : [11, 25],
+        "Nurgle" : [6, 20],
+        "Slaanesh" : [6, 10],
+        "Tzeentch" : [11 ,20]
+      },
+      "beast": "<a class = 'item-lookup' data-name='Boar Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Wildschweinkopf</b></a>"
+    },
+    {
+      "range":{
+        "Undivided" : [15, 25],
+        "Khorne" : [26, 45],
+        "Nurgle" : [],
+        "Slaanesh" : [11, 55],
+        "Tzeentch" : [21 ,30]
+      },
+      "beast": "<a class = 'item-lookup' data-name='Bull Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Stierkopf</b></a>"
+    },
+    {
+      "range":{
+        "Undivided" : [26, 30],
+        "Khorne" : [46, 60],
+        "Nurgle" : [21, 35],
+        "Slaanesh" : [16, 25],
+        "Tzeentch" : [31 ,40]
+      },
+      "beast": "<a class = 'item-lookup' data-name='Dog Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Hundekopf</b></a>"
+    },
+    {
+      "range":{
+        "Undivided" : [31, 35],
+        "Khorne" : [61, 65],
+        "Nurgle" : [36, 40],
+        "Slaanesh" : [26, 35],
+        "Tzeentch" : [41 ,50]
+      },
+      "beast": "<a class = 'item-lookup' data-name='Eagle Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Adlerkopf</b></a>"
+    },
+    {
+      "range":{
+        "Undivided" : [36, 50],
+        "Khorne" : [],
+        "Nurgle" : [41, 60],
+        "Slaanesh" : [],
+        "Tzeentch" : [51 ,60]
+      },
+      "beast": "<a class = 'item-lookup' data-name='Rat Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Rattenkopf</b></a>"
+    },
+    {
+      "range":{
+        "Undivided" : [51, 55],
+        "Khorne" : [],
+        "Nurgle" : [61, 80],
+        "Slaanesh" : [],
+        "Tzeentch" : [61 ,70]
+      },
+      "beast": "<a class = 'item-lookup' data-name='Giant Spider Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Riesenspinnenkopf</b></a>"
+    },
+    {
+      "range":{
+        "Undivided" : [56, 80],
+        "Khorne" : [66, 80],
+        "Nurgle" : [81, 95],
+        "Slaanesh" : [36, 75],
+        "Tzeentch" : [71 ,80]
+      },
+      "beast": "<a class = 'item-lookup' data-name='Goat Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Ziegenkopf</b></a>"
+    },
+    {
+      "range":{
+        "Undivided" : [81, 95],
+        "Khorne" : [81, 99],
+        "Nurgle" : [],
+        "Slaanesh" : [76, 80],
+        "Tzeentch" : [81 ,90]
+      },
+      "beast": "<a class = 'item-lookup' data-name='Wolf Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Wolfskopf</b></a>"
+    },
+    {
+      "range":{
+        "Undivided" : [91, 100],
+        "Khorne" : [100, 100],
+        "Nurgle" : [96, 100],
+        "Slaanesh" : [81, 100],
+        "Tzeentch" : [91 ,100]
+      },
+      "beast": "<a class = 'item-lookup' data-name='Snake Head' data-type = 'mutation' data-location='eis.expandedmutations'><b>Schlangenkopf</b></a>"
+    }
+]
+}
