@@ -814,6 +814,17 @@
 	"CHARAbbrev.WP": "WK",
     "CHARAbbrev.Fel": "CH",
 
+    "CHAR.WS": "Kampfgeschick",
+    "CHAR.BS": "Ballistische Fertigkeit",
+    "CHAR.S": "Stärke",
+    "CHAR.T": "Widerstand",
+    "CHAR.I": "Initiative",
+    "CHAR.Ag": "Gewandtheit",
+    "CHAR.Dex": "Geschicklichkeit",
+    "CHAR.Int": "Intelligenz",
+    "CHAR.WP": "Willenskraft",
+    "CHAR.Fel": "Charisma",
+
     "CHARBonus.WS": "Kampfgeschick Bonus",
 	"CHARBonus.BS": "Ballistische Fertigkeit Bonus",
 	"CHARBonus.S": "Stärke Bonus",
@@ -1027,5 +1038,14 @@
     "CONFIGURE.AddActorEncumbrance" : "Füge Traglast für Charakter hinzu",
 
     "BUTTON.PostBug" : "Schreib eine Beschwerde",
-    "BUTTON.CharacterCreation" : "Charaktererstellung"
+    "BUTTON.CharacterCreation" : "Charaktererstellung",
+
+    "EFFECT.TabWFRP" : "WFRP",
+    "EFFECT.EffectType" : "Effekt Typ",
+    "EFFECT.EffectApplication" : "Effekt Anwendung",
+    "EFFECT.PreventDuplicate" : "Doppelte Effekte verhindern",
+    "EFFECT.DodgeMount" : "Ausweichen auf einem Gefährt",
+    "EFFECT.HideEffect" : "Für Spieler ausbelden",
+    "EFFECT.SystemEffects" : "System Effekte",
+    "EFFECT.SelectEffect" : "Effekt auswählen"
 }
