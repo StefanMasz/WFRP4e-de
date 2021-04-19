@@ -172,16 +172,16 @@ Hooks.on('init', () => {
 							name_en = res[1]; // Get the root traits name
 							special = " (" + game.i18n.localize( res[2].trim() ) + ")"; // And the special keyword
 						}
-						var trait_fr = fulltraits.translate( { name: name_en } );
-						//console.log(">>>>> Trait ?", name_en, nbt, trait_fr.name, special);
-						trait_en.name = nbt + trait_fr.name + special;
-						if ( trait_fr.data && trait_fr.data.description && trait_fr.data.description.value ) {
-							trait_en.data.description.value = trait_fr.data.description.value;
+						var trait_de = fulltraits.translate( { name: name_en } );
+						//console.log(">>>>> Trait ?", name_en, nbt, trait_de.name, special);
+						trait_en.name = nbt + trait_de.name + special;
+						if ( trait_de.data && trait_de.data.description && trait_de.data.description.value ) {
+							trait_en.data.description.value = trait_de.data.description.value;
 						} else if ( eisitems ) { // No description in the FR compendium -> test other compendium if presenr
-							trait_fr = eisitems.translate( { name: name_en } );
-							trait_en.name = nbt + trait_fr.name + special;
-							if ( trait_fr.data && trait_fr.data.description && trait_fr.data.description.value )
-								trait_en.data.description.value = trait_fr.data.description.value;
+							trait_de = eisitems.translate( { name: name_en } );
+							trait_en.name = nbt + trait_de.name + special;
+							if ( trait_de.data && trait_de.data.description && trait_de.data.description.value )
+								trait_en.data.description.value = trait_de.data.description.value;
 						}
 						if ( isNaN(trait_en.data.specification.value) ) { // This is a string, so translate it
 							//console.log("Translating : ", trait_en.data.specification.value);
@@ -194,32 +194,32 @@ Hooks.on('init', () => {
 							name_en = res[1].trim(); // Get the root skill name
 							special = " (" + game.i18n.localize( res[2].trim() ) + ")"; // And the special keyword
 						}
-						var trait_fr = fullskills.translate( { name: name_en } );
-						//console.log(">>>>> Skill ?", name_en, special, trait_fr.name, trait_fr);
-						if (trait_fr.translated) {
-							trait_en.name = trait_fr.name + special;
-							if ( trait_fr.data ) {
-								trait_en.data.description.value = trait_fr.data.description.value;
+						var trait_de = fullskills.translate( { name: name_en } );
+						//console.log(">>>>> Skill ?", name_en, special, trait_de.name, trait_de);
+						if (trait_de.translated) {
+							trait_en.name = trait_de.name + special;
+							if ( trait_de.data ) {
+								trait_en.data.description.value = trait_de.data.description.value;
 							}
 						}
 					} else if ( trait_en.type == "prayer") {
-						var trait_fr = fullprayers.translate( { name: name_en } );
-						//console.log(">>>>> Prayer ?", name_en, special, trait_fr.name );
-						trait_en.name = trait_fr.name + special;
-						if ( trait_fr.data && trait_fr.data.description && trait_fr.data.description.value )
-							trait_en.data.description.value = trait_fr.data.description.value;
+						var trait_de = fullprayers.translate( { name: name_en } );
+						//console.log(">>>>> Prayer ?", name_en, special, trait_de.name );
+						trait_en.name = trait_de.name + special;
+						if ( trait_de.data && trait_de.data.description && trait_de.data.description.value )
+							trait_en.data.description.value = trait_de.data.description.value;
 					} else if ( trait_en.type == "spell") {
-						var trait_fr = fullspells.translate( { name: name_en } );
-						if ( (!trait_fr.data || !trait_fr.data.description || !trait_fr.data.description.value) && eisspells) { // If no translation, test eisspells
-							trait_fr = eisspells.translate( { name: name_en } );
+						var trait_de = fullspells.translate( { name: name_en } );
+						if ( (!trait_de.data || !trait_de.data.description || !trait_de.data.description.value) && eisspells) { // If no translation, test eisspells
+							trait_de = eisspells.translate( { name: name_en } );
 						}
-						if ( (!trait_fr.data || !trait_fr.data.description || !trait_fr.data.description.value) && ugspells) { // If no translation, test eisspells
-							trait_fr = ugspells.translate( { name: name_en } );
+						if ( (!trait_de.data || !trait_de.data.description || !trait_de.data.description.value) && ugspells) { // If no translation, test eisspells
+							trait_de = ugspells.translate( { name: name_en } );
 						}
-						//console.log(">>>>> Spell ?", name_en, special, trait_fr.name );
-						trait_en.name = trait_fr.name + special;
-						if ( trait_fr.data && trait_fr.data.description && trait_fr.data.description.value )
-							trait_en.data.description.value = trait_fr.data.description.value;
+						//console.log(">>>>> Spell ?", name_en, special, trait_de.name );
+						trait_en.name = trait_de.name + special;
+						if ( trait_de.data && trait_de.data.description && trait_de.data.description.value )
+							trait_en.data.description.value = trait_de.data.description.value;
 					} else if ( trait_en.type == "talent") {
 						if ( name_en.includes("(") && name_en.includes(")") ) { // Then process specific skills name with (xxxx) inside
 							var re  = /(.*) +\((.*)\)/i;
@@ -227,27 +227,27 @@ Hooks.on('init', () => {
 							name_en = res[1].trim(); // Get the root talent name, no parenthesis this time...
 							special = " (" + game.i18n.localize( res[2].trim() ) + ")"; // And the special keyword
 						}
-						var trait_fr = fulltalents.translate( { name: name_en } );
-						//console.log(">>>>> Talent ?", name_en, special, trait_fr.name);
-						if ( (!trait_fr.data || !trait_fr.data.description || !trait_fr.data.description.value) && ugtalents) { // If no translation, test ugtalents
-							trait_fr =  ugtalents.translate( { name: name_en } );
+						var trait_de = fulltalents.translate( { name: name_en } );
+						//console.log(">>>>> Talent ?", name_en, special, trait_de.name);
+						if ( (!trait_de.data || !trait_de.data.description || !trait_de.data.description.value) && ugtalents) { // If no translation, test ugtalents
+							trait_de =  ugtalents.translate( { name: name_en } );
 						}
-						if ( trait_fr.translated)  {
-							trait_en.name = trait_fr.name + special;
-							if ( trait_fr.data ) { // Why ???
-								trait_en.data.description.value = trait_fr.data.description.value;
+						if ( trait_de.translated)  {
+							trait_en.name = trait_de.name + special;
+							if ( trait_de.data ) { // Why ???
+								trait_en.data.description.value = trait_de.data.description.value;
 							}
 						}
 					} else if ( trait_en.type == "career") {
-						var career_fr = fullcareers.translate( trait_en );
+						var career_de = fullcareers.translate( trait_en );
 						//console.log(">>>>> Career ?", name_en, career_fr.name);
-						trait_en = career_fr;
+						trait_en = career_de;
 					} else if ( trait_en.type == "trapping" || trait_en.type == "weapon" || trait_en.type == "armour" || trait_en.type == "container" || trait_en.type == "money") {
-						var trapping_fr = fulltrappings.translate( trait_en );
+						var trapping_de = fulltrappings.translate( trait_en );
 						//console.log(">>>>> Trapping ?", name_en, trapping_fr.name);
-						trait_en.name = trapping_fr.name;
-						if ( trapping_fr.data) {
-							trait_en.data.description  = trapping_fr.data.description;
+						trait_en.name = trapping_de.name;
+						if ( trapping_de.data) {
+							trait_en.data.description  = trapping_de.data.description;
 						}
 					}
 				}
