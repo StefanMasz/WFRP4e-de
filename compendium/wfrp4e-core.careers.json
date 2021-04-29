@@ -619,7 +619,7 @@
 		{
 			"id": "Exterminator",
 			"name": "Schädlingsbekämpfer",
-			"description": "",
+			"description": "<p>@Compendium[wfrp4e-core.career-descriptions.0DuRRCYdahOKxDPF]{Rattenfänger}</p>",
 			"trappings": [
 				"Assistent",
 				"großer und bissiger Hund",
@@ -1601,7 +1601,7 @@
 		{
 			"id": "Rat Catcher",
 			"name": "Rattenfänger",
-			"description": "",
+			"description": "<p>@Compendium[wfrp4e-core.career-descriptions.0DuRRCYdahOKxDPF]{Rattenfänger}</p>",
 			"trappings": [
 				"Tierfallen",
 				"Stab für tote Ratten"
@@ -1610,7 +1610,7 @@
 		{
 			"id": "Rat Hunter",
 			"name": "Rattenjäger",
-			"description": "",
+			"description": "<p>@Compendium[wfrp4e-core.career-descriptions.0DuRRCYdahOKxDPF]{Rattenfänger}</p>",
 			"trappings": [
 				"Schleuder mit Munition",
 				"Sack",
@@ -1855,7 +1855,7 @@
 		{
 			"id": "Sewer Jack",
 			"name": "Kanalwächter",
-			"description": "",
+			"description": "<p>@Compendium[wfrp4e-core.career-descriptions.0DuRRCYdahOKxDPF]{Rattenfänger}</p>",
 			"trappings": [
 				"Abblendbare Laterne",
 				"Handwaffe",
