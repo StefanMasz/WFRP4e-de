@@ -396,6 +396,12 @@
     "Difficult (-10)": "Schwierig (-10)",
     "Hard (-20)": "Schwer (-20)",
     "Very Hard (-30)": "Sehr schwer (-30)",
+    "Futile (-40)": "Zwecklos (-40)",
+    "Impossible (-50)": "Unmöglich (-50)",
+    "Clean Break": "Sauberer Bruch",
+    "Thigh Strike": "Oberschenkeltreffer",
+    "Dislocated Shoulder": "Ausgerenkte Schulter",
+    "Bleeding": "Blutend",
 
     "Very Easy" : "Sehr leicht",
     "Easy": "Leicht",

@@ -294,6 +294,17 @@ Hooks.on('init', () => {
 				} //ignore when no effects
 				return effects
 			},
+			"crit_effects": (effects, translations) => {
+				for (let i=0; i<effects.length; i++) {
+					let effect = effects[i];
+					let label = effect.label;
+					effect.label = game.i18n.localize( label );
+					if (!!effect.flags.wfrp4e.script){
+						effect.flags.wfrp4e.script = effect.flags.wfrp4e.script
+							.replace('Endurance', 'Ausdauer');
+					}
+				}
+			},
 			"diseases_effects": (effects, translations) => {
 				for (let i=0; i<effects.length; i++) {
 					let effect = effects[i];
