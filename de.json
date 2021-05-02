@@ -1066,5 +1066,6 @@
     "EFFECT.DodgeMount" : "Ausweichen auf einem Gefährt",
     "EFFECT.HideEffect" : "Für Spieler ausbelden",
     "EFFECT.SystemEffects" : "System Effekte",
-    "EFFECT.SelectEffect" : "Effekt auswählen"
+    "EFFECT.SelectEffect" : "Effekt auswählen",
+    "EFFECT.Tooltip": "Diese Effekte KÖNNTEN diese Bonuses verursachen"
 }

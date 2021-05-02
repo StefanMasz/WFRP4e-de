@@ -1,0 +1,1 @@
+Diese Dateien lassen sich einfacher editieren als das komprimierte JSON in der entsprechenden Übersetzungsdatei
