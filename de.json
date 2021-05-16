@@ -102,6 +102,8 @@
     "SHEET.NewTrapping": "Neuer Besitz",
     "SHEET.NewCritical": "New Critical",
     "SHEET.NewInjury": "Neue Verletzung",
+    "SHEET.Dismount": "Absteigen",
+    "SHEET.RemoveMount": "Gefährt entfernen",
 
     "ACTOR.BasicSkillsTitle" : "Grundfähigkeiten hinzufügen",
     "ACTOR.BasicSkillsPrompt": "Grundfähigkeiten hinzufügen?",
@@ -488,6 +490,7 @@
 	"Rogues": "Gesetzlose",
 	"Peasants": "Landvolk",
 	"Ranger": "Freisassen",
+    "Mount": "Gefährt",
 
     "BROWSER.ItemCategories" : "Gegenstandskategorie",
     "BROWSER.IncludeWorld" : "Include World Items?",
