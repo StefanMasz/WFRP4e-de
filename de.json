@@ -539,6 +539,7 @@
     "CHAT.DamageAppliedError" : "Kein Schaden gefunden. Ist ein schadenverursachender Gegenstand für den Angreifer ausgerüstet?.",
     "CHAT.DamageAppliedErrorTiring" : "Schaden nicht berechnbar. Waffe/Eigenschaft ist nicht korrekt hinterlegt.",
     "CHAT.DamageApplied" : "Schaden hinzugefügt",
+    "CHAT.ApplyDamageBasic" : "@DAMAGE Schaden an <b>{name}</b> hinzugefügt",
     "CHAT.DamageShield" : "Schild",
     "CHAT.CriticalsNullified" : "Criticals Nullified",
     "CHAT.DamageAP" : "Füge 1 RP Schaden hinzu",
@@ -1072,5 +1073,7 @@
     "EFFECT.HideEffect" : "Für Spieler ausbelden",
     "EFFECT.SystemEffects" : "System Effekte",
     "EFFECT.SelectEffect" : "Effekt auswählen",
-    "EFFECT.Tooltip": "Diese Effekte KÖNNTEN diese Bonuses verursachen"
+    "EFFECT.Tooltip": "Diese Effekte KÖNNTEN diese Bonuses verursachen",
+
+    "Perception": "Wahrnehmung"
 }
