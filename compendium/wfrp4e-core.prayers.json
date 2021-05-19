@@ -17,6 +17,22 @@
 		  "path": "data.damage.value",
 		  "converter": "spells_duration_range_target_damage"
 		},
+		"targetLabel": {
+			"path": "data.target.label",
+			"converter": "spells_labels"
+		},
+		"durationLabel": {
+			"path": "data.duration.label",
+			"converter": "spells_labels"
+		},
+		"damageLabel": {
+			"path": "data.damage.label",
+			"converter": "spells_labels"
+		},
+		"overcast": {
+			"path": "data.overcast.label",
+			"converter": "spells_labels"
+		},
 		"effects": {
 			"path": "effects",
 			"converter": "effects"

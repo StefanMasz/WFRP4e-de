@@ -267,9 +267,10 @@ Hooks.on('init', () => {
 							effect.flags.wfrp4e.script = effect.flags.wfrp4e.script
 								.replace('args.item.name.includes("Language")', 'args.item.name.includes( game.i18n.localize("Language") )')
 								.replace('args.item.name.includes("Stealth")', 'args.item.name.includes( game.i18n.localize("Stealth") )')
-								.replace('args.item.name == "Track"', 'args.item.name == game.i18n.localize("Track")');
+								.replace('args.item.name == "Track"', 'args.item.name == game.i18n.localize("Track")')
+								.replace('args.actor.data.traits.find(t => t.name == \"Undead\"', 'args.actor.data.traits.find(t => t.name == \"Untot\"')
+								.replace('args.actor.data.traits.find(t => t.name == \"Daemonic\"', 'args.actor.data.traits.find(t => t.name == \"Dämonisch\"');
 						}
-						console.log(effect);
 					}
 				} //ignore when no effects
 				return effects
@@ -319,6 +320,49 @@ Hooks.on('init', () => {
 					effect.label = game.i18n.localize( label ) + gravity;
 				}
 			},
+			"spells_duration_range_target_damage": (value) => {
+				console.log("Spell duration/range/damage/target :", value);
+				if ( value == "" ) return ""; // Hop !
+				if ( value == "Touch" ) return "Berührung"; // Hop !
+				if ( value == "You" ) return "Selbst"; // Hop !
+				if ( value == "Instant" ) return "Sofort"; // Hop !
+				var translw = value;
+				var re  = /(.*) Bonus (\w*)/i;
+				var res = re.exec( value );
+				var unit = "";
+				if ( res ) { // Test "<charac> Bonus <unit>" pattern
+					if ( res[1] ) { // We have char name, then convert it
+						translw = game.i18n.localize( res[1].trim() ) + " Bonus";
+					}
+					unit = res[2];
+				} else {
+					re = /(\d+) (\w+)/i;
+					res = re.exec( value );
+					if (res) { // Test : "<number> <unit>" pattern
+						translw  = res[1];
+						unit = res[2];
+					} else { // Test
+						re = /(\w+) (\w+)/i;
+						res = re.exec( value );
+						if (res) { // Test : "<charac> <unit>" pattern
+							translw  = game.i18n.localize( res[1].trim() );
+							unit = res[2];
+						}
+					}
+				}
+				if ( unit == "hour") unit = "Stunde";
+				if ( unit == "hours") unit = "Stunden";
+				if ( unit == "days") unit = "Tage";
+				if ( unit == "yard") unit = "meter";
+				if ( unit == "yards") unit = "meter";
+				translw += " " + unit;
+				return translw;
+			},
+			"spells_labels": (value) => {
+				var translw = value;
+				translw  = game.i18n.localize( value );
+				return translw;
+			}
 
 		});
     }
