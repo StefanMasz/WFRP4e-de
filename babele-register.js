@@ -355,6 +355,8 @@ Hooks.on('init', () => {
 				if ( unit == "days") unit = "Tage";
 				if ( unit == "yard") unit = "meter";
 				if ( unit == "yards") unit = "meter";
+				if ( unit == "Rounds") unit = "Runden";
+				if ( unit == "rounds") unit = "Runden";
 				translw += " " + unit;
 				return translw;
 			},
