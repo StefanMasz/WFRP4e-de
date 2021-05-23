@@ -41,7 +41,7 @@
         "Winter" : [61, 65]
       },
       "name": "Starkregen",
-      "description" : "Schreckliche Stürme reduzieren die Sichtbarkeit auf nahezu null, alles was leiser als Gebrüll ist unmöglich zu hören und alle physischen Tests erhalten einen malus von -10. Alle und alles nicht unter Bedeckung wird klatschnass innerhalb von minuten. Wasser strömt die Straßen entlang und gräbt matschige, tiefe Rinnen. Fernwaffen erleiden einen malus von -10 und ungeschütztes Schießpulver ist ruiniert. Tiere mit der Eigenheit "Schreckhaft" können von plötzlichen Blitzschlägen in Panik geraten."
+      "description" : "Schreckliche Stürme reduzieren die Sichtbarkeit auf nahezu null, alles was leiser als Gebrüll ist unmöglich zu hören und alle physischen Tests erhalten einen malus von -10. Alle und alles nicht unter Bedeckung wird klatschnass innerhalb von minuten. Wasser strömt die Straßen entlang und gräbt matschige, tiefe Rinnen. Fernwaffen erleiden einen malus von -10 und ungeschütztes Schießpulver ist ruiniert. Tiere mit der Eigenheit \"Schreckhaft\" können von plötzlichen Blitzschlägen in Panik geraten."
     },
     {
       "range":{
