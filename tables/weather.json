@@ -31,7 +31,7 @@
         "Winter" : [11, 60]
       },
       "name": "Regen",
-      "description" : "Stundenlanger oder sogar tagelanger Regen prasselt nieder. Die "Frühlingsschauer" die von Poeten so geliebt werden können bis zu einer Woche andauern, was beweist, dass Poeten bemerkenswert wenig Zeit ausserhalb von Wärme und Wein verbringen. Regen reduziert die Sichtbarkeit auf unter 75 Fuß. Zusätzlich dazu erleiden Fernwaffen einen malus von -10 wegen unberechenbaren Winden und Regen."
+      "description" : "Stundenlanger oder sogar tagelanger Regen prasselt nieder. Die \"Frühlingsschauer\" die von Poeten so geliebt werden können bis zu einer Woche andauern, was beweist, dass Poeten bemerkenswert wenig Zeit ausserhalb von Wärme und Wein verbringen. Regen reduziert die Sichtbarkeit auf unter 75 Fuß. Zusätzlich dazu erleiden Fernwaffen einen malus von -10 wegen unberechenbaren Winden und Regen."
     },
     {
       "range":{
