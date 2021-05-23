@@ -40,33 +40,32 @@ Hooks.on('init', () => {
 		Babele.get().registerConverters({
 			"career_skills": (skills_list) => {
 			var compendium = game.packs.find(p => p.collection === compmod+'.skills');
-			//console.log( "Thru here ...", compmod, skills_list);
 			if ( skills_list ) { 
 			  var i;
 			  var len = skills_list.length;
 			  var re  = /(.*)\((.*)\)/i;
 			  for (i = 0; i < len; i++) {
-				var transl = compendium.i18nName( { name: skills_list[i] } );
-				//console.log("List ...", skills_list[i]);
-				if ( transl == skills_list[i] ) {            
-				  var res = re.exec( skills_list[i]);
-				  if (res) { 
-					//console.log("Matched/split:", res[1], res[2]);
-					var subword = game.i18n.localize(res[2].trim() );
-					var s1 = res[1].trim() + " ()";
-					var translw = compendium.i18nName( { name: s1} );              
-					if (translw != s1) {
-					  var res2 = re.exec(translw);
-					  transl = res2[1] + "(" + subword  + ")";
-					} else {
-					  s1 = res[1].trim() + " ( )";
-					  translw = compendium.i18nName( { name: s1} );
-					  var res2 = re.exec(translw);
-					  transl = res2[1] + "(" + subword  + ")";
-					}  
-				  }
-				}
-				skills_list[i] = transl;
+				  if (compendium.i18nName !== undefined) { //only translate skills if compendium is loaded correctly
+					  var transl = compendium.i18nName({name: skills_list[i]});
+					  if (transl === skills_list[i]) {
+						  var res = re.exec(skills_list[i]);
+						  if (res) {
+							  var subword = game.i18n.localize(res[2].trim());
+							  var s1 = res[1].trim() + " ()";
+							  var translw = compendium.i18nName({name: s1});
+							  if (translw !== s1) {
+								  var res2 = re.exec(translw);
+								  transl = res2[1] + "(" + subword + ")";
+							  } else {
+								  s1 = res[1].trim() + " ( )";
+								  translw = compendium.i18nName({name: s1});
+								  var res2 = re.exec(translw);
+								  transl = res2[1] + "(" + subword + ")";
+							  }
+						  }
+					  }
+					  skills_list[i] = transl;
+			  	}
 			  }
 			}
 			return skills_list;  
@@ -83,23 +82,24 @@ Hooks.on('init', () => {
 			  var len = talents_list.length;
 			  var re  = /(.*)\((.*)\)/i;
 			  for (i = 0; i < len; i++) {
-				var transl = compendium.i18nName( { name: talents_list[i]} );
-				if ( transl == talents_list[i] ) {            
-				  var res = re.exec( talents_list[i]);
-				  if (res) { 
-					//console.log("Matched/split:", res[1], res[2]);
-					var subword = game.i18n.localize(res[2].trim() );
-					var s1 = res[1].trim(); // No () in talents table
-					var translw = compendium.i18nName( { name: s1 } );
-					if (translw != s1) {
-					  transl = translw + "(" + subword  + ")";
-					} else {
-					  s1 = res[1].trim() + " ( )";
-					  translw = compendium.i18nName( { name: s1 } );
-					  var res2 = re.exec(translw);
-					  transl = res2[1] + "(" + subword  + ")";
-					}  
-				  }
+			  	if (compendium.i18nName !== undefined) { //only translate talents if compendium is loaded correctly
+					var transl = compendium.i18nName({name: talents_list[i]});
+					if (transl === talents_list[i]) {
+						var res = re.exec(talents_list[i]);
+						if (res) {
+							var subword = game.i18n.localize(res[2].trim());
+							var s1 = res[1].trim(); // No () in talents table
+							var translw = compendium.i18nName({name: s1});
+							if (translw !== s1) {
+								transl = translw + "(" + subword + ")";
+							} else {
+								s1 = res[1].trim() + " ( )";
+								translw = compendium.i18nName({name: s1});
+								var res2 = re.exec(translw);
+								transl = res2[1] + "(" + subword + ")";
+							}
+						}
+					}
 				}
 				talents_list[i] = transl;
 			  }
@@ -108,8 +108,11 @@ Hooks.on('init', () => {
 			},
 			// Search back in careers the translated name of the group (as it is the name of the level career itself)
 			"career_careergroup": (value) => {
-				var compendium = game.packs.find(p => p.collection === compmod+'.careers');
-				return compendium.i18nName( { name: value } );
+				var compendium = game.packs.find(p => p.collection === compmod + '.careers');
+				if (compendium.i18nName !== undefined) {
+					return compendium.i18nName({name: value});
+				}
+				return value;
 			},
 			"trapping_qualities_flaws": (value) => {
 				if ( value ) {
@@ -120,7 +123,6 @@ Hooks.on('init', () => {
 						let trim = list[i].trim();
 						if ( trim == "Trap Blade") {
 							trim = "TrapBlade"; // Auto-patch, without space!
-							//console.log("PATCHED", trim);
 						}
 						var splitted = re.exec( trim );
 						if ( splitted ) {
@@ -173,7 +175,6 @@ Hooks.on('init', () => {
 							special = " (" + game.i18n.localize( res[2].trim() ) + ")"; // And the special keyword
 						}
 						var trait_de = fulltraits.translate( { name: name_en } );
-						//console.log(">>>>> Trait ?", name_en, nbt, trait_de.name, special);
 						trait_en.name = nbt + trait_de.name + special;
 						if ( trait_de.data && trait_de.data.description && trait_de.data.description.value ) {
 							trait_en.data.description.value = trait_de.data.description.value;
@@ -184,7 +185,6 @@ Hooks.on('init', () => {
 								trait_en.data.description.value = trait_de.data.description.value;
 						}
 						if ( isNaN(trait_en.data.specification.value) ) { // This is a string, so translate it
-							//console.log("Translating : ", trait_en.data.specification.value);
 							trait_en.data.specification.value = game.i18n.localize( trait_en.data.specification.value.trim() );
 						}
 					} else if ( trait_en.type == "skill") {
@@ -195,7 +195,6 @@ Hooks.on('init', () => {
 							special = " (" + game.i18n.localize( res[2].trim() ) + ")"; // And the special keyword
 						}
 						var trait_de = fullskills.translate( { name: name_en } );
-						//console.log(">>>>> Skill ?", name_en, special, trait_de.name, trait_de);
 						if (trait_de.translated) {
 							trait_en.name = trait_de.name + special;
 							if ( trait_de.data ) {
@@ -204,7 +203,6 @@ Hooks.on('init', () => {
 						}
 					} else if ( trait_en.type == "prayer") {
 						var trait_de = fullprayers.translate( { name: name_en } );
-						//console.log(">>>>> Prayer ?", name_en, special, trait_de.name );
 						trait_en.name = trait_de.name + special;
 						if ( trait_de.data && trait_de.data.description && trait_de.data.description.value )
 							trait_en.data.description.value = trait_de.data.description.value;
@@ -216,7 +214,6 @@ Hooks.on('init', () => {
 						if ( (!trait_de.data || !trait_de.data.description || !trait_de.data.description.value) && ugspells) { // If no translation, test eisspells
 							trait_de = ugspells.translate( { name: name_en } );
 						}
-						//console.log(">>>>> Spell ?", name_en, special, trait_de.name );
 						trait_en.name = trait_de.name + special;
 						if ( trait_de.data && trait_de.data.description && trait_de.data.description.value )
 							trait_en.data.description.value = trait_de.data.description.value;
@@ -228,7 +225,6 @@ Hooks.on('init', () => {
 							special = " (" + game.i18n.localize( res[2].trim() ) + ")"; // And the special keyword
 						}
 						var trait_de = fulltalents.translate( { name: name_en } );
-						//console.log(">>>>> Talent ?", name_en, special, trait_de.name);
 						if ( (!trait_de.data || !trait_de.data.description || !trait_de.data.description.value) && ugtalents) { // If no translation, test ugtalents
 							trait_de =  ugtalents.translate( { name: name_en } );
 						}
@@ -240,11 +236,9 @@ Hooks.on('init', () => {
 						}
 					} else if ( trait_en.type == "career") {
 						var career_de = fullcareers.translate( trait_en );
-						//console.log(">>>>> Career ?", name_en, career_fr.name);
 						trait_en = career_de;
 					} else if ( trait_en.type == "trapping" || trait_en.type == "weapon" || trait_en.type == "armour" || trait_en.type == "container" || trait_en.type == "money") {
 						var trapping_de = fulltrappings.translate( trait_en );
-						//console.log(">>>>> Trapping ?", name_en, trapping_fr.name);
 						trait_en.name = trapping_de.name;
 						if ( trapping_de.data) {
 							trait_en.data.description  = trapping_de.data.description;
@@ -260,7 +254,7 @@ Hooks.on('init', () => {
 						if (!!translations && !!translations['label' + i]) {
 							effect.label = translations['label' + i];
 						} //ignore missing translations
-						if (!!translations && !!translations['description' + i]) {
+						if (!!translations && !!translations['description' + i] && effect.flags.wfrp4e.effectData !== undefined) {
 							effect.flags.wfrp4e.effectData.description = translations['description' + i];
 						}
 						if (!!effect && !!effect.flags && !!effect.flags.wfrp4e && !!effect.flags.wfrp4e.script) {
@@ -321,7 +315,6 @@ Hooks.on('init', () => {
 				}
 			},
 			"spells_duration_range_target_damage": (value) => {
-				console.log("Spell duration/range/damage/target :", value);
 				if ( value == "" ) return ""; // Hop !
 				if ( value == "Touch" ) return "Berührung"; // Hop !
 				if ( value == "You" ) return "Selbst"; // Hop !
