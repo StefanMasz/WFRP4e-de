@@ -1,6 +1,11 @@
 {
-	"WFRP4E.system.title" : "Warhammer Fantasy Roleplay 4th Edition",
+    "WFRP4E.system.title" : "Warhammer Fantasy Roleplay 4th Edition",
     "WFRP4E.system.description" : "Ein umfassendes System zum Ausführen düsterer und gefährlicher Spiele des Warhammer Fantasy-Rollenspiels in der Foundry VTT-Umgebung.",
+
+    "ACTOR.TypeCharacter" : "Spieler Charakter",
+    "ACTOR.TypeNpc" : "Nicht-Spieler Charakter",
+    "ACTOR.TypeCreature" : "Kreatur",
+    "ACTOR.TypeVehicle" : "Transportmittel",
 
     "SETTINGS.InitRule" : "Initiativregeln",
     "SETTINGS.InitHint" : "Konfigurieren Sie, welche Methode verwendet wird, um zu bestimmen, wer zuerst im Kampf handelt.",
@@ -1051,7 +1056,6 @@
     "VEHICLE.Skill" : "Fähigkeit",
     "VEHICLE.Modifications" : "Modifikatoren von Fahrzeugen",
     "VEHICLE.ModType" : "Modifikator-Typ",
-    
 
     "CONFIGURE.CalcTokenSize" : "Automatische Berechnung der Token-Größe",
     "CONFIGURE.CalcRun" : "Automatische Berechnung der Geschwindigkeit beim Rennen",
@@ -1075,5 +1079,13 @@
     "EFFECT.SelectEffect" : "Effekt auswählen",
     "EFFECT.Tooltip": "Diese Effekte KÖNNTEN diese Bonuses verursachen",
 
-    "Perception": "Wahrnehmung"
+    "Perception": "Wahrnehmung",
+
+    "Human": "Mensch",
+    "Dwarf": "Zwerg",
+    "Halfling": "Halbling",
+    "High Elf": "Hochelf",
+    "Wood Elf": "Waldelf",
+
+    "Subspecies": "Regionale Herkunft"
 }

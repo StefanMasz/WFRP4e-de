@@ -108,9 +108,13 @@ Hooks.on('init', () => {
 			},
 			// Search back in careers the translated name of the group (as it is the name of the level career itself)
 			"career_careergroup": (value) => {
+				console.log(value);
 				var compendium = game.packs.find(p => p.collection === compmod + '.careers');
-				if (compendium.i18nName !== undefined) {
-					return compendium.i18nName({name: value});
+
+				for (const [key, valueObj] of Object.entries(compendium.translations)) {
+					if (valueObj.id === value){
+						return valueObj.name;
+					}
 				}
 				return value;
 			},
