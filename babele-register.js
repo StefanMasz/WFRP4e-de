@@ -40,32 +40,18 @@ Hooks.on('init', () => {
 		Babele.get().registerConverters({
 			"career_skills": (skills_list) => {
 			var compendium = game.packs.find(p => p.collection === compmod+'.skills');
-			if ( skills_list ) { 
+			if ( skills_list ) {
 			  var i;
 			  var len = skills_list.length;
 			  var re  = /(.*)\((.*)\)/i;
+			  var transl;
 			  for (i = 0; i < len; i++) {
-				  if (compendium.i18nName !== undefined) { //only translate skills if compendium is loaded correctly
-					  var transl = compendium.i18nName({name: skills_list[i]});
-					  if (transl === skills_list[i]) {
-						  var res = re.exec(skills_list[i]);
-						  if (res) {
-							  var subword = game.i18n.localize(res[2].trim());
-							  var s1 = res[1].trim() + " ()";
-							  var translw = compendium.i18nName({name: s1});
-							  if (translw !== s1) {
-								  var res2 = re.exec(translw);
-								  transl = res2[1] + "(" + subword + ")";
-							  } else {
-								  s1 = res[1].trim() + " ( )";
-								  translw = compendium.i18nName({name: s1});
-								  var res2 = re.exec(translw);
-								  transl = res2[1] + "(" + subword + ")";
-							  }
-						  }
+				  for (const [key, valueObj] of Object.entries(compendium.translations)) {
+					  if (valueObj.id === skills_list[i]){
+						  skills_list[i] = valueObj.name;
+						  console.log(skills_list[i]);
 					  }
-					  skills_list[i] = transl;
-			  	}
+				  }
 			  }
 			}
 			return skills_list;  
@@ -108,7 +94,6 @@ Hooks.on('init', () => {
 			},
 			// Search back in careers the translated name of the group (as it is the name of the level career itself)
 			"career_careergroup": (value) => {
-				console.log(value);
 				var compendium = game.packs.find(p => p.collection === compmod + '.careers');
 
 				for (const [key, valueObj] of Object.entries(compendium.translations)) {
