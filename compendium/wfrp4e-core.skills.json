@@ -37,7 +37,7 @@
 			"description": "<p>Abrichten beschreibt dein Verständnis einer bestimmten Art von Tieren sowie deine Befähigung, diese auszubilden. Ein erfolgreicher Einsatz der Fähigkeit ermöglicht es dir zu erkennen, welche Ausgebildet-Fähigkeit (siehe Seite 338) ein deiner Spezialisierung (siehe Seite 118) entsprechendes Tier besitzt. Außerdem erlaubt dir die Fähigkeit Abrichten auch, zwischen den Abenteuern die Unternehmung Tier abrichten zu wählen (siehe Seite 199). Im Kampf erlaubt es dir, bei Gelingen eines Vergleichenden Abrichten gegen Willenskraft-Wurfes, ein einzelnes, deiner Spezialisierung entsprechendes Tier einzuschüchtern. Du verursachst bis zum Ende deines nächsten Zuges Angst bei dem ausgewählten Tier (siehe Seite 190). Wenn du auf diese Weise Angst verursachst, dann kannst du anschließend deine Fähigkeit Abrichten statt deines Kampfgeschicks einsetzen, wenn du dich gegen dieses Tier verteidigst. Mit Erlaubnis deines SL kannst du Abrichten auch zum Attackieren dieses Tieres nutzen, indem du entsprechende Befehle gibst. Beispiel: Ilse ist an den Kriegshund einiger Sklavenhändler geraten und schafft in der ersten Runde des Nahkampfes einen Vergleichenden Abrichten (Hund)/Willenskraft-Wurf, weshalb sie Angst bei der Bestie verursacht und +1 Vorteil erhält. In der nächsten Runde attackiert sie ihr Ziel mit der Fähigkeit Abrichten (Hund) und überwindet die Verteidigung des Hundes. Der SL erlaubt ihr, dem Tier den Befehl zur Flucht zu geben, und es rennt, mit zwischen die Beine geklemmtem Schwanz davon. Spezialisierungen: Demigreif, Hund, Pegasus, Pferd, Taube</p>" 
 		},
 		{
-			"id": "6am9EDNE43mzwDvG",
+			"id": "Animal Training (Horse)",
 			"name": "Abrichten (Pferd)",
 			"description": "<p>Abrichten beschreibt dein Verständnis einer bestimmten Art von Tieren sowie deine Befähigung, diese auszubilden. Ein erfolgreicher Einsatz der Fähigkeit ermöglicht es dir zu erkennen, welche Ausgebildet-Fähigkeit (siehe Seite 338) ein deiner Spezialisierung (siehe Seite 118) entsprechendes Tier besitzt. Außerdem erlaubt dir die Fähigkeit Abrichten auch, zwischen den Abenteuern die Unternehmung Tier abrichten zu wählen (siehe Seite 199). Im Kampf erlaubt es dir, bei Gelingen eines Vergleichenden Abrichten gegen Willenskraft-Wurfes, ein einzelnes, deiner Spezialisierung entsprechendes Tier einzuschüchtern. Du verursachst bis zum Ende deines nächsten Zuges Angst bei dem ausgewählten Tier (siehe Seite 190). Wenn du auf diese Weise Angst verursachst, dann kannst du anschließend deine Fähigkeit Abrichten statt deines Kampfgeschicks einsetzen, wenn du dich gegen dieses Tier verteidigst. Mit Erlaubnis deines SL kannst du Abrichten auch zum Attackieren dieses Tieres nutzen, indem du entsprechende Befehle gibst. Beispiel: Ilse ist an den Kriegshund einiger Sklavenhändler geraten und schafft in der ersten Runde des Nahkampfes einen Vergleichenden Abrichten (Hund)/Willenskraft-Wurf, weshalb sie Angst bei der Bestie verursacht und +1 Vorteil erhält. In der nächsten Runde attackiert sie ihr Ziel mit der Fähigkeit Abrichten (Hund) und überwindet die Verteidigung des Hundes. Der SL erlaubt ihr, dem Tier den Befehl zur Flucht zu geben, und es rennt, mit zwischen die Beine geklemmtem Schwanz davon. Spezialisierungen: Demigreif, Hund, Pegasus, Pferd, Taube</p>" 
 		},
@@ -59,6 +59,11 @@
 		{
 			"id": "Art ()",
 			"name": "Kunst ()",
+			"description": "<p>Erschaffe Werke in deiner gewählten Kunstform. Nicht über das nötige Handwerkszeug zu verfügen, führt zu Abzügen bei deinem Wurf. Der erreichte EG bestimmt die Qualität des Werkes. Bei sehr komplizierten oder großen Kunstwerken kann ein Erweiterter Kunst-Wurf notwendig sein. Die Fähigkeit Kunst hat keine nützliche Anwendung im Kampf, aber Marmorbüsten geben gute improvisierte Waffen ab. Beispiel: Irina wurde damit beauftragt, das Porträt eines örtlichen Adeligen zu malen, dessen Gunst der Gruppe sehr nützen würde. Ihr SL entscheidet, dass das Gemälde 10 EG bei einem Erweiterten Kunst (Malerei)-Wurf erfordert, wobei jeder Wurf für eine Woche Arbeit steht. Spezialisierungen: Bildhauerei, Gravuren, Kartographie, Malerei, Mosaike, Tätowierungen, Teppichknüpfen</p>"
+		},
+		{
+			"id": "Art (Any)",
+			"name": "Kunst (beliebig)",
 			"description": "<p>Erschaffe Werke in deiner gewählten Kunstform. Nicht über das nötige Handwerkszeug zu verfügen, führt zu Abzügen bei deinem Wurf. Der erreichte EG bestimmt die Qualität des Werkes. Bei sehr komplizierten oder großen Kunstwerken kann ein Erweiterter Kunst-Wurf notwendig sein. Die Fähigkeit Kunst hat keine nützliche Anwendung im Kampf, aber Marmorbüsten geben gute improvisierte Waffen ab. Beispiel: Irina wurde damit beauftragt, das Porträt eines örtlichen Adeligen zu malen, dessen Gunst der Gruppe sehr nützen würde. Ihr SL entscheidet, dass das Gemälde 10 EG bei einem Erweiterten Kunst (Malerei)-Wurf erfordert, wobei jeder Wurf für eine Woche Arbeit steht. Spezialisierungen: Bildhauerei, Gravuren, Kartographie, Malerei, Mosaike, Tätowierungen, Teppichknüpfen</p>"
 		},
 		{
@@ -208,6 +213,11 @@
 		},
 		{
 			"id": "Cool",
+			"name": "Besonnenheit",
+			"description": "<p>Besonnenheit erlaubt es dir, unter Druck die Ruhe zu bewahren, der Angst zu trotzen, wenn dir Schreckliches begegnet, und deinen Überzeugungen treu zu bleiben. Besonnenheit wird verwendet, um anderen Fähigkeiten zu widerstehen – Charme, Einschüchtern und Ähnlichem –, doch du kannst auch zu Besonnenheits-Würfen aufgefordert werden, wenn irgendetwas dich zu Dingen zwingt, die du nicht tun möchtest. Besonnenheit ist üblicherweise auch die Fähigkeit, mit der man die Auswirkungen von Psychologie (siehe Seite 190) begrenzen kann.</p>"
+		},
+		{
+			"id": " Cool",
 			"name": "Besonnenheit",
 			"description": "<p>Besonnenheit erlaubt es dir, unter Druck die Ruhe zu bewahren, der Angst zu trotzen, wenn dir Schreckliches begegnet, und deinen Überzeugungen treu zu bleiben. Besonnenheit wird verwendet, um anderen Fähigkeiten zu widerstehen – Charme, Einschüchtern und Ähnlichem –, doch du kannst auch zu Besonnenheits-Würfen aufgefordert werden, wenn irgendetwas dich zu Dingen zwingt, die du nicht tun möchtest. Besonnenheit ist üblicherweise auch die Fähigkeit, mit der man die Auswirkungen von Psychologie (siehe Seite 190) begrenzen kann.</p>"
 		},
@@ -393,6 +403,11 @@
 		},
 		{
 			"id": "Language (Thieves Tongue)",
+			"name": "Sprache (Diebeszunge)",
+			"description": "<p>Die Fähigkeit Sprache gewährt dir Zugriff auf weitere Sprachen jenseits deiner Muttersprache. Bei allen Charakteren wird angenommen, dass sie automatisch imstande sind Reikspiel zu sprechen, die im Imperium übliche Sprache, sowie ihre Muttersprache (wenn diese nicht Reikspiel sein sollte), ohne dafür würfeln zu müssen. Wenn dein Spiel nicht im Imperium angesiedelt ist, kannst du Reikspiel durch die vor Ort übliche Sprache ersetzen. Wenn du eine Sprachen-Fähigkeit besitzt, bist du üblicherweise imstande, dich in dieser Sprache verständlich zu machen und einfache Konzepte zu verstehen. Würfe für Sprache werden nur dann nötig, wenn es um komplizierte Konzepte oder um obskure Dialekte und Vokabeln geht. Beachte: Sprache (Magick) wird verwendet, um Zauber zu wirken und kann bei misslungenen Würfen zu eher unschönen Konsequenzen führen. In Kapitel 8: Magie erfährst du mehr dazu. Spezialisierungen: Bretonisch, Diebeszunge, Gildenzunge, Khazalid, Klassisch, Magick, Schlachtenzunge, Tileanisch</p>"
+		},
+		{
+			"id": "Language (Thief )",
 			"name": "Sprache (Diebeszunge)",
 			"description": "<p>Die Fähigkeit Sprache gewährt dir Zugriff auf weitere Sprachen jenseits deiner Muttersprache. Bei allen Charakteren wird angenommen, dass sie automatisch imstande sind Reikspiel zu sprechen, die im Imperium übliche Sprache, sowie ihre Muttersprache (wenn diese nicht Reikspiel sein sollte), ohne dafür würfeln zu müssen. Wenn dein Spiel nicht im Imperium angesiedelt ist, kannst du Reikspiel durch die vor Ort übliche Sprache ersetzen. Wenn du eine Sprachen-Fähigkeit besitzt, bist du üblicherweise imstande, dich in dieser Sprache verständlich zu machen und einfache Konzepte zu verstehen. Würfe für Sprache werden nur dann nötig, wenn es um komplizierte Konzepte oder um obskure Dialekte und Vokabeln geht. Beachte: Sprache (Magick) wird verwendet, um Zauber zu wirken und kann bei misslungenen Würfen zu eher unschönen Konsequenzen führen. In Kapitel 8: Magie erfährst du mehr dazu. Spezialisierungen: Bretonisch, Diebeszunge, Gildenzunge, Khazalid, Klassisch, Magick, Schlachtenzunge, Tileanisch</p>"
 		},
@@ -594,6 +609,41 @@
 		{
 			"id": "Lore (Geography)",
 			"name": "Wissen (Geographie)",
+			"description": "<p>Eine Wissensfähigkeit zu haben bedeutet, dass man formal im betreffenden Themenbereich ausgebildet wurde oder auf andere Weise ein breites Expertenwissen erworben hat. Ein Wissen zu besitzen heißt, dass du in diesem Bereich kundig genug bist, um bei Standardfragen nicht darauf würfeln zu müssen, damit der SL dir die relevanten Fakten mitteilt. Wenn du nach spezifischen, weniger verbreiteten Informationen fragst, wirst du einen Wissen-Wurf ablegen müssen, eventuell modifiziert, abhängig davon wie obskur oder unbekannt die fragliche Information ist, wobei es dem SL zu entscheiden obliegt, an wie viel du dich erinnern kannst. Im Kampf kann dir ein erfolgreicher Wissen-Test +1 Vorteil bringen, falls dies angemessen ist (mit Zustimmung des SL). Wissen (Geologie) könnte zum Beispiel beim Kampf in einer felsigen Kaverne nützlich sein, während Wissen (Technicus) helfen könnte, wenn man gegen einen Gegner kämpft, der eine komplexe mechanische Waffe verwendet. Du kannst den Vorteil in aufeinanderfolgenden Runden ausbauen, sofern die Umstände dies erlauben (was der SL entscheidet) und du nicht unterbrochen wirst; das Maximum entspricht des Erreichbaren deines Intelligenz-Bonus. Spezialisierungen: Geologie, Geschichte, Gesetze, Heraldik, Magick, Metallurgie, Naturwissenschaft, Technicus, Theologie, Volkskunde</p>"
+		},
+		{
+			"id": "Lore (Torture)",
+			"name": "Wissen (Folter)",
+			"description": "<p>Eine Wissensfähigkeit zu haben bedeutet, dass man formal im betreffenden Themenbereich ausgebildet wurde oder auf andere Weise ein breites Expertenwissen erworben hat. Ein Wissen zu besitzen heißt, dass du in diesem Bereich kundig genug bist, um bei Standardfragen nicht darauf würfeln zu müssen, damit der SL dir die relevanten Fakten mitteilt. Wenn du nach spezifischen, weniger verbreiteten Informationen fragst, wirst du einen Wissen-Wurf ablegen müssen, eventuell modifiziert, abhängig davon wie obskur oder unbekannt die fragliche Information ist, wobei es dem SL zu entscheiden obliegt, an wie viel du dich erinnern kannst. Im Kampf kann dir ein erfolgreicher Wissen-Test +1 Vorteil bringen, falls dies angemessen ist (mit Zustimmung des SL). Wissen (Geologie) könnte zum Beispiel beim Kampf in einer felsigen Kaverne nützlich sein, während Wissen (Technicus) helfen könnte, wenn man gegen einen Gegner kämpft, der eine komplexe mechanische Waffe verwendet. Du kannst den Vorteil in aufeinanderfolgenden Runden ausbauen, sofern die Umstände dies erlauben (was der SL entscheidet) und du nicht unterbrochen wirst; das Maximum entspricht des Erreichbaren deines Intelligenz-Bonus. Spezialisierungen: Geologie, Geschichte, Gesetze, Heraldik, Magick, Metallurgie, Naturwissenschaft, Technicus, Theologie, Volkskunde</p>"
+		},
+		{
+			"id": "Lore (Engineer)",
+			"name": "Wissen (Technicus)",
+			"description": "<p>Eine Wissensfähigkeit zu haben bedeutet, dass man formal im betreffenden Themenbereich ausgebildet wurde oder auf andere Weise ein breites Expertenwissen erworben hat. Ein Wissen zu besitzen heißt, dass du in diesem Bereich kundig genug bist, um bei Standardfragen nicht darauf würfeln zu müssen, damit der SL dir die relevanten Fakten mitteilt. Wenn du nach spezifischen, weniger verbreiteten Informationen fragst, wirst du einen Wissen-Wurf ablegen müssen, eventuell modifiziert, abhängig davon wie obskur oder unbekannt die fragliche Information ist, wobei es dem SL zu entscheiden obliegt, an wie viel du dich erinnern kannst. Im Kampf kann dir ein erfolgreicher Wissen-Test +1 Vorteil bringen, falls dies angemessen ist (mit Zustimmung des SL). Wissen (Geologie) könnte zum Beispiel beim Kampf in einer felsigen Kaverne nützlich sein, während Wissen (Technicus) helfen könnte, wenn man gegen einen Gegner kämpft, der eine komplexe mechanische Waffe verwendet. Du kannst den Vorteil in aufeinanderfolgenden Runden ausbauen, sofern die Umstände dies erlauben (was der SL entscheidet) und du nicht unterbrochen wirst; das Maximum entspricht des Erreichbaren deines Intelligenz-Bonus. Spezialisierungen: Geologie, Geschichte, Gesetze, Heraldik, Magick, Metallurgie, Naturwissenschaft, Technicus, Theologie, Volkskunde</p>"
+		},
+		{
+			"id": "Lore (Poison)",
+			"name": "Wissen (Gift)",
+			"description": "<p>Eine Wissensfähigkeit zu haben bedeutet, dass man formal im betreffenden Themenbereich ausgebildet wurde oder auf andere Weise ein breites Expertenwissen erworben hat. Ein Wissen zu besitzen heißt, dass du in diesem Bereich kundig genug bist, um bei Standardfragen nicht darauf würfeln zu müssen, damit der SL dir die relevanten Fakten mitteilt. Wenn du nach spezifischen, weniger verbreiteten Informationen fragst, wirst du einen Wissen-Wurf ablegen müssen, eventuell modifiziert, abhängig davon wie obskur oder unbekannt die fragliche Information ist, wobei es dem SL zu entscheiden obliegt, an wie viel du dich erinnern kannst. Im Kampf kann dir ein erfolgreicher Wissen-Test +1 Vorteil bringen, falls dies angemessen ist (mit Zustimmung des SL). Wissen (Geologie) könnte zum Beispiel beim Kampf in einer felsigen Kaverne nützlich sein, während Wissen (Technicus) helfen könnte, wenn man gegen einen Gegner kämpft, der eine komplexe mechanische Waffe verwendet. Du kannst den Vorteil in aufeinanderfolgenden Runden ausbauen, sofern die Umstände dies erlauben (was der SL entscheidet) und du nicht unterbrochen wirst; das Maximum entspricht des Erreichbaren deines Intelligenz-Bonus. Spezialisierungen: Geologie, Geschichte, Gesetze, Heraldik, Magick, Metallurgie, Naturwissenschaft, Technicus, Theologie, Volkskunde</p>"
+		},
+		{
+			"id": "Lore (Wrecks)",
+			"name": "Wissen (Wracks)",
+			"description": "<p>Eine Wissensfähigkeit zu haben bedeutet, dass man formal im betreffenden Themenbereich ausgebildet wurde oder auf andere Weise ein breites Expertenwissen erworben hat. Ein Wissen zu besitzen heißt, dass du in diesem Bereich kundig genug bist, um bei Standardfragen nicht darauf würfeln zu müssen, damit der SL dir die relevanten Fakten mitteilt. Wenn du nach spezifischen, weniger verbreiteten Informationen fragst, wirst du einen Wissen-Wurf ablegen müssen, eventuell modifiziert, abhängig davon wie obskur oder unbekannt die fragliche Information ist, wobei es dem SL zu entscheiden obliegt, an wie viel du dich erinnern kannst. Im Kampf kann dir ein erfolgreicher Wissen-Test +1 Vorteil bringen, falls dies angemessen ist (mit Zustimmung des SL). Wissen (Geologie) könnte zum Beispiel beim Kampf in einer felsigen Kaverne nützlich sein, während Wissen (Technicus) helfen könnte, wenn man gegen einen Gegner kämpft, der eine komplexe mechanische Waffe verwendet. Du kannst den Vorteil in aufeinanderfolgenden Runden ausbauen, sofern die Umstände dies erlauben (was der SL entscheidet) und du nicht unterbrochen wirst; das Maximum entspricht des Erreichbaren deines Intelligenz-Bonus. Spezialisierungen: Geologie, Geschichte, Gesetze, Heraldik, Magick, Metallurgie, Naturwissenschaft, Technicus, Theologie, Volkskunde</p>"
+		},
+		{
+			"id": "Lore (Genealogy)",
+			"name": "Wissen (Genealogie)",
+			"description": "<p>Eine Wissensfähigkeit zu haben bedeutet, dass man formal im betreffenden Themenbereich ausgebildet wurde oder auf andere Weise ein breites Expertenwissen erworben hat. Ein Wissen zu besitzen heißt, dass du in diesem Bereich kundig genug bist, um bei Standardfragen nicht darauf würfeln zu müssen, damit der SL dir die relevanten Fakten mitteilt. Wenn du nach spezifischen, weniger verbreiteten Informationen fragst, wirst du einen Wissen-Wurf ablegen müssen, eventuell modifiziert, abhängig davon wie obskur oder unbekannt die fragliche Information ist, wobei es dem SL zu entscheiden obliegt, an wie viel du dich erinnern kannst. Im Kampf kann dir ein erfolgreicher Wissen-Test +1 Vorteil bringen, falls dies angemessen ist (mit Zustimmung des SL). Wissen (Geologie) könnte zum Beispiel beim Kampf in einer felsigen Kaverne nützlich sein, während Wissen (Technicus) helfen könnte, wenn man gegen einen Gegner kämpft, der eine komplexe mechanische Waffe verwendet. Du kannst den Vorteil in aufeinanderfolgenden Runden ausbauen, sofern die Umstände dies erlauben (was der SL entscheidet) und du nicht unterbrochen wirst; das Maximum entspricht des Erreichbaren deines Intelligenz-Bonus. Spezialisierungen: Geologie, Geschichte, Gesetze, Heraldik, Magick, Metallurgie, Naturwissenschaft, Technicus, Theologie, Volkskunde</p>"
+		},
+		{
+			"id": "Lore (Routes)",
+			"name": "Wissen (Routen)",
+			"description": "<p>Eine Wissensfähigkeit zu haben bedeutet, dass man formal im betreffenden Themenbereich ausgebildet wurde oder auf andere Weise ein breites Expertenwissen erworben hat. Ein Wissen zu besitzen heißt, dass du in diesem Bereich kundig genug bist, um bei Standardfragen nicht darauf würfeln zu müssen, damit der SL dir die relevanten Fakten mitteilt. Wenn du nach spezifischen, weniger verbreiteten Informationen fragst, wirst du einen Wissen-Wurf ablegen müssen, eventuell modifiziert, abhängig davon wie obskur oder unbekannt die fragliche Information ist, wobei es dem SL zu entscheiden obliegt, an wie viel du dich erinnern kannst. Im Kampf kann dir ein erfolgreicher Wissen-Test +1 Vorteil bringen, falls dies angemessen ist (mit Zustimmung des SL). Wissen (Geologie) könnte zum Beispiel beim Kampf in einer felsigen Kaverne nützlich sein, während Wissen (Technicus) helfen könnte, wenn man gegen einen Gegner kämpft, der eine komplexe mechanische Waffe verwendet. Du kannst den Vorteil in aufeinanderfolgenden Runden ausbauen, sofern die Umstände dies erlauben (was der SL entscheidet) und du nicht unterbrochen wirst; das Maximum entspricht des Erreichbaren deines Intelligenz-Bonus. Spezialisierungen: Geologie, Geschichte, Gesetze, Heraldik, Magick, Metallurgie, Naturwissenschaft, Technicus, Theologie, Volkskunde</p>"
+		},
+		{
+			"id": "Lore (Herbs)",
+			"name": "Wissen (Kräuter)",
 			"description": "<p>Eine Wissensfähigkeit zu haben bedeutet, dass man formal im betreffenden Themenbereich ausgebildet wurde oder auf andere Weise ein breites Expertenwissen erworben hat. Ein Wissen zu besitzen heißt, dass du in diesem Bereich kundig genug bist, um bei Standardfragen nicht darauf würfeln zu müssen, damit der SL dir die relevanten Fakten mitteilt. Wenn du nach spezifischen, weniger verbreiteten Informationen fragst, wirst du einen Wissen-Wurf ablegen müssen, eventuell modifiziert, abhängig davon wie obskur oder unbekannt die fragliche Information ist, wobei es dem SL zu entscheiden obliegt, an wie viel du dich erinnern kannst. Im Kampf kann dir ein erfolgreicher Wissen-Test +1 Vorteil bringen, falls dies angemessen ist (mit Zustimmung des SL). Wissen (Geologie) könnte zum Beispiel beim Kampf in einer felsigen Kaverne nützlich sein, während Wissen (Technicus) helfen könnte, wenn man gegen einen Gegner kämpft, der eine komplexe mechanische Waffe verwendet. Du kannst den Vorteil in aufeinanderfolgenden Runden ausbauen, sofern die Umstände dies erlauben (was der SL entscheidet) und du nicht unterbrochen wirst; das Maximum entspricht des Erreichbaren deines Intelligenz-Bonus. Spezialisierungen: Geologie, Geschichte, Gesetze, Heraldik, Magick, Metallurgie, Naturwissenschaft, Technicus, Theologie, Volkskunde</p>"
 		},
 		{
@@ -807,6 +857,11 @@
 			"description": "<p>Jeder kann unter Verwendung seiner Ballistischen Fertigkeit einen Stein werfen, aber Bögen und Pistolen einzusetzen erfordert Unterweisung und Übung. Jede Spezialisierung im Fernkampf deckt eine bestimmte Gruppe ähnlicher Waffen ab, mit denen man vertraut ist. Ob du die richtige Spezialisierung für die Waffe hast, die du einsetzen möchtest, erfährst du in Kapitel 11: Einkaufsführer, in dem alle Waffen aufgeführt werden. Dort findest du auch die Abzüge, die du beim Einsatz einer Waffe erleidest, deren Spezialisierung du nicht beherrschst. In Kapitel 5: Regeln erfährst du mehr über Kämpfe und den Einsatz von Fernkampf. Spezialisierungen: Armbrust, Bogen, Explosiv, Fesselnd, Schießpulver, Schleuder, Technicus, Werfen</p>"
 		},
 		{
+			"id": "Ranged (Crossbow Pistol)",
+			"name": "Fernkampf (Handarmbrust)",
+			"description": "<p>Jeder kann unter Verwendung seiner Ballistischen Fertigkeit einen Stein werfen, aber Bögen und Pistolen einzusetzen erfordert Unterweisung und Übung. Jede Spezialisierung im Fernkampf deckt eine bestimmte Gruppe ähnlicher Waffen ab, mit denen man vertraut ist. Ob du die richtige Spezialisierung für die Waffe hast, die du einsetzen möchtest, erfährst du in Kapitel 11: Einkaufsführer, in dem alle Waffen aufgeführt werden. Dort findest du auch die Abzüge, die du beim Einsatz einer Waffe erleidest, deren Spezialisierung du nicht beherrschst. In Kapitel 5: Regeln erfährst du mehr über Kämpfe und den Einsatz von Fernkampf. Spezialisierungen: Armbrust, Bogen, Explosiv, Fesselnd, Schießpulver, Schleuder, Technicus, Werfen</p>"
+		},
+		{
 			"id": "Ranged (Engineering)",
 			"name": "Fernkampf (Technicus)",
 			"description": "<p>Jeder kann unter Verwendung seiner Ballistischen Fertigkeit einen Stein werfen, aber Bögen und Pistolen einzusetzen erfordert Unterweisung und Übung. Jede Spezialisierung im Fernkampf deckt eine bestimmte Gruppe ähnlicher Waffen ab, mit denen man vertraut ist. Ob du die richtige Spezialisierung für die Waffe hast, die du einsetzen möchtest, erfährst du in Kapitel 11: Einkaufsführer, in dem alle Waffen aufgeführt werden. Dort findest du auch die Abzüge, die du beim Einsatz einer Waffe erleidest, deren Spezialisierung du nicht beherrschst. In Kapitel 5: Regeln erfährst du mehr über Kämpfe und den Einsatz von Fernkampf. Spezialisierungen: Armbrust, Bogen, Explosiv, Fesselnd, Schießpulver, Schleuder, Technicus, Werfen</p>"
@@ -854,6 +909,11 @@
 		{
 			"id": "Ride (Any)",
 			"name": "Reiten (beliebig)",
+			"description": "<p>Reiten beschreibt, wie gut du auf einer bestimmten Gruppe von Tieren zu reiten verstehst. Reiten (Pferd) erlaubt es dir zum Beispiel, auf Pferden, Maultieren, Eseln und Ähnlichem zu reiten. Ein Wurf ist nur nötig, wenn es um etwas Außergewöhnliches geht, ein Rennen, Dressur, den Ritt über tückisches Gelände oder einen Sturmangriff in den Kampf. Anderenfalls reicht es, nur eine einzige Steigerung in dieser Fähigkeit zu haben, um ohne die Notwendigkeit eines Wurfes herumreiten zu können. Wenn du auf einem Reittier sitzt, dann verwendest du dessen Wert für Bewegung statt der eigenen; wenn du zu rennen, hoch oder weit zu springen wünschst, dann würfelst du auf Reiten statt auf Athletik. Wenn du irgendeinen Ort mit größtmöglicher Geschwindigkeit erreichen möchtest, ist ein Erweiterter Reiten-Wurf notwendig, bei dem die benötigten EG davon abhängen, wie weit die Reise ist, und die Anzahl der Würfe die nötig war, ein Indikator dafür ist, wie lang es gedauert hat, bis man angekommen ist. Reiten-Würfe werden auch durch Umwelteinflüsse und das Temperament des Reittieres modifiziert. Weitere Informationen über Reittiere findest du in Kapitel 12: Bestiarium. Die Fähigkeit Reiten findet im Kampf zahlreiche Verwendung. Mehr über den Kampf zu Pferd erfährst du in Kapitel 5: Regeln. Spezialisierungen: Demigreif, Greif, Pegasus, Pferd, Riesenwolf</p>"
+		},
+		{
+			"id": "Ride(Horse)",
+			"name": "Reiten (Pferd)",
 			"description": "<p>Reiten beschreibt, wie gut du auf einer bestimmten Gruppe von Tieren zu reiten verstehst. Reiten (Pferd) erlaubt es dir zum Beispiel, auf Pferden, Maultieren, Eseln und Ähnlichem zu reiten. Ein Wurf ist nur nötig, wenn es um etwas Außergewöhnliches geht, ein Rennen, Dressur, den Ritt über tückisches Gelände oder einen Sturmangriff in den Kampf. Anderenfalls reicht es, nur eine einzige Steigerung in dieser Fähigkeit zu haben, um ohne die Notwendigkeit eines Wurfes herumreiten zu können. Wenn du auf einem Reittier sitzt, dann verwendest du dessen Wert für Bewegung statt der eigenen; wenn du zu rennen, hoch oder weit zu springen wünschst, dann würfelst du auf Reiten statt auf Athletik. Wenn du irgendeinen Ort mit größtmöglicher Geschwindigkeit erreichen möchtest, ist ein Erweiterter Reiten-Wurf notwendig, bei dem die benötigten EG davon abhängen, wie weit die Reise ist, und die Anzahl der Würfe die nötig war, ein Indikator dafür ist, wie lang es gedauert hat, bis man angekommen ist. Reiten-Würfe werden auch durch Umwelteinflüsse und das Temperament des Reittieres modifiziert. Weitere Informationen über Reittiere findest du in Kapitel 12: Bestiarium. Die Fähigkeit Reiten findet im Kampf zahlreiche Verwendung. Mehr über den Kampf zu Pferd erfährst du in Kapitel 5: Regeln. Spezialisierungen: Demigreif, Greif, Pegasus, Pferd, Riesenwolf</p>"
 		},
 		{
@@ -982,6 +1042,16 @@
 			"description": "<p>Dir wurde die Verwendung von geheimen Symbolen und Schriftzeichen beigebracht, die nur Mitgliedern einer besonderen Gruppe bekannt sind. Es gibt alle Arten von Gründen, warum jemand eine geheime Nachricht hinterlassen wollen könnte: Vagabunden könnten Markierungen an Häusern hinterlassen, deren Bewohner gern großzügige Almosen geben. Diebe könnten ihresgleichen mit Zinkenzeichen Schwachstellen eines Hauses kundtun und Waldläufer könnten mit Markierungen auf den nahen Unterschlupf eines gefährlichen Monsters hinweisen. Auf diese Fähigkeit wird normalerweise nicht gewürfelt; du kannst jedes Zeichen entziffern, das jemand mit derselben Spezialisierung hinterlassen hat. Wenn die Zeichen jedoch unvollständig oder verwischt sind, oder du unter Zeitdruck stehst, dann könnte sehr wohl ein Wurf nötig werden. Die meisten Botschaften sind sehr einfach und bestehen aus nicht mehr als drei Worten. Spezialisierungen: Diebeszinken, Gilde (eine einzelne), Grauer Orden, Kundschafter, Waldläufer, Vagabunden. Dies sind die Geheimzeichen von wanderndem Volk und Hausierern. Vagabundenzeichen markieren oft gute Schlafstätten, Dörfer, die man meiden sollte, und gute Quellen für Nahrung und Wasser.</p>"
 		},
 		{
+			"id": "Secret Signs (Smuggler)",
+			"name": "Geheimzeichen (Schmuggler)",
+			"description": "<p>Dir wurde die Verwendung von geheimen Symbolen und Schriftzeichen beigebracht, die nur Mitgliedern einer besonderen Gruppe bekannt sind. Es gibt alle Arten von Gründen, warum jemand eine geheime Nachricht hinterlassen wollen könnte: Vagabunden könnten Markierungen an Häusern hinterlassen, deren Bewohner gern großzügige Almosen geben. Diebe könnten ihresgleichen mit Zinkenzeichen Schwachstellen eines Hauses kundtun und Waldläufer könnten mit Markierungen auf den nahen Unterschlupf eines gefährlichen Monsters hinweisen. Auf diese Fähigkeit wird normalerweise nicht gewürfelt; du kannst jedes Zeichen entziffern, das jemand mit derselben Spezialisierung hinterlassen hat. Wenn die Zeichen jedoch unvollständig oder verwischt sind, oder du unter Zeitdruck stehst, dann könnte sehr wohl ein Wurf nötig werden. Die meisten Botschaften sind sehr einfach und bestehen aus nicht mehr als drei Worten. Spezialisierungen: Diebeszinken, Gilde (eine einzelne), Grauer Orden, Kundschafter, Waldläufer, Vagabunden. Dies sind die Geheimzeichen von wanderndem Volk und Hausierern. Vagabundenzeichen markieren oft gute Schlafstätten, Dörfer, die man meiden sollte, und gute Quellen für Nahrung und Wasser.</p>"
+		},
+		{
+			"id": "Secret Signs (Knightly Order)",
+			"name": "Geheimzeichen (Ritterorden)",
+			"description": "<p>Dir wurde die Verwendung von geheimen Symbolen und Schriftzeichen beigebracht, die nur Mitgliedern einer besonderen Gruppe bekannt sind. Es gibt alle Arten von Gründen, warum jemand eine geheime Nachricht hinterlassen wollen könnte: Vagabunden könnten Markierungen an Häusern hinterlassen, deren Bewohner gern großzügige Almosen geben. Diebe könnten ihresgleichen mit Zinkenzeichen Schwachstellen eines Hauses kundtun und Waldläufer könnten mit Markierungen auf den nahen Unterschlupf eines gefährlichen Monsters hinweisen. Auf diese Fähigkeit wird normalerweise nicht gewürfelt; du kannst jedes Zeichen entziffern, das jemand mit derselben Spezialisierung hinterlassen hat. Wenn die Zeichen jedoch unvollständig oder verwischt sind, oder du unter Zeitdruck stehst, dann könnte sehr wohl ein Wurf nötig werden. Die meisten Botschaften sind sehr einfach und bestehen aus nicht mehr als drei Worten. Spezialisierungen: Diebeszinken, Gilde (eine einzelne), Grauer Orden, Kundschafter, Waldläufer, Vagabunden. Dies sind die Geheimzeichen von wanderndem Volk und Hausierern. Vagabundenzeichen markieren oft gute Schlafstätten, Dörfer, die man meiden sollte, und gute Quellen für Nahrung und Wasser.</p>"
+		},
+		{
 			"id": "Set Trap",
 			"name": "Fallen stellen",
 			"description": "<p>Von einfachen Schlingen oder Bärenfallen zu solch spektakulären Gerätschaften wie Von Gizzels Diebeszerreißer – Spieler können in der Alten Welt auf alle Arten von Fallen treffen. Die Fähigkeit Fallen stellen wird verwendet, um Fallen aller Arten einzusetzen und zu entschärfen. Von jedem mit dieser Fähigkeit wird angenommen, dass er mit genügend Zeit automatisch jede Falle aufstellen oder entschärfen kann. Ein Wurf ist nur dann erforderlich, wenn es besonders schnell gehen soll, es unter Zeitdruck stattfindet oder die Falle besonders komplex ist. Eine Sammlung einfacher Fallen findet sich in Kapitel 11: Einkaufsführer. Das Aufstellen oder Entschärfen der meisten Fallen erfordert einen durchschnittlichen (+20) Fallen stellen-Wurf, doch komplexere Fallen mögen einen Erweiterten Wurf mit einigen EG über mehrere Runden erfordern.</p>"
@@ -1009,6 +1079,11 @@
 		{
 			"id": "Stealth (Rural or Urban)",
 			"name": "Schleichen (Land oder Stadt)",
+			"description": "<p>Diese Fähigkeit erlaubt es dir, dich leiser zu bewegen und besser mit den Schatten zu verschmelzen als andere. Schleichen wird normalerweise als Vergleichender Wurf gegen die Wahrnehmung eines Gegners gewürfelt und der Wurf abhängig davon modifiziert, wie dunkel es ist, wie gut deine Route gedeckt ist und wie passend du für diese Art von Unternehmung gekleidet bist. Ein Verblüffendes Scheitern oder ein Beeindruckendes Scheitern bei einem Schleichen-Wurf wird die sofortige Aufmerksamkeit genau der Personen auf sich ziehen, denen du eigentlich aus dem Weg gehen wolltest. Schleichen hat viele nützliche Anwendungen im Kampf, besonders wenn es darum geht, sich für einen Hinterhalt in Stellung zu bringen, oder sich um einen Gegner herumzuschleichen, um ihn von hinten zu attackieren. In Kapitel 5: Regeln findest du mehr dazu. Und natürlich kannst du diese Fähigkeit auch nutzen, um einem potentiellen Konflikt ungesehen zu entkommen</p>"
+		},
+		{
+			"id": "Stealth (Underground or Urban)",
+			"name": "Schleichen (Untergrund oder Stadt)",
 			"description": "<p>Diese Fähigkeit erlaubt es dir, dich leiser zu bewegen und besser mit den Schatten zu verschmelzen als andere. Schleichen wird normalerweise als Vergleichender Wurf gegen die Wahrnehmung eines Gegners gewürfelt und der Wurf abhängig davon modifiziert, wie dunkel es ist, wie gut deine Route gedeckt ist und wie passend du für diese Art von Unternehmung gekleidet bist. Ein Verblüffendes Scheitern oder ein Beeindruckendes Scheitern bei einem Schleichen-Wurf wird die sofortige Aufmerksamkeit genau der Personen auf sich ziehen, denen du eigentlich aus dem Weg gehen wolltest. Schleichen hat viele nützliche Anwendungen im Kampf, besonders wenn es darum geht, sich für einen Hinterhalt in Stellung zu bringen, oder sich um einen Gegner herumzuschleichen, um ihn von hinten zu attackieren. In Kapitel 5: Regeln findest du mehr dazu. Und natürlich kannst du diese Fähigkeit auch nutzen, um einem potentiellen Konflikt ungesehen zu entkommen</p>"
 		},
 		{
@@ -1152,7 +1227,22 @@
 			"description": ""
 		},
 		{
+			"id": "Entertain (Lecture)",
+			"name": "Unterhalten (Vorlesung)",
+			"description": ""
+		},
+		{
+			"id": "Entertain (Rhetoric)",
+			"name": "Unterhalten (Rhetorik)",
+			"description": ""
+		},
+		{
 			"id": "Trade (Poisoner)",
+			"name": "Beruf (Giftmischer)",
+			"description": ""
+		},
+		{
+			"id": "Trade (Poisons)",
 			"name": "Beruf (Giftmischer)",
 			"description": ""
 		},
@@ -1204,6 +1294,16 @@
 		{
 			"id": "Trade (Tinker)",
 			"name": "Beruf (Bastler)",
+			"description": ""
+		},
+		{
+			"id": "Trade (Engineer)",
+			"name": "Beruf (Technicus)",
+			"description": ""
+		},
+		{
+			"id": "Trade (Art Supplies)",
+			"name": "Beruf (Kunstbedarf)",
 			"description": ""
 		}
 	]

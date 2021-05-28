@@ -1449,7 +1449,7 @@
 			]
 		},
 		{
-			"id": "Physician's Lehrlingce",
+			"id": "Physician's Apprentice",
 			"name": "Medicus-Lehrling",
 			"description": "",
 			"trappings": [
@@ -1743,6 +1743,16 @@
 				"Schild",
 				"Rangabzeichen"
 			]			
+		},
+		{
+			"id": "Road Warden",
+			"name": "Straßenwächter",
+			"trappings": [
+				"Handwaffe",
+				"Kettenhemd",
+				"Reitpferd mit Sattel und Harnisch",
+				"Seil"
+			]
 		},
 		{
 			"id": "Straßenwächter",
