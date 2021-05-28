@@ -21,6 +21,18 @@
       "tests": "Wahrnehmung (Sinn)"
     },
     {
+      "description": "<p>Einer deiner fünf Hauptsinne ist so hochentwickelt, dass dir Dinge auffallen, die anderen entgehen. Du kannst bei Wahrnehmungs-Würfen mit diesem Sinn normalerweise unbemerkbare Dinge wahrnehmen, je nach Vorgabe des SL. Das könnte zum Beispiel Folgendes sein: einen Adler sehen, der noch außerhalb der Sichtweite anderer ist, ein nahezu geruchloses Gift riechen, das Atmen einer stillstehenden Maus hinter einer Bretterwand hören, einen abgenutzten Buchstaben an einer Druckerpresse ertasten oder schmecken, das zwei Humpen Bier zwar von der gleichen Brauerei, aber aus unterschiedlichen Fässern stammen.</p>",
+      "id": "Acute Sense (Any)",
+      "name": "Scharfer Sinn (Sinn)",
+      "tests": "Wahrnehmung (Sinn)"
+    },
+    {
+      "description": "<p>Einer deiner fünf Hauptsinne ist so hochentwickelt, dass dir Dinge auffallen, die anderen entgehen. Du kannst bei Wahrnehmungs-Würfen mit diesem Sinn normalerweise unbemerkbare Dinge wahrnehmen, je nach Vorgabe des SL. Das könnte zum Beispiel Folgendes sein: einen Adler sehen, der noch außerhalb der Sichtweite anderer ist, ein nahezu geruchloses Gift riechen, das Atmen einer stillstehenden Maus hinter einer Bretterwand hören, einen abgenutzten Buchstaben an einer Druckerpresse ertasten oder schmecken, das zwei Humpen Bier zwar von der gleichen Brauerei, aber aus unterschiedlichen Fässern stammen.</p>",
+      "id": "Acute Sense (any)",
+      "name": "Scharfer Sinn (Sinn)",
+      "tests": "Wahrnehmung (Sinn)"
+    },
+    {
       "description": "<p>Durch Erfahrung, Talent oder Training gelingt es dir, die Winde der Magie sicherer zu manipulieren. Du erleidest keinen Kontrollverlust, wenn du bei einem erfolgreichen Kanalisieren-Wurf einen Pasch würfelst.</p>",
       "id": "Aethyric Attunement",
       "name": "Äthergespür",
@@ -47,6 +59,12 @@
     {
       "description": "<p>Du studierst entweder eine der 8 Arkanen Lehren der Magie – Bestien,Feuer, Himmel, Leben, Licht, Metall, Schatten, Tod – oder praktizierst eine der weniger bekannten Lehren wie die der Heckenzauberei oder der Nekromantie. Du darfst dir nun Zauber deiner ausgewählten Lehre einprägen, für die folgenden EP-Kosten:</p><p>Zahl der gegenwärtig EP-Kosten eines eingeprägten Zauber neuen Zaubers<br/>Intelligenz-Bonus x 1 100 EP<br/>Intelligenz-Bonus x 2 200 EP<br/>Intelligenz-Bonus x 3 300 EP<br/>Intelligenz-Bonus x 4 400 EP<br/>… und so weiter</p><p>Wenn dein Intelligenz-Bonus 4 beträgt, dann kosten dich die ersten 4 Zauber jeweils 100 EP, die nächsten 4 jeweils 200 EP und so weiter. Die vollständigen Regeln für das Erlernen neuer Zauber findest du in Kapitel 8: Magie. Unter normalen Umständen kannst du nie mehr als ein einziges Arkane-Magie-Talent erlernen. Des Weiteren kannst du die Talente Segen und Anrufung nicht erlernen, wenn du das Talent Arkane Magie gelernt hast. Du kannst das Talent für 100 EP wieder verlernen, doch dabei verlierst du sofort auch sämtliche Zauber, die du gelernt hast.</p>",
       "id": "Arcane Magic",
+      "name": "Arkane Magie (Lehre)",
+      "tests": ""
+    },
+    {
+      "description": "<p>Du studierst entweder eine der 8 Arkanen Lehren der Magie – Bestien,Feuer, Himmel, Leben, Licht, Metall, Schatten, Tod – oder praktizierst eine der weniger bekannten Lehren wie die der Heckenzauberei oder der Nekromantie. Du darfst dir nun Zauber deiner ausgewählten Lehre einprägen, für die folgenden EP-Kosten:</p><p>Zahl der gegenwärtig EP-Kosten eines eingeprägten Zauber neuen Zaubers<br/>Intelligenz-Bonus x 1 100 EP<br/>Intelligenz-Bonus x 2 200 EP<br/>Intelligenz-Bonus x 3 300 EP<br/>Intelligenz-Bonus x 4 400 EP<br/>… und so weiter</p><p>Wenn dein Intelligenz-Bonus 4 beträgt, dann kosten dich die ersten 4 Zauber jeweils 100 EP, die nächsten 4 jeweils 200 EP und so weiter. Die vollständigen Regeln für das Erlernen neuer Zauber findest du in Kapitel 8: Magie. Unter normalen Umständen kannst du nie mehr als ein einziges Arkane-Magie-Talent erlernen. Des Weiteren kannst du die Talente Segen und Anrufung nicht erlernen, wenn du das Talent Arkane Magie gelernt hast. Du kannst das Talent für 100 EP wieder verlernen, doch dabei verlierst du sofort auch sämtliche Zauber, die du gelernt hast.</p>",
+      "id": "Arcane Magic (Any Arcane Lore)",
       "name": "Arkane Magie (Lehre)",
       "tests": ""
     },
@@ -213,6 +231,18 @@
       "tests": "Beruf (Beruf)"
     },
     {
+      "description": "<p>Du hast wahres kreatives Talent. Dieses Talent fügt jeder Karriere, in die du wechselst, die entsprechende Berufs-Fähigkeit hinzu. Wenn sich diese bereits in der entsprechenden Karriere befindet, kannst du die zugehörige Berufs-Fähigkeit stattdessen für 5 EP weniger pro Steigerung verbessern.</p>",
+      "id": "Craftsman (Apothecary)",
+      "name": "Handwerksgeschick (Apotheker)",
+      "tests": "Beruf (Beruf)"
+    },
+    {
+      "description": "<p>Du hast wahres kreatives Talent. Dieses Talent fügt jeder Karriere, in die du wechselst, die entsprechende Berufs-Fähigkeit hinzu. Wenn sich diese bereits in der entsprechenden Karriere befindet, kannst du die zugehörige Berufs-Fähigkeit stattdessen für 5 EP weniger pro Steigerung verbessern.</p>",
+      "id": "Craftsman (Boatbuilder)",
+      "name": "Handwerksgeschick (Bootsbauer)",
+      "tests": "Beruf (Beruf)"
+    },
+    {
       "description": "<p>Du bist ein aktiver Krimineller, der seinen Lebensunterhalt aus illegalen Quellen bezieht, und dies ist durchaus etwas, auf das du stolz bist. Was deine Einkünfte betrifft, sei es durch Geld verdienen oder eine Einnahmen-Unternehmung, verwendest du zusätzlich die folgende Tabelle:</p><p>Karriere-Stufe Bonus-Geld pro Stufe des Talentes<br/>1 +2W10 Messinggroschen<br/>2 +1W10 Silberschillinge<br/>3 +2W10 Silberschillinge<br/>4 +1 Goldkrone</p><p>Wegen deiner offensichtlichen Kriminalität behandeln dich andere, als hättest du einen geringeren Status als sie, sofern sie nicht ebenfalls das Talent Kriminell besitzen. In diesem Fall gilt dein normaler Status. Vielleicht hast du Banden-Tätowierungen, siehst zwielichtig oder einfach nur etwas ungeschliffen aus – es ist deine Wahl, woran Fremde dich als Kriminellen erkennen. Die örtlichen Gesetzeshüter finden dich stets verdächtig und misstrauen dir, was immer schlimmer wird, je häufiger du dieses Talent erwirbst, wobei die genauen Folgen vom SL abhängen. Gesetzesbrecher ohne das Talent Kriminell erzielen zwar deutlich geringere Einkünfte, sind dafür aber unauffälliger und können ihren Status halten. Mit dem Einverständnis des SL kannst du EP ausgeben, um Stufen des Talents Kriminell wieder zu entfernen, was die gleichen EP-Kosten hat wie deren Erwerb.</p>",
       "id": "Criminal",
       "name": "Kriminell",
@@ -297,6 +327,54 @@
       "tests": "Charme und Klatsch innerhalb der sozialen Gruppe"
     },
     {
+      "description": "<p>Du fügst dich perfekt in eine bestimmte soziale Gruppe ein, solange du entsprechend angezogen bist und dich entsprechend verhältst. Beispiele für soziale Gruppen wären: Adelige, Gelehrte, Gildenmitglieder, Gläubige, Dienstboten, Kriminelle und Soldaten. Wenn du nicht über dieses Talent verfügst, werden jene, die es besitzen, merken, dass du dich im entsprechenden Umfeld unsicher oder gar unwohl fühlst. Dies ist normalerweise etwas, dass sich im Rollenspiel widerspiegelt, doch der SL kann auch entscheiden, dass es modifizierend auf Charisma-Würfe wirkt.</p>",
+      "id": "Etiquette (Any)",
+      "name": "Etikette (beliebig)",
+      "tests": "Charme und Klatsch innerhalb der sozialen Gruppe"
+    },
+    {
+      "description": "<p>Du fügst dich perfekt in eine bestimmte soziale Gruppe ein, solange du entsprechend angezogen bist und dich entsprechend verhältst. Beispiele für soziale Gruppen wären: Adelige, Gelehrte, Gildenmitglieder, Gläubige, Dienstboten, Kriminelle und Soldaten. Wenn du nicht über dieses Talent verfügst, werden jene, die es besitzen, merken, dass du dich im entsprechenden Umfeld unsicher oder gar unwohl fühlst. Dies ist normalerweise etwas, dass sich im Rollenspiel widerspiegelt, doch der SL kann auch entscheiden, dass es modifizierend auf Charisma-Würfe wirkt.</p>",
+      "id": "Etiquette (Guilder)",
+      "name": "Etikette (Gilde)",
+      "tests": "Charme und Klatsch innerhalb der sozialen Gruppe"
+    },
+    {
+      "description": "<p>Du fügst dich perfekt in eine bestimmte soziale Gruppe ein, solange du entsprechend angezogen bist und dich entsprechend verhältst. Beispiele für soziale Gruppen wären: Adelige, Gelehrte, Gildenmitglieder, Gläubige, Dienstboten, Kriminelle und Soldaten. Wenn du nicht über dieses Talent verfügst, werden jene, die es besitzen, merken, dass du dich im entsprechenden Umfeld unsicher oder gar unwohl fühlst. Dies ist normalerweise etwas, dass sich im Rollenspiel widerspiegelt, doch der SL kann auch entscheiden, dass es modifizierend auf Charisma-Würfe wirkt.</p>",
+      "id": "Etiquette (Nobles)",
+      "name": "Etikette (Adliege)",
+      "tests": "Charme und Klatsch innerhalb der sozialen Gruppe"
+    },
+    {
+      "description": "<p>Du fügst dich perfekt in eine bestimmte soziale Gruppe ein, solange du entsprechend angezogen bist und dich entsprechend verhältst. Beispiele für soziale Gruppen wären: Adelige, Gelehrte, Gildenmitglieder, Gläubige, Dienstboten, Kriminelle und Soldaten. Wenn du nicht über dieses Talent verfügst, werden jene, die es besitzen, merken, dass du dich im entsprechenden Umfeld unsicher oder gar unwohl fühlst. Dies ist normalerweise etwas, dass sich im Rollenspiel widerspiegelt, doch der SL kann auch entscheiden, dass es modifizierend auf Charisma-Würfe wirkt.</p>",
+      "id": "Etiquette (Scholar)",
+      "name": "Etikette (Gelehrte)",
+      "tests": "Charme und Klatsch innerhalb der sozialen Gruppe"
+    },
+    {
+      "description": "<p>Du fügst dich perfekt in eine bestimmte soziale Gruppe ein, solange du entsprechend angezogen bist und dich entsprechend verhältst. Beispiele für soziale Gruppen wären: Adelige, Gelehrte, Gildenmitglieder, Gläubige, Dienstboten, Kriminelle und Soldaten. Wenn du nicht über dieses Talent verfügst, werden jene, die es besitzen, merken, dass du dich im entsprechenden Umfeld unsicher oder gar unwohl fühlst. Dies ist normalerweise etwas, dass sich im Rollenspiel widerspiegelt, doch der SL kann auch entscheiden, dass es modifizierend auf Charisma-Würfe wirkt.</p>",
+      "id": "Etiquette (Scholars)",
+      "name": "Etikette (Gelehrte)",
+      "tests": "Charme und Klatsch innerhalb der sozialen Gruppe"
+    },
+    {
+      "description": "<p>Du fügst dich perfekt in eine bestimmte soziale Gruppe ein, solange du entsprechend angezogen bist und dich entsprechend verhältst. Beispiele für soziale Gruppen wären: Adelige, Gelehrte, Gildenmitglieder, Gläubige, Dienstboten, Kriminelle und Soldaten. Wenn du nicht über dieses Talent verfügst, werden jene, die es besitzen, merken, dass du dich im entsprechenden Umfeld unsicher oder gar unwohl fühlst. Dies ist normalerweise etwas, dass sich im Rollenspiel widerspiegelt, doch der SL kann auch entscheiden, dass es modifizierend auf Charisma-Würfe wirkt.</p>",
+      "id": "Etiquette (Criminals)",
+      "name": "Etikette (Kriminelle)",
+      "tests": "Charme und Klatsch innerhalb der sozialen Gruppe"
+    },
+    {
+      "description": "<p>Du fügst dich perfekt in eine bestimmte soziale Gruppe ein, solange du entsprechend angezogen bist und dich entsprechend verhältst. Beispiele für soziale Gruppen wären: Adelige, Gelehrte, Gildenmitglieder, Gläubige, Dienstboten, Kriminelle und Soldaten. Wenn du nicht über dieses Talent verfügst, werden jene, die es besitzen, merken, dass du dich im entsprechenden Umfeld unsicher oder gar unwohl fühlst. Dies ist normalerweise etwas, dass sich im Rollenspiel widerspiegelt, doch der SL kann auch entscheiden, dass es modifizierend auf Charisma-Würfe wirkt.</p>",
+      "id": "Etiquette (Servants)",
+      "name": "Etikette (Diener)",
+      "tests": "Charme und Klatsch innerhalb der sozialen Gruppe"
+    },
+    {
+      "description": "<p>Du fügst dich perfekt in eine bestimmte soziale Gruppe ein, solange du entsprechend angezogen bist und dich entsprechend verhältst. Beispiele für soziale Gruppen wären: Adelige, Gelehrte, Gildenmitglieder, Gläubige, Dienstboten, Kriminelle und Soldaten. Wenn du nicht über dieses Talent verfügst, werden jene, die es besitzen, merken, dass du dich im entsprechenden Umfeld unsicher oder gar unwohl fühlst. Dies ist normalerweise etwas, dass sich im Rollenspiel widerspiegelt, doch der SL kann auch entscheiden, dass es modifizierend auf Charisma-Würfe wirkt.</p>",
+      "id": "Etiquette (Soldiers)",
+      "name": "Etikette (Soldaten)",
+      "tests": "Charme und Klatsch innerhalb der sozialen Gruppe"
+    },
+    {
       "description": "<p>Du kannst deine Hände mit überraschender Geschwindigkeit bewegen. Umstehende dürfen nicht passiv auf Wahrnehmung würfeln, um mitzubekommen, dass du Fingerfertigkeit einsetzt; stattdessen würfeln sie mit ihrer Wahrnehmung einen Vergleichenden Wurf gegen deine Fingerfertigkeit, allerdings nur, wenn sie ganz bewusst darauf achten und deine Bewegungen erwarten. Außerdem erhältst du pro Stufe, die du in diesem Talent hast, +10 auf Nahkampf (Waffenlos), wenn es bei dem Wurf um bloßes Berühren eines Feindes geht.</p>",
       "id": "Fast Hands",
       "name": "Flinke Finger",
@@ -312,6 +390,48 @@
       "description": "<p>Du bist entweder so tapfer oder so wahnsinnig, dass die Furcht vor bestimmten Feinden kaum mehr als eine ferne Erinnerung für dich ist. Wenn dir ein einzelner durchschnittlicher (+0) Besonnenheits-Wurf gelingt, darfst du während einer Begegnung alle von diesem Feind ausgehenden Effekte von Angst, Einschüchtern und Entsetzen ignorieren. Typische Feinde sind unter anderem Banditen, Grünhäute, Hexer, Tiermenschen, Vampire und Wächter.</p>",
       "id": "Fearless",
       "name": "Furchtlosigkeit (Feind)",
+      "tests": "Besonnenheit bei Vergleichenden Würfen gegen Angst, Einschüchtern und Entsetzen deines Feindes"
+    },
+    {
+      "description": "<p>Du bist entweder so tapfer oder so wahnsinnig, dass die Furcht vor bestimmten Feinden kaum mehr als eine ferne Erinnerung für dich ist. Wenn dir ein einzelner durchschnittlicher (+0) Besonnenheits-Wurf gelingt, darfst du während einer Begegnung alle von diesem Feind ausgehenden Effekte von Angst, Einschüchtern und Entsetzen ignorieren. Typische Feinde sind unter anderem Banditen, Grünhäute, Hexer, Tiermenschen, Vampire und Wächter.</p>",
+      "id": "Fearless (Watchmen)",
+      "name": "Furchtlosigkeit (Wachen)",
+      "tests": "Besonnenheit bei Vergleichenden Würfen gegen Angst, Einschüchtern und Entsetzen deines Feindes"
+    },
+    {
+      "description": "<p>Du bist entweder so tapfer oder so wahnsinnig, dass die Furcht vor bestimmten Feinden kaum mehr als eine ferne Erinnerung für dich ist. Wenn dir ein einzelner durchschnittlicher (+0) Besonnenheits-Wurf gelingt, darfst du während einer Begegnung alle von diesem Feind ausgehenden Effekte von Angst, Einschüchtern und Entsetzen ignorieren. Typische Feinde sind unter anderem Banditen, Grünhäute, Hexer, Tiermenschen, Vampire und Wächter.</p>",
+      "id": "Fearless (Wreckers)",
+      "name": "Furchtlosigkeit (Strandräuber)",
+      "tests": "Besonnenheit bei Vergleichenden Würfen gegen Angst, Einschüchtern und Entsetzen deines Feindes"
+    },
+    {
+      "description": "<p>Du bist entweder so tapfer oder so wahnsinnig, dass die Furcht vor bestimmten Feinden kaum mehr als eine ferne Erinnerung für dich ist. Wenn dir ein einzelner durchschnittlicher (+0) Besonnenheits-Wurf gelingt, darfst du während einer Begegnung alle von diesem Feind ausgehenden Effekte von Angst, Einschüchtern und Entsetzen ignorieren. Typische Feinde sind unter anderem Banditen, Grünhäute, Hexer, Tiermenschen, Vampire und Wächter.</p>",
+      "id": "Fearless (Road Wardens)",
+      "name": "Furchtlosigkeit (Weghüter)",
+      "tests": "Besonnenheit bei Vergleichenden Würfen gegen Angst, Einschüchtern und Entsetzen deines Feindes"
+    },
+    {
+      "description": "<p>Du bist entweder so tapfer oder so wahnsinnig, dass die Furcht vor bestimmten Feinden kaum mehr als eine ferne Erinnerung für dich ist. Wenn dir ein einzelner durchschnittlicher (+0) Besonnenheits-Wurf gelingt, darfst du während einer Begegnung alle von diesem Feind ausgehenden Effekte von Angst, Einschüchtern und Entsetzen ignorieren. Typische Feinde sind unter anderem Banditen, Grünhäute, Hexer, Tiermenschen, Vampire und Wächter.</p>",
+      "id": "Fearless (Animals)",
+      "name": "Furchtlosigkeit (Tiere)",
+      "tests": "Besonnenheit bei Vergleichenden Würfen gegen Angst, Einschüchtern und Entsetzen deines Feindes"
+    },
+    {
+      "description": "<p>Du bist entweder so tapfer oder so wahnsinnig, dass die Furcht vor bestimmten Feinden kaum mehr als eine ferne Erinnerung für dich ist. Wenn dir ein einzelner durchschnittlicher (+0) Besonnenheits-Wurf gelingt, darfst du während einer Begegnung alle von diesem Feind ausgehenden Effekte von Angst, Einschüchtern und Entsetzen ignorieren. Typische Feinde sind unter anderem Banditen, Grünhäute, Hexer, Tiermenschen, Vampire und Wächter.</p>",
+      "id": "Fearless (Intruders)",
+      "name": "Furchtlosigkeit (Eindringlinge)",
+      "tests": "Besonnenheit bei Vergleichenden Würfen gegen Angst, Einschüchtern und Entsetzen deines Feindes"
+    },
+    {
+      "description": "<p>Du bist entweder so tapfer oder so wahnsinnig, dass die Furcht vor bestimmten Feinden kaum mehr als eine ferne Erinnerung für dich ist. Wenn dir ein einzelner durchschnittlicher (+0) Besonnenheits-Wurf gelingt, darfst du während einer Begegnung alle von diesem Feind ausgehenden Effekte von Angst, Einschüchtern und Entsetzen ignorieren. Typische Feinde sind unter anderem Banditen, Grünhäute, Hexer, Tiermenschen, Vampire und Wächter.</p>",
+      "id": "Fearless (Any)",
+      "name": "Furchtlosigkeit (beliebig)",
+      "tests": "Besonnenheit bei Vergleichenden Würfen gegen Angst, Einschüchtern und Entsetzen deines Feindes"
+    },
+    {
+      "description": "<p>Du bist entweder so tapfer oder so wahnsinnig, dass die Furcht vor bestimmten Feinden kaum mehr als eine ferne Erinnerung für dich ist. Wenn dir ein einzelner durchschnittlicher (+0) Besonnenheits-Wurf gelingt, darfst du während einer Begegnung alle von diesem Feind ausgehenden Effekte von Angst, Einschüchtern und Entsetzen ignorieren. Typische Feinde sind unter anderem Banditen, Grünhäute, Hexer, Tiermenschen, Vampire und Wächter.</p>",
+      "id": "Fearless (Criminals)",
+      "name": "Furchtlosigkeit (Kriminelle)",
       "tests": "Besonnenheit bei Vergleichenden Würfen gegen Angst, Einschüchtern und Entsetzen deines Feindes"
     },
     {
@@ -390,6 +510,18 @@
       "description": "<p>Du wirst vom Hass auf irgendetwas in der Alten Welt verzehrt, wie auf Seite 190 beschrieben. Jedes Mal, wenn du dieses Talent erwirbst, kommt Hass auf eine neue Gruppe dazu. Beispiele für Gruppen sind: Banditen, Grünhäute, Hexer, Monster, Sigmariten, Tiermenschen oder Untote.</p><p>Du hegst tiefe Hassgefühle gegenüber dem Ziel, bei dem es sich normalerweise um eine Gruppe von Leuten oder Kreaturen handelt, zum Beispiel „Hochländer“, „Sumpfoktopusse“ oder „Sklavenhändler“. Du wirst niemals sozial mit irgendjemandem oder irgendetwas interagieren, das du hasst. Du musst einen Psychologie-Wurf durchführen, wann immer du auf Vertreter der entsprechenden Gruppe stößt. Wenn dieser misslingt, unterliegst du Hass. Am Ende jeder folgenden Runde kannst du versuchen, deinen Hass mit einem weiteren Psychologie-Wurf zu beenden. Wenn du dies nicht tust, endet der Hass automatisch, sobald alle Mitglieder der betreffenden Gruppe in deinem Sichtbereich entweder tot oder verschwunden sind oder du den Zustand Bewusstlos erhältst. Solange du Hass unterliegst, musst du sofort versuchen, die Mitglieder der verhassten Gruppe auf die schnellste und tödlichste Weise zu vernichten. Du bekommst +1 EG auf alle Würfe, die du im Kampf gegen die spezifische Gruppe durchführst und bist immun gegen Angst und Einschüchtern (nicht jedoch gegen Entsetzen), sofern es von deinem verhassten Gegner verursacht wird.</p>",
       "id": "Hatred",
       "name": "Hass (Gruppe)",
+      "tests": "Willenskraft (bei Würfen gegen die verhasste Gruppe)"
+    },
+    {
+      "description": "<p>Du wirst vom Hass auf irgendetwas in der Alten Welt verzehrt, wie auf Seite 190 beschrieben. Jedes Mal, wenn du dieses Talent erwirbst, kommt Hass auf eine neue Gruppe dazu. Beispiele für Gruppen sind: Banditen, Grünhäute, Hexer, Monster, Sigmariten, Tiermenschen oder Untote.</p><p>Du hegst tiefe Hassgefühle gegenüber dem Ziel, bei dem es sich normalerweise um eine Gruppe von Leuten oder Kreaturen handelt, zum Beispiel „Hochländer“, „Sumpfoktopusse“ oder „Sklavenhändler“. Du wirst niemals sozial mit irgendjemandem oder irgendetwas interagieren, das du hasst. Du musst einen Psychologie-Wurf durchführen, wann immer du auf Vertreter der entsprechenden Gruppe stößt. Wenn dieser misslingt, unterliegst du Hass. Am Ende jeder folgenden Runde kannst du versuchen, deinen Hass mit einem weiteren Psychologie-Wurf zu beenden. Wenn du dies nicht tust, endet der Hass automatisch, sobald alle Mitglieder der betreffenden Gruppe in deinem Sichtbereich entweder tot oder verschwunden sind oder du den Zustand Bewusstlos erhältst. Solange du Hass unterliegst, musst du sofort versuchen, die Mitglieder der verhassten Gruppe auf die schnellste und tödlichste Weise zu vernichten. Du bekommst +1 EG auf alle Würfe, die du im Kampf gegen die spezifische Gruppe durchführst und bist immun gegen Angst und Einschüchtern (nicht jedoch gegen Entsetzen), sofern es von deinem verhassten Gegner verursacht wird.</p>",
+      "id": "Hatred (Heretics)",
+      "name": "Hass (Ketzer)",
+      "tests": "Willenskraft (bei Würfen gegen die verhasste Gruppe)"
+    },
+    {
+      "description": "<p>Du wirst vom Hass auf irgendetwas in der Alten Welt verzehrt, wie auf Seite 190 beschrieben. Jedes Mal, wenn du dieses Talent erwirbst, kommt Hass auf eine neue Gruppe dazu. Beispiele für Gruppen sind: Banditen, Grünhäute, Hexer, Monster, Sigmariten, Tiermenschen oder Untote.</p><p>Du hegst tiefe Hassgefühle gegenüber dem Ziel, bei dem es sich normalerweise um eine Gruppe von Leuten oder Kreaturen handelt, zum Beispiel „Hochländer“, „Sumpfoktopusse“ oder „Sklavenhändler“. Du wirst niemals sozial mit irgendjemandem oder irgendetwas interagieren, das du hasst. Du musst einen Psychologie-Wurf durchführen, wann immer du auf Vertreter der entsprechenden Gruppe stößt. Wenn dieser misslingt, unterliegst du Hass. Am Ende jeder folgenden Runde kannst du versuchen, deinen Hass mit einem weiteren Psychologie-Wurf zu beenden. Wenn du dies nicht tust, endet der Hass automatisch, sobald alle Mitglieder der betreffenden Gruppe in deinem Sichtbereich entweder tot oder verschwunden sind oder du den Zustand Bewusstlos erhältst. Solange du Hass unterliegst, musst du sofort versuchen, die Mitglieder der verhassten Gruppe auf die schnellste und tödlichste Weise zu vernichten. Du bekommst +1 EG auf alle Würfe, die du im Kampf gegen die spezifische Gruppe durchführst und bist immun gegen Angst und Einschüchtern (nicht jedoch gegen Entsetzen), sofern es von deinem verhassten Gegner verursacht wird.</p>",
+      "id": "Hatred (Any)",
+      "name": "Hass (beliebig)",
       "tests": "Willenskraft (bei Würfen gegen die verhasste Gruppe)"
     },
     {
@@ -531,6 +663,24 @@
       "tests": "Bei jedem entsprechenden Erweiterten Beruf-Wurf"
     },
     {
+      "description": "<p>Du bist in deiner Berufs-Fähigkeit außergewöhnlich begabt. Du kannst die EG, die du bei einem Erweiterten Wurf auf deine Berufs-Fähigkeit benötigst, um die Stufe reduzieren, die du im entsprechenden Meisterhandwerker-Talent hast.</p>",
+      "id": "Master Tradesman (Any)",
+      "name": "Meisterhandwerker (beliebig)",
+      "tests": "Bei jedem entsprechenden Erweiterten Beruf-Wurf"
+    },
+    {
+      "description": "<p>Du bist in deiner Berufs-Fähigkeit außergewöhnlich begabt. Du kannst die EG, die du bei einem Erweiterten Wurf auf deine Berufs-Fähigkeit benötigst, um die Stufe reduzieren, die du im entsprechenden Meisterhandwerker-Talent hast.</p>",
+      "id": "Master Tradesman (Apothecary)",
+      "name": "Meisterhandwerker (Apotheker)",
+      "tests": "Bei jedem entsprechenden Erweiterten Beruf-Wurf"
+    },
+    {
+      "description": "<p>Du bist in deiner Berufs-Fähigkeit außergewöhnlich begabt. Du kannst die EG, die du bei einem Erweiterten Wurf auf deine Berufs-Fähigkeit benötigst, um die Stufe reduzieren, die du im entsprechenden Meisterhandwerker-Talent hast.</p>",
+      "id": "Master Tradesman (Boatbuilder)",
+      "name": "Meisterhandwerker (Bootsbauer)",
+      "tests": "Bei jedem entsprechenden Erweiterten Beruf-Wurf"
+    },
+    {
       "description": "<p>Du bist ein Experte dafür, das Äußere und die Gestik und Mimik anderer anzunehmen. Mit nichts weiter als geänderter Körperhaltung, anderem Gesichtsausdruck und der gezielten Nutzung passender Kleidung siehst du nicht länger wie du selbst aus, ohne dafür ein Verkleidungsset nutzen zu müssen.</p>",
       "id": "Master of Disguise",
       "name": "Verwandlungskünstler",
@@ -663,6 +813,24 @@
       "tests": "Würfe gegen die entsprechende Gefahr"
     },
     {
+      "description": "<p>Deine gute Konstitution erlaubt es dir, einer bestimmten Gefahr leichter zu widerstehen. Du bestehst automatisch den ersten Wurf pro Spielabend zum Widerstand gegen die jeweilige Gefahr, sei es Magie, Gift, Krankheiten, Mutation etc. Sollte der EG wichtig sein, dann entspricht er für die Belange dieses Wurfes deinem Widerstands-Bonus.</p>",
+      "id": "Resistance (Any)",
+      "name": "Resistenz (Gefahr)",
+      "tests": "Würfe gegen die entsprechende Gefahr"
+    },
+    {
+      "description": "<p>Deine gute Konstitution erlaubt es dir, einer bestimmten Gefahr leichter zu widerstehen. Du bestehst automatisch den ersten Wurf pro Spielabend zum Widerstand gegen die jeweilige Gefahr, sei es Magie, Gift, Krankheiten, Mutation etc. Sollte der EG wichtig sein, dann entspricht er für die Belange dieses Wurfes deinem Widerstands-Bonus.</p>",
+      "id": "Resistance (Poison)",
+      "name": "Resistenz (Gift)",
+      "tests": "Würfe gegen die entsprechende Gefahr"
+    },
+    {
+      "description": "<p>Deine gute Konstitution erlaubt es dir, einer bestimmten Gefahr leichter zu widerstehen. Du bestehst automatisch den ersten Wurf pro Spielabend zum Widerstand gegen die jeweilige Gefahr, sei es Magie, Gift, Krankheiten, Mutation etc. Sollte der EG wichtig sein, dann entspricht er für die Belange dieses Wurfes deinem Widerstands-Bonus.</p>",
+      "id": "Resistance (Disease)",
+      "name": "Resistenz (Krankheit)",
+      "tests": "Würfe gegen die entsprechende Gefahr"
+    },
+    {
       "description": "<p>Du wirfst dich beim Angriff mit grimmiger Entschlossenheit auf den Feind. Addiere bei Sturmangriffen deine Stufe in Entschlossen zu deinem Stärke-Bonus.</p>",
       "id": "Resolute",
       "name": "Entschlossen",
@@ -708,6 +876,30 @@
       "description": "<p>Du bist äußerst gebildet und hast in einem speziellen Fachbereich ein geradezu außergewöhnliches Maß an Wissen. Wenn es um deinen spezifischen Fachbereich geht, dann erhältst du stets eine deiner Stufe in Fachwissen entsprechende Anzahl an korrekten Informationen, ohne auf Wissen würfeln zu müssen. Ein entsprechender Wissens-Wurf kann dir natürlich noch weitere Informationen verschaffen, je nach Festlegung des SL.</p>",
       "id": "Savant",
       "name": "Fachwissen (Wissen)",
+      "tests": "Wissen (zugehöriges Wissen)"
+    },
+    {
+      "description": "<p>Du bist äußerst gebildet und hast in einem speziellen Fachbereich ein geradezu außergewöhnliches Maß an Wissen. Wenn es um deinen spezifischen Fachbereich geht, dann erhältst du stets eine deiner Stufe in Fachwissen entsprechende Anzahl an korrekten Informationen, ohne auf Wissen würfeln zu müssen. Ein entsprechender Wissens-Wurf kann dir natürlich noch weitere Informationen verschaffen, je nach Festlegung des SL.</p>",
+      "id": "Savant (Any)",
+      "name": "Fachwissen (Wissen)",
+      "tests": "Wissen (zugehöriges Wissen)"
+    },
+    {
+      "description": "<p>Du bist äußerst gebildet und hast in einem speziellen Fachbereich ein geradezu außergewöhnliches Maß an Wissen. Wenn es um deinen spezifischen Fachbereich geht, dann erhältst du stets eine deiner Stufe in Fachwissen entsprechende Anzahl an korrekten Informationen, ohne auf Wissen würfeln zu müssen. Ein entsprechender Wissens-Wurf kann dir natürlich noch weitere Informationen verschaffen, je nach Festlegung des SL.</p>",
+      "id": "Savant (Theology)",
+      "name": "Fachwissen (Theologie)",
+      "tests": "Wissen (zugehöriges Wissen)"
+    },
+    {
+      "description": "<p>Du bist äußerst gebildet und hast in einem speziellen Fachbereich ein geradezu außergewöhnliches Maß an Wissen. Wenn es um deinen spezifischen Fachbereich geht, dann erhältst du stets eine deiner Stufe in Fachwissen entsprechende Anzahl an korrekten Informationen, ohne auf Wissen würfeln zu müssen. Ein entsprechender Wissens-Wurf kann dir natürlich noch weitere Informationen verschaffen, je nach Festlegung des SL.</p>",
+      "id": "Savant (Local)",
+      "name": "Fachwissen (Lokal)",
+      "tests": "Wissen (zugehöriges Wissen)"
+    },
+    {
+      "description": "<p>Du bist äußerst gebildet und hast in einem speziellen Fachbereich ein geradezu außergewöhnliches Maß an Wissen. Wenn es um deinen spezifischen Fachbereich geht, dann erhältst du stets eine deiner Stufe in Fachwissen entsprechende Anzahl an korrekten Informationen, ohne auf Wissen würfeln zu müssen. Ein entsprechender Wissens-Wurf kann dir natürlich noch weitere Informationen verschaffen, je nach Festlegung des SL.</p>",
+      "id": "Savant (Riverways)",
+      "name": "Fachwissen (Flusswege)",
       "tests": "Wissen (zugehöriges Wissen)"
     },
     {
@@ -840,6 +1032,18 @@
       "description": "<p>Du bist darin erfahren, schwieriges Gelände zu überwinden. Du ignorierst alle Bewegungs-Abzüge bei der Durchquerung des betreffenden Geländes. Typische Spezialisierungen sind unter anderem: Felsig, Küste, Sumpf, Tundra, Waldland, Wüste.</p>",
       "id": "Strider",
       "name": "Trittsicher (Gelände)",
+      "tests": "Athletik-Würfe zum Durchqueren des Geländes"
+    },
+    {
+      "description": "<p>Du bist darin erfahren, schwieriges Gelände zu überwinden. Du ignorierst alle Bewegungs-Abzüge bei der Durchquerung des betreffenden Geländes. Typische Spezialisierungen sind unter anderem: Felsig, Küste, Sumpf, Tundra, Waldland, Wüste.</p>",
+      "id": "Strider (any)",
+      "name": "Trittsicher (Gelände)",
+      "tests": "Athletik-Würfe zum Durchqueren des Geländes"
+    },
+    {
+      "description": "<p>Du bist darin erfahren, schwieriges Gelände zu überwinden. Du ignorierst alle Bewegungs-Abzüge bei der Durchquerung des betreffenden Geländes. Typische Spezialisierungen sind unter anderem: Felsig, Küste, Sumpf, Tundra, Waldland, Wüste.</p>",
+      "id": "Strider (Marshes)",
+      "name": "Trittsicher (Sümpfe)",
       "tests": "Athletik-Würfe zum Durchqueren des Geländes"
     },
     {

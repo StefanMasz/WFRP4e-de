@@ -49,7 +49,6 @@ Hooks.on('init', () => {
 				  for (const [key, valueObj] of Object.entries(compendium.translations)) {
 					  if (valueObj.id === skills_list[i]){
 						  skills_list[i] = valueObj.name;
-						  console.log(skills_list[i]);
 					  }
 				  }
 			  }
@@ -66,28 +65,12 @@ Hooks.on('init', () => {
 			var i;
 			if ( talents_list ) {
 			  var len = talents_list.length;
-			  var re  = /(.*)\((.*)\)/i;
 			  for (i = 0; i < len; i++) {
-			  	if (compendium.i18nName !== undefined) { //only translate talents if compendium is loaded correctly
-					var transl = compendium.i18nName({name: talents_list[i]});
-					if (transl === talents_list[i]) {
-						var res = re.exec(talents_list[i]);
-						if (res) {
-							var subword = game.i18n.localize(res[2].trim());
-							var s1 = res[1].trim(); // No () in talents table
-							var translw = compendium.i18nName({name: s1});
-							if (translw !== s1) {
-								transl = translw + "(" + subword + ")";
-							} else {
-								s1 = res[1].trim() + " ( )";
-								translw = compendium.i18nName({name: s1});
-								var res2 = re.exec(translw);
-								transl = res2[1] + "(" + subword + ")";
-							}
-						}
-					}
-				}
-				talents_list[i] = transl;
+				  for (const [key, valueObj] of Object.entries(compendium.translations)) {
+					  if (valueObj.id === talents_list[i]){
+						  talents_list[i] = valueObj.name;
+					  }
+				  }
 			  }
 			}
 			return talents_list;      

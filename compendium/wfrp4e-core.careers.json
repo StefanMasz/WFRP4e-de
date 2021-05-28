@@ -222,15 +222,6 @@
 			]			
 		},
 		{
-			"id": "Schwarzmarktbaron",
-			"name": "Professionnel du marché noir",
-			"trappings": [
-				"Angeheuerte Schläger",
-				"Netzwerk von Informanten",
-				"Lagerhaus"
-			]			
-		},
-		{
 			"id": "Boat-hand",
 			"name": "Deckratte",
 			"trappings": [
@@ -310,7 +301,17 @@
 				"Handwaffe",
 				"gestohlene Waren im Wert von 3W10 S"
 			]			
-		},		{
+		},
+		{
+			"id": "Black Marketeer",
+			"name": "Schwarzmarktbaron",
+			"trappings": [
+				"Angeheuerte Schläger",
+				"Netzwerk von Informanten",
+				"Lagerhaus"
+			]
+		},
+		{
 			"id": "Burgomeister",
 			"name": "Bürgermeister",
 			"description": "",
@@ -568,6 +569,15 @@
 				"Parierdolch oder Klingenbrecher",
 				"Pistole mit 10 Schuss"
 			]			
+		},
+		{
+			"id": "Duellist",
+			"name": "Duellist",
+			"description": "",
+			"trappings": [
+				"Parierdolch oder Klingenbrecher",
+				"Pistole mit 10 Schuss"
+			]
 		},
 		{
 			"id": "Duelmaster",
