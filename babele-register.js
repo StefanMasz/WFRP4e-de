@@ -1,5 +1,23 @@
 var compmod = "wfrp4e-core";
 
+const __check_fix_wrong_modules = ( ) => {
+	game.modules.forEach((module, name) => {
+		if ( name == "wfrp4e-core" && module.active) {
+			FilePicker.browse("data", "modules/WH4-de-translation/tables/").then(resp => {
+				for (var file of resp.files) {
+					let filename = file.substring(file.lastIndexOf("/")+1, file.indexOf(".json"));
+					fetch(file).then(r=>r.json()).then(records => {
+						game.wfrp4e.tables[filename] = records;
+					});
+				}
+			});
+		}
+	});
+}
+Hooks.once('ready', () => {
+	setTimeout( __check_fix_wrong_modules, 2000);
+});
+
 Hooks.on('init', () => {
 
 	game.wfrp4e.entities.ActorWfrp4e.prototype.calculateSpellDamage = function(formula, isMagicMissile) {
@@ -26,9 +44,9 @@ Hooks.on('init', () => {
 
 		// Check various settings in the installation
 	game.modules.forEach((module, name) => {
-	if ( name == "wfrp4e-content" && module.active) {
-	  compmod = "wfrp4e-content";
-	}
+		if ( name == "wfrp4e-content" && module.active) {
+			compmod = "wfrp4e-content";
+		}
 	});
 	
 	if(typeof Babele !== 'undefined') {
