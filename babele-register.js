@@ -1,7 +1,5 @@
 var compmod = "wfrp4e-core";
 
-import WFRP_Tables from "../../systems/wfrp4e/modules/system/tables-wfrp4e.js";
-
 const __check_fix_wrong_modules = ( ) => {
 	game.modules.forEach((module, name) => {
 		if ( name === "wfrp4e-core" && module.active) {
@@ -9,7 +7,7 @@ const __check_fix_wrong_modules = ( ) => {
 				for (var file of resp.files) {
 					let filename = file.substring(file.lastIndexOf("/") + 1, file.indexOf(".json"));
 					fetch(file).then(r => r.json()).then(records => {
-						WFRP_Tables[filename] = records;
+						game.wfrp4e.tables[filename] = records;
 					});
 				}
 			});
