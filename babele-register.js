@@ -137,14 +137,6 @@ Hooks.on('init', () => {
 				return chars;
 			},
 			"bestiary_traits": (beast_traits, translations) => {
-				var fulltraits  = game.packs.get(compmod+'.traits');
-				var fullskills  = game.packs.get(compmod+'.skills');
-				var fulltalents = game.packs.get(compmod+'.talents');
-				var fullcareers = game.packs.get(compmod+'.careers');
-				var fulltrappings = game.packs.get(compmod+'.trappings');
-				var fullspells    = game.packs.get(compmod+'.spells');
-				var fullprayers   = game.packs.get(compmod+'.prayers');
-
 				for (let trait_en of beast_traits)
 				{
 					var special = "";
@@ -164,12 +156,12 @@ Hooks.on('init', () => {
 							name_en = res[1]; // Get the root traits name
 							special = " (" + game.i18n.localize( res[2].trim() ) + ")"; // And the special keyword
 						}
-						var trait_de = fulltraits.translate( { name: name_en } );
+						var trait_de = game.babele.translate( compmod+'.traits', { name: name_en }, true );
 						trait_en.name = nbt + trait_de.name + special;
 						if ( trait_de.data && trait_de.data.description && trait_de.data.description.value ) {
 							trait_en.data.description.value = trait_de.data.description.value;
 						} else if ( eisitems ) { // No description in the FR compendium -> test other compendium if presenr
-							trait_de = eisitems.translate( { name: name_en } );
+							trait_de = game.babele.translate( 'eis.eisitems', { name: name_en }, true);
 							trait_en.name = nbt + trait_de.name + special;
 							if ( trait_de.data && trait_de.data.description && trait_de.data.description.value )
 								trait_en.data.description.value = trait_de.data.description.value;
@@ -184,7 +176,7 @@ Hooks.on('init', () => {
 							name_en = res[1].trim(); // Get the root skill name
 							special = " (" + game.i18n.localize( res[2].trim() ) + ")"; // And the special keyword
 						}
-						var trait_de = fullskills.translate( { name: name_en } );
+						var trait_de = game.babele.translate( compmod+'.skills', { name: name_en }, true );
 						if (trait_de.translated) {
 							trait_en.name = trait_de.name + special;
 							if ( trait_de.data ) {
@@ -192,12 +184,12 @@ Hooks.on('init', () => {
 							}
 						}
 					} else if ( trait_en.type == "prayer") {
-						var trait_de = fullprayers.translate( { name: name_en } );
+						var trait_de = game.babele.translate( compmod+'.prayers', { name: name_en }, true );
 						trait_en.name = trait_de.name + special;
 						if ( trait_de.data && trait_de.data.description && trait_de.data.description.value )
 							trait_en.data.description.value = trait_de.data.description.value;
 					} else if ( trait_en.type == "spell") {
-						var trait_de = fullspells.translate( { name: name_en } );
+						var trait_de = game.babele.translate( compmod+'.spells', { name: name_en }, true );
 						if ( (!trait_de.data || !trait_de.data.description || !trait_de.data.description.value) && eisspells) { // If no translation, test eisspells
 							trait_de = eisspells.translate( { name: name_en } );
 						}
@@ -214,7 +206,7 @@ Hooks.on('init', () => {
 							name_en = res[1].trim(); // Get the root talent name, no parenthesis this time...
 							special = " (" + game.i18n.localize( res[2].trim() ) + ")"; // And the special keyword
 						}
-						var trait_de = fulltalents.translate( { name: name_en } );
+						var trait_de = game.babele.translate( compmod+'.talents', { name: name_en }, true );
 						if ( (!trait_de.data || !trait_de.data.description || !trait_de.data.description.value) && ugtalents) { // If no translation, test ugtalents
 							trait_de =  ugtalents.translate( { name: name_en } );
 						}
@@ -225,10 +217,10 @@ Hooks.on('init', () => {
 							}
 						}
 					} else if ( trait_en.type == "career") {
-						var career_de = fullcareers.translate( trait_en );
+						var career_de = game.babele.translate( compmod+'.careers', trait_en, true );
 						trait_en = career_de;
 					} else if ( trait_en.type == "trapping" || trait_en.type == "weapon" || trait_en.type == "armour" || trait_en.type == "container" || trait_en.type == "money") {
-						var trapping_de = fulltrappings.translate( trait_en );
+						var trapping_de = game.babele.translate( compmod+'.trappings', { name: trait_en }, true);
 						trait_en.name = trapping_de.name;
 						if ( trapping_de.data) {
 							trait_en.data.description  = trapping_de.data.description;
