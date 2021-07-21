@@ -44,7 +44,7 @@ Hooks.on('init', () => {
 
 		// Check various settings in the installation
 	game.modules.forEach((module, name) => {
-		if ( name == "wfrp4e-content" && module.active) {
+		if ( name === "wfrp4e-content" && module.active) {
 			compmod = "wfrp4e-content";
 		}
 	});
@@ -62,66 +62,91 @@ Hooks.on('init', () => {
 			  var i;
 			  var len = skills_list.length;
 			  var re  = /(.*)\((.*)\)/i;
-			  var transl;
 			  for (i = 0; i < len; i++) {
-				  for (const [key, valueObj] of Object.entries(compendium.translations)) {
-					  if (valueObj.id === skills_list[i]){
-						  skills_list[i] = valueObj.name;
+				  skills_list[i] = skills_list[i].trim();
+				  var transl = game.babele.translate(compmod+'.skills', { name: skills_list[i] }, true ).name;
+				  //console.log("List ...", skills_list[i]);
+				  if ( transl === skills_list[i] ) {
+					  var res = re.exec( skills_list[i] );
+					  if (res) {
+						  //console.log("Matched/split:", res[1], res[2]);
+						  var subword = game.i18n.localize(res[2].trim() );
+						  var s1 = res[1].trim() + " ()";
+						  var translw = game.babele.translate(compmod+'.skills', { name: s1}, true ).name;
+						  var res2;
+						  if (translw !== s1) {
+							  res2 = re.exec(translw);
+							  transl = res2[1] + "(" + subword  + ")";
+						  } else {
+							  s1 = res[1].trim() + " ( )";
+							  translw = game.babele.translate(compmod+'.skills', { name: s1}, true ).name;
+							  res2 = re.exec(translw);
+							  transl = res2[1] + "(" + subword  + ")";
+						  }
 					  }
 				  }
+				  skills_list[i] = transl;
 			  }
 			}
-			return skills_list;  
+			return skills_list;
 			},
 			// To avoid duplicateing class for all careers
 			"generic_localization": (value) => { 
 			if ( value )
 			  return game.i18n.localize( value.trim() );
 			},
-			"career_talents": (talents_list) => { 
-			var compendium = game.packs.find(p => p.collection === compmod+'.talents');
-			var i;
-			if ( talents_list ) {
-			  var len = talents_list.length;
-			  for (i = 0; i < len; i++) {
-				  for (const [key, valueObj] of Object.entries(compendium.translations)) {
-					  if (valueObj.id === talents_list[i]){
-						  talents_list[i] = valueObj.name;
-					  }
-				  }
-			  }
-			}
-			return talents_list;      
+			"career_talents": (talents_list) => {
+				var compendium = game.packs.find(p => p.collection === compmod+'.talents');
+				var i;
+				if ( talents_list ) {
+					var len = talents_list.length;
+					var re  = /(.*)\((.*)\)/i;
+					for (i = 0; i < len; i++) {
+						var transl = game.babele.translate(compmod+'.talents', { name: talents_list[i]}, true ).name;
+						if ( transl === talents_list[i] ) {
+							var res = re.exec( talents_list[i]);
+							if (res) {
+								//console.log("Matched/split:", res[1], res[2]);
+								var subword = game.i18n.localize(res[2].trim() );
+								var s1 = res[1].trim(); // No () in talents table
+								var translw = game.babele.translate(compmod+'.talents', { name: s1 }, true ).name;
+								if (translw !== s1) {
+									transl = translw + "(" + subword  + ")";
+								} else {
+									s1 = res[1].trim() + " ( )";
+									translw = game.babele.translate(compmod+'.talents', { name: s1 }, true ).name;
+									var res2 = re.exec(translw);
+									transl = res2[1] + "(" + subword  + ")";
+								}
+							}
+						}
+						talents_list[i] = transl;
+					}
+				}
+				return talents_list;
 			},
 			// Search back in careers the translated name of the group (as it is the name of the level career itself)
 			"career_careergroup": (value) => {
 				var compendium = game.packs.find(p => p.collection === compmod + '.careers');
 
-				for (const [key, valueObj] of Object.entries(compendium.translations)) {
-					if (valueObj.id === value){
-						return valueObj.name;
-					}
-				}
-				return value;
+				if ( compendium )
+					return game.babele.translate(compmod+'.careers', { name: value } ).name;
+				else
+					ui.notifications.error("Karriere konnte nicht übersetzt werden: " + value + ". Übersetzung fehlt.", { permanent: true })
 			},
 			"trapping_qualities_flaws": (value) => {
 				if ( value ) {
-					var list = value.split( "," );
+					let newQF = [];
 					var i=0;
-					var re  = /(.*) (\d+)/i;
-					for (i=0; i<list.length; i++) {
-						let trim = list[i].trim();
-						if ( trim == "Trap Blade") {
-							trim = "TrapBlade"; // Auto-patch, without space!
+					//var re  = /(.*) (\d+)/i;
+					for (i=0; i<value.length; i++) {
+						newQF[i] = duplicate(value[i]);
+						if ( newQF[i].name === "Trap Blade") {
+							newQF[i].name = "TrapBlade"; // Auto-patch, without space!
 						}
-						var splitted = re.exec( trim );
-						if ( splitted ) {
-							list[i] = game.i18n.localize( splitted[1] ) + " " + splitted[2];
-						} else {
-							list[i] = game.i18n.localize( trim ) ;
-						}
+						newQF[i].name = game.i18n.localize( newQF[i].name ) ;
 					}
-					return list.toString();
+					return newQF;
 				}
 			},
 			"npc_characteristics": (chars) => { // Auto-convert char names in the sheet
