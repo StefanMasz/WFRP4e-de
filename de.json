@@ -844,7 +844,7 @@
     "MARKET.SelectSettlementSize" : "Wähle die Siedlungsgröße:",
     "MARKET.PayForItem" : "Kaufen",
     "MARKET.ReceiveCredit" : "Erhalte",
-    "MARKET.Exchange" : "Consolidate (Fewest coins)",
+    "MARKET.Exchange" : "Konsolidieren (Zu möglichst wenigen Münzen zusammenfassen)",
     "MARKET.Abbrev.GC" : "GK",
     "MARKET.Abbrev.SS" : "S",
     "MARKET.Abbrev.BP" : "G",
