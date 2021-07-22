@@ -829,12 +829,11 @@
     "WFRP4E.Properties.Unreliable" : "Unzuverlässige Gegenstände wurden ohne Rücksicht auf die Funktion hergestellt. Bei einem misslungenen Wurf mit diesem Gegenstand, erhältst du -1 EG. Wenn der Gegenstand ein Rüstungsteil ist, dann wird der Abzug verdoppelt, den man dafür erhält, ihn zu tragen.",
     "WFRP4E.Properties.Bulky" : "Unhandliche Gegenstände wurden sperrig gefertigt. Erhöhe die Traglastpunkte um +1 (kleine Gegenstände können nicht unhandlich sein). Unhandliche Kleidung und Rüstung hat Traglast 1, selbst dann, wenn sie getragen wird, und die Erschöpft-Zustände durch Rüstung werden verdoppelt.",
 
-
     "MARKET.Village" : "Dorf",
     "MARKET.Town" : "Kleinstadt",
     "MARKET.City" : "Stadt",
     "MARKET.AvailabilityTest" : "Verfügbarkeitswurf",
-    "MARKET.AvailWrongCommand": "Wrong parameters. Expected parameters: <br>Settlement size [Village,Town,City]<br>Rarity [Common,Scarce,Rare,Exotic]<br>(opt.) Roll modifier",
+    "MARKET.AvailWrongCommand": "Falsche Parameter. Erwartete Parameter: <br>Settlement size [Village,Town,City]<br>Rarity [Common,Scarce,Rare,Exotic]<br>(opt.) Roll modifier",
     "MARKET.AvailCommandExample": "Example: /avail Village Rare 10",
     "MARKET.SettlementSize" : "Siedlungsgröße:",
     "MARKET.Rarity" : "Seltenheit:",
@@ -855,7 +854,7 @@
     "MARKET.CreditCommandNotAllowed" : "Nur Spielleiter dürfen diesen Befehl ausführen.",
     "MARKET.PaidBy" : "Bezahlt von:",
     "MARKET.ReceivedBy" : "Erhalten von:",
-    "MARKET.MoneyTransactionWrongCommand" : "Wrong syntax. Please format your command like in the following examples:",
+    "MARKET.MoneyTransactionWrongCommand" : "Falsche Syntax. Bitte formatieren Sie Ihren Befehl wie in den folgenden Beispielen:",
     "MARKET.PayCommandExample" : "/pay 3gc2bp<br>/pay 450bp<br>/pay 2ss12bp4gc",
     "MARKET.CreditCommandExample" : "/credit 3gc2bp<br>/credit 450bp each<br>/credit 2ss12bp4gc split",
     "MARKET.CantFindMoneyItems" : "Fehler. Kein Geld (GK/S/G) im Inventar des Charakters.",
