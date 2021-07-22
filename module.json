@@ -3,9 +3,9 @@
    "name" : "WH4-de-translation",
    "title" : "Deutsche Übersetzung für Warhammer 4. Edition",
    "description" : "German language support for Moomans WFRP Modules",
-   "version" : "0.6.0",
-   "minimumCoreVersion" : "0.6.6",
-   "compatibleCoreVersion" : "1.0.0",
+   "version" : "0.7.0",
+   "minimumCoreVersion" : "0.8.8",
+   "compatibleCoreVersion" : "0.8.8",
    "author" : "Johann Groß & Magnus Seibert & Hugo Haselfussens",
    "dependencies": [
    {
