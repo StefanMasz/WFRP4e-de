@@ -75,12 +75,12 @@
 			"description": ""
 		},
 		{
-			"id": "Baton ",
+			"id": "Baton",
 			"name": "Kampfstab",
 			"description": ""
 		},
 		{
-			"id": "Bedroll ",
+			"id": "Bedroll",
 			"name": "Schlafsack",
 			"description": "<p>Ausdauer-Würfe gegen Kälte (siehe Seite 181) erhalten beim Lagern einen Bonus von +20.</p>"
 		},
@@ -192,7 +192,7 @@
 			"description": ""
 		},
 		{
-			"id": "Bugman’s XXXXXX Ale, pint ",
+			"id": "Bugman’s XXXXXX Ale, pint",
 			"name": "Bugmans XXXXXX Bier (Humpen)",
 			"description": "<p>Ein Humpen Bugmans zählt bezüglich der Wirkung des Alkohols als 4 Humpen normalen Bieres (siehe Zechen auf Seite 131) und macht für 1W10 Stunden immun gegen Angst-Würfe.</p>"
 		},
@@ -213,7 +213,7 @@
 		},
 		{
 			"id": "Cart",
-			"name": "Wagen",
+			"name": "Karren",
 			"description": "<p>Benötigt einen Fahrer und ein Zugtier.</p>"
 		},
 		{
@@ -294,6 +294,11 @@
 			"id": "Crossbow Pistol",
 			"name": "Handarmbrust"
 		},
+		{
+			"id": "Costume",
+			"name": "Kostüm",
+			"description": ""
+		},		
 		{
 			"id": "Cup",
 			"name": "Becher",
@@ -407,7 +412,7 @@
 		},
 		{
 			"id": "Fish Hooks",
-			"name": "Angelharken",
+			"name": "Angelhaken",
 			"description": ""
 		},
 		{
@@ -449,7 +454,7 @@
 		{
 			"id": "Gilded Nose",
 			"name": "Güldene Nase",
-			"description": "<p>: Obwohl falsche Nasen meist aus Holz oder Keramik bestehen, wird dennoch häufig der Begriff Güldene Nase verwendet. Du kannst damit den Charisma-Abzug dafür ignorieren, keine Nase mehr zu haben.</p>"
+			"description": "<p>Obwohl falsche Nasen meist aus Holz oder Keramik bestehen, wird dennoch häufig der Begriff Güldene Nase verwendet. Du kannst damit den Charisma-Abzug dafür ignorieren, keine Nase mehr zu haben.</p>"
 		},
 		{
 			"id": "Gloves",
@@ -746,8 +751,8 @@
 			"description": ""
 		},
 		{
-			"id": "Nails ",
-			"name": "Nägel ",
+			"id": "Nails",
+			"name": "Nägel",
 			"description": ""
 		},
 		{
