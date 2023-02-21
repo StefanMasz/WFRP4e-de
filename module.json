@@ -12,7 +12,8 @@
       "name": "Magnus Seibert"
     },
     {
-      "name": "ivan-hr"
+      "name": "ivan-hr",
+      "discord": "ivan-hr#1622"
     }
   ],
    "dependencies": [
@@ -31,7 +32,16 @@
          "name" : "Deutsch",
          "path" : "de.json"
    }],
-   "packs" : [],
+   "packs" : [
+      {
+        "name": "wfrp4-de",
+        "label": "WFRP4 DE",
+        "path": "packs/wfrp4-de-macros.db",
+        "type": "Macro",
+        "module": "WH4-de-translation",
+        "system": "wfrp4e"
+      }
+   ],
    "scripts" : [],
    "styles" : [],
    "url" : "https://github.com/StefanMasz/WFRP4e-de",
