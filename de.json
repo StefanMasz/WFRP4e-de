@@ -1238,9 +1238,9 @@
     "CHATOPT.OpposeTarget": "Vergleiche mit Ziel",
 
 	"TRAVEL.TravelMessageBase": "Von <b>{from}</b> zu <b>{to}</b> : ",
-    "TRAVEL.TravelMessageRoad": "<br><b>Straße</b> : {road_distance} miles<br>&nbsp;&nbsp;With Coach : {road_days} Tage, Gefahr: {road_danger_string}<br>&nbsp;&nbsp;With Heavy Horse : {road_horse_heavy_days} days, danger is {road_danger_string}<br>&nbsp;&nbsp;With Fast Horse : {road_horse_fast_days} days, danger is {road_danger_string}<br>&nbsp;&nbsp;By Feet : {road_feet_days} days, danger is {road_danger_feet_string}",
-    "TRAVEL.TravelMessageRiver": "<br><b>Fluß</b> : {river_distance} miles<br>&nbsp;&nbsp;By Boat : {river_days} Tage, Gefahr: {river_danger_string}",
-    "TRAVEL.TravelMessageSea": "<br><b>Meer</b> : {sea_distance} miles<br>&nbsp;&nbsp;By Boat : {sea_days} Tage, Gefahr: {sea_danger_string}",
+    "TRAVEL.TravelMessageRoad": "<br><b>Straße</b> : {road_distance} Meilen<br>&nbsp;&nbsp;Kutsche: {road_days} Tage, Gefahr: {road_danger_string}<br>&nbsp;&nbsp;Schweres Pferd : {road_horse_heavy_days} Tage, Gefahr: {road_danger_string}<br>&nbsp;&nbsp;Schnelles Pferd: {road_horse_fast_days} Tage, Gefahr {road_danger_string}<br>&nbsp;&nbsp;Zu Fuß: {road_feet_days} Tage, Gefahr: {road_danger_feet_string}",
+    "TRAVEL.TravelMessageRiver": "<br><b>Fluß</b> : {river_distance} Meilen<br>&nbsp;&nbsp;Schiffsreise: {river_days} Tage, Gefahr: {river_danger_string}",
+    "TRAVEL.TravelMessageSea": "<br><b>Meer</b> : {sea_distance} Meilen<br>&nbsp;&nbsp;Schiffsreise: {sea_days} Tage, Gefahr: {sea_danger_string}",
     "TRAVEL.TownPrompt": "Wähle den Zielort",
     "TRAVEL.TownOriginPrompt": "Wähle den Abreiseort",
     "TRAVEL.DangerVeryLow": "Sehr gering",
