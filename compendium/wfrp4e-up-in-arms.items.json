@@ -122,8 +122,8 @@
 			"description": ""
 		},
 		{
-			"id": "Bomb",
-			"name": "Bombe",
+			"id": "Bomb (SW)",
+			"name": "Bombe (BW)",
 			"description": "<blockquote class=\"foundry-note\"><p>Dieser Gegenstand ist als Munition für @UUID[JournalEntry.l0NZFxzG4t0GoIFu.JournalEntryPage.Y4IiuJnk1S466SLx#siege-weapons]{Belagerungswaffen} bestimmt. Für die geworfene Bombe, verwende @UUID[Compendium.wfrp4e-core.trappings.X8WFQf0HB9yXKjdD]{Bombe}, für Munition die mit Schwarzpulver und technischen Waffen verwendet wird, verwende @UUID[Compendium.wfrp4e-up-in-arms.items.A9QGISjhQq3w9uhK]{Bombe}</p></blockquote>"
 		},
 		{
@@ -547,18 +547,18 @@
 			"description": "<p>Dieser Gegenstand umfasst kurze, scharfe Klingen, die für andere Zwecke als den Kampf bestimmt sind, wie Küchen- oder Jagdmesser.</p>"
 		},
 		{
-			"id": "Knight",
-			"name": "Ritter",
+			"id": "Knight of the Blazing Sun",
+			"name": "Ritter des Sonnenordens",
 			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.Ub8PlkaAIWPxX2AH.JournalEntryPage.azFTHnCxn5nb4c7m]{Ritter des Sonnenordens}</p>"
 		},
 		{
-			"id": "Knight",
-			"name": "Ritter",
+			"id": "Knight of the White Wolf",
+			"name": "Ritter des Weißen Wolfes",
 			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.Ub8PlkaAIWPxX2AH.JournalEntryPage.pVLlBMBG95DVUGGj]{Ritter des Weißen Wolfes}</p>"
 		},
 		{
-			"id": "Knight",
-			"name": "Ritter",
+			"id": "Knight Panther",
+			"name": "Ritter des Pantherordens",
 			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.Ub8PlkaAIWPxX2AH.JournalEntryPage.FmalmVn3AhtabhMN]{Ritter des Pantherordens}</p>"
 		},
 		{
@@ -587,8 +587,8 @@
 			"description": "<p>Lanzen ähneln Speeren, haben aber einen schweren Griff, um die Waffe gegen den Arm und die Brust eines angreifenden Ritters zu stützen. Die Demi-Lanze ist ähnlich, aber kürzer und leichter.</p><p>* Lanzen und Demi-Lanzen zählen als @UUID[Compendium.wfrp4e-up-in-arms.items.okPRj8ixa55d9ETF]{improvisierte Waffen}, wenn sie in einer Runde eingesetzt werden, in der man nicht angegriffen hat.</p>"
 		},
 		{
-			"id": "Lance",
-			"name": "Lanze",
+			"id": "Lancier",
+			"name": "Lancier",
 			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.1BTD0otB4pln0o8j.JournalEntryPage.1i3Y6jOqCTmlbVeo]{Leichte Kavallerie}</p>"
 		},
 		{
