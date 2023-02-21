@@ -572,7 +572,6 @@
     "CHARGEN.SpeciesInstructions" : "Wähle 6 Fähigkeiten deiner Rasse und ziehe sie in deinen Charakterbogen, falls sie noch nicht vorhanden sind. Erhöhe drei der Fähigkeiten um jeweils 5 Steigerungen und die anderen drei Fähigkeiten um jeweils 3 Steigerungen. Diese Steigerungen kosten bei der Charaktererstellungen keine Erfahrungspunkte also klicke nicht auf das Symbol für Steigerungen.",
     "CHARGEN.RerollInstructions" : "Würfle erneut bei einem bereits vorhandenem Talent.",
     "CHARGEN.Or" : "ODER",
-
     "DIALOG.CastOrChannel" : "Zaubern oder Kanalisieren",
     "DIALOG.CastChannel" : "Diesen Zauber Kanalisieren oder zaubern?",
     "DIALOG.ChannelSkill" : "Kanalisieren-Fähigkeit",
@@ -828,6 +827,9 @@
     "WFRP4E.Properties.Shoddy" : "Schäbige Gegenstände wurden von einem Amateur oder Betrüger hergestellt. Sie gehen kaputt, wenn du während ihrer Verwendung bei irgendeinem Wurf einen Pasch würfelst. Schäbige Teile einer Rüstung zerbrechen hingegen bei jedem Kritischen Treffer gegen die Trefferzone, die sie schützen.",
     "WFRP4E.Properties.Unreliable" : "Unzuverlässige Gegenstände wurden ohne Rücksicht auf die Funktion hergestellt. Bei einem misslungenen Wurf mit diesem Gegenstand, erhältst du -1 EG. Wenn der Gegenstand ein Rüstungsteil ist, dann wird der Abzug verdoppelt, den man dafür erhält, ihn zu tragen.",
     "WFRP4E.Properties.Bulky" : "Unhandliche Gegenstände wurden sperrig gefertigt. Erhöhe die Traglastpunkte um +1 (kleine Gegenstände können nicht unhandlich sein). Unhandliche Kleidung und Rüstung hat Traglast 1, selbst dann, wenn sie getragen wird, und die Erschöpft-Zustände durch Rüstung werden verdoppelt.",
+    "WFRP4E.Properties.Unbalanced": "Bei einigen Waffen konzentriert sich das Gewicht am oberen Ende der Waffe, was sie für das Parieren ineffizient macht. Wenn diese Waffe zur Abwehr eines Angriffs benutzt wird, erleidet sie erleidet sie einen SL-Malus von -1 auf den Angriff.",
+    "WFRP4E.Properties.Slash": "Hiebwaffen konzentrieren ihre Schnittkraft so, dass sie klaffende Wunden aufreißen. Wenn du mit der Waffe einen kritischen Schaden verursacht, erleidet das Ziel zusätzlich zu allen anderen Effekten des kritischen Treffers einen <em>Blutend Zustand</em>. Du kannst X Vorteile ausgeben, damit dein Gegner 1 zusätzlichen <em>Zustand Blutend</em> erleidet.",
+    "WFRP4E.Properties.Trip": "Stolperwaffen sind darauf ausgelegt, das Bein eines Gegners zu verhaken oder ihn auf andere Weise von den Füßen zu holen. Nachdem du deinen Gegner getroffen hast, darfst du 2 Vorteile ausgeben und eine entgegengesetzte Stärke-/Athletikprobe machen. Wenn du gewinnst, erlangt dein Gegner den <em>Zustand Liegend</em> (wenn er beritten ist, erleidet er einen 2-Meter-Sturz und erlangt dann den <em>Zustand Liegend</em>). Wenn du verlierst, passiert nichts außer den Standardeffekten für das Verlieren einer gegnerischen Probe im Kampf.",
 
     "MARKET.Village" : "Dorf",
     "MARKET.Town" : "Kleinstadt",
@@ -1105,6 +1107,9 @@
     "PROPERTY.Impenetrable" : "Undurchdringlich",
     "PROPERTY.Partial" : "Partiell",
     "PROPERTY.Weakpoints" : "Schwachpunkte",
+    "PROPERTY.Unbalanced": "Unbalanciert",
+    "PROPERTY.Slash": "Schlitzend",
+    "PROPERTY.Trip": "Stolperwaffe",
 
     "WFRP4E.BPandEng" : "Schießpulver- und Technicus-Waffen",
     "WFRP4E.Bow" : "Bogen",
