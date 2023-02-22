@@ -662,13 +662,13 @@
 			"description": ""
 		},
 		{
-			"id": "Novice",
-			"name": "Novize",
+			"id": "Novice of the Blazing Sun",
+			"name": "Novize des Sonnenordens",
 			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.Ub8PlkaAIWPxX2AH.JournalEntryPage.azFTHnCxn5nb4c7m]{Ritter des Sonnenordens}</p>"
 		},
 		{
-			"id": "Novice",
-			"name": "Novize",
+			"id": "Novice of the White Wolf",
+			"name": "Novize des Weißen Wolfes",
 			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.Ub8PlkaAIWPxX2AH.JournalEntryPage.pVLlBMBG95DVUGGj]{Ritter des Weißen Wolfes}</p>"
 		},
 		{
@@ -863,8 +863,8 @@
 		},
 		{
 			"id": "Shattered Skull",
-			"name": "Shattered Skull",
-			"description": ""
+			"name": "Zerschmetterter Schädel",
+			"description": "Dein Kopf wird eingeschlagen, du brichst zusammen und bist auf der Stelle tot."
 		},
 		{
 			"id": "Shieldmaiden's Devotion",
@@ -932,8 +932,8 @@
 			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.Ub8PlkaAIWPxX2AH.JournalEntryPage.TpwhRuvLbZT8gpQr]{Freier Ritter}</p>"
 		},
 		{
-			"id": "Squire",
-			"name": "Knappe",
+			"id": "Squire of the Knight Panther",
+			"name": "Knappe des Pantherordens",
 			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.Ub8PlkaAIWPxX2AH.JournalEntryPage.FmalmVn3AhtabhMN]{Ritter des Pantherordens}</p>"
 		},
 		{
@@ -948,8 +948,8 @@
 		},
 		{
 			"id": "Stubbed Toe",
-			"name": "Stubbed Toe",
-			"description": "<p>In the scuffle, you stub your toe. Pass a <strong>Average (+20) Endurance </strong>Test or suffer -10 on Agility Tests until the end of the next turn.</p>"
+			"name": "Verstauchter Zeh",
+			"description": "<p>Im Getümmel wird dir der Zeh angeschlagen. Du musst einen durchschnittlichen (+20) Ausdauer-Wurf bestehen, oder du erhältst bis zum Ende der nächsten Runde -10 auf Gewandtheits-Würfe.</p>"
 		},
 		{
 			"id": "Surveyor",
@@ -1023,8 +1023,8 @@
 		},
 		{
 			"id": "Winded",
-			"name": "Winded",
-			"description": "<p>Gain a @Condition[Stunned] Condition. Make an <strong>Average (+20) Endurance</strong> Test, or gain the @Condition[Prone] Condition. Movement is halved for [[/r 1d10]] Rounds as you get your breath back.</p>"
+			"name": "Solarplexus geprellt",
+			"description": "<p>Du erhältst 1 @Condition[Betäubt]-Zustand und musst einen <strong>durchschnittlichen (+20) Ausdauer-Wurf</strong> bestehen, oder du erhältst zusätzlich den @Condition[Niedergestreckt]-Zustand. Deine Bewegung ist für [[/r 1d10]] Runden halbiert, da du erst wieder zu Atem kommen musst.</p>"
 		},
 		{
 			"id": "Zweihander",
