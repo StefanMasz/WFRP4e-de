@@ -818,8 +818,8 @@
 		},
 		{
 			"id": "Roughrider",
-			"name": "Roughrider",
-			"description": "<p>Du bist selbst in den schwierigsten Situationen im Sattel zu Hause und weißt, wie du in einem Konflikt das Beste aus deinem Reittier herausholen kannst. Vorausgesetzt, du verfügst über die Fertigkeit Reiten, kannst du dein Reittier ohne eine Reitprobe zu einer Aktion und nicht nur zu einer Bewegung anweisen.</p><p>Außerdem behandelst du deine Größe als die deines Reittieres, wenn es darum geht, Furcht und Schrecken zu widerstehen, die allein durch die Größe deines Gegners verursacht werden.</p><p><em><strong>Beispiel</strong>: Ein anderer Mensch auf einem Pferd würde keine Angst verursachen, ein Dämon oder eine untote Kreatur hingegen schon.</em></p>"
+			"name": "Raureiter",
+			"description": "<p>Du sitzt selbst unter widrigsten Umständen stets fest im Sattel und weißt, wie du im Kampf das Beste aus deinem Reittier herausholst. Sofern du die entsprechende Fähigkeit Reiten besitzt, kannst du dein Reittier ohne einen Reiten-Wurf dazu bringen, eine Handlung auszuführen, nicht bloß eine Bewegungsaktion.</p><p>Außerdem behandelst du deine Größe als die deines Reittieres, wenn es darum geht, Furcht und Schrecken zu widerstehen, die allein durch die Größe deines Gegners verursacht werden.</p><p><em><strong>Beispiel</strong>: Ein anderer Mensch auf einem Pferd würde keine Angst verursachen, ein Dämon oder eine untote Kreatur hingegen schon.</em></p>"
 		},
 		{
 			"id": "Sabre",
