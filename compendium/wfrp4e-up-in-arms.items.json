@@ -122,7 +122,7 @@
 			"description": ""
 		},
 		{
-			"id": "Bomb (SW)",
+			"id": "2hdBYV1uH62i4csv",
 			"name": "Bombe (BW)",
 			"description": "<blockquote class=\"foundry-note\"><p>Dieser Gegenstand ist als Munition für @UUID[JournalEntry.l0NZFxzG4t0GoIFu.JournalEntryPage.Y4IiuJnk1S466SLx#siege-weapons]{Belagerungswaffen} bestimmt. Für die geworfene Bombe, verwende @UUID[Compendium.wfrp4e-core.trappings.X8WFQf0HB9yXKjdD]{Bombe}, für Munition die mit Schwarzpulver und technischen Waffen verwendet wird, verwende @UUID[Compendium.wfrp4e-up-in-arms.items.A9QGISjhQq3w9uhK]{Bombe}</p></blockquote>"
 		},
@@ -517,12 +517,12 @@
 			"description": "<p>Da du weißt, dass die Situation aussichtslos ist, betest du, dass deine Truppen nicht von einer katastrophalen Niederlage heimgesucht werden. Während das Wunder im Spiel ist, können alle Verbündeten aus dem Kampf fliehen, ohne dass der Feind einen Vorteil erlangt oder kostenlose Angriffe durchführen kann (siehe @UUID[Compendium.wfrp4e-core.journal-entries.NS3YGlJQxwTggjRX.JournalEntryPage.bdfiyhEYtKs7irqc#Fleeing]{Fliehen}).</p>"
 		},
 		{
-			"id": "Incendiary (HW)",
-			"name": "Brandmunition (HW)",
+			"id": "MQV1cMMZQZnyzZx2",
+			"name": "Brandmunition",
 			"description": "<blockquote class=\"foundry-note\"><p>Dieser Gegenstand ist als Munition bestimmt für @UUID[JournalEntry.l0NZFxzG4t0GoIFu.JournalEntryPage.Y4IiuJnk1S466SLx#siege-weapons]{Belagerungswaffen}. Für die Wurfwaffe verwende die @UUID[Compendium.wfrp4e-core.trappings.vI0oorwbZdlszudf]{Brandflasche}, für Schwarzpulver und Technicuswaffen, verwende die @UUID[Compendium.wfrp4e-core.trappings.vI0oorwbZdlszudf]{Brandflasche}</p><p>Für den @UUID[Compendium.wfrp4e-up-in-arms.items.d2LzU8hNCH97njsK]{Mörser}, ändere den Munitionstypen zu <strong>Scharzpulver und Technicus</strong></p></blockquote>"
 		},
 		{
-			"id": "Incendiary",
+			"id": "gCRiirLG9h9yxKzp",
 			"name": "Brandmunition",
 			"description": "<blockquote class=\"foundry-note\"><p>Dieser Gegenstand ist als Munition bestimmt für @UUID[JournalEntry.2EGaOiGaaunZ2RuS.JournalEntryPage.SGWjMaw6OrZ06Nbp]{Schwarzpulver und Technicuswaffen}. Als Wurfwaffe verwende die @UUID[Compendium.wfrp4e-core.trappings.vI0oorwbZdlszudf]{Brandflasche}, für Belagerungswaffen die @UUID[Compendium.wfrp4e-up-in-arms.items.MQV1cMMZQZnyzZx2]{Brandflasche}</p><p>Wird die Brandmunition mit einem @UUID[Compendium.wfrp4e-up-in-arms.items.d2LzU8hNCH97njsK]{Mörser} verwendet, ändere den Munitionstyp zu <strong>Schwarzpulver und Technicus</strong> um</p></blockquote><p>Es wurde schon oft versucht, mit Schwarzpulver, Pech oder Teer beladene Geschosse weiter zu schleudern, als es von Hand möglich ist. Solche Geräte können in einen @UUID[Compendium.wfrp4e-up-in-arms.items.hRXoLcdkE97BBJlL]{Handmörser} geladen und ziemlich weit geworfen werden.</p><p>Diese Art von Munition kann nicht sehr weit im Voraus geladen werden, da die Lunte angezündet werden muss, bevor die Munition in den @UUID[Compendium.wfrp4e-up-in-arms.items.hRXoLcdkE97BBJlL]{Handmörser} geladen werden kann. Beim Laden musst du entscheiden, wie viele Runden Zünder du für die Munition verwendet hast.</p><p>Eine Runde Zünder bedeutet, dass sie am Ende des aktuellen Zuges explodiert, zwei Runden bedeuten, dass sie am Ende deines nächsten Zuges explodiert, und so weiter. Die Munition explodiert zu diesem Zeitpunkt, unabhängig davon, ob du die Waffe abgefeuert hast oder nicht. Ihr solltet dies im Auge behalten, da der Spielleiter euch nicht daran erinnern muss, bis der Zeitpunkt gekommen ist.</p>"
 		},
@@ -547,17 +547,17 @@
 			"description": "<p>Dieser Gegenstand umfasst kurze, scharfe Klingen, die für andere Zwecke als den Kampf bestimmt sind, wie Küchen- oder Jagdmesser.</p>"
 		},
 		{
-			"id": "Knight of the Blazing Sun",
+			"id": "6snqiJEmmAXtE6lW",
 			"name": "Ritter des Sonnenordens",
 			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.Ub8PlkaAIWPxX2AH.JournalEntryPage.azFTHnCxn5nb4c7m]{Ritter des Sonnenordens}</p>"
 		},
 		{
-			"id": "Knight of the White Wolf",
+			"id": "BJDcsaKX4rNkOetn",
 			"name": "Ritter des Weißen Wolfes",
 			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.Ub8PlkaAIWPxX2AH.JournalEntryPage.pVLlBMBG95DVUGGj]{Ritter des Weißen Wolfes}</p>"
 		},
 		{
-			"id": "Knight Panther",
+			"id": "ab5Ol9OFI1bgHmbV",
 			"name": "Ritter des Pantherordens",
 			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.Ub8PlkaAIWPxX2AH.JournalEntryPage.FmalmVn3AhtabhMN]{Ritter des Pantherordens}</p>"
 		},
@@ -587,7 +587,7 @@
 			"description": "<p>Lanzen ähneln Speeren, haben aber einen schweren Griff, um die Waffe gegen den Arm und die Brust eines angreifenden Ritters zu stützen. Die Demi-Lanze ist ähnlich, aber kürzer und leichter.</p><p>* Lanzen und Demi-Lanzen zählen als @UUID[Compendium.wfrp4e-up-in-arms.items.okPRj8ixa55d9ETF]{improvisierte Waffen}, wenn sie in einer Runde eingesetzt werden, in der man nicht angegriffen hat.</p>"
 		},
 		{
-			"id": "Lancier",
+			"id": "kIxfFhzCZIBsn2Y7",
 			"name": "Lancier",
 			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.1BTD0otB4pln0o8j.JournalEntryPage.1i3Y6jOqCTmlbVeo]{Leichte Kavallerie}</p>"
 		},
@@ -662,12 +662,12 @@
 			"description": ""
 		},
 		{
-			"id": "Novice of the Blazing Sun",
+			"id": "8BFuW6timifRDI3u",
 			"name": "Novize des Sonnenordens",
 			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.Ub8PlkaAIWPxX2AH.JournalEntryPage.azFTHnCxn5nb4c7m]{Ritter des Sonnenordens}</p>"
 		},
 		{
-			"id": "Novice of the White Wolf",
+			"id": "TFBXbxzcvuPcPCY7",
 			"name": "Novize des Weißen Wolfes",
 			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.Ub8PlkaAIWPxX2AH.JournalEntryPage.pVLlBMBG95DVUGGj]{Ritter des Weißen Wolfes}</p>"
 		},
@@ -932,7 +932,7 @@
 			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.Ub8PlkaAIWPxX2AH.JournalEntryPage.TpwhRuvLbZT8gpQr]{Freier Ritter}</p>"
 		},
 		{
-			"id": "Squire of the Knight Panther",
+			"id": "jg9aBz9Jme3W5Mfi",
 			"name": "Knappe des Pantherordens",
 			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.Ub8PlkaAIWPxX2AH.JournalEntryPage.FmalmVn3AhtabhMN]{Ritter des Pantherordens}</p>"
 		},
@@ -1002,7 +1002,7 @@
 			"description": "<p>Kriegshämmer gibt es in verschiedenen Ausführungen, aber in der Regel haben sie einen flachen, schweren Kopf auf der einen Seite, um schlagenden Schaden zu verursachen, und eine spitze Spitze auf der anderen, um Rüstungen zu durchdringen.</p>"
 		},
 		{
-			"id": "Warhammer (2H)",
+			"id": "9chPZw59vJ4dKjaC",
 			"name": "Kriegshammer (2H)",
 			"description": "<p>Der Zweihand-Kriegshammer ist eine schwer zu beherrschende Waffe, aber er wird mit den Zwergen und dem Sigmariterkult in Verbindung gebracht.</p>"
 		},
