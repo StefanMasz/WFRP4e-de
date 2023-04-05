@@ -3,10 +3,20 @@
    "name" : "WH4-de-translation",
    "title" : "Deutsche Übersetzung für Warhammer 4. Edition",
    "description" : "German language support for Moomans WFRP Modules",
-   "version" : "0.8.0",
-   "minimumCoreVersion" : "0.8.8",
-   "compatibleCoreVersion" : "0.8.8",
-   "author" : "Johann Groß & Magnus Seibert & Hugo Haselfussens",
+   "version" : "0.9.0",
+   "authors": [
+    {
+      "name": "Johann Groß"
+    },
+    {
+      "name": "Magnus Seibert"
+    },
+    {
+      "name": "ivan-hr",
+      "url": "https://github.com/ivan-hr",
+      "discord": "ivan-hr#1622"
+    }
+  ],
    "dependencies": [
    {
 		"name": "wfrp4e",
@@ -28,6 +38,10 @@
    "styles" : [],
    "url" : "https://github.com/StefanMasz/WFRP4e-de",
    "manifest" : "https://raw.githubusercontent.com/StefanMasz/WFRP4e-de/master/module.json",
-   "download" : "https://github.com/StefanMasz/WFRP4e-de/archive/master.zip"
+   "download" : "https://github.com/StefanMasz/WFRP4e-de/archive/master.zip",
+   "compatibility": {
+      "minimum": "8",
+      "verified": "10"
+  }
 }
 

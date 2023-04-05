@@ -185,12 +185,12 @@ Hooks.on('init', () => {
 						trait_en.name = nbt + trait_de.name + special;
 						if ( trait_de.data && trait_de.data.description && trait_de.data.description.value ) {
 							trait_en.data.description.value = trait_de.data.description.value;
-						} else if ( eisitems ) { // No description in the FR compendium -> test other compendium if presenr
-							trait_de = game.babele.translate( 'eis.eisitems', { name: name_en }, true);
+						} else if (game.modules.get('wfrp4e-eis')) { // No description in the FR compendium -> test other compendium if present
+							trait_de = game.babele.translate('wfrp4e-eis.eisitems', { name: name_en }, true);
 							trait_en.name = nbt + trait_de.name + special;
-							if ( trait_de.data && trait_de.data.description && trait_de.data.description.value )
-								trait_en.data.description.value = trait_de.data.description.value;
-						}
+							if (trait_de.system && trait_de.system.description && trait_de.system.description.value)
+							  trait_en.system.description.value = trait_de.system.description.value;
+						  }
 						if ( isNaN(trait_en.data.specification.value) ) { // This is a string, so translate it
 							trait_en.data.specification.value = game.i18n.localize( trait_en.data.specification.value.trim() );
 						}

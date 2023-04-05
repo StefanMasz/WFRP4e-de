@@ -1,0 +1,1035 @@
+{
+	"label": "Items (Up In Arms)",
+	"entries": [
+		{
+			"id": "Ahlspiess",
+			"name": "Ahlspiess",
+			"description": "<p>Der Ahlspiess ist mit einem langen, dünnen Dorn am Speerschaft ausgestattet, der seine Fähigkeit, Schnittwunden zuzufügen, beeinträchtigt, um besser durch Rüstungen zu dringen.</p>"
+		},
+		{
+			"id": "Animal Carcass",
+			"name": "Tierkadaver",
+			"description": "<p>Tierkadaver fügen allen Personen 4 Schaden mit einem Radius von 3 zu. Alle Ziele innerhalb von 20 Metern vom getroffenen Punkt müssen eine <strong>Sehr einfache (+60) Besonnenheitsprobe</strong> bestehen oder eine Schwärende Wunde erleiden.</p>"
+		},
+		{
+			"id": "Apprentice Artillerist",
+			"name": "Artilleristenlehrling",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.KID8Xu7W7Jvygl9K]{Artillerist}</p>"
+		},
+		{
+			"id": "Aqshy-Infused Powder",
+			"name": "Aqshy-Infusion-Pulver",
+			"description": "<p>Für die ganz Mutigen oder Törichten wird dieses Pulver aus Sand aus der nehekeranischen Wüste hergestellt, dem mit Hilfe von Mitteln, die nur dem @UUID[Compendium.wfrp4e-altdorf.altdorf-journals.9Jv4y9kD1tAiZWnm]{Feuerordens} in Altdorf bekannt sind, zusätzliches Aqshy zugesetzt wird. Es ist explosiver als normales Pulver, verschleißt aber Fässer viel schneller als sein normales Gegenstück. Jede fehlgeschlagene Probe, die entweder eine 8 oder eine 9 auf dem 10er- oder dem Einheitswürfel enthält, zählt als Patzer, wenn dieses Pulver verwendet wird.</p>"
+		},
+		{
+			"id": "Archer",
+			"name": "Bogenschütze",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.tczPk698eLFpVOsm]{Bogenschütze}</p>"
+		},
+		{
+			"id": "Archer Captain",
+			"name": "Bogenschütze-Hauptmann",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.tczPk698eLFpVOsm]{Bogenschütze}</p>"
+		},
+		{
+			"id": "Archer Sergeant",
+			"name": "Feldwebel Bogenschütze",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.tczPk698eLFpVOsm]{Bogenschütze}</p>"
+		},
+		{
+			"id": "Arquebus",
+			"name": "Hakenbüchse",
+			"description": "<p>Die Hakenbüchse ist kaum mehr als eine verkleinerte Kanone und ein uraltes Design, das oft auf Innovationen wie Visiere, einen Abzug oder sogar einen Griff verzichtet. Während frühe Exemplare Schrot abfeuerten, der dem von modernen Schwarzpulverwaffen ähnelt oder sogar kleiner ist, handelt es sich bei den heute noch im Reich verwendeten Waffen in der Regel um solche mit größerem Kaliber, die von Adligen aufbewahrt werden, um Besucher zu beeindrucken. Die schiere Größe dieser Relikte macht sie jedoch nützlich, wenn das Kaliber neuerer Modelle etwas zu wünschen übrig lässt.</p>"
+		},
+		{
+			"id": "Artillerist",
+			"name": "Artillerist",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.KID8Xu7W7Jvygl9K]{Artillerist}</p>"
+		},
+		{
+			"id": "Artillerist Captain",
+			"name": "Artillerist-Hauptmann",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.KID8Xu7W7Jvygl9K]{Artillerist}</p>"
+		},
+		{
+			"id": "Axe",
+			"name": "Axt",
+			"description": "<p>Die bei den Zwergen sehr beliebte Axt liegt nicht so flink in der Hand wie ein Schwert, aber der schwere Spaltkopf kann Rüstungen und Schilde ganz schön zurichten.</p>"
+		},
+		{
+			"id": "Ball and Powder",
+			"name": "Kugeln und Pulver",
+			"description": ""
+		},
+		{
+			"id": "Ballista",
+			"name": "Ballista",
+			"description": ""
+		},
+		{
+			"id": "Ballock Knife",
+			"name": "Nierendolch",
+			"description": "<p>Die kurze, schlanke Klinge eines Nierendolches ist keine besonders gute Waffe, es sei denn, man hat es mit einem schwer gepanzerten Gegner zu tun, dem man ausgeliefert ist.</p><p>* Die Waffen-Qualitäten <em>Durchbohrend</em> und <em>Präzise</em> werden hinzugefügt wenn das Ziel @Condition[Überrascht] oder @Condition[Betäubt] ist.</p>"
+		},
+		{
+			"id": "Bandoleer",
+			"name": "Bandelier",
+			"description": "<p>Ein Bandelier ist ein diagonal getragener Ledergürtel, an dem etwa ein Dutzend kleiner Behälter, meist aus Holz, hängen. Diese Behälter können mit einer genauen Menge Schwarzpulver gefüllt werden, um das Laden einer Handfeuerwaffe zu beschleunigen und zu erleichtern.</p>"
+		},
+		{
+			"id": "Banner Captain",
+			"name": "Banner-Hauptmann",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.1BTD0otB4pln0o8j.JournalEntryPage.mGMZSWoJnbnRze1h]{Pikenier}</p>"
+		},
+		{
+			"id": "Barbed Arrow",
+			"name": "Stachelpfeil",
+			"description": ""
+		},
+		{
+			"id": "Bastard Sword",
+			"name": "Bastardschwert",
+			"description": "<p>Das Bastardschwert, das auch als Anderthalbhänder bezeichnet wird, ist länger und schwerer als eine typische Klinge, aber kürzer und leichter als ein Zweihänder. Ein Kämpfer mit Nahkampf (Standard) kann ein Bastardschwert als Einhandwaffe benutzen, aber es erhält die Schwächen <em>Ermüdend</em> und <em>Langsam</em>.</p>"
+		},
+		{
+			"id": "Beat Blade",
+			"name": "Klingenschlag",
+			"description": "<p>Du hast schnelle, kontrollierte Schläge nach der Waffe des Gegners trainiert, um die Deckung durchbrechen zu können oder Attacken abzulenken. Als Handlung kannst du vor dem Würfeln Klingenschlag wählen. Führe einen Kampfgeschick-Wurf durch; wenn du Erfolg hast, verliert der gegnerische Vorteilspool 1 Vorteil, und 1 weiteren Vorteil wenn du 6+ EG erreicht hast. Dieser Wurf ist kein Vergleichender Wurf. Das Talent hat keine Wirkung, wenn der Gegner keine Waffe führt oder eine größere als du besitzt (siehe Seite 339).</p>"
+		},
+		{
+			"id": "Bill",
+			"name": "Billhaken",
+			"description": "<p>Der Billhaken ist von einem landwirtschaftlichen Werkzeug abgeleitet und hat eine hakenförmige Klinge, mit der man Feinde festhalten oder niederhacken kann.</p>"
+		},
+		{
+			"id": "Blunderbuss",
+			"name": "Donnerbüchse",
+			"description": "<p>Die Donnerbüchse, eine frühe Form der Feuerwaffe, zeichnet sich durch einen weiten Lauf aus, der die Genauigkeit gegen eine einfache Bedienung eintauscht. Sie ist in der Regel mit Pulver, Watte und vielen kleinen Geschossen geladen, um die Trefferwahrscheinlichkeit zu erhöhen. Es kann geladen werden mit entweder @UUID[Compendium.wfrp4e-up-in-arms.items.AcL9KS6PCEl3NRyV]{Kleinschrot und Pulver} oder @UUID[Compendium.wfrp4e-up-in-arms.items.8Zyc8e60wzrC0AAi]{Schrott und Pulver}.</p>"
+		},
+		{
+			"id": "Boat Hook",
+			"name": "Bootshaken",
+			"description": "<p>Haken werden von Hafenarbeitern zum Verladen und Sichern von Ladungen verwendet, aber sie können auch zu bösartigen Waffen werden, wenn sie mit Absicht eingesetzt werden.</p>"
+		},
+		{
+			"id": "Bodkin Arrow",
+			"name": "Ahl-Spitzen Pfeil",
+			"description": "<p>Die Ahl-Spitze ist eine besondere Form von Kriegs-Pfeilspitzen. Es handelt sich dabei um einen schmalen, spitz zulaufenden Vierkant. Die Spitze wurde speziell entwickelt, um Kettenhemden zu durchdringen, und war daher verhältnismäßig lang.</p>"
+		},
+		{
+			"id": "Bolt",
+			"name": "Bolzen",
+			"description": ""
+		},
+		{
+			"id": "2hdBYV1uH62i4csv",
+			"name": "Bombe (BW)",
+			"description": "<blockquote class=\"foundry-note\"><p>Dieser Gegenstand ist als Munition für @UUID[JournalEntry.l0NZFxzG4t0GoIFu.JournalEntryPage.Y4IiuJnk1S466SLx#siege-weapons]{Belagerungswaffen} bestimmt. Für die geworfene Bombe, verwende @UUID[Compendium.wfrp4e-core.trappings.X8WFQf0HB9yXKjdD]{Bombe}, für Munition die mit Schwarzpulver und technischen Waffen verwendet wird, verwende @UUID[Compendium.wfrp4e-up-in-arms.items.A9QGISjhQq3w9uhK]{Bombe}</p></blockquote>"
+		},
+		{
+			"id": "Bomb",
+			"name": "Bombe",
+			"description": "<p>Oft geworfen, gab es viele Versuche, mit Schwarzpulver, Pech oder Teer beladene Sprengkörper weiter zu schleudern, als es von Hand möglich ist. Solche Sprengkörper können in einen @UUID[Compendium.wfrp4e-up-in-arms.items.hRXoLcdkE97BBJlL]{Handmörser} geladen und ziemlich weit geschossen werden. </p><p>Solche Munition kann nicht sehr weit im Voraus geladen werden, da die Lunte der Munition angezündet werden muss, bevor sie in den @UUID[Compendium.wfrp4e-up-in-arms.items.hRXoLcdkE97BBJlL]{Handmörser} geladen werden kann. Beim Laden musst du entscheiden, wie viele Runden Zünder du für die Munition verwendet hast. </p><p>Eine Runde Zünder bedeutet, dass die Munition am Ende der aktuellen Runde explodiert, zwei Runden bedeuten, dass sie am Ende der nächsten Runde explodiert, und so weiter. Die Munition explodiert zu diesem Zeitpunkt, unabhängig davon, ob du die Waffe abgefeuert hast oder nicht. Ihr solltet dies im Auge behalten, da der Spielleiter euch nicht daran erinnern muss, bis der Zeitpunkt gekommen ist.</p>"
+		},
+		{
+			"id": "Bow String",
+			"name": "Bogensehne",
+			"description": "<p>Die aus Hanf oder ähnlichem Garn hergestellten Bogensehnen neigen dazu, zu reißen, vor allem in entscheidenden Momenten. Es ist eine gute Strategie, ein paar Ersatzsehnen mitzunehmen. Qualitativ hochwertige Saiten werden weniger reißen.</p>"
+		},
+		{
+			"id": "Bowman",
+			"name": "Bogenschütze",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.tczPk698eLFpVOsm]{Bogenschütze}</p>"
+		},
+		{
+			"id": "Bright Spark",
+			"name": "Heller Funke",
+			"description": ""
+		},
+		{
+			"id": "Bullet and Powder",
+			"name": "Kugeln und Pulver",
+			"description": "<p>Bei den meisten @UUID[Compendium.wfrp4e-up-in-arms.items.pu2OkOWm15zEqWzz]{Pistolen}, @UUID[Compendium.wfrp4e-up-in-arms.items.ivuGhpoG9e9fN3Ks]{Handfeuerwaffen} und ihren Varianten werden die Kugeln in einem kleinen geölten Beutel geliefert und normalerweise mit genügend Pulver verkauft, um sie unter normalen Umständen abzufeuern.</p>"
+		},
+		{
+			"id": "Bullets and Powder (Swivel Gun)",
+			"name": "Kugeln und Pulver (Schwenkbare Kanone)",
+			"description": ""
+		},
+		{
+			"id": "Camp Chief",
+			"name": "Lagerleiter",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.PyuVaepgBmUkbfrz]{Lager Anhänger}</p>"
+		},
+		{
+			"id": "Camp Follower",
+			"name": "Lager Anhänger",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.PyuVaepgBmUkbfrz]{Lager Anhänger}</p>"
+		},
+		{
+			"id": "Cane Pistol",
+			"name": "Rohrstockpistole",
+			"description": "<p>Eine Kleinkaliberpistole, die in einem Spazierstock oder Stock versteckt ist. Diese Waffe ist etwas unpraktisch, aber sehr schwer zu entdecken. Wer nach versteckten Waffen sucht, muss eine <strong>schwere (-20) Wahrnehmungsprobe</strong> bestehen, um diese Waffe als solche zu erkennen, oder eine <strong>sehr schwere (-30) Wahrnehmungsprobe</strong>, wenn er mit Schwarzpulverwaffen nicht vertraut ist.</p>"
+		},
+		{
+			"id": "Cannon (large)",
+			"name": "Kanone (Groß)",
+			"description": ""
+		},
+		{
+			"id": "Cannon (medium)",
+			"name": "Kanone (Mittel)",
+			"description": ""
+		},
+		{
+			"id": "Cannon (small)",
+			"name": "Kanone (Klein)",
+			"description": ""
+		},
+		{
+			"id": "Captain",
+			"name": "Hauptmann",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.1BTD0otB4pln0o8j.JournalEntryPage.1i3Y6jOqCTmlbVeo]{Leichte Reiterei}</p>"
+		},
+		{
+			"id": "Captain Braun's Insta-Boiler",
+			"name": "Hauptmann Brauns Insta-Boiler",
+			"description": "<p>Der Insta-Boiler sieht aus wie ein hoher Kochtopf mit einem gewölbten Deckel. Er hat unten einen Raum für das Feuer und darüber eine geschlossene, abgedeckte Kammer. Es wird behauptet, dass er Eintöpfe und Ähnliches schneller und bei niedrigeren Temperaturen kochen kann. Wie der @UUID[unknown]{Multi-Stove} kann er unterwegs benutzt werden (wenn man sehr vorsichtig ist), er benötigt weniger Brennstoff und ist schwerer zu entdecken als ein offenes Feuer.</p>"
+		},
+		{
+			"id": "Captain Braun's Multi-Stove",
+			"name": "Hauptmann Brauns Multi-Herd",
+			"description": "<p>Aus den Schmieden von Nuln scheint jedes Jahr eine Reihe neuartiger Geräte hervorzugehen. Dieser schwere Eisenkasten des berühmten Erfinders Hauptmann Braun hat mehrere Fächer, in denen man verschiedene Gerichte gleichzeitig zubereiten kann. Es wird sogar behauptet, dass man unterwegs weiter kochen kann, auch wenn es ein bisschen heiß wird. Die Hauptvorteile dieses Geräts bestehen darin, dass man zum Erhitzen viel weniger Brennstoff benötigt, dass es die Hitze länger hält und dass es die Anzeichen eines Brandes deutlich verringert. Einige Köche schwören auf diese Erfindung, während andere sie für eine Verschwendung von Zeit und Mühe halten, wenn ein offenes Feuer genauso gut funktioniert.</p>"
+		},
+		{
+			"id": "Cartographer",
+			"name": "Kartograph",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.6xKxqvKM5exJhiAA]{Kartograph}</p>"
+		},
+		{
+			"id": "Catapult (large)",
+			"name": "Katapult (Groß)",
+			"description": ""
+		},
+		{
+			"id": "Catapult (medium)",
+			"name": "Katapult (Mittel)",
+			"description": ""
+		},
+		{
+			"id": "Catapult (small)",
+			"name": "Katapult (Klein)",
+			"description": ""
+		},
+		{
+			"id": "Cavalry Hammer",
+			"name": "Reiterhammer (2H)",
+			"description": "<p>Kavalleriehämmer sind große, gewichtige Waffen, die von den Rittern des Weißen Wolfs bevorzugt werden. Zu Fuß können sie mit der Fertigkeit Nahkampf (Zweihändig) eingesetzt werden.</p>"
+		},
+		{
+			"id": "Chartered Cartographer",
+			"name": "Geprüfter Kartograph",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.6xKxqvKM5exJhiAA]{Kartograph}</p>"
+		},
+		{
+			"id": "Cloak",
+			"name": "Umhang",
+			"description": "<p>Einige Fecht- und Parierexperten empfehlen, einen Umhang aus schwerem Stoff bereitzuhalten. Um den Arm gewickelt kann er dazu dienen, den Gegner abzulenken oder seine Angriffe zu vereiteln. Er kann sogar über einen Gegner geworfen werden, in der Hoffnung, dass er sich in seinen Falten verliert. Für Verwicklungsangriffe ist der Umhang jedoch nicht geeignet. Bei einer Probe darauf, ob sich ein Gegner in einem Umhang verheddert, hat der Umhang eine Stärke von 25.</p>"
+		},
+		{
+			"id": "Club",
+			"name": "Keule",
+			"description": "<p>Keulen sind ebenso häufig zu finden wie sie hergestellt werden. Der angegebene Preis lässt vermuten, dass ein Käufer eine solche Waffe schnell benötigt. Wenn sich ein Charakter in einer bewaldeten Umgebung befindet, kann er einen Streitkolben erhalten, indem er eine <strong>Probe auf Überleben (Herausfordernd (+0))</strong> im Freien besteht, die insgesamt 7 SL erfordert.</p>"
+		},
+		{
+			"id": "Command the Legion",
+			"name": "Die Legion befehligen",
+			"description": "<p>Myrmidia trägt deine Befehle über das Schlachtfeld. Du kannst jedem Verbündeten in Sichtweite einen Befehl erteilen. Der Befehl muss für die Durchführung eines bewaffneten Kampfes oder einer laufenden Strategie relevant sein. Alle Führungsproben, die du daraufhin machst, erhalten einen Bonus von +10.</p>"
+		},
+		{
+			"id": "Company Commander (Inner Circle)",
+			"name": "Kompaniechef (Innerer Kreis)",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.Ub8PlkaAIWPxX2AH.JournalEntryPage.pVLlBMBG95DVUGGj]{Ritter des Weißen Wolfs}</p>"
+		},
+		{
+			"id": "Company Commander (Inner Circle)",
+			"name": "Kompaniechef (Innerer Kreis)",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.Ub8PlkaAIWPxX2AH.JournalEntryPage.FmalmVn3AhtabhMN]{Ritter des Pantherordens}</p>"
+		},
+		{
+			"id": "Compass",
+			"name": "Kompass",
+			"description": "<p>Dieser rudimentäre Kompass besteht aus einer Metallnadel, die auf einem Stift balanciert. Die Gelehrten streiten sich über die Natur des Geräts. Einige vermuten, dass er eine Affinität zum Chaos selbst hat. Andere vermuten, dass er von einem massiven Warpsteinbrocken irgendwo in den Nördlichen Ödlanden angezogen wird. Aber es ist zuverlässig und von unschätzbarem Wert für die Navigation.</p>"
+		},
+		{
+			"id": "Crew Commander",
+			"name": "Kommandant",
+			"description": "<p>Ein Charakter mit diesem Talent ist in der Lage, Besatzungen von Belagerungswaffen und Artilleriegeschützen zu führen. Der Charakter kann eine <strong>herausfordernde (+0) Anführen-Probe</strong> ablegen, um einer Mannschaft zu helfen, die eine Waffe mit der Eigenschaft <em>Mannschaft in Hörweite</em> bemannt. Wenn der Charakter die Probe besteht, können die Besatzungsmitglieder die Fernkampf-Fertigkeit des Charakters einsetzen, wenn sie die Waffe abfeuern.</p>"
+		},
+		{
+			"id": "Crossbowman",
+			"name": "Armbrustschütze",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.1BTD0otB4pln0o8j.JournalEntryPage.mcdsHRtcQToDaN82]{Belagerungsspezialist}</p>"
+		},
+		{
+			"id": "Dagger",
+			"name": "Dolch",
+			"description": "<p>Diese Klingen werden speziell für den Kampf hergestellt. Ein zerbrochenes Schwert kann als Dolch verwendet werden, hat aber den Makel <em>Gefährlich</em>, da ihm ein integrierter Griff fehlt.</p>"
+		},
+		{
+			"id": "Demi-Lance",
+			"name": "Demi-Lanze",
+			"description": "<p>Demi-Lanzen ähneln Speeren, haben aber einen gewichtigen Griff, um die Waffe gegen den Arm und die Brust eines angreifenden Ritters zu stemmen. Die Demi-Lanze ist ähnlich, aber kürzer und leichter.</p><p>* Lanzen und Demi-Lanzen zählen als @UUID[Compendium.wfrp4e-up-in-arms.items.okPRj8ixa55d9ETF]{Improvised Weapons}, wenn sie in einer Runde benutzt werden, in der man nicht angegriffen hat.</p>"
+		},
+		{
+			"id": "Diamond in the Rough",
+			"name": "Ungeschliffener Diamant",
+			"description": ""
+		},
+		{
+			"id": "Dismay Foe",
+			"name": "Verärgerung des Feindes",
+			"description": "<p>Du verkörperst Myrmidia in ihrer zornigsten aller Facetten. Erhalte die @Terror[1]{Terror 1} Kreaturen-Eigenschaft.</p>"
+		},
+		{
+			"id": "Distract",
+			"name": "Ablenkung",
+			"description": "<p>Du bist in einfachen Bewegungen geübt, um deinen Gegner abzulenken oder zu erschrecken und die Augen von deiner wahren Absicht abzulenken. Du kannst deine Bewegung nutzen, um eine Ablenkung durchzuführen. Diese wird durch eine <strong>Athletik-/Besonnenheit-Probe</strong> gegen dein Ziel gelöst. Wenn du gewinnst, kann dein Gegner bis zum Ende der nächsten Runde keinen Vorteil für seinen Pool generieren.</p>"
+		},
+		{
+			"id": "Double-barrelled Handgun",
+			"name": "Doppelläufige Handfeuerwaffe",
+			"description": "<p>Wenn ein Lauf gut ist, sind zwei doch besser? Eine Handfeuerwaffe mit zwei Läufen und zwei Abzügen ist so komplex wie eine Feuerwaffe nur sein kann und dennoch von einem einfachen Soldaten benutzt werden kann. Obwohl sie schwer sind, verfügen die meisten über eine Vorrichtung zum gleichzeitigen Nachladen beider Läufe, so dass der Benutzer häufiger schießen kann.</p>"
+		},
+		{
+			"id": "Drilled",
+			"name": "Ausgebildet",
+			"description": "<p>Du wurdest dafür ausgebildet, Schulter an Schulter mit anderen Soldaten zu kämpfen. Charaktere mit dem Talent Ausgebildet zählen als zwei Kämpfer, wenn sie @UUID[JournalEntry.JSMqi4MYrqsPBDUL.JournalEntryPage.njjUtJFlaiYB2ZMr#losing-advantage]{Verlustvorteile} bestimmen.</p>"
+		},
+		{
+			"id": "File Leader",
+			"name": "Offizier",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.1BTD0otB4pln0o8j.JournalEntryPage.mGMZSWoJnbnRze1h]{Pikenier}</p>"
+		},
+		{
+			"id": "First Eagle",
+			"name": "Der erste Adler",
+			"description": ""
+		},
+		{
+			"id": "First Knight",
+			"name": "Erster Ritter",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.Ub8PlkaAIWPxX2AH.JournalEntryPage.FmalmVn3AhtabhMN]{Ritter des Pantherordens}</p>"
+		},
+		{
+			"id": "Flail",
+			"name": "Flegel",
+			"description": "<p>Dreschflegel, die für das Schlachtfeld hergestellt werden, sind mit Metallwirbeln und verstärkten Griffen ausgestattet, wodurch sie eine stärkere Schlagkraft haben.</p>"
+		},
+		{
+			"id": "Flamberge Zweihander",
+			"name": "Flamberge Zweihänder",
+			"description": "<p>Die berühmten Großschwertregimenter des Kaiserreichs sind mit massiven Stahlklingen bewaffnet, die so lang sind wie viele Stangenwaffen. Einige Waffenmeister gehen sogar noch einen Schritt weiter und versehen ihre Schwerter mit Wellen und gezackten Kanten. Diese Waffen sind als Flambergeklingen bekannt, und die Wunden, die sie zufügen, können aufgrund ihrer Schnittkraft tiefer sein.</p>"
+		},
+		{
+			"id": "Flee!",
+			"name": "Fliehen",
+			"description": "<p>Wenn es um dein Leben geht, bist du zu erstaunlichen Geschwindigkeiten in der Lage. Dein Bewegungs-Wert gilt als um 1 höher, wenn du auf der Flucht bist (siehe Seite 165), oder bei einer Verfolgungsjagd die Beute bist.</p>"
+		},
+		{
+			"id": "Foil",
+			"name": "Florett",
+			"description": "<p>Das Florett ist ein leichtes Schwert mit einer Klinge, die wie ein dünner, geschliffener Dorn aussieht. Es liegt leicht in der Hand und hat ein Gleichgewicht am Griff, aber wenn es nicht gerade einen dramatischen Ausfallschritt macht, verursacht es in der Regel nur kleine, stechende Verletzungen.</p>"
+		},
+		{
+			"id": "Freelance Captain",
+			"name": "Freier Kapitän",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.Ub8PlkaAIWPxX2AH.JournalEntryPage.TpwhRuvLbZT8gpQr]{Freier Ritter}</p>"
+		},
+		{
+			"id": "Freelance Knight",
+			"name": "Freier Ritter",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.Ub8PlkaAIWPxX2AH.JournalEntryPage.TpwhRuvLbZT8gpQr]{Freier Ritter}</p>"
+		},
+		{
+			"id": "Fuse",
+			"name": "Zündschnur",
+			"description": "<p>Die Zündschnur ist dem langsamen Streichholz ähnlich, brennt aber viel schneller und bietet eine Möglichkeit, Schwarzpulver aus der Ferne zu zünden. Sie wird als Meterware verkauft und brennt mit etwa einem Zoll pro Sekunde. Ein Standard-Qualitätszünder versagt wahrscheinlich in etwa 5 % der Fälle auf zehn Meter. Schlechte Zünder müssen alle fünf Meter getestet werden.</p><p>* Der Preis gilt pro Meter.</p>"
+		},
+		{
+			"id": "Garrote",
+			"name": "Garrote",
+			"description": "<p>Eine Garotte ist ein Stück Strick oder Draht, das man um den Hals legt und mit den Händen festzieht. Ein Charakter in einem Gasthaus oder einer Stadt kann eine Garotte herstellen, indem er eine erweiterte <strong>herausforderne (+0) Handwerksprobe (Kaufmann, Ingenieur, Schneider oder Gerber)</strong> besteht, die insgesamt 5 SL erfordert.</p>"
+		},
+		{
+			"id": "Grain Flail",
+			"name": "Dreschflegel",
+			"description": "<p>Das gängige Sprichwort, dass Bauern ihre Pflugscharen zu Waffen umfunktionieren können, ist übertrieben, aber ein Kornschlegel in den richtigen Händen ist gefährlich. Ein Dreschflegel besteht aus einem hölzernen Stiel, der über eine Kette mit einem schweren Stock, dem so genannten 'Wirbel', verbunden ist.</p>"
+		},
+		{
+			"id": "Grapeshot and Powder",
+			"name": "Schrot und Puder",
+			"description": ""
+		},
+		{
+			"id": "Grapple",
+			"name": "Enterhaken",
+			"description": "<p>Die für die Imperiale Marine vorgeschlagenen Enterhaken bestehen aus einem stark wattierten Haken, der nur von einem @UUID[Compendium.wfrp4e-up-in-arms.items.hRXoLcdkE97BBJlL]{Handmörser} abgefeuert werden kann, und einem etwa 20 Meter langen Seil. Damit kann man ein Seil an einem entfernten Punkt befestigen oder einen fliehenden Feind fangen, wobei ein erfolgreicher Treffer einen @Zustand[Gefesselt] verursacht. Diejenigen, die dieses Gerät für ein heimliches Eindringen benutzen wollen, sollten bedenken, dass es extrem laut ist, wenn es abgefeuert wird.</p>"
+		},
+		{
+			"id": "Great Axe",
+			"name": "Zweihandaxt",
+			"description": "<p>Im Imperium selten eingesetzt, bei den nordischen Stämmen jedoch häufig als Gegenmittel zu schweren Rüstungen verwendet.</p>"
+		},
+		{
+			"id": "Greatsword",
+			"name": "Großschwert",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.B2GyhjJbcXpXPQQ5]{Großschwert}</p>"
+		},
+		{
+			"id": "Greatsword Cadet",
+			"name": "Großschwert-Kadett",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.B2GyhjJbcXpXPQQ5]{Großschwert}</p>"
+		},
+		{
+			"id": "Greatsword Captain",
+			"name": "Großschwert-Kapitän",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.B2GyhjJbcXpXPQQ5]{Großschwert}</p>"
+		},
+		{
+			"id": "Greatsword Sergeant",
+			"name": "Großschwert-Feldwebel",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.B2GyhjJbcXpXPQQ5]{Großschwert}</p>"
+		},
+		{
+			"id": "Griffonsfoot Pistol",
+			"name": "Greifenfußpistole",
+			"description": "<p>Diese Waffe wird am besten gegen eine enge Gruppe von Feinden eingesetzt. Ein einziger Abzug entlädt alle sechs Läufe, und zum Nachladen sind sechs Schuss und eine entsprechende Menge Pulver erforderlich.</p>"
+		},
+		{
+			"id": "Gun Axe",
+			"name": "Pistolen-Axt",
+			"description": "<pDiese Waffe ist so, wie man sie sich vorstellt - eine Handfeuerwaffe kombiniert mit einer Axt. Sie kann entweder als Handwaffe oder als Pistole verwendet werden. Wenn sie jedoch als Axt verwendet wird, während sie geladen ist, wird die Waffe bei einem kritischen Fauxpas in den Torso des Benutzers geschossen.</p>"
+		},
+		{
+			"id": "Gun Halberd",
+			"name": "Pistolen-Hellebarde",
+			"description": "<p>Nach dem gleichen Prinzip wie die @UUID[Compendium.moo-dev.dev-items.3KRPhCsimHmFKTxj]{Pistolen-Axt} funktioniert diese Waffe sowohl als Hellebarde als auch als Handfeuerwaffe, wobei der Lauf der Feuerwaffe in den Griff der Hellebarde integriert ist. Wenn sie als Hellebarde benutzt wird, während sie geladen ist, entlädt sich die Waffe bei einem kritischen Fauxpas auf jeden, der das Pech hat, direkt hinter dem Benutzer zu stehen.</p>"
+		},
+		{
+			"id": "Gunner",
+			"name": "Kanonier",
+			"description": "<p>Du kannst Schwarzpulverwaffen mit geübter Leichtigkeit nachladen. Du addierst SL in Höhe deiner Stufe als Kanonier zu jeder Erweiterten Probe zum Nachladen einer Schwarzpulverwaffe. Das Nachladen einer Fernkampfwaffe während eines Kampfes zählt auch als @UUID[JournalEntry.JSMqi4MYrqsPBDUL.JournalEntryPage.njjUtJFlaiYB2ZMr#altered-actions-in-combat]{Bewertungs} Aktion (UiA Seite 136). Du erhältst einen zusätzlichen Vorteil von +1, wenn du diese Einschätzungsprobe machst.</p>"
+		},
+		{
+			"id": "Halberd",
+			"name": "Hellebarde",
+			"description": "<p>Die Hellebarde ist die Urwaffe der Streitkräfte des Imperiums und kann mit ähnlicher Wirkung wie ein Speer oder eine Axt eingesetzt werden.</p>"
+		},
+		{
+			"id": "Halberdier",
+			"name": "Hellebardier",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.aG6quE0EZ0tLE6Vl]{Hellebardier}</p>"
+		},
+		{
+			"id": "Halberdier Captain",
+			"name": "Hellebardier-Hauptmann",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.aG6quE0EZ0tLE6Vl]{Hellebardier}</p>"
+		},
+		{
+			"id": "Halberdier Recruit",
+			"name": "Hellebardier-Rekrut",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.aG6quE0EZ0tLE6Vl]{Hellebardier}</p>"
+		},
+		{
+			"id": "Halberdier Sergeant",
+			"name": "Hellebardier-Feldwebel",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.aG6quE0EZ0tLE6Vl]{Hellebardier}</p>"
+		},
+		{
+			"id": "Hand Mortar",
+			"name": "Handmörser",
+			"description": "<p>Der Handmörser sieht aus wie eine kurze, gedrungene @UUID[Compendium.wfrp4e-up-in-arms.items.DQtxITVRh2pd8hxp]{Donnerbüchse} und ist ein verkleinerter Mörser, mit dem man Bomben und andere große Gegenstände in die gewünschte Richtung schleudert. Seine Verwendung ist ziemlich gefährlich, denn wenn man etwas zu viel Pulver nachlädt oder den Zünder einer geladenen Bombe falsch einstellt, explodiert die Waffe ziemlich spektakulär. Jeder Fauxpas beim Nachladen der Waffe führt zu einer Explosion. Das Gerät eröffnet jedoch viele Möglichkeiten für diejenigen, die bereit sind, seine Verwendung zu riskieren.</p>"
+		},
+		{
+			"id": "Handgun",
+			"name": "Muskete* (2H)",
+			"description": "<p>Eine einfache Zweihandfeuerwaffe, die in der Regel mit einem Radschloss oder Steinschloss ausgestattet ist. Tausende von ihnen sind bei den Truppen des Imperiums im Einsatz.</p>"
+		},
+		{
+			"id": "Handgunner",
+			"name": "Musketenschütze",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.hCtfLrI7R6mJg6YV]{Musketenschütze}</p>"
+		},
+		{
+			"id": "Handgunner Captain",
+			"name": "Musketenschütze Hauptmann",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.hCtfLrI7R6mJg6YV]{Musketenschütze}</p>"
+		},
+		{
+			"id": "Handgunner Recruit",
+			"name": "Musketenschütze Rekrut",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.hCtfLrI7R6mJg6YV]{Musketenschütze}</p>"
+		},
+		{
+			"id": "Handgunner Sergeant",
+			"name": "Musketenschütze Feldwebel",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.hCtfLrI7R6mJg6YV]{Musketenschütze}</p>"
+		},
+		{
+			"id": "Helblaster Volley Gun",
+			"name": "Salvenkanone",
+			"description": ""
+		},
+		{
+			"id": "Helstorm Rocket Battery",
+			"name": "Raketenbatterie",
+			"description": ""
+		},
+		{
+			"id": "Hireling",
+			"name": "Mietling",
+			"description": ""
+		},
+		{
+			"id": "Hochland Long Rifle",
+			"name": "Hochland-Langbüchse* (2H)",
+			"description": "<p>Als eine der legendären und unglaublich präzisen Waffen, die von den Jägern des Hochlandes verwendet werden, sind solche Gewehre unglaublich wertvoll. Sie werden oft verwendet, um auf feindliche Offiziere zu zielen. Viele Adlige halten solche Waffen für unsportlich, und feindliche Soldaten, die damit erwischt werden, werden kurzerhand gehängt.</p>"
+		},
+		{
+			"id": "Hochmeister",
+			"name": "Hochmeister",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.Ub8PlkaAIWPxX2AH.JournalEntryPage.azFTHnCxn5nb4c7m]{Ritter des Sonnenordens}</p>"
+		},
+		{
+			"id": "Improvised Shot and Powder",
+			"name": "Improvisiertes Schrot und Pulver",
+			"description": "<p>Ein wenig Pulver, eventuell feucht, und ein Stein, der in den Lauf einer Waffe passt. Die Kosten gelten nur für das Pulver - den Stein musst du selbst besorgen.</p>"
+		},
+		{
+			"id": "Improvised Weapon",
+			"name": "Improvisierte Waffe",
+			"description": "<p>Harte und schwere Gegenstände, die nicht als Waffe gedacht sind, können in einem verzweifelten Moment dennoch nützlich sein. Hierunter fallen Gegenstände wie Stuhlbeine, Felsen, Snooker-Stöcke und Flaschen.</p>"
+		},
+		{
+			"id": "In Good Order",
+			"name": "Geordneter Rückzug",
+			"description": "<p>Da du weißt, dass die Situation aussichtslos ist, betest du, dass deine Truppen nicht von einer katastrophalen Niederlage heimgesucht werden. Während das Wunder im Spiel ist, können alle Verbündeten aus dem Kampf fliehen, ohne dass der Feind einen Vorteil erlangt oder kostenlose Angriffe durchführen kann (siehe @UUID[Compendium.wfrp4e-core.journal-entries.NS3YGlJQxwTggjRX.JournalEntryPage.bdfiyhEYtKs7irqc#Fleeing]{Fliehen}).</p>"
+		},
+		{
+			"id": "MQV1cMMZQZnyzZx2",
+			"name": "Brandmunition",
+			"description": "<blockquote class=\"foundry-note\"><p>Dieser Gegenstand ist als Munition bestimmt für @UUID[JournalEntry.l0NZFxzG4t0GoIFu.JournalEntryPage.Y4IiuJnk1S466SLx#siege-weapons]{Belagerungswaffen}. Für die Wurfwaffe verwende die @UUID[Compendium.wfrp4e-core.trappings.vI0oorwbZdlszudf]{Brandflasche}, für Schwarzpulver und Technicuswaffen, verwende die @UUID[Compendium.wfrp4e-core.trappings.vI0oorwbZdlszudf]{Brandflasche}</p><p>Für den @UUID[Compendium.wfrp4e-up-in-arms.items.d2LzU8hNCH97njsK]{Mörser}, ändere den Munitionstypen zu <strong>Scharzpulver und Technicus</strong></p></blockquote>"
+		},
+		{
+			"id": "gCRiirLG9h9yxKzp",
+			"name": "Brandmunition",
+			"description": "<blockquote class=\"foundry-note\"><p>Dieser Gegenstand ist als Munition bestimmt für @UUID[JournalEntry.2EGaOiGaaunZ2RuS.JournalEntryPage.SGWjMaw6OrZ06Nbp]{Schwarzpulver und Technicuswaffen}. Als Wurfwaffe verwende die @UUID[Compendium.wfrp4e-core.trappings.vI0oorwbZdlszudf]{Brandflasche}, für Belagerungswaffen die @UUID[Compendium.wfrp4e-up-in-arms.items.MQV1cMMZQZnyzZx2]{Brandflasche}</p><p>Wird die Brandmunition mit einem @UUID[Compendium.wfrp4e-up-in-arms.items.d2LzU8hNCH97njsK]{Mörser} verwendet, ändere den Munitionstyp zu <strong>Schwarzpulver und Technicus</strong> um</p></blockquote><p>Es wurde schon oft versucht, mit Schwarzpulver, Pech oder Teer beladene Geschosse weiter zu schleudern, als es von Hand möglich ist. Solche Geräte können in einen @UUID[Compendium.wfrp4e-up-in-arms.items.hRXoLcdkE97BBJlL]{Handmörser} geladen und ziemlich weit geworfen werden.</p><p>Diese Art von Munition kann nicht sehr weit im Voraus geladen werden, da die Lunte angezündet werden muss, bevor die Munition in den @UUID[Compendium.wfrp4e-up-in-arms.items.hRXoLcdkE97BBJlL]{Handmörser} geladen werden kann. Beim Laden musst du entscheiden, wie viele Runden Zünder du für die Munition verwendet hast.</p><p>Eine Runde Zünder bedeutet, dass sie am Ende des aktuellen Zuges explodiert, zwei Runden bedeuten, dass sie am Ende deines nächsten Zuges explodiert, und so weiter. Die Munition explodiert zu diesem Zeitpunkt, unabhängig davon, ob du die Waffe abgefeuert hast oder nicht. Ihr solltet dies im Auge behalten, da der Spielleiter euch nicht daran erinnern muss, bis der Zeitpunkt gekommen ist.</p>"
+		},
+		{
+			"id": "Infirm",
+			"name": "Gebrechlich",
+			"description": ""
+		},
+		{
+			"id": "Jarred Arm",
+			"name": "Geprellter Arm",
+			"description": "<p>Der Treffer prellt dir den Arm. Du lässt alles fallen, was du in der Hand hältst, die danach für 1W10 – WIB Runden (Minimum 1) nutzlos ist. Während dieser Zeit gilt die Hand als wäre sie verloren (siehe Amputierte Körperteile). (siehe @UUID[Compendium.wfrp4e-core.journal-entries.NS3YGlJQxwTggjRX.JournalEntryPage.WCivInLZrqEtZzF4#amputated-parts]{Amputierte Körperteile})</p>"
+		},
+		{
+			"id": "Jolted Wrist",
+			"name": "Verdrehtes Handgelenk",
+			"description": "<p>Der Treffer prellt dir den Arm. Du lässt alles fallen, was du in der Hand hältst.</p>"
+		},
+		{
+			"id": "Knife",
+			"name": "Messer",
+			"description": "<p>Dieser Gegenstand umfasst kurze, scharfe Klingen, die für andere Zwecke als den Kampf bestimmt sind, wie Küchen- oder Jagdmesser.</p>"
+		},
+		{
+			"id": "6snqiJEmmAXtE6lW",
+			"name": "Ritter des Sonnenordens",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.Ub8PlkaAIWPxX2AH.JournalEntryPage.azFTHnCxn5nb4c7m]{Ritter des Sonnenordens}</p>"
+		},
+		{
+			"id": "BJDcsaKX4rNkOetn",
+			"name": "Ritter des Weißen Wolfes",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.Ub8PlkaAIWPxX2AH.JournalEntryPage.pVLlBMBG95DVUGGj]{Ritter des Weißen Wolfes}</p>"
+		},
+		{
+			"id": "ab5Ol9OFI1bgHmbV",
+			"name": "Ritter des Pantherordens",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.Ub8PlkaAIWPxX2AH.JournalEntryPage.FmalmVn3AhtabhMN]{Ritter des Pantherordens}</p>"
+		},
+		{
+			"id": "Knight of the Inner Circle",
+			"name": "Ritter des inneren Zirkels",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.Ub8PlkaAIWPxX2AH.JournalEntryPage.azFTHnCxn5nb4c7m]{Ritter des Sonnenordens}</p>"
+		},
+		{
+			"id": "Kniht Commander",
+			"name": "Kommandant der Ritterschaft",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.Ub8PlkaAIWPxX2AH.JournalEntryPage.TpwhRuvLbZT8gpQr]{Freier Ritter}</p>"
+		},
+		{
+			"id": "Know Your Enemy",
+			"name": "Kenne deinen Feind",
+			"description": "<p>Du rufst Myrmidia an, um dich über die Stärken und Schwächen eines Feindes in der Nähe zu informieren. Der Spielleiter sollte dir erlauben, das Profil, die Attribute, Fähigkeiten und Talente des Ziels zu überprüfen.</p>"
+		},
+		{
+			"id": "Knuckledusters",
+			"name": "Schlagring",
+			"description": "<p>Ein Schlagring kann den Schlägen eines Kämpfers beträchtliche Kraft verleihen, aber ein Satz Schlagringe kann auch aus Textilien und Werkzeugen improvisiert werden. Ein Charakter in einer Stadt kann sich einen Schlagring herstellen, indem er eine verlängerte, <strong>herausforderende (+0) Handwerksprobe (Zimmermann, Ingenieur, Schmied, Schneider oder Gerber)</strong> besteht, die insgesamt 10 SL erfordert.</p>"
+		},
+		{
+			"id": "Lance",
+			"name": "Lanze",
+			"description": "<p>Lanzen ähneln Speeren, haben aber einen schweren Griff, um die Waffe gegen den Arm und die Brust eines angreifenden Ritters zu stützen. Die Demi-Lanze ist ähnlich, aber kürzer und leichter.</p><p>* Lanzen und Demi-Lanzen zählen als @UUID[Compendium.wfrp4e-up-in-arms.items.okPRj8ixa55d9ETF]{improvisierte Waffen}, wenn sie in einer Runde eingesetzt werden, in der man nicht angegriffen hat.</p>"
+		},
+		{
+			"id": "kIxfFhzCZIBsn2Y7",
+			"name": "Lancier",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.1BTD0otB4pln0o8j.JournalEntryPage.1i3Y6jOqCTmlbVeo]{Leichte Kavallerie}</p>"
+		},
+		{
+			"id": "Large Bullet and Powder",
+			"name": "Großes Geschoss und Pulver",
+			"description": "<p>Technically a small cannonball, these shots are loaded into large bore weapons such as an @UUID[Compendium.wfrp4e-up-in-arms.items.HblRPlASKOI73aOE]{Arquebus} or @UUID[Compendium.wfrp4e-up-in-arms.items.hRXoLcdkE97BBJlL]{Hand Mortar}. Those firing such a device, or standing within 2 yards of the user, must make a <strong>Challenging (+0) Endurance</strong> Test or gain a @Condition[Deafened] Condition.</p>"
+		},
+		{
+			"id": "Light Cavalry",
+			"name": "Leichte Kavallerie",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.1BTD0otB4pln0o8j.JournalEntryPage.1i3Y6jOqCTmlbVeo]{Leichte Kavallerie}</p>"
+		},
+		{
+			"id": "Locked Gauntlet",
+			"name": "Verschlossener Fehdehandschuh",
+			"description": "<p>Ein verschlossener Fehdehandschuh besteht aus Stahlplatten, die die Faust umschließen und mit einer Schraube oder einem Verschluss geschlossen werden können. Der Handschuh kann als Kampfwaffe verwendet werden, wird aber eher als Methode eingesetzt, um sicherzustellen, dass der Träger eine Waffe, die er in der Hand mit dem Stulpen hält, nicht fallen lässt. Ein verschlossener Handschuh kann als Teil einer Plattenrüstung für den Arm erworben werden. Addiere den Preis des verschlossenen Handschuhs zu dem der Rüstung. Verwende die Belastung der Rüstung selbst; der verschlossene Handschuh fügt kein signifikantes Gewicht hinzu.</p><p>Wenn ein Charakter, der mit einem verschlossenen Handschuh ausgerüstet ist, normalerweise gezwungen wäre, einen in dieser Hand gehaltenen Gegenstand fallen zu lassen, lässt er ihn nicht fallen. Stattdessen erleidet er einen Malus von -20 auf alle Tests, die mit diesem Gegenstand gemacht werden, einschließlich Nahkampftests, und zwar so lange, wie die Umstände, die ihn zum Fallenlassen des Gegenstandes gezwungen hätten, andauern (mindestens eine Runde lang). Tritt während dieser Zeit etwas ein, das ihn dazu veranlassen würde, den Gegenstand erneut fallen zu lassen, lässt er ihn trotz des verschlossenen Handschuhs fallen.</p><p><strong>Beispiel</strong>: <em>Jenna die Söldnerin trägt ein Schwert in ihrer rechten Hand. Auch sie trägt einen verschlossenen Handschuh an ihrer rechten Hand, und bevor sie in den Kampf geht, vergewissert sie sich, dass der Verschluss gesichert ist. Während eines Kampfes setzt Jennas Gegner das Talent Entwaffnen ein. Normalerweise würde Jenna dadurch ihr Schwert verlieren, aber aufgrund ihres verschlossenen Handschuhs behält sie es in der Hand. Sie erleidet einen Malus von -20 auf Nahkampftests für eine Runde, danach findet sie ihren korrekten Griff wieder und kämpft wie gewohnt.</em></p><p><em>Später im Kampf erleidet Jenna einen kritischen Treffer, der sie dazu zwingt, alles, was sie mit diesem Arm hält, fallen zu lassen. Jenna behält ihre Waffe, aber dieses Mal erleidet sie den Malus von -20 auf Nahkampfproben (sowie andere Malusse für den gebrochenen Arm), bis sie medizinische Hilfe erhält. Während sie sich in diesem labilen Zustand befindet, setzt ihr Gegner erneut das Talent Entwaffnen ein und zwingt Jenna schließlich, ihr Schwert fallen zu lassen.</em></p>"
+		},
+		{
+			"id": "Lost Footing",
+			"name": "Aus dem Tritt",
+			"description": "<p>Du stolperst und vertrittst dir schmerzhaft den Knöchel. Du musst einen <strong>herausfordernde (+0) Ausdauer-Wurf</strong> besthen oder du erhälst den Zustand @Condition[Niedergestreckt]</p>"
+		},
+		{
+			"id": "Mace",
+			"name": "Streitkolben",
+			"description": "<p>Der typische Streitkolben ist ein Metallschaft mit einem schweren Kopf in Form von Flanschen oder stacheligen Vorsprüngen. Er ist zwar weniger tragfähig als ein Schwert, führt aber zu heftigen Schlägen.</p>"
+		},
+		{
+			"id": "Main Gauche",
+			"name": "Parierdolch",
+			"description": "<p>Ein Parierdolch ist ein speziell entwickelter Dolch, der beim Fechten verwendet wird. Er wird so genannt, weil er typischerweise von Rechtshändern in der linken Hand geführt wird, um eine Fechtwaffe zu ergänzen, die als Primärwaffe verwendet wird. Ein Kämpfer, der keine Nahkampffähigkeit besitzt, kann trotzdem einen Hauptdolch verwenden, obwohl er ihn als Dolch bezeichnen würde und die Verteidigungseigenschaft verlieren würde.</p>"
+		},
+		{
+			"id": "Mancatcher",
+			"name": "Menschenfänger",
+			"description": "<p>Der Menschenfänger ist eine seltsame Stangenwaffe mit einem halbkreisförmigen Kopf, der mit kurzen Stacheln besetzt ist. Die Waffe kann eine Person am Hals erwischen und sie dazu zwingen, aus Angst vor weiteren Verletzungen mit dem Kämpfen aufzuhören. Sie wird im Imperium nicht oft gesehen, obwohl Skaven und Hobgoblins sie regelmäßig einsetzen. Einige Menschenfänger sind mit federbelasteten Mechanismen ausgestattet. Diese kosten 4 GC, aber der Träger profitiert von einem Bonus von +20 auf alle Stärkeproben, die er macht, um jemanden mit der Waffe zu verwickeln.</p>"
+		},
+		{
+			"id": "Master Artillerist",
+			"name": "Artilleriemeister",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.KID8Xu7W7Jvygl9K]{Artillerist}</p>"
+		},
+		{
+			"id": "Master Cartographer",
+			"name": "Meisterkartograph",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.6xKxqvKM5exJhiAA]{Kartograph}</p>"
+		},
+		{
+			"id": "Matchlock Blunderbuss",
+			"name": "Luntenschloss-Gewehr",
+			"description": "<p>Ein früheres Design des Luntenschloss-Gewehres, diese Waffe hat dieselben Nachteile wie die @UUID[Compendium.wfrp4e-up-in-arms.items.zcn4bYbkz5N4PZJv]{Luntenschloss-Pistole}.</p>"
+		},
+		{
+			"id": "Matchlock Handgun",
+			"name": "Luntenschloss-Pistole",
+			"description": "<p>Es handelt sich um eine frühere Form der Handfeuerwaffe, von der noch einige wenige Exemplare im Imperium existieren und die oft recht günstig zu haben sind. Vor dem Gebrauch muss der Benutzer eine Aktion ausgeben, um die Lunte an seiner Waffe anzuzünden. Eine angezündete Lunte brennt eine ganze Weile, es sei denn, sie wird durch Regen oder Wind ausgelöscht.</p>"
+		},
+		{
+			"id": "Military Flail",
+			"name": "Kriegsflegel (2H)",
+			"description": "<p>Dreschflegel, die für das Schlachtfeld hergestellt werden, sind mit Metallwirbeln und verstärkten Griffen ausgestattet, wodurch sie eine stärkere Schlagkraft haben.</p>"
+		},
+		{
+			"id": "Military Pick",
+			"name": "Rabenschnabel",
+			"description": "<p>Der Rabenschnabel ist kaum mehr als ein Metalldorn am Ende eines Stocks, obwohl besser gemachte Waffen aus Stahl gefertigt sind. Es sind keine wendigen Waffen aber sie sind gut dafür geeignet Rüstungen zu knacken.</p>"
+		},
+		{
+			"id": "Mortar",
+			"name": "Mörser",
+			"description": ""
+		},
+		{
+			"id": "8BFuW6timifRDI3u",
+			"name": "Novize des Sonnenordens",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.Ub8PlkaAIWPxX2AH.JournalEntryPage.azFTHnCxn5nb4c7m]{Ritter des Sonnenordens}</p>"
+		},
+		{
+			"id": "TFBXbxzcvuPcPCY7",
+			"name": "Novize des Weißen Wolfes",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.Ub8PlkaAIWPxX2AH.JournalEntryPage.pVLlBMBG95DVUGGj]{Ritter des Weißen Wolfes}</p>"
+		},
+		{
+			"id": "Old Salt",
+			"name": "Alter Hase",
+			"description": ""
+		},
+		{
+			"id": "On Deadly Ground",
+			"name": "Auf tödlichem Terrain",
+			"description": "<p>Da du weißt, dass der Sieg nur dann gesichert werden kann, wenn deine Streitkräfte standhaft bleiben, rufst du Myrmidia auf, alle Gedanken an einen Rückzug aus den Köpfen deiner Verbündeten zu verbannen. Solange das Wunder in Kraft ist, erhalten deine Verbündeten keine @Condition[Demoralisiert] Zustände. </p>"
+		},
+		{
+			"id": "Ostrich Feather",
+			"name": "Straußenfeder",
+			"description": "<p>Diese großen Federn von seltsamen arabischen Vögeln sind der letzte Schrei bei den Höflingen und jetzt auch beim Militär. Es gibt sie in allen erdenklichen Farben. Man könnte meinen, dass ein Soldat mit der hellsten Feder in seinem Hut am ehesten den Kopf verliert, aber für die Soldaten ist das eine Mutprobe. Einige Händler versuchen, die Federn von gewöhnlichen oder Gartenvögeln als echte Straußenfedern auszugeben.</p>"
+		},
+		{
+			"id": "Paper Cartridge",
+			"name": "Papierkartusche",
+			"description": "<p>Dies sind vorbereitete Kartuschen mit Schrot, Pulver und Watte, die das Nachladen von Schwarzpulverwaffen erheblich erleichtern. Tests, bei denen eine geeignete Waffe mit dieser Munition nachgeladen wird, erhalten einen Bonus von +10.</p>"
+		},
+		{
+			"id": "Partizan/Glaive",
+			"name": "Partisane/Glefe",
+			"description": "<p>Partisane sind Speere mit dicken blattförmigen Klingen, während Glefen Stangenwaffen sind, die eine Spaltklinge oder eine Schwertklinge an ihrem Kopf tragen. Beide funktionieren auf die gleiche Weise, indem sie einen Teil der Reichweite des Speers opfern, um schwerere Hiebe austeilen zu können.</p>"
+		},
+		{
+			"id": "Pavise",
+			"name": "Pavise",
+			"description": "<p>Der Pavise ist ein großer Schild, der von Armbrustschützen getragen wird, um auf dem Schlachtfeld Schutz zu bieten, während sie nachladen. Der Armbrustschütze pflanzt den Pavise wie eine persönliche Mauer auf den Boden, er ist etwa 4 Fuß hoch und oft mit dem Wappen der Einheit bemalt. Am effektivsten ist der Pavise, wenn er in einer Reihe mit anderen Armbrustschützen aufgestellt wird. Er bietet gute Deckung beim Beschuss gegnerischer Truppen und bei der Verteidigung gegen feindliche Angriffe, wobei der Soldat hinter dem aufgestellten Pavise einen Speer oder ein Schwert schwingt. </p><p>Der Pavise kann auf zwei verschiedene Arten eingesetzt werden.</p><p>It can be employed as a large shield. This is not a good way to use a pavise as it is heavy construction of wood and leather. In this case it affords all the Qualities of a @UUID[unknown]{large shield} (<em>Shield 3, Defensive, Undamaging</em>), gains the <em>Slow</em> and <em>Tiring</em> Flaws. A pavise used in this way still has an Encumbrance of 4 and only does +SB+2 Damage.</p><p>It’s intended use is to be set up as a piece of portable cover. It costs the wielder 2 Actions to set the pavise up. This direction could be depending on the compass (north, south, east, or west), relative to the wielder’s body (left, right, front, or back) or from a particular landmark (<em>‘I set it up between me and the castle’</em>).</p><p>Provided the wielder remains within 1 yard behind the pavise, it provides protection to the wielder from any missile attacks that come from the stated direction, granting the <em>Shield 5</em> Quality. Should an opponent engage the wielder in melee, the pavise only provides protection if the attack is made from the stated direction, and only in the first turn of combat.</p><p><strong>Example</strong>: <em>Braganza the Siege Specialist has worked his way up to the south of an enemy fortress. He sets up his pavise so that it faces the fortress. He gains the Shield 5 Quality to any attacks coming from the north, but he has no such protection to attacks coming from the south, west, or east. Should someone sally out of the fortress and charge towards Braganza, he could make use of the Shield 5 Quality for the first round of melee combat. If he is charged from the sides or rear, he cannot use the Shield 5 Quality.</em></p>"
+		},
+		{
+			"id": "Pebble",
+			"name": "Kieselstein",
+			"description": ""
+		},
+		{
+			"id": "Pepperbox",
+			"name": "Bündelrevolver",
+			"description": "<p>Eine einfachere Form einer @UUID[Compendium.wfrp4e-up-in-arms.items.Neriv2FSubZWLTTq]{Bündelpistole}, ein Bündelrevolver ist eine Anordnung von vier vorgeladenen Läufen, die vor einem einzigen Abschussmechanismus platziert sind. Jedes Mal, wenn die Waffe abgefeuert wird, muss sie gedreht, gekröpft oder auf andere Weise manuell vorbereitet werden, um erneut zu feuern. Dies nimmt im Vergleich zum Nachladen der Waffe sehr wenig Zeit in Anspruch, bedeutet aber, dass der Benutzer eine zweite Hand frei haben muss, um die Waffe zu bedienen, da sie sonst ihre <em>Repetierfähigkeit</em> verliert.</p>"
+		},
+		{
+			"id": "Pick",
+			"name": "Spitzhacke (2H)",
+			"description": "<p>Zweihändige militärische Spitzhacken sind selten, da sie durch verschiedene Formen von Stangenwaffen ersetzt werden. Bestimmte unterirdische Spezies sind dafür bekannt, sie zu benutzen.</p>"
+		},
+		{
+			"id": "Pike",
+			"name": "Pike (2H)",
+			"description": "<p>Diese sehr langen, schweren Speere werden nur von speziell ausgebildeten Regimentern verwendet. Tileanische Söldner sind besonders für ihre Beherrschung von Piken und Pike-Formationen bekannt.</p>"
+		},
+		{
+			"id": "Pikeman",
+			"name": "Pikenier",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.1BTD0otB4pln0o8j.JournalEntryPage.mGMZSWoJnbnRze1h]{Pikenier}</p>"
+		},
+		{
+			"id": "Pistol",
+			"name": "Pistole",
+			"description": "<p>Eine kleinere Schwarzpulverwaffe, die mit einer Hand abgefeuert werden kann. Sie wird häufig in Duellen oder von Kavalleriesoldaten wie Ausreitern verwendet, die eine Hand benötigen, um die Zügel ihres Reittiers zu halten. Wohlhabende Personen tragen manchmal eine Pistole mit sich, um nachladen zu können.</p>"
+		},
+		{
+			"id": "Pollaxe",
+			"name": "Mordaxt",
+			"description": "<p>Die Mordaxt gibt es in vielen Formen, aber das archetypische Design besteht aus einem Kopf mit einem kurzen Dorn an der Spitze zum Stoßen, einem Axtkopf an einer Seite zum Schneiden und einem Hammerkopf an der anderen Seite zum Schlagen.</p>"
+		},
+		{
+			"id": "Precision Shot and Powder",
+			"name": "Präzisionsschrot und -pulver",
+			"description": "<p>Fachmännisch aufbereitetes Pulver und sorgfältig geglättete und abgerundete Geschosse können kombiniert werden, um zuverlässigere und präzisere Schüsse mit jeder geeigneten Schwarzpulverwaffe zu ermöglichen.</p>"
+		},
+		{
+			"id": "Priest Captain",
+			"name": "Priester-Hauptmann",
+			"description": ""
+		},
+		{
+			"id": "Priest Sergeant",
+			"name": "Priester Feldwebel",
+			"description": ""
+		},
+		{
+			"id": "Quarterstaff",
+			"name": "Kampfstab (2H)",
+			"description": "<p>Kampfstöcke sind gerade Holzstücke, die etwa so groß sind wie ihr Träger. Sie sind ebenso häufig zu finden wie sie hergestellt werden. Der angegebene Preis lässt vermuten, dass ein Käufer eine solche Waffe schnell benötigt. Wenn sich ein Charakter in einer bewaldeten Umgebung befindet, kann er einen Kampfstab erhalten, indem er eine erweiterte <strong>herausfordernde (+0) Überlebensprobe</strong> im Freien besteht, die insgesamt 20 SL erfordert.</p>"
+		},
+		{
+			"id": "Quick Strike",
+			"name": "Schnellangriff",
+			"description": ""
+		},
+		{
+			"id": "Rapid Reload",
+			"name": "Schnelles Nachladen",
+			"description": "<p>Du kannst Fernkampfwaffen mit geübter Leichtigkeit nachladen. Du addierst SL in Höhe deiner Stufe in Schnelles Nachladen zu jeder Erweiterten Probe zum Nachladen einer Fernkampfwaffe. Das Nachladen einer Fernkampfwaffe während eines Kampfes zählt auch als @UUID[JournalEntry.JSMqi4MYrqsPBDUL.JournalEntryPage.njjUtJFlaiYB2ZMr#altered-actions-in-combat]{Bewerten} Aktion. Du erhältst einen zusätzlichen Vorteil von +1, wenn du diese Einschätzungsprobe machst.</p>"
+		},
+		{
+			"id": "Rapier",
+			"name": "Rapier",
+			"description": "<p>Der Rapier ist ein langes, dünnes Schwert. Wie das Florett hat es eine feine Spitze zum Stoßen, aber die scharfe Klinge behält viel von der Schneidkraft eines traditionellen Schwertes.</p>"
+		},
+		{
+			"id": "Recruit",
+			"name": "Rekrut",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.1BTD0otB4pln0o8j.JournalEntryPage.mGMZSWoJnbnRze1h]{Pikenier}</p>"
+		},
+		{
+			"id": "Reformed Rogue",
+			"name": "Reformierter Schurke",
+			"description": ""
+		},
+		{
+			"id": "Reiver",
+			"name": "Grenzräuber",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.1BTD0otB4pln0o8j.JournalEntryPage.1i3Y6jOqCTmlbVeo]{Leichte Kavallerie}</p>"
+		},
+		{
+			"id": "Relentless",
+			"name": "Unerbittlich",
+			"description": "<p>Wenn du dir ein Ziel gesetzt hast, kann dich niemand mehr daran hindern, es zu erreichen. Die Vorteilskosten der Aktion @UUID[JournalEntry.JSMqi4MYrqsPBDUL.JournalEntryPage.njjUtJFlaiYB2ZMr#Vorteile-von-Vorteil]{Vor Schaden fliehen} werden auf 1 reduziert.</p>"
+		},
+		{
+			"id": "Repeater Handgun",
+			"name": "Bündelmuskete (2H)",
+			"description": "<p>Ein Repetiergewehr verwendet eine ausgeklügelte Methode, die oft ein Uhrwerk oder andere komplizierte Mechanismen beinhaltet, um bei jedem Abschuss der Waffe neue Munition in Schussposition zu bringen. Selten sind zwei solcher Waffen identisch, obwohl Drehmechanismen ein häufiges Merkmal sind.</p>"
+		},
+		{
+			"id": "Repeater Pistol",
+			"name": "Bündelpistole",
+			"description": "<p>Aufgrund ihrer geringeren Größe sind Bündelpistole noch schwieriger zu erstellen als @UUID[Compendium.wfrp4e-up-in-arms.items.vwvprQOKH9Rtti4b]{Bündelmusketen}, haben aber ansonsten viel mit ihren größeren Vettern gemeinsam. Uhrwerkmechanismen sind üblich, ebenso wie rotierende, mit Munition gefüllte Kammern. Es sind ständig winzige Einstellungen erforderlich, und in den Händen eines ungeübten Benutzers kommt es bei solchen Waffen oft zu spektakulären Fehlschüssen.</p>"
+		},
+		{
+			"id": "Reversal",
+			"name": "Spieß umdrehen",
+			"description": "<p>Du bist an verzweifelte Kämpfe gewöhnt und in der Lage, selbst die schlimmsten Umstände zu deinem Vorteil zu nutzen. Wenn du einen <strong>gegnerischen Nahkampftest</strong> gewinnst, darfst du, anstatt +1 Vorteil zu erhalten, 1 Vorteil aus dem gegnerischen Vorteilspool nehmen und zu deinem eigenen hinzufügen. Wenn du dies tust, verursachst du keinen Schaden, auch wenn du in der Runde am Zug bist.</p>"
+		},
+		{
+			"id": "Ribaud",
+			"name": "Ribaud",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.PyuVaepgBmUkbfrz]{Lager Anhänger}</p>"
+		},
+		{
+			"id": "Rocket",
+			"name": "Rakete",
+			"description": ""
+		},
+		{
+			"id": "Roughrider",
+			"name": "Raureiter",
+			"description": "<p>Du sitzt selbst unter widrigsten Umständen stets fest im Sattel und weißt, wie du im Kampf das Beste aus deinem Reittier herausholst. Sofern du die entsprechende Fähigkeit Reiten besitzt, kannst du dein Reittier ohne einen Reiten-Wurf dazu bringen, eine Handlung auszuführen, nicht bloß eine Bewegungsaktion.</p><p>Außerdem behandelst du deine Größe als die deines Reittieres, wenn es darum geht, Furcht und Schrecken zu widerstehen, die allein durch die Größe deines Gegners verursacht werden.</p><p><em><strong>Beispiel</strong>: Ein anderer Mensch auf einem Pferd würde keine Angst verursachen, ein Dämon oder eine untote Kreatur hingegen schon.</em></p>"
+		},
+		{
+			"id": "Sabre",
+			"name": "Säbel",
+			"description": "<p>Das Säbel ist ähnlich wie der Krummsäbel, jedoch etwas länger und gerader. Er kann zu Fuß mit Nahkampf (Standard) verwendet werden, wobei dann seine <em>Schlitzend (1A)</em> Eigenschaft zu <em>Schlitzend (2A)</em> wird. Geübte Fechter können den Säbel gut einsetzen - in Verbindung mit Nahkampf (Fechten) behält der Säbel seine <em>Schlitzend(1A)</em> Eigenschaft.</p>"
+		},
+		{
+			"id": "Sap",
+			"name": "Prügel",
+			"description": "<p>Ein gut gefertigter Prügel besteht aus einer Leder- oder Textilhülle, die mit Sand, Musketenkugeln, Eisenstangen oder ähnlichen kleinen schweren Gegenständen gefüllt ist. In der Verzweiflung kann ein Säfte aus geeigneten Materialien hergestellt werden, die in einer städtischen Umgebung gesammelt wurden. Ein Charakter in einer Taverne, einem Laden oder einem städtischen Ort kann seinen eigenen Prügel herstellen, indem er eine Prüfung für ein erweiterte <strong>herausfordernde (+0) Handwerk-Probe (Zimmermann, Ingenieur, Schmied, Schneider oder Gerber)</strong> ablegt, die insgesamt 15 SL erfordert.</p>"
+		},
+		{
+			"id": "Sapper",
+			"name": "Sappeur",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.1BTD0otB4pln0o8j.JournalEntryPage.mcdsHRtcQToDaN82]{Belagerungsspezialist}</p>"
+		},
+		{
+			"id": "Scimitar",
+			"name": "Krummsäbel",
+			"description": "<p>Der im Osten des Reiches, in Kislev und Araby beliebte Krummsäbel hat eine gebogene Klinge, die schreckliche Schnittwunden zufügen kann. Sein Design beeinträchtigt jedoch die Fähigkeit des Schweißers, sich zu stürzen und zu stechen, was bedeutet, dass Krummsäbel zwar eine ähnliche Länge wie gerade Schwerter haben, aber eine kürzere Reichweite.</p>"
+		},
+		{
+			"id": "Scrap and Powder",
+			"name": "Schrot und Pulver",
+			"description": "<p>Schrot ist ein Sammelbegriff für alte Dachnägel, gebrauchte Hufeisensplitter, Pfeilspitzen und andere scharfe und spitze Gegenstände, die von jedem Rost- oder Schlackenhaufen aufgesammelt werden, den man findet. Angriffe, die mit diesem Schuss ausgeführt werden, profitieren von der Kreatureneigenschaft @UUID[Compendium.wfrp4e-core.traits.V0c3qBU1CMm8bmsW]{Infiziert}</p>"
+		},
+		{
+			"id": "Sealskin",
+			"name": "Robbenfell",
+			"description": "<p>Ein Robbenfellmantel hält auch das schlechteste Wetter ab. Die Fischer des Krallenmeeres schwören darauf. Je weiter man ins Landesinnere kommt, desto unwahrscheinlicher ist es, dass sie aus echtem Robbenfell gefertigt sind, aber andere pelzige Imitationen im gleichen Stil leisten fast genauso gute Arbeit. In der Regel werden sie mit passenden Überhandschuhen geliefert, die zwar die Hände warm halten, aber geschickte Handlungen unmöglich machen. Ein gutes Robbenfell kann Boni gegen @UUID[Compendium.wfrp4e-core.journal-entries.NS3YGlJQxwTggjRX.JournalEntryPage.WCivInLZrqEtZzF4#exposure]{Kälteeinwirkung} geben.</p>"
+		},
+		{
+			"id": "Seasoned Scavenger",
+			"name": "Erfahrener Plünderer",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.PyuVaepgBmUkbfrz]{Lager Anhänger}</p>"
+		},
+		{
+			"id": "Sharp Stick",
+			"name": "Spitzer Stock",
+			"description": ""
+		},
+		{
+			"id": "Shattered Skull",
+			"name": "Zerschmetterter Schädel",
+			"description": "Dein Kopf wird eingeschlagen, du brichst zusammen und bist auf der Stelle tot."
+		},
+		{
+			"id": "Shieldmaiden's Devotion",
+			"name": "Die Hingabe der Schildmaid",
+			"description": "<p>Deine gesungenen Gebete erfüllen die Herzen der Gläubigen mit der Furchtlosigkeit ihrer tapfersten Schildmaiden. Alle Myrmidianer in Reichweite erhalten das @UUID[Compendium.wfrp4e-core.talents.8pVzgPkgWpTJvfhG]{Talent Furchtlos (Feind)}. Dieser Feind kann entweder ein bestimmtes Individuum oder eine bestimmte Spezies sein.</p>"
+		},
+		{
+			"id": "Shieldsman",
+			"name": "Schildkämpfer",
+			"description": "<p>Du bist geschickt darin, deinen Schild zu benutzen, um andere im Kampf zu manövrieren, damit du einen Vorteil aus einer verzweifelten Situation ziehen kannst. Wenn du dich mit einem Schild verteidigst, darfst du einmal pro Runde 2 Vorteile ausgeben, um entweder Schaden zu verursachen, wenn du angegriffen wirst, als wäre es deine Aktion, oder um deinen Gegner 2 Meter direkt von dir zurückzudrängen und nicht mehr als angegriffen zu zählen.</p>"
+		},
+		{
+			"id": "Siege Master",
+			"name": "Belagerungsmeister",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.1BTD0otB4pln0o8j.JournalEntryPage.mcdsHRtcQToDaN82]{Belagerungsspezialist}</p>"
+		},
+		{
+			"id": "Siege Specialist",
+			"name": "Belagerungsspezialist",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.1BTD0otB4pln0o8j.JournalEntryPage.mcdsHRtcQToDaN82]{Belagerungsspezialist}</p>"
+		},
+		{
+			"id": "Silk Underwear",
+			"name": "Seidenunterwäsche",
+			"description": "<p>Kleine Annehmlichkeiten tragen dazu bei, den Stress und die Plackerei des Militärlebens zu lindern. Ein solcher Luxus für den Exerzierplatz und den Feldzug ist die feinste Seidenunterwäsche aus Cathayan. Sie vermindert auch das Wundscheuern.</p>"
+		},
+		{
+			"id": "Skill of Combat",
+			"name": "Geschicklichkeit des Kampfes",
+			"description": "<p>Du verkörperst in deinen Verbündeten die Fähigkeit der Myrmidia. Solange dieses Wunder wirkt, erhalten alle Verbündeten in Reichweite einen Bonus von +10 auf ihre KG und BF.</p>"
+		},
+		{
+			"id": "Slow Match",
+			"name": "Langsames Streichholz",
+			"description": "<p>Ein langsames Streichholz ist ein dünnes Seil, das mit brennbaren Substanzen durchtränkt ist. Es brennt langsam und gleichmäßig und liefert einen fertigen Funken für eine Luntenschlosswaffe. Es wird als Meterware verkauft und brennt mit einer Geschwindigkeit von etwa einem Meter pro Stunde.</p><p>* Der Preis gilt pro Meter</p>"
+		},
+		{
+			"id": "Small Shot and Powder",
+			"name": "Kleinschrot und Pulver",
+			"description": "<p>Kleinschrot und Pulver wird oft für die Jagd auf Vögel und andere kleine, sich schnell bewegende Kreaturen verwendet und ist viel kleiner als die Läufe der meisten Waffen.</p>"
+		},
+		{
+			"id": "Small Shot and Powder (Swivel Gun)",
+			"name": "Kleinschrot und Pulver (Schwenkbare Kanone)",
+			"description": ""
+		},
+		{
+			"id": "Smallsword",
+			"name": "Kleinschwert",
+			"description": "<p>Eine leichte Version des Floretts. Das Kleinschwert gilt nicht als ernsthafte Waffe und wird eher bei sportlichen Wettkämpfen oder Duellen bis zum ersten Blut eingesetzt. Kleinschwerter mit stumpfen Spitzen und Klingen werden oft als Sportwaffen verwendet und erhalten den Makel <em>Stumpf</em>.</p>"
+		},
+		{
+			"id": "Spear",
+			"name": "Speer",
+			"description": "<p>Neben der Keule ist der Speer wahrscheinlich die am weitesten verbreitete Waffe in der Alten Welt. Fast alle Spezies und Völker verfügen über Truppen, die mit Speeren bewaffnet sind, abgesehen von den Zwergen, die Stangenwaffen im Allgemeinen eher meiden.</p>"
+		},
+		{
+			"id": "Spiked Gauntlet",
+			"name": "Stachelspießhandschuh",
+			"description": "<p>Ein Stachelhandschuh kann als Teil eines Plattenpanzers für den Arm gekauft werden. Füge den Preis des Stachelhandschuhs zu dem des Panzers hinzu, aber verwende nur die Belastung des Panzers selbst; der Stachelhandschuh hat kein nennenswertes zusätzliches Gewicht oder Volumen.</p>"
+		},
+		{
+			"id": "Squire",
+			"name": "Knappe",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.Ub8PlkaAIWPxX2AH.JournalEntryPage.TpwhRuvLbZT8gpQr]{Freier Ritter}</p>"
+		},
+		{
+			"id": "jg9aBz9Jme3W5Mfi",
+			"name": "Knappe des Pantherordens",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.Ub8PlkaAIWPxX2AH.JournalEntryPage.FmalmVn3AhtabhMN]{Ritter des Pantherordens}</p>"
+		},
+		{
+			"id": "Stone",
+			"name": "Stein",
+			"description": ""
+		},
+		{
+			"id": "Strike to Injure",
+			"name": "Verletzender Schlag",
+			"description": "<p>Du bist ein Experte darin, die verwundbarsten Stellen deiner Feinde zu treffen. Wenn du auf einer Tabelle für kritischen Schaden würfelst, machst du zwei Würfe und wählst das Ergebnis, das du bevorzugst.</p>"
+		},
+		{
+			"id": "Stubbed Toe",
+			"name": "Verstauchter Zeh",
+			"description": "<p>Im Getümmel wird dir der Zeh angeschlagen. Du musst einen durchschnittlichen (+20) Ausdauer-Wurf bestehen, oder du erhältst bis zum Ende der nächsten Runde -10 auf Gewandtheits-Würfe.</p>"
+		},
+		{
+			"id": "Surveyor",
+			"name": "Landvermesser",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.PgIAJWjuYUxR8NRc.JournalEntryPage.6xKxqvKM5exJhiAA]{Kartograph}</p>"
+		},
+		{
+			"id": "Swivel Gun",
+			"name": "Schwenkbare Kanone",
+			"description": ""
+		},
+		{
+			"id": "Sword",
+			"name": "Schwert",
+			"description": "<p>Das Schwert ist die Waffe, an der alle anderen gemessen werden. Ein Qualitätsschwert hat eine nadelspitze Spitze für den Stich, eine Klinge, die auf beiden Seiten rasiermesserscharf ist, und ist so ausbalanciert, dass das Gewicht nahe an der Hand liegt, was es für Angriff und Verteidigung beweglich macht.</p>"
+		},
+		{
+			"id": "Swordbreaker",
+			"name": "Klingenbrecher",
+			"description": "<p>Diese Waffen sind wie Langdolche oder robuste Kurzschwerter gestaltet. Ihre Klingen sind dicker als die von Schwertern, und entlang einer Seite sind mehrere tiefe Rillen in die Klinge geschnitten. Dieses Design beeinträchtigt die Schneidfähigkeit der Waffe erheblich, ermöglicht es einem geschickten Anwender jedoch, die Klinge eines Gegners zu fangen und festzuhalten.</p>"
+		},
+		{
+			"id": "Templar Sergeant",
+			"name": "Templer-Feldwebel",
+			"description": "<p>@UUID[Compendium.wfrp4e-up-in-arms.journals.Ub8PlkaAIWPxX2AH.JournalEntryPage.pVLlBMBG95DVUGGj]{Ritter des Weißen Wolfes}</p>"
+		},
+		{
+			"id": "Theodolite",
+			"name": "Theodolit",
+			"description": "<p>Ein Theodolit ist ein technisches Gerät, das zur Messung von Winkeln über große Entfernungen und zur Landvermessung verwendet wird. Jeder, der das <em>Kartographenhandwerk</em> beherrscht, kann damit umgehen.</p><p>Einige sind nicht viel mehr als Metallschleifen, durch die man hindurchsehen kann, und ein verstellbarer Winkel. Die neumodischen Geräte von Tilea sind dreidimensional einstellbar und verfügen über Präzisionswinkelmessungen, Nonius-Skalen und Teleskopokulare. Sie werden mit verstellbaren Stativen geliefert und erfordern mindestens eine Runde zum Aufstellen.</p>"
+		},
+		{
+			"id": "Vengeful Wrath",
+			"name": "Rachsüchtiger Zorn",
+			"description": "<p>Du bist von der gerechten Empörung Myrmidias erfüllt. Während dieses Wunder wirkt, musst du angreifen und den nächsten reuelosen Feind angreifen. Du darfst alle Nahkampf-Fertigkeitswürfe wiederholen, die du während der Wirkung des Wunders machst.</p>"
+		},
+		{
+			"id": "Veteran of Adventures",
+			"name": "Veteran der Abenteuer",
+			"description": ""
+		},
+		{
+			"id": "Volley Gun",
+			"name": "Salvengeschütz",
+			"description": ""
+		},
+		{
+			"id": "Warhammer",
+			"name": "Kriegshammer",
+			"description": "<p>Kriegshämmer gibt es in verschiedenen Ausführungen, aber in der Regel haben sie einen flachen, schweren Kopf auf der einen Seite, um schlagenden Schaden zu verursachen, und eine spitze Spitze auf der anderen, um Rüstungen zu durchdringen.</p>"
+		},
+		{
+			"id": "9chPZw59vJ4dKjaC",
+			"name": "Kriegshammer (2H)",
+			"description": "<p>Der Zweihand-Kriegshammer ist eine schwer zu beherrschende Waffe, aber er wird mit den Zwergen und dem Sigmariterkult in Verbindung gebracht.</p>"
+		},
+		{
+			"id": "Warrior Priest",
+			"name": "Krieger-Priester",
+			"description": ""
+		},
+		{
+			"id": "Weighted Net",
+			"name": "Beschwertes Netz",
+			"description": "<p>Ein beschwertes Netz ist sperrig und unhandlich, kann aber die Kampffähigkeit eines Gegners stark beeinträchtigen, wenn es rechtzeitig eingesetzt wird. Bei einer Probe darauf, ob sich ein Gegner in einem beschwerten Netz verheddert, hat das Netz eine Stärke von 55.</p>"
+		},
+		{
+			"id": "Whetstone",
+			"name": "Schleifstein",
+			"description": "<p>Es ist immer eine gute Idee, die Klingen scharf zu halten. Was passiert, wenn Sie das nicht tun, hängt von dem Spielleiter ab. Schärfdienste sind im ganzen Reich üblich, und ein Messerschärfer erledigt die Arbeit für ein paar Cent pro Klinge. Wenn du es selbst machen willst, könnte es sich jedoch lohnen, in einen Schleifstein zu investieren.</p>"
+		},
+		{
+			"id": "Winded",
+			"name": "Solarplexus geprellt",
+			"description": "<p>Du erhältst 1 @Condition[Betäubt]-Zustand und musst einen <strong>durchschnittlichen (+20) Ausdauer-Wurf</strong> bestehen, oder du erhältst zusätzlich den @Condition[Niedergestreckt]-Zustand. Deine Bewegung ist für [[/r 1d10]] Runden halbiert, da du erst wieder zu Atem kommen musst.</p>"
+		},
+		{
+			"id": "Zweihander",
+			"name": "Zweihänder",
+			"description": "<p>Die berühmten Großschwertregimenter des Kaiserreichs sind mit massiven Stahlklingen bewaffnet, die so lang sind wie viele Stangenwaffen. Einige Waffenmeister gehen sogar noch einen Schritt weiter und versehen ihre Schwerter mit Wellen und gezackten Kanten. Diese Waffen sind als Flambergeklingen bekannt, und die Wunden, die sie zufügen, können aufgrund ihrer Schnittkraft tiefer sein.</p>"
+		}
+	]
+}
